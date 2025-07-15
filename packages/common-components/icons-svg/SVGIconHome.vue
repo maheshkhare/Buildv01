@@ -1,0 +1,22 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    :stroke="stroke"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    :stroke-width="strokeWidth"
+    :viewBox="viewBox"
+  >
+    <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+    <path d="M9 22V12h6v10" />
+  </svg>
+</template>
+
+<script>
+  import baseMixin from 'Scripts/mixinBaseIcon'
+  export default {
+    name: 'SVGIconHome',
+    mixins: [baseMixin]
+  }
+</script>

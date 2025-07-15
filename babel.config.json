@@ -1,0 +1,11 @@
+{
+  "presets": [
+    [
+      "@vue/app",
+      {
+        "useBuiltIns": "entry",
+        "jsx": false
+      }
+    ]
+  ]
+}

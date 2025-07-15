@@ -1,0 +1,3118 @@
+{
+  "colorMap": {
+    "✦": "red",
+    "✧": "blue",
+    "⭕": "green",
+    "💧": "purple",
+    "●": "pink",
+    "◆": "yellow",
+    "✖": "indigo",
+    "◭": "rose",
+    "△": "teal",
+    "*": "orange",
+    "◉": "emerald",
+    "■": "cyan"
+  },
+  "Level1": [
+    {
+      "Instruction": "In this exercise, there are stories where a letter has been replaced by a symbol. Decide what letter the symbol represents and write it in the space provided. An example has been done for you.",
+      "QuestionArr_01": "One hot ✦ay two ✧oys went swimming. The water was warm. Fish were in the water hi✦ing un✦er the rocks. The rocks cut the ✧oys’ feet.",
+      "Symbols": [
+        { "id": 1, "symbol": "D", "value": "D" },
+        { "id": 2, "symbol": "Z", "value": "Z" },
+        { "id": 3, "symbol": "S", "value": "S" },
+        { "id": 4, "symbol": "N", "value": "N" },
+        { "id": 5, "symbol": "B", "value": "B" },
+        { "id": 6, "symbol": "K", "value": "K" }
+        ],
+        "Blanks": [
+            { "id": 1, "symbol": "✦", "value": "", "CorrectValue": "D" },
+            { "id": 2, "symbol": "✧", "value": "", "CorrectValue": "B" }
+        ]
+    },
+     {
+        "Instruction": "In this exercise, there are stories where a letter has been replaced by a symbol. Decide what letter the symbol represents and write it in the space provided. An example has been done for you.",
+        "QuestionArr_02": "The two boys tried to walk home after swi💧💧ing. The cuts on their feet from the rocks made it very ⭕ainful. Finally a neighbor drove by and asked the boys if they wanted a ride home. The boys were never so ha⭕⭕y to see that neighbor and thanked him for the ride.",
+        "Symbols": [
+            { "id": 1, "symbol": "M", "value": "M" },
+            { "id": 2, "symbol": "N", "value": "N" },
+            { "id": 3, "symbol": "A", "value": "A" },
+            { "id": 4, "symbol": "P", "value": "P" },
+            { "id": 5, "symbol": "G", "value": "G" },
+            { "id": 6, "symbol": "Y", "value": "Y" }
+        ],
+        "Blanks": [
+            { "id": 1, "symbol": "💧", "value": "", "CorrectValue": "M" },
+            { "id": 2, "symbol": "⭕", "value": "", "CorrectValue": "P" }
+        ]
+    },
+    {
+      "Instruction": "In this exercise, there are stories where a letter has been replaced by a symbol. Decide what letter the symbol represents and write it in the space provided. An example has been done for you.",
+      "QuestionArr_03": "It was ✦ hot summer d✦✧ . ✦ lion ✦nd ✦bo✦r re✦ch sm✦ll w✦ter body for ✦ drink.The ✦ begin ✦rguing ✦nd fighting who should drink first.",
+      "Symbols": [
+        { "id": 1, "symbol": "D", "value": "D" },
+        { "id": 2, "symbol": "Z", "value": "Z" },
+        { "id": 3, "symbol": "S", "value": "A" },
+        { "id": 4, "symbol": "N", "value": "N" },
+        { "id": 5, "symbol": "B", "value": "Y" },
+        { "id": 6, "symbol": "K", "value": "K" }
+        ],
+        "Blanks": [
+            { "id": 1, "symbol": "✦", "value": "", "CorrectValue": "A" },
+            { "id": 2, "symbol": "✧", "value": "", "CorrectValue": "Y" }
+        ]
+    },
+     {
+        "Instruction": "In this exercise, there are stories where a letter has been replaced by a symbol. Decide what letter the symbol represents and write it in the space provided. An example has been done for you.",
+        "QuestionArr_04": "Afte⭕ a while, they a⭕eti⭕ed and stop fo⭕ b⭕eath. Suddely, they 💧otice vultu⭕es above. Soo💧, they ⭕ealize that the 🕷vultu⭕es a⭕e waiting fo⭕ e o_ both of them to fall, to feast othem. The💧, they decide, that it was best to ma💧 up a💧d bef⭕ie💧ds tha💧 fight and become feast fo⭕ the vultu⭕es. They d⭕i⭕k wate⭕ togethe⭕ a💧d go thei⭕ ways afte⭕.",
+        "Symbols": [
+            { "id": 1, "symbol": "M", "value": "M" },
+            { "id": 2, "symbol": "N", "value": "N" },
+            { "id": 3, "symbol": "A", "value": "R" },
+            { "id": 4, "symbol": "P", "value": "P" },
+            { "id": 5, "symbol": "G", "value": "G" },
+            { "id": 6, "symbol": "Y", "value": "Y" }
+        ],
+        "Blanks": [
+            { "id": 1, "symbol": "⭕", "value": "", "CorrectValue": "R" },
+            { "id": 2, "symbol": "💧", "value": "", "CorrectValue": "N" }
+        ]
+    }
+  ],
+  "Level2": [
+    {
+      "Instruction": "In this exercise, there are stories where a letter has been replaced by a symbol. Decide what letter the symbol represents and write it in the space provided.",
+      "QuestionArr_01": "✓ ck ■ a veter nar an who volunteer◁ once a week at the an■ al ◁helter. ✓ any dog ■ d not have a good ho✓ e and roa✓ ed the ◁treets of the c■ ty. Once they were taken to the ◁helter and fed good food, cleaned up and g■ ven vacc■ nat■ on , the dog◁ were ready to be adopted by lov■ ng fa■ ■le◁",
+      "Symbols": [
+            { "id": 1, "symbol": "M", "value": "M" },
+            { "id": 2, "symbol": "N", "value": "N" },
+            { "id": 3, "symbol": "A", "value": "A" },
+            { "id": 4, "symbol": "S", "value": "S" },
+            { "id": 5, "symbol": "G", "value": "G" },
+            { "id": 6, "symbol": "I", "value": "I" }
+      ],
+      "Blanks": [
+        { "id": 1, "symbol": "✓", "value": "", "CorrectValue": "M" },
+        { "id": 2, "symbol": "◁", "value": "", "CorrectValue": "S" },
+        { "id": 3, "symbol": "■", "value": "", "CorrectValue": "I" }
+      ]
+    },
+    {
+      "Instruction": "In this exercise, there are stories where a letter has been replaced by a symbol. Decide what letter the symbol represents and write it in the space provided.",
+      "QuestionArr_02": "If you cou◇ d be a fruit whic△ fruit wou◇ d you be? A sour one that makes your face s✳ unc△ up and tastes awfu✳ ? O✳ a sweet one that b✳ ings a burst of f◇ avor to your mout△ . Words spoken to ot△ ers can be ◇ ike a fruit, sour and distastefu◇ or sweet and flavorful◇ .",
+      "Symbols": [
+            { "id": 1, "symbol": "R", "value": "R" },
+            { "id": 2, "symbol": "L", "value": "L" },
+            { "id": 3, "symbol": "A", "value": "A" },
+            { "id": 4, "symbol": "H", "value": "H" },
+            { "id": 5, "symbol": "G", "value": "G" },
+            { "id": 6, "symbol": "Y", "value": "Y" }
+      ],
+      "Blanks": [
+        { "id": 1, "symbol": "◇", "value": "", "CorrectValue": "L" },
+        { "id": 2, "symbol": "△", "value": "", "CorrectValue": "H" },
+        { "id": 3, "symbol": "✳", "value": "", "CorrectValue": "R" }
+      ]
+    },
+     {
+      "Instruction": " In this exercise, there are stories where a letter has been replaced by a symbol. Decide what letter the symbol represents and write it in the space provided",
+      "QuestionArr_03": "Tak✓ng care of a ◁et ✓sab✓gres◁ons✓b✓l✓ty,so you want to ■ake sure you learn all about your ◁et before br✓ng✓ng✓tho■e! ■any k✓ds have f✓sh as the✓rf✓rst ◁et, and f✓sh can g✓ve you a good✓ ✓dea of whether or not you’ll be able to take care of a ◁ore co■◁l✓cated◁et later on.",
+      "Symbols": [
+            { "id": 1, "symbol": "M", "value": "M" },
+            { "id": 2, "symbol": "N", "value": "N" },
+            { "id": 3, "symbol": "A", "value": "P" },
+            { "id": 4, "symbol": "S", "value": "S" },
+            { "id": 5, "symbol": "G", "value": "G" },
+            { "id": 6, "symbol": "I", "value": "I" }
+      ],
+      "Blanks": [
+        { "id": 1, "symbol": "✓", "value": "", "CorrectValue": "I" },
+        { "id": 2, "symbol": "◁", "value": "", "CorrectValue": "P" },
+        { "id": 3, "symbol": "■", "value": "", "CorrectValue": "M" }
+      ]
+    },
+    {
+      "Instruction": " In this exercise, there are stories where a letter has been replaced by a symbol. Decide what letter the symbol represents and write it in the space provided",
+      "QuestionArr_04": "△ha◇ makes a ◇ oma ◇ oa ✹rui✹ and no ◇ a vege◇able? △ell, △hy do you ◇hink i◇ is a vege◇able? They are not swee◇ like apples. ✹rui✹s are really just some◇hing◇ha◇ covers any seed. No◇bananas! Sure,◇hey do even have◇iny seeds. But vege◇ ables are differen◇,◇hey are par◇s of plan_◇s◇em, lea✹ or roo◇. It’s odd◇o imagine che△ing◇ree leaves. Like spinach and le◇◇uce which is widely used in salads and burgers.",
+      "Symbols": [
+            { "id": 1, "symbol": "R", "value": "T" },
+            { "id": 2, "symbol": "L", "value": "L" },
+            { "id": 3, "symbol": "A", "value": "F" },
+            { "id": 4, "symbol": "H", "value": "H" },
+            { "id": 5, "symbol": "G", "value": "W" },
+            { "id": 6, "symbol": "Y", "value": "Y" }
+      ],
+      "Blanks": [
+        { "id": 1, "symbol": "◇", "value": "", "CorrectValue": "T" },
+        { "id": 2, "symbol": "△", "value": "", "CorrectValue": "W" },
+        { "id": 3, "symbol": "✳", "value": "", "CorrectValue": "F" }
+      ]
+    }
+  ],
+   "Level3": [
+   {
+        "Instruction": "In this exercise, there is a story where a letter has been replaced by a symbol.Decide what letter the symbol represents and write it in the space provided.",
+        "QuestionArr_01": "On●e upon a ti◆e, a far◆er had a ✖oose that laid a◆olden e✖✖ everyday. The e✖✖ provided enough ◆oney for the far◆er and his ●ife for their day-to-day needs. The far◆er and his ●ife were happy for a long ti●e. But one day, the far◆er got an idea and thought, “●hy should I ta◭e △ust one e✖✖ a day? ●hy ●an’t I ta◭e all of the◆ at on●e and ◆ake a lot of ◆oney?” The foolish far◆er’s ●ife also agreed and de●ided to cut the goose’s sto●ach for the e✖✖s. As soon as they ●illed the bird and opened the ✖oose’s sto●ach, to find nothing but ✖uts and blood. The far◆er, realizing his foolish ◆ista◭e, ●ries over the lost resource!\n\nFour ●oo●s lived in a forest near a meado●. They ●ere ✖ood friends and did everythin✖ together. They ✖razed to✖ether and stayed to✖ether be●ause of ●hich no ti✖ers or lions ●ere able to ●ill them for food. One day, the friends fou✖ht and ea✖h coo● ent to ✖raze in a different dire●tion. A ti✖er and a lion sa● this and de●ided that it ●as the perfect opportunity to ●ill the coo●s. They hid in the bushes and atta●ked the ●oo●s and ●illed them all, one by one.",
+        "Symbols": [
+            { "id": 1, "symbol": "L", "value": "L" },
+            { "id": 2, "symbol": "M", "value": "M" },
+            { "id": 3, "symbol": "G", "value": "G" },
+            { "id": 4, "symbol": "K", "value": "K" },
+            { "id": 5, "symbol": "J", "value": "J" },
+            { "id": 6, "symbol": "I", "value": "I" },
+            { "id": 7, "symbol": "C", "value": "C" },
+            { "id": 8, "symbol": "X", "value": "X" },
+            { "id": 9, "symbol": "W", "value": "W" },
+            { "id": 10, "symbol": "S", "value": "S" }
+        ],
+        "Blanks": [
+            { "id": 1, "symbol": "●", "value": "", "CorrectValue": "M" },
+            { "id": 2, "symbol": "◆", "value": "", "CorrectValue": "G" },
+            { "id": 3, "symbol": "✖", "value": "", "CorrectValue": "K" },
+            { "id": 4, "symbol": "◭", "value": "", "CorrectValue": "J" },
+            { "id": 5, "symbol": "△", "value": "", "CorrectValue": "C" },
+            { "id": 6, "symbol": "⭕", "value": "", "CorrectValue": "W" }
+        ]
+    },
+    {
+        "Instruction": " In this exercise, there is a story where a letter has been replaced by a symbol. Decide what letter the symbol represents and write it in the space provided.",
+        "QuestionArr_02": "Mi♦chief the cat wa♦ often ✴ getting into trou△ e. E●ery morning, a △ out ha◁ fan hour △efore hi◁ owner, Joe, wanted to ●et up, Mi♦chief would pounce onto the △ ed and wa✕ e him. Today wa♦ no exception. He wa♦ ● etting hun◁ ry and wanted Joe to ●et him hi♦ △ rea✕ fa♦ t.At fir♦t Joe pretended to ◁ e a♦ leep, but Mi♦chief ♦tarted to tap hi♦ face with hi paw and cry ◁ oud ◁ y in hi♦ ear. He wa n't ● oin◁ to i● e up. ◯ o Joe ◯ ot up, and they went down ♦ tair♦ to◯ ether.They'd ju♦ t ◯ ot into the ✕ itchen when Mi♦chief jumped onto the ta◯ le and nocked over . Joe ● ot annoyed and △ e e an to ◯ ear away the◯ ro✕ en ◯ a ◯ . Mi♦chief wa♦ ♦ tartin◯ to ● et impatient. He wa♦ ♦ till waitin◯ for hi♦ rea__ fa♦ t.Whi◯ e he wa♦ waitin◯ for Joe to finish c◯ earin◯ up the me♦ ♦ , Mi♦chief noticed hi♦ △ ox of cat food on a the ta ◯ e. He wondered how he could ● et up there. He thou◯ ht it mi◯ ht △ e too hi ● to jump, and he ✕ new he wa n't a ◯ o wed up there. △ ut he jumped up there anyway, and only ju♦ t made it.Once on the ◯ he c◯ f, Mi♦chief saw hi♦ food, and he rea◯ y wanted to eat it. He didn't want to wait for Joe to ● et it for him. ◯ he tapped the △ ox a few time, with hi♦ paw, unti◯ it fe◯ ◯ down onto the f◯ oor. Joe had ju♦ t finished c◯ earing away the △ ro✕ en ◯ a ◯ a ♦ and now Mi♦chief had ● ot cat food a ◯ ◯ over the f◯ oor!",
+        "Symbols": [
+            { "id": 1, "symbol": "L", "value": "L" },
+            { "id": 2, "symbol": "M", "value": "M" },
+            { "id": 3, "symbol": "G", "value": "G" },
+            { "id": 4, "symbol": "K", "value": "K" },
+            { "id": 5, "symbol": "J", "value": "J" },
+            { "id": 6, "symbol": "V", "value": "V" },
+            { "id": 7, "symbol": "B", "value": "B" },
+            { "id": 8, "symbol": "X", "value": "X" },
+            { "id": 9, "symbol": "W", "value": "W" },
+            { "id": 10, "symbol": "S", "value": "S" }
+        ],
+        "Blanks": [
+            { "id": 1, "symbol": "♦", "value": "", "CorrectValue": "S" },
+            { "id": 2, "symbol": "✕", "value": "", "CorrectValue": "K" },
+            { "id": 3, "symbol": "△", "value": "", "CorrectValue": "L" },
+            { "id": 4, "symbol": "◭", "value": "", "CorrectValue": "B" },
+            { "id": 5, "symbol": "✴", "value": "", "CorrectValue": "G" },
+            { "id": 6, "symbol": "●", "value": "", "CorrectValue": "V" }
+        ]
+    }
+  ],
+  "Level4": [
+    {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+     "QuestionArr_01": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "*", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "✕", "correctLetter": "V", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "◉", "correctLetter": "K", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+     {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_02": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "●", "correctLetter": "O", "chosenOption": null },
+        { "symbol": "✕", "correctLetter": "V", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "*", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "☾", "correctLetter": "T", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+     {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_03": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+        { "symbol": "●", "correctLetter": "O", "chosenOption": null },
+        { "symbol": "☾", "correctLetter": "T", "chosenOption": null },
+        { "symbol": "*", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "◉", "correctLetter": "K", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+     {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_04": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "●", "correctLetter": "O", "chosenOption": null },
+        { "symbol": "🗜️", "correctLetter": "U", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "☾", "correctLetter": "T", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "🌞", "correctLetter": "P", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+    {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_05": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "☾", "correctLetter": "T", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+    {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_06": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "☾", "correctLetter": "T", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+    {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_07": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "rectangles": [
+      { "symbol": "🌞", "correctLetter": "P", "chosenOption": null },
+      { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "T", "chosenOption": null }
+    ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+    {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_08": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "rectangles": [
+      { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "*", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "🌞", "correctLetter": "P", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+
+    },
+    {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_09": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "rectangles": [
+      { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+      { "symbol": "●", "correctLetter": "O", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "T", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "◉", "correctLetter": "K", "chosenOption": null },
+      { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+    {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_10": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "rectangles": [
+      { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "◉", "correctLetter": "K", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+    {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+     "QuestionArr_11": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "✕", "correctLetter": "Y", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+    },
+     {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_12": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "✔", "correctLetter": "N", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+    },
+     {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_13": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "🗜️", "correctLetter": "B", "chosenOption": null },
+        { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+        { "symbol": "U", "correctLetter": "U", "chosenOption": "U" },
+        { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+        { "symbol": "🗜️", "correctLetter": "B", "chosenOption": null },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+        { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+        { "symbol": "T", "correctLetter": "T", "chosenOption": "T" }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+    },
+     {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_14": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "◁", "correctLetter": "V", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+        { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+        { "symbol": "T", "correctLetter": "T", "chosenOption": "T" }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+    },
+    {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_15": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "L", "correctLetter": "L", "chosenOption": "L" }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+    },
+    {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols",
+      "QuestionArr_16": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+     "rectangles": [
+        { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+    },
+    {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_17": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null }
+    ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+    },
+    {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_18": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "rectangles": [
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "✕", "correctLetter": "Y", "chosenOption": null }
+    ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    },
+    {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+     "QuestionArr_19": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "rectangles": [
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" }
+    ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+    },
+    {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+     "QuestionArr_20": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+     "rectangles": [
+        { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+        { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+        { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+        { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+      ],
+      "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+  }
+  ],
+  "Level5":[
+    {
+        "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+        "QuestionArr_01": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+        "rectangles": [
+          { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+          { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+          { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+          { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+          { "symbol": "*", "correctLetter": "M", "chosenOption": null },
+          { "symbol": "🌞", "correctLetter": "P", "chosenOption": null },
+          { "symbol": "■", "correctLetter": "S", "chosenOption": null }
+        ],
+      "options": [
+          { "symbol": "◆", "letter": "A" },
+          { "symbol": "◁", "letter": "E" },
+          { "symbol": "◆", "letter": "I" },
+          { "symbol": "●", "letter": "O" },
+          { "symbol": "🗜️", "letter": "U" },
+          { "symbol": "■", "letter": "S" },
+          { "symbol": "☾", "letter": "T" },
+          { "symbol": "◉", "letter": "K" },
+          { "symbol": "*", "letter": "M" },
+          { "symbol": "✦", "letter": "C" },
+          { "symbol": "△", "letter": "R" },
+          { "symbol": "💧", "letter": "G" },
+          { "symbol": "✔", "letter": "H" },
+          { "symbol": "✕", "letter": "V" },
+          { "symbol": "🌞", "letter": "P" }
+        ]
+      },
+    {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_02": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "💧", "correctLetter": "G", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "☾", "correctLetter": "T", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_03": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "✕", "correctLetter": "V", "chosenOption": null },
+        { "symbol": "●", "correctLetter": "O", "chosenOption": null },
+        { "symbol": "🗜️", "correctLetter": "U", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_04": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "◉", "correctLetter": "K", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "☾", "correctLetter": "T", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+        { "symbol": "🗜️", "correctLetter": "U", "chosenOption": null },
+        { "symbol": "🌞", "correctLetter": "P", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_05": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "◆", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "✕", "correctLetter": "V", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_06": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "🌞", "correctLetter": "P", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "◉", "correctLetter": "K", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_07": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "*", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "●", "correctLetter": "O", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "◉", "correctLetter": "K", "chosenOption": null },
+        { "symbol": "🗜️", "correctLetter": "U", "chosenOption": null },
+        { "symbol": "🌞", "correctLetter": "P", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_08": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "*", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "🌞", "correctLetter": "P", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_09": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "✦", "correctLetter": "C", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+        { "symbol": "●", "correctLetter": "O", "chosenOption": null },
+        { "symbol": "◉", "correctLetter": "K", "chosenOption": null },
+        { "symbol": "◁", "correctLetter": "E", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_10": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "◉", "correctLetter": "K", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "H", "chosenOption": null },
+        { "symbol": "*", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "△", "correctLetter": "R", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "A" },
+        { "symbol": "◁", "letter": "E" },
+        { "symbol": "◆", "letter": "I" },
+        { "symbol": "●", "letter": "O" },
+        { "symbol": "🗜️", "letter": "U" },
+        { "symbol": "■", "letter": "S" },
+        { "symbol": "☾", "letter": "T" },
+        { "symbol": "◉", "letter": "K" },
+        { "symbol": "*", "letter": "M" },
+        { "symbol": "✦", "letter": "C" },
+        { "symbol": "△", "letter": "R" },
+        { "symbol": "💧", "letter": "G" },
+        { "symbol": "✔", "letter": "H" },
+        { "symbol": "✕", "letter": "V" },
+        { "symbol": "🌞", "letter": "P" }
+      ]
+    },
+     {
+        "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+        "QuestionArr_11": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+        "rectangles": [
+          { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+          { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+          { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+          { "symbol": "💧", "correctLetter": "K", "chosenOption": null }
+        ],
+      "options": [
+          { "symbol": "◆", "letter": "F" },
+          { "symbol": "◁", "letter": "V" },
+          { "symbol": "◆", "letter": "S" },
+          { "symbol": "●", "letter": "M" },
+          { "symbol": "🗜️", "letter": "B" },
+          { "symbol": "■", "letter": "I" },
+          { "symbol": "☾", "letter": "G" },
+          { "symbol": "◉", "letter": "R" },
+          { "symbol": "*", "letter": "W" },
+          { "symbol": "✦", "letter": "A" },
+          { "symbol": "△", "letter": "C" },
+          { "symbol": "💧", "letter": "K" },
+          { "symbol": "✔", "letter": "N" },
+          { "symbol": "✕", "letter": "Y" },
+          { "symbol": "🌞", "letter": "J" }
+        ]
+      },
+    {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_12": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "✔", "correctLetter": "N", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_13": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+        { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+        { "symbol": "◉", "correctLetter": "R", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_14": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "🌞", "correctLetter": "J", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_15": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_16": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+        { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+        { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+        { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "D", "correctLetter": "D", "chosenOption": "D" }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_17": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+        { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+        { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "D", "correctLetter": "D", "chosenOption": "D" }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_18": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+        { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+        { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+        { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_19": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "💧", "correctLetter": "K", "chosenOption": null },
+        { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+        { "symbol": "✕", "correctLetter": "Y", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    },
+  {
+      "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "QuestionArr_20": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+      "rectangles": [
+        { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+        { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+        { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+        { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+        { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+        { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+        { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+      ],
+    "options": [
+        { "symbol": "◆", "letter": "F" },
+        { "symbol": "◁", "letter": "V" },
+        { "symbol": "◆", "letter": "S" },
+        { "symbol": "●", "letter": "M" },
+        { "symbol": "🗜️", "letter": "B" },
+        { "symbol": "■", "letter": "I" },
+        { "symbol": "☾", "letter": "G" },
+        { "symbol": "◉", "letter": "R" },
+        { "symbol": "*", "letter": "W" },
+        { "symbol": "✦", "letter": "A" },
+        { "symbol": "△", "letter": "C" },
+        { "symbol": "💧", "letter": "K" },
+        { "symbol": "✔", "letter": "N" },
+        { "symbol": "✕", "letter": "Y" },
+        { "symbol": "🌞", "letter": "J" }
+      ]
+
+    }
+    
+],
+"Level6": [
+  {
+    "Instruction": " In the box are the symbols you saw in the last exercises. Decode the words below using the symbols and letters associated with it",
+    "QuestionArr_01": "Backswing",
+    "rectangles": [
+      { "symbol": "🔱", "correctLetter": "B", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": " In the box are the symbols you saw in the last exercises. Decode the words below using the symbols and letters associated with it",
+    "QuestionArr_02": "Vibrancy",
+    "rectangles": [
+      { "symbol": "◁", "correctLetter": "V", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "🔱", "correctLetter": "B", "chosenOption": null },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "✕", "correctLetter": "Y", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": " In the box are the symbols you saw in the last exercises. Decode the words below using the symbols and letters associated with it",
+    "QuestionArr_03": "Smacking",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": " In the box are the symbols you saw in the last exercises. Decode the words below using the symbols and letters associated with it",
+    "QuestionArr_04": "Craving",
+    "rectangles": [
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "◁", "correctLetter": "V", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": " In the box are the symbols you saw in the last exercises. Decode the words below using the symbols and letters associated with it",
+    "QuestionArr_05": "Jawing",
+    "rectangles": [
+      { "symbol": "🌞", "correctLetter": "J", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": " In the box are the symbols you saw in the last exercises. Decode the words below using the symbols and letters associated with it",
+    "QuestionArr_06": "Marking",
+    "rectangles": [
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": " In the box are the symbols you saw in the last exercises. Decode the words below using the symbols and letters associated with it",
+    "QuestionArr_07": "Waking",
+    "rectangles": [
+      { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": " In the box are the symbols you saw in the last exercises. Decode the words below using the symbols and letters associated with it",
+    "QuestionArr_08": "Tiger Tail",
+    "rectangles": [
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" }, 
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": " In the box are the symbols you saw in the last exercises. Decode the words below using the symbols and letters associated with it",
+    "QuestionArr_09": "Carry",
+    "rectangles": [
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "✕", "correctLetter": "Y", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_10": "forestland",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🗜️", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "◉", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_11": "waterfalls",
+    "rectangles": [
+      { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+    { "symbol": "◆", "letter": "F" },
+    { "symbol": "◁", "letter": "V" },
+    { "symbol": "◆", "letter": "S" },
+    { "symbol": "●", "letter": "M" },
+    { "symbol": "🗜️", "letter": "B" },
+    { "symbol": "■", "letter": "I" },
+    { "symbol": "☾", "letter": "G" },
+    { "symbol": "◉", "letter": "R" },
+    { "symbol": "*", "letter": "W" },
+    { "symbol": "✦", "letter": "A" },
+    { "symbol": "△", "letter": "C" },
+    { "symbol": "💧", "letter": "K" },
+    { "symbol": "✔", "letter": "N" },
+    { "symbol": "✕", "letter": "Y" },
+    { "symbol": "🌞", "letter": "J" }
+  ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_13": "giantredwood",
+    "rectangles": [
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+      { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" }
+    ],
+    "options": [
+    { "symbol": "◆", "letter": "F" },
+    { "symbol": "◁", "letter": "V" },
+    { "symbol": "◆", "letter": "S" },
+    { "symbol": "●", "letter": "M" },
+    { "symbol": "🗜️", "letter": "B" },
+    { "symbol": "■", "letter": "I" },
+    { "symbol": "☾", "letter": "G" },
+    { "symbol": "◉", "letter": "R" },
+    { "symbol": "*", "letter": "W" },
+    { "symbol": "✦", "letter": "A" },
+    { "symbol": "△", "letter": "C" },
+    { "symbol": "💧", "letter": "K" },
+    { "symbol": "✔", "letter": "N" },
+    { "symbol": "✕", "letter": "Y" },
+    { "symbol": "🌞", "letter": "J" }
+  ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_14": "prairie",
+    "rectangles": [
+      { "symbol": "P", "correctLetter": "P", "chosenOption": "P" },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" }
+    ],
+    "options": [
+    { "symbol": "◆", "letter": "F" },
+    { "symbol": "◁", "letter": "V" },
+    { "symbol": "◆", "letter": "S" },
+    { "symbol": "●", "letter": "M" },
+    { "symbol": "🗜️", "letter": "B" },
+    { "symbol": "■", "letter": "I" },
+    { "symbol": "☾", "letter": "G" },
+    { "symbol": "◉", "letter": "R" },
+    { "symbol": "*", "letter": "W" },
+    { "symbol": "✦", "letter": "A" },
+    { "symbol": "△", "letter": "C" },
+    { "symbol": "💧", "letter": "K" },
+    { "symbol": "✔", "letter": "N" },
+    { "symbol": "✕", "letter": "Y" },
+    { "symbol": "🌞", "letter": "J" }
+  ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_15": "trees",
+    "rectangles": [
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+    { "symbol": "◆", "letter": "F" },
+    { "symbol": "◁", "letter": "V" },
+    { "symbol": "◆", "letter": "S" },
+    { "symbol": "●", "letter": "M" },
+    { "symbol": "🗜️", "letter": "B" },
+    { "symbol": "■", "letter": "I" },
+    { "symbol": "☾", "letter": "G" },
+    { "symbol": "◉", "letter": "R" },
+    { "symbol": "*", "letter": "W" },
+    { "symbol": "✦", "letter": "A" },
+    { "symbol": "△", "letter": "C" },
+    { "symbol": "💧", "letter": "K" },
+    { "symbol": "✔", "letter": "N" },
+    { "symbol": "✕", "letter": "Y" },
+    { "symbol": "🌞", "letter": "J" }
+  ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_16": "rainforest",
+    "rectangles": [
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" }
+    ],
+    "options": [
+    { "symbol": "◆", "letter": "F" },
+    { "symbol": "◁", "letter": "V" },
+    { "symbol": "◆", "letter": "S" },
+    { "symbol": "●", "letter": "M" },
+    { "symbol": "🗜️", "letter": "B" },
+    { "symbol": "■", "letter": "I" },
+    { "symbol": "☾", "letter": "G" },
+    { "symbol": "◉", "letter": "R" },
+    { "symbol": "*", "letter": "W" },
+    { "symbol": "✦", "letter": "A" },
+    { "symbol": "△", "letter": "C" },
+    { "symbol": "💧", "letter": "K" },
+    { "symbol": "✔", "letter": "N" },
+    { "symbol": "✕", "letter": "Y" },
+    { "symbol": "🌞", "letter": "J" }
+  ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_17": "wildlifehabitat",
+    "rectangles": [
+      { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "🗜️", "correctLetter": "B", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" }
+    ],
+    "options": [
+    { "symbol": "◆", "letter": "F" },
+    { "symbol": "◁", "letter": "V" },
+    { "symbol": "◆", "letter": "S" },
+    { "symbol": "●", "letter": "M" },
+    { "symbol": "🗜️", "letter": "B" },
+    { "symbol": "■", "letter": "I" },
+    { "symbol": "☾", "letter": "G" },
+    { "symbol": "◉", "letter": "R" },
+    { "symbol": "*", "letter": "W" },
+    { "symbol": "✦", "letter": "A" },
+    { "symbol": "△", "letter": "C" },
+    { "symbol": "💧", "letter": "K" },
+    { "symbol": "✔", "letter": "N" },
+    { "symbol": "✕", "letter": "Y" },
+    { "symbol": "🌞", "letter": "J" }
+  ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_18": "wetlands",
+    "rectangles": [
+      { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+    { "symbol": "◆", "letter": "F" },
+    { "symbol": "◁", "letter": "V" },
+    { "symbol": "◆", "letter": "S" },
+    { "symbol": "●", "letter": "M" },
+    { "symbol": "🗜️", "letter": "B" },
+    { "symbol": "■", "letter": "I" },
+    { "symbol": "☾", "letter": "G" },
+    { "symbol": "◉", "letter": "R" },
+    { "symbol": "*", "letter": "W" },
+    { "symbol": "✦", "letter": "A" },
+    { "symbol": "△", "letter": "C" },
+    { "symbol": "💧", "letter": "K" },
+    { "symbol": "✔", "letter": "N" },
+    { "symbol": "✕", "letter": "Y" },
+    { "symbol": "🌞", "letter": "J" }
+  ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_19": "caves",
+    "rectangles": [
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "◁", "correctLetter": "V", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+    { "symbol": "◆", "letter": "F" },
+    { "symbol": "◁", "letter": "V" },
+    { "symbol": "◆", "letter": "S" },
+    { "symbol": "●", "letter": "M" },
+    { "symbol": "🗜️", "letter": "B" },
+    { "symbol": "■", "letter": "I" },
+    { "symbol": "☾", "letter": "G" },
+    { "symbol": "◉", "letter": "R" },
+    { "symbol": "*", "letter": "W" },
+    { "symbol": "✦", "letter": "A" },
+    { "symbol": "△", "letter": "C" },
+    { "symbol": "💧", "letter": "K" },
+    { "symbol": "✔", "letter": "N" },
+    { "symbol": "✕", "letter": "Y" },
+    { "symbol": "🌞", "letter": "J" }
+  ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_20": "nature",
+    "rectangles": [
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "U", "correctLetter": "U", "chosenOption": "U" },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" }
+    ],
+    "options": [
+    { "symbol": "◆", "letter": "F" },
+    { "symbol": "◁", "letter": "V" },
+    { "symbol": "◆", "letter": "S" },
+    { "symbol": "●", "letter": "M" },
+    { "symbol": "🗜️", "letter": "B" },
+    { "symbol": "■", "letter": "I" },
+    { "symbol": "☾", "letter": "G" },
+    { "symbol": "◉", "letter": "R" },
+    { "symbol": "*", "letter": "W" },
+    { "symbol": "✦", "letter": "A" },
+    { "symbol": "△", "letter": "C" },
+    { "symbol": "💧", "letter": "K" },
+    { "symbol": "✔", "letter": "N" },
+    { "symbol": "✕", "letter": "Y" },
+    { "symbol": "🌞", "letter": "J" }
+  ]
+  }
+],
+"Level7": [
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_01": "Coral",
+    "rectangles": [
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_02": "Garter",
+    "rectangles": [
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_03": "Anaconda",
+    "rectangles": [
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_04": "Copperhead",
+    "rectangles": [
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "P", "correctLetter": "P", "chosenOption": "P" },
+      { "symbol": "P", "correctLetter": "P", "chosenOption": "P" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_05": "Diamondback",
+    "rectangles": [
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+      { "symbol": "🔱", "correctLetter": "B", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_06": "Hognose",
+    "rectangles": [
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_07": "Viper",
+    "rectangles": [
+      { "symbol": "◁", "correctLetter": "V", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "P", "correctLetter": "P", "chosenOption": "P" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_08": "Mamba",
+    "rectangles": [
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "🔱", "correctLetter": "B", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_09": "Snakes",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_10": "hammerhead",
+    "rectangles": [
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_11": "clownfish",
+    "rectangles": [
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_12": "shark",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_13": "dolphin",
+    "rectangles": [
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "P", "correctLetter": "P", "chosenOption": "P" },
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_14": "bluewhale",
+    "rectangles": [
+      { "symbol": "☾", "correctLetter": "B", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "U", "correctLetter": "U", "chosenOption": "U" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "*", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_15": "anemone",
+    "rectangles": [
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_16": "sea lions",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_17": "stingray",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null },
+      { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✕", "correctLetter": "Y", "chosenOption": null }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_18": "jellyfish",
+    "rectangles": [
+      { "symbol": "🌞", "correctLetter": "J", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "✕", "correctLetter": "Y", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "H", "correctLetter": "H", "chosenOption": "H" }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_19": "ocean life",
+    "rectangles": [
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "F", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" }
+    ],
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  }
+],
+"Level8": [
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_01": "Book",
+    "rectangles": [
+      { "symbol": "🔱", "correctLetter": "B", "chosenOption": null },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_02": "Salesman",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_03": "Easter",
+    "rectangles": [
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_04": "Fungus",
+    "rectangles": [
+      { "symbol": "🔷", "correctLetter": "F", "chosenOption": null },
+      { "symbol": "U", "correctLetter": "U", "chosenOption": "U" },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "☾", "correctLetter": "G", "chosenOption": null },
+      { "symbol": "U", "correctLetter": "U", "chosenOption": "U" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_05": "Same",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_06": "Landlord",
+    "rectangles": [
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_07": "Car-Keys",
+    "rectangles": [
+      { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null },
+      { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+      { "symbol": "✕", "correctLetter": "Y", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_08": "Skyward",
+    "rectangles": [
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "💧", "correctLetter": "K", "chosenOption": null },
+      { "symbol": "✕", "correctLetter": "Y", "chosenOption": null },
+      { "symbol": "🔱", "correctLetter": "W", "chosenOption": null },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "⊙", "correctLetter": "R", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_09": "Islands",
+    "rectangles": [
+      { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+      { "symbol": "L", "correctLetter": "L", "chosenOption": "L" },
+      { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+      { "symbol": "✔️", "correctLetter": "N", "chosenOption": null },
+      { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+      { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+    ],
+    "options": [
+      { "symbol": "◆", "letter": "F" },
+      { "symbol": "◁", "letter": "V" },
+      { "symbol": "◆", "letter": "S" },
+      { "symbol": "●", "letter": "M" },
+      { "symbol": "🔱", "letter": "B" },
+      { "symbol": "■", "letter": "I" },
+      { "symbol": "☾", "letter": "G" },
+      { "symbol": "⊙", "letter": "R" },
+      { "symbol": "*", "letter": "W" },
+      { "symbol": "✦", "letter": "A" },
+      { "symbol": "△", "letter": "C" },
+      { "symbol": "💧", "letter": "K" },
+      { "symbol": "✔️", "letter": "N" },
+      { "symbol": "✕", "letter": "Y" },
+      { "symbol": "🌞", "letter": "J" }
+    ]
+  },
+   {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_10": "hammerhead",
+    "rectangles": [
+  { "symbol": "☾", "correctLetter": "G", "chosenOption": null },
+  { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+  { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+  { "symbol": "T", "correctLetter": "T", "chosenOption": "T" },
+  { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+  { "symbol": "◉", "correctLetter": "R", "chosenOption": null }
+]
+,
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_11": "clownfish",
+   "rectangles": [
+  { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+  { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+  { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+  { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+  { "symbol": "L", "correctLetter": "L", "chosenOption": "L" }
+]
+,
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_12": "shark",
+    "rectangles": [
+  { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+  { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+  { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+  { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+  { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+  { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+  { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+  { "symbol": "✦", "correctLetter": "A", "chosenOption": null }
+]
+,
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_13": "dolphin",
+    "rectangles": [
+  { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+  { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+  { "symbol": "P", "correctLetter": "P", "chosenOption": "P" },
+  { "symbol": "P", "correctLetter": "P", "chosenOption": "P" },
+  { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+  { "symbol": "◉", "correctLetter": "R", "chosenOption": null },
+  { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+  { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+  { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+  { "symbol": "D", "correctLetter": "D", "chosenOption": "D" }
+]
+,
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_14": "bluewhale",
+    "rectangles": [
+  { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+  { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+  { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+  { "symbol": "●", "correctLetter": "M", "chosenOption": null },
+  { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+  { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+  { "symbol": "D", "correctLetter": "D", "chosenOption": "D" },
+  { "symbol": "🗜️", "correctLetter": "B", "chosenOption": null },
+  { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+  { "symbol": "△", "correctLetter": "C", "chosenOption": null },
+  { "symbol": "💧", "correctLetter": "K", "chosenOption": null }
+]
+,
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_15": "anemone",
+   "rectangles": [
+  { "symbol": "H", "correctLetter": "H", "chosenOption": "H" },
+  { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+  { "symbol": "☾", "correctLetter": "G", "chosenOption": null },
+  { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+  { "symbol": "O", "correctLetter": "O", "chosenOption": "O" },
+  { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+  { "symbol": "E", "correctLetter": "E", "chosenOption": "E" }
+]
+,
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_16": "sea lions",
+   "rectangles": [
+  { "symbol": "◁", "correctLetter": "V", "chosenOption": null },
+  { "symbol": "■", "correctLetter": "I", "chosenOption": null },
+  { "symbol": "P", "correctLetter": "P", "chosenOption": "P" },
+  { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+  { "symbol": "◉", "correctLetter": "R", "chosenOption": null }
+]
+,
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  },
+  {
+    "Instruction": "Write in the letter each symbol represents. Decode the words below using the symbols.",
+    "QuestionArr_17": "stingray",
+    "rectangles": [
+  { "symbol": "◆", "correctLetter": "S", "chosenOption": null },
+  { "symbol": "✔", "correctLetter": "N", "chosenOption": null },
+  { "symbol": "✦", "correctLetter": "A", "chosenOption": null },
+  { "symbol": "💧", "correctLetter": "K", "chosenOption": null },
+  { "symbol": "E", "correctLetter": "E", "chosenOption": "E" },
+  { "symbol": "◆", "correctLetter": "S", "chosenOption": null }
+]
+,
+    "options": [
+  { "symbol": "◆", "letter": "F" },
+  { "symbol": "◁", "letter": "V" },
+  { "symbol": "◆", "letter": "S" },
+  { "symbol": "●", "letter": "M" },
+  { "symbol": "🗜️", "letter": "B" },
+  { "symbol": "■", "letter": "I" },
+  { "symbol": "☾", "letter": "G" },
+  { "symbol": "◉", "letter": "R" },
+  { "symbol": "*", "letter": "W" },
+  { "symbol": "✦", "letter": "A" },
+  { "symbol": "△", "letter": "C" },
+  { "symbol": "💧", "letter": "K" },
+  { "symbol": "✔", "letter": "N" },
+  { "symbol": "✕", "letter": "Y" },
+  { "symbol": "🌞", "letter": "J" }
+]
+
+  }
+]
+}
+
+

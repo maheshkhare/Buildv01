@@ -1,0 +1,35 @@
+{
+ "extends": [
+   "plugin:vue/recommended",
+   "eslint:recommended",
+   "vue",
+   "plugin:recommended",
+   "plugin:json/recommended"
+ ],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "plugins": [],
+  "rules": {
+    "vue/component-name-in-template-casing": ["error", "PascalCase"],
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local",
+        "args": "none"
+      }
+    ],
+    "no-plusplus": "off",
+    "no-underscore-dangle": "off"
+  },
+  "globals": {
+    "cy": true
+  }
+}

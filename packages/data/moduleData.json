@@ -1,0 +1,1697 @@
+{
+  "Personalized Learning": {
+    "PL-CFC-01": {
+      "title": "Find the Difference",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCFC01",
+          "exercise": 0,
+          "set": 0,
+          "options": {}
+        }
+      ]
+    },
+    "PL-CFC-02": {
+      "title": "What Shape Is It?",
+      "practices": [
+        {
+          "title": "Circles",
+          "lesson": "LessonCFC02",
+          "exercise": 0,
+          "set": 0,
+          "options": {}
+        },
+        {
+          "title": "Squares",
+          "lesson": "LessonCFC02",
+          "exercise": 1,
+          "set": 0,
+          "options": {}
+        },
+        {
+          "title": "Triangles",
+          "lesson": "LessonCFC02",
+          "exercise": 2,
+          "set": 0,
+          "options": {}
+        },
+        {
+          "title": "Diamonds",
+          "lesson": "LessonCFC02",
+          "exercise": 3,
+          "set": 0,
+          "options": {}
+        },
+        {
+          "title": "Rectangles",
+          "lesson": "LessonCFC02",
+          "exercise": 4,
+          "set": 0,
+          "options": {}
+        },
+        {
+          "title": "Hexagons",
+          "lesson": "LessonCFC02",
+          "exercise": 5,
+          "set": 0,
+          "options": {}
+        }
+      ]
+    },
+    "PL-CFS-01": {
+      "title": "What Comes Next",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCFS01",
+          "exercise": 0,
+          "set": 0,
+          "options": {}
+        }
+      ]
+    },
+    "PL-CFS-02": {
+      "title": "Looking For Shapes",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCFS03",
+          "exercise": 0,
+          "set": 0,
+          "options": {}
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCFS03",
+          "exercise": 1,
+          "set": 0,
+          "options": {}
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCFS03",
+          "exercise": 2,
+          "set": 0,
+          "options": {}
+        }
+      ]
+    },
+    "PL-CFS-03": {
+      "title": "Listening For Shapes",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCFS04",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCFS04",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCFS04",
+          "exercise": 1,
+          "set": 0
+        }
+      ]
+    },
+    "PL-CFS-04": {
+      "title": "Getting From Here To There",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCFS05",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCFS05",
+          "exercise": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCFS05",
+          "exercise": 2
+        }
+      ]
+    },
+    "PL-CFS-05": {
+      "title": "Gear Works",
+      "practices": [
+        {"title": "Practice One",
+          "lesson": "LessonCFS06",
+          "exercise": 0
+        },
+        {"title": "Practice Two",
+          "lesson": "LessonCFS07",
+          "exercise": 0
+        },
+        {"title": "Practice Three",
+          "lesson": "LessonCFS08",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-CFT-01": {
+      "title": "Seeing Things Differently",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCFT01",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCFT01",
+          "exercise": 1
+        }
+      ]
+    },
+    "PL-CFU-01": {
+      "title": "Finding Letters",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCFU01",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCFU01",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCFU01",
+          "exercise": 1,
+          "set": 0
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonCFU01",
+          "exercise": 1,
+          "set": 1
+        },
+        {
+          "title": "Practice Five",
+          "lesson": "LessonCFU01",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Six",
+          "lesson": "LessonCFU01",
+          "exercise": 0,
+          "set": 3
+        },
+        {
+          "title": "Practice Seven",
+          "lesson": "LessonCFU01",
+          "exercise": 1,
+          "set": 2
+        },
+        {
+          "title": "Practice Eight",
+          "lesson": "LessonCFU01",
+          "exercise": 1,
+          "set": 3
+        }
+      ]
+    },
+    "PL-CMC-01": {
+      "title": "Putting Words In Groups",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCMC01",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-CMR-01": {
+      "title": "Searching For Shapes",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCMR01",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCMR01",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCMR01",
+          "exercise": 0,
+          "set": 2
+        }
+      ]
+    },
+    "PL-CMR-02": {
+      "title": "Semantic Maze",
+      "practices": [
+        {
+          "title": "Mazes 1-15",
+          "lesson": "LessonCMR02",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Mazes 16-30",
+          "lesson": "LessonCMR02",
+          "exercise": 0,
+          "set": 1
+        }
+      ]
+    },
+    "PL-CMS-01": {
+      "title": "Following Directions - Auditory One",
+      "practices": [
+        {
+          "title": "Practice One - Two Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice One - Three Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice One - Four Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice One - Five Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 0,
+          "set": 3
+        }
+      ]
+    },
+    "PL-CMS-02": {
+      "title": "Following Directions - Auditory Two",
+      "practices": [
+        {
+          "title": "Practice One - Two Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 0,
+          "set": 4
+        },
+        {
+          "title": "Practice One - Three Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 0,
+          "set": 5
+        },
+        {
+          "title": "Practice One - Four Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 0,
+          "set": 6
+        },
+        {
+          "title": "Practice One - Five Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 0,
+          "set": 7
+        }
+      ]
+    },
+    "PL-CMS-03": {
+      "title": "How To Write Paragraphs",
+      "practices": [
+        {
+          "title": "Practice One - Sentence Forms",
+          "lesson": "LessonCMS02",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two - Sentences In Forms",
+          "lesson": "LessonCMS03",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Three - Sentences Outside Forms",
+          "lesson": "LessonCMS04",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Four - Paragraphs",
+          "lesson": "LessonCMS05",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-CMS-04": {
+      "title": "Making Sentences From Pictures",
+      "practices": [
+        {
+          "title": "Practice One - Learning The Words",
+          "lesson": "LessonCMS06",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two - Making Sentences",
+          "lesson": "LessonCMS06",
+          "exercise": 1
+        },
+        {
+          "title": "Practice Three - Two-Idea Sentences",
+          "lesson": "LessonCMS06",
+          "exercise": 2
+        }
+      ]
+    },
+    "PL-CMS-05": {
+      "title": "Following Directions - Visual One",
+      "practices": [
+        {
+          "title": "Practice One - Two Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 1,
+          "set": 0
+        },
+        {
+          "title": "Practice One - Three Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 1,
+          "set": 1
+        },
+        {
+          "title": "Practice One - Four Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 1,
+          "set": 2
+        },
+        {
+          "title": "Practice One - Five Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 1,
+          "set": 3
+        }
+      ]
+    },
+    "PL-CMS-06": {
+      "title": "Following Directions - Visual Two",
+      "practices": [
+        {
+          "title": "Practice One - Two Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 1,
+          "set": 4
+        },
+        {
+          "title": "Practice One - Three Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 1,
+          "set": 5
+        },
+        {
+          "title": "Practice One - Four Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 1,
+          "set": 6
+        },
+        {
+          "title": "Practice One - Five Directions",
+          "lesson": "LessonCMS01",
+          "exercise": 1,
+          "set": 7
+        }
+      ]
+    },
+    "PL-CMS-07": {
+      "title": "Two Idea Sentences",
+      "practices": [
+        {
+          "title": "Practice One - Sentence Forms",
+          "lesson": "LessonCMS02",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two - Sentences In Forms",
+          "lesson": "LessonCMS03",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Three - AND",
+          "lesson": "LessonCMS07",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Four - BUT",
+          "lesson": "LessonCMS07",
+          "exercise": 1
+        },
+        {
+          "title": "Practice Five - EITHER-OR",
+          "lesson": "LessonCMS07",
+          "exercise": 2
+        },
+        {
+          "title": "Practice Six - IF-THEN",
+          "lesson": "LessonCMS07",
+          "exercise": 3
+        },
+        {
+          "title": "Practice Seven - Test Your Knowledge",
+          "lesson": "LessonCMS07",
+          "exercise": 4
+        }
+      ]
+    },
+    "PL-CMS-09": {
+      "title": "Read Remember Reason One",
+      "practices": [
+        {
+          "title": "Practice One - Story One",
+          "lesson": "LessonCMS08",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two - Story Two",
+          "lesson": "LessonCMS08",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three - Story Three",
+          "lesson": "LessonCMS08",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Four - Story Four",
+          "lesson": "LessonCMS08",
+          "exercise": 0,
+          "set": 3
+        },
+        {
+          "title": "Practice Five - Story Five",
+          "lesson": "LessonCMS08",
+          "exercise": 0,
+          "set": 4
+        }
+      ]
+    },
+    "PL-CMS-10": {
+      "title": "Story Logic",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCMS09",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCMS10",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-CMS-11": {
+      "title": "Where Are You",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCMS11",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCMS11",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCMS11",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonCMS11",
+          "exercise": 0,
+          "set": 3
+        },
+        {
+          "title": "Practice Five",
+          "lesson": "LessonCMS11",
+          "exercise": 1,
+          "set": 0
+        },
+        {
+          "title": "Practice Six",
+          "lesson": "LessonCMS11",
+          "exercise": 1,
+          "set": 1
+        },
+        {
+          "title": "Practice Seven",
+          "lesson": "LessonCMS11",
+          "exercise": 1,
+          "set": 2
+        },
+        {
+          "title": "Practice Eight",
+          "lesson": "LessonCMS11",
+          "exercise": 1,
+          "set": 3
+        }
+      ]
+    },
+    "PL-CMU-01": {
+      "title": "Same And Different Concept",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCMU01",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCMU01",
+          "exercise": 1
+        }
+      ]
+    },
+    "PL-CMU-02": {
+      "title": "What Color Is It?",
+      "practices": [
+        {
+          "title": "Red",
+          "lesson": "LessonCMU02",
+          "exercise": 0
+        },
+        {
+          "title": "Blue",
+          "lesson": "LessonCMU02",
+          "exercise": 1
+        },
+        {
+          "title": "Yellow",
+          "lesson": "LessonCMU02",
+          "exercise": 2
+        },
+        {
+          "title": "Purple",
+          "lesson": "LessonCMU02",
+          "exercise": 3
+        },
+        {
+          "title": "Green",
+          "lesson": "LessonCMU02",
+          "exercise": 4
+        },
+        {
+          "title": "Orange",
+          "lesson": "LessonCMU02",
+          "exercise": 5
+        }
+      ]
+    },
+    "PL-CMU-03": {
+      "title": "Color And Number Words",
+      "practices": [
+        {
+          "title": "Practice One - Colors",
+          "lesson": "LessonCMU03",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two - Colors",
+          "lesson": "LessonCMU03",
+          "exercise": 1
+        },
+        {
+          "title": "Practice Three - Colors",
+          "lesson": "LessonCMU03",
+          "exercise": 2
+        },
+        {
+          "title": "Practice Four - Numbers",
+          "lesson": "LessonCMU04",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Five - Numbers",
+          "lesson": "LessonCMU04",
+          "exercise": 1
+        },
+        {
+          "title": "Practice Six - Numbers",
+          "lesson": "LessonCMU04",
+          "exercise": 2
+        }
+      ]
+    },
+    "PL-CMU-04": {
+      "title": "Finding The Lost Coat",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCMU05",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCMU06",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-CMU-05": {
+      "title": "How Words Are Made",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCMU07",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCMU08",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-CSR-01": {
+      "title": "Beginnings And Endings One",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCSR01",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCSR02",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCSR03",
+          "exercise": 0,
+          "set": 0
+        }
+      ]
+    },
+    "PL-CSR-02": {
+      "title": "Beginnings And Endings Two",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCSR01",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCSR02",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCSR03",
+          "exercise": 0,
+          "set": 1
+        }
+      ]
+    },
+    "PL-CSR-03": {
+      "title": "Beginnings And Endings Three",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCSR01",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCSR02",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCSR03",
+          "exercise": 0,
+          "set": 2
+        }
+      ]
+    },
+    "PL-CSR-04": {
+      "title": "Beginnings And Endings Four",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCSR04",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCSR02",
+          "exercise": 0,
+          "set": 3
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCSR03",
+          "exercise": 0,
+          "set": 3
+        }
+      ]
+    },
+    "PL-CSS-01": {
+      "title": "Counting",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCSS01",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCSS01",
+          "exercise": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCSS02",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-CSS-02": {
+      "title": "Moving The Elevator One",
+      "practices": [
+        {
+          "title": "Elevator Basics",
+          "lesson": "LessonCSS03",
+          "exercise": 0
+        },
+        {
+          "title": "More Elevator Basics",
+          "lesson": "LessonCSS04",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-CSS-03": {
+      "title": "Addition",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCSS06",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCSS06",
+          "exercise": 1
+        }
+      ]
+    },
+    "PL-CSS-04": {
+      "title": "Addition To 20",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCSS07",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCSS07",
+          "exercise": 1,
+          "set": 0
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCSS07",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonCSS07",
+          "exercise": 1,
+          "set": 1
+        },
+        {
+          "title": "Practice Five",
+          "lesson": "LessonCSS07",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Six",
+          "lesson": "LessonCSS07",
+          "exercise": 1,
+          "set": 2
+        }
+      ]
+    },
+    "PL-CSS-05": {
+      "title": "CLock Reading",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCSS08",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCSS08",
+          "exercise": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCSS08",
+          "exercise": 2
+        }
+
+      ]
+    },
+    "PL-CSS-06": {
+      "title": "Ranking",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCSSL09",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCSSL10",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonCSSL11",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonCSSL12",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Five",
+          "lesson": "LessonCSSL13",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Six",
+          "lesson": "LessonCSSL14",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-EFC-01": {
+      "title": "Similar",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonEFC01",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-EFC-02": {
+      "title": "How Things Go Together",
+      "practices": [
+        {
+          "title": "Practice One - Properties",
+          "lesson": "LessonEFC02",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two - Similarities",
+          "lesson": "LessonEFC03",
+          "exercise": 0
+        },
+        {
+          "title": "Lesson Three - Similar Pairs",
+          "lesson": "LessonEFC04",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-ESC-01": {
+      "title": "Classifying Numbers",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonESC01",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonESC01",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonESC01",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonESC02",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Five",
+          "lesson": "LessonESC02",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Six",
+          "lesson": "LessonESC02",
+          "exercise": 0,
+          "set": 2
+        }
+      ]
+    },
+    "PL-ESS-01": {
+      "title": "Number Characteristics",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 3
+        },
+        {
+          "title": "Practice Five",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 4
+        },
+        {
+          "title": "Practice Six",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 5
+        },
+        {
+          "title": "Practice Seven",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 6
+        },
+        {
+          "title": "Practice Eight",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 7
+        },
+        {
+          "title": "Practice Nine",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 8
+        },
+        {
+          "title": "Practice Ten",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 9
+        },
+        {
+          "title": "Practice Eleven",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 10
+        },
+        {
+          "title": "Practice Twelve",
+          "lesson": "LessonESS01",
+          "exercise": 0,
+          "set": 11
+        }
+      ]
+    },
+    "PL-MFR-01": {
+      "title": "Putting Things Together",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonMFR01",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonMFR01",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonMFR01",
+          "exercise": 0,
+          "set": 2
+        }
+      ]
+    },
+    "PL-MFS-01": {
+      "title": "Hear And Remember Shapes",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonCFS04",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonCFS04",
+          "exercise": 2,
+          "set": 2
+        }
+      ]
+    },
+    "PL-MFU-01": {
+      "title": "Remembering Animals One",
+      "practices": [
+        {
+          "title": "Practice One - Finding Animals",
+          "lesson": "LessonMFU01",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two - Remembering Animals",
+          "lesson": "LessonMFU02",
+          "exercise": 0,
+          "set": 0
+        }
+      ]
+    },
+    "PL-MFU-02": {
+      "title": "See And Remember Shapes",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonMFU03",
+          "exercise": 0,
+          "set": 0
+        }
+      ]
+    },
+    "PL-MFU-03": {
+      "title": "See And Remember Shapes Two",
+      "practices": [
+        {
+          "title": "Practice One - Remembering Shapes",
+          "lesson": "LessonMFU04",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two - Remembering More Shapes",
+          "lesson": "LessonMFU04",
+          "exercise": 1,
+          "set": 0
+        },
+        {
+          "title": "Practice Three - Remembering Harder Shapes",
+          "lesson": "LessonMFU04",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Four - Remembering More Harder Shapes",
+          "lesson": "LessonMFU04",
+          "exercise": 1,
+          "set": 1
+        },
+        {
+          "title": "Practice Five - Remembering Hardest Shapes",
+          "lesson": "LessonMFU04",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Practice Two - Remembering More Hardest Shapes",
+          "lesson": "LessonMFU04",
+          "exercise": 1,
+          "set": 2
+        }
+      ]
+    },
+    "PL-MFU-04": {
+      "title": "Remembering Animals Two",
+      "practices": [
+        {
+          "title": "Practice One - Remembering Animals",
+          "lesson": "LessonMFU02",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Practice Two - Remembering More Animals",
+          "lesson": "LessonMFU02",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Three - Remembering Animals In Reverse Order",
+          "lesson": "LessonMFU02",
+          "exercise": 2,
+          "set": 0
+        },
+        {
+          "title": "Practice Four - Remembering More Animals In Reverse Order",
+          "lesson": "LessonMFU02",
+          "exercise": 2,
+          "set": 1
+        }
+      ]
+    },
+    "PL-MMI-01": {
+      "title": "Remembering Sentences",
+      "practices": [
+        {
+          "title": "Remembering Simple Sentences",
+          "lesson": "LessonMMI01",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Remembering More Simple Sentences",
+          "lesson": "LessonMMI01",
+          "exercise": 1,
+          "set": 0
+        },
+        {
+          "title": "Remembering Complex Sentences",
+          "lesson": "LessonMMI01",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Remembering More Complex Sentences",
+          "lesson": "LessonMMI01",
+          "exercise": 1,
+          "set": 1
+        },
+        {
+          "title": "Remembering Most Complex Sentences",
+          "lesson": "LessonMMI01",
+          "exercise": 0,
+          "set": 2
+        },
+        {
+          "title": "Remembering More Most Complex Sentences",
+          "lesson": "LessonMMI01",
+          "exercise": 1,
+          "set": 2
+        }
+      ]
+    },
+    "PL-MMI-02": {
+      "title": "Who Goes Where?",
+      "practices": [
+        {
+          "title": "Practice One - 4 Seats",
+          "lesson": "LessonMMI02",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two - 6 Seats",
+          "lesson": "LessonMMI02",
+          "exercise": 1
+        }
+      ]
+    },
+    "PL-MMR-01": {
+      "title": "Remembering Relationships",
+      "practices": [
+        {
+          "title": "Remembering Simple Relationships",
+          "lesson": "LessonMMR01",
+          "exercise": 0,
+          "set": 0
+        },
+        {
+          "title": "Remembering More Simple Relationships",
+          "lesson": "LessonMMR01",
+          "exercise": 2,
+          "set": 0
+        },
+        {
+          "title": "Remembering Complex Relationships",
+          "lesson": "LessonMMR01",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Remembering More Complex Relationships",
+          "lesson": "LessonMMR01",
+          "exercise": 2,
+          "set": 1
+        }
+      ]
+    },
+    "PL-MMU-01": {
+      "title": "Hear And Remember Words One",
+      "practices": [
+        {
+          "title": "Remembering Three Words",
+          "lesson": "LessonMMU01",
+          "exercise": 2,
+          "set": 0
+        },
+        {
+          "title": "Remembering Four Words",
+          "lesson": "LessonMMU01",
+          "exercise": 3,
+          "set": 0
+        },
+        {
+          "title": "Remembering Five Words",
+          "lesson": "LessonMMU01",
+          "exercise": 4,
+          "set": 0
+        },
+        {
+          "title": "Remembering Six Words",
+          "lesson": "LessonMMU01",
+          "exercise": 5,
+          "set": 0
+        }
+      ]
+    },
+    "PL-MMU-02": {
+      "title": "Hear And Remember Words Two",
+      "practices": [
+        {
+          "title": "Remembering Three Words",
+          "lesson": "LessonMMU01",
+          "exercise": 2,
+          "set": 1
+        },
+        {
+          "title": "Remembering Four Words",
+          "lesson": "LessonMMU01",
+          "exercise": 3,
+          "set": 1
+        },
+        {
+          "title": "Remembering Five Words",
+          "lesson": "LessonMMU01",
+          "exercise": 4,
+          "set": 1
+        },
+        {
+          "title": "Remembering Six Words",
+          "lesson": "LessonMMU01",
+          "exercise": 5,
+          "set": 1
+        }
+      ]
+    },
+    "PL-MMU-03": {
+      "title": "Remembering Words One",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonMMU02",
+          "exercise": 1,
+          "set": 0,
+          "options": {
+            "showTime": 2,
+            "delayTime": 2
+          }
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonMMU02",
+          "exercise": 2,
+          "set": 0,
+          "options": {
+            "showTime": 2,
+            "delayTime": 2
+          }
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonMMU02",
+          "exercise": 2,
+          "set": 0,
+          "options": {
+            "showTime": 1,
+            "delayTime": 2
+          }
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonMMU02",
+          "exercise": 3,
+          "set": 1,
+          "options": {
+            "showTime": 2,
+            "delayTime": 2
+          }
+        },
+        {
+          "title": "Practice Five",
+          "lesson": "LessonMMU02",
+          "exercise": 3,
+          "set": 1,
+          "options": {
+            "showTime": 1,
+            "delayTime": 2
+          }
+        },
+        {
+          "title": "Practice Six",
+          "lesson": "LessonMMU02",
+          "exercise": 5,
+          "set": 1,
+          "options": {
+            "showTime": 2,
+            "delayTime": 2
+          }
+        }
+      ]
+    },
+    "PL-MMU-04": {
+      "title": "Remembering Words Two",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonMMU02",
+          "exercise": 1,
+          "set": 2,
+          "options": {
+            "showTime": 3,
+            "delayTime": 3
+          }
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonMMU02",
+          "exercise": 2,
+          "set": 2,
+          "options": {
+            "showTime": 3,
+            "delayTime": 3
+          }
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonMMU02",
+          "exercise": 2,
+          "set": 2,
+          "options": {
+            "showTime": 3,
+            "delayTime": 6
+          }
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonMMU02",
+          "exercise": 3,
+          "set": 2,
+          "options": {
+            "showTime": 4,
+            "delayTime": 3
+          }
+        },
+        {
+          "title": "Practice Five",
+          "lesson": "LessonMMU02",
+          "exercise": 4,
+          "set": 2,
+          "options": {
+            "showTime": 4,
+            "delayTime": 4
+          }
+        },
+        {
+          "title": "Practice Six",
+          "lesson": "LessonMMU02",
+          "exercise": 5,
+          "set": 2,
+          "options": {
+            "showTime": 6,
+            "delayTime": 3
+          }
+        }
+      ]
+    },
+    "PL-MSS-01": {
+      "title": "Remembering Numbers In Reverse - Visual",
+      "practices": [
+        {
+          "title": "Three Numbers",
+          "lesson": "LessonMSS01",
+          "exercise": 2,
+          "set": 2
+        },
+        {
+          "title": "Four Numbers",
+          "lesson": "LessonMSS01",
+          "exercise": 2,
+          "set": 3
+        },
+        {
+          "title": "Five Numbers",
+          "lesson": "LessonMSS01",
+          "exercise": 2,
+          "set": 4
+        },
+        {
+          "title": "Six Numbers",
+          "lesson": "LessonMSS01",
+          "exercise": 2,
+          "set": 5
+        }
+      ]
+    },
+    "PL-MSS-02": {
+      "title": "Remembering Numbers In Reverse - Auditory",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonMSS02",
+          "exercise": 2,
+          "set": 2
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonMSS02",
+          "exercise": 2,
+          "set": 3
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonMSS02",
+          "exercise": 2,
+          "set": 4
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonMSS02",
+          "exercise": 2,
+          "set": 5
+        }
+      ]
+    },
+    "PL-MSS-03": {
+      "title": "Remembering And Using Numbers",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonMSS03",
+          "exercise": 0,
+          "set": 1
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonMSS03",
+          "exercise": 0,
+          "set": 2
+        }
+      ]
+    },
+    "PL-MSS-04": {
+      "title": "Remembering Letters And Numbers",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonMSS04",
+          "exercise": 0
+        }
+      ]
+    },
+    "PL-MSS-05": {
+      "title": "Remembering Letters And Numbers Two",
+      "practices": [
+        {
+          "title": "Remembering Letter/Number Combinations",
+          "lesson": "LessonMSS05",
+          "exercise": 1,
+          "set": 0
+        },
+        {
+          "title": "Remembering More Letter/Number Combinations",
+          "lesson": "LessonMSS05",
+          "exercise": 3,
+          "set": 0
+        },
+        {
+          "title": "Remembering Longer Letter/Number Combinations",
+          "lesson": "LessonMSS05",
+          "exercise": 1,
+          "set": 1
+        },
+        {
+          "title": "Remembering More Longer Letter/Number Combinations",
+          "lesson": "LessonMSS05",
+          "exercise": 3,
+          "set": 1
+        },
+        {
+          "title": "Remembering Longest Letter/Number Combinations",
+          "lesson": "LessonMSS05",
+          "exercise": 1,
+          "set": 2
+        },
+        {
+          "title": "Remembering More Longest Letter/Number Combinations",
+          "lesson": "LessonMSS05",
+          "exercise": 3,
+          "set": 2
+        }
+      ]
+    },
+    "PL-MSS-06": {
+      "title": "Making Sentences From Memory",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonMMI01",
+          "exercise": 0,
+          "set": 3
+        }
+      ]
+    },
+    "PL-MSU-01": {
+      "title": "Remembering Numbers Forward - Visual",
+      "practices": [
+        {
+          "title": "Three Numbers",
+          "lesson": "LessonMSS01",
+          "exercise": 1,
+          "set": 2
+        },
+        {
+          "title": "Four Numbers",
+          "lesson": "LessonMSS01",
+          "exercise": 1,
+          "set": 3
+        },
+        {
+          "title": "Five Numbers",
+          "lesson": "LessonMSS01",
+          "exercise": 1,
+          "set": 4
+        },
+        {
+          "title": "Six Numbers",
+          "lesson": "LessonMSS01",
+          "exercise": 1,
+          "set": 5
+        }
+      ]
+    },
+    "PL-MSU-02": {
+      "title": "Remembering Numbers Forward - Auditory",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonMSS02",
+          "exercise": 1,
+          "set": 2
+        }
+      ]
+    },
+    "PL-NSI-02": {
+      "title": "Shapes In Transition",
+      "practices": [
+        {
+          "title": "Practice One",
+          "lesson": "LessonNSI01",
+          "exercise": 0
+        },
+        {
+          "title": "Practice Two",
+          "lesson": "LessonNSI01",
+          "exercise": 1
+        },
+        {
+          "title": "Practice Three",
+          "lesson": "LessonNSI01",
+          "exercise": 2
+        },
+        {
+          "title": "Practice Four",
+          "lesson": "LessonNSI01",
+          "exercise": 3
+        }
+      ]
+    }
+  }
+}

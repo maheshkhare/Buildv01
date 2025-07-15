@@ -1,0 +1,1 @@
+﻿Vous déplacez un mot dans une liste en cliquant sur l'espace disponible suivant dans cette liste.

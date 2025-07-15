@@ -1,0 +1,59 @@
+{
+  "Level1": [
+    {
+      "Instruction": "Instructions: The picture below is a seaside. How many words of 3 or more letters can you make from S-E-A-S-I-D-E? Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once.",
+      "QuestionArr_01": "Instructions: The picture shows a seaside. How many words of 3 or more letters can you make from S-E-A-S-I-D-E? Click a blank, then click a letter below to fill in the word.",
+      "Image": "seasideImg",
+       "Type": "LetterFill",
+      "Symbols": [
+        { "id": 1, "symbol": "S", "value": "S" },
+        { "id": 2, "symbol": "A", "value": "A" },
+        { "id": 3, "symbol": "D", "value": "D" },
+        { "id": 4, "symbol": "E", "value": "E" },
+        { "id": 5, "symbol": "I", "value": "I" }
+        ],
+      "Blanks": [
+        { "id": 1, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "", "CorrectValue": "SEA" },
+        { "id": 2, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "", "CorrectValue": "SAD" },
+        { "id": 3, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "D", "CorrectValue": "SAID" },
+        { "id": 4, "firstSymbol": "E", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "E", "CorrectValue": "EASE" },
+        { "id": 5, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "E",  "CorrectValue": "SIDE" },
+        { "id": 6, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "D",  "CorrectValue": "SEED" },
+        { "id": 7, "firstSymbol": "A", "1stBlankValue": "","2ndBlankValue": "","3rdBlankValue": "","lastSymbol": "E",  "CorrectValue": "ASIDE" },
+        { "id": 8, "firstSymbol": "I", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "A", "CorrectValue": "IDEA" }
+      ]
+    }
+  ],
+   "Level11": [
+    {
+      "Instruction": " Instructions: The picture below is of a pancake. How many words of 3 or more letters can you make from P-A-N-C-A-K-E. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once",
+      "QuestionArr_01": " Instructions: The picture below is of a pancake. How many words of 3 or more letters can you make from P-A-N-C-A-K-E. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once.",
+      "Image": "pancake",
+       "Type": "LetterFill",
+      "Symbols": [
+        { "id": 1, "symbol": "P", "value": "P" },
+        { "id": 2, "symbol": "A", "value": "A" },
+        { "id": 3, "symbol": "N", "value": "N" },
+        { "id": 4, "symbol": "C", "value": "C" },
+        { "id": 5, "symbol": "A", "value": "A" },
+        { "id": 6, "symbol": "K", "value": "K" },
+        { "id": 7, "symbol": "E", "value": "E" }
+        ],
+      "Blanks": [
+        { "id": 1, "firstSymbol": "A", "1stBlankValue": "","lastSymbol": "E","CorrectValue": "APE" },
+        { "id": 2, "firstSymbol": "P", "1stBlankValue": "","lastSymbol": "N", "CorrectValue": "PAN" },
+        { "id": 3, "firstSymbol": "P", "1stBlankValue": "","lastSymbol": "N", "CorrectValue": "PEN" },
+        { "id": 4, "firstSymbol": "N", "1stBlankValue": "","lastSymbol": "P", "CorrectValue": "NAP" },
+        { "id": 5, "firstSymbol": "N", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "E",  "CorrectValue": "NAPE" },
+        { "id": 6, "firstSymbol": "P", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "E",  "CorrectValue": "PANE" },
+        { "id": 7, "firstSymbol": "C", "1stBlankValue": "","lastSymbol": "N","CorrectValue": "CAN" },
+        { "id": 8, "firstSymbol": "C", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "E",  "CorrectValue": "CANE" },
+        { "id": 9, "firstSymbol": "P", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "K",  "CorrectValue": "PEAK" },
+        { "id": 10, "firstSymbol": "C", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "E",  "CorrectValue": "CAPE" },
+        { "id": 11, "firstSymbol": "P", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "K",  "CorrectValue": "PECK" },
+        { "id": 12, "firstSymbol": "P", "1stBlankValue": "","2ndBlankValue": "","3rdBlankValue": "","lastSymbol": "N",  "CorrectValue": "PECAN" },
+        { "id": 13, "firstSymbol": "N", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "K", "CorrectValue": "NECK" }
+      ]
+    }
+  ]
+}

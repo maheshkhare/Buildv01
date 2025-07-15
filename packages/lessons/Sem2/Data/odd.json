@@ -1,0 +1,12 @@
+{
+  "instructionText": "Please follow the sequence and choose the correct answer.",
+  "questions": [
+    {
+      "options": [
+        { "label": "I", "isCorrect": false },
+        { "label": "I", "isCorrect": false },
+        { "label": "K", "isCorrect": true }
+      ]
+    }
+  ]
+}
