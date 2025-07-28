@@ -36,7 +36,7 @@ function getParameter(){
        lessonID = urlParams.get('id')
        sesTokenID = urlParams.get('TokenID')
 
- const jsonFile = urlParams.get('lessonJSON');         // e.g., 'lesson1'
+ const jsonFile = urlParams.get('lessonJSON');        
          const questionCount = parseInt(urlParams.get('questionCount')); 
          sessionStorage.setItem('jsonFile', jsonFile);
        sessionStorage.setItem('questionCount', questionCount);

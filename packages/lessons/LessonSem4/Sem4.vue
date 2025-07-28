@@ -76,6 +76,26 @@
     </template>
   </OneToThreeVertical>
 </template>
+
+<style scoped>
+:deep(button),
+:deep(.option-box),
+:deep(.blank-option),
+:deep(.nav-button) {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+:deep(.quiz-container),
+:deep(.main-layout),
+:deep(.section-wrapper) {
+  overflow: visible !important;
+  transform: none !important;
+  position: relative;
+}
+</style>
+
 <script>
 import 'CSS/tailwind.css'
 import baseMixin from 'Scripts/mixinBaseLesson'
@@ -85,6 +105,8 @@ import SectionSem4Intro from 'Lessons/LessonSem4/components/SectionSem4Intro'
 import resultPopup from '../resultPopup.vue'
 import topHeader from '../topHeader.vue'
 import axios from 'axios'
+
+
 
 export default {
   name: 'Sem4',
@@ -276,7 +298,7 @@ practice0() {
       if (remaining > 0) remaining--;
 
       const shuffled = levelItems.slice().sort(() => Math.random() - 0.5);
-      const subset = shuffled.slice(0, count).map(item => ({
+      const subset = levelItems.slice(0, count).map(item => ({
         ...item,
         __index: levelItems.indexOf(item),
         __level: levelKey
@@ -455,6 +477,9 @@ if (this.isLetterFillMode) {
     if (blank["2ndBlankValue"]) userAnswer += blank["2ndBlankValue"];
     if (blank["3rdBlankValue"]) userAnswer += blank["3rdBlankValue"];
     if (blank["4thBlankValue"]) userAnswer += blank["4thBlankValue"];
+    if (blank["5thBlankValue"]) userAnswer += blank["5thBlankValue"];
+    if (blank["6thBlankValue"]) userAnswer += blank["6thBlankValue"];
+    if (blank["7thBlankValue"]) userAnswer += blank["7thBlankValue"];
 
     if (blank.lastSymbol) userAnswer += blank.lastSymbol;
 
