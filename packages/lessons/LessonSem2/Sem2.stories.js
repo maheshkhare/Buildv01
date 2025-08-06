@@ -25,7 +25,7 @@ export const Practice = () => ({
     };
   },
 async created() {
-  const fileName = sessionStorage.getItem('jsonFile') || 'lessonCFS-I';
+  const fileName = sessionStorage.getItem('jsonFile') || 'lessonCFS-I-1';
   const questionCount = parseInt(sessionStorage.getItem('questionCount')) || 0;
   const levelRange = sessionStorage.getItem('Exe_Number'); // e.g. '1-5'
 
@@ -74,6 +74,7 @@ async created() {
           if (remaining <= 0) break;
 
           const groupQuestions = group.questions || [];
+          
           const needed = Math.min(groupQuestions.length, perLevelCount - pickedCount, remaining);
 
           if (needed > 0) {

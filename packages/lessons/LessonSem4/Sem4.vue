@@ -77,25 +77,6 @@
   </OneToThreeVertical>
 </template>
 
-<style scoped>
-:deep(button),
-:deep(.option-box),
-:deep(.blank-option),
-:deep(.nav-button) {
-  position: relative;
-  z-index: 10;
-  pointer-events: auto;
-}
-
-:deep(.quiz-container),
-:deep(.main-layout),
-:deep(.section-wrapper) {
-  overflow: visible !important;
-  transform: none !important;
-  position: relative;
-}
-</style>
-
 <script>
 import 'CSS/tailwind.css'
 import baseMixin from 'Scripts/mixinBaseLesson'
@@ -104,9 +85,6 @@ import SectionSem4Top from 'Lessons/LessonSem4/components/SectionSem4Top'
 import SectionSem4Intro from 'Lessons/LessonSem4/components/SectionSem4Intro'
 import resultPopup from '../resultPopup.vue'
 import topHeader from '../topHeader.vue'
-import axios from 'axios'
-
-
 
 export default {
   name: 'Sem4',
@@ -141,7 +119,6 @@ export default {
   },
 
  isLetterFillMode() {
-  console.log("dfghjk: ", this.activityQuestions?.Level1?.[0]?.Image);
    return this.currentQuestion?.Type === 'LetterFill';
   }
 },
@@ -187,51 +164,60 @@ export default {
   },
 
 async mounted() {
-  const fileName = sessionStorage.getItem('jsonFile') || 'lesson1'
+  const fileName = sessionStorage.getItem('jsonFile') || 'CST-II'
   const jsonFileName = `lesson${fileName.toUpperCase()}.json`
   const totalQsRaw = parseInt(sessionStorage.getItem('questionCount')) || 15
 
- try {
-  const response = require(`./Data/${jsonFileName}`);
-  this.activityQuestions = response;
-  this.symbolColorMap = response.colorMap;
-} catch (error) {
-  alert(`Failed to load JSON: ${jsonFileName}`);
-  console.error(error);
-}
-
+  try {
+    const response = require(`./Data/${jsonFileName}`);
+    this.activityQuestions = response;
+    this.symbolColorMap = response.colorMap;
+  } catch (error) {
+    alert(`Failed to load JSON: ${jsonFileName}`);
+    console.error(error);
+    return;
+  }
 
   const exeNumRaw = sessionStorage.getItem('Exe_Number') || '1'
   this.selectedLevels = this.parseLevelRange(exeNumRaw)
 
   if (this.selectedLevels.includes(0)) {
-    alert('Invalid level')
-    return
+    alert('Invalid level');
+    return;
   }
 
   this.Total_Questions = totalQsRaw
   this.ProgressBar = Array(this.Total_Questions).fill(null).map((_, i) => ({ index: i }))
 
-  // New: Filter only levels that have questions
-  this.selectedLevels = this.selectedLevels.filter(level => {
+  // ✅ Filter only levels that have questions
+  let validLevels = this.selectedLevels.filter(level => {
     const key = `Level${level}`
     return Array.isArray(this.activityQuestions[key]) && this.activityQuestions[key].length > 0
-  })
+  });
+
+  // ✅ If no valid levels, fallback to all available levels in JSON
+  if (validLevels.length === 0) {
+    alert('Provided level(s) not found in JSON. Loading all available levels.');
+    validLevels = Object.keys(this.activityQuestions)
+      .filter(key => key.startsWith('Level') && Array.isArray(this.activityQuestions[key]) && this.activityQuestions[key].length > 0)
+      .map(key => parseInt(key.replace('Level', '')));
+  }
+
+  this.selectedLevels = validLevels;
 
   const totalAvailable = this.selectedLevels.reduce((sum, lvl) => {
-    const key = `Level${lvl}`
-    return sum + this.activityQuestions[key].length
+    const key = `Level${lvl}`;
+    return sum + this.activityQuestions[key].length;
   }, 0)
 
   if (totalAvailable < this.Total_Questions) {
-    this.Total_Questions = totalAvailable
+    this.Total_Questions = totalAvailable;
   }
 
-  this.componentSubtitle = 'Aiming Your Eyes'
+  this.componentSubtitle = 'Aiming Your Eyes';
 
-  this.run()
+  this.run();
 },
-
   
   methods: {
     parseLevelRange(raw) {
@@ -340,7 +326,6 @@ this.instructionText = this.activityQuestions[levelKey][0].Instruction || '';
   this.iconBlanksFromJson = [];
   this.commonNumArray = [];
 
-  console.log("✅ Rectangle Mode Activated:", this.rectangles, this.options);
   return;
 } else {
   this.isRectangleMode = false;
@@ -483,6 +468,24 @@ if (this.isLetterFillMode) {
 
     if (blank.lastSymbol) userAnswer += blank.lastSymbol;
 
+
+    // let userAnswer = blank.firstSymbol || '';
+
+// Dynamically include all keys ending in 'BlankValue'
+// const blankKeys = Object.keys(blank)
+//   .filter(key => /^\d+(st|nd|rd|th)BlankValue$/.test(key))
+//   .sort((a, b) => {
+//     // Extract the numeric part and sort numerically
+//     const getOrder = key => parseInt(key.match(/^(\d+)/)?.[1] || 0, 10);
+//     return getOrder(a) - getOrder(b);
+//   });
+
+// for (const key of blankKeys) {
+//   if (blank[key]) userAnswer += blank[key];
+// }
+
+// if (blank.lastSymbol) userAnswer += blank.lastSymbol;
+
     console.log(`Blank ${blank.id} → User: ${userAnswer} | Correct: ${blank.CorrectValue}`);
 
     if (userAnswer.length < 2) {
@@ -529,9 +532,6 @@ if (this.isLetterFillMode) {
         allFilled = false;
         break;
       }
-      // if (rect.chosenOption.letter !== rect.correctLetter) {
-      //   allCorrect = false;
-      // }
 
       if (typeof rect.chosenOption === 'string') {
       if (rect.chosenOption !== rect.correctLetter) {
@@ -546,6 +546,7 @@ if (this.isLetterFillMode) {
 
     if (!allFilled) {
       this.$toast?.warning('Please match all rectangles before moving on.');
+      console.log("This is the print statement"+allFilled);
       return;
     }
 
@@ -570,7 +571,6 @@ if (this.isLetterFillMode) {
       }
     }
   } else if (isBlanksQuestion) {
-    console.log('Checking blanks fill-in answer...');
 
     const correctMap = this.iconBlanksFromJson.reduce((acc, b) => {
       acc[b.id] = b.CorrectValue;
@@ -617,7 +617,6 @@ if (this.isLetterFillMode) {
       }
     }
   } else {
-    console.log('Checking normal option-based answer...');
     const hasAnswered = this.practiceList.some(q => q.id === questionId);
 
     if (!hasAnswered) {

@@ -6,7 +6,7 @@
     >
       <slot name="topContent"></slot>
     </div>
-    <div class="row-span-1 flex flex-auto">
+    <div class="row-span-1 flex flex-auto" style="pointer-events: none;">
       <slot name="bottomContent"></slot>
     </div>
   </div>

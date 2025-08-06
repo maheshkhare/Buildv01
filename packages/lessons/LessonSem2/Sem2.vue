@@ -8,12 +8,12 @@
             </div>
             <div class="rows-12 relative"></div>
             <div class="rows-12">
-                <div class="content-center justify-center border border-black p-10" style="margin: 2% 5% 5% 5%">
+                <div class="content-center justify-center border border-black p-10" style="margin: 2% 5% 5% 5%;">
                     <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed" :Questions_attempted="Questions_attempted" :correct_Answers="correct_Answers" :incorrect_Answers="incorrect_Answers" @FinalResult="FinalResult" :ResultHide="ResultHide" :ResultArrow="ResultArrow" />
 
                     <SectionSem2Intro v-show="InstructionShow" :instructionText="currentInstructionText" @PracticeNext="PracticeNext" />
 
-                    <SectionSem2Top v-show="PracticeOne" :accept-input="acceptInput" :commonNumArray="commonNumArray" :ImageNames="ImageNames" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @NextQuestion="NextQuestion" @PreviousQuestion="PreviousQuestion" @WordsAnswer="WordsAnswer" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :instructionText="currentInstructionText" :counter="counter" :imageSet="currentImageSet" />
+                    <SectionSem2Top v-show="PracticeOne" :accept-input="acceptInput" :commonNumArray="commonNumArray" :ImageNames="ImageNames" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @save-and-exit="SaveAndExitNow" @NextQuestion="NextQuestion" @PreviousQuestion="PreviousQuestion" @WordsAnswer="WordsAnswer" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :instructionText="currentInstructionText" :counter="counter" :imageSet="currentImageSet" />
                 </div>
             </div>
         </div>
@@ -105,8 +105,8 @@ export default {
         //     return imageSet;
         // },
         currentInstructionText() {
-            console.log("in computed areadfghjkjhgf" + this.instructionMap ?. [this.counter] || '');
-            return this.instructionMap ?. [this.counter] || '';
+            console.log("in computed areadfghjkjhgf" + this.instructionMap ?.[this.counter] || '');
+            return this.instructionMap ?.[this.counter] || '';
         }
     },
 
@@ -179,38 +179,54 @@ export default {
 
             this.questionStartTime = this.timestart;
             const current = this.questionSet[this.counter];
+
             this.ImageNames = current.image;
 
             const isAnswered = this.answeredState[this.counter];
-
             this.countcorrect = isAnswered ? 1 : 0;
 
-            // 👇 Only show "AnswerCheck" if question is unanswered
             this.AnswerCheckShow = !isAnswered;
             this.NextQuestionShow = isAnswered;
 
             this.matchedImageMode = !!current.imageSet;
 
             if (current.imageSet) {
-                // ✅ Create commonNumArray from imageSet
+                // If it's an imageSet question (like matching)
+                const userAnswer = this.CollectionResult.find(
+                    r => r.originalQuestionNo === this.counter + 1
+                );
+
+                const selectedIndices = userAnswer ?.userResponse || [];
+
                 this.commonNumArray = current.imageSet.map((item, i) => {
                     let state = 'unselected';
-                    if (isAnswered) {
+
+                    if (selectedIndices.includes(i)) {
                         state = item.isCorrect ? 'correct' : 'incorrect';
                     }
+
                     return {
                         index: i,
                         state,
-                        Question: item.label, // image filename
+                        Question: item.label,
                         Answer: item.isCorrect ? 'Yes' : ''
                     };
                 });
             } else if (current.options) {
+                // If it's a regular options question
+                const userAnswer = this.CollectionResult.find(
+                    r => r.originalQuestionNo === this.counter + 1
+                );
+
+                const selectedIndex = Number(userAnswer ?.userResponse);
+
                 this.commonNumArray = current.options.map((opt, i) => {
-                    let state = 'base';
-                    if (isAnswered) {
-                        state = opt.isCorrect ? 'correct' : 'incorrect';
+                    let state = 'unselected';
+
+                    if (isAnswered && i === selectedIndex) {
+                        state = 'selected';
                     }
+
                     return {
                         index: i,
                         state,
@@ -221,80 +237,81 @@ export default {
             } else {
                 this.commonNumArray = [];
             }
+
+            // Optional: Debug log
+            console.log("practice0 → commonNumArray:", JSON.stringify(this.commonNumArray, null, 2));
         },
 
-WordsAnswer(Answer, index) {
-  if (!this.matchedImageMode) {
-    // ✅ Regular word-based option → auto check on select
-    this.commonNumArray.forEach(opt => {
-      opt.state = 'unselected';
-    });
+        WordsAnswer(Answer, index) {
+            if (!this.matchedImageMode) {
+                // ✅ Regular word-based option → auto check on select
+                this.commonNumArray.forEach(opt => {
+                    opt.state = 'unselected';
+                });
 
-    this.commonNumArray[index].state = 'selected';
-    this.lastSelectedIndex = index;
+                this.commonNumArray[index].state = 'selected';
+                this.lastSelectedIndex = index;
 
-    // Do not lock yet! Remove these:
-    // this.countcorrect = 1;
-    // this.answeredState[this.counter] = true;
+                // Do not lock yet! Remove these:
+                // this.countcorrect = 1;
+                // this.answeredState[this.counter] = true;
 
-    // Also: Do not push result or update progress bar yet.
-    // Just mark the option visually selected.
+                // Also: Do not push result or update progress bar yet.
+                // Just mark the option visually selected.
 
-    this.AnswerCheckShow = false;
-    this.NextQuestionShow = true;
-  } else {
-    // ✅ IMAGE MATCH MODE unchanged
-    const selectedIndex = this.selectedIndices.indexOf(index);
+                this.AnswerCheckShow = false;
+                this.NextQuestionShow = true;
+            } else {
+                // ✅ IMAGE MATCH MODE unchanged
+                const selectedIndex = this.selectedIndices.indexOf(index);
 
-    if (selectedIndex > -1) {
-      this.selectedIndices.splice(selectedIndex, 1);
-      this.commonNumArray[index].state = 'unselected';
-    } else {
-      this.selectedIndices.push(index);
-      this.commonNumArray[index].state = 'selected';
-    }
+                if (selectedIndex > -1) {
+                    this.selectedIndices.splice(selectedIndex, 1);
+                    this.commonNumArray[index].state = 'unselected';
+                } else {
+                    this.selectedIndices.push(index);
+                    this.commonNumArray[index].state = 'selected';
+                }
 
-    if (this.selectedIndices.length === 2) {
-      const [i1, i2] = this.selectedIndices;
-      const img1 = this.commonNumArray[i1];
-      const img2 = this.commonNumArray[i2];
+                if (this.selectedIndices.length === 2) {
+                    const [i1, i2] = this.selectedIndices;
+                    const img1 = this.commonNumArray[i1];
+                    const img2 = this.commonNumArray[i2];
 
-      const isMatch = img1.Question === img2.Question && img1.Answer === 'Yes' && img2.Answer === 'Yes';
+                    const isMatch = img1.Question === img2.Question && img1.Answer === 'Yes' && img2.Answer === 'Yes';
 
-      if (isMatch) {
-        this.commonNumArray[i1].state = 'correct';
-        this.commonNumArray[i2].state = 'correct';
-        this.ProgressBar[this.TestProgressBar].state = 'correct';
-        this.correct_Answers++;
-      } else {
-        this.commonNumArray[i1].state = 'incorrect';
-        this.commonNumArray[i2].state = 'incorrect';
-        this.ProgressBar[this.TestProgressBar].state = 'incorrect';
-        this.incorrect_Answers++;
-      }
+                    if (isMatch) {
+                        this.commonNumArray[i1].state = 'correct';
+                        this.commonNumArray[i2].state = 'correct';
+                        this.ProgressBar[this.TestProgressBar].state = 'correct';
+                        this.correct_Answers++;
+                    } else {
+                        this.commonNumArray[i1].state = 'incorrect';
+                        this.commonNumArray[i2].state = 'incorrect';
+                        this.ProgressBar[this.TestProgressBar].state = 'incorrect';
+                        this.incorrect_Answers++;
+                    }
 
-      this.countcorrect = 1;
-      this.answeredState[this.counter] = true;
-      this.Questions_attempted++;
-      this.TestProgressBar++;
-      this.AnswerCheckShow = false;
-      this.NextQuestionShow = true;
+                    this.countcorrect = 1;
+                    this.answeredState[this.counter] = true;
+                    this.Questions_attempted++;
+                    this.TestProgressBar++;
+                    this.AnswerCheckShow = false;
+                    this.NextQuestionShow = true;
 
-      this.CollectionResult.push({
-        questionNo: this.counter + 1,
-        originalQuestionNo: this.questionSet[this.counter].id || this.counter + 1,
-        level: this.questionSet[this.counter].level || 'Level1',
-        userResponse: isMatch ? `${i1 + 1},${i2 + 1}` : 'Mismatch',
-        fullCorrectAnswer: this.commonNumArray.map(opt => opt.Answer),
-        timeTaken: (this.timestart - this.questionStartTime) ?? 0.0
-      });
+                    this.CollectionResult.push({
+                        questionNo: this.counter + 1,
+                        originalQuestionNo: this.questionSet[this.counter].id || this.counter + 1,
+                        level: this.questionSet[this.counter].level || 'Level1',
+                        userResponse: isMatch ? `${i1 + 1},${i2 + 1}` : 'Mismatch',
+                        fullCorrectAnswer: this.commonNumArray.map(opt => opt.Answer),
+                        timeTaken: (this.timestart - this.questionStartTime) ?? 0.0
+                    });
 
-      this.selectedIndices = [];
-    }
-  }
-},
-
-
+                    this.selectedIndices = [];
+                }
+            }
+        },
 
         AnswerCheck() {
             if (!this.matchedImageMode) {
@@ -332,7 +349,6 @@ WordsAnswer(Answer, index) {
                         fullCorrectAnswer: this.commonNumArray.map(opt => opt.Answer),
                         timeTaken: (this.timestart - this.questionStartTime) ?? 0.0
                     });
-                    
 
                     this.AnswerCheckShow = false;
                     this.NextQuestionShow = true;
@@ -345,61 +361,110 @@ WordsAnswer(Answer, index) {
             if (this.counter > 0) {
                 this.counter--;
                 this.practice0();
+
+                console.log("userAnswer: " + JSON.stringify(this.commonNumArray, null, 2));
             }
         },
 
-     NextQuestion() {
-  if (!this.answeredState[this.counter]) {
-    // Finalize answer for word-based
-    const index = this.lastSelectedIndex;
-    if (index !== undefined) {
-      const Answer = this.commonNumArray[index].Answer;
-      const isCorrect = Answer === 'Yes';
+        NextQuestion() {
+            if (!this.answeredState[this.counter]) {
+                // Finalize answer for word-based
+                const index = this.lastSelectedIndex;
+                if (index !== undefined) {
+                    const Answer = this.commonNumArray[index].Answer;
+                    const isCorrect = Answer === 'Yes';
 
-      this.countcorrect = 1;
-      this.TestProgressBar++;
-      this.ProgressBar[this.TestProgressBar - 1].state = isCorrect ? 'correct' : 'incorrect';
-      this.commonNumArray[index].state = isCorrect ? 'correct' : 'incorrect';
+                    this.countcorrect = 1;
+                    this.TestProgressBar++;
+                    this.ProgressBar[this.TestProgressBar - 1].state = isCorrect ? 'correct' : 'incorrect';
+                    this.commonNumArray[index].state = isCorrect ? 'correct' : 'incorrect';
 
-      if (isCorrect) this.correct_Answers++;
-      else this.incorrect_Answers++;
+                    if (isCorrect) this.correct_Answers++;
+                    else this.incorrect_Answers++;
 
-      this.answeredState[this.counter] = true;
-      this.Questions_attempted++;
+                    this.answeredState[this.counter] = true;
+                    this.Questions_attempted++;
 
-      this.CollectionResult.push({
-        questionNo: this.Questions_attempted,
-        originalQuestionNo: this.questionSet[this.counter].id || this.counter + 1,
-        level: this.questionSet[this.counter].level || 'Level1',
-        userResponse: (index + 1).toString(),
-        fullCorrectAnswer: this.commonNumArray.map(opt => opt.Answer),
-        timeTaken: (this.timestart - this.questionStartTime) ?? 0.0
-      });
+                    this.CollectionResult.push({
+                        questionNo: this.Questions_attempted,
+                        originalQuestionNo: this.questionSet[this.counter].id || this.counter + 1,
+                        level: this.questionSet[this.counter].level || 'Level1',
+                        userResponse: (index + 1).toString(),
+                        fullCorrectAnswer: this.commonNumArray.map(opt => opt.Answer),
+                        timeTaken: (this.timestart - this.questionStartTime) ?? 0.0
+                    });
+                }
+            }
+
+            // ✅ Then move next as normal
+            if (this.counter < this.Total_Questions - 1) {
+                this.counter++;
+                this.countcorrect = 0;
+                this.lastSelectedIndex = undefined;
+                this.practice0();
+            } else {
+                this.activity_Status = 'Completed';
+                this.Time_elapsed = this.secondsToTime(this.timestart);
+                this.resultShow = true;
+                this.PracticeOne = false;
+                this.ResultHide = true;
+
+                this.JsonArrData = JSON.stringify({
+                    ActivityStatus: this.activity_Status,
+                    TimeElapsed: this.Time_elapsed,
+                    QuestionsAttempted: this.Questions_attempted,
+                    CorrectAnswers: this.correct_Answers,
+                    IncorrectAnswers: this.incorrect_Answers,
+                    ExerciseNumber: this.exercise
+                });
+            }
+        },
+
+        SaveAndExitNow() {
+    if (!this.answeredState[this.counter]) {
+        const index = this.lastSelectedIndex;
+        if (index !== undefined) {
+            const Answer = this.commonNumArray[index].Answer;
+            const isCorrect = Answer === 'Yes';
+
+            this.countcorrect = 1;
+            this.TestProgressBar++;
+            this.ProgressBar[this.TestProgressBar - 1].state = isCorrect ? 'correct' : 'incorrect';
+            this.commonNumArray[index].state = isCorrect ? 'correct' : 'incorrect';
+
+            if (isCorrect) this.correct_Answers++;
+            else this.incorrect_Answers++;
+
+            this.answeredState[this.counter] = true;
+            this.Questions_attempted++;
+
+            this.CollectionResult.push({
+                questionNo: this.Questions_attempted,
+                originalQuestionNo: this.questionSet[this.counter].id || this.counter + 1,
+                level: this.questionSet[this.counter].level || 'Level1',
+                userResponse: (index + 1).toString(),
+                fullCorrectAnswer: this.commonNumArray.map(opt => opt.Answer),
+                timeTaken: (this.timestart - this.questionStartTime) ?? 0.0
+            });
+        }
     }
-  }
 
-  // ✅ Then move next as normal
-  if (this.counter < this.Total_Questions - 1) {
-    this.counter++;
-    this.countcorrect = 0;
-    this.lastSelectedIndex = undefined;
-    this.practice0();
-  } else {
-    this.activity_Status = 'Completed';
+    // Mark status
+    this.activity_Status = 'PartiallyCompleted';
     this.Time_elapsed = this.secondsToTime(this.timestart);
-    this.resultShow = true;
-    this.PracticeOne = false;
-    this.ResultHide = true;
 
-    this.JsonArrData = JSON.stringify({
-      ActivityStatus: this.activity_Status,
-      TimeElapsed: this.Time_elapsed,
-      QuestionsAttempted: this.Questions_attempted,
-      CorrectAnswers: this.correct_Answers,
-      IncorrectAnswers: this.incorrect_Answers,
-      ExerciseNumber: this.exercise
-    });
-  }
+                this.resultShow = true;
+                this.PracticeOne = false;
+                this.ResultHide = true;
+
+                this.JsonArrData = JSON.stringify({
+                    ActivityStatus: this.activity_Status,
+                    TimeElapsed: this.Time_elapsed,
+                    QuestionsAttempted: this.Questions_attempted,
+                    CorrectAnswers: this.correct_Answers,
+                    IncorrectAnswers: this.incorrect_Answers,
+                    ExerciseNumber: this.exercise
+                });
 },
 
 
@@ -411,6 +476,7 @@ WordsAnswer(Answer, index) {
                     totalTimeElapsed: this.timestart,
                     questionsAttempted: this.Questions_attempted,
                     correctAnswers: this.correct_Answers,
+                    attemptedQuestionNumbers: this.CollectionResult.map(q => q.originalQuestionNo),
                     incorrectAnswers: this.incorrect_Answers,
                     testDate: new Date().toISOString()
                 },
