@@ -255,14 +255,12 @@ export default {
       const jsonFileName = `Lesson${jsonParam}.json`;
       const response = await import(`./data/${jsonFileName}`);
 
-      // Parse URL or session params
       const urlParams = new URLSearchParams(window.location.search);
       this.questionLimit = parseInt(urlParams.get('questionCount')) || null;
       this.Exercise_Number = urlParams.get('Exe_Number') || sessionStorage.getItem("Exe_Number") || '1';
 
       this.activityQuestions = response.default || response;
 
-      // Process word sets with level range + adjusted questionLimit
       this.processWordSets();
 
       this.initializeComponent();
