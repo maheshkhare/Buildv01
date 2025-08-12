@@ -78,9 +78,17 @@
         </div>
 
 
-        <button @click="handleSaveAndExit">
-  Save and Exit
-</button>
+<div class="flex justify-center mt-2">
+  <button 
+    @click="handleSaveAndExit"
+    class="text-blue-700 font-semibold cursor-pointer px-3 py-1 rounded hover:bg-blue-100 inline-block"
+    style="font-size: 18px; margin-left: 22px;"
+  >
+    💾 Save and Exit
+  </button>
+</div>
+
+
 
     </div>
 </div>
@@ -134,12 +142,10 @@ export default {
     },
 
     mounted() {
-        console.log("📘 instructionText received in SectionCFSI1WBMTop:", this.instructionText);
     },
 
     methods: {
        handleSaveAndExit() {
-    console.log("Saving progress and exiting...");
     this.$emit('save-and-exit');
   },
         WordsAnswer(Answer, index) {

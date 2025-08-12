@@ -73,8 +73,9 @@ async created() {
         for (const group of setsForLevel) {
           if (remaining <= 0) break;
 
-          const groupQuestions = group.questions || [];
-          
+          // const groupQuestions = group.questions || [];
+          const groupQuestions = (group.questions || []).slice().sort(() => Math.random() - 0.5);
+
           const needed = Math.min(groupQuestions.length, perLevelCount - pickedCount, remaining);
 
           if (needed > 0) {
@@ -129,7 +130,7 @@ async created() {
       instructionSets: finalSets
     };
 
-    console.log("✅ Final sets:", finalSets);
+    console.log("✅ Final sets-------:", finalSets);
 
   } catch (error) {
     alert(`Failed to load JSON: ${fileName}.json`);

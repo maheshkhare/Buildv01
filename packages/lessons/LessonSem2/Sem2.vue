@@ -91,21 +91,13 @@ export default {
             matchedImageMode: false,
             instructionGroups: [],
             instructionMap: [],
+            questionNoMap: [],
             componentSubtitle: 'CFS-I-1-V-I',
             questionStartTime: 0
         };
     },
     computed: {
-        // currentImageSet() {
-        //     const imageSet = (this.questionSet && this.questionSet[this.counter] && this.questionSet[this.counter].imageSet) ?
-        //         this.questionSet[this.counter].imageSet :
-        //         null;
-
-        //     console.log("🔍 computed.currentImageSet triggered:", imageSet);
-        //     return imageSet;
-        // },
         currentInstructionText() {
-            console.log("in computed areadfghjkjhgf" + this.instructionMap ?.[this.counter] || '');
             return this.instructionMap ?.[this.counter] || '';
         }
     },
@@ -113,21 +105,24 @@ export default {
     mounted() {
         if (this.lessonData.instructionSets) {
             this.instructionMap = [];
+            this.questionNoMap = [];
             this.questionSet = [];
             this.instructionGroups = this.lessonData.instructionSets;
-            console.log("activity Name" + this.lessonData.activityName);
             if (this.lessonData.activityName) {
                 this.componentSubtitle = this.lessonData.activityName;
             }
+            
+            // Optional: Debug log
+            console.log("lesson Data:", JSON.stringify(this.lessonData.instructionSets, null, 2));
 
             this.instructionGroups.forEach(group => {
-
                 group.questions.forEach(q => {
                     this.questionSet.push(q);
-                    this.instructionMap.push(q.instructionText || ''); // One instruction per question
-                    console.log("in mounted" + this.instructionMap);
+                    this.instructionMap.push(q.instructionText || ''); 
+                    this.questionNoMap.push(q.questionNo || 0); 
                 });
             });
+            console.log("QuestionNumbers:", JSON.stringify(this.questionNoMap, null, 2));
 
             this.Total_Questions = this.questionSet.length;
             this.answeredState = Array(this.Total_Questions).fill(false);
@@ -237,9 +232,6 @@ export default {
             } else {
                 this.commonNumArray = [];
             }
-
-            // Optional: Debug log
-            console.log("practice0 → commonNumArray:", JSON.stringify(this.commonNumArray, null, 2));
         },
 
         WordsAnswer(Answer, index) {
@@ -299,8 +291,9 @@ export default {
                     this.AnswerCheckShow = false;
                     this.NextQuestionShow = true;
 
+
                     this.CollectionResult.push({
-                        questionNo: this.counter + 1,
+                        questionNo: this.questionNoMap[this.counter] || this.counter + 1,
                         originalQuestionNo: this.questionSet[this.counter].id || this.counter + 1,
                         level: this.questionSet[this.counter].level || 'Level1',
                         userResponse: isMatch ? `${i1 + 1},${i2 + 1}` : 'Mismatch',
@@ -342,7 +335,7 @@ export default {
                     this.Questions_attempted++;
 
                     this.CollectionResult.push({
-                        questionNo: this.Questions_attempted + 1,
+                        questionNo: this.questionNoMap[this.counter] || this.Questions_attempted + 1,
                         originalQuestionNo: this.questionSet[this.counter].id || this.counter + 1,
                         level: this.questionSet[this.counter].level || 'Level1',
                         userResponse: (index + 1).toString(),
@@ -361,8 +354,6 @@ export default {
             if (this.counter > 0) {
                 this.counter--;
                 this.practice0();
-
-                console.log("userAnswer: " + JSON.stringify(this.commonNumArray, null, 2));
             }
         },
 
@@ -386,7 +377,7 @@ export default {
                     this.Questions_attempted++;
 
                     this.CollectionResult.push({
-                        questionNo: this.Questions_attempted,
+                        questionNo: this.questionNoMap[this.counter] || this.Questions_attempted,
                         originalQuestionNo: this.questionSet[this.counter].id || this.counter + 1,
                         level: this.questionSet[this.counter].level || 'Level1',
                         userResponse: (index + 1).toString(),
@@ -439,7 +430,7 @@ export default {
             this.Questions_attempted++;
 
             this.CollectionResult.push({
-                questionNo: this.Questions_attempted,
+                questionNo: this.questionNoMap[this.counter] || this.Questions_attempted,
                 originalQuestionNo: this.questionSet[this.counter].id || this.counter + 1,
                 level: this.questionSet[this.counter].level || 'Level1',
                 userResponse: (index + 1).toString(),
@@ -476,7 +467,7 @@ export default {
                     totalTimeElapsed: this.timestart,
                     questionsAttempted: this.Questions_attempted,
                     correctAnswers: this.correct_Answers,
-                    attemptedQuestionNumbers: this.CollectionResult.map(q => q.originalQuestionNo),
+                    attemptedQuestionNumbers: this.CollectionResult.map(q => q.questionNo),
                     incorrectAnswers: this.incorrect_Answers,
                     testDate: new Date().toISOString()
                 },

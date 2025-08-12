@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Path to your JSON file
-const filePath = path.join(__dirname, 'lessons', 'LessonSem2', 'Data', 'lessonCFS-I-1 copy.json');
+const filePath = path.join(__dirname, 'lessons', 'LessonSem2', 'Data', 'changeQuestionNo.json');
 
 try {
   // Read and parse the JSON file
