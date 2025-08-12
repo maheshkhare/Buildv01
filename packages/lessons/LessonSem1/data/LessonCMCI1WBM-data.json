@@ -1,0 +1,407 @@
+{
+  "sets": {
+    "level1": [
+      {
+        "id": "Set0_0",
+        "categories": [
+          {
+            "name": "Things_with_tails",
+            "displayName": "Things with tails",
+            "words": ["Crocodiles", "Horse", "Puppy", "Arrow", "Unicorn", "Anacondas"]
+          },
+          {
+            "name": "Outdoor_Activities",
+            "displayName": "Outdoor Activities",
+            "words": ["Skiing", "Riding", "Jogging", "Diving", "Basketball", "Driving", "Picnic"]
+          }
+        ]
+      },
+      {
+        "id": "Set0_1",
+        "categories": [
+          {
+            "name": "Things_that_are_cold",
+            "displayName": "Things that are cold",
+            "words": ["Cucumber", "Frost", "Glacier", "Hail", "Igloo", "Jelly"]
+          },
+          {
+            "name": "Hobbies",
+            "displayName": "Hobbies",
+            "words": ["Writing", "Blogging", "Gardening", "Hiking", "Painting", "Swimming", "Origami"]
+          }
+        ]
+      },
+      {
+        "id": "Set0_2",
+        "categories": [
+          {
+            "name": "Sports_that_use_a_ball",
+            "displayName": "Sports that use a ball",
+            "words": ["Golf", "Hockey", "Cricket", "Tennis", "Soccer", "Basketball", "Volleyball"]
+          },
+          {
+            "name": "Things_that_rotate",
+            "displayName": "Things that rotate",
+            "words": ["Chair", "Fan", "Planets", "Wheels", "Disc", "Gears", "Windmill"]
+          }
+        ]
+      }
+    ],
+    "level2": [
+      {
+        "id": "Set1_0",
+        "categories": [
+          {
+            "name": "Things_You_Can_Do",
+            "displayName": "Things You Can Do",
+            "words": ["Play", "Look", "Eat", "Sleep", "Work", "Run", "Jump", "Sing", "Dance"]
+          },
+          {
+            "name": "Places",
+            "displayName": "Places",
+            "words": ["Barn", "Circus", "Bank", "Street", "Home", "Store", "Park", "School"]
+          },
+          {
+            "name": "People1",
+            "displayName": "People",
+            "words": ["Friend", "Mr.", "Mrs.", "She", "Aunt", "Boy", "Father", "Mother"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_1",
+        "categories": [
+          {
+            "name": "When",
+            "displayName": "When",
+            "words": ["Next", "Now", "Soon", "Later"]
+          },
+          {
+            "name": "People2",
+            "displayName": "People",
+            "words": ["We", "She", "He", "I", "You", "Me", "Painter"]
+          },
+          {
+            "name": "Things_You_Can_Touch",
+            "displayName": "Things You Can Touch",
+            "words": ["Bus", "Book", "Bag", "Something", "Pocket", "Grass", "House", "School"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_2",
+        "categories": [
+          {
+            "name": "Things_You_Can_Play_With",
+            "displayName": "Things You Can Play With",
+            "words": ["Cards", "Puppet", "Video", "Stick"]
+          },
+          {
+            "name": "Ways_You_Can_Feel1",
+            "displayName": "Ways You Can Feel",
+            "words": ["Suprised", "Lucky", "Strange", "Silly", "Afraid", "Terrible", "Funny"]
+          },
+          {
+            "name": "Where",
+            "displayName": "Where",
+            "words": ["Inside", "Behind", "Ahead", "Around", "Outside"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_3",
+        "categories": [
+          {
+            "name": "Toys_Can_Be",
+            "displayName": "Toys Can Be",
+            "words": ["Fun", "Broken", "Soft"]
+          },
+          {
+            "name": "To_Do_With_House",
+            "displayName": "To Do With House",
+            "words": ["Window", "Stairs", "Chimney", "Bed", "Roof", "Ranch"]
+          },
+          {
+            "name": "Things_You_Find_Outside",
+            "displayName": "Things You Find Outside",
+            "words": ["Sea", "Road", "River", "Ranch", "Rock", "Window", "Stairs", "Chimney", "Bed", "Roof"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_4",
+        "categories": [
+          {
+            "name": "Things_Used_In_Cooking",
+            "displayName": "Things Used In Cooking",
+            "words": ["Soup", "Flour", "Oven", "Kitchen", "Pan"]
+          },
+          {
+            "name": "Things_You_Can_Listen_To",
+            "displayName": "Things You Can Listen To",
+            "words": ["Story", "Music", "Radio"]
+          },
+          {
+            "name": "Ways_People_Can_Feel",
+            "displayName": "Ways People Can Feel",
+            "words": ["Friendly", "Safe", "Proud", "Wise", "Unhappy", "Sorry", "Tired"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_5",
+        "categories": [
+          {
+            "name": "People3",
+            "displayName": "People",
+            "words": ["Thief", "Fisherman", "Tribe", "Team", "Mayor", "Crowd"]
+          },
+          {
+            "name": "Animals1",
+            "displayName": "Animals",
+            "words": ["Donkey", "Sheep", "Whale", "Buffalo", "Raccoon", "Deer", "Chipmunk", "Beaver"]
+          },
+          {
+            "name": "Things_To_Walk_On",
+            "displayName": "Things To Walk On",
+            "words": ["Stairs", "Shore", "Land", "Stage", "Highway", "Path"]
+          }
+        ]
+      }
+    ],
+    "level3": [
+      {
+        "id": "Set2_0",
+        "categories": [
+          {
+            "name": "Things_People_Say",
+            "displayName": "Things People Say",
+            "words": ["Please", "Hello", "Goodbye", "Yes", "What"]
+          },
+          {
+            "name": "Places1",
+            "displayName": "Places",
+            "words": ["Store", "Garden", "Farm", "Zoo", "Town"]
+          },
+          {
+            "name": "Having_To_Do_With_Water",
+            "displayName": "Having To Do With Water",
+            "words": ["Wet", "Snow", "Rain", "Ice", "Fish"]
+          },
+          {
+            "name": "Pets",
+            "displayName": "Pets",
+            "words": ["Cat", "Dog", "Kitten", "Puppy", "Rabbit", "Fish"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_1",
+        "categories": [
+          {
+            "name": "Ways_To_Move",
+            "displayName": "Ways To Move",
+            "words": ["Running", "Step", "Fast", "Jump", "Slow"]
+          },
+          {
+            "name": "Parts_Of_The_Body",
+            "displayName": "Parts Of The Body",
+            "words": ["Head", "Hand", "Feet", "Nose", "Arm"]
+          },
+          {
+            "name": "Things_To_Eat",
+            "displayName": "Things To Eat",
+            "words": ["Ice-Cream", "Egg", "Cookie", "Honey"]
+          },
+          {
+            "name": "Colors",
+            "displayName": "Colors",
+            "words": ["Yellow", "Green", "Blue", "Black", "White"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_2",
+        "categories": [
+          {
+            "name": "Things_You_Can_Do1",
+            "displayName": "Things You Can Do",
+            "words": ["Run", "Pull", "Walk", "Sit", "Help", "Knock"]
+          },
+          {
+            "name": "Things_That_Make_Noise",
+            "displayName": "Things That Make Noise",
+            "words": ["Door", "Bell", "Horn", "Knock", "Telephone"]
+          },
+          {
+            "name": "Things_You_Can_Hold",
+            "displayName": "Things You Can Hold",
+            "words": ["Basket", "Peanut", "Apple", "Penny", "Key", "Bell", "Horn", "Telephone"]
+          },
+          {
+            "name": "Animals2",
+            "displayName": "Animals",
+            "words": ["Fox", "Elephant", "Lion", "Wolf", "Mouse"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_3",
+        "categories": [
+          {
+            "name": "Birds",
+            "displayName": "Birds",
+            "words": ["Crow", "Chicken", "Hen", "Owl", "Goose"]
+          },
+          {
+            "name": "Colors1",
+            "displayName": "Colors",
+            "words": ["Pink", "Orange", "Gold", "Silver", "Gray"]
+          },
+          {
+            "name": "Numbers1",
+            "displayName": "Numbers",
+            "words": ["Eight", "Four", "Twelve", "Six", "Ten"]
+          },
+          {
+            "name": "Things_Made_of_Wood",
+            "displayName": "Things Made of Wood",
+            "words": ["Board", "Box", "Floor", "Tree"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_4",
+        "categories": [
+          {
+            "name": "Sounds",
+            "displayName": "Sounds",
+            "words": ["Toot", "Pop", "Quack", "Roar", "Whistle"]
+          },
+          {
+            "name": "How",
+            "displayName": "How",
+            "words": ["Nicely", "Slowly", "Quickly", "Meanly", "Suddenly"]
+          },
+          {
+            "name": "Things_People_Do",
+            "displayName": "Things People Do",
+            "words": ["Smile", "Listen", "Chase", "Tease", "Whistle", "Roar"]
+          },
+          {
+            "name": "Where1",
+            "displayName": "Where",
+            "words": ["Station", "World", "Sky", "City", "Country"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_5",
+        "categories": [
+          {
+            "name": "How1",
+            "displayName": "How",
+            "words": ["Rapidly", "Slowly", "Carefully", "Nicely"]
+          },
+          {
+            "name": "Things_You_Can_Ride1",
+            "displayName": "Things You Can Ride",
+            "words": ["Train", "Elevator", "Sled", "Tractor", "Bicycle"]
+          },
+          {
+            "name": "Things_You_Can_Eat",
+            "displayName": "Things You Can Eat",
+            "words": ["Drink", "Candy", "berry", "Corn", "Breakfast", "Bread"]
+          },
+          {
+            "name": "When1",
+            "displayName": "When",
+            "words": ["Today", "Later", "Soon", "Never", "Always"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_6",
+        "categories": [
+          {
+            "name": "Things_You_Can_Do2",
+            "displayName": "Things You Can Do",
+            "words": ["Study", "Hold", "Hear", "Grin", "Grow", "Move"]
+          },
+          {
+            "name": "Ways_You_Can_Be",
+            "displayName": "Ways You Can Be",
+            "words": ["Hungry", "Lost", "Alone", "Early", "Found"]
+          },
+          {
+            "name": "Having_To_Do_With_Animals",
+            "displayName": "Having To Do With Animals",
+            "words": ["Paw", "Tail", "Hair", "Cage"]
+          },
+          {
+            "name": "People4",
+            "displayName": "People",
+            "words": ["SomeOne", "Wife", "Family", "Everyone", "Sister"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_7",
+        "categories": [
+          {
+            "name": "Small_Things",
+            "displayName": "Small Things",
+            "words": ["Brick", "Pin", "Diamond", "Pencil", "Coin", "Soap", "Camera", "Bulb"]
+          },
+          {
+            "name": "Things_You_Can_Do3",
+            "displayName": "Things You Can Do",
+            "words": ["Visit", "Leave", "Follow", "Crawl", "Join"]
+          },
+          {
+            "name": "Food",
+            "displayName": "Food",
+            "words": ["Banana", "Cherry", "Chocolate", "Cheese", "Salt"]
+          },
+          {
+            "name": "Ways_You_Can_Be1",
+            "displayName": "Ways You Can Be",
+            "words": ["Curious", "Careless", "Comfortable", "Foolish", "Greedy", "Gentle"]
+          }
+        ]
+      }
+    ],
+     "level4": [  
+        {
+          "id": "Set3_0",
+          "categories": [
+            {
+              "name": "PEOPLE",
+              "displayName": "PEOPLE",
+              "words": ["Nephew", "Master", "Gift", "Teacher", "Women", "Her", "Sister", "Mrs.", "Uncle", "Aunt"]
+            },
+            {
+              "name": "THINGS YOU CAN DO",
+              "displayName": "THINGS YOU CAN DO",
+              "words": ["Skip", "Play", "Store", "Cook", "Chew", "Drink", "Sit", "Chat", "Wave"]
+            },
+            {
+              "name": "THINGS THAT MAKE NOISE",
+              "displayName": "THINGS THAT MAKE NOISE",
+              "words": ["Whistle", "Trumpet", "Bang", "Mobile Phone", "Talk"]
+            },
+            {
+              "name": "THINGS THAT YOU CAN HOLD",
+              "displayName": "THINGS THAT YOU CAN HOLD",
+              "words": ["Caste", "Walnut", "Apricot", "Mobile Phone", "Dime"]
+            },
+            {
+              "name": "Animals",
+              "displayName": "Animals",
+              "words": ["Cheetah", "Mongoose", "Refinoceros", "Wolf", "Deer"]
+            }
+          ]
+        }
+      ]
+  }
+}

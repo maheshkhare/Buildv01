@@ -1,0 +1,492 @@
+{
+  "sets": {
+    "level1": [
+      {
+         "id": "Set1_0",
+        "levelName": "Check the Spelling",
+        "categories": [
+          {
+            "name": "Fruits",
+            "displayName": "Fruits",
+            "words": ["Apple", "Banana", "Orange"],
+            "images": ["apple.jpg", "banana.jpg", "Orange.jpg"]
+          },
+          {
+            "name": "Vehicles",
+            "displayName": "Vehicles",
+            "words": ["Car", "Bicycle", "Truck"],
+            "images": ["Car.jpg", "Bicycle.jpg", "Truck.jpg"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_1",
+        "levelName": "Check the Spelling",
+        "categories": [
+          {
+            "name": "ends with it",
+            "displayName": "Ends with 'it'",
+            "words": ["fit", "lit", "hit", "spit", "bit", "knit","sit"],
+            "images": ["fit.jpg","lit.jpg","hit.jpg","spit.jpg","bit.jpg","knit.jpg","sit.jpg"]
+          },
+          {
+            "name": "ends with at",
+            "displayName": "Ends with 'at'",
+            "words": ["fat", "mat", "pat", "eat"],
+            "images": ["fat.jpg","mat.jpg","pat.jpg","eat.jpg"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_2",
+        "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ip",
+            "displayName": "Ends with 'ip'",
+            "words": ["zip", "ship", "clip", "drip", "sip", "dip"],
+            "images": ["zip.jpg", "ship.jpg", "clip.jpg", "drip.jpg", "sip.jpg", "dip.jpg"]
+            },
+            {
+            "name": "ends with eep",
+            "displayName": "Ends with 'eep'",
+            "words": ["sleep", "weep"],
+            "images": ["sleep.jpg", "weep.jpg"]
+            }
+        ]
+    },
+    {
+        "id": "Set1_3",
+        "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ur",
+            "displayName": "Ends with 'ur'",
+            "words": ["pour", "armour", "flour", "parlour"],
+            "images": ["pour.png", "armour.png", "flour.png", "parlour.png"]
+            },
+            {
+            "name": "ends with ut",
+            "displayName": "Ends with 'ut'",
+            "words": ["donut", "walnut", "peanut"],
+            "images": ["donut.png", "walnut.png", "peanut.png"]
+            }
+        ]
+    },
+    {
+        "id": "Set1_4",
+        "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ay",
+            "displayName": "Ends with 'ay'",
+            "words": ["tray", "subway", "highway"],
+            "images": ["tray.png", "subway.png", "highway.png"]
+            },
+            {
+            "name": "ends with nt",
+            "displayName": "Ends with 'nt'",
+            "words": ["ant", "tent", "saint", "paint"],
+            "images": ["ant.png", "tent.png", "saint.png", "paint.png"]
+            }
+        ]
+    }
+    ],
+    "level2": [
+      {
+        "id": "Set2_0",
+          "levelName": "Check the Spelling",
+        "Image": "level2_story_image.jpg",
+        "categories": [
+          {
+            "name": "Animals",
+            "displayName": "Animals",
+            "words": ["Lion", "Elephant", "Dog"],
+            "images": ["lion.png", "elephant.png", "dog.png"]
+          },
+          {
+            "name": "Insects",
+            "displayName": "Insects",
+            "words": ["Bee", "Butterfly", "Ant"],
+            "images": ["bee.png", "butterfly.png", "ant.png"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_1",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with et",
+            "displayName": "Ends with 'et'",
+            "words": ["jet", "net"],
+            "images": ["jet.png", "net.png"]
+            },
+            {
+            "name": "ends with ard",
+            "displayName": "Ends with 'ard'",
+            "words": ["award", "beard", "hard"],
+            "images": ["award.png", "beard.png", "hard.png"]
+            },
+            {
+            "name": "ends with ing",
+            "displayName": "Ends with 'ing'",
+            "words": ["swing", "string", "king"],
+            "images": ["swing.png", "string.png", "king.png"]
+            }
+        ]
+     },
+     {
+        "id": "Set2_2",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ap",
+            "displayName": "Ends with 'ap'",
+            "words": ["clap", "tap", "map"],
+            "images": ["clap.png", "tap.png", "map.png"]
+            },
+            {
+            "name": "ends with oot",
+            "displayName": "Ends with 'oot'",
+            "words": ["foot", "boot"],
+            "images": ["foot.png", "boot.png"]
+            },
+            {
+            "name": "ends with ad",
+            "displayName": "Ends with 'ad'",
+            "words": ["read", "road", "pad"],
+            "images": ["read.png", "road.png", "pad.png"]
+            }
+        ]
+    },
+    {
+        "id": "Set2_3",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with air",
+            "displayName": "Ends with 'air'",
+            "words": ["hair", "chair", "stair"],
+            "images": ["hair.png", "chair.png", "stair.png"]
+            },
+            {
+            "name": "ends with al",
+            "displayName": "Ends with 'al'",
+            "words": ["medal", "coral", "cymbal"],
+            "images": ["medal.png", "coral.png", "cymbal.png"]
+            },
+            {
+            "name": "ends with lf",
+            "displayName": "Ends with 'lf'",
+            "words": ["shelf", "golf", "wolf"],
+            "images": ["shelf.png", "golf.png", "wolf.png"]
+            }
+        ]
+     },
+     {
+        "id": "Set2_4",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ist",
+            "displayName": "Ends with 'ist'",
+            "words": ["florist", "fist", "wrist"],
+            "images": ["florist.png", "fist.png", "wrist.png"]
+            },
+            {
+            "name": "ends with ic",
+            "displayName": "Ends with 'ic'",
+            "words": ["attic", "music", "magic"],
+            "images": ["attic.png", "music.png", "magic.png"]
+
+            },
+            {
+            "name": "ends with ill",
+            "displayName": "Ends with 'ill'",
+            "words": ["pill", "bill", "drill", "windmill", "grill"],
+            "images": ["pill.png", "bill.png", "drill.png", "windmill.png", "grill.png"]
+            }
+        ]
+    }
+    ],
+     "level3": [
+     {
+        "id": "Set3_1",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ife",
+            "displayName": "Ends with 'ife'",
+            "words": ["wife", "knife"],
+            "images": ["wife.png", "knife.png"]
+            },
+            {
+            "name": "ends with ive",
+            "displayName": "Ends with 'ive'",
+            "words": ["hive", "dive", "five"],
+            "images": ["hive.png", "dive.png", "five.png"]
+            },
+            {
+            "name": "ends with ove",
+            "displayName": "Ends with 'ove'",
+            "words": ["glove", "clove", "dove", "above", "stove"],
+            "images": ["glove.png", "clove.png", "dove.png", "above.png", "stove.png"]
+            }
+        ]
+    },
+    {
+        "id": "Set3_2",
+        "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with er",
+            "displayName": "Ends with 'er'",
+            "words": ["butcher", "letter", "number", "driver"],
+            "images": ["butcher.png", "letter.png", "number.png", "driver.png"]
+            },
+            {
+            "name": "ends with te",
+            "displayName": "Ends with 'te'",
+            "words": ["kite", "flute", "gate"],
+            "images": ["kite.png", "flute.png", "gate.png"]
+            },
+            {
+            "name": "ends with sh",
+            "displayName": "Ends with 'sh'",
+            "words": ["cash", "bush", "fish"],
+            "images": ["cash.png", "bush.png", "fish.png"]
+            }
+        ]
+    },
+    {
+        "id": "Set3_3",
+        "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with re",
+            "displayName": "Ends with 're'",
+            "words": ["tyre", "fire", "wire"],
+            "images": ["tyre.png", "fire.png", "wire.png"]
+            },
+            {
+            "name": "ends with ain",
+            "displayName": "Ends with 'ain'",
+            "words": ["grain", "train", "mountain", "fountain"],
+            "images": ["grain.png", "train.png", "mountain.png", "fountain.png"]
+            },
+            {
+            "name": "ends with per",
+            "displayName": "Ends with 'per'",
+            "words": ["paper", "viper"],
+            "images": ["paper.png", "viper.png"]
+            },
+            {
+            "name": "ends with pet",
+            "displayName": "Ends with 'pet'",
+            "words": ["carpet", "puppet", "trumpet"],
+            "images": ["carpet.png", "puppet.png", "trumpet.png"]
+            }
+        ]
+    },
+    {
+        "id": "Set3_4",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with en",
+            "displayName": "Ends with 'en'",
+            "words": ["pen", "hen", "den", "oven"],
+            "images": ["pen.png", "hen.png", "den.png", "oven.png"]
+            },
+            {
+            "name": "ends with ge",
+            "displayName": "Ends with 'ge'",
+            "words": ["fridge", "orange", "carriage", "storage"],
+            "images": ["fridge.png", "orange.png", "carriage.png", "storage.png"]
+            },
+            {
+            "name": "ends with ch",
+            "displayName": "Ends with 'ch'",
+            "words": ["church", "couch", "watch", "branch", "bench"],
+            "images": ["church.png", "couch.png", "watch.png", "branch.png", "bench.png"]
+            }
+        ]
+    }
+    ],
+   "level4": [
+    {
+        "id": "Set4_1",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ail",
+            "displayName": "Ends with 'ail'",
+            "words": ["mail", "nail", "jail", "pail"],
+            "images": ["mail.png", "nail.png", "jail.png", "pail.png"]
+            },
+            {
+            "name": "ends with ot",
+            "displayName": "Ends with 'ot'",
+            "words": ["pot", "jot", "knot", "spot", "hot"],
+            "images": ["pot.png", "jot.png", "knot.png", "spot.png", "hot.png"]
+            },
+            {
+            "name": "ends with ape",
+            "displayName": "Ends with 'ape'",
+            "words": ["tape", "shape", "grape"],
+            "images": ["tape.png", "shape.png", "grape.png"]
+            }
+        ]
+    },
+    {
+        "id": "Set4_2",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with od",
+            "displayName": "Ends with 'od'",
+            "words": ["rod", "hood", "food"],
+            "images": ["rod.png", "hood.png", "food.png"]
+            },
+            {
+            "name": "ends with ck",
+            "displayName": "Ends with 'ck'",
+            "words": ["sock", "rack", "rock", "frock"],
+            "images": ["sock.png", "rack.png", "rock.png", "frock.png"]
+            },
+            {
+            "name": "ends with ok",
+            "displayName": "Ends with 'ok'",
+            "words": ["book", "cook", "hook"],
+            "images": ["book.png", "cook.png", "hook.png"]
+            }
+        ]
+    },
+            {
+        "id": "Set4_3",
+        "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ment",
+            "displayName": "Ends with 'ment'",
+            "words": ["garment", "ornament", "ointment"],
+            "images": ["garment.png", "ornament.png", "ointment.png"]
+            },
+            {
+            "name": "ends with se",
+            "displayName": "Ends with 'se'",
+            "words": ["vase", "nose", "purse", "house"],
+            "images": ["vase.png", "nose.png", "purse.png", "house.png"]
+            },
+            {
+            "name": "ends with ary",
+            "displayName": "Ends with 'ary'",
+            "words": ["diary", "rosary", "apiary", "aviary"],
+            "images": ["diary.png", "rosary.png", "apiary.png", "aviary.png"]
+            }
+        ]
+    },
+    {
+        "id": "Set4_4",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with og",
+            "displayName": "Ends with 'og'",
+            "words": ["dog", "frog"],
+            "images": ["dog.png", "frog.png"]
+            },
+            {
+            "name": "ends with lk",
+            "displayName": "Ends with 'lk'",
+            "words": ["milk", "chalk", "yolk", "walk", "talk"],
+            "images": ["milk.png", "chalk.png", "yolk.png", "walk.png", "talk.png"]
+            },
+            {
+            "name": "ends with em",
+            "displayName": "Ends with 'em'",
+            "words": ["cream", "stream", "scream"],
+            "images": ["cream.png", "stream.png", "scream.png"]
+            }
+        ]
+    }
+    
+
+    ],
+    "level5":[
+        {
+        "id": "Set5_1",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ool",
+            "displayName": "Ends with 'ool'",
+            "words": ["tool", "pool", "school", "wool"],
+            "images": ["tool.png", "pool.png", "school.png", "wool.png"]
+            },
+            {
+            "name": "ends with om",
+            "displayName": "Ends with 'om'",
+            "words": ["atom", "groom", "broom", "room", "prom"],
+            "images": ["atom.png", "groom.png", "broom.png", "room.png", "prom.png"]
+            }
+        ]
+      },
+      {
+        "id": "Set5_2",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with ne",
+            "displayName": "Ends with 'ne'",
+            "words": ["lane", "cane", "cone", "vine"],
+            "images": ["lane.png", "cane.png", "cone.png", "vine.png"]
+            },
+            {
+            "name": "ends with me",
+            "displayName": "Ends with 'me'",
+            "words": ["fume", "game", "home", "dome", "flame"],
+            "images": ["fume.png", "game.png", "home.png", "dome.png", "flame.png"]
+            }
+        ]
+    },
+    {
+        "id": "Set5_3",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with el",
+            "displayName": "Ends with 'el'",
+            "words": ["heel", "wheel", "bagel"],
+            "images": ["heel.png", "wheel.png", "bagel.png"]
+            },
+            {
+            "name": "ends with nd",
+            "displayName": "Ends with 'nd'",
+            "words": ["sand", "pond", "diamond", "garland"],
+            "images": ["sand.png", "pond.png", "diamond.png", "garland.png"]
+            }
+        ]
+    },
+    {
+        "id": "Set5_4",
+          "levelName": "Check the Spelling",
+        "categories": [
+            {
+            "name": "ends with sk",
+            "displayName": "Ends with 'sk'",
+            "words": ["desk", "mask", "cask", "tusk", "flask"],
+            "images": ["desk.png", "mask.png", "cask.png", "tusk.png", "flask.png"]
+            },
+            {
+            "name": "ends with ew",
+            "displayName": "Ends with 'ew'",
+            "words": ["cashew", "screw", "stew"],
+            "images": ["cashew.png", "screw.png", "stew.png"]
+            }
+        ]
+    }
+    ]
+  }
+}

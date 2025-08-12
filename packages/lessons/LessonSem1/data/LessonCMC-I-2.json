@@ -1,0 +1,993 @@
+{
+  "sets": {
+    "level2": [
+        {
+          "levelName": "Word in categories",
+          "id": "Set1_0",
+          "Story":"",
+          "Image":"",
+          "categories": [
+            {
+              "name": "THINGS YOU CAN DO",
+              "displayName": "THINGS YOU CAN DO", 
+              "words": ["sleep", "work", "look", "play", "eat"]
+            },
+            {
+              "name": "PLACES",
+             "displayName": "PLACES",
+              "words": ["park", "barn", "street", "circus", "store"]
+            },
+            {
+              "name": "PEOPLE",
+              "displayName": "PEOPLE",
+              "words": ["men", "Mr.", "Mrs.", "friend", "she", "mother", "father", "aunt", "uncle", "boy"]
+            }
+          ]
+        },
+        {
+          "id": "Set1_1",
+          "categories": [
+            {
+              "name": "THINGS YOU CAN TOUCH",
+              "words": ["bus", "painting", "pocket", "book", "bag", "school", "window", "grass", "house"]
+            },
+            {
+              "name": "PEOPLE",
+              "words": ["I", "he", "you", "we", "me"]
+            },
+            {
+              "name": "WHEN",
+              "words": ["now", "soon", "next", "sometimes", "time"]
+            }
+          ]
+        },
+        {
+            "id":"Set1_2",
+             "categories": [
+        {
+          "name": "STATIONERY",
+          "words": ["Scissore", "Ruler", "Marker", "Stapler","Tape", "Calculator"]
+        },
+        {
+          "name": "SUBJECTS",
+          "words": ["Chemistry", "Language", "Physical Education", "Geography", "Economics"]
+        },
+        {
+          "name": "BUILDINGS",
+          "words": ["Supermarket", "Factory", "School",  "Mall"]
+        }
+      ]
+        },
+        {
+            "id":"set1_3",
+             "categories": [
+        {
+          "name": "PEOPLE",
+          "words": ["Policeman", "King", "Nurse", "Artist", "Cleaner", "Salesman","Uncle"]
+        },
+        {
+          "name": "THINGS TO DO AT SCHOOL",
+          "words": ["Write", "Read", "Play", "Learn", "Speak", "Exams"]
+        },
+        {
+          "name": "SPORTS",
+          "words": ["Badminton", "Vollyball", "Hockey", "Cricket", "Runniing", "Boxing","Javelin"]
+        }
+      ]
+        },
+        {
+          "id":"set1_4",
+          "categories": [
+        {
+          "name": "WHEN",
+          "words": ["Soon", "Always", "Later", "Yesterday", "Tomorrow"]
+        },
+        {
+          "name": "PEOPLE",
+          "words": ["Him", "They", "Them", "Us", "Myself"]
+        },
+        {
+          "name": "THINGS YOU CAN TOUCH",
+          "words": ["Steam Engine", "Novel", "Sculpture", "Bed", "Briefcase","Corner","Watch", "Bush","Dor", "Cellar"]
+        }
+      ]
+        },
+        {
+          "id":"Set1_5",
+           "categories": [
+        {
+          "name": "THINGS YOU CAN DO",
+          "words": ["Skip", "Play", "Stare", "Cook", "Chew"]
+        },
+        {
+          "name": "PLACES",
+          "words": ["Caves", "Pavement", "Carnival", "Camp", "Shop"]
+        },
+        {
+          "name": "PEOPLE",
+          "words": ["Nephew", "Girlif", "Teacher","Women", "Her","SIster", "Mrs.","Uncle","Aunt"]
+        }
+      ]
+        },
+        {
+          "id":"Set1_6",
+          "categories": [
+        {
+          "name": "THINGS YOU CAN DO",
+          "words": ["Drink","Play", "Sit", "Cook", "Chat", "Wave"]
+        },
+        {
+          "name": "PLACES",
+          "words": ["Mercury", "SaSatunlum", "Earth", "Mars"]
+        },
+        {
+          "name": "PEOPLE",
+          "words": ["Naphew", "Pupil", "Girl","Priest", "Women", "Her", "Father", "Handyman", "Uncle", "Aunt"]
+        }
+      ]
+        },
+        {
+          "id":"Set1_8",
+           "categories": [
+        {
+          "name": "WHEN",
+          "words": ["Later","Soon", "Always", "N0w", "Often", "Sometimes"]
+        },
+        {
+          "name": "PLACES",
+          "words": ["China", "India", "USA", "Mexico","Holland"]
+        },
+        {
+          "name": "THINGS YOU CAN TOUCH",
+          "words": ["Novel", "Scripture", "Briefcase", "Canister", "Watch", "Bush","Door", "Curtains", "Mat"]
+        }
+      ]
+        },{
+          "id":"Set1_9",
+          "categories":[
+             {
+          "name": "WHEN",
+          "words": [ "Soon" ,"Always","Later"]
+        },
+        {
+          "name": "PEOPLE",
+          "words": ["China" ,"Singapore", "England" ,"Mexico" ,"Ireland"]
+        },
+        {
+          "name": "THINGS YOU CAN TOUCH",
+          "words": ["briefcase", "bush", "Novel", "Door", "Sculpture", "Watch"]
+        }
+      ]
+        },{
+          "id":"Set1_10",
+           "categories": [
+        {
+          "name": "THINGS YOU CAN DO",
+          "words": ["Cook" ,"Drink," ,"Play","Sit","Chat" ,"Wave"]
+        },
+        {
+          "name": "PLACES",
+          "words": ["Mercury" ,"Saturn" ,"Earth" ,"Mars"]
+        },
+        {
+          "name": "PEOPLE",
+          "words": ["Professor", "Patient","Doctor","Chef" ,"Engineer" ,"Her" ,"Husband" ,"Plumber" ,"Uncle" ,"Aunt"]
+        }
+      ]
+        },{
+          "id":"Set1_11",
+           "categories": [
+        {
+          "name": "Things to be filled",
+          "words": ["Door", "Safe", "Phone", "Padlock", "Chest"]
+        },
+        {
+          "name": "Holiday",
+          "words": ["Halloween", "Christmas", "Independence Day", "Thanksgiving", "New Year", "Easter", "Memorial Day"]
+        },
+        {
+          "name": "Things that grow",
+          "words": ["Hair", "Seeds", "Nails", "moss", "Fur", "Plants", "Humans", "Animal"]
+        }
+      ]
+        },
+        {
+          "id":"Set1_12",
+          "categories": [
+        {
+          "name": "Water bodies",
+          "words": ["Soon", "Always", "Later"]
+        },
+        {
+          "name": "continents",
+          "words": ["China", "Singapore", "England", "Mexico", "Ireland"]
+        },
+        {
+          "name": "Units of Measurement",
+          "words": ["briefcase", "bush", "Novel", "Door", "Sculpture", "Watch"]
+        }
+      ]
+        }
+      ],
+      "level3": [  
+        {
+          "id": "Set2_0",
+          "categories": [
+            {
+              "name": "THINGS PEOPLE SAY",
+              "displayName": "THINGS PEOPLE SAY",
+              "words": ["Goodnight", "Hey", "Samy", "No", "Where", "Hi", "Good Evening", "Maybe", "Who"]
+            },
+            {
+              "name": "PLACES",
+              "displayName": "PLACES",
+              "words": ["Kennel", "Stable", "Zoo", "Backyard", "Village", "City", "Garage", "Cellar"]
+            },
+            {
+              "name": "HAVING TO DO WITH WATER",
+              "displayName": "HAVING TO DO WITH WATER",
+              "words": ["Splash", "Flood", "Peel", "Spray", "Dolphin", "Waterfall", "Creek", "Droplet", "Monsoon"]
+            },
+            {
+              "name": "ANIMALS TO PLAY WITH",
+              "displayName": "ANIMALS TO PLAY WITH",
+              "words": ["Horse", "Rabbit", "Kitten", "Pony", "Dog", "Dolphin"]
+            }
+          ]
+        },
+        {
+          "id": "Set2_1",
+          "categories": [
+            {
+              "name": "WAYS TO MOVE",
+              "displayName": "WAYS TO MOVE",
+              "words": ["Walking", "Running", "Flying", "Slow", "Fast", "Skipping", "Gallop", "Tiptoe", "Throwing"]
+            },
+            {
+              "name": "PARTS OF BODY",
+              "displayName": "PARTS OF BODY",
+              "words": ["Hair", "Arms", "Lips", "Elbow", "Knee", "Shin", "Hip", "Shoulder", "Arm"]
+            },
+            {
+              "name": "THINGS TO EAT",
+              "displayName": "THINGS TO EAT",
+              "words": ["Ice Lollies", "Pancake", "Chips", "Syrup", "Bread", "Wafer", "Soup", "Carrot", "Sandwich", "Pear"]
+            },
+            {
+              "name": "COLOR",
+              "displayName": "COLOR",
+              "words": ["Red", "Violet", "Pink", "Blue", "White", "Grey", "Maroon", "Teal", "Yellow"]
+            }
+          ]
+        },
+        {
+            "id":"set2_2",
+             "categories": [
+        {
+          "name": "PET ANIMAL",
+          "words": ["Dog", "Pup", "Fish", "Kitten", "Rabbit"]
+        },
+        {
+          "name": "RELATED TO WATER",
+          "words": ["Pool", "Lake", "Rain", "Flood", "Brook"]
+        },
+        {
+          "name": "EXPRESSIONS PEOPLE USE",
+          "words": ["Hello", "How", "Sorry", "Please", "What"]
+        },
+        {
+          "name": "CAN GO TO",
+          "words": ["Library", "Hospital", "Bank", "Store", "School"]
+        }
+         ]
+        },
+        {
+            "id":"set2_3",
+             "categories": [
+        {
+          "name": "FOOD",
+          "words": ["Beans", "Wheat", "Broccoli", "Grains", "Pulses"]
+        },
+        {
+          "name": "PARTS OF THE BODY",
+          "words": ["Tess", "Chin", "Hips", "Rib-cage", "Tendons"]
+        },
+        {
+          "name": "WAYS TO MOVE",
+          "words": ["Skip", "Gallop", "Slow", "Limb", "Hop"]
+        },
+        {
+          "name": "THINGS RELATED TO NATURE",
+          "words": ["Clouds", "Mountain", "Plants", "Ocean", "Landscape"]
+        }
+          ]
+        },
+        {
+          "id":"set2_4",
+          "categories": [
+        {
+          "name": "THINGS PEOPLE SAY",
+          "words": ["Goodnight", "Hey", "Sorry", "No", "Where"]
+        },
+        {
+          "name": "PLACES",
+          "words": ["Kennel", "Stable", "Zoo", "Backyard", "Village"]
+        },
+        {
+          "name": "HAVING TO DO WITH WATER",
+          "words": ["Splash", "Flood", "Pool", "Spray", "Dolphin"]
+        },
+        {
+          "name": "ANIMALS TO PLAY WITH",
+          "words": ["Horse", "Rabbit", "Kitten", "Pony", "DogDolphin"]
+        }
+      ]
+        }, {
+          "id":"Set2_5",
+          "categories": [
+        {
+          "name": "WAYS TO MOVE",
+          "words": ["Walking", "Running", "Flying", "Slow", "Fast"]
+        },
+        {
+          "name": "PARTS OF BODY",
+          "words": ["Hair", "Arms", "Lips", "Elbow", "Knee"]
+        },
+        {
+          "name": "THINGS TO EAT",
+          "words": ["Ice Lollies", "Pancake", "Chips", "Syrup", "Bread"]
+        },
+        {
+          "name": "COLOR",
+          "words": ["Red", "Violet", "Pink", "Blue", "White"]
+        }
+      ]
+        },
+        {
+          "id":"Set2_6",
+           "categories": [
+        {
+          "name": "THINGS PEOPLE SAY",
+          "words": ["HI", "Good Evening", "Maybe", "No", "Who"]
+        },
+        {
+          "name": "PLACES",
+          "words": ["City", "Village", "Garage", "Cellar", "Zoo"]
+        },
+        {
+          "name": "HAVING TO DO WITH WATER",
+          "words": ["Waterfall", "Creek", "Droplet", "Spray", "Monsoon"]
+        },
+        {
+          "name": "ANIMALS TO PLAY WITH",
+          "words": ["Horse", "Rabbit", "Kitten", "Pony", "Dolphin"]
+        }
+      ]
+        },
+        {
+          "id":"Set2_7",
+          "categories": [
+        {
+          "name": "WAYS TO MOVE",
+          "words": ["Skipping", "Gallop", "Slow", "Fast", "Throwing"]
+        },
+        {
+          "name": "PARTS OF BODY",
+          "words": ["Chin", "Hip", "Lips", "Shoulder", "Arm"]
+        },
+        {
+          "name": "THINGS TO EAT",
+          "words": ["Water", "Soup", "Carrot", "Sandwich", "Pear"]
+        },
+        {
+          "name": "COLOR",
+          "words": ["Green", "Magenta", "Turquoise", "Pink", "Brown"]
+        }
+      ]
+        },
+         {
+          "id":"Set2_8",
+          "categories": [
+        {
+          "name": "THINGS PEOPLE USE TO EAT WITH",
+          "words": ["Fork" ,"Bowl", "Spoon","Plates", "Chopsticks","Bottle"]
+        },
+        {
+          "name": "PLACES",
+          "words": ["Country" ,"Park", "Office" ,"Garden", "School"]
+        },
+        {
+          "name": "HAVING TO DO WITH WATER",
+          "words": ["Waterfall" ,"Creek", "Droplet", "Spray"]
+        },
+        {
+          "name": "ANIMALS TO PLAY WITH",
+          "words": ["Horse", "Rabbit", "Kitten" ,"Peny", "Dolphin"]
+        }
+      ]
+        },
+        {
+          "id":"Set2_9",
+            "categories": [
+        {
+          "name": "WAYS TO MOVE",
+          "words": ["Skipping", "Gallop","Slow","Fast","Tiptoe"]
+        },
+        {
+          "name": "PARTS OF BODY",
+          "words": ["Skin","Hip", "Lip" ,"Shoulder"]
+        },
+        {
+          "name": "THINGS THAT HAVE SUGAR IN IT",
+          "words": ["Wafers", "Chocolate" ,"Pie" ,"Ice Cream", "Toffee"]
+        },
+        {
+          "name": "COLOR",
+          "words": ["Crey", "Maroon","Teal", "Yellow" ,"Blue"]
+        }
+      ]
+        },{
+          "id":"Set2_10",
+           "categories": [
+        {
+          "name": "Things found in a farm",
+          "words": ["Windmill", "Tractor", "Hay", "Rake", "Barn"]
+        },
+        {
+          "name": "You can buy with",
+          "words": ["Penny", "Coles", "Credit Card", "Cheque", "Dollar"]
+        },
+        {
+          "name": "Adjectives",
+          "words": ["Beautiful", "Sweet", "Pretty", "Terrible"]
+        },
+        {
+          "name": "School things",
+          "words": ["Desk", "Globe", "Chalk", "Paper", "Field", "Tray"]
+        }
+      ]
+        },
+        {
+          "id":"Set2_11",
+           "categories": [
+        {
+          "name": "Things that you plug in",
+          "words": ["Phone", "Fridge", "Computer", "Headphone"]
+        },
+        {
+          "name": "Things that you hang",
+          "words": ["Frame", "Paintings", "Tapestry"]
+        },
+        {
+          "name": "Things that ring",
+          "words": ["Doorbell", "Phone", "Alarm", "Cowbell", "Chime", "Gong"]
+        },
+        {
+          "name": "Shiny objects",
+          "words": ["Ornaments", "Foil Paper", "Tinsel", "Glitter", "Silk"]
+        }
+      ]
+        }
+      ],
+      "level4": [  
+        {
+          "id": "Set3_0",
+          "categories": [
+            {
+              "name": "PEOPLE",
+              "displayName": "PEOPLE",
+              "words": ["Nephew", "Master", "Gift", "Teacher", "Women", "Her", "Sister", "Mrs.", "Uncle", "Aunt"]
+            },
+            {
+              "name": "THINGS YOU CAN DO",
+              "displayName": "THINGS YOU CAN DO",
+              "words": ["Skip", "Play", "Store", "Cook", "Chew", "Drink", "Sit", "Chat", "Wave"]
+            },
+            {
+              "name": "THINGS THAT MAKE NOISE",
+              "displayName": "THINGS THAT MAKE NOISE",
+              "words": ["Whistle", "Trumpet", "Bang", "Mobile Phone", "Talk"]
+            },
+            {
+              "name": "THINGS THAT YOU CAN HOLD",
+              "displayName": "THINGS THAT YOU CAN HOLD",
+              "words": ["Caste", "Walnut", "Apricot", "Mobile Phone", "Dime"]
+            },
+            {
+              "name": "Animals",
+              "displayName": "Animals",
+              "words": ["Cheetah", "Mongoose", "Rhinoceros", "Wolf", "Deer"]
+            }
+          ]
+        },
+        {
+           "id": "Set3_1",
+          "categories": [ 
+             {
+          "name": "THINGS FOUND IN THE KITCHEN",
+          "words": ["Kettle", "Bowl", "Toaster", "Pan", "Drain","Tray"]
+        },
+        {
+          "name": "THINGS FOUND IN THE GARDEN",
+          "words": ["Boown",  "Beach", "Bucket", "Fence"]
+        },
+        {
+          "name": "MUSICAL INSTRUMENTS",
+          "words": ["Violin", "Drums", "Piano", "Guiter", "Keyboard"]
+        },
+        {
+          "name": "COUNTRIES",
+          "words": ["India", "China", "Sri Lanka", "America", "Japan"]
+        },
+        {
+          "name": "ANIMALS",
+          "words": ["Beetle", "Roaster", "Vak", "Swan", "Snail"]
+        }
+      ]
+        },
+        {
+          "id":"Set3_2",
+          "categories": [
+        {
+          "name": "PEOPLE",
+          "words": ["Troupe", "Grandmother", "Grandfather", "American", "Queen", "Gentleman"]
+        },
+        {
+          "name": "THINGS YOU CAN DO",
+          "words": ["Sleep", "Push", "Talk", "Stand", "Beg"]
+        },
+        {
+          "name": "THINGS THAT MAKE NOISE",
+          "words": ["Whistle", "Trumpet", "Bang", "Mobile Phone", "Talk"]
+        },
+        {
+          "name": "THINGS THAT YOU CAN HOLD",
+          "words": ["Crate", "Walnut", "Apricot", "Mobile Phone", "Dime"]
+        },
+        {
+          "name": "Animals",
+          "words": ["Cheetah", "Mongoose", "Rhinoceros", "Wolf", "Deer"]
+        }
+      ]
+
+        },
+        {
+          "id":"Set3_3",
+            "categories": [
+        {
+          "name": "PEOPLE",
+          "words": ["Grandmother", "Grandfather","Gentlemen","Queen","American","Troupe"]
+        },
+        {
+          "name": "THINGS YOU CAN DO",
+          "words": ["Drive", "Whisper", "Troupe", "Stand","Push","Beg"]
+        },
+        {
+          "name": "THINGS THAT MAKE NOISE",
+          "words": ["Whistle","Trumpet","Bang","Mobile Phone"]
+        },
+        {
+          "name": "THINGS THAT YOU CAN HOLD",
+          "words": ["Crate","Walnut","Apricot", "Doorway", "Dime","Box"]
+        },
+        {
+          "name": "ANIMALS",
+          "words": [ "Chipcrunch", "Stoth","Mammoth", "Fox", "Snake"]
+        }
+      ]
+        },
+       
+        {
+          "id":"Set3_4",
+          "categories":[
+       {
+          "name": "DAIRY",
+          "words": ["Milk" ,"Cheese" ,"Cream" ,"Yogurt"]
+        },
+        {
+          "name":"THINGS THAT CAN FLY",
+          "words":["Rocket","Parachute","Helicopter","Ballon"]
+
+        },
+        {
+          "name": "THINGS THAT ARE SOFT",
+          "words": [ "Cotton" ,"Kitten","Fur", "Pillow"]
+        },
+        {
+          "name": "THINGS MADE OF METAL",
+          "words": ["Konb", "Nails", "Ball", "Wrench"]
+        },
+        {
+          "name": "THINGS MADE OF WOOD",
+          "words": ["Box" ,"Boat" ,"Desk", "Cupboard"]
+        }
+      ]
+
+        },
+        {
+          "id":"Set3_5",
+            "categories": [
+        {
+          "name": "Nuts",
+          "words": ["pecan", "hazel", "Peanut", "almonds", "macadamia"]
+        },
+        {
+          "name": "Things that taste sour",
+          "words": ["cranberry", "kimchi", "Tamarind", "Citrus fruits", "geosobarry"]
+        },
+        {
+          "name": "Things that are green",
+          "words": ["ferns", "Grass", "Shrub", "bush"]
+        },
+        {
+          "name": "Things made of cotton",
+          "words": ["clothes", "Bedsheet", "linen", "socks", "swabs"]
+        },
+        {
+          "name": "Things that are square",
+          "words": ["window", "cracker", "Napkin", "waffle", "notebook", "tiles"]
+        }
+      ]
+        }
+      ],
+      "level5": [  
+        {
+          "id": "Set4_0",
+          "categories": [
+            {
+              "name": "CAN PUT IN YOUR POCKET",
+              "displayName": "CAN PUT IN YOUR POCKET",
+              "words": ["Thread", "Diamond", "Screw", "Seeds", "Needle", "Coin", "Berry", "Pebble", "Nickel", "Lock"]
+            },
+            {
+              "name": "BIRDS",
+              "displayName": "BIRDS",
+              "words": ["Geese", "Turkey", "Pigeon", "Rooster", "Sparrow", "Chick", "Blue", "Parrot"]
+            },
+            {
+              "name": "COLORS",
+              "displayName": "COLORS",
+              "words": ["Silver", "Magenta", "Black", "Cherry", "Silver"]
+            },
+            {
+              "name": "LEVEL (STAGES) NUMBERS",
+              "displayName": "LEVEL (STAGES) NUMBERS",
+              "words": ["Eighteen", "Thirteen", "Seven", "Eleven", "Fourteenth"]
+            },
+            {
+              "name": "THINGS TO WATCH",
+              "displayName": "THINGS TO WATCH",
+              "words": ["Computer", "Basketball", "War", "Rugby", "Breeze"]
+            },
+            {
+              "name": "MADE OF WOOD",
+              "displayName": "MADE OF WOOD",
+              "words": ["Bench", "Wicker", "Sapiing", "Barrier", "Box", "Boat", "Desk", "Cupboard"]
+            }
+          ]
+        },
+        {
+          "id": "Set4_1",
+          "categories": [
+            {
+              "name": "SOUNDS",
+              "displayName": "SOUNDS",
+              "words": ["Howl", "Crack", "Clap", "Heor", "Crackle", "Snap", "Squirm", "Hoor"]
+            },
+            {
+              "name": "PARTS OF THE BODY",
+              "displayName": "PARTS OF THE BODY",
+              "words": ["Mouth", "Limbs", "Shoulder", "Ankle", "Curns", "Head"]
+            },
+            {
+              "name": "HOW",
+              "displayName": "HOW",
+              "words": ["Leisurely", "Hurriedly", "Patiently", "Afraid", "Naughty", "Cruel"]
+            },
+            {
+              "name": "PEOPLE CAN",
+              "displayName": "PEOPLE CAN",
+              "words": ["Squirm", "Follow", "Bully", "Instinct"]
+            },
+            {
+              "name": "WHERE",
+              "displayName": "WHERE",
+              "words": ["Subway", "Universe", "Galaxy", "Community", "Nation"]
+            },
+            {
+              "name": "EAT",
+              "displayName": "EAT",
+              "words": ["Supper", "Fodder", "Orange", "Lunch", "Popcorn"]
+            }
+          ]
+        },
+        {
+            "id":"Set4_2",
+            "categories": [
+        {
+          "name": "THINGS RELATED AND COMPUTER",
+          "words": ["Mouse", "Monitor", "Keyboard", "Charger", "Speaker"]
+        },
+        {
+          "name": "FURNITURE",
+          "words": ["Sofa", "Chair", "Wardrobe", "Bench", "Recliner"]
+        },
+        {
+          "name": "BIRDS",
+          "words": ["Goose", "Peacock", "Parrot", "Sparrow", "Hornbill"]
+        },
+        {
+          "name": "SMALL THINGS",
+          "words": ["Ring", "Eraser", "Coin", "Pin", "Key"]
+        },
+        {
+          "name": "OCCUPATIONS",
+          "words": ["Watchmen", "Painter", "Engineer", "Shophapper", "Astronaut"]
+        },
+        {
+          "name": "ADJECTIVE",
+          "words": ["Beautiful", "Fantastic", "Lively", "Jolly", "Naughty"]
+        }
+      ]
+
+        },
+        {
+      "id":"set4_3",
+      "categories": [
+        {
+          "name": "HOW",
+          "words": ["Lastly", "Suddenly", "Slowly", "Quickly", "Rudely"]
+        },
+        {
+          "name": "THINGS FOUND IN BAG",
+          "words": ["Comb", "Pen", "Tissue", "Book", "Box"]
+        },
+        {
+          "name": "THINGS WE CELEBRATE",
+          "words": ["Birthday", "Christmas", "Anniversary", "Festivals", "Thanksgiving"]
+        },
+        {
+          "name": "SOUNDS",
+          "words": ["Bell", "Ham", "Music", "Telephone", "Drums"]
+        },
+        {
+          "name": "VERBS",
+          "words": ["Drive", "Bake", "Paint", "Jump", "Perform"]
+        },
+        {
+          "name": "NUMBERS",
+          "words": ["Fifth", "Ninteen", "Twenty", "Thousand", "Forty"]
+        }
+      ]
+        },
+        {
+          "id":"set4_4",
+          "categories":[ 
+        {
+          "name": "CAN PUT IN YOUR POCKET",
+          "words": ["Thread", "Diamond", "Screw", "Stamp", "Nickel","Lock","Silver"]
+        },
+        {
+          "name": "BIRDS",
+          "words": ["Geese", "Turkey", "Pilgeon", "Rooster", "Parrots"]
+        },
+        {
+          "name": "COLORS",
+          "words": ["Silver", "Magenta", "Black", "Cherry", "Silver"]
+        },
+        {
+          "name": "LEVEL (STAGES) NUMBERS",
+          "words": ["Eighteen", "Thirteen", "Seven", "Eleven", "Fourteenth"]
+        },
+        {
+          "name": "THINGS TO WATCH",
+          "words": ["Computer", "Basketball", "War", "Rugby", "Breeze"]
+        },
+        {
+          "name": "MADE OF WOOD",
+          "words": ["Bench", "Wicker", "Sapling", "Barrier"]
+        }
+      ]
+        },
+        {
+          "id":"Set4_5",
+          "categories": [
+        {
+          "name": "SOUNDS",
+          "words": ["Howl", "Crack", "Clap", "Hear"]
+        },
+        {
+          "name": "PARTS OF THE BODY",
+          "words": ["Mouth", "Limbs", "Shoulder", "Ankle", "Gums", "Hoof"]
+        },
+        {
+          "name": "HOW",
+          "words": ["Leisurely", "Hurriedly", "Patiently", "Afraid", "Naughty", "Cruel"]
+        },
+        {
+          "name": "PEOPLE CAN",
+          "words": ["Squirm", "Follow", "Bully", "Instruct"]
+        },
+        {
+          "name": "WHERE",
+          "words": ["Subway", "Universe", "Galaxy", "Community", "Nation"]
+        },
+        {
+          "name": "EAT",
+          "words": ["Supper", "Fodder", "Orange", "Lunch", "Popcorn"]
+        }
+      ]
+        },{
+          "id":"Set4_6",
+          "categories":[ {
+          "name": "CAN PUT IN YOUR POCKET",
+          "words": ["Seeds","Screw","Needle","coin","Berry","Pebble","Nickel","Lock"]
+        },
+        {
+          "name": "BIRDS",
+          "words": ["Sparrow","Chick","Roaster","Parrot"]
+        },
+        {
+          "name": "COLORS",
+          "words": ["Maroon", "Cape", "Blue"]
+        },
+        {
+          "name": "NUMBERS",
+          "words": ["Eighteen", "Fourteenth", "Thirteen", "Seventeen", "Fifty-nine","Zero"]
+        },
+        {
+          "name": "THINGS TO WATCH",
+          "words": ["Laptop", "Rugby", "Blizzard", "Golf", "Raccoon"]
+        },
+         {
+          "name": "MADE OF WOOD",
+          "words": ["Lounger","Crate","Table"]
+        }
+      ]
+        },
+        {
+          "id":"Set4_7",
+            "categories": [
+        {
+          "name": "SOUNDS",
+          "words": ["Howl", "Crackle", "Snap", "Squirm", "Hoof"]
+        },
+        {
+          "name": "PARTS OF THE Vehicle",
+          "words": ["Engine", "Tyres", "Bonnet", "Gears", "Steering"]
+        },
+        {
+          "name": "HOW",
+          "words": ["Leisurely", "Arviously", "Steadfast","Obedient","Disappointed"]
+        },
+        {
+          "name": "PEOPLE CAN",
+          "words": ["Squirm", "Host", "Follow", "Bully", "Cruel","Instruct"]
+        },
+        {
+          "name": "WHERE",
+          "words": ["Subway", "Universe", "Galaxy", "Community", "Nation"]
+        },
+        {
+          "name": "EAT",
+          "words": ["Stack", "Mango", "Orange", "Hi-tea", "Papaya"]
+        }
+      ]
+        },{
+          "id":"Set4_8",
+          "categories":[
+        {
+          "name": "THINGS WITH WHEELS",
+          "words": ["Stoller" ,"Tractor"," Wagon" ,"Ferris" ,"Tricycle"]
+        },
+        {
+          "name": "ANIMALS FOUND UNDER-WATER",
+          "words": ["Jellyfish" ,"Whale","Octopus" ,"Crabs" ,"Dolphin"]
+        },
+        {
+          "name": "THINGS THAT MAKE SOUND",
+          "words": ["Guitar" ,"Drums","Piano" ,"Flute" ,"Violin"]
+        },
+        {
+          "name": "THINGS FOUND AT THE BEACH",
+          "words": ["Sunglasses" ,"Towel","Sand", "Sand Castle", "Shells"]
+        },
+        {
+          "name": "THINGS THAT CAN ROLL",
+          "words": ["Lemon" ,"Marbles" ,"Bowl" ,"Dice" ,"Ball"]
+        },
+        {
+          "name": "THINGS THAT CAN FLOAT",
+          "words": ["Paper" ,"Ball", "Wood", "Ice" ,"Cork"]
+        }
+      ]
+        },{
+          "id":"Set4_9",
+          "categories": [
+        {
+          "name": "THINGS WITH BUTTONS",
+          "words": ["Remote" ,"Shirt", "Keyboard", "Mobile", "Elevator"]
+        },
+        {
+          "name": "THINGS USED FOR CLEANING",
+          "words": ["Sponge" ,"Mop","Broom" ,"Cloth" ,"DustPan"]
+        },
+        {
+          "name": "THINGS YOU WEAR ON YOUR HEAD",
+          "words": ["Crown" ,"Helmet" ,"Cap", "Hat" ,"Scarves"]
+        },
+        {
+          "name": "THINGS YOU FIND IN A DRAWER",
+          "words": ["Batteries" ,"Pin", "Needles", "Matches", "Glasses"]
+        },
+        {
+          "name": "THINGS YOU WEAR IN YOUR HAND",
+          "words": ["Mitten" ,"Ring","Watch","Bracelet", "Bangles"]
+        },
+        {
+          "name": "DRINK",
+          "words": ["Water" ,"Juice" ,"Milk", "Soda" ,"Soup"]
+        }
+      ]
+        },
+        {
+          "id":"Set4_10",
+          "categories": [
+        {
+          "name": "You can live in",
+          "words": ["Igloo", "caves", "apartments", "burrows", "tent", "Camper van", "dormitory"]
+        },
+        {
+          "name": "Spices",
+          "words": ["peppers", "cinnamon", "clove", "cayenne", "cardamom", "Caraway seeds"]
+        },
+        {
+          "name": "Clothes you wear above your waist",
+          "words": ["Hoodies", "tie", "scarf", "shirt", "blouse", "gloves"]
+        },
+        {
+          "name": "Action verbs",
+          "words": ["eat", "walk", "hunt", "swim", "shoot", "write", "draw"]
+        },
+        {
+          "name": "Places in a town/city",
+          "words": ["Post office", "Super market", "Train station", "school", "hotel"]
+        },
+        {
+          "name": "Things you find in Nature",
+          "words": ["insects", "trees", "flower", "rocks", "mushroom"]
+        }
+      ]
+        },
+          {
+          "id":"Set4_11",
+           "categories": [
+        {
+          "name": "Water Sports/ Activities",
+          "words": ["Swimming" ,"Scuba Diving", "snorkelling", "canoeing", "rafting", "fishing"]
+        },
+        {
+          "name": "Things you do daily",
+          "words": [ "Bathing","eating", "Brushing teeth", "studying", "work", "cleaning"]
+        },
+        {
+          "name": "Things found in a bathroom shower",
+          "words": ["Shower", "Bath tub", "Hair dryer", "sink", "shampoo", "tissues"]
+        },
+        {
+          "name": "Prepositions of place",
+          "words": ["Behind","infant", "beside", "above", "below", "under"]
+        },
+        {
+          "name": "Film Genre",
+          "words": ["Sci-fi","Comedy", "thriller", "fantasy", "romance"]
+        },
+        {
+          "name": "Things which make noise",
+          "words": ["Alarm","bark", "chap", "whistle", "humming", "siren"]
+        }
+      ]
+        }
+      ]
+    }
+  }

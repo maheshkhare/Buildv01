@@ -1,8 +1,8 @@
 {
   "name": "soi-applications",
-  "description": "SOI Systems Applications Monorepo",
+  "description": "Energia SOI",
   "main": "index.js",
-  "author": "SOI Tech, on mac client <techsupport@soisystems.com>",
+  "author": "Energia SOI, on mac client <it@energiawellbeing.com>",
   "license": "Proprietary",
   "private": true,
   "workspaces": [
@@ -12,7 +12,7 @@
     "packages/program-controllers/**"
   ],
   "scripts": {
-    "storybook": "set NODE_OPTIONS=--openssl-legacy-provider && start-storybook -p 6006 -s public",
+    "storybook": "start-storybook -p 6006 -s public",
     "lint-staged": "lint-staged"
   },
   "husky": {
@@ -66,7 +66,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "@vue/runtime-dom": "^3.5.17",
-    "axios": "^1.10.0"
+    "axios": "^0.27.2",
+    "yarn": "^1.22.22"
   }
 }
