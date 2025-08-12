@@ -1,7 +1,7 @@
 <template>
 <div class="flex-auto">
  <div class="relative mx-auto p-5 border w-96 shadow-lg rounded-md bg-white mt-10 " 
- style="width: 300px; height: 380px;" >
+ style="width: 410px; height: 400px;" >
 	<div class="mt-3 text-center" v-show="ResultHide">
 		<div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-green-100">
 			<svg class="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -11,7 +11,7 @@
 			</svg>
 		</div>
 		<h3 class="text-lg leading-6 font-medium text-gray-900">Successful!</h3>
-		<div class="mt-2 px-7 py-3">
+		<div class="mt-2 px-6 py-3">
 			
 		<center><table class="table-auto">
         <thead>
@@ -39,7 +39,7 @@
             </tr>
         </tbody>
         </table></center><br>
-        <input type="submit" value="SUBMIT" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border
+        <input type="submit" value="SUBMIT" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 mt-4 px-4 border
          border-blue-500 hover:border-transparent rounded" v-on:click="FinalResult()">
         </div>
         
