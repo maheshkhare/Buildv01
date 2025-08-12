@@ -1,0 +1,52 @@
+{
+  "sets": {
+    "level1": [
+      {
+        "id": "Set0_0",
+        "categories": [
+          {
+            "name": "Fruits",
+            "displayName": "Fruits",
+            "words": ["Apple", "Banana", "Orange", "Grapes", "Mango", "Strawberry", "Watermelon"]
+          },
+          {
+            "name": "Vegetables",
+            "displayName": "Vegetables",
+            "words": ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Potato", "Onion"]
+          }
+        ]
+      },
+      {
+        "id": "Set0_1",
+        
+        "categories": [
+          {
+            "name": "Countries",
+            "displayName": "Countries",
+            "words": ["USA", "Canada", "Japan", "Brazil", "Germany", "Australia", "India"]
+          },
+          {
+            "name": "Cities",
+            "displayName": "Cities",
+            "words": ["New York", "Tokyo", "London", "Paris", "Sydney", "Beijing", "Mumbai"]
+          }
+        ]
+      },
+      {
+        "id": "Set0_2",
+        "categories": [
+          {
+            "name": "Professions",
+            "displayName": "Professions",
+            "words": ["Doctor", "Teacher", "Engineer", "Chef", "Artist", "Pilot", "Writer"]
+          },
+          {
+            "name": "Sports",
+            "displayName": "Sports",
+            "words": ["Football", "Basketball", "Tennis", "Swimming", "Golf", "Cricket", "Baseball"]
+          }
+        ]
+      }
+    ]
+  }
+}

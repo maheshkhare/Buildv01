@@ -1,0 +1,898 @@
+{
+  "sets": {
+        
+
+    "level1": [
+      {
+
+        "levelName": "Imagination from story",
+        "id": "Set1_0",
+        "story": "This is a bighorn sheep. Look at the picture. Describe a bighorn sheep by thinking of as many words as you can. Put these words under the Bighorn Sheep Description list (on the next page). The list is already started. A bighorn sheep has HORNS. A bighorn sheep has EYES.A bighorn sheep as a NOSE. What else does a bighorn sheep have? Add your words to the list. Think of as many as you can.Now do something different. Think what a bighorn sheep reminds you of, not what you can see in the picture but what you think about when you see a bighorn sheep. Maybe you think of MOUNTAINS because a bighorn sheep lives in the mountains. Maybe you think of GRASS because a bighorn sheep eats grass. Maybe you think of BODY BUILDER because a bighorn sheep is all muscle. Let your imagination go and think of as many ideas as you can when you see a bighorn sheep. Put your words in the Bighorn Imagination list. Now it's time to use your words to make a story about a bighorn sheep. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious,but be as original with your imagination as you can.",
+        "Image": "L1-0",
+        "categories": [
+          {
+            "name": "BighornSheepDescription",
+            "displayName": "Bighorn Sheep Description",
+            "words": ["Horns", "Eyes", "Nose", "Ears", "Hooves", "Legs", "Fur", "Tail", "Teeth", "Head", "Neck", "Back"]
+          },
+          {
+            "name": "BighornImagination",
+            "displayName": "Bighorn Imagination",
+            "words": ["Mountains", "Grass", "Bodybuilder", "Climber", "Warrior", "Rock", "King", "Wind", "Strength", "Wild", "Battle", "Freedom"]
+          }
+        ]
+      },  
+       {
+        "levelName": "Imagination from story",
+        "id": "Set1_1",
+        "story": "This is a spotted deer. Look at the picture. Describe a spotted deer by thinking of as many words as you can. Put these words under the Spotted Deer Description list (on the next page). The list is already started. A spotted deer has ANTLERS. A spotted deer has SPOTS. A spotted deer has EYES. What else does a spotted deer have? Add your words to the list. Think of as many as you can. Now do something different. Think what a spotted deer reminds you of, not what you can see in the picture but what you think about when you see a spotted deer. Maybe you think of FORESTS because a spotted deer lives in the forests. Maybe you think of GRACEFUL because a spotted deer moves lightly. Maybe you think of CAMOUFLAGE because its spots help it hide. Let your imagination go and think of as many ideas as you can when you see a spotted deer. Put your words in the Spotted Deer Imagination list. Now it's time to use your words to make a story about a spotted deer. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L1-1",  
+        "categories": [
+          {
+            "name": "SpottedDeerDescription",
+            "displayName": "Spotted Deer Description",
+            "words": ["Antlers", "Spots", "Eyes", "Ears", "Legs", "Hooves", "Fur", "Tail", "Nose", "Neck", "White underbelly", "Muzzle"]
+          },
+          {
+            "name": "SpottedDeerImagination",
+            "displayName": "Spotted Deer Imagination",
+            "words": ["Forests", "Graceful", "Camouflage", "Herds", "Gentle", "Morning dew", "Bamboo", "Silence", "Alert", "Swift", "Golden light", "Harmony"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set1_2",
+        "story": "This is a California Condor. Look at the picture. Describe a California Condor by thinking of as many words as you can. Put these words under the California Condor Description list (on the next page). The list is already started. A California Condor has FEATHERS. A California Condor has EYES. A California Condor has a BEAK. What else does a California Condor have? Add your words to the list. Think of as many as you can. Now do something different. Think what a California Condor reminds you of, not what you can see in the picture but what you think about when you see a California Condor. Maybe you think of TREES because a California Condor lives on trees. Maybe you think of SKY because a California Condor flies in the sky. Let your imagination go and think of as many ideas as you can when you see a California Condor. Put your words in the California Condor Imagination list. Now it's time to use your words to make a story about a California Condor. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L1-2",  
+        "categories": [
+          {
+            "name": "CaliforniaCondorDescription",
+            "displayName": "California Condor Description",
+            "words": ["Feathers", "Eyes", "Beak", "Wingspan", "Bald head", "Sharp talons", "Black plumage", "White underwings", "Curved claws", "Large nostrils", "Muscular neck", "Hooked bill"]
+          },
+          {
+            "name": "CaliforniaCondorImagination",
+            "displayName": "California Condor Imagination",
+            "words": ["Trees", "Sky", "Ancient spirit", "Canyon dancer", "Wind rider", "Cloud surfer", "Sun worshiper", "Mountain guardian", "Thunderbird", "Air acrobat", "Freedom symbol", "Highway patrol"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set1_3",
+        "story": "This is an Ibong Adarna. Look at the picture. Describe an Ibong Adarna by thinking of as many words as you can. Put these words under the Ibong Adarna Description list (on the next page). The list is already started. An Ibong Adarna has FEATHERS. An Ibong Adarna has EYES. An Ibong Adarna has a BEAK. What else does an Ibong Adarna have? Add your words to the list. Think of as many as you can. Now do something different. Think what an Ibong Adarna reminds you of, not what you can see in the picture but what you think about when you see an Ibong Adarna. Maybe you think of TREES because an Ibong Adarna lives on trees. Maybe you think of SKY because an Ibong Adarna flies in the sky. Let your imagination go and think of as many ideas as you can when you see an Ibong Adarna. Put your words in the Ibong Adarna Imagination list. Now it's time to use your words to make a story about an Ibong Adarna. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L1-3",  
+        "categories": [
+          {
+            "name": "IbongAdarnaDescription",
+            "displayName": "Ibong Adarna Description",
+            "words": ["Feathers", "Eyes", "Beak", "Rainbow plumage", "Crown-like crest", "Glowing tail", "Golden claws", "Iridescent wings", "Singing throat", "Mystical aura", "Regal posture", "Enchanted eyes"]
+          },
+          {
+            "name": "IbongAdarnaImagination",
+            "displayName": "Ibong Adarna Imagination",
+            "words": ["Trees", "Sky", "Filipino legend", "Healing song", "Moonlight dancer", "Royal quest", "Spellcaster", "Dream weaver", "Forest guardian", "Seven colors", "Trial by melody", "Mythical lullaby"]
+          }
+        ]
+      },
+
+        {
+          "levelName": "Imagination from story",
+        "id": "Set1_4",
+        "story": "This is a Werewolf. Look at the picture. Describe a Werewolf by thinking of as many words as you can. Put these words under the Werewolf Description list (on the next page). The list is already started. A Werewolf spends most of their time in packs. A Werewolf has sharp claws. What else does a Werewolf have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Werewolf reminds you of, not what you can see in the picture but what you think about when you see a Werewolf. Maybe you think of a DOG because a Werewolf has strong jaws. A Werewolf has a long fluffy tail. Let your imagination go and think of as many ideas as you can when you see a Werewolf. Put your words in the Werewolf Imagination list. Now it's time to use your words to make a story about a Werewolf. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L1-4",  
+        "categories": [
+          {
+            "name": "WerewolfDescription",
+            "displayName": "Werewolf Description",
+            "words": ["Sharp claws", "Strong jaws", "Fluffy tail", "Pointed ears", "Glowing eyes", "Muscular body", "Fur-covered", "Fangs", "Hunched posture", "Night vision", "Howling mouth", "Pack behavior"]
+          },
+          {
+            "name": "WerewolfImagination",
+            "displayName": "Werewolf Imagination",
+            "words": ["Dog", "Full moon", "Transformation", "Horror legend", "Alpha leader", "Forest hunter", "Silver weakness", "Cursed soul", "Wild rage", "Ancient myth", "Beast within", "Moonlight howl"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set1_5",
+        "story": "This is a Frogfish. Look at the picture. Describe a Frogfish by thinking of as many words as you can. Put these words under the Frogfish Description list (on the next page). The list is already started. A Frogfish spends most of their time in shallow, tropical waters. A Frogfish has a large mouth and prickly skin. What else does a Frogfish have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Frogfish reminds you of, not what you can see in the picture but what you think about when you see a Frogfish. Maybe you think of a Goldfish because a Frogfish has a colorful appearance. A Frogfish has small fins. Let your imagination go and think of as many ideas as you can when you see a Frogfish. Put your words in the Frogfish Imagination list. Now it's time to use your words to make a story about a Frogfish. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L1-5",  
+        "categories": [
+          {
+            "name": "FrogfishDescription",
+            "displayName": "Frogfish Description",
+            "words": ["Large mouth", "Prickly skin", "Small fins", "Warty texture", "Camouflage colors", "Globular body", "Front-facing eyes", "Modified pectoral fins", "Lure appendage", "Stocky shape", "Bumpy exterior", "Gill openings"]
+          },
+          {
+            "name": "FrogfishImagination",
+            "displayName": "Frogfish Imagination",
+            "words": ["Goldfish", "Underwater blob", "Coral ninja", "Angler's trick", "Sea toad", "Rainbow rock", "Lazy hunter", "Ocean jewel", "Disguise master", "Maritime mushroom", "Tidepool alien", "Aquatic vacuum"]
+          }
+        ]
+      }
+    
+     
+    ],
+   "level2":[
+     {
+      "levelName": "Imagination from story",
+        "id": "Set2_0",
+        "story": "This is a badger. Look at the picture. Describe the badger by thinking of as many words as you can. Put these words in the Badger Description list (on the next page). The list is already started. A badger has CLAWS. A badger has FUR. A badger has a BOBTAIL. What else does a badger have? Add your words to the list. Think of as many as you can. Now do something different. Think what a badger reminds you of, not what you can see in the picture, but what you think about when you see a badger. Maybe you think of FEISTY because a badger appears to be a fighter. Maybe you think of CURIOUS because a badger is very nosy. Let your imagination go and think of as many ideas as you can when you see a badger. Put your words in the Badger Imagination list. Now it's time to use your words to make a story about a badger. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story; be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L2-0",
+        "categories": [
+          {
+            "name": "BadgerDescription",
+            "displayName": "Badger Description",
+            "words": ["Claws", "Fur", "Bobtail", "Eyes", "Ears", "Legs", "Paws", "Nose", "Whiskers", "Teeth", "Back", "Snout"]
+          },
+          {
+            "name": "BadgerImagination",
+            "displayName": "Badger Imagination",
+            "words": ["Feisty", "Curious", "Digging", "Forest", "Tunneler", "Fighter", "Noisy", "Sneaky", "Explorer", "Brave", "Shadow", "Determined"]
+          }
+        ]
+      },
+      {
+        "levelName": "Imagination from story",
+        "id": "Set2_1",
+        "story": "This is a Koala. Look at the picture. Describe a Koala by thinking of as many words as you can. Put these words under the Koala Description list (on the next page). The list is already started. A Koala has TWO OPPOSING THUMBS. A Koala has COARSE WOOL-LIKE FUR. What else does a Koala have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Koala reminds you of, not what you can see in the picture but what you think about when you see a Koala. Maybe you think of EUCALYPTUS because a Koala lives in eucalyptus trees. Maybe you think of TEDDY BEAR because a Koala looks cuddly. Let your imagination go and think of as many ideas as you can when you see a Koala. Put your words in the Koala Imagination list. Now it's time to use your words to make a story about a Koala. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L2-1",  
+        "categories": [
+          {
+            "name": "KoalaDescription",
+            "displayName": "Koala Description",
+            "words": ["Two opposing thumbs", "Coarse wool-like fur", "Pouch", "Black nose", "Fused toes", "Sharp claws", "Round ears", "Fuzzy appearance", "Strong limbs", "Leathery pads", "Cheek pouches", "Button eyes"]
+          },
+          {
+            "name": "KoalaImagination",
+            "displayName": "Koala Imagination",
+            "words": ["Eucalyptus", "Teddy bear", "Tree hugger", "Leaf gourmet", "Australian icon", "Sleepyhead", "Pouch passenger", "Branch ball", "Forest Buddha", "Nature's pacifier", "Zen master", "Slow-motion acrobat"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set2_2",
+        "story": "This is a Pangolin. Look at the picture. Describe a Pangolin by thinking of as many words as you can. Put these words under the Pangolin Description list (on the next page). The list is already started. A Pangolin has CLAWS. A Pangolin has FUR. A Pangolin has a LONG TAIL. What else does a Pangolin have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Pangolin reminds you of, not what you can see in the picture but what you think about when you see a Pangolin. Maybe you think of a SNOUT because a Pangolin appears to have a long snout. Maybe you think of TONGUE because a Pangolin has a long tongue. Let your imagination go and think of as many ideas as you can when you see a Pangolin. Put your words in the Pangolin Imagination list. Now it's time to use your words to make a story about a Pangolin. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L2-2",  
+        "categories": [
+          {
+            "name": "PangolinDescription",
+            "displayName": "Pangolin Description",
+            "words": ["Claws", "Fur", "Long tail", "Keratin scales", "Pointed snout", "Sticky tongue", "Armored plates", "Curled posture", "Small eyes", "Powerful legs", "Prehensile tail", "Nocturnal eyes"]
+          },
+          {
+            "name": "PangolinImagination",
+            "displayName": "Pangolin Imagination",
+            "words": ["Snout", "Tongue", "Walking artichoke", "Living fossil", "Ant vacuum", "Forest knight", "Scaled ball", "Night detective", "Evolution's masterpiece", "Earth's dinosaur", "Shy warrior", "Nature's tank"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set2_3",
+        "story": "This is an Elephant Shrew. Look at the picture. Describe an Elephant Shrew by thinking of as many words as you can. Put these words under the Elephant Shrew Description list (on the next page). The list is already started. An Elephant Shrew has a LARGE HEAD. An Elephant Shrew has a NARROW SNOUT. An Elephant Shrew has LONG LEGS. What else does an Elephant Shrew have? Add your words to the list. Think of as many as you can. Now do something different. Think what an Elephant Shrew reminds you of, not what you can see in the picture but what you think about when you see an Elephant Shrew. Maybe you think of A RAT because an Elephant Shrew HAS A SCALY TAIL. Maybe you think of a SQUIRREL because of its BODY SHAPE. Let your imagination go and think of as many ideas as you can when you see an Elephant Shrew. Put your words in the Elephant Shrew Imagination list. Now it's time to use your words to make a story about an Elephant Shrew. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L2-3",
+        "categories": [
+          {
+            "name": "ElephantShrewDescription",
+            "displayName": "Elephant Shrew Description",
+            "words": ["Large head", "Narrow snout", "Long legs", "Scaly tail", "Bulging eyes", "Whiskers", "Tiny body", "Flexible nose", "Swift feet", "Brown fur", "Pointed claws", "Alert ears"]
+          },
+          {
+            "name": "ElephantShrewImagination",
+            "displayName": "Elephant Shrew Imagination",
+            "words": ["Rat", "Squirrel", "Mini-elephant", "Desert sprinter", "Insect vacuum", "Living toothpick", "Nose magician", "Leaf hopper", "Evolution's joke", "Tiny acrobat", "Sand dancer", "Micro-explorer"]
+          }
+        ]
+      },
+        {
+          "levelName": "Imagination from story",
+        "id": "Set2_4",
+        "story": "This is an Eagle. Look at the picture. Describe an Eagle by thinking of as many words as you can. Put these words under the Eagle Description list (on the next page). The list is already started. An Eagle has sharp eyes. An Eagle has feathers. What else does an Eagle have? Add your words to the list. Think of as many as you can. Now do something different. Think what an Eagle reminds you of, not what you can see in the picture but what you think about when you see an Eagle. Maybe you think of a predator bird because an Eagle has strong claws. An Eagle has a long beak. Let your imagination go and think of as many ideas as you can when you see an Eagle. Put your words in the Eagle Imagination list. Now it's time to use your words to make a story about an Eagle. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L2-4",  
+        "categories": [
+          {
+            "name": "EagleDescription",
+            "displayName": "Eagle Description",
+            "words": ["Sharp eyes", "Feathers", "Strong claws", "Hooked beak", "Wide wingspan", "Muscular body", "Talons", "Keen vision", "Brown plumage", "Powerful wings", "Notched beak", "Fierce gaze"]
+          },
+          {
+            "name": "EagleImagination",
+            "displayName": "Eagle Imagination",
+            "words": ["Predator bird", "Sky emperor", "Thunderbird", "Wind conqueror", "Freedom symbol", "Mountain guardian", "Apex hunter", "Cloud surfer", "Storm rider", "Sun watcher", "Cliff sentinel", "Legendary warrior"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set2_5",
+        "story": "This is a Sea Slug. Look at the picture. Describe a Sea Slug by thinking of as many words as you can. Put these words under the Sea Slug Description list (on the next page). The list is already started. A Sea Slug spends most of their time in deep waters. A Sea Slug has tentacles and is translucent. What else does a Sea Slug have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Sea Slug reminds you of, not what you can see in the picture but what you think about when you see a Sea Slug. Maybe you think of a starfish because of its appearance. A Sea Slug has small razor-sharp teeth. Let your imagination go and think of as many ideas as you can when you see a Sea Slug. Put your words in the Sea Slug Imagination list. Now it's time to use your words to make a story about a Sea Slug. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L2-5",  
+        "categories": [
+          {
+            "name": "SeaSlugDescription",
+            "displayName": "Sea Slug Description",
+            "words": ["Tentacles", "Translucent", "Razor-sharp teeth", "Colorful patterns", "Gelatinous body", "Rhinophores", "Cerata", "Flat foot", "Bioluminescent", "Feathery gills", "Sticky mucus", "Symmetrical shape"]
+          },
+          {
+            "name": "SeaSlugImagination",
+            "displayName": "Sea Slug Imagination",
+            "words": ["Starfish", "Ocean jewel", "Living watercolor", "Deep-sea butterfly", "Alien explorer", "Coral dancer", "Marine kaleidoscope", "Neon ghost", "Seafloor artist", "Toxic jewel", "Underwater origami", "Slimy Picasso"]
+          }
+        ]
+      }
+
+
+   ],
+   "level3":[
+     {
+      "levelName": "Imagination from story",
+        "id": "Set3_0",
+        "story": "This is a sloth. Look at the picture. Describe a sloth by thinking of as many words as you can. Put these words under the Sloth Description list (on the next page). The list is already started. A sloth has LONG ARMS. A sloth has a ROUND HEAD. What else does a sloth have? Add your words to the list. Think of as many as you can. Now do something different. Think what a sloth reminds you of, not what you can see in the picture but what you think about when you see a sloth. Maybe you think of HANGER-ON because a sloth hangs on things. Maybe you think of BLOB because a sloth has a round body. Let your imagination go and think of as many ideas as you can when you see a sloth. Put your words in the Sloth Imagination list. Now it's time to use your words to make a story about a sloth. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L3-0",  
+        "categories": [
+          {
+            "name": "SlothDescription",
+            "displayName": "Sloth Description",
+            "words": ["Long arms", "Round head", "Claws", "Fur", "Small eyes", "Flat face", "Short legs", "Slow movements", "Smile", "Nose", "Ears", "Paws"]
+          },
+          {
+            "name": "SlothImagination",
+            "displayName": "Sloth Imagination",
+            "words": ["Hanger-on", "Blob", "Lazy", "Sleepy", "Jungle", "Vines", "Patience", "Zen", "Moss", "Chill", "Gravity", "Nap time"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set3_1",
+        "story": "This is a Polar Bear. Look at the picture. Describe a Polar Bear by thinking of as many words as you can. Put these words under the Polar Bear Description list (on the next page). The list is already started. A Polar Bear has THICK FUR. A Polar Bear has PADDLE-LIKE PAWS. What else does a Polar Bear have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Polar Bear reminds you of, not what you can see in the picture but what you think about when you see a Polar Bear. Maybe you think of SNOW KING because a Polar Bear rules the Arctic. Maybe you think of ICE SWIMMER because they're excellent in water. Let your imagination go and think of as many ideas as you can when you see a Polar Bear. Put your words in the Polar Bear Imagination list. Now it's time to use your words to make a story about a Polar Bear. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L3-1",
+        "categories": [
+          {
+            "name": "PolarBearDescription",
+            "displayName": "Polar Bear Description",
+            "words": ["Thick fur", "Paddle-like paws", "Layer of fat", "White coat", "Black skin", "Webbed toes", "Powerful claws", "Muscular body", "Small ears", "Strong legs", "Waterproof fur", "Sharp teeth"]
+          },
+          {
+            "name": "PolarBearImagination",
+            "displayName": "Polar Bear Imagination",
+            "words": ["Snow King", "Ice Swimmer", "Arctic Guardian", "Frost Giant", "Blizzard Warrior", "Seal Hunter", "Glacier Ghost", "Tundra Titan", "North Pole Monarch", "Frozen Wanderer", "Climate Change Icon", "Iceberg Navigator"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set3_2",
+        "story": "This is a Capybara. Look at the picture. Describe a Capybara by thinking of as many words as you can. Put these words under the Capybara Description list (on the next page). The list is already started. A Capybara is a strong swimmer. A Capybara has dark brown fur. What else does a Capybara have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Capybara reminds you of, not what you can see in the picture but what you think about when you see a Capybara. Maybe you think of a Frog because a Capybara has webbed toes. Maybe you think of Rodent because a Capybara has a round body. Let your imagination go and think of as many ideas as you can when you see a Capybara. Put your words in the Capybara Imagination list. Now it's time to use your words to make a story about a Capybara. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L3-2",  
+        "categories": [
+          {
+            "name": "CapybaraDescription",
+            "displayName": "Capybara Description",
+            "words": ["Dark brown fur", "Webbed toes", "Round body", "Blunt snout", "Small ears", "Whiskers", "Sturdy legs", "Partially webbed feet", "Short tail", "Dense coat", "Flat back", "Herbivore teeth"]
+          },
+          {
+            "name": "CapybaraImagination",
+            "displayName": "Capybara Imagination",
+            "words": ["Frog", "Rodent", "River Hippo", "Water Couch", "Jungle Potato", "Zen Master", "Swimming Beanbag", "Amazonian Lounger", "Eco-Friendly Lawnmower", "Wetland Buddha", "Chill Champion", "Animal Kingdom's Best Friend"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set3_3",
+        "story": "This is a Hooded Grebe. Look at the picture. Describe a Hooded Grebe by thinking of as many words as you can. Put these words under the Hooded Grebe Description list (on the next page). The list is already started. A Hooded Grebe has FEATHERS. A Hooded Grebe has a SHORT BEAK. A Hooded Grebe has RED EYES. What else does a Hooded Grebe have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Hooded Grebe reminds you of, not what you can see in the picture but what you think about when you see a Hooded Grebe. Maybe you think of A DUCK because a Hooded Grebe SWIMS. Maybe you think of BIRD because of its FEATHERS. Let your imagination go and think of as many ideas as you can when you see a Hooded Grebe. Put your words in the Hooded Grebe Imagination list. Now it's time to use your words to make a story about a Hooded Grebe. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L3-3",  
+        "categories": [
+          {
+            "name": "HoodedGrebeDescription",
+            "displayName": "Hooded Grebe Description",
+            "words": ["Feathers", "Short beak", "Red eyes", "Black head", "White body", "Lobed feet", "Sleek neck", "Waterproof plumage", "Pointed wings", "Small size", "Graceful swimmer", "Diving ability"]
+          },
+          {
+            "name": "HoodedGrebeImagination",
+            "displayName": "Hooded Grebe Imagination",
+            "words": ["Duck", "Bird", "Water Ghost", "Patagonian Dancer", "Crimson-eyed Diver", "Lake Jewel", "Feathered Submarine", "Andean Mirage", "Vanishing Beauty", "Ice Water Ballerina", "Rare Gem", "Aquatic Acrobat"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set3_4",
+        "story": "This is a Bigfoot. Look at the picture. Describe a Bigfoot by thinking of as many words as you can. Put these words under the Bigfoot Description list (on the next page). The list is already started. A Bigfoot has a LARGE FOOT. A Bigfoot has a HUGE BODY. What else does a Bigfoot have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Bigfoot reminds you of, not what you can see in the picture but what you think about when you see a Bigfoot. Maybe you think of a Chimpanzee because a Bigfoot has a furry body. Bigfoot looks like a monkey. Let your imagination go and think of as many ideas as you can when you see a Bigfoot. Put your words in the Bigfoot Imagination list. Now it's time to use your words to make a story about a Bigfoot. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L3-4",
+        "categories": [
+          {
+            "name": "BigfootDescription",
+            "displayName": "Bigfoot Description",
+            "words": ["Large foot", "Huge body", "Furry covering", "Tall stature", "Muscular arms", "Long stride", "Deep footprints", "Broad shoulders", "Ape-like face", "Dark eyes", "Knotted hair", "Powerful legs"]
+          },
+          {
+            "name": "BigfootImagination",
+            "displayName": "Bigfoot Imagination",
+            "words": ["Chimpanzee", "Forest Ghost", "Mountain Giant", "Wilderness Mystery", "Night Wanderer", "Timber Titan", "Legendary Wanderer", "Woodland Shadow", "Cryptid King", "Hairy Houdini", "Pinewood Phantom", "North American Yeti"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set3_5",
+        "story": "This is a Shortnose Batfish. Look at the picture. Describe a Shortnose Batfish by thinking of as many words as you can. Put these words under the Shortnose Batfish Description list (on the next page). The list is already started. A Shortnose Batfish is found in very deep, lightless, global tropical waters. A Shortnose Batfish has a flattened body. What else does a Shortnose Batfish have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Shortnose Batfish reminds you of, not what you can see in the picture but what you think about when you see a Shortnose Batfish. Maybe you think of a bat because of its appearance. A Shortnose Batfish looks like a frog. Let your imagination go and think of as many ideas as you can when you see a Shortnose Batfish. Put your words in the Shortnose Batfish Imagination list. Now it's time to use your words to make a story about a Shortnose Batfish. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L3-5",
+        "categories": [
+          {
+            "name": "ShortnoseBatfishDescription",
+            "displayName": "Shortnose Batfish Description",
+            "words": ["Flattened body", "Triangular shape", "Modified pectoral fins", "Short snout", "Wide mouth", "Small eyes", "Mottled coloration", "Bottom-dweller", "Walking fins", "Camouflage skin", "Stubby tail", "Benthic adaptation"]
+          },
+          {
+            "name": "ShortnoseBatfishImagination",
+            "displayName": "Shortnose Batfish Imagination",
+            "words": ["Bat", "Frog", "Sea Pancake", "Deep-sea Kite", "Ocean Floor Walker", "Alien Handfish", "Underwater Toad", "Marine Triangle", "Abyssal Glider", "Living Sea Coin", "Benthic Butterfly", "Gothic Fish"]
+          }
+        ]
+      }
+
+   ],
+    "level4":[
+        {
+          "levelName": "Imagination from story",
+        "id": "Set4_0",
+        "story": "This is a nyala. Look at the picture. Describe a nyala by thinking of as many words as you can. Put these words under the Nyala Description list (on the next page). The list is already started. A nyala has LONG LEGS. A nyala is LEAN. What else does a nyala have? Add your words to the list. Think of as many as you can. Now do something different. Think what a nyala reminds you of, not what you can see in the picture but what you think about when you see a nyala. Maybe you think of SWIFT because a nyala runs at great speeds. Maybe you think of GRACEFUL because a nyala displays grace in form. Let your imagination go and think of as many ideas as you can when you see a nyala. Put your words in the Nyala Imagination list. Now it's time to use your words to make a story about a nyala. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L4-0",  
+        "categories": [
+          {
+            "name": "NyalaDescription",
+            "displayName": "Nyala Description",
+            "words": ["Long legs", "Lean", "Horns", "Stripes", "Large ears", "Slender neck", "Brown coat", "White markings", "Alert eyes", "Pointed hooves", "Bushy tail", "Wide nostrils"]
+          },
+          {
+            "name": "NyalaImagination",
+            "displayName": "Nyala Imagination",
+            "words": ["Swift", "Graceful", "Savanna", "Dawn", "Agile", "Elegant", "Freedom", "Wilderness", "Stealth", "Dancer", "Speed", "Majestic"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set4_1",
+        "story": "This is a Lion. Look at the picture. Describe a Lion by thinking of as many words as you can. Put these words under the Lion Description list (on the next page). The list is already started. A Lion has GREAT STRENGTH. A LION is STRONG. What else does a LION have? Add your words to the list. Think of as many as you can. Now do something different. Think what a LION reminds you of, not what you can see in the picture but what you think about when you see a LION. Maybe you think of SWIFT because a LION runs at great speeds. Maybe you think of FIERCE because a LION displays it. Let your imagination go and think of as many ideas as you can when you see a lion. Put your words in the Lion Imagination list. Now it's time to use your words to make a story about Lion. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L4-1",
+        "categories": [
+          {
+            "name": "LionDescription",
+            "displayName": "Lion Description",
+            "words": ["Great strength", "Strong", "Mane", "Sharp claws", "Powerful jaws", "Muscular body", "Golden fur", "Tail tuft", "Keen eyesight", "Large paws", "Roaring voice", "Predatory teeth"]
+          },
+          {
+            "name": "LionImagination",
+            "displayName": "Lion Imagination",
+            "words": ["Swift", "Fierce", "King of Beasts", "Savanna Emperor", "Golden Warrior", "Pride Leader", "Sunset Hunter", "Jungle Crown", "Thunder Roar", "Desert Monarch", "Courage Symbol", "Wild Royalty"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set4_2",
+        "story": "This is a Black-footed Ferret. Look at the picture. Describe a Black-footed Ferret by thinking of as many words as you can. Put these words under the Black-footed Ferret Description list (on the next page). The list is already started. A Black-footed Ferret has a black-tipped tail. A Black-footed Ferret has black feet. What else does a Black-footed Ferret have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Black-footed Ferret reminds you of, not what you can see in the picture but what you think about when you see a Black-footed Ferret. Maybe you think of PLAYFUL because a Black-footed Ferret wrestles with members of their own breed. Maybe you think of LONERS because a Black-footed Ferret likes to be underground with their own species. Let your imagination go and think of as many ideas as you can when you see a Black-footed Ferret. Put your words in the Black-footed Ferret Imagination list. Now it's time to use your words to make a story about a Black-footed Ferret. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L4-2",
+        "categories": [
+          {
+            "name": "BlackFootedFerretDescription",
+            "displayName": "Black-footed Ferret Description",
+            "words": ["Black-tipped tail", "Black feet", "Mask-like markings", "Slender body", "Short legs", "Whiskers", "Nocturnal eyes", "Creamy fur", "Pointed snout", "Sharp claws", "Underground paws", "Flexible spine"]
+          },
+          {
+            "name": "BlackFootedFerretImagination",
+            "displayName": "Black-footed Ferret Imagination",
+            "words": ["Playful", "Loners", "Prairie Bandit", "Underground Acrobat", "Endangered Dancer", "Night Shadow", "Ecosystem Hero", "Burrow Ninja", "Conservation Icon", "Striped Ghost", "Prairie Dog Hunter", "Wilderness Survivor"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set4_3",
+        "story": "This is a Rondo Dwarf Galago. Look at the picture. Describe a Rondo Dwarf Galago by thinking of as many words as you can. Put these words under the Rondo Dwarf Galago Description list (on the next page). The list is already started. A Rondo Dwarf Galago has a BRUSH TAIL. A Rondo Dwarf Galago has LONG EARS. A Rondo Dwarf Galago has BIG EYES. What else does a Rondo Dwarf Galago have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Rondo Dwarf Galago reminds you of, not what you can see in the picture but what you think about when you see a Rondo Dwarf Galago. Maybe you think of an OWL because a Rondo Dwarf Galago has BIG EYES. Maybe you think of RAT because of its SMALL BODY. Let your imagination go and think of as many ideas as you can when you see a Rondo Dwarf Galago. Put your words in the Rondo Dwarf Galago Imagination list. Now it's time to use your words to make a story about a Rondo Dwarf Galago. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L4-3",
+        "categories": [
+          {
+            "name": "RondoDwarfGalagoDescription",
+            "displayName": "Rondo Dwarf Galago Description",
+            "words": ["Brush tail", "Long ears", "Big eyes", "Tiny body", "Gripping hands", "Nocturnal eyes", "Gray-brown fur", "Leaping legs", "Pointed snout", "Flexible ankles", "Insectivore teeth", "Ultrasonic calls"]
+          },
+          {
+            "name": "RondoDwarfGalagoImagination",
+            "displayName": "Rondo Dwarf Galago Imagination",
+            "words": ["Owl", "Rat", "Bushbaby", "Moonlight Jumper", "Forest Sprite", "Echo-locator", "Twilight Acrobat", "Tree Frog Cousin", "Night Whisperer", "Living Stress Ball", "Canopy Astronaut", "Tanzanian Treasure"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set4_4",
+        "story": "This is a Kelpie. Look at the picture. Describe a Kelpie by thinking of as many words as you can. Put these words under the Kelpie Description list (on the next page). The list is already started. A Kelpie has scales. A Kelpie has horse heels. What else does a Kelpie have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Kelpie reminds you of, not what you can see in the picture but what you think about when you see a Kelpie. Maybe you think of a horse because of its body. A Kelpie has long hair. Let your imagination go and think of as many ideas as you can when you see a Kelpie. Put your words in the Kelpie Imagination list. Now it's time to use your words to make a story about a Kelpie. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L4-4",
+        "categories": [
+          {
+            "name": "KelpieDescription",
+            "displayName": "Kelpie Description",
+            "words": ["Scales", "Horse heels", "Long hair", "Aquatic body", "Webbed feet", "Glowing eyes", "Shape-shifting", "Mane of seaweed", "Finned tail", "Damp fur", "Serpentine neck", "Iron hooves"]
+          },
+          {
+            "name": "KelpieImagination",
+            "displayName": "Kelpie Imagination",
+            "words": ["Horse", "Water Demon", "Loch Phantom", "Shape-shifter", "Drowning Deceiver", "Celtic Legend", "River Predator", "Misty Illusion", "Faerie Steed", "Siren's Mount", "Highland Horror", "Bridle of Doom"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set4_5",
+        "story": "This is a Humpback Anglerfish. Look at the picture. Describe a Humpback Anglerfish by thinking of as many words as you can. Put these words under the Humpback Anglerfish Description list (on the next page). The list is already started. A Humpback Anglerfish is found in very deep waters. A Humpback Anglerfish has a soft and fleshy body structure. What else does a Humpback Anglerfish have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Humpback Anglerfish reminds you of, not what you can see in the picture but what you think about when you see a Humpback Anglerfish. Maybe you think of a Piranha because of its appearance. A Humpback Anglerfish has very large, pointed teeth. Let your imagination go and think of as many ideas as you can when you see a Humpback Anglerfish. Put your words in the Humpback Anglerfish Imagination list. Now it's time to use your words to make a story about a Humpback Anglerfish. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L4-5",
+        "categories": [
+          {
+            "name": "HumpbackAnglerfishDescription",
+            "displayName": "Humpback Anglerfish Description",
+            "words": ["Soft fleshy body", "Large pointed teeth", "Bioluminescent lure", "Humped back", "Dark coloration", "Glowing bulb", "Expandable stomach", "Tiny eyes", "Jagged jaws", "Flexible bones", "Pressure-resistant skin", "Fang-like teeth"]
+          },
+          {
+            "name": "HumpbackAnglerfishImagination",
+            "displayName": "Humpback Anglerfish Imagination",
+            "words": ["Piranha", "Deep-sea Monster", "Living Nightlight", "Abyss Horror", "Fishing Lure Ghost", "Ocean's Boogeyman", "Pitch-black Predator", "Benthic Lantern", "Evolution's Nightmare", "Marine Vampire", "Light Trap Demon", "Midnight Gulper"]
+          }
+        ]
+      }
+
+   ],
+    "level5":[
+        {
+          "levelName": "Imagination from story",
+        "id": "Set5_0",
+        "story": "This is a pika. Look at the picture. Describe a pika by thinking of as many words as you can. Put these words under the Pika Description list (on the next page). The list is already started. A pika is MOUSEY. A pika has WHISKERS. What else does a pika have? Add your words to the list. Think of as many as you can. Now do something different. Think what a pika reminds you of, not what you can see in the picture but what you think about when you see a pika. Maybe you think of TINY because a pika is very small. Maybe you think of PERKY because a pika is constantly alert. Let your imagination go and think of as many ideas as you can when you see a pika. Put your words in the Pika Imagination list. Now it's time to use your words to make a story about a pika. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L5-0",  
+        "categories": [
+          {
+            "name": "PikaDescription",
+            "displayName": "Pika Description",
+            "words": ["Mousey", "Whiskers", "Round ears", "Small body", "Short legs", "Furry tail", "Dark eyes", "Button nose", "Soft fur", "Tiny paws", "Compact shape", "Alert expression"]
+          },
+          {
+            "name": "PikaImagination",
+            "displayName": "Pika Imagination",
+            "words": ["Tiny", "Perky", "Alpine", "Energetic", "Haystacks", "Squeaky", "Mountain spirit", "Quick", "Forager", "Winter prep", "Cute", "Survivor"]
+          }
+        ]
+      },
+        {
+          "levelName": "Imagination from story",
+        "id": "Set5_1",
+        "story": "This is a Squirrel. Look at the picture. Describe a Squirrel by thinking of as many words as you can. Put these words under the Squirrel Description list (on the next page). The list is already started. A Squirrel is MOUSEY. A Squirrel has WHISKERS. What else does a Squirrel have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Squirrel reminds you of, not what you can see in the picture but what you think about when you see a Squirrel. Maybe you think of TINY because a Squirrel is very small. Maybe you think of PERKY because a Squirrel is constantly alert. Let your imagination go and think of as many ideas as you can when you see a Squirrel. Put your words in the Squirrel Imagination list. Now it's time to use your words to make a story about a Squirrel. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L5-1",
+        "categories": [
+          {
+            "name": "SquirrelDescription",
+            "displayName": "Squirrel Description",
+            "words": ["Mousey", "Whiskers", "Bushy tail", "Sharp claws", "Round eyes", "Small paws", "Pointed ears", "Brown fur", "Fast runner", "Cheek pouches", "Climbing ability", "Nut-cracking teeth"]
+          },
+          {
+            "name": "SquirrelImagination",
+            "displayName": "Squirrel Imagination",
+            "words": ["Tiny", "Perky", "Tree Acrobat", "Nut Bandit", "Parkour Master", "Tail Flag", "Backyard Ninja", "Winter Stockpiler", "Branch Dancer", "Urban Daredevil", "Seed Pirate", "Chirpy Speedster"]
+          }
+        ]
+      },
+      {
+        "levelName": "Imagination from story",
+        "id": "Set5_2",
+        "story": "This is a Sumatran orangutan. Look at the picture. Describe a Sumatran orangutan by thinking of as many words as you can. Put these words under the Sumatran orangutan Description list (on the next page). The list is already started. A Sumatran orangutan spends most of their time on trees. A Sumatran orangutan has long hair. What else does a Sumatran orangutan have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Sumatran orangutan reminds you of, not what you can see in the picture but what you think about when you see a Sumatran orangutan. Maybe you think of HUGE because a Sumatran orangutan is a big animal. Sumatran orangutans are solitary animals. Let your imagination go and think of as many ideas as you can when you see a Sumatran orangutan. Put your words in the Sumatran orangutan Imagination list. Now it's time to use your words to make a story about a Sumatran orangutan. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L5-2",
+        "categories": [
+          {
+            "name": "SumatranOrangutanDescription",
+            "displayName": "Sumatran Orangutan Description",
+            "words": ["Long hair", "Tree-dwelling", "Reddish fur", "Powerful arms", "Grasping feet", "Wise eyes", "Bearded face", "Large body", "Opposable thumbs", "Intelligent gaze", "Solitary nature", "Fruit-loving"]
+          },
+          {
+            "name": "SumatranOrangutanImagination",
+            "displayName": "Sumatran Orangutan Imagination",
+            "words": ["Huge", "Forest Elder", "Jungle Philosopher", "Red Ape", "Canopy King", "Tree Swing Emperor", "Fruit Connoisseur", "Endangered Sage", "Island Guardian", "Thoughtful Giant", "Branches Ambassador", "Rainforest Thinker"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set5_3",
+        "story": "This is a Sarkastodon. Look at the picture. Describe a Sarkastodon by thinking of as many words as you can. Put these words under the Sarkastodon Description list (on the next page). The list is already started. A Sarkastodon has a LONG TAIL. A Sarkastodon has SHORT EARS. A Sarkastodon has a HUGE BODY. What else does a Sarkastodon have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Sarkastodon reminds you of, not what you can see in the picture but what you think about when you see a Sarkastodon. Maybe you think of A BEAR because a Sarkastodon HAS A FURRY BODY. Maybe you think of CARNIVOROUS CREATURE because of its JAW. Let your imagination go and think of as many ideas as you can when you see a Sarkastodon. Put your words in the Sarkastodon Imagination list. Now it's time to use your words to make a story about a Sarkastodon. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L5-3",
+        "categories": [
+          {
+            "name": "SarkastodonDescription",
+            "displayName": "Sarkastodon Description",
+            "words": ["Long tail", "Short ears", "Huge body", "Furry coat", "Powerful jaws", "Massive skull", "Bear-like", "Short legs", "Carnivorous teeth", "Thick neck", "Strong forelimbs", "Prehistoric predator"]
+          },
+          {
+            "name": "SarkastodonImagination",
+            "displayName": "Sarkastodon Imagination",
+            "words": ["Bear", "Carnivorous creature", "Ancient Destroyer", "Eocene Titan", "Fossilized Nightmare", "Primeval Crusher", "Mammal Rex", "Stone Age Monster", "Giant Meat Grinder", "Paleo Bear-Wolf", "Extinction King", "Bone Crusher"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set5_4",
+        "story": "This is a Black-spotted Cuscus. Look at the picture. Describe a Black-spotted Cuscus by thinking of as many words as you can. Put these words under the Black-spotted Cuscus Description list (on the next page). The list is already started. A Black-spotted Cuscus has BLACK SPOTS. A Black-spotted Cuscus has SMALL ROUND EYES. What else does a Black-spotted Cuscus have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Black-spotted Cuscus reminds you of, not what you can see in the picture but what you think about when you see a Black-spotted Cuscus. Maybe you think of A KOALA because it lives in TREES. Maybe you think of PANDA because of its BODY SHAPE. Let your imagination go and think of as many ideas as you can when you see a Black-spotted Cuscus. Put your words in the Black-spotted Cuscus Imagination list. Now it's time to use your words to make a story about a Black-spotted Cuscus. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L5-4",
+        "categories": [
+          {
+            "name": "BlackSpottedCuscusDescription",
+            "displayName": "Black-spotted Cuscus Description",
+            "words": ["Black spots", "Small round eyes", "Prehensile tail", "Thick fur", "Tree-dwelling", "Marsupial pouch", "Short snout", "Nocturnal", "Slow movements", "Grasping hands", "Camouflage coat", "Herbivore teeth"]
+          },
+          {
+            "name": "BlackSpottedCuscusImagination",
+            "displayName": "Black-spotted Cuscus Imagination",
+            "words": ["Koala", "Panda", "Jungle Ball", "Tree Sloth", "Spotted Ghost", "Canopy Hugger", "Night-time Leaf Eater", "Living Plush Toy", "Rainforest Pac-Man", "Arboreal Blob", "Dots in Darkness", "Slow-motion Acrobat"]
+          }
+        ]
+      },
+        {
+          "levelName": "Imagination from story",
+        "id": "Set5_5",
+        "story": "This is a Pacific Viperfish. Look at the picture. Describe a Pacific Viperfish by thinking of as many words as you can. Put these words under the Pacific Viperfish Description list (on the next page). The list is already started. A Pacific Viperfish is found in tropical regions of the major oceans. A Pacific Viperfish has a large mouth. What else does a Pacific Viperfish have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Pacific Viperfish reminds you of, not what you can see in the picture but what you think about when you see a Pacific Viperfish. Maybe you think of a shark because of its appearance. A Pacific Viperfish has fang-like sharp teeth. Let your imagination go and think of as many ideas as you can when you see a Pacific Viperfish. Put your words in the Pacific Viperfish Imagination list. Now it's time to use your words to make a story about a Pacific Viperfish. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L5-5",
+        "categories": [
+          {
+            "name": "PacificViperfishDescription",
+            "displayName": "Pacific Viperfish Description",
+            "words": ["Large mouth", "Fang-like teeth", "Bioluminescent lure", "Dark scales", "Elongated body", "Hinged jaw", "Deep-sea dweller", "Needle-like teeth", "Black stomach", "Photophores", "Transparent teeth", "Pressure-resistant"]
+          },
+          {
+            "name": "PacificViperfishImagination",
+            "displayName": "Pacific Viperfish Imagination",
+            "words": ["Shark", "Abyss Dragon", "Living Fishing Hook", "Midnight Sabertooth", "Ocean's Needlefish", "Deep-sea Vampire", "Bioluminescent Horror", "Marine Nightmare Fuel", "Light-up Predator", "Twilight Zone Terror", "Fanged Lantern", "Living Depth Gauge"]
+          }
+        ]
+      }
+
+   ],
+    "level6":[
+
+       {
+        "levelName": "Imagination from story",
+        "id": "Set6_0",
+        "story": "This is an eland. Look at the picture. Describe an eland by thinking of as many words as you can. Put these words under the Eland Description list (on the next page). The list is already started. An eland has HOOVES. An eland has HORNS. What else does an eland have? Add your words to the list. Think of as many as you can. Now do something different. Think what an eland reminds you of, not what you can see in the picture but what you think about when you see an eland. Maybe you think of UNICORN because an eland has horns on top of his head resembling a unicorn's horn. Let your imagination go and think of as many ideas as you can when you see an Eland. Put your words in the Eland Imagination list. Now it's time to use your words to make a story about an eland. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L6-0",  
+        "categories": [
+          {
+            "name": "ElandDescription",
+            "displayName": "Eland Description",
+            "words": ["Hooves", "Horns", "Dewlap", "Large body", "Striped fur", "Powerful legs", "Long face", "Alert ears", "Thick neck", "Muscular shoulders", "Dark mane", "Wide eyes"]
+          },
+          {
+            "name": "ElandImagination",
+            "displayName": "Eland Imagination",
+            "words": ["Unicorn", "Giant", "Savanna king", "Mystical", "Ancient", "Stoic", "Desert wanderer", "Moon gazer", "Silent watcher", "Dust cloud", "Sunset", "Legendary"]
+          }
+        ]
+      },
+      {
+        "levelName": "Imagination from story",
+        "id": "Set6_1",
+        "story": "This is a Horse. Look at the picture. Describe a Horse by thinking of as many words as you can. Put these words under the Horse Description list (on the next page). The list is already started. A Horse has HOOVES. A Horse has LONG LEGS. What else does a Horse have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Horse reminds you of, not what you can see in the picture but what you think about when you see a Horse. Maybe you think of UNICORN. Let your imagination go and think of as many ideas as you can when you see a Horse. Put your words in the Horse Imagination list. Now it's time to use your words to make a story about a Horse. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L6-1",
+        "categories": [
+          {
+            "name": "HorseDescription",
+            "displayName": "Horse Description",
+            "words": ["Hooves", "Long legs", "Mane", "Tail", "Muscular body", "Strong back", "Large eyes", "Pointed ears", "Powerful neck", "Galloping gait", "Herbivore teeth", "Sensitive nose"]
+          },
+          {
+            "name": "HorseImagination",
+            "displayName": "Horse Imagination",
+            "words": ["Unicorn", "Noble Steed", "Wild Spirit", "Mythical Companion", "Freedom Symbol", "Wind Runner", "Desert Prince", "Warrior's Mount", "Pasture King", "Carriage Puller", "Ranch Hero", "Fairy Tale Creature"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set6_2",
+        "story": "This is a Saola. Look at the picture. Describe a Saola by thinking of as many words as you can. Put these words under the Saola Description list (on the next page). The list is already started. A Saola has long horns. A Saola's horns are up to 50cm long. What else does a Saola have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Saola reminds you of, not what you can see in the picture but what you think about when you see a Saola. Maybe you think of Deer because a Saola has long parallel horns on top of its head. Let your imagination go and think of as many ideas as you can when you see a Saola. Put your words in the Saola Imagination list. Now it's time to use your words to make a story about a Saola. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L6-2",
+        "categories": [
+          {
+            "name": "SaolaDescription",
+            "displayName": "Saola Description",
+            "words": ["Long horns", "Parallel horns", "Slender body", "White markings", "Dark eyes", "Short tail", "Delicate legs", "Pointed snout", "Rare fur", "Forest camouflage", "Gentle face", "Endangered species"]
+          },
+          {
+            "name": "SaolaImagination",
+            "displayName": "Saola Imagination",
+            "words": ["Deer", "Asian Unicorn", "Forest Phantom", "Mountain Mystery", "Vietnam's Ghost", "Parallel-horned Wonder", "Lost Treasure", "Jungle Jewel", "Conservation Icon", "Annamite Legend", "Elusive Beauty", "Living Fossil"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set6_3",
+        "story": "This is a Bennu Bird. Look at the picture. Describe a Bennu Bird by thinking of as many words as you can. Put these words under the Bennu Bird Description list (on the next page). The list is already started. A Bennu Bird has a LONG BEAK. A Bennu Bird has LONG LEGS. A Bennu Bird has FEATHERS. What else does a Bennu Bird have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Bennu Bird reminds you of, not what you can see in the picture but what you think about when you see a Bennu Bird. Maybe you think of A BIRD because of its BODY. Maybe you think of EAGLE because of its LONG CLAWS. Let your imagination go and think of as many ideas as you can when you see a Bennu Bird. Put your words in the Bennu Bird Imagination list. Now it's time to use your words to make a story about a Bennu Bird. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L6-3",
+        "categories": [
+          {
+            "name": "BennuBirdDescription",
+            "displayName": "Bennu Bird Description",
+            "words": ["Long beak", "Long legs", "Feathers", "Golden plumage", "Radiant crest", "Phoenix-like", "Mythical wings", "Solar crown", "Regal posture", "Fiery eyes", "Sacred markings", "Divine aura"]
+          },
+          {
+            "name": "BennuBirdImagination",
+            "displayName": "Bennu Bird Imagination",
+            "words": ["Bird", "Eagle", "Egyptian Phoenix", "Sun Reborn", "Eternal Flame", "Nile Spirit", "Resurrection Symbol", "Celestial Herald", "Time Cyclone", "Pyramid Guardian", "Desert Firebird", "Cosmic Dawn"]
+          }
+        ]
+      },
+      {
+        "levelName": "Imagination from story",
+        "id": "Set6_4",
+        "story": "This is a Unicorn. Look at the picture. Describe a Unicorn by thinking of as many words as you can. Put these words under the Unicorn Description list (on the next page). The list is already started. A Unicorn has a large horn. A Unicorn has a furry tail. What else does a Unicorn have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Unicorn reminds you of, not what you can see in the picture but what you think about when you see a Unicorn. Maybe you think of a horse because of its body. A Unicorn has long hair. Let your imagination go and think of as many ideas as you can when you see a Unicorn. Put your words in the Unicorn Imagination list. Now it's time to use your words to make a story about a Unicorn. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L6-4",
+        "categories": [
+          {
+            "name": "UnicornDescription",
+            "displayName": "Unicorn Description",
+            "words": ["Large horn", "Furry tail", "White coat", "Golden hooves", "Spiral horn", "Flowing mane", "Graceful legs", "Sparkling eyes", "Silver horn", "Mystical aura", "Rainbow hair", "Pure heart"]
+          },
+          {
+            "name": "UnicornImagination",
+            "displayName": "Unicorn Imagination",
+            "words": ["Horse", "Magical Creature", "Rainbow Maker", "Forest Guardian", "Dream Weaver", "Healing Spirit", "Legendary Beast", "Moonlight Dancer", "Enchanted Horn", "Fairy Tale Star", "Wish Granter", "Mythical Healer"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set6_5",
+        "story": "This is a Barreleye fish. Look at the picture. Describe a Barreleye fish by thinking of as many words as you can. Put these words under the Barreleye fish Description list (on the next page). The list is already started. A Barreleye fish is a deep water fish. A Barreleye fish has a transparent head. What else does a Barreleye fish have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Barreleye fish reminds you of, not what you can see in the picture but what you think about when you see a Barreleye fish. Maybe you think of a Dolphin because of its shape. A Barreleye fish has barrel-shaped eyes. Let your imagination go and think of as many ideas as you can when you see a Barreleye fish. Put your words in the Barreleye fish Imagination list. Now it's time to use your words to make a story about a Barreleye fish. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L6-5",
+        "categories": [
+          {
+            "name": "BarreleyeFishDescription",
+            "displayName": "Barreleye Fish Description",
+            "words": ["Transparent head", "Barrel-shaped eyes", "Deep water", "Green lenses", "Tubular eyes", "Small mouth", "Dark body", "Bioluminescent", "Delicate fins", "Fluid-filled shield", "Upward gaze", "Pressure-resistant"]
+          },
+          {
+            "name": "BarreleyeFishImagination",
+            "displayName": "Barreleye Fish Imagination",
+            "words": ["Dolphin", "Deep-sea Submarine", "Living Periscope", "Abyss Spyglass", "Ocean's Telescope", "Ghost Head Fish", "Marine X-Ray", "Twilight Zone Observer", "See-through Specter", "Evolution's Goggles", "Benthic Astronaut", "Glass-dome Explorer"]
+          }
+        ]
+      }
+   ],
+    "level7":[
+        {
+          "levelName": "Imagination from story",
+        "id": "Set7_0",
+        "story": "This is an armadillo. Look at the picture. Describe an armadillo by thinking of as many words as you can. Put these words under the Armadillo Description list (on the next page). The list is already started. An armadillo has CLAWS. An armadillo has ARMOR. What else does an armadillo have? Add your words to the list. Think of as many as you can. Now do something different. Think what an armadillo reminds you of, not what you can see in the picture but what you think about when you see an armadillo. Maybe you think of SHIELDED SAUSAGE because an armadillo has a body like a sausage with plates of armor. Let your imagination go and think of as many ideas as you can when you see an armadillo. Put your words in the Armadillo Imagination list. Now it's time to use your words to make a story about an armadillo. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L7-0", 
+        "categories": [
+          {
+            "name": "ArmadilloDescription",
+            "displayName": "Armadillo Description",
+            "words": ["Claws", "Armor", "Scaly plates", "Pointed snout", "Short legs", "Curled tail", "Small eyes", "Leathery skin", "Digging paws", "Compact body", "Whiskers", "Ears like shells"]
+          },
+          {
+            "name": "ArmadilloImagination",
+            "displayName": "Armadillo Imagination",
+            "words": ["Shielded sausage", "Living tank", "Desert knight", "Ancient relic", "Burrow architect", "Nocturnal scout", "Armored ball", "Dust digger", "Survival expert", "Prehistoric survivor", "Sand sculptor", "Night explorer"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set7_1",
+        "story": "This is a Rhinoceros. Look at the picture. Describe a Rhinoceros by thinking of as many words as you can. Put these words under the Rhinoceros Description list (on the next page). The list is already started. A Rhinoceros has 1 OR 2 HORNS. A Rhinoceros has skin like ARMOR. What else does a Rhinoceros have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Rhinoceros reminds you of, not what you can see in the picture but what you think about when you see a Rhinoceros. Maybe you think of a shield. Let your imagination go and think of as many ideas as you can when you see a Rhinoceros. Put your words in the Rhinoceros Imagination list. Now it's time to use your words to make a story about a Rhinoceros. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L7-1",
+        "categories": [
+          {
+            "name": "RhinocerosDescription",
+            "displayName": "Rhinoceros Description",
+            "words": ["1 or 2 horns", "Armor-like skin", "Thick legs", "Small eyes", "Powerful charge", "Herbivore teeth", "Wide mouth", "Muscular shoulders", "Short tail", "Wrinkled hide", "Heavy body", "Keratine horn"]
+          },
+          {
+            "name": "RhinocerosImagination",
+            "displayName": "Rhinoceros Imagination",
+            "words": ["Shield", "Living Tank", "Prehistoric Warrior", "Armored Giant", "Savanna Bulldozer", "Conservation Icon", "Horned Guardian", "Earth Shaker", "Leather Mountain", "Jungle Knight", "Thunder Beast", "Wilderness Fortress"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set7_2",
+        "story": "This is a Bald Eagle. Look at the picture. Describe a Bald Eagle by thinking of as many words as you can. Put these words under the Bald Eagle Description list (on the next page). The list is already started. A Bald Eagle has a dark brown body. A Bald Eagle has a white tail. What else does a Bald Eagle have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Bald Eagle reminds you of, not what you can see in the picture but what you think about when you see a Bald Eagle. Maybe you think of a bird because Bald Eagle has feathers and flies like a bird and is a fish eater. Let your imagination go and think of as many ideas as you can when you see a Bald Eagle. Put your words in the Bald Eagle Imagination list. Now it's time to use your words to make a story about a Bald Eagle. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L7-2",
+        "categories": [
+          {
+            "name": "BaldEagleDescription",
+            "displayName": "Bald Eagle Description",
+            "words": ["Dark brown body", "White tail", "White head", "Yellow beak", "Sharp talons", "Wide wingspan", "Powerful flight", "Keen eyesight", "Hooked beak", "Fish-eater", "Feathered legs", "Nest builder"]
+          },
+          {
+            "name": "BaldEagleImagination",
+            "displayName": "Bald Eagle Imagination",
+            "words": ["Bird", "Freedom Symbol", "Sky Emperor", "Fish Hunter", "American Icon", "Cloud Surfer", "Storm Rider", "Mountain Sentinel", "Wilderness King", "Patriotic Raptor", "Wind Conqueror", "Nature's Flag"]
+          }
+        ]
+      },
+      {
+        "levelName": "Imagination from story",
+        "id": "Set7_3",
+        "story": "This is a Solenodon. Look at the picture. Describe a Solenodon by thinking of as many words as you can. Put these words under the Solenodon Description list (on the next page). The list is already started. A Solenodon has a LONG MOUTH. A Solenodon has a LONG TAIL. A Solenodon has FEATHERS. What else does a Solenodon have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Solenodon reminds you of, not what you can see in the picture but what you think about when you see a Solenodon. Maybe you think of A RAT because of its SCALY BODY. Maybe you think of SQUIRREL because of its BODY. Let your imagination go and think of as many ideas as you can when you see a Solenodon. Put your words in the Solenodon Imagination list. Now it's time to use your words to make a story about a Solenodon. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L7-3",
+        "categories": [
+          {
+            "name": "SolenodonDescription",
+            "displayName": "Solenodon Description",
+            "words": ["Long mouth", "Long tail", "Coarse fur", "Venomous bite", "Pointed snout", "Small eyes", "Clawed feet", "Nocturnal", "Insectivore", "Ancient lineage", "Waddling gait", "Endangered species"]
+          },
+          {
+            "name": "SolenodonImagination",
+            "displayName": "Solenodon Imagination",
+            "words": ["Rat", "Squirrel", "Living Fossil", "Nighttime Vampire", "Evolution's Experiment", "Caribbean Cryptid", "Toxic Shrew", "Prehistoric Survivor", "Jungle Oddity", "Time-Traveling Mammal", "Venomous Wanderer", "Island Ghost"]
+          }
+        ]
+      },
+      {
+        "levelName": "Imagination from story",
+        "id": "Set7_4",
+        "story": "This is a Goblin. Look at the picture. Describe a Goblin by thinking of as many words as you can. Put these words under the Goblin Description list (on the next page). The list is already started. A Goblin has large ears. A Goblin has a long nose. What else does a Goblin have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Goblin reminds you of, not what you can see in the picture but what you think about when you see a Goblin. Maybe you think of a human because of its body. A Goblin has big eyes. Let your imagination go and think of as many ideas as you can when you see a Goblin. Put your words in the Goblin Imagination list. Now it's time to use your words to make a story about a Goblin. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L7-4",
+        "categories": [
+          {
+            "name": "GoblinDescription",
+            "displayName": "Goblin Description",
+            "words": ["Large ears", "Long nose", "Big eyes", "Green skin", "Pointy teeth", "Wrinkled face", "Small stature", "Clawed hands", "Mischievous grin", "Tattered clothes", "Hunched posture", "Sharp nails"]
+          },
+          {
+            "name": "GoblinImagination",
+            "displayName": "Goblin Imagination",
+            "words": ["Human", "Fairy Tale Trickster", "Cave Dweller", "Treasure Hoarder", "Moonlight Prankster", "Dungeon Scavenger", "Forest Imp", "Alchemy Master", "Bridge Troll Cousin", "Nighttime Sneak", "Gold-Lust Creature", "Cavern Shadow"]
+          }
+        ]
+      },
+        {
+          "levelName": "Imagination from story",
+        "id": "Set7_5",
+        "story": "This is a Frilled Shark. Look at the picture. Describe a Frilled Shark by thinking of as many words as you can. Put these words under the Frilled Shark Description list (on the next page). The list is already started. A Frilled Shark is a deep water fish. A Frilled Shark has teeth that are trident-shaped and face backward. What else does a Frilled Shark have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Frilled Shark reminds you of, not what you can see in the picture but what you think about when you see a Frilled Shark. They have a broad flattened body. Frilled Sharks have rounded fins. Let your imagination go and think of as many ideas as you can when you see a Frilled Shark. Put your words in the Frilled Shark Imagination list. Now it's time to use your words to make a story about a Frilled Shark. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L7-5",
+        "categories": [
+          {
+            "name": "FrilledSharkDescription",
+            "displayName": "Frilled Shark Description",
+            "words": ["Trident-shaped teeth", "Deep water", "Flattened body", "Rounded fins", "Eel-like form", "Frilled gills", "Dark coloration", "Primitive jaw", "Flexible body", "Hinged mouth", "Ancient species", "Oil-filled liver"]
+          },
+          {
+            "name": "FrilledSharkImagination",
+            "displayName": "Frilled Shark Imagination",
+            "words": ["Living Fossil", "Sea Serpent", "Prehistoric Terror", "Abyssal Dragon", "Deep-sea Time Traveler", "Ocean's Relic", "Primordial Hunter", "Benthic Nightmare", "Evolution's Blueprint", "Marine Loch Ness", "Jurassic Swimmer", "Twilight Zone Phantom"]
+          }
+        ]
+      }
+
+   ],
+    "level8":[
+       {
+        "levelName": "Imagination from story",
+        "id": "Set8_0",
+        "story": "This is an aardvark. Look at the picture. Describe an aardvark by thinking of as many words as you can. Put these words in the Aardvark Description list (on the next page). The list is already started. An aardvark has a LONG TAIL. An aardvark has a SNOUT. What else does an aardvark have? Add your words to the list. Think of as many as you can. Now do something different. Think what an aardvark reminds you of, not what you can see in the picture but what you think about when you see an aardvark. Maybe you think of KANGAROO-PIG because an aardvark has a body of a kangaroo and a snout of a pig. Let your imagination go and think of as many ideas as you can when you see an aardvark. Put your words in the Aardvark Imagination list. Now it's time to use your words to make a story about an aardvark. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L8-0", 
+        "categories": [
+          {
+            "name": "AardvarkDescription",
+            "displayName": "Aardvark Description",
+            "words": ["Long tail", "Snout", "Rabbit ears", "Powerful claws", "Thick skin", "Humped back", "Stubby legs", "Coarse hair", "Pig-like body", "Tubular mouth", "Nocturnal eyes", "Digging paws"]
+          },
+          {
+            "name": "AardvarkImagination",
+            "displayName": "Aardvark Imagination",
+            "words": ["Kangaroo-pig", "Earth drill", "Night excavator", "Termite vacuum", "African oddity", "Living shovel", "Dust creature", "Moonlight miner", "Evolution's experiment", "Burrow monster", "Snout machine", "Savanna ghost"]
+          }
+        ]
+      },
+        {
+        "levelName": "Imagination from story",
+        "id": "Set8_1",
+        "story": "This is a Badger. Look at the picture. Describe a Badger by thinking of as many words as you can. Put these words under the Badger Description list (on the next page). The list is already started. The Badger has CLAWS. The Badger has a STREAK. What else does the Badger have? Add your words to the list. Think of as many as you can. Now do something different. Disregard the picture and consider only what you think about when you see a Badger. Maybe you think of DIGGER because a Badger tends to burrow into the ground. Let your imagination go and think of as many ideas as you can when you see a Badger. Put your words in the Badger Imagination list. Now it's time to use your words to make a story about a Badger. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny, scary, or serious, but be as original with your imagination as you can.",
+        "Image": "L8-1",
+        "categories": [
+          {
+            "name": "BadgerDescription",
+            "displayName": "Badger Description",
+            "words": ["Claws", "Streak", "Stocky body", "Black-and-white face", "Powerful legs", "Short tail", "Thick fur", "Sharp teeth", "Nocturnal", "Burrower", "Strong neck", "Low-slung body"]
+          },
+          {
+            "name": "BadgerImagination",
+            "displayName": "Badger Imagination",
+            "words": ["Digger", "Underground Architect", "Striped Bandit", "Earth Mover", "Nighttime Bulldozer", "Tunnel Engineer", "Fierce Defender", "Soil Sculptor", "Moonlight Excavator", "Woodland Tank", "Stubborn Warrior", "Nature's Backhoe"]
+          }
+        ]
+      },
+      {
+        "levelName": "Imagination from story",
+        "id": "Set8-_",
+        "story": "This is an African Wild Dog. Look at the picture. Describe an African Wild Dog by thinking of as many words as you can. Put these words under the African Wild Dog Description list (on the next page). The list is already started. An African Wild Dog has four toes on each foot. An African Wild Dog has a short coat. What else does an African Wild Dog have? Add your words to the list. Think of as many as you can. Now do something different. Think what an African Wild Dog reminds you of, not what you can see in the picture but what you think about when you see an African Wild Dog. Maybe you think of a Domestic animal because an African Wild Dog has strong social bonds and hunts in packs. Let your imagination go and think of as many ideas as you can when you see an African Wild Dog. Put your words in the African Wild Dog Imagination list. Now it's time to use your words to make a story about an African Wild Dog. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L8-2",
+        "categories": [
+          {
+            "name": "AfricanWildDogDescription",
+            "displayName": "African Wild Dog Description",
+            "words": ["Four-toed feet", "Short coat", "Mottled fur", "Large ears", "White-tipped tail", "Lean body", "Pack hunter", "High stamina", "Round ears", "Long legs", "Social bonds", "Distinctive markings"]
+          },
+          {
+            "name": "AfricanWildDogImagination",
+            "displayName": "African Wild Dog Imagination",
+            "words": ["Domestic animal", "Painted Hunter", "Savanna Sprinter", "Teamwork Champion", "Endangered Nomad", "Bushland Mosaic", "Canine Communicator", "Wilderness Strategist", "Pack Philosopher", "Conservation Icon", "Nature's Athlete", "Ecosystem Harmonizer"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set8_3",
+        "story": "This is a Vaquita. Look at the picture. Describe a Vaquita by thinking of as many words as you can. Put these words under the Vaquita Description list (on the next page). The list is already started. A Vaquita has a ROUND HEAD. A Vaquita has BLACK PATCHES AROUND THE EYES. A Vaquita has FINS. What else does a Vaquita have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Vaquita reminds you of, not what you can see in the picture but what you think about when you see a Vaquita. Maybe you think of A DOLPHIN because of its ROUND HEAD. Maybe you think of FISH because of its SCALES AND FINS. Let your imagination go and think of as many ideas as you can when you see a Vaquita. Put your words in the Vaquita Imagination list. Now it's time to use your words to make a story about a Vaquita. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L8-3",
+        "categories": [
+          {
+            "name": "VaquitaDescription",
+            "displayName": "Vaquita Description",
+            "words": ["Round head", "Black eye patches", "Fins", "Small size", "Grey body", "Crescent-shaped dorsal fin", "Blunt snout", "Dark lips", "Marine mammal", "Porpoise family", "Shy nature", "Critically endangered"]
+          },
+          {
+            "name": "VaquitaImagination",
+            "displayName": "Vaquita Imagination",
+            "words": ["Dolphin", "Fish", "Ocean Panda", "Sea Ghost", "Gulf of California Jewel", "Marine Unicorn", "Vanishing Smile", "Aquatic Phantom", "Conservation Symbol", "Tiny Ocean Guardian", "Porpoise of Hope", "Endangered Whisper"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set8_4",
+        "story": "This is a Harry Eagle. Look at the picture. Describe a Harry Eagle by thinking of as many words as you can. Put these words under the Harry Eagle Description list (on the next page). The list is already started. A Harry Eagle has a furry body. A Harry Eagle has a sharp beak. What else does a Harry Eagle have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Harry Eagle reminds you of, not what you can see in the picture but what you think about when you see a Harry Eagle. Maybe you think of an Owl because of its body. Let your imagination go and think of as many ideas as you can when you see a Harry Eagle. Put your words in the Harry Eagle Imagination list. Now it's time to use your words to make a story about a Harry Eagle. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L8-4",
+        "categories": [
+          {
+            "name": "HarryEagleDescription",
+            "displayName": "Harry Eagle Description",
+            "words": ["Furry body", "Sharp beak", "Large wings", "Feathered legs", "Piercing eyes", "Talons", "Tufted ears", "Mottled plumage", "Powerful flight", "Nocturnal", "Silent wings", "Carnivorous"]
+          },
+          {
+            "name": "HarryEagleImagination",
+            "displayName": "Harry Eagle Imagination",
+            "words": ["Owl", "Mythical Hunter", "Moonlight Sentinel", "Feathered Phantom", "Sky Werewolf", "Night's Monarch", "Whispering Predator", "Stormborn Raptor", "Celestial Guardian", "Winged Sorcerer", "Twilight Avenger", "Cloud King"]
+          }
+        ]
+      },
+       {
+        "levelName": "Imagination from story",
+        "id": "Set8_5",
+        "story": "This is a Sea Otter. Look at the picture. Describe a Sea Otter by thinking of as many words as you can. Put these words under the Sea Otter Description list (on the next page). The list is already started. A Sea Otter lives in the coastal north Pacific Ocean. A Sea Otter has a short tail. What else does a Sea Otter have? Add your words to the list. Think of as many as you can. Now do something different. Think what a Sea Otter reminds you of, not what you can see in the picture but what you think about when you see a Sea Otter. They have dark brown fur. A Sea Otter has small forefeet. Let your imagination go and think of as many ideas as you can when you see a Sea Otter. Put your words in the Sea Otter Imagination list. Now it's time to use your words to make a story about a Sea Otter. As you make up your story use as many of your words as you can from both lists—the Imagination list as well as the Description list. Be as creative as you can in writing your story. Be funny or scary or serious, but be as original with your imagination as you can.",
+        "Image": "L8-5",
+        "categories": [
+          {
+            "name": "SeaOtterDescription",
+            "displayName": "Sea Otter Description",
+            "words": ["Short tail", "Dark brown fur", "Small forefeet", "Webbed hind feet", "Dense fur", "Whiskers", "Floating posture", "Tool user", "Playful nature", "Kelp forest dweller", "Rock-cracker", "Social animal"]
+          },
+          {
+            "name": "SeaOtterImagination",
+            "displayName": "Sea Otter Imagination",
+            "words": ["Ocean Acrobat", "Floating Hugger", "Kelp Blanket Sleeper", "Marine Playmate", "Shell Smasher", "Seaweed Swaddler", "Coastal Entertainer", "Underwater Juggle", "Furry Raft", "Conservation Hero", "Toolbox of the Sea", "Wave-Dancing Furball"]
+          }
+        ]
+      }
+
+   ]
+  }
+}

@@ -1,0 +1,886 @@
+{
+  "sets": {
+    "level1": [
+      {
+        "levelName": "Number logics",
+        "id": "Set1_1",
+        "story":"Find  the Number 1 From the below number grid  and add it to the One Value category. The One Value category should only have the number 1",
+        "Image": "L1-1",
+        "categories": [
+          {
+            "name": "Ones",
+            "displayName": "One Value ",
+            "words": ["1", "1", "1", "1", "1"]
+          },
+          {
+            "name": "others",
+            "displayName": "Other Values",
+            "words": ["4", "8", "9", "9", "2", "7", "5", "3", "6", "10", "11", "12", "13", "14"]
+          }
+        ]
+      },
+      {
+      "id": "Set1_2",
+      "story": "Find the Number 11 From the below number grid and add it to the Eleven Value category. The Eleven Value category should only have the number 11",
+      "Image": "L1-2",
+      "categories": [
+        {
+          "name": "Elevens",
+          "displayName": "Eleven Value",
+          "words": ["11", "11", "11", "11", "11", "11", "11"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["7", "10", "12", "15", "14", "8", "18", "7", "9", "10", "2", "15", "10", "16", "13", "10","18", "17", "12", "14", "12", "15", "16", "13", "12", "15", "18"]
+        }
+      ]
+    },
+    {
+      "id": "Set1_3",
+      "story": "Find the Number 21 From the below number grid and add it to the Twenty-One Value category. The Twenty-One Value category should only have the number 21",
+      "Image": "L1-3",
+      "categories": [
+        {
+          "name": "TwentyOnes",
+          "displayName": "Twenty-One Value",
+          "words": ["21", "21", "21", "21"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["12", "16", "19", "23", "13", "13", "15", "18", "25", "28", "17", "15", "17", "28", "13", "14", "16", "12", "18", "15", "12", "19", "22", "17", "18", "26", "18", "10", "19", "23", "26", "16"]
+        }
+      ]
+    },
+    {
+      "id": "Set1_4",
+      "story": "Find the Number 31 From the below number grid and add it to the Thirty-One Value category.The Thirty-One Value category should only have the number 31",
+      "Image": "L1-4",
+      "categories": [
+        {
+          "name": "ThirtyOnes",
+          "displayName": "Thirty-One Value",
+          "words": ["31", "31", "31", "31", "31"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["21", "25", "14", "9", "33", "26", "16", "38", "19", "27", "35", "17", "32", "20", "34", "28", "14", "36", "21", "14", "19", "35", "29", "37", "24", "17", "19", "23", "18", "36"]
+        }
+      ]
+    },
+    {
+      "id": "Set1_5",
+      "story": "Find the Number 41 From the below number grid and add it to the Fourty-One Value category. The Forty-One Value category should only have the number 41",
+      "Image": "L1-4",
+      "categories": [
+        {
+          "name": "FortyOnes",
+          "displayName": "Forty-One Value",
+          "words": ["41", "41", "41", "41", "41"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["31", "33", "47", "25", "45", "38", "27", "20", "46", "53", "45", "36", "24", "47", "56", "33", "19", "48", "27", "36", "18", "16", "14", "29", "45", "18", "29", "18", "39", "29"]
+        }
+      ]
+    }
+
+
+    ],
+    "level2":[
+      
+      {
+        "id": "Set2_1",
+        "story": "Find the number 2 in the number grid below and add it to the Two Value category. Then find all the other numbers and add them to the Sports category. The Two Value category should only have the number 2, while the Sports category should include all other numbers.",
+        "Image": "L2-1",
+        "categories": [
+          {
+            "name": "Twos",
+            "displayName": "Two Value",
+            "words": ["2", "2", "2", "2", "2", "2", "2"]
+          },
+          {
+            "name": "others",
+            "displayName": "Other Values",
+            "words":  ["4", "8", "9", "9","7", "5", "3", "6", "10", "11", "12", "13", "14"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_2",
+        "story": "Find the Number 12 From the below number grid and add it to the Twelve Value category. The Twelve Value category should only have the number 12",
+        "Image": "L2-2",
+        "categories": [
+          {
+            "name": "Twelves",
+            "displayName": "Twelve Value",
+            "words": ["12", "12", "12", "12", "12", "12"]
+          },
+          {
+            "name": "others",
+            "displayName": "Other Values",
+            "words": ["1", "14", "15", "18", "13", "2", "13", "10", "11", "3", "15", "14", "11", "16", "18", "14", "10", "11", "13", "17", "16", "20", "13", "11", "15", "13", "15", "18", "16"]
+          }
+        ]
+      },
+        {
+        "id": "Set2_3",
+        "story": "Find the Number 22 From the below number grid and add it to the Twenty-Two Value category. The Twenty-Two Value category should only have the number 22",
+        "Image": "L2-3",
+        "categories": [
+          {
+            "name": "TwentyTwos",
+            "displayName": "Twenty-Two Value",
+            "words": ["22", "22", "22", "22", "22", "22"]
+          },
+          {
+            "name": "others",
+            "displayName": "Other Values",
+            "words": ["12", "18", "24", "20", "16", "14", "17", "27", "29", "25", "15", "11", "16", "21", "24", "16", "17", "16", "13", "18", "27", "11", "18", "16", "28", "14", "23", "24", "31", "16"]
+          }
+        ]
+      },
+      {
+      "id": "Set2_4",
+      "story": "Find the Number 32 From the below number grid and add it to the Thirty-Two Value category. The Thirty-Two Value category should only have the number 32",
+      "Image": "L2-4",
+      "categories": [
+        {
+          "name": "ThirtyTwos",
+          "displayName": "Thirty-Two Value",
+          "words": ["32", "32", "32", "32", "32", "32", "32"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["26", "21", "19", "33", "33", "11", "16", "12", "16", "27", "12", "15", "18", "28", "17", "16", "35", "22", "19", "25", "19", "17", "28", "10", "18", "13", "18", "38"]
+        }
+      ]
+    },
+    {
+      "id": "Set2_5",
+      "story": "Find the Number 42 From the below number grid and add it to the Forty-Two Value category. The Forty-Two Value category should only have the number 42",
+      "Image": "L2-5",
+      "categories": [
+        {
+          "name": "FortyTwos",
+          "displayName": "Forty-Two Value",
+          "words": ["42", "42", "42", "42", "42", "42", "42"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["36", "11", "18", "31", "39", "21", "36", "22", "12", "37", "18", "25", "22", "17", "38", "16", "15", "12", "17", "25", "15", "17", "38", "13", "28", "33", "19", "39"]
+        }
+      ]
+    }
+    ],
+    "level3":[
+      {
+        "id": "Set3_1",
+        "story": "Find the Number 3 From the below number grid and add it to the Three Value category. The Three Value category should only have the number 3",
+        "Image": "L3-1",
+        "categories": [
+          {
+            "name": "Threes",
+            "displayName": "Three Value",
+            "words": ["3", "3", "3","3", "3", "3"]
+          },
+          {
+            "name": "others",
+            "displayName": "Other Values",
+            "words": ["4", "8", "9", "2", "7", "5", "2", "6", "1", "1", "2", "9", "4", "0", "0", "7", "2", "8", "5", "1", "6", "2", "2", "4", "0", "2", "1", "5", "8", "6", "0", "7"]
+          }
+        ]
+      },
+      {
+      "id": "Set3_2",
+      "story": "Find the Number 13 From the below number grid and add it to the Thirteen Value category. The Thirteen Value category should only have the number 13",
+      "Image": "L3-2",
+      "categories": [
+        {
+          "name": "Thirteens",
+          "displayName": "Thirteen Value",
+          "words": ["13", "13", "13", "13", "13", "13"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["11", "10", "12", "15", "19", "16", "14", "18", "15", "17", "11", "12", "17", "18", "15", "11", "10", "19", "9", "11", "12", "20", "14", "15", "18", "21", "16", "19", "15"]
+        }
+      ]
+    },
+    {
+      "id": "Set3_3",
+      "story": "Find the Number 23 From the below number grid and add it to the Twenty-Three Value category. The Twenty-Three Value category should only have the number 23",
+      "Image": "L3-3",
+      "categories": [
+        {
+          "name": "TwentyThrees",
+          "displayName": "Twenty-Three Value",
+          "words": ["23", "23", "23", "23", "23", "23"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["13", "12", "14", "20", "15", "19", "15", "25", "28", "22", "21", "17", "26", "21", "25", "16", "27", "25", "13", "17", "22", "20", "14", "10", "24", "12", "22", "13", "24", "30", "15"]
+        }
+      ]
+    },
+    {
+      "id": "Set3_4",
+      "story": "Find the Number 33 From the below number grid and add it to the Thirty-Three Value category. The Thirty-Three Value category should only have the number 33",
+      "Image": "L3-4",
+      "categories": [
+        {
+          "name": "ThirtyThrees",
+          "displayName": "Thirty-Three Value",
+          "words": ["33", "33", "33", "33", "33", "33", "33", "33"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["21", "24", "15", "17", "32", "37", "12", "15", "12", "22", "19", "17", "28", "23", "28", "37", "22", "29", "25", "15", "13", "24", "39", "18", "16", "19", "18"]
+        }
+      ]
+    },
+    {
+      "id": "Set3_5",
+      "story": "Find the Number 43 From the below number grid and add it to the Forty-Three Value category. The Forty-Three Value category should only have the number 43",
+      "Image": "L3-5",
+      "categories": [
+        {
+          "name": "FortyThrees",
+          "displayName": "Forty-Three Value",
+          "words": ["43", "43", "43", "43", "43", "43", "43", "43", "43"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["41", "34", "23", "17", "13", "18", "37", "19", "49", "38", "12", "17", "36", "15", "27", "18", "17", "19", "37", "19", "25", "23", "44", "13", "15", "29", "19", "15"]
+        }
+      ]
+    }
+
+    ],
+     "level4":[
+      {
+      "id": "Set4_1",
+      "story": "Find the Number 4 From the below number grid and add it to the Four Value category. The Four Value category should only have the number 4",
+      "Image": "L4-1",
+      "categories": [
+        {
+          "name": "Fours",
+          "displayName": "Four Value",
+          "words": ["4", "4", "4", "4"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["5", "9", "1", "5", "2", "5", "0", "5", "8", "6", "1", "9", "3", "2", "1", "0", "5", "3", "5", "0", "5", "1", "9", "7", "6", "0", "5", "5", "5", "3", "2"]
+        }
+      ]
+    },
+    {
+      "id": "Set4_2",
+      "story": "Find the Number 14 From the below number grid and add it to the Fourteen Value category. The Fourteen Value category should only have the number 14",
+      "Image": "L4-2",
+      "categories": [
+        {
+          "name": "Fourteens",
+          "displayName": "Fourteen Value",
+          "words": ["14", "14", "14", "14", "14", "14"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["13", "12", "15", "18", "11", "10", "17", "16", "19", "15", "13", "11", "20", "10", "11", "19", "17", "11", "15", "16", "19", "13", "10", "11", "15", "15", "16", "10", "12"]
+        }
+      ]
+    },
+    {
+      "id": "Set4_3",
+      "story": "Find the Number 24 From the below number grid and add it to the Twenty-Four Value category. The Twenty-Four Value category should only have the number 24",
+      "Image": "L4-3",
+      "categories": [
+        {
+          "name": "TwentyFours",
+          "displayName": "Twenty-Four Value",
+          "words": ["24", "24", "24", "24", "24", "24", "24"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["18", "22", "13", "20", "19", "14", "25", "27", "15", "28", "22", "17", "16", "21", "27", "20", "14", "23", "28", "18", "10", "21", "29", "20", "13", "27", "18", "26", "23", "14", "11"]
+        }
+      ]
+    },
+    {
+      "id": "Set4_4",
+      "story": "Find the Number 34 From the below number grid and add it to the Thirty-Four Value category. The Thirty-Four Value category should only have the number 34",
+      "Image": "L4-4",
+      "categories": [
+        {
+          "name": "ThirtyFours",
+          "displayName": "Thirty-Four Value",
+          "words": ["34", "34", "34", "34", "34", "34", "34", "34"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["14", "13", "27", "37", "32", "11", "37", "19", "17", "15", "12", "18", "21", "38", "13", "28", "17", "25", "19", "15", "23", "24", "19", "27", "38", "13", "14", "15"]
+        }
+      ]
+    },
+    {
+      "id": "Set4_5",
+      "story": "Find the Number 44 From the below number grid and add it to the Forty-Four Value category. The Forty-Four Value category should only have the number 44",
+      "Image": "L4-5",
+      "categories": [
+        {
+          "name": "FortyFours",
+          "displayName": "Forty-Four Value",
+          "words": ["44", "44", "44", "44", "44", "44", "44"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["24", "33", "17", "47", "42", "11", "39", "24", "49", "27", "45", "32", "16", "11", "38", "19", "48", "37", "45", "34", "25", "33", "14", "49", "37", "28", "14", "43", "39"]
+        }
+      ]
+    }
+
+    ],
+     "level5":[
+      {
+      "id": "Set5_1",
+      "story": "Find the Number 5 From the below number grid and add it to the Five Value category. The Five Value category should only have the number 5",
+      "Image": "L5-1",
+      "categories": [
+        {
+          "name": "Fives",
+          "displayName": "Five Value",
+          "words": ["5","5","5","5"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["10", "6", "3", "2", "6", "4", "8", "6", "7", "8", "6", "3", "6", "9", "7", "10", "6", "6", "2", "4", "1", "6", "8", "6", "10", "0", "3", "4", "6", "6", "6", "2", "9"]
+        }
+      ]
+    },
+    {
+    "id": "Set5_2",
+    "story": "Find the Number 15 From the below number grid and add it to the Fifteen Value category. The Fifteen Value category should only have the number 15",
+    "Image": "L5-2",
+    "categories": [
+      {
+        "name": "Fifteens",
+        "displayName": "Fifteen Value",
+        "words": ["15", "15", "15", "15", "15", "15", "15"]
+      },
+      {
+        "name": "others",
+        "displayName": "Other Values",
+        "words": ["13", "18", "14", "13", "14", "12", "18", "19", "11", "13", "17", "14", "16", "10", "12", "11", "19", "11", "14", "18", "20", "12", "16", "16", "21", "18", "12", "10"]
+      }
+    ]
+  },
+  {
+  "id": "Set5_3",
+  "story": "Find the Number 25 From the below number grid and add it to the Twenty-Five Value category. The Twenty-Five Value category should only have the number 25",
+  "Image": "L5-3",
+  "categories": [
+    {
+      "name": "TwentyFives",
+      "displayName": "Twenty-Five Value",
+      "words": ["25", "25", "25", "25", "25", "25", "25"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["26", "24", "13", "11", "17", "15", "11", "14", "23", "10", "16", "19", "21", "10", "20", "24", "13", "15", "20", "19", "17", "27", "23", "24", "16", "17", "24", "21", "17", "29", "13", "14", "24", "21", "17", "29", "13"]
+    }
+  ]
+},
+{
+  "id": "Set5_4",
+  "story": "Find the Number 35 From the below number grid and add it to the Thirty-Five Value category. The Thirty-Five Value category should only have the number 35",
+  "Image": "L5-4",
+  "categories": [
+    {
+      "name": "ThirtyFives",
+      "displayName": "Thirty-Five Value",
+      "words": ["35", "35", "35", "35", "35", "35", "35"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["34", "17", "33", "24", "14", "17", "33", "38", "15", "34", "14", "27", "11", "12", "18", "14", "25", "17", "28", "15", "18", "23", "19", "24", "13", "29", "31", "18", "34", "23", "28", "15"]
+    }
+  ]
+},
+{
+  "id": "Set5_5",
+  "story": "Find the Number 45 From the below number grid and add it to the Forty-Five Value category. The Forty-Five Value category should only have the number 45",
+  "Image": "L5-5",
+  "categories": [
+    {
+      "name": "FortyFives",
+      "displayName": "Forty-Five Value",
+      "words": ["45", "45", "45", "45", "45", "45", "45"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["35", "44", "15", "27", "31", "14", "34", "15", "37", "32", "29", "38", "24", "15", "37", "18", "49", "25", "39", "31", "14", "23", "29", "35", "28", "14", "43", "26"]
+    }
+  ]
+}
+
+    ],
+     "level6":[
+      {
+  "id": "Set6_1",
+  "story": "Find the Number 6 From the below number grid and add it to the Six Value category. The Six Value category should only have the number 6",
+  "Image": "L6-1",
+  "categories": [
+    {
+      "name": "Sixes",
+      "displayName": "Six Value",
+      "words": ["6", "6", "6", "6", "6"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["4", "7", "10", "3", "7", "8", "11", "7", "10", "5", "7", "3", "2", "4", "7", "10", "8", "7", "2", "9", "9", "7", "8", "7", "2", "8", "7", "4", "3", "10", "3", "7", "5", "9", "7", "10", "7", "3", "7", "2", "7", "7"]
+    }
+  ]
+},
+{
+  "id": "Set6_2",
+  "story": "Find the Number 16 From the below number grid and add it to the Sixteen Value category. The Sixteen Value category should only have the number 16",
+  "Image": "L6-2",
+  "categories": [
+    {
+      "name": "Sixteens",
+      "displayName": "Sixteen Value",
+      "words": ["16", "16", "16", "16", "16", "16", "16", "16", "16", "16", "16", "16"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["15", "12", "11", "18", "10", "17", "13", "14", "15", "11", "13", "17", "10", "11", "17", "12", "15", "15", "12", "19", "20", "14", "10", "17", "15", "18","19", "17", "15", "13", "11", "12", "18", "12", "18", "15", "13", "10"]
+    }
+  ]
+},
+{
+  "id": "Set6_3",
+  "story": "Find the Number 26 From the below number grid and add it to the Twenty-Six Value category. The Twenty-Six Value category should only have the number 26",
+  "Image": "L6-3",
+  "categories": [
+    {
+      "name": "TwentySixes",
+      "displayName": "Twenty-Six Value",
+      "words": ["26", "26", "26", "26", "26"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["15", "22", "25", "15", "10", "12", "17", "12", "14", "13", "21", "15", "15", "21", "15", "18", "13", "14", "20", "17", "20", "21", "29", "22", "12", "17", "25", "21", "14", "29", "13"]
+    }
+  ]
+},
+{
+  "id": "Set6_4",
+  "story": "Find the Number 36 From the below number grid and add it to the Thirty-Six Value category. The Thirty-Six Value category should only have the number 36",
+  "Image": "L6-4",
+  "categories": [
+    {
+      "name": "ThirtySixes",
+      "displayName": "Thirty-Six Value",
+      "words": ["36", "36", "36", "36", "36", "36", "36"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["15", "16", "33", "17", "37", "25", "18", "13", "17", "26", "18", "15", "25", "15", "10", "13", "11", "19", "15", "38", "23", "17", "25", "11", "17", "24", "28", "18"]
+    }
+  ]
+},
+{
+  "id": "Set6_5",
+  "story": "Find the Number 46 From the below number grid and add it to the Forty-Six Value category. The Forty-Six Value category should only have the number 46",
+  "Image": "L6-5",
+  "categories": [
+    {
+      "name": "FortySixes",
+      "displayName": "Forty-Six Value",
+      "words": ["46", "46", "46", "46", "46", "46", "46"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["25", "31", "27", "36", "37", "25", "18", "23", "17", "18", "35", "36", "25", "15", "16", "33", "12", "19", "15", "38", "23", "27", "25", "21", "37", "24", "28", "18"]
+    }
+  ]
+}
+
+
+    ],
+     "level7":[
+      {
+      "id": "Set7_1",
+      "story": "Find the Number 7 From the below number grid and add it to the Seven Value category. The Seven Value category should only have the number 7",
+      "Image": "L7-1",
+      "categories": [
+        {
+          "name": "Sevens",
+          "displayName": "Seven Value",
+          "words": ["7", "7", "7","7", "7", "7"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["9", "8", "6", "8", "10", "6", "9", "8", "2", "4", "6", "8", "5", "3", "9", "8", "10", "10", "8", "2", "8", "3", "4", "8", "9", "8", "10", "8", "6", "2", "5", "8", "2", "8", "3", "8", "9", "10", "8", "4", "8", "10", "6", "8", "3"]
+        }
+      ]
+    },
+    {
+    "id": "Set7_2",
+    "story": "Find the Number 17 From the below number grid and add it to the Seventeen Value category. The Seventeen Value category should only have the number 17",
+    "Image": "L7-2",
+    "categories": [
+      {
+        "name": "Seventeens",
+        "displayName": "Seventeen Value",
+        "words": ["17", "17", "17", "17", "17", "17", "17", "17", "17", "17"]
+      },
+      {
+        "name": "others",
+        "displayName": "Other Values",
+        "words": ["12", "14", "16", "15", "18", "11", "13", "14", "12", "10", "15", "11", "15", "12", "16", "15", "12", "10", "11", "15", "14", "12", "16", "12", "20"]
+      }
+    ]
+  },
+  {
+  "id": "Set7_3",
+  "story": "Find the Number 27 From the below number grid and add it to the Twenty-Seven Value category. The Twenty-Seven Value category should only have the number 27",
+  "Image": "L7-3",
+  "categories": [
+    {
+      "name": "TwentySevens",
+      "displayName": "Twenty-Seven Value",
+      "words": ["27", "27", "27", "27", "27", "27"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["17", "20", "14", "21", "11", "18", "15", "25", "13", "17", "14", "13", "14", "22", "24", "19", "11", "25", "17", "25", "13", "18", "26", "21", "20", "10", "19", "20", "26", "16", "18"]
+    }
+  ]
+},
+{
+  "id": "Set7_4",
+  "story": "Find the Number 37 From the below number grid and add it to the Thirty-Seven Value category. The Thirty-Seven Value category should only have the number 37",
+  "Image": "L7-4",
+  "categories": [
+    {
+      "name": "ThirtySevens",
+      "displayName": "Thirty-Seven Value",
+      "words": ["37", "37", "37", "37", "37", "37", "37"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["17", "26", "35", "16", "27", "16", "17", "12", "11", "12", "28", "26", "15", "20", "36", "17", "14", "22", "16", "25", "18", "15", "35", "19", "21", "27", "40", "29"]
+    }
+  ]
+},
+{
+  "id": "Set7_5",
+  "story": "Find the Number 47 From the below number grid and add it to the Forty-Seven Value category. The Forty-Seven Value category should only have the number 47",
+  "Image": "L7-5",
+  "categories": [
+    {
+      "name": "FortySevens",
+      "displayName": "Forty-Seven Value",
+      "words": ["47", "47", "47", "47", "47", "47", "47"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["18", "36", "25", "11", "21", "26", "13", "14", "19", "42", "28", "36", "25", "30", "16", "27", "24", "26", "35", "28", "13", "17", "45", "39", "31", "27", "40", "25"]
+    }
+  ]
+}
+
+    ],
+     "level8":[
+      {
+      "id": "Set8_1",
+      "story": "Find the Number 8 From the below number grid and add it to the Eight Value category. The Eight Value category should only have the number 8",
+      "Image": "L8-1",
+      "categories": [
+        {
+          "name": "Eights",
+          "displayName": "Eight Value",
+          "words": ["8", "8", "8", "8", "8", "8", "8"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["2", "9", "3", "9", "10", "9", "9", "2", "6", "7", "9", "4", "9", "6", "7", "9", "5", "2", "3", "9", "2", "4", "9", "3", "1", "9", "10", "10", "7", "9", "9", "4", "9", "3", "5", "9", "10", "9", "4", "9", "10", "10", "6", "7", "5", "9", "3", "9", "2", "9", "2", "5", "3", "9", "7", "5"]
+        }
+      ]
+    },
+    {
+      "id": "Set8_2",
+      "story": "Find the Number 18 From the below number grid and add it to the Eighteen Value category. The Eighteen Value category should only have the number 18",
+      "Image": "L8-2",
+      "categories": [
+        {
+          "name": "Eighteens",
+          "displayName": "Eighteen Value",
+          "words": ["18", "18", "18", "18", "18", "18", "18", "18", "18", "18", "18"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["11", "13", "14", "19", "10", "11", "10", "12", "15", "12", "16", "10", "11", "9", "15", "19", "15", "10", "14", "17", "12", "16", "13", "20", "15", "11", "15", "13", "20", "14", "12", "10", "19", "12", "15", "10", "13", "11", "14", "20", "13", "16", "15", "20", "19"]
+        }
+      ]
+    },
+    {
+    "id": "Set8_3",
+    "story": "Find the Number 28 From the below number grid and add it to the Twenty-Eight Value category. The Twenty-Eight Value category should only have the number 28",
+    "Image": "L8-3",
+    "categories": [
+      {
+        "name": "TwentyEights",
+        "displayName": "Twenty-Eight Value",
+        "words": ["28", "28", "28", "28", "28"]
+      },
+      {
+        "name": "others",
+        "displayName": "Other Values",
+        "words": ["15", "29", "22", "18", "12", "14", "19", "27", "23", "17", "19", "17", "24", "21", "29", "12", "22", "17", "23", "24", "18", "19", "25", "21", "27", "16", "14", "26", "27", "26", "12"]
+      }
+    ]
+  },
+  {
+  "id": "Set8_4",
+  "story": "Find the Number 38 From the below number grid and add it to the Thirty-Eight Value category. The Thirty-Eight Value category should only have the number 38",
+  "Image": "L8-4",
+  "categories": [
+    {
+      "name": "ThirtyEights",
+      "displayName": "Thirty-Eight Value",
+      "words": ["38", "38", "38", "38", "38", "38", "38"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["18", "23", "36", "17", "22", "27", "37", "19", "14", "24", "19", "17", "26", "35", "14", "20", "16", "19", "22", "28", "12", "16", "37", "35", "18", "26", "27", "37", "39"]
+    }
+  ]
+},
+{
+  "id": "Set8_5",
+  "story": "Find the Number 48 From the below number grid and add it to the Forty-Eight Value category. The Forty-Eight Value category should only have the number 48",
+  "Image": "L8-5",
+  "categories": [
+    {
+      "name": "FortyEights",
+      "displayName": "Forty-Eight Value",
+      "words": ["48", "48", "48", "48", "48"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["28", "13", "46", "27", "32", "37", "29", "24", "34", "29", "34", "17", "46", "15", "44", "25", "46", "38", "29", "32", "38", "18", "42", "26", "17", "15", "28", "16", "27", "32", "49"]
+    }
+  ]
+}
+    ],
+     "level9":[
+      {
+      "id": "Set9_1",
+      "story": "Find the Number 9 From the below number grid and add it to the Nine Value category. The Nine Value category should only have the number 9",
+      "Image": "L9-1",
+      "categories": [
+        {
+          "name": "Nines",
+          "displayName": "Nine Value",
+          "words": ["9", "9", "9", "9", "9", "9", "9", "9"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["3", "8", "10", "6", "5", "10", "2", "2", "10", "7", "4", "10", "5", "10", "2", "10", "6", "3", "10", "2", "3", "8", "10", "10", "2", "8", "10", "3", "2", "10", "3", "5", "10", "4", "10", "2", "10", "4", "10", "7", "5", "2", "10", "10", "10", "5", "7", "10", "2", "3", "10", "6", "10", "5", "10"]
+        }
+      ]
+    },
+    {
+    "id": "Set9_2",
+    "story": "Find the Number 19 From the below number grid and add it to the Nineteen Value category. The Nineteen Value category should only have the number 19",
+    "Image": "L9-2",
+    "categories": [
+      {
+        "name": "Nineteens",
+        "displayName": "Nineteen Value",
+        "words": ["19", "19", "19", "19", "19", "19", "19", "19", "19", "19", "19", "19", "19", "19"]
+      },
+      {
+        "name": "others",
+        "displayName": "Other Values",
+        "words": ["12", "15", "17", "13", "11", "16", "14", "15", "11", "12", "20", "13", "15", "17", "13", "15", "18", "12", "17", "11", "12", "10", "13", "20", "13", "10", "18", "15", "11", "10", "17", "13", "14", "13", "15", "11", "10", "20", "16", "15", "11", "12", "13", "18", "16", "18", "10", "20", "11"]
+      }
+    ]
+  },
+  {
+  "id": "Set9_3",
+  "story": "Find the Number 29 From the below number grid and add it to the Twenty-Nine Value category. The Twenty-Nine Value category should only have the number 29",
+  "Image": "L9-3",
+  "categories": [
+    {
+      "name": "TwentyNines",
+      "displayName": "Twenty-Nine Value",
+      "words": ["29", "29", "29", "29"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["15", "19", "21", "19", "21", "22", "16", "20", "25", "12", "18", "13", "28", "14", "24", "22", "11", "12", "26", "23", "17", "17", "28", "21", "20", "10", "18", "27", "20", "24", "26", "15"]
+    }
+  ]
+},
+{
+  "id": "Set9_4",
+  "story": "Find the Number 39 From the below number grid and add it to the Thirty-Nine Value category. The Thirty-Nine Value category should only have the number 39",
+  "Image": "L9-4",
+  "categories": [
+    {
+      "name": "ThirtyNines",
+      "displayName": "Thirty-Nine Value",
+      "words": ["39", "39", "39", "39", "39", "39", "39"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["17", "13", "27", "33", "21", "37", "28", "15", "14", "13", "10", "16", "18", "16", "10", "26", "23", "18", "28", "14", "18", "17", "25", "19", "16", "27", "28", "23"]
+    }
+  ]
+},
+{
+  "id": "Set9_5",
+  "story": "Find the Number 49 From the below number grid and add it to the Forty-Nine Value category. The Forty-Nine Value category should only have the number 49",
+  "Image": "L9-5",
+  "categories": [
+    {
+      "name": "FortyNines",
+      "displayName": "Forty-Nine Value",
+      "words": ["49", "49", "49", "49", "49", "49", "49"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["26", "17", "37", "36", "31", "38", "26", "25", "24", "23", "13", "19", "13", "26", "18", "36", "33", "12", "38", "24", "17", "12", "15", "29", "26", "17", "38", "33"]
+    }
+  ]
+}
+    ],
+     "level10":[
+      {
+      "id": "Set10_1",
+      "story": "Find the Number 10 From the below number grid and add it to the Ten Value category. The Ten Value category should only have the number 10",
+      "Image": "L10-1",
+      "categories": [
+        {
+          "name": "Tens",
+          "displayName": "Ten Value",
+          "words": ["10", "10", "10", "10", "10", "10", "10", "10", "10", "10", "10", "10", "10", "10", "10"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["9", "3", "4", "6", "5","3", "4", "5", "2", "3", "4", "5", "9", "2", "4", "3", "5", "9", "2", "9", "6", "7", "6", "8", "9", "4", "8", "9", "3", "7", "4", "2", "6", "5", "4", "3", "8", "9", "3", "2", "2", "4", "5", "3", "8", "2"]
+        }
+      ]
+    },
+    {
+      "id": "Set10_2",
+      "story": "Find the Number 20 From the below number grid and add it to the Twenty Value category. The Twenty Value category should only have the number 20",
+      "Image": "L10-2",
+      "categories": [
+        {
+          "name": "Twenties",
+          "displayName": "Twenty Value",
+          "words": ["20", "20", "20", "20", "20", "20", "20", "20", "20", "20"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["15", "12", "18", "11", "13", "14", "16", "13", "16", "14", "19", "21", "21", "10", "14", "18", "12", "13", "15", "13", "11", "15", "18", "10", "15", "13", "18", "19", "17", "13", "10", "15", "11", "21", "18", "14", "14", "19", "17", "12", "11", "17", "21", "16", "15", "18"]
+        }
+      ]
+    },
+    {
+      "id": "Set10_3",
+      "story": "Find the Number 30 From the below number grid and add it to the Thirty Value category. The Thirty Value category should only have the number 30",
+      "Image": "L10-3",
+      "categories": [
+        {
+          "name": "Thirties",
+          "displayName": "Thirty Value",
+          "words": ["30", "30", "30", "30", "30"]
+        },
+        {
+          "name": "others",
+          "displayName": "Other Values",
+          "words": ["17", "15", "27", "31", "25", "14", "33", "17", "29", "13", "15", "10", "28", "16", "12", "13", "11", "14", "18", "16", "25", "19", "13", "25", "24", "23", "14", "19", "23", "25", "27", "19"]
+        }
+      ]
+    },
+    {
+    "id": "Set10_4",
+    "story": "Find the Number 40 From the below number grid and add it to the Forty Value category. The Forty Value category should only have the number 40",
+    "Image": "L10-4",
+    "categories": [
+      {
+        "name": "Forties",
+        "displayName": "Forty Value",
+        "words": ["40", "40", "40", "40", "40", "40"]
+      },
+      {
+        "name": "others",
+        "displayName": "Other Values",
+        "words": ["10", "17", "25", "13", "28", "35", "18", "15", "17", "34", "16", "12", "13", "14", "23", "32", "32", "14", "26", "24", "16", "20", "21", "14", "14", "30", "18", "39", "13"]
+      }
+    ]
+  },
+  {
+  "id": "Set10_5",
+  "story": "Find the Number 50 From the below number grid and add it to the Fifty Value category. The Fifty Value category should only have the number 50",
+  "Image": "L10-5",
+  "categories": [
+    {
+      "name": "Fifties",
+      "displayName": "Fifty Value",
+      "words": ["50", "50", "50", "50", "50", "50", "50"]
+    },
+    {
+      "name": "others",
+      "displayName": "Other Values",
+      "words": ["15", "27", "22", "23", "18", "35", "38", "14", "27", "44", "26", "32", "23", "15", "23", "42", "42", "14", "16", "22", "36", "22", "31", "24", "12", "15", "32", "23"]
+    }
+  ]
+}
+
+    ]
+
+  }
+}

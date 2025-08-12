@@ -1,0 +1,1439 @@
+ {
+    "sets":{
+        "level1":[
+        {
+             "levelName": "Word in categories",
+            "id": "Set1_0",
+            "categories": [
+        {
+          "name": "Chef",
+          "words": ["knife", "oven", "stove", "apron", "plate", "skillet", "spoon", "seasonings"]
+        },
+        {
+          "name": "Construction Worker",
+          "words": ["saw", "hard hat", "hammer", "tape measure", "pencil", "level", "screws", "nails"]
+        },
+        {
+          "name": "Artist",
+          "words": ["paper", "camera", "paint", "marker", "paintbrush", "water", "charcoal", "lens", "easel", "frame", "water colors", "eraser", "clay", "scissors"]
+        },
+        {
+          "name": "Mother",
+          "words": ["telephone", "scissors", "computer", "whistle", "comb", "stove", "mittens", "camera", "needle", "formula"]
+        }
+      ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set1_1",
+            "categories": [
+                {
+                "name": "Mailman",
+                "words": ["Telephone", "envelope", "moped", "letters", "sack", "stamp"]
+                },
+                {
+                "name": "Watchman",
+                "words": ["paper", "camera", "uniform", "walkie-talkie", "register", "whistle", "bag"]
+                },
+                {
+                "name": "Singer",
+                "words": ["Mic", "notes", "battery", "speakers", "recorder", "radio", "tune", "lyrics", "flute", "band"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set1_2",
+             "categories": [
+                {
+                "name": "Actor",
+                "words": ["Camera", "Props & Set", "Voice", "Hair", "Makeup", "Costume", "Skill", "Comb"]
+                },
+                {
+                "name": "Pilot",
+                "words": ["Headset", "Kneeboard", "Pen and Paper", "Sunglasses", "Fuel Tester", "Uniform"]
+                },
+                {
+                "name": "Engineer",
+                "words": ["Pliers", "Flashlight", "Jack", "Hammer", "Chisel", "Lens", "Frame", "Tape"]
+                },
+                {
+                "name": "Lawyer",
+                "words": ["Pen Set", "Digital Camera", "Scanner", "Business Card", "Files", "Coat"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set1_3",
+              "categories": [
+                {
+                "name": "Photographer",
+                "words": ["Camera", "Props & Set", "Voice", "Creativity", "Costume", "Skill"]
+                },
+                {
+                "name": "Police Officer",
+                "words": ["telephone", "radar", "handcuffs", "computer", "map", "whistle", "dog", "court", "pencil", "camera", "jail", "scanner", "flashlight", "radio", "eraser", "caution flag", "badge"]
+                },
+                {
+                "name": "Architect",
+                "words": ["Pliers", "Flashlight", "Jack", "Hammer", "Chisel", "Lens", "Frame", "Tape"]
+                },
+                {
+                "name": "Journalist",
+                "words": ["Pen Set", "Digital Camera", "Scanner", "Business Card", "Files"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set1_4",
+            "categories": [
+                {
+                "name": "Photographer",
+                "words": ["Camera", "Props & Set", "Voice", "Creativity", "Costume", "Skill"]
+                },
+                {
+                "name": "Police Officer",
+                "words": ["telephone", "radar", "handcuffs", "computer", "map", "whistle", "dog", "court", "pencil", "camera", "jail", "scanner", "flashlight", "radio", "eraser", "caution flag", "badge"]
+                },
+                {
+                "name": "Architect",
+                "words": ["Pliers", "Flashlight", "Jack", "Hammer", "Chisel", "Lens", "Frame", "Tape"]
+                },
+                {
+                "name": "Journalist",
+                "words": ["Pen Set", "Digital Camera", "Scanner", "Business Card", "Files"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"set1_5",
+             "categories": [
+                {
+                "name": "Actor",
+                "words": ["Camera", "Props & Set", "Voice", "Hair", "Makeup", "Costume", "Skill", "Comb"]
+                },
+                {
+                "name": "Pilot",
+                "words": ["Headset", "Kneeboard", "Pen and Paper", "Sunglasses", "Fuel Tester", "Uniform"]
+                },
+                {
+                "name": "Engineer",
+                "words": ["Pliers", "Flashlight", "Jack", "Hammer", "Chisel", "Lens", "Frame", "Tape"]
+                },
+                {
+                "name": "Lawyer",
+                "words": ["Pen Set", "Digital Camera", "Scanner", "Business Card", "Files", "Coat"]
+                }
+            ]
+        }
+    ],
+    "level2":[
+        {
+            "levelName": "Word in categories",
+            "id":"Set2_0",
+            "categories": [
+            {
+            "name": "Police Officer",
+            "words": ["telephone", "radar", "handcuffs", "computer", "map", "whistle", "dog", "court", "pencil", "camera", "jail", "scanner", "flashlight", "radio", "eraser", "caution flag", "badge"]
+            },
+            {
+            "name": "Teacher",
+            "words": ["telephone", "slide-rule", "scissors", "clay", "computer", "map", "lens", "whistle", "microscope", "pencil", "camera", "scanner", "radio", "eraser", "band aid"]
+            },
+            {
+            "name": "Scientist",
+            "words": ["stethoscope", "scissors", "computer", "lens", "x-ray", "microscope", "gas flame", "pencil", "camera", "rocket", "needle", "formula", "eraser", "lab coat"]
+            }
+        ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set2_1",
+             "categories": [
+                {
+                "name": "Carpenter",
+                "words": ["pencil", "chalk", "nail", "workbench", "saw", "hammer", "measuring tape"]
+                },
+                {
+                "name": "Journalist",
+                "words": ["paper", "camera", "marker", "screen", "recorder", "mic", "laptop", "headphones", "pen", "bag"]
+                },
+                {
+                "name": "Cleaner",
+                "words": ["Broom", "liquid", "vacuum", "mop", "bucket", "sponge", "dustpan", "cloth", "brush"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set2_2",
+             "categories": [
+                {
+                "name": "Farmer",
+                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "and rake"]
+                },
+                {
+                "name": "Doctor",
+                "words": ["Thermometer", "Tongue depressor", "Nebulizer", "Ventilator", "Forceps", "Weighing scale"]
+                },
+                {
+                "name": "Baker",
+                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper Measuring Cups", "Wooden Spoon"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set2_3",
+             "categories": [
+                {
+                "name": "Agriculturist",
+                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "and rake"]
+                },
+                {
+                "name": "Nurse",
+                "words": ["Thermometer", "Tongue depressor", "Nebulizer", "Ventilator", "Forceps", "Weighing scale"]
+                },
+                {
+                "name": "Pastry Maker",
+                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper Measuring Cups", "Wooden Spoon"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set2_4",
+            "categories": [
+                {
+                "name": "Agriculturist",
+                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "and rake"]
+                },
+                {
+                "name": "Nurse",
+                "words": ["Thermometer", "Tongue depressor", "Nebulizer", "Ventilator", "Forceps", "Weighing scale"]
+                },
+                {
+                "name": "Pastry Maker",
+                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper", "Measuring Cups", "Wooden Spoon"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set2_5",
+             "categories": [
+                {
+                "name": "Farmer",
+                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "and rake"]
+                },
+                {
+                "name": "Doctor",
+                "words": ["Thermometer", "Tongue depressor", "Nebulizer", "Ventilator", "Forceps", "Weighing scale"]
+                },
+                {
+                "name": "Baker",
+                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper Measuring Cups", "Wooden Spoon"]
+                }
+            ]
+        }
+    ],
+    "level3":[
+        {
+            "levelName": "Word in categories",
+            "id":"Set3_0",
+            "categories": [
+                {
+                "name": "Order",
+                "words": ["first", "fourth", "fifth", "second"]
+                },
+                {
+                "name": "Siblings",
+                "words": ["triplet", "single", "quadruplet", "twins"]
+                },
+                {
+                "name": "Evaluation",
+                "words": ["bad", "good", "poor", "mediocre"]
+                },
+                {
+                "name": "Emotion",
+                "words": ["elated", "giddy", "joyous", "pleased", "happy"]
+                },
+                {
+                "name": "Money",
+                "words": ["penny", "nickel", "dime", "quarter"]
+                },
+                {
+                "name": "Duration",
+                "words": ["hour", "day", "minute", "second"]
+                },
+                {
+                "name": "Height",
+                "words": ["short", "tall", "towering", "average"]
+                },
+                {
+                "name": "Aumbulatory Speed",
+                "words": ["walk", "race", "mosey"]
+                }
+            ]
+
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set3_1",
+             "categories": [
+                {
+                "name": "Chemist",
+                "words": ["Paper", "beakers", "pen", "bill", "gloves", "computer", "money", "medicines", "pill", "chair", "desk", "maths"]
+                },
+                {
+                "name": "Dentist",
+                "words": ["Tools", "syringe", "x-ray", "drill", "lab-coat", "scissors", "gel", "basin", "mask", "cap", "glove", "table", "machines", "mirror", "cup"]
+                },
+                {
+                "name": "Scientist",
+                "words": ["Computer", "microscope", "laboratory", "beaker", "chemicals", "gases", "gloves", "eye-protect", "burners", "flask", "petri-dish"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set3_2",
+             "categories": [
+                    {
+                    "name": "Order",
+                    "words": ["first", "fourth", "fifth", "second"]
+                    },
+                    {
+                    "name": "Kin",
+                    "words": ["triplet", "single", "quadruplet", "twins"]
+                    },
+                    {
+                    "name": "Assessment",
+                    "words": ["bad", "good", "poor", "mediocre"]
+                    },
+                    {
+                    "name": "Mental State",
+                    "words": ["elated", "giddy", "joyous", "pleased", "happy"]
+                    }
+                ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set3_3",
+             "categories": [
+                {
+                "name": "Position",
+                "words": ["first", "fourth", "fifth", "second"]
+                },
+                {
+                "name": "Family",
+                "words": ["triplet", "single", "quadruplet", "twins"]
+                },
+                {
+                "name": "Judgement",
+                "words": ["bad", "good", "poor", "mediocre"]
+                },
+                {
+                "name": "Mindset",
+                "words": ["elated", "giddy", "joyous", "pleased", "happy"]
+                },
+                {
+                "name": "Money",
+                "words": ["penny", "nickel", "dime", "quarter"]
+                },
+                {
+                "name": "Clock",
+                "words": ["hour", "day", "minute", "second"]
+                },
+                {
+                "name": "Size",
+                "words": ["short", "tall", "towering", "average"]
+                },
+                {
+                "name": "Motion",
+                "words": ["walk", "race", "mosey"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set3_4",
+            "categories": [
+                {
+                "name": "Position",
+                "words": ["first", "fourth", "fifth", "second"]
+                },
+                {
+                "name": "Family",
+                "words": ["triplet", "single", "quadruplet", "twins"]
+                },
+                {
+                "name": "Judgement",
+                "words": ["bad", "good", "poor", "mediocre"]
+                },
+                {
+                "name": "Mindset",
+                "words": ["elated", "giddy", "joyous", "pleased", "happy"]
+                },
+                {
+                "name": "Money",
+                "words": ["penny", "nickel", "dime", "quarter"]
+                },
+                {
+                "name": "Clock",
+                "words": ["hour", "day", "minute", "second"]
+                },
+                {
+                "name": "Size",
+                "words": ["short", "tall", "towering", "average"]
+                },
+                {
+                "name": "Motion",
+                "words": ["walk", "race", "mosey"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set3_5",
+             "categories": [
+                {
+                "name": "Order",
+                "words": ["first", "fourth", "fifth", "second"]
+                },
+                {
+                "name": "Kin",
+                "words": ["triplet", "single", "quadruplet", "twins"]
+                },
+                {
+                "name": "Assessment",
+                "words": ["bad", "good", "poor", "mediocre"]
+                },
+                {
+                "name": "Mental State",
+                "words": ["elated", "giddy", "joyous", "pleased", "happy"]
+                },
+                {
+                "name": "Currency",
+                "words": ["penny", "nickel", "dime", "quarter"]
+                },
+                {
+                "name": "Time",
+                "words": ["hour", "day", "minute", "second"]
+                },
+                {
+                "name": "Statute",
+                "words": ["short", "tall", "towering", "average"]
+                },
+                {
+                "name": "Motion Acceleration",
+                "words": ["walk", "race", "mosey"]
+                }
+            ]
+    
+        }
+    ],
+    "level4":[
+        {
+            "levelName": "Word in categories",
+       "id":"Set4_0",
+       "categories": [
+        {
+          "name": "Boredom",
+          "words": ["dull", "dreary", "uninteresting", "humdrum"]
+        },
+        {
+          "name": "Stone",
+          "words": ["sand", "gravel", "rock", "pebble"]
+        },
+        {
+          "name": "Temperature",
+          "words": ["hot", "scorching", "boiling", "warm"]
+        },
+        {
+          "name": "Sound",
+          "words": ["whisper", "shriek", "shout"]
+        },
+        {
+          "name": "Sadness",
+          "words": ["cry", "bawl", "sob"]
+        },
+        {
+          "name": "Physical Build",
+          "words": ["well-built", "skinny", "scrawny", "muscular", "toned"]
+        },
+        {
+          "name": "Size",
+          "words": ["tiny", "large", "small", "average", "gigantic"]
+        },
+        {
+          "name": "Large Size",
+          "words": ["mammoth", "enormous", "massive", "colossal"]
+        }
+      ]
+        },
+        {"levelName": "Word in categories",
+            "id":"Set4_1",
+            "categories": [
+                {
+                "name": "Transport",
+                "words": ["Car", "travel", "moped", "ride", "road", "fast"]
+                },
+                {
+                "name": "Hungry",
+                "words": ["Famished- supper", "starve", "meal", "food"]
+                },
+                {
+                "name": "Weather",
+                "words": ["Sultry", "gloomy", "warm", "hazy", "rainy", "cloudy"]
+                },
+                {
+                "name": "Time",
+                "words": ["Today", "sooner", "clock", "weekly", "later"]
+                },
+                {
+                "name": "Feeling",
+                "words": ["Happy", "confident", "Amused", "miserable", "loving", "afraid", "curious"]
+                },
+                {
+                "name": "Length",
+                "words": ["Extended", "stretch", "long", "span", "foot"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set4_2",
+             "categories": [
+                {
+                "name": "Monotony",
+                "words": ["dull", "dreary", "uninteresting", "humdrum"]
+                },
+                {
+                "name": "Pebble",
+                "words": ["sand", "gravel", "rock", "stone"]
+                },
+                {
+                "name": "Climate",
+                "words": ["hot", "scorching", "boiling", "warm"]
+                },
+                {
+                "name": "Voice",
+                "words": ["whisper", "shriek", "shout"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set4_3",
+             "categories": [
+                    {
+                    "name": "Fatigue",
+                    "words": ["dull", "dreary", "uninteresting", "humdrum"]
+                    },
+                    {
+                    "name": "Boulder",
+                    "words": ["sand", "gravel", "rock", "stone"]
+                    },
+                    {
+                    "name": "Weather",
+                    "words": ["hot", "scorching", "boiling", "warm"]
+                    },
+                    {
+                    "name": "Tone",
+                    "words": ["whisper", "shriek", "shout"]
+                    },
+                    {   
+                    "name": "Agony",
+                    "words": ["cry", "bawl", "sob"]
+                    },
+                    {
+                    "name": "Stature",
+                    "words": ["well-built", "skinny", "scrawny", "muscular", "toned"]
+                    },
+                    {
+                    "name": "Weight",
+                    "words": ["tiny", "large", "small", "average", "gigantic"]
+                    },
+                    {
+                    "name": "Massive",
+                    "words": ["mammoth", "enormous", "massive", "colossal"]
+                    }
+                ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set4_4",
+            "categories": [
+                {
+                "name": "Fatigue",
+                "words": ["dull", "dreary", "uninteresting", "humdrum"]
+                },
+                {
+                "name": "Boulder",
+                "words": ["sand", "gravel", "rock", "stone"]
+                },
+                {
+                "name": "Atmospheric conditions",
+                "words": ["hot", "scorching", "boiling", "warm"]
+                },
+                {
+                "name": "Tone",
+                "words": ["whisper", "shriek", "shout"]
+                },
+                {
+                "name": "Agony",
+                "words": ["cry", "bawl", "sob"]
+                },
+                {
+                "name": "Stature",
+                "words": ["well-built", "skinny", "scrawny", "muscular", "toned"]
+                },
+                {
+                "name": "Weight",
+                "words": ["tiny", "large", "small", "average", "gigantic"]
+                },
+                {
+                "name": "Massive",
+                "words": ["mammoth", "enormous", "massive", "colossal"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set4_5",
+            "categories": [
+                {
+                "name": "Monotony",
+                "words": ["dull", "dreary", "uninteresting", "humdrum"]
+                },
+                {
+                "name": "Pebble",
+                "words": ["sand", "gravel", "rock", "stone"]
+                },
+                {
+                "name": "Sorrow",
+                "words": ["cry", "bawl", "sob"]
+                },
+                {
+                "name": "Body Build",
+                "words": ["well-built", "skinny", "scrawny", "muscular", "toned"]
+                },
+                {
+                "name": "Climate",
+                "words": ["hot", "scorching", "boiling", "warm"]
+                },
+                {
+                "name": "Magnitude",
+                "words": ["tiny", "large", "small", "average", "gigantic"]
+                },
+                {
+                "name": "Voice",
+                "words": ["whisper", "shriek", "shout"]
+                },
+                {
+                "name": "Huge",
+                "words": ["mammoth", "enormous", "massive", "colossal"]
+                }
+            ]
+        }
+    ],
+    "level5":[
+        {
+            "levelName": "Word in categories",
+            "id":"Set5_0",
+            "categories": [
+                {
+                "name": "order",
+                "words": ["second", "fifth", "first", "fourth"]
+                },
+                {
+                "name": "size",
+                "words": ["average", "large", "tiny", "gigantic"]
+                },
+                {
+                "name": "length",
+                "words": ["inch", "centimeter", "yard", "mile"]
+                },
+                {
+                "name": "ambulatory speed",
+                "words": ["walk", "jog", "run", "race"]
+                },
+                {
+                "name": "money",
+                "words": ["penny", "dime", "nickel", "quarter"]
+                },
+                {
+                "name": "solar system",
+                "words": ["Jupiter", "Mars", "Venus", "Mercury"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set5_1",
+            "categories": [
+                {
+                "name": "Metal",
+                "words": ["Iron", "silver", "alloy", "tin", "copper"]
+                },
+                {
+                "name": "Size",
+                "words": ["Miniature", "vast", "petite", "large", "gargantuan"]
+                },
+                {
+                "name": "Sound",
+                "words": ["Shout", "boom", "blaring", "blasting", "thundering", "loud", "roaring"]
+                },
+                {
+                "name": "Weight",
+                "words": ["Mass", "hefty", "heavy", "skinny", "gaunt", "average"]
+                },
+                {
+                "name": "Speed",
+                "words": ["Pace", "slow", "brisk", "turbo", "dallying"]
+                },
+                {
+                "name": "Rating",
+                "words": ["Excellent", "average", "awful", "good", "exceptional"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set5_2",
+             "categories": [
+                {
+                "name": "Order",
+                "words": ["third", "fifth", "first", "fourth"]
+                },
+                {
+                "name": "Size",
+                "words": ["average", "large", "small", "gigantic"]
+                },
+                {
+                "name": "Length",
+                "words": ["inch", "centimeter", "foot", "mile"]
+                },
+                {
+                "name": "Ambulatory speed",
+                "words": ["walk", "run", "race"]
+                },
+                {
+                "name": "Money",
+                "words": ["dollar", "dime", "nickel", "quarter"]
+                },
+                {
+                "name": "Solar System",
+                "words": ["Jupiter", "Earth", "Venus", "Mercury"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set5_3",
+             "categories": [
+                {
+                "name": "Sequence",
+                "words": ["third", "fifth", "first", "fourth"]
+                },
+                {
+                "name": "Magnitude",
+                "words": ["average", "large", "small", "gigantic"]
+                },
+                {
+                "name": "Dimention",
+                "words": ["inch", "centimeter", "foot", "mile"]
+                },
+                {
+                "name": "Motion speed",
+                "words": ["walk", "run", "race"]
+                },
+                {
+                "name": "Currency",
+                "words": ["dollar", "dime", "nickel", "quarter"]
+                },
+                {
+                "name": "Planets",
+                "words": ["Jupiter", "Earth", "Venus", "Mercury"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set5_4",
+             "categories": [
+                {
+                "name": "Sequence",
+                "words": ["third", "fifth", "first", "fourth"]
+                },
+                {
+                "name": "Magnitude",
+                "words": ["average", "large", "small", "gigantic"]
+                },
+                {
+                "name": "Dimention",
+                "words": ["inch", "centimeter", "foot", "mile"]
+                },
+                {
+                "name": "Motion speed",
+                "words": ["walk", "run", "race"]
+                },
+                {
+                "name": "Currency",
+                "words": ["dollar", "dime", "nickel", "quarter"]
+                },
+                {
+                "name": "Planets",
+                "words": ["Jupiter", "Earth", "Venus", "Mercury"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set5_5",
+            "categories": [
+                {
+                "name": "order",
+                "words": ["third", "fifth", "first", "fourth"]
+                },
+                {
+                "name": "size",
+                "words": ["average", "large", "small", "gigantic"]
+                },
+                {
+                "name": "length",
+                "words": ["inch", "centimeter", "foot", "mile"]
+                },
+                {
+                "name": "ambulatory speed",
+                "words": ["walk", "run", "race"]
+                },
+                {
+                "name": "money",
+                "words": ["dollar", "dime", "nickel", "quarter"]
+                },
+                {
+                "name": "solar system",
+                "words": ["Jupiter", "Earth", "Venus", "Mercury"]
+                }
+            ]
+        }
+    ],
+    "level6":[
+        {
+            "levelName": "Word in categories",
+            "id":"Set6_0",
+             "categories": [
+                {
+                "name": "large size",
+                "words": ["mammoth", "enormous", "massive", "colossal"]
+                },
+                {
+                "name": "emotion",
+                "words": ["joyous", "elated", "happy", "pleased"]
+                },
+                {
+                "name": "rainbow",
+                "words": ["indigo", "violet", "blue", "green"]
+                },
+                {
+                "name": "duration",
+                "words": ["minute", "day", "week", "second"]
+                },
+                {
+                "name": "siblings",
+                "words": ["quadruplet", "single", "quintuplet", "triplet"]
+                },
+                {
+                "name": "age",
+                "words": ["baby", "child", "adult", "toddler"]
+                },
+                {
+                "name": "height",
+                "words": ["short", "towering", "tall", "average"]
+                }
+            ]
+
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set6_1",
+             "categories": [
+                {
+                "name": "Soon",
+                "words": ["Time- Today", "later", "weekly", "clock"]
+                },
+                {
+                "name": "Hazy",
+                "words": ["Weather- Cloudy", "rainy", "sultry", "gloomy"]
+                },
+                {
+                "name": "Loving",
+                "words": ["Feeling- miserable", "curious", "happy", "afraid"]
+                },
+                {
+                "name": "Long",
+                "words": ["Length- stretch", "foot", "span", "extended"]
+                },
+                {
+                "name": "Moped",
+                "words": ["Transport- Travel", "fast", "car", "ride"]
+                },
+                {
+                "name": "Supper",
+                "words": ["Hungry- Food", "meal", "starve", "famished"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set6_2",
+             "categories": [
+                {
+                "name": "Large size",
+                "words": ["big", "enormous", "massive", "colossal"]
+                },
+                {
+                "name": "Emotion",
+                "words": ["giddy", "elated", "happy", "pleased"]
+                },
+                {
+                "name": "Rainbow",
+                "words": ["yellow", "violet", "blue", "green"]
+                },
+                {
+                "name": "Duration",
+                "words": ["hour", "day", "week", "second"]
+                },
+                {
+                "name": "Siblings",
+                "words": ["quadruplet", "twin", "quintuplet", "triplet"]
+                },
+                {
+                "name": "Age",
+                "words": ["baby", "child", "adult", "adolescent"]
+                },
+                {
+                "name": "Height",
+                "words": ["elfin", "towering", "tall", "average"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set6_3",
+             "categories": [
+                {
+                "name": "large size",
+                "words": ["big", "enormous", "massive", "colossal"]
+                },
+                {
+                "name": "emotion",
+                "words": ["giddy", "elated", "happy", "pleased"]
+                },
+                {
+                "name": "rainbow",
+                "words": ["yellow", "violet", "blue", "green"]
+                },
+                {
+                "name": "duration",
+                "words": ["hour", "day", "week", "second"]
+                },
+                {
+                "name": "siblings",
+                "words": ["quadruplet", "twin", "quintuplet", "triplet"]
+                },
+                {
+                "name": "age",
+                "words": ["baby", "child", "adult", "adolescent"]
+                },
+                {
+                "name": "height",
+                "words": ["elifin", "towering", "tall", "average"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set6_4",
+             "categories": [
+                {
+                "name": "Large size",
+                "words": ["big", "enormous", "massive", "colossal"]
+                },
+                {
+                "name": "Emotion",
+                "words": ["giddy", "elated", "happy", "pleased"]
+                },
+                {
+                "name": "Rainbow",
+                "words": ["yellow", "violet", "blue", "green"]
+                },
+                {
+                "name": "Duration",
+                "words": ["hour", "day", "week", "second"]
+                },
+                {
+                "name": "Siblings",
+                "words": ["quadruplet", "twin", "quintuplet", "triplet"]
+                },
+                {
+                "name": "Age",
+                "words": ["baby", "child", "adult", "adolescent"]
+                },
+                {
+                "name": "Height",
+                "words": ["elifin", "towering", "tall", "average"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set6_5",
+            "categories": [
+                {
+                "name": "large size",
+                "words": ["big", "enormous", "massive", "colossal"]
+                },
+                {
+                "name": "emotion",
+                "words": ["giddy", "elated", "happy", "pleased"]
+                },
+                {
+                "name": "rainbow",
+                "words": ["yellow", "violet", "blue", "green"]
+                },
+                {
+                "name": "duration",
+                "words": ["hour", "day", "week", "second"]
+                },
+                {
+                "name": "siblings",
+                "words": ["quadruplet", "twin", "quintuplet", "triplet"]
+                },
+                {
+                "name": "age",
+                "words": ["baby", "child", "adult", "adolescent"]
+                },
+                {
+                "name": "height",
+                "words": ["elifin", "towering", "tall", "average"]
+                }
+            ]
+        }
+    ],
+    "level7":[
+        {
+            "levelName": "Word in categories",
+            "id":"Set7_0",
+            "categories": [
+                {
+                "name": "temperature",
+                "words": ["scorching", "hot", "warm", "boiling"]
+                },
+                {
+                "name": "evaluation",
+                "words": ["mediocre", "poor", "good", "bad"]
+                },
+                {
+                "name": "sound",
+                "words": ["scream", "whisper", "shriek", "talk"]
+                },
+                {
+                "name": "boredom",
+                "words": ["dull", "dreary", "humdrum", "indifferent"]
+                },
+                {
+                "name": "sadness",
+                "words": ["cry", "whimper", "bawl", "sniffle"]
+                },
+                {
+                "name": "physical build",
+                "words": ["scrawny", "well-built", "muscular", "toned"]
+                },
+                {
+                "name": "stone",
+                "words": ["boulder", "pebble", "sand", "rock"]
+                }
+            ]
+
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set7_1",
+             "categories": [
+                {
+                "name": "Size",
+                "words": ["Petite" ," Miniature", "vast", "large", "gargantuan"]
+                },
+                {
+                "name": "Metal",
+                "words": ["Aloy" , "Iron", "copper", "silver", "tin"]
+                },
+                {
+                "name": "Sound",
+                "words": ["Boom" ,"Blaring", "roaring", "loud", "tempo", "blast"]
+                },
+                {
+                "name": "Speed",
+                "words": ["Fast" ,"Crawling", "slow", "turbo", "dallying"]
+                },
+                {
+                "name": "Weight",
+                "words": ["heavy", "heavy", "hefty", "bony", "skeletal"]
+                },
+                {
+                "name": "Rating",
+                "words": ["Excellent" , "Good", "average", "awful", "faulty"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set7_2",
+            "categories": [
+                {
+                "name": "Temperature",
+                "words": ["luke warm", "hot", "warm", "boiling"]
+                },
+                {
+                "name": "Evaluation",
+                "words": ["mediocre", "poor", "best", "bad"]
+                },
+                {
+                "name": "Sound",
+                "words": ["shout", "whisper", "shriek", "talk"]
+                },
+                {
+                "name": "Boredom",
+                "words": ["uninteresting", "dreary", "humdrum", "indifferent"]
+                },
+                {
+                "name": "Sadness",
+                "words": ["sob", "whimper", "bawl", "sniffle"]
+                },
+                {
+                "name": "Physical build",
+                "words": ["scrawny", "well-built", "muscular", "skinny"]
+                },
+                {
+                "name": "Stone",
+                "words": ["boulder", "gravel", "sand", "rock"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set7_3",
+             "categories": [
+                    {
+                    "name": "temperature",
+                    "words": ["luke warm", "hot", "warm", "boiling"]
+                    },
+                    {
+                    "name": "evaluation",
+                    "words": ["mediocre", "poor", "best", "bad"]
+                    },
+                    {
+                    "name": "sound",
+                    "words": ["shout", "whisper", "shriek", "talk"]
+                    },
+                    {
+                    "name": "boredom",
+                    "words": ["uninteresting", "dreary", "humdrum", "indifferent"]
+                    },
+                    {
+                    "name": "sadness",
+                    "words": ["sob", "whimper", "bawl", "sniffle"]
+                    },
+                    {
+                    "name": "physical build",
+                    "words": ["scrawny", "well-built", "muscular", "skinny"]
+                    },
+                    {
+                    "name": "stone",
+                    "words": ["boulder", "gravel", "sand", "rock"]
+                    }
+                ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"set7_4",
+              "categories": [
+                {
+                "name": "Temperature",
+                "words": ["luke warm", "hot", "warm", "boiling"]
+                },
+                {
+                "name": "Evaluation",
+                "words": ["mediocre", "poor", "best", "bad"]
+                },
+                {
+                "name": "Sound",
+                "words": ["shout", "whisper", "shriek", "talk"]
+                },
+                {
+                "name": "Boredom",
+                "words": ["uninteresting", "dreary", "humdrum", "indifferent"]
+                },
+                {
+                "name": "Sadness",
+                "words": ["sob", "whimper", "bawl", "sniffle"]
+                },
+                {
+                "name": "Physical build",
+                "words": ["scrawny", "well-built", "muscular", "skinny"]
+                },
+                {
+                "name": "Stone",
+                "words": ["boulder", "gravel", "sand", "rock"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set7_5",
+             "categories": [
+                {
+                "name": "temperature",
+                "words": ["luke warm", "hot", "warm", "boiling"]
+                },
+                {
+                "name": "evaluation",
+                "words": ["mediocre", "poor", "best", "bad"]
+                },
+                {
+                "name": "sound",
+                "words": ["shout", "whisper", "shriek", "talk"]
+                },
+                {
+                "name": "boredom",
+                "words": ["uninteresting", "dreary", "humdrum", "indifferent"]
+                },
+                {
+                "name": "sadness",
+                "words": ["sob", "whimper", "bawl", "sniffle"]
+                },
+                {
+                "name": "physical build",
+                "words": ["scrawny", "well-built", "muscular", "skinny"]
+                },
+                {
+                "name": "stone",
+                "words": ["boulder", "gravel", "sand", "rock"]
+                }
+            ]
+        }
+    ],
+    "level8":[
+        {
+            "levelName": "Word in categories",
+            "id":"Set8_0",
+           "categories": [
+                {
+                    "name": "Currency Value",
+                    "words": ["penny", "nickel", "dime", "quarter", "dollar"]
+                },
+                {
+                    "name": "Position Order",
+                    "words": ["first", "second", "third", "fourth", "fifth"]
+                },
+                {
+                    "name": "Temperature Scale",
+                    "words": ["scorching", "boiling", "hot", "warm", "lukewarm"]
+                },
+                {
+                    "name": "Age Progression",
+                    "words": ["baby", "toddler", "child", "adolescent", "adult"]
+                },
+                {
+                    "name": "Time Units",
+                    "words": ["week", "day", "hour", "minute", "second"]
+                },
+                {
+                    "name": "Volume Scale",
+                    "words": ["whisper", "talk", "shout", "scream", "shriek"]
+                },
+                {
+                    "name": "Body Type Scale",
+                    "words": ["muscular", "toned", "well-built", "skinny", "scrawny"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set8_1",
+            "categories": [
+                {
+                "name": "Time",
+                "words": ["Tonight", "tomorrow", "daily", "weekly", "monthly"]
+                },
+                {
+                "name": "Length",
+                "words": ["Millimetre", "inch", "foot", "centimetre", "kilometre"]
+                },
+                {
+                "name": "Temperature",
+                "words": ["Scorching", "boiling", "hot", "warm", "lukewarm"]
+                },
+                {
+                "name": "Speed",
+                "words": ["Crawl", "walk", "brisk", "jump", "run"]
+                },
+                {
+                "name": "Rating",
+                "words": ["Exceptional", "good", "average", "awful", "faulty"]
+                },
+                {
+                "name": "Sound",
+                "words": ["Whisper", "talk", "shout", "shriek", "scream"]
+                },
+                {
+                "name": "Weight",
+                "words": ["Scraggy", "skinny", "average", "kilogram", "ton"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set8_2",
+             "categories": [
+                {
+                "name": "Dollar",
+                "words": ["quarter", "dime", "nickel", "penny"]
+                },
+                {
+                "name": "Fifth",
+                "words": ["fourth", "third", "second", "first"]
+                },
+                {
+                "name": "Lukewarm",
+                "words": ["warm", "hot", "boiling", "scorching"]
+                },
+                {
+                "name": "Adult",
+                "words": ["adolescent", "child", "toddler", "baby"]
+                },
+                {
+                "name": "Second",
+                "words": ["minute", "hour", "day", "week"]
+                },
+                {
+                "name": "Shriek",
+                "words": ["scream", "shout", "talk", "whisper"]
+                },
+                {
+                "name": "Scrawny",
+                "words": ["skinny", "well-built", "toned", "muscular"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set8_3",
+             "categories": [
+                {
+                "name": "dollar",
+                "words": ["quarter", "dime", "nickel", "penny"]
+                },
+                {
+                "name": "fifth",
+                "words": ["fourth", "third", "second", "first"]
+                },
+                {
+                "name": "lukewarm",
+                "words": ["warm", "hot", "boiling", "scorching"]
+                },
+                {
+                "name": "adult",
+                "words": ["adolescent", "child", "toddler", "baby"]
+                },
+                {
+                "name": "second",
+                "words": ["minute", "hour", "day", "week"]
+                },
+                {
+                "name": "shriek",
+                "words": ["scream", "shout", "talk", "whisper"]
+                },
+                {
+                "name": "scrawny",
+                "words": ["skinny", "well-built", "toned", "muscular"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set8_4",
+            "categories": [
+                {
+                "name": "Currency Order",
+                "words": ["Dollar", "quarter", "dime", "nickel", "penny"]
+                },
+                {
+                "name": "Position Order",
+                "words": ["Fifth", "fourth", "third", "second", "first"]
+                },
+                {
+                "name": "Temperature Scale",
+                "words": ["Lukewarm", "warm", "hot", "boiling", "scorching"]
+                },
+                {
+                "name": "Age Progression",
+                "words": ["Adult", "adolescent", "child", "toddler", "baby"]
+                },
+                {
+                "name": "Time Units",
+                "words": ["Second", "minute", "hour", "day", "week"]
+                },
+                {
+                "name": "Volume Scale",
+                "words": ["Shriek", "scream", "shout", "talk", "whisper"]
+                },
+                {
+                "name": "Body Type Scale",
+                "words": ["Scrawny", "skinny", "well-built", "toned", "muscular"]
+                }
+            ]
+        },
+        {
+            "levelName": "Word in categories",
+            "id":"Set8_5",
+             "categories": [
+                {
+                "name": "currency sequence",
+                "words": ["dollar", "quarter", "dime", "nickel", "penny"]
+                },
+                {
+                "name": "position sequence",
+                "words": ["fifth", "fourth", "third", "second", "first"]
+                },
+                {
+                "name": "temperature sequence",
+                "words": ["lukewarm", "warm", "hot", "boiling", "scorching"]
+                },
+                {
+                "name": "age sequence",
+                "words": ["adult", "adolescent", "child", "toddler", "baby"]
+                },
+                {
+                "name": "time sequence",
+                "words": ["second", "minute", "hour", "day", "week"]
+                },
+                {
+                "name": "volume sequence",
+                "words": ["shriek", "scream", "shout", "talk", "whisper"]
+                },
+                {
+                "name": "body type sequence",
+                "words": ["scrawny", "skinny", "well-built", "toned", "muscular"]
+                }
+            ]
+        }
+    ]
+  }
+}

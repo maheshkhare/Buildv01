@@ -1,0 +1,176 @@
+{
+  "sets": {
+    "level1": [
+      {
+        "levelName": "Word in categories",
+        "id": "Set1_0",
+        "categories": [
+          {
+            "name": "Wild Animals",
+            "displayName": "Wild Animals",
+            "words": ["Fox", "Kangaroo", "Bison", "Zebra", "Wolf", "Chipmunk", "Possum", "Porcupine", "Hedgehog", "Meerkat"]
+          },
+          {
+            "name": "Indoor Games",
+            "displayName": "Indoor Games",
+            "words": ["Billiards", "Puzzle", "Carom", "Ludo", "Snake-Ladder", "Chess", "Cards", "Darts", "Table Tennis",  "Uno"]   
+          }
+        ]
+      },
+      {
+        "id": "Set1_1",
+        "categories": [
+          {
+            "name": "Colors",
+            "displayName": "Colors",
+            "words": ["Peach", "Turquoise", "Violet", "Magenta", "Ivory"]
+          },
+          {
+            "name": "Shapes",
+            "displayName": "Shapes",
+            "words": ["Hexagon", "Parallelogram", "Diamond", "Cylinder", "Pentagon"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_2",
+        "categories": [
+          {
+            "name": "Country",
+            "displayName": "Country",
+            "words": ["India", "Japan", "Philippines", "Russia", "Indonesia"]
+          },
+          {
+            "name": "City",
+            "displayName": "City",
+            "words": ["Delhi", "Tokyo", "Manila", "Moscow", "Jakarta"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_3",
+        "categories": [
+          {
+            "name": "Things that are cold",
+            "displayName": "Things that are cold",
+            "words": ["Snow", "Ice", "Igloo", "Ice-cream", "Glacier"]
+          },
+          {
+            "name": "Things that are round",
+            "displayName": "Things that are round",
+            "words": ["Disc", "Coins", "Wheels", "Doughnut", "Lemon"]
+          }
+        ]
+      }
+    ],
+    "level2": [
+      {
+        "id": "Set2_0",
+        "categories": [
+          {
+            "name": "Farm Animals",
+            "displayName": "Farm Animals",
+            "words": ["Pig", "Calf", "Pony", "Goat", "Horse", "Cow", "Sheep", "Colt", "Lamb", "Piglet"]
+          },
+          {
+            "name": "Things you play with",
+            "displayName": "Things you play with",
+            "words": ["Ball", "Toy", "Balloon", "Game", "Doll", "Cards", "Puppet", "Beanbag", "Chess", "Dart"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_1",
+        "categories": [
+          {
+            "name": "Animals",
+            "displayName": "Animals",
+            "words": ["Monkey", "Lamb", "Cow", "Squirrel", "Bear", "Snake", "Crab", "Sheep", "Fish", "Dog"]
+          },
+          {
+            "name": "Not Animals",
+            "displayName": "Not Animals",
+            "words": ["Laugh", "Noise", "Sing", "Airplane", "Go", "Computer", "Pumpkin", "Wires", "Swim", "Gloves"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_2",
+        "categories": [
+          {
+            "name": "Things in Sky",
+            "displayName": "Things in Sky",
+            "words": ["Bird", "Sun", "Bee", "Fly", "Duck", "Airplane", "Parachute", "Clouds", "Bat", "Moon"]
+          },
+          {
+            "name": "Things to Wear",
+            "displayName": "Things to Wear",
+            "words": ["Hat", "Dress", "Coat", "Shoes", "Flower", "Ring", "Tie", "Suit", "Trouser", "Socks"]
+          }
+        ]
+      },
+      {
+        "id": "Set2_3",
+        "categories": [
+          {
+            "name": "Insects",
+            "displayName": "Insects",
+            "words": ["Termite", "Ant", "Beetles", "Dragonfly", "Caterpillar", "Centipede", "Bug", "Cockroach", "Butterfly", "Mantis"]
+          },
+          {
+            "name": "Birds",
+            "displayName": "Birds",
+            "words": ["Parrot", "Pigeon", "Robin", "Owl", "Turkey", "Swallow", "Pelican", "Raven", "Nightingale", "Swan"]
+          }
+        ]
+      }
+    ],
+    "level3": [
+      {
+        "id": "Set3_0",
+        "categories": [
+          {
+            "name": "Emotions",
+            "displayName": "Emotions",
+            "words": ["Happy", "Sad", "Nervous", "Surprised", "Afraid", "Confused", "Amused", "Frustrated", "Excited", "Ashamed", "Energized", "Confident", "Disgusted", "Dejected"]
+          },
+          {
+            "name": "Gadget",
+            "displayName": "Gadget",
+            "words": ["Computer", "Tablet", "Camera", "Laptop", "SmartPhone", "Printer", "Router", "Headphone", "Hard drive", "Web cam", "Microphone", "Mouse", "Floppy"]
+          }
+        ]
+      },
+      {
+        "id": "Set3_1",
+        "categories": [
+          {
+            "name": "Colors",
+            "displayName": "Colors",
+            "words": ["Orange", "Purple", "Black", "Green", "White", "Blue", "Red", "Pink", "Violet", "Silver", "Crimson", "Indigo", "Lavender", "Brown"]
+          },
+          {
+            "name": "Fruits",
+            "displayName": "Fruits",
+            "words": ["Mango", "Orange", "Kiwi", "Lychee", "Cherry", "Watermelon", "Papaya", "Peach", "Pear", "Pineapple", "Grapes", "Blackberries", "Avocado", "Date fruit", "Figs"]
+          }
+        ]
+      },
+      {
+        "id": "Set3_2",
+        "categories": [
+          {
+            "name": "People",
+            "displayName": "People",
+            "words": ["Baby", "Daddy", "Painter", "Woman", "Girl", "Father", "Child", "Artist", "Aunt", "Man", "Folk", "Crowd", "Teacher", "Sister", "Brother", "Individual", "Population", "Doctor", "Nurse"]
+          },
+          {
+            "name": "Things you can ride in",
+            "displayName": "Things you can ride in",
+            "words": ["Car", "Airplane", "Train", "Truck", "Wagon", "Van", "Ship", "Electric-Train", "Tricycle", "Cable cars", "Steam boat", "Canoe", "Yacht", "Amtrak", "Buggy", "Horse", "Kayak", "Row boat"]
+          }
+        ]
+      }
+    ]
+  }
+}
