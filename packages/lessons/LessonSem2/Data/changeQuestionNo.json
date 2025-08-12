@@ -1,0 +1,2026 @@
+[
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V1_P12_1_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_1_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_1_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_1_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_1_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_1_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_1_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_1_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_1_I",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_1_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 1
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V1_P12_2_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_2_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_2_C",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_2_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_2_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_2_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_2_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_2_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_2_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_2_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 2
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V1_P12_3_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_3_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_3_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_3_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_3_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_3_F",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_3_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_3_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_3_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_3_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 3
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V1_P12_4_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_4_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_4_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_4_D",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_4_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_4_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_4_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_4_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_4_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_4_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 4
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V1_P12_5_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_5_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_5_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_5_D",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_5_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_5_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_5_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_5_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_5_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_5_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 5
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V1_P12_6_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_6_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_6_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_6_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_6_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_6_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_6_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_6_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_6_I",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_6_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 6
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V1_P12_7_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_7_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_7_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_7_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_7_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_7_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_7_G",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_7_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_7_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_7_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 7
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V1_P12_8_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_8_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_8_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_8_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_8_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_8_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_8_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_8_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V1_P12_8_I",
+        "isCorrect": true
+      },
+      {
+        "label": "V1_P12_8_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 8
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V2_P12_1_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_1_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_1_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_1_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_1_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_1_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_1_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_1_H",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_1_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_1_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 9
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V2_P12_2_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_2_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_2_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_2_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_2_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_2_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_2_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_2_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_2_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_2_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 10
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V2_P12_3_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_3_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_3_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_3_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_3_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_3_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_3_G",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_3_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_3_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_3_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 11
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V2_P12_4_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_4_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_4_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_4_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_4_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_4_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_4_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_4_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_4_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_4_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 12
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V2_P12_5_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_5_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_5_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_5_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_5_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_5_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_5_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_5_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_5_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_5_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 13
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V2_P12_6_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_6_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_6_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_6_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_6_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_6_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_6_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_6_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_6_I",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_6_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 14
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V2_P12_7_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_7_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_7_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_7_D",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_7_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_7_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_7_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_7_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_7_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_7_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 15
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V2_P12_8_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_8_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_8_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_8_D",
+        "isCorrect": true
+      },
+      {
+        "label": "V2_P12_8_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_8_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_8_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_8_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_8_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V2_P12_8_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 16
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V3_P12_1_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_1_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_1_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_1_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_1_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_1_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_1_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_1_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_1_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_1_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 17
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V3_P12_2_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_2_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_2_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_2_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_2_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_2_F",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_2_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_2_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_2_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_2_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 18
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V3_P12_3_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_3_B",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_3_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_3_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_3_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_3_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_3_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_3_H",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_3_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_3_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 19
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V3_P12_4_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_4_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_4_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_4_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_4_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_4_F",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_4_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_4_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_4_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_4_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 20
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V3_P12_5_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_5_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_5_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_5_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_5_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_5_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_5_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_5_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_5_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_5_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 21
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V3_P12_6_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_6_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_6_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_6_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_6_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_6_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_6_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_6_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_6_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_6_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 22
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V3_P12_7_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_7_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_7_C",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_7_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_7_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_7_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_7_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_7_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_7_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_7_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 23
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V3_P12_8_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_8_B",
+        "isCorrect": true
+      },
+      {
+        "label": "V3_P12_8_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_8_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_8_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_8_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_8_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_8_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_8_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V3_P12_8_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 24
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_1_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_1_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_1_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_1_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_1_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_1_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_1_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_1_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_1_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_1_J",
+        "isCorrect": true
+      }
+    ],
+    "questionNo": 25
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_2_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_2_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_2_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_2_D",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_2_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_2_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_2_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_2_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_2_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_2_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 26
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_3_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_3_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_3_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_3_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_3_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_3_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_3_G",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_3_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_3_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_3_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 27
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_4_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_4_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_4_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_4_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_4_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_4_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_4_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_4_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_4_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_4_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 28
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_5_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_5_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_5_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_5_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_5_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_5_F",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_5_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_5_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_5_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_5_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 29
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_6_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_6_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_6_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_6_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_6_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_6_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_6_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_6_H",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_6_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_6_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 30
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_7_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_7_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_7_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_7_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_7_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_7_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_7_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_7_H",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_7_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_7_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 31
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_8_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_8_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_8_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_8_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_8_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_8_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_8_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_8_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_8_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_8_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 32
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_9_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_9_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_9_C",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_9_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_9_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_9_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_9_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_9_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_9_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_9_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 33
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V4_P12_10_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_10_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_10_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_10_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_10_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V4_P12_10_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_10_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_10_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_10_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V4_P12_10_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 34
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_1_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_1_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_1_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_1_D",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_1_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_1_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_1_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_1_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_1_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_1_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 35
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_2_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_2_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_2_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_2_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_2_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_2_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_2_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_2_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_2_I",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_2_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 36
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_3_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_3_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_3_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_3_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_3_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_3_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_3_G",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_3_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_3_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_3_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 37
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_4_A",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_4_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_4_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_4_D",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_4_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_4_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_4_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_4_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_4_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_4_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 38
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_5_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_5_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_5_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_5_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_5_E",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_5_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_5_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_5_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_5_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_5_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 39
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_6_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_6_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_6_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_6_D",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_6_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_6_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_6_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_6_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_6_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_6_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 40
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_7_A",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_7_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_7_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_7_D",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_7_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_7_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_7_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_7_H",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_7_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_7_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 41
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_8_A",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_8_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_8_C",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_8_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_8_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_8_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_8_G",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_8_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_8_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_8_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 42
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_9_A",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_9_B",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_9_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_9_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_9_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_9_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_9_G",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_9_H",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_9_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_9_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 43
+  },
+  {
+    "instructionText": "In each row there are two figures that are more alike than any of the others. They may be a slightly different size, shade, or shape. Mark the boxes that are the closest match.",
+    "imageSet": [
+      {
+        "label": "V5_P12_10_A",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_10_B",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_10_C",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_10_D",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_10_E",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_10_F",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_10_G",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_10_H",
+        "isCorrect": true
+      },
+      {
+        "label": "V5_P12_10_I",
+        "isCorrect": false
+      },
+      {
+        "label": "V5_P12_10_J",
+        "isCorrect": false
+      }
+    ],
+    "questionNo": 44
+  }
+]
