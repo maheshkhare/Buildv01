@@ -1,9 +1,9 @@
 <template>
   <div class="flex-container"> 
-    <div v-show="showBottom" class="responsive-grid">
+    <div v-show="shouldShowBottom" class="responsive-grid">
       <div class="columns-wrapper" :class="getGridClass">
         <div 
-          v-for="(column, colIndex) in columns" 
+          v-for="(column, colIndex) in internalColumns" 
           :key="colIndex" 
           v-show="columnVisibility[colIndex]"
           class="column-wrapper"
@@ -17,7 +17,7 @@
               :key="`${colIndex}-${itemIndex}`"
               :identifier="itemIndex"
               :disable-correct="colIndex > 0"
-              :accept-input="acceptInput"
+              :accept-input="canModifyAnswers"
               class="svg-button-wrapper"
             >
               <div
@@ -35,13 +35,13 @@
       <div class="navigation-buttons">
         <!-- Previous Button -->
         <svg
-          v-if="showPreviousButton"
+          v-if="canGoToPrevious"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="-330 50 70 90"
           class="nav-button prev-button"
           filter="drop-shadow(0 0 4px gray)"
           transform="rotate(180)"
-          @click="ClickPreviousButton"
+          @click="goToPrevious"
         >
           <path
             d="M117.2 23.2H4.5v43.5h112.7v18.1l59.3-39.9L117.2 5v18.1z"
@@ -53,12 +53,12 @@
 
         <!-- Next Button -->
         <svg
-          v-if="showNextButton"
+          v-if="canGoToNext"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="-330 50 70 90"
           class="nav-button next-button"
           filter="drop-shadow(0 0 4px gray)"
-          @click="ClickNextButton"
+          @click="goToNext"
         >
           <path
             d="M117.2 23.2H4.5v43.5h112.7v18.1l59.3-39.9L117.2 5v18.1z"
@@ -81,73 +81,76 @@ export default {
   components: { SVGImageButton },
   
   props: {
-    acceptInput: {
-      type: Boolean,
+    // 🎯 MUCH SIMPLER - Only 3 props instead of 9!
+    lessonBase: {
+      type: Object,
       required: true
     },
-    showNextButton: {
-      type: Boolean,
-      required: true
+    currentQuestion: {
+      type: Object,
+      default: null
     },
-    showPreviousButton: {
-      type: Boolean,
-      required: true
-    },
-    isReviewMode: {
-      type: Boolean,
-      default: false
-    },
-    Arrow_isShowing: {
-      type: Boolean,
-      required: true
-    },
-    columns: {
-      type: Array,
-      required: true,
-      validator: value => Array.isArray(value) && value.every(col => Array.isArray(col))
-    },
-    columnTitles: {
-      type: Array,
-      required: true
-    },
-    columnVisibility: {
-      type: Array,
-      required: true,
-      validator: value => Array.isArray(value) && value.every(vis => typeof vis === 'boolean')
-    },
-    rowCounts: {
-      type: Array,
-      required: true,
-      validator: value => Array.isArray(value) && value.every(count => typeof count === 'number')
-    },
-    showBottom: {
-      type: Boolean,
-      default: true
+    lessonConfig: {
+      type: Object,
+      default: () => ({
+        isSingleColumnMode: false,
+        isEmuCsiLesson: false
+      })
     }
   },
   
   data() {
     return {
-      clicked: false,
-      dynamicRowCounts: [], // Track dynamic row counts per column
-      minRows: 3 // Start with 3 empty rows
-    }
-  },
-  
-  mounted() {
-    this.initializeDynamicRowCounts();
-  },
-  
-  watch: {
-    columns: {
-      handler() {
-        this.initializeDynamicRowCounts();
-      },
-      deep: true
+      // 🧠 Component now owns its state
+      currentQuestionIndex: 0,
+      questionStates: [], // Store state for each question
+      selectedWord: null,
+      internalColumns: [],
+      columnTitles: [],
+      columnVisibility: [],
+      availableWords: [],
+      placedWords: [],
+      canModifyAnswers: true,
+      dynamicRowCounts: [],
+      minRows: 3,
+      clicked: false
     }
   },
   
   computed: {
+    shouldShowBottom() {
+      return this.currentQuestion && this.internalColumns.length > 0;
+    },
+    
+    canGoToPrevious() {
+      return this.currentQuestionIndex > 0;
+    },
+    
+    canGoToNext() {
+      return this.isQuestionComplete || this.lessonConfig.isSingleColumnMode;
+    },
+    
+    isQuestionComplete() {
+      if (!this.currentQuestion) return false;
+      
+      if (this.lessonConfig.isSingleColumnMode) {
+        const firstCategory = this.currentQuestion.categories?.[0];
+        if (!firstCategory) return false;
+        const correctWords = this.internalColumns?.filter(item => 
+          item.name && firstCategory.words.includes(item.name)
+        ).length || 0;
+        return correctWords === firstCategory.words.length;
+      } else {
+        return this.currentQuestion.categories?.every((category, index) => {
+          if (index >= this.internalColumns.length) return false;
+          const correctWords = this.internalColumns[index].filter(item => 
+            item.name && category.words.includes(item.name)
+          ).length;
+          return correctWords === category.words.length;
+        }) || false;
+      }
+    },
+    
     getGridClass() {
       const visibleColumns = this.columnVisibility.filter(Boolean).length;
       
@@ -160,12 +163,228 @@ export default {
     }
   },
   
+  watch: {
+    currentQuestion: {
+      handler(newQuestion) {
+        if (newQuestion) {
+          this.loadQuestionData(newQuestion);
+        }
+      },
+      immediate: true
+    },
+    
+    internalColumns: {
+      handler() {
+        this.initializeDynamicRowCounts();
+      },
+      deep: true
+    }
+  },
+  
+  mounted() {
+    this.currentQuestionIndex = this.lessonBase?.currentQuestionIndex || 0;
+  },
+  
   methods: {
+    // 🏗️ QUESTION MANAGEMENT - Now owned by this component
+    loadQuestionData(questionSet) {
+      this.resetQuestionState();
+      
+      if (!questionSet || !questionSet.categories) {
+        console.error('Invalid question set:', questionSet);
+        return;
+      }
+
+      // Setup column structure
+      this.columnTitles = questionSet.categories.map(cat => 
+        cat.displayName || cat.name || ''
+      );
+      this.columnVisibility = questionSet.categories.map(() => !this.lessonConfig.isSingleColumnMode);
+      
+      // Collect all words
+      this.availableWords = [];
+      questionSet.categories.forEach(category => {
+        if (category?.words) {
+          this.availableWords = [...this.availableWords, ...category.words];
+        }
+      });
+      
+      // Shuffle words using lessonBase
+      this.availableWords = this.lessonBase.shuffleArray(this.availableWords);
+      this.placedWords = [];
+      this.selectedWord = null;
+      
+      // Create columns
+      const maxWords = this.lessonConfig.isSingleColumnMode
+        ? questionSet.categories[0].words.length 
+        : Math.max(...questionSet.categories.map(cat => cat.words.length));
+      const columnLength = Math.max(8, Math.ceil(maxWords * 1.2));
+      
+      this.internalColumns = questionSet.categories.map(() => 
+        this.createEmptyColumn(columnLength)
+      );
+      
+      if (this.lessonConfig.isSingleColumnMode) {
+        this.columnTitles = [this.columnTitles];
+        this.columnVisibility = [true];
+        this.internalColumns = [this.internalColumns];
+      }
+      
+      // Restore previous state if exists
+      this.loadQuestionState();
+      
+      this.initializeDynamicRowCounts();
+      
+      // Notify parent that question is loaded
+      this.$emit('question-loaded', {
+        questionIndex: this.currentQuestionIndex,
+        totalWords: this.availableWords.length
+      });
+    },
+    
+    resetQuestionState() {
+      this.internalColumns = [];
+      this.selectedWord = null;
+      this.canModifyAnswers = true;
+    },
+    
+    createEmptyColumn(count) {
+      return Array(count).fill().map((_, i) => ({
+        shape: 'square',
+        index: i,
+        size: 'xl',
+        width: 'wide',
+        height: 'normal',
+        color: 'white',
+        name: '',
+        state: 'base'
+      }));
+    },
+    
+    // 🎯 WORD INTERACTION - Now handled internally
+    handleColumnClick(colIndex, itemIndex) {
+      if (!this.canModifyAnswers) return;
+      
+      const column = this.internalColumns[colIndex];
+      const item = column[itemIndex];
+      
+      if (!item.name && this.selectedWord) {
+        // Place word
+        item.name = this.selectedWord;
+        this.placedWords.push(this.selectedWord);
+        const wordIndex = this.availableWords.indexOf(this.selectedWord);
+        if (wordIndex > -1) this.availableWords.splice(wordIndex, 1);
+        this.selectedWord = null;
+        this.updateAvailableWords();
+      } else if (item.name && !this.selectedWord) {
+        // Remove word
+        const returnedWord = item.name;
+        item.name = '';
+        const placedIndex = this.placedWords.indexOf(returnedWord);
+        if (placedIndex > -1) this.placedWords.splice(placedIndex, 1);
+        this.availableWords.push(returnedWord);
+        this.updateAvailableWords();
+      }
+      
+      this.updateRowCount(colIndex);
+      this.saveQuestionState();
+      
+      // Notify parent about word placement changes
+      this.$emit('words-updated', {
+        availableWords: this.availableWords,
+        placedWords: this.placedWords,
+        selectedWord: this.selectedWord,
+        isComplete: this.isQuestionComplete
+      });
+    },
+    
+    updateAvailableWords() {
+      const allWordsPlaced = this.availableWords.length === 0;
+      this.canModifyAnswers = !allWordsPlaced;
+    },
+    
+    // 📚 STATE MANAGEMENT - Component owns question states
+    saveQuestionState() {
+      this.questionStates[this.currentQuestionIndex] = {
+        columns: JSON.parse(JSON.stringify(this.internalColumns)),
+        columnTitles: [...this.columnTitles],
+        columnVisibility: [...this.columnVisibility],
+        placedWords: [...this.placedWords],
+        availableWords: [...this.availableWords],
+        selectedWord: this.selectedWord,
+        canModifyAnswers: this.canModifyAnswers
+      };
+    },
+    
+    loadQuestionState() {
+      const state = this.questionStates[this.currentQuestionIndex];
+      if (state) {
+        this.internalColumns = JSON.parse(JSON.stringify(state.columns));
+        this.columnTitles = [...state.columnTitles];
+        this.columnVisibility = [...state.columnVisibility];
+        this.placedWords = [...state.placedWords];
+        this.availableWords = [...state.availableWords];
+        this.selectedWord = state.selectedWord;
+        this.canModifyAnswers = state.canModifyAnswers;
+      }
+    },
+    
+    // 🚀 NAVIGATION - Now owned by this component
+    goToPrevious() {
+      if (this.currentQuestionIndex > 0) {
+        this.saveQuestionState();
+        this.currentQuestionIndex--;
+        this.loadQuestionState();
+        
+        this.$emit('navigation-changed', {
+          direction: 'previous',
+          questionIndex: this.currentQuestionIndex,
+          canModifyAnswers: this.canModifyAnswers
+        });
+      }
+    },
+    
+    goToNext() {
+      // Validate current question before moving
+      const isCorrect = this.validateCurrentQuestion();
+      
+      this.saveQuestionState();
+      
+      if (this.currentQuestionIndex < this.lessonBase.Total_Questions - 1) {
+        this.currentQuestionIndex++;
+        
+        this.$emit('navigation-changed', {
+          direction: 'next',
+          questionIndex: this.currentQuestionIndex,
+          wasCorrect: isCorrect,
+          canModifyAnswers: this.canModifyAnswers
+        });
+      } else {
+        // Last question completed
+        this.$emit('lesson-completed', {
+          wasCorrect: isCorrect,
+          finalQuestionIndex: this.currentQuestionIndex
+        });
+      }
+    },
+    
+    validateCurrentQuestion() {
+      const isCorrect = this.isQuestionComplete;
+      
+      if (isCorrect) {
+        this.lessonBase.updateProgress(true);
+      } else {
+        this.lessonBase.updateProgress(false);
+      }
+      
+      return isCorrect;
+    },
+    
+    // 🎨 UI HELPERS - Keep existing functionality
     initializeDynamicRowCounts() {
-      // Initialize with minimum rows for each column
-      this.dynamicRowCounts = this.columns.map((column, index) => {
+      this.dynamicRowCounts = this.internalColumns.map((column, index) => {
         const filledItems = column.filter(item => item.name && item.name.trim() !== '').length;
-        return Math.max(this.minRows, filledItems + 1); // Always show at least one empty row
+        return Math.max(this.minRows, filledItems + 1);
       });
     },
     
@@ -173,12 +392,10 @@ export default {
       const currentRowCount = this.dynamicRowCounts[colIndex] || this.minRows;
       const displayItems = [];
       
-      // Add existing items
       for (let i = 0; i < currentRowCount; i++) {
         if (i < column.length && column[i]) {
           displayItems.push(column[i]);
         } else {
-          // Add empty placeholder
           displayItems.push({
             name: '',
             state: 'empty',
@@ -191,24 +408,21 @@ export default {
     },
     
     updateRowCount(colIndex) {
-      if (!this.columns[colIndex]) return;
+      if (!this.internalColumns[colIndex]) return;
       
-      const column = this.columns[colIndex];
+      const column = this.internalColumns[colIndex];
       const filledItems = column.filter(item => item.name && item.name.trim() !== '').length;
       const currentRowCount = this.dynamicRowCounts[colIndex] || this.minRows;
       
-      // If all visible rows are filled, add one more
       if (filledItems >= currentRowCount) {
         this.$set(this.dynamicRowCounts, colIndex, filledItems + 1);
-      }
-      // If we have too many empty rows (more than 2 empty at the end), reduce
-      else if (filledItems < currentRowCount - 2 && currentRowCount > this.minRows) {
+      } else if (filledItems < currentRowCount - 2 && currentRowCount > this.minRows) {
         this.$set(this.dynamicRowCounts, colIndex, Math.max(this.minRows, filledItems + 1));
       }
     },
     
     getTitleStyle(colIndex) {
-      const baseStyle = {
+      return {
         textAlign: 'center',
         border: '3px solid #2cb9fa',
         display: 'inline-block',
@@ -216,8 +430,6 @@ export default {
         color: 'white',
         fontWeight: 'bold'
       };
-      
-      return baseStyle;
     },
     
     getColumnContainerStyle(colIndex) {
@@ -228,11 +440,10 @@ export default {
     
     getColumnItemClass(colIndex, item, itemIndex) {
       const baseClasses = {
-        'cursor-not-allowed opacity-75': !this.acceptInput,
+        'cursor-not-allowed opacity-75': !this.canModifyAnswers,
         clicked: this.clicked
       };
       
-      // Handle empty slots - make them look like regular empty boxes
       if (item.isEmpty) {
         return {
           ...baseClasses,
@@ -257,27 +468,26 @@ export default {
       };
     },
     
-    handleColumnClick(colIndex, itemIndex) {
-      if (this.acceptInput) {
-        // Update row count after interaction
-        this.$nextTick(() => {
-          this.updateRowCount(colIndex);
-        });
-        
-        this.$emit('OnClicked_Col', colIndex, itemIndex);
-      }
+    // 🔗 PUBLIC METHODS - For parent to call
+    selectWord(word) {
+      this.selectedWord = word;
     },
     
-    ClickNextButton() {
-      this.$emit('Click_NextButton');
-    },
-    
-    ClickPreviousButton() {
-      this.$emit('Click_PreviousButton');
+    getCurrentState() {
+      return {
+        questionIndex: this.currentQuestionIndex,
+        availableWords: this.availableWords,
+        placedWords: this.placedWords,
+        selectedWord: this.selectedWord,
+        isComplete: this.isQuestionComplete,
+        canModifyAnswers: this.canModifyAnswers
+      };
     }
   }
 }
 </script>
+
+
 
 <style scoped>
 .flex-container {

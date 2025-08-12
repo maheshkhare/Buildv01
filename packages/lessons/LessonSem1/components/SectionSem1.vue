@@ -26,13 +26,7 @@
         </div>
       </div>
 
-      <!-- <div class="float-right mb-3">
-        <div class="txtclsDiv" @click="handleSelection()" style="cursor: pointer;">
-          <span class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-4 px-5 border border-blue-500 hover:border-transparent rounded mt-2">
-            Start New Game
-          </span>
-        </div>
-      </div> -->
+
     </div>
 
   </div>
