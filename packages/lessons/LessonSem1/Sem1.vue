@@ -13,76 +13,82 @@
           :componentSubtitle="componentSubtitle"
         />
       </div>
+
+
+<button @click="testWithMinimalData" 
+        style="background: orange; color: white; padding: 10px; margin: 5px;">
+  🧪 TEST WITH FAKE DATA
+</button>
+
+
+
+
       <div class="rows-12">
         <div class="content-container">
-          <div>
-            <SectionSem1Intro
-              v-show="InstructionShow"
-              @PracticeNext="PracticeNext"
-            />
+          
+          <!-- 🔍 DEBUG INFO -->
+          <div class="debug-info" style="background: yellow; padding: 10px; margin: 10px;">
+            <h4>DEBUG INFO:</h4>
+            <p>InstructionShow: {{ InstructionShow }}</p>
+            <p>resultShow: {{ resultShow }}</p>
+            <p>lessonBase exists: {{ !!lessonBase }}</p>
+            <p>currentQuestionData: {{ !!currentQuestionData }}</p>
+            <p>Should show instruction: {{ InstructionShow }}</p>
+            <p>Should show components: {{ !InstructionShow && !resultShow }}</p>
+          </div>
+          
+          <SectionSem1Intro
+            v-show="InstructionShow"
+            @PracticeNext="handlePracticeNext"
+          />
 
-            <div v-if="showStoryButton && !resultShow" class="story-section">
-              <button
-                @click="showStory = !showStory"
-                class="story-toggle-btn"
-              >
-                {{ showStory ? 'Hide Story' : 'Show Story' }}
-              </button>
-              <SectionStory1 
-                v-if="showStory" 
-                :story="currentStory" 
-                :image="currentImage" 
-              />
+          <div v-if="showStoryButton && !resultShow" class="story-section">
+            <button @click="showStory = !showStory" class="story-toggle-btn">
+              {{ showStory ? 'Hide Story' : 'Show Story' }}
+            </button>
+            <SectionStory1 v-if="showStory" :story="currentStory" :image="currentImage" />
+          </div>
+
+          <!-- 🎯 SMART COMPONENTS - Add debug info -->
+          <div v-if="!InstructionShow && !resultShow" class="components-container">
+            <div class="debug-info" style="background: lightgreen; padding: 5px;">
+              <p>Components should show here</p>
             </div>
-
-            <ImageSelectionGrid
-              v-if="isEmuCsiLesson && !resultShow"
-              :imageItems="currentImageItems"
-              :placedWords="currentPlacedWords"
-              @word-selected="handleWordSelected"
-            />
-
+            
             <SectionSem1
-              v-else-if="showtop && !resultShow"
-              :showWords="currentAvailableWords"
-              :acceptInput="canSelectWords"
-              :isShowing_info="isShowing_info"
-              :showtop="showtop"
-              @OnWord_Click="handleWordSelection"
-              @OnNewGame_Click="OnNewGame_Click"
-              @Ontext_Click="Ontext_Click"
-            />
-          </div>
-
-          <div>
-            <!-- 🎯 NEW SMART COMPONENT - Much cleaner! -->
-            <SectionSem1Bottom
-              v-if="!resultShow"
               :lesson-base="lessonBase"
-              :current-question="currentSet"
+              :current-question="currentQuestionData"
               :lesson-config="lessonConfig"
-              :selected-word="selectedWord"
-              @question-loaded="handleQuestionLoaded"
-              @words-updated="handleWordsUpdated"
-              @navigation-changed="handleNavigationChange"
-              @lesson-completed="handleLessonCompleted"
-              ref="bottomSection"
+              @word-selected="handleWordSelected"
+              @words-initialized="handleWordsInitialized" 
+              @initialization-error="handleInitializationError"
+              ref="wordSection"
             />
 
-            <resultPopup
-              v-show="resultShow"
-              :activity_Status="lessonBase.activity_Status"
-              :Time_elapsed="lessonBase.Time_elapsed"
-              :Questions_attempted="lessonBase.Questions_attempted"
-              :correct_Answers="lessonBase.correct_Answers"
-              :incorrect_Answers="lessonBase.incorrect_Answers"
-              :ResultHide="true"
-              :ResultArrow="false"
-              :JsonArrData="lessonBase.JsonArrData"
-              @FinalResult="FinalResult"
-              @download-results="downloadResultsJson"
-            />
+            <SectionSem1Bottom
+            v-if="!InstructionShow && !resultShow"
+            :lesson-base="lessonBase"
+            :current-question="currentQuestionData"
+            :lesson-config="lessonConfig"
+            :selected-word="selectedWord"
+            @lesson-completed="handleLessonCompleted"
+            @navigation-changed="handleNavigationChanged"
+            @question-loaded="handleQuestionLoaded"
+            @word-placed="handleWordPlaced"
+            @word-removed="handleWordRemoved"
+            @clear-words-for-previous="handleClearWordsForPrevious"
+            @initialization-error="handleInitializationError"
+            ref="bottomSection"
+          />
           </div>
+
+          <resultPopup
+            v-if="resultShow"
+            :lesson-base="lessonBase"
+            :lesson-type="'classification'"
+            @results-closed="handleResultsClosed"
+          />
+
         </div>
       </div>
     </div>
@@ -98,9 +104,7 @@ import SectionSem1Intro from 'Lessons/LessonSem1/components/SectionSem1Intro';
 import SectionSem1Bottom from 'Lessons/LessonSem1/components/SectionSem1Bottom';
 import resultPopup from '../resultPopup.vue';
 import topHeader from '../topHeader.vue';
-import { Howler } from 'howler';
 import SectionStory1 from './components/SectionStory1.vue';
-import ImageSelectionGrid from './components/ImageSelectionGrid.vue';
 
 export default {
   name: 'Sem1',
@@ -110,47 +114,35 @@ export default {
     resultPopup,
     SectionSem1Intro,
     topHeader,
-    SectionStory1,
-    ImageSelectionGrid   
+    SectionStory1
   },
   mixins: [baseMixin],
-  props: {
-    exercise: {
-      type: [Number, String],
-      default: 0
-    },
-    instruction: {
-      type: Number,
-      default: 1
-    }
-  },
   data() {
     return {
+      // 🎯 MINIMAL DATA - Just UI state
       lessonBase: null,
-      
-      allSelectedSets: [],
-      currentQuestionIndex: 0,
-      selectedWord: null,
-      
-      currentAvailableWords: [],
-      currentPlacedWords: [],
-      
       isLoading: true,
       loadError: false,
-      InstructionShow: true,
+      InstructionShow: true, // This might be the issue
       resultShow: false,
-      showtop: false,
       showStory: true,
-      isShowing_info: false,
-      canSelectWords: true,
       
-      questionTimings: [],
-      questionDetails: [],
+      // 🔄 State received from smart components
+      currentQuestionIndex: 0,
+      currentQuestionData: null,
+      selectedWord: null,
+      
+      // Debug
+      debugMode: true
     };
   },
   computed: {
-    isEmuCsiLesson() {
-      return (sessionStorage.getItem('jsonFile') || '') === 'EMU-CSI';
+    // 🎯 MINIMAL COMPUTED - Just config
+    lessonConfig() {
+      return {
+        isSingleColumnMode: (sessionStorage.getItem('jsonFile') || '') === 'CSU-PK',
+        isEmuCsiLesson: (sessionStorage.getItem('jsonFile') || '') === 'EMU-CSI'
+      };
     },
     
     showStoryButton() {
@@ -158,294 +150,211 @@ export default {
       return ['DMU-I', 'CSU-PK', 'DMU-II'].includes(jsonParam);
     },
     
-    isSingleColumnMode() {
-      const jsonParam = sessionStorage.getItem('jsonFile') || '';
-      return jsonParam === 'CSU-PK';
-    },
-    
-    lessonConfig() {
-      return {
-        isSingleColumnMode: this.isSingleColumnMode,
-        isEmuCsiLesson: this.isEmuCsiLesson
-      };
-    },
-    
     currentStory() {
-      return this.currentSet?.story || '';
+      return this.currentQuestionData?.story || '';
     },
     
     currentImage() {
-      return this.currentSet?.Image || '';
-    },
-    
-    currentSet() {
-      if (!this.allSelectedSets || !this.allSelectedSets.length) return null;
-      return this.allSelectedSets[this.currentQuestionIndex] || null;
-    },
-    
-    currentImageItems() {
-      const items = [];
-      if (this.isEmuCsiLesson && this.currentSet && this.currentSet.categories) {
-        this.currentSet.categories.forEach(category => {
-          if (category.words && category.images) {
-            for (let i = 0; i < category.words.length; i++) {
-              items.push({
-                word: category.words[i],
-                image: category.images[i] || 'placeholder.png',
-              });
-            }
-          }
-        });
-      }
-      return items;
+      return this.currentQuestionData?.Image || '';
     }
   },
-  watch: {
-    exercise(newVal) {
-      this.initializeExercise(newVal);
-    },
-    
-    currentQuestionIndex(newIndex) {
-      if (this.lessonBase) {
-        this.lessonBase.currentQuestionIndex = newIndex;
-      }
-    }
-  },
-  async mounted() {
-    this.lessonBase = new LessonBase();
-    this.lessonBase.initializeFromSession();
-    
-    try {
-      const urlParams = new URLSearchParams(window.location.search);
-      const questionLimit = parseInt(urlParams.get('questionCount')) || null;
-      
-      await this.lessonBase.loadLessonJson(null, 'LessonSem1');
-      this.processWordSets(questionLimit);
-      this.initializeComponent();
-    } catch (error) {
-      console.error('Error loading JSON:', error);
-      this.loadError = true;
-    } finally {
-      this.isLoading = false;
-    }
-  },
+ async mounted() {
+  console.log('🔍 Sem1: Starting mount...');
+  
+  // TEMPORARY: Skip error handling to see exact error
+  this.lessonBase = new LessonBase();
+  this.lessonBase.initializeFromSession();
+  await this.lessonBase.loadLessonJson(null, 'LessonSem1');
+  
+  this.componentSubtitle = 'Classification Exercise';
+  
+  if (this.mode !== 'instruction') {
+    this.InstructionShow = false;
+  }
+  
+  this.isLoading = false;
+  // Don't catch errors - let them show in console
+},
+
   beforeDestroy() {
     if (this.lessonBase) {
       this.lessonBase.stopTimer();
     }
-    Howler.unload();
   },
   methods: {
-    processWordSets(questionLimit = null) {
-      const selectedLevels = this.lessonBase.selectedLevels;
-      let finalQuestionLimit = questionLimit || 1;
 
-      let totalAvailable = 0;
-      selectedLevels.forEach(level => {
-        const levelKey = `level${level}`;
-        const sets = (this.lessonBase.activityQuestions.sets && this.lessonBase.activityQuestions.sets[levelKey]) || [];
-        totalAvailable += sets.length;
+
+testWithMinimalData() {
+  console.log('🧪 Testing with minimal data...');
+  
+  // Create fake lesson data with ALL required methods
+  this.lessonBase = {
+    selectedLevels: [1],
+    Total_Questions: 1,
+    currentQuestionIndex: 0,
+    Questions_attempted: 0,
+    correct_Answers: 0,
+    incorrect_Answers: 0,
+    activityQuestions: {
+      sets: {
+        level1: [{
+          categories: [
+            {
+              name: 'Animals',
+              displayName: 'Animals',
+              words: ['cat', 'dog', 'bird', 'fish']
+            },
+            {
+              name: 'Colors', 
+              displayName: 'Colors',
+              words: ['red', 'blue', 'green', 'yellow']
+            }
+          ]
+        }]
+      }
+    },
+    // All required methods
+    shuffleArray: (arr) => [...arr].sort(() => Math.random() - 0.5),
+    updateProgress: (isCorrect) => {
+      this.lessonBase.Questions_attempted++;
+      if (isCorrect) {
+        this.lessonBase.correct_Answers++;
+      } else {
+        this.lessonBase.incorrect_Answers++;
+      }
+      console.log('Progress updated:', { 
+        attempted: this.lessonBase.Questions_attempted,
+        correct: this.lessonBase.correct_Answers 
       });
-
-      if (totalAvailable < finalQuestionLimit) {
-        alert(`Not enough question sets. Required: ${finalQuestionLimit}, Available: ${totalAvailable}. Using ${totalAvailable}.`);
-        finalQuestionLimit = totalAvailable;
-      }
-
-      // Combine and shuffle sets
-      let combinedSets = [];
-      selectedLevels.forEach(level => {
-        const levelKey = `level${level}`;
-        const sets = (this.lessonBase.activityQuestions.sets && this.lessonBase.activityQuestions.sets[levelKey]) || [];
-        combinedSets.push(...sets.map(set => ({ ...set, __level: levelKey })));
-      });
-
-      combinedSets = this.lessonBase.shuffleArray(combinedSets);
-      const selectedSets = combinedSets.slice(0, finalQuestionLimit);
-      this.allSelectedSets = selectedSets;
-
-      this.lessonBase.Total_Questions = finalQuestionLimit;
     },
-
-    initializeComponent() {
-      const firstLevel = this.lessonBase.selectedLevels[0] || 1;
-      const levelName = this.allSelectedSets?.levelName || `Level ${firstLevel}`;
-      this.componentSubtitle = levelName;
-
-      this.run();
-      this.lessonBase.startTimer();
+    startTimer: () => console.log('Timer started'),
+    stopTimer: () => console.log('Timer stopped'),
+    startQuestionTimer: () => {
+      this.lessonBase.questionStartTime = Date.now();
+      console.log('Question timer started');
     },
-
-    initializeExercise(exerciseNum) {
-      this.lessonBase.Questions_attempted = 0;
-      this.lessonBase.correct_Answers = 0;
-      this.lessonBase.incorrect_Answers = 0;
-      this.questionTimings = [];
-      this.questionDetails = [];
-      this.currentQuestionIndex = 0;
-      this.lessonBase.Exercise_Number = exerciseNum;
-      this.lessonBase.Total_Questions = this.allSelectedSets.length;
-    },
-
-    // ========== LESSON FLOW ==========
-    run() {
-      if (this.allSelectedSets.length > 0) {
-        if (this.mode === 'instruction') {
-          this.InstructionShow = true;
-        } else {
-          this.practice0();
-        }
-      }
-    },
-
-    practice0() {
-      this.InstructionShow = false;
-      this.showtop = true;
-      this.startQuestionTracking();
-    },
-
-    PracticeNext() {
-      this.InstructionShow = false;
-      this.practice0();
-    },
-
-    // ========== WORD INTERACTION (simplified) ==========
-    handleWordSelected(word) {
-      this.selectedWord = word;
-      // Pass to SectionSem1Bottom
-      if (this.$refs.bottomSection) {
-        this.$refs.bottomSection.selectWord(word);
-      }
-    },
-
-    handleWordSelection(word) {
-      this.selectedWord = word;
-      // Pass to SectionSem1Bottom
-      if (this.$refs.bottomSection) {
-        this.$refs.bottomSection.selectWord(word);
-      }
-    },
-
-    OnNewGame_Click() {
-      // Reset current question or continue to next
-      console.log('New game clicked');
-    },
-
-    Ontext_Click() {
-      this.isShowing_info = !this.isShowing_info;
-    },
-
-    // ========== EVENT HANDLERS FROM SectionSem1Bottom ==========
-    handleQuestionLoaded(data) {
-      console.log('Question loaded:', data);
-      // Update any UI state based on question load
-      this.canSelectWords = true;
-    },
-
-    handleWordsUpdated(data) {
-      // Update parent state with word changes from SectionSem1Bottom
-      this.currentAvailableWords = data.availableWords;
-      this.currentPlacedWords = data.placedWords;
-      this.selectedWord = data.selectedWord;
-      
-      // Update any UI based on completion status
-      this.canSelectWords = !data.isComplete;
-    },
-
-    handleNavigationChange(data) {
-      console.log('Navigation changed:', data);
-      
-      // Update current question index
-      this.currentQuestionIndex = data.questionIndex;
-      
-      // Update timing data
-      this.recordQuestionTime(data.questionIndex, data.wasCorrect);
-      
-      // Update UI state
-      this.canSelectWords = data.canModifyAnswers;
-      
-      // Start tracking for new question
-      if (data.direction === 'next') {
-        this.startQuestionTracking();
-      }
-    },
-
-    handleLessonCompleted(data) {
-      console.log('Lesson completed:', data);
-      
-      // Record final question
-      this.recordQuestionTime(data.finalQuestionIndex, data.wasCorrect);
-      
-      // Show results
-      this.showResults();
-    },
-
-    // ========== TIMING TRACKING ==========
-    startQuestionTracking() {
-      this.lessonBase.startQuestionTimer();
-      
-      if (!this.questionDetails[this.currentQuestionIndex]) {
-        const currentSet = this.allSelectedSets[this.currentQuestionIndex];
-        this.questionDetails[this.currentQuestionIndex] = {
-          questionIndex: this.currentQuestionIndex,
-          timeTaken: 0,
-          isCompleted: false,
-          wasCorrect: false,
-          wasDisplayed: true,
-          questionTitles: currentSet?.categories?.map(cat => cat.displayName || cat.name) || []
-        };
-      }
-    },
-
-    recordQuestionTime(questionIndex, wasCorrect) {
+    getQuestionTime: () => {
       if (this.lessonBase.questionStartTime) {
-        const timeTaken = this.lessonBase.getQuestionTime();
-        this.questionTimings[questionIndex] = timeTaken;
-        
-        if (this.questionDetails[questionIndex]) {
-          this.questionDetails[questionIndex] = {
-            ...this.questionDetails[questionIndex],
-            timeTaken: timeTaken,
-            isCompleted: true,
-            wasCorrect: wasCorrect || false
-          };
-        }
+        return (Date.now() - this.lessonBase.questionStartTime) / 1000;
       }
+      return 0;
     },
+    questionStartTime: null
+  };
+  
+  this.loadError = false;
+  this.isLoading = false;
+  this.InstructionShow = false;
+  
+  console.log('🧪 Fake data set with all methods, components should show now');
+},
 
-    // ========== RESULTS ==========
-    showResults() {
-      // Ensure we have minimum data for results
-      if (this.lessonBase.Questions_attempted === 0) {
-        this.lessonBase.Questions_attempted = this.allSelectedSets.length;
-        this.lessonBase.correct_Answers = 0;
-        this.lessonBase.incorrect_Answers = this.allSelectedSets.length;
-      }
-      
-      this.lessonBase.finalizeResults({
-        questionTimings: this.questionTimings,
-        detailedResults: this.questionDetails
-      });
-      
-      this.resultShow = true;
+
+
+
+
+
+    // 🎯 EVENT HANDLERS - Enhanced with logging
+    
+    handlePracticeNext() {
+      console.log('Sem1: Practice Next clicked');
       this.InstructionShow = false;
-      this.isShowing_info = false;
-      this.showtop = false;
     },
-
-    downloadResultsJson() {
-      this.lessonBase.downloadResultsJson('sem1_classification_results.json');
+    
+    handleWordsInitialized(data) {
+      console.log('Sem1: Words initialized:', data);
     },
+    
+    handleWordSelected(data) {
+      console.log('Sem1: Word selected:', data.word);
+      this.selectedWord = data.word;
+    },
+    
+  handleNavigationChanged(data) {
+    console.log('Sem1: Navigation changed to question', data.questionIndex);
+    this.currentQuestionIndex = data.questionIndex;
+    this.currentQuestionData = data.question;
+    
+    // 🆕 Handle previous view state
+    if (data.isViewingPrevious) {
+      if (this.$refs.wordSection) {
+        this.$refs.wordSection.clearWordsForPrevious();
+      }
+    } else {
+      if (this.$refs.wordSection) {
+        this.$refs.wordSection.restoreWordsForCurrent();
+      }
+    }
+  },
 
-    FinalResult() {
-      this.downloadResultsJson();
+   handleClearWordsForPrevious() {
+    if (this.$refs.wordSection) {
+      this.$refs.wordSection.clearWordsForPrevious();
+    }
+  },
+    
+   handleQuestionLoaded(data) {
+  console.log('Sem1: Question loaded:', data);
+  
+  // Store the question data from SectionSem1Bottom
+  this.currentQuestionData = data.question;
+  this.currentQuestionIndex = data.questionIndex;
+  
+  console.log('Sem1: Updated currentQuestionData:', this.currentQuestionData);
+},
+    
+    handleWordPlaced(data) {
+      console.log('Sem1: Word placed:', data.word);
+      if (this.$refs.wordSection) {
+        this.$refs.wordSection.syncWithPlacement({
+          wordPlaced: data.word
+        });
+      }
+      this.selectedWord = null;
+    },
+    
+    handleWordRemoved(data) {
+      console.log('Sem1: Word removed:', data.word);
+      if (this.$refs.wordSection) {
+        this.$refs.wordSection.syncWithPlacement({
+          wordRemoved: data.word
+        });
+      }
+    },
+    
+    handleLessonCompleted(data) {
+    console.log('Sem1: Lesson completed:', data);
+    
+    // Store results data for resultPopup
+    this.lessonResults = data;
+    this.resultShow = true;
+  },
+    
+    handleResultsClosed() {
+      console.log('Sem1: Results closed');
+      this.resultShow = false;
+    },
+    
+    handleInitializationError(error) {
+      console.error('Sem1: Component initialization error:', error);
+      this.loadError = true;
+    },
+    
+    // 🧪 DEBUG METHODS
+    toggleDebugMode() {
+      this.debugMode = !this.debugMode;
+    },
+    
+    forceShowComponents() {
+      console.log('Forcing components to show...');
+      this.InstructionShow = false;
+      this.resultShow = false;
     }
   }
 };
 </script>
 
 <style scoped>
-/* ========== LAYOUT ========== */
 .loading-message,
 .error-message {
   padding: 2rem;
@@ -453,13 +362,8 @@ export default {
   font-size: 1.2rem;
 }
 
-.loading-message { 
-  color: #666; 
-}
-
-.error-message { 
-  color: #d32f2f; 
-}
+.loading-message { color: #666; }
+.error-message { color: #d32f2f; }
 
 .content-container {
   margin: 2% 5% 5% 5%;
@@ -469,9 +373,9 @@ export default {
   justify-content: center;
   border: 1px solid black;
   padding: 1.25rem;
+  min-height: 400px; /* Ensure container has height */
 }
 
-/* ========== STORY SECTION ========== */
 .story-section {
   margin-bottom: 1rem;
   display: flex;
@@ -495,110 +399,33 @@ export default {
   background-color: #2563eb;
 }
 
-/* ========== WORD INTERACTIONS ========== */
-.word-item {
-  padding: 8px 12px;
-  background: #f0f0f0;
+.components-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.debug-info {
+  font-family: monospace;
+  font-size: 12px;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.2s;
 }
 
-.word-item:hover { 
-  background: #e0e0e0; 
+.debug-info h4 {
+  margin: 0 0 5px 0;
+  font-weight: bold;
 }
 
-.disabled-word {
-  opacity: 0.5;
-  pointer-events: none;
-  text-decoration: line-through;
+.debug-info p {
+  margin: 2px 0;
 }
 
-.readonly-answer {
-  pointer-events: none;
-  opacity: 0.9;
-}
-
-/* ========== RESPONSIVE DESIGN ========== */
 @media (max-width: 768px) {
   .content-container {
     margin: 2% 2% 5% 2%;
     padding: 1rem;
-  }
-  
-  .story-toggle-btn {
-    padding: 0.5rem 1.5rem;
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .content-container {
-    margin: 1% 1% 3% 1%;
-    padding: 0.75rem;
-  }
-  
-  .loading-message,
-  .error-message {
-    padding: 1rem;
-    font-size: 1rem;
-  }
-}
-
-/* ========== COMPONENT SPACING ========== */
-.rows-12 {
-  width: 100%;
-}
-
-.rows-12.relative {
-  position: relative;
-}
-
-/* ========== TRANSITIONS ========== */
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.3s;
-}
-
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
-
-/* ========== ACCESSIBILITY ========== */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    transition: none !important;
-    animation: none !important;
-  }
-}
-
-/* High contrast mode support */
-@media (prefers-contrast: high) {
-  .content-container {
-    border-width: 2px;
-  }
-  
-  .story-toggle-btn {
-    border: 2px solid #1d4ed8;
-  }
-}
-
-/* Focus states */
-button:focus,
-.word-item:focus {
-  outline: 2px solid #3b82f6;
-  outline-offset: 2px;
-}
-
-/* ========== PRINT STYLES ========== */
-@media print {
-  .story-toggle-btn,
-  .navigation-buttons {
-    display: none;
-  }
-  
-  .content-container {
-    border: none;
-    box-shadow: none;
   }
 }
 </style>
