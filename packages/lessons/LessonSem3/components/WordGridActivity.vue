@@ -1,5 +1,9 @@
 <template>
   <div class="word-grid-activity">
+
+    <div class="text-center font-bold text-lg"> Write below highlighted  word backwards on the lines provided. Some are real words and some are nonsense. Decide whether the reversed letters form a real word. If they do, Click YES. If they do not, Click NO. Use a dictionary if you are unsure. 
+      
+    </div>
     <!-- Question Word -->
     <div class="question-word text-2xl font-bold my-4 text-center">{{ questionWord }}</div>
 
@@ -87,7 +91,7 @@ export default {
   computed: {
     // Dynamically use the length of questionWord to control max letters
     wordLength() {
-      return this.questionWord.length || 3; // fallback to 3 if undefined or empty
+      return this.questionWord.length || 3; 
     },
   },
   methods: {
@@ -130,20 +134,41 @@ export default {
 </script>
 
 <style scoped>
+/* Existing styles first */
 .word-grid-activity {
   max-width: 400px;
   margin: 0 auto;
 }
+
 .letter-tile:disabled {
   background: #f3f4f6;
   color: #b0b0b0;
   cursor: not-allowed;
 }
+
 .option-letter {
-  /* Make sure boxes are sufficiently wide height */
-  width: 3rem; /* ~48px */
-  height: 3.25rem; /* ~52px */
+  width: 3rem;
+  height: 3.25rem;
   font-family: monospace;
-  font-size: 1.75rem; /* increased font size */
+  font-size: 1.75rem;
 }
 </style>
+
+<!-- Add this as global styles -->
+<style>
+/* Global styles to force counter black */
+[class*="question"]:contains("of"),
+*:contains("Question"):contains("of") {
+  color: #000000 !important;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+}
+
+/* Target by position (if counter is always in specific location) */
+.word-grid-activity ~ * {
+  color: #000000 !important;
+  opacity: 1 !important;
+}
+</style>
+
+

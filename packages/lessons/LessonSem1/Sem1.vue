@@ -8,85 +8,26 @@
     </div>
     <div v-else class="w-full">
       <div class="rows-12 relative">
-        <topHeader
-          :HeaderTop="HeaderTop"
-          :componentSubtitle="componentSubtitle"
-        />
+        <topHeader :HeaderTop="HeaderTop" :componentSubtitle="componentSubtitle"/>
       </div>
       <div class="rows-12">
         <div class="content-container">
           <div>
-            <SectionSem1Intro
-              v-show="InstructionShow"
-              @PracticeNext="PracticeNext"
-            />
-
+            <SectionSem1Intro v-show="InstructionShow" @PracticeNext="PracticeNext"/>
             <div v-if="showStoryButton && !resultShow">
-              <button
-                @click="showStory = !showStory"
-                class="px-10 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
-              >
+              <button @click="showStory = !showStory"class="px-10 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
                 {{ showStory ? 'Hide Story' : 'Show Story' }}
               </button>
-              <SectionStory1 
-                v-if="showStory" 
-                :story="currentStory" 
-                :image="currentImage" 
-              />
-                            -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+              <SectionStory1 v-if="showStory" :story="currentStory" :image="currentImage" />
             </div>
+            <ImageSelectionGrid v-if="isEmuCsiLesson && !resultShow":imageItems="currentImageItems" :placedWords="placedWords" @word-selected="handleWordSelected"/>
 
-            <ImageSelectionGrid
-              v-if="isEmuCsiLesson && !resultShow"
-              :imageItems="currentImageItems"
-              :placedWords="placedWords"
-              @word-selected="handleWordSelected"
-            />
-
-            <SectionSem1
-              v-else
-              :showWords="availableWords"
-              :acceptInput="canModifyAnswers"
-              :isShowing_info="isShowing_info"
-              :showtop="showtop"
-              @OnWord_Click="handleWordSelection"
-              @OnNewGame_Click="OnNewGame_Click"
-              @Ontext_Click="Ontext_Click"
-            />
+            <SectionSem1 v-else :showWords="availableWords" :acceptInput="canModifyAnswers" :isShowing_info="isShowing_info" :showtop="showtop" @OnWord_Click="handleWordSelection" @OnNewGame_Click="OnNewGame_Click"  @Ontext_Click="Ontext_Click" />
           </div>
-
           <div>
-            <SectionSem1Bottom
-              :show-next-button="showNextButton"
-              :show-previous-button="currentQuestionIndex > 0"
-              :isReviewMode="isReviewMode"
-              :reviewTableRows="reviewTableRows"
-              :accept-input="canModifyAnswers"
-              :columns="columns"
-              :column-titles="columnTitles"
-              :column-visibility="columnVisibility"
-              :row-counts="rowCounts"
-              :highlight="highlightBottom"
-              :showBottom="showBottom"
-              :Arrow_isShowing="Arrow_isShowing || isSingleColumnMode"
-              @OnClicked_Col="handleColumnClick"
-              @Click_NextButton="Click_NextButton"
-              @Click_PreviousButton="goToPreviousQuestion"
-            />
+            <SectionSem1Bottom :show-next-button="showNextButton":show-previous-button="currentQuestionIndex > 0":isReviewMode="isReviewMode":reviewTableRows="reviewTableRows":accept-input="canModifyAnswers":columns="columns" :column-titles="columnTitles":column-visibility="columnVisibility":row-counts="rowCounts":highlight="highlightBottom":showBottom="showBottom":Arrow_isShowing="Arrow_isShowing || isSingleColumnMode"@OnClicked_Col="handleColumnClick"@Click_NextButton="Click_NextButton"@Click_PreviousButton="goToPreviousQuestion"/>
 
-            <resultPopup
-              v-show="resultShow"
-              :activity_Status="activity_Status"
-              :Time_elapsed="Time_elapsed"
-              :Questions_attempted="Questions_attempted"
-              :correct_Answers="correct_Answers"
-              :incorrect_Answers="incorrect_Answers"
-              @FinalResult="FinalResult"
-              @download-results="downloadResultsJson"
-              :ResultHide="ResultHide"
-              :ResultArrow="ResultArrow"
-            />
+            <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed":Questions_attempted="Questions_attempted":correct_Answers="correct_Answers":incorrect_Answers="incorrect_Answers"@FinalResult="FinalResult"@download-results="downloadResultsJson":ResultHide="ResultHide":ResultArrow="ResultArrow"/>
           </div>
         </div>
       </div>
@@ -106,6 +47,13 @@ import topHeader from '../topHeader.vue';
 import { Howler } from 'howler';
 import SectionStory1 from './components/SectionStory1.vue';
 import ImageSelectionGrid from './components/ImageSelectionGrid.vue';
+import {
+    //added methods in helper
+    parseLevelRangeHelper
+
+} from '../../common-generic-components/activityHelpers.js';
+
+
 
 export default {
   name: 'Sem1',
@@ -280,21 +228,13 @@ export default {
       return `level${exerciseNumber}`;
     },
 
-    parseLevelRange(raw) {
-      if (typeof raw === 'number') return [raw];
-      if (typeof raw === 'string') {
-        raw = raw.trim();
-        if (/^\d+$/.test(raw)) return [parseInt(raw)];
-        const rangeMatch = raw.match(/^(\d+)-(\d+)$/);
-        if (rangeMatch) {
-          const [min, max] = rangeMatch.slice(1).map(Number);
-          if (min > max) return [min];
-          return Array.from({ length: max - min + 1 }, (_, i) => min + i);
-        }
-      }
-      return [1];
-    },
+   
+  parseLevelRange(raw) {
+            return parseLevelRangeHelper(this, raw);
+        },
 
+
+        
     processWordSets() {
       this.wordSets = {};
       this.levelNames = {};
