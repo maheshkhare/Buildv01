@@ -311,9 +311,9 @@ export default {
       });
 
       if (totalAvailable < questionLimit) {
-        alert(`Not enough total question sets in selected levels. Required: ${questionLimit}, Available: ${totalAvailable}. Proceeding with ${totalAvailable}.`);
-        questionLimit = totalAvailable;
-        this.questionLimit = totalAvailable;
+        // alert(`Not enough total question sets in selected levels. Required: ${questionLimit}, Available: ${totalAvailable}. Proceeding with ${totalAvailable}.`);
+        // questionLimit = totalAvailable;
+        // this.questionLimit = totalAvailable;
       }
 
       // Combine all sets from selected levels into flat array
