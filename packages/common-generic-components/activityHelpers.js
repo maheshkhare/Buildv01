@@ -1,6 +1,5 @@
 // Helper Functions of Category 2
 
-//for Cat 4
 export function parseLevelRangeHelper(context, raw) {
     if (typeof raw === 'number') return [raw]
     if (typeof raw === 'string') {
@@ -77,7 +76,7 @@ export function practice0Helper(context) {
             r => r.originalQuestionNo === context.counter + 1
         );
 
-        const selectedIndex = Number(userAnswer?.userResponse);
+        const selectedIndex = Number(userAnswer?.userResponse) - 1; 
 
         context.commonNumArray = current.options.map((opt, i) => {
             let state = 'unselected';
@@ -869,10 +868,10 @@ export function SaveAndExitNowHelper4(context) {
             }
         }
 
-        if (!allFilled) {
-            context.$toast?.warning('Please fill all blanks before moving on.');
-            return;
-        }
+        // if (!allFilled) {
+        //     context.$toast?.warning('Please fill all blanks before moving on.');
+        //     return;
+        // }
 
         const alreadyInList = context.practiceList.find(q => q.id === questionId);
         if (!alreadyInList) {
@@ -972,6 +971,119 @@ export function FinalResultHelper4(context) {
     a.download = `Test_Result_${testDate}.json`
     a.click()
     URL.revokeObjectURL(url)
+}
+
+// Templates generic methods
+export function handleDropInParagraphHelper(context,blankId, event) {
+  const raw = event.dataTransfer.getData('application/json') || event.dataTransfer.getData('text/plain');
+  if (!raw) return;
+
+  let dropped;
+  try { dropped = JSON.parse(raw); } catch (e) { dropped = { symbol: raw }; }
+  
+  const valueToSet = dropped.value ?? dropped.symbol ?? String(raw);
+
+  const idx = context.iconBlanks.findIndex(b => b.id === blankId);
+  if (idx !== -1) {
+    context.$set(context.iconBlanks, idx, { ...context.iconBlanks[idx], value: valueToSet });
+  }
+}
+
+ export function assignOptionToRectangleHelper(context,opt) {
+  if (context.selectedRectangleIndex === null) {
+    alert('Please select a rectangle first.');
+    return;
+  }
+  const currentRect = context.rectangles[context.selectedRectangleIndex];
+
+  // ✅ DO NOT overwrite if already filled
+  if (currentRect.chosenOption) {
+    alert('context rectangle already has a letter.');
+    return;
+  }
+
+  // ✅ Assign the option
+  context.$set(context.rectangles, context.selectedRectangleIndex, {
+    ...currentRect,
+    chosenOption: opt
+  });
+
+  // ✅ Find next empty rectangle
+  const nextIdx = context.rectangles.findIndex(
+    (r, i) => !r.chosenOption && i > context.selectedRectangleIndex
+  );
+
+  if (nextIdx !== -1) {
+    context.selectedRectangleIndex = nextIdx;
+  } else {
+    context.selectedRectangleIndex = null; // all filled
+  }
+}
+
+export function getImgUrlHelper(context,ImgName) {
+            if (!ImgName) return "";
+            var images = require.context('../assets/graphicsCat4/', false, /\.png$/);
+            return images('./' + ImgName + ".png");
+        }
+
+export function getImgUrlByFileNameHelper(context,ImgName) {
+  try {
+    const fileName = sessionStorage.getItem('jsonFile');
+    const images = require.context('../assets/graphicsCat4/', true, /\.png$/);
+    const path = `./${fileName}/${ImgName}.png`;
+    return images(path); // If it succeeds, return image path
+  } catch (error) {
+    return null; // If not an image, return null
+  }
+}
+
+// export function getBlankKeyHelper(context,n) {
+//   if (n === 1) return '1stBlankValue';
+//   if (n === 2) return '2ndBlankValue';
+//   if (n === 3) return '3rdBlankValue';
+//   if (n === 4) return '4thBlankValue';
+//   if (n === 2) return '5thBlankValue';
+//   if (n === 3) return '6thBlankValue';
+//   if (n === 4) return '7thBlankValue';
+//   return `${n}thBlankValue`;
+// }
+
+
+export function getBlankKeyHelper(context,n) {
+  const suffix = (n) => {
+    if (n % 100 >= 11 && n % 100 <= 13) return `${n}th`;
+    switch (n % 10) {
+      case 1: return `${n}st`;
+      case 2: return `${n}nd`;
+      case 3: return `${n}rd`;
+      default: return `${n}th`;
+    }
+  };
+  return `${suffix(n)}BlankValue`;
+}
+
+
+export function assignLetterHelper(context,letter) {
+  if (!context.selectedBlankId) {
+    alert('Please select a blank first.');
+    return;
+  }
+
+  const blankIdx = context.blanks.findIndex(b => b.id === context.selectedBlankId);
+  const key = context.getBlankKey(context.selectedBlankIndex);
+  context.$set(context.blanks[blankIdx], key, letter);
+
+  // 🔁 Auto-select next blank in the same group (same ID)
+  const nextIndex = context.selectedBlankIndex + 1;
+  const nextKey = context.getBlankKey(nextIndex);
+  if (context.blanks[blankIdx][nextKey] !== undefined) {
+    context.selectedBlankId = context.selectedBlankId;
+    context.selectedBlankIndex = nextIndex;
+  } else {
+    // ❌ No more blanks in current group: clear selection
+    context.selectedBlankId = null;
+    context.selectedBlankIndex = null;
+  }
 }
 
 
