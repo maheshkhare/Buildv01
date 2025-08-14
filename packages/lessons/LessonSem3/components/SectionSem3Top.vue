@@ -166,6 +166,8 @@
               Question <span class="text-indigo-700">{{ counter + 1 }}</span> of
               <span class="text-indigo-700">{{ Total_Questions }}</span>
             </p>
+
+           
           </div>
         </div>
       </div>
@@ -251,7 +253,7 @@ export default {
         const images = require.context('../assets/', true, /\.png$/)
         return images(`${folder}${name}.png`)
       } catch (e) {
-        alert(`Image not found: graphics${this.jsonFileName}/${name}.png`)
+        // alert(`Image not found: graphics${this.jsonFileName}/${name}.png`)
         return ''
       }
     },

@@ -1085,3 +1085,912 @@ export function assignLetterHelper(context,letter) {
     context.selectedBlankIndex = null;
   }
 }
+
+
+
+
+
+
+///////////////////////////////cat 1 /////////////////////////////
+
+
+
+
+ export function processWordSetshelper(context) {
+      context.wordSets = {};
+      context.levelNames = {};
+
+      const selectedLevels = context.parseLevelRange(context.Exercise_Number);
+      let questionLimit = context.questionLimit || 1;
+
+      let totalAvailable = 0;
+      selectedLevels.forEach(level => {
+        const levelKey = `level${level}`;
+        const sets = (context.activityQuestions.sets && context.activityQuestions.sets[levelKey]) || [];
+        totalAvailable += sets.length;
+      });
+
+      if (totalAvailable < questionLimit) {
+        
+      }
+
+      let combinedSets = [];
+      selectedLevels.forEach(level => {
+        const levelKey = `level${level}`;
+        const sets = (context.activityQuestions.sets && context.activityQuestions.sets[levelKey]) || [];
+        combinedSets.push(...sets.map(set => ({ ...set, __level: levelKey })));
+      });
+
+      combinedSets = combinedSets.sort(() => Math.random() - 0.5);
+
+      const selectedSets = combinedSets.slice(0, questionLimit);
+
+      context.allSelectedSets = selectedSets;
+
+      context.wordSets = selectedSets.reduce((acc, set) => {
+        const key = set.__level || 'level1';
+        if (!acc[key]) acc[key] = [];
+        acc[key].push(set);
+        return acc;
+      }, {});
+
+      selectedLevels.forEach(level => {
+        const levelKey = `level${level}`;
+        context.levelNames[level] = context.wordSets[levelKey]?.[0]?.levelName || `Level ${level}`;
+      });
+
+      context.Total_Questions = questionLimit;
+    }
+
+
+    export function initializeComponenthelper(context) {
+      const activityName = sessionStorage.getItem("ActivityName");
+      context.language = sessionStorage.getItem("lang") || 'en';
+
+      const firstLevel = context.parseLevelRange(context.Exercise_Number)[0];
+      context.exercise = parseInt(firstLevel) || 1;
+      const levelKey = context.getLevelKey(firstLevel);
+      const currentSets = context.wordSets[levelKey];
+      const levelName = currentSets?.[0]?.levelName || context.levelNames[firstLevel] || `Level ${firstLevel}`;
+      context.componentSubtitle = levelName;
+
+      context.run();
+      context.TimerFun();
+      context.isLoading = false;
+    }
+
+
+   export function  initializeExercisehelper1(context,exerciseNum) {
+      context.Questions_attempted = 0;
+      context.correct_Answers = 0;
+      context.incorrect_Answers = 0;
+      context.questionTimings = [];
+      context.questionDetails = [];
+      context.reset();
+      context.questionStates = [];
+      context.currentQuestionIndex = 0;
+      context.setcount = 0;
+      context.Exercise_Number = exerciseNum;
+      context.Total_Questions = context.currentExerciseSets.length;
+      if (context.currentExerciseSets.length > 0) {
+        context.displayWords();
+      }
+    }
+
+
+     export function  loadQuestionDatahelper(context,currentSet) {
+      context.reset();
+      context.Arrow_isShowing = false;
+      context.truenextgame = false;
+      context.columnTitles = currentSet.categories.map(cat => 
+        cat.displayName || cat.name || ''
+      );
+      context.columnVisibility = currentSet.categories.map(() => !context.isSingleColumnMode);
+      context.wordsarr = [];
+      currentSet.categories.forEach(category => {
+        if (category?.words) {
+          context.wordsarr = [...context.wordsarr, ...category.words];
+        }
+      });
+      context.wordsarr = context.shuffleArray(context.wordsarr);
+      context.availableWords = [...context.wordsarr];
+      context.placedWords = [];
+      context.selectedWord = null;
+      const maxWords = context.isSingleColumnMode
+        ? currentSet.categories[0].words.length 
+        : Math.max(...currentSet.categories.map(cat => cat.words.length));
+      const columnLength = Math.max(8, Math.ceil(maxWords * 1.2));
+      context.columns = currentSet.categories.map(() => 
+        context.createEmptyColumn(columnLength)
+      );
+      context.counts = currentSet.categories.map(() => 0);
+      if (context.isSingleColumnMode) {
+        context.columnTitles = [context.columnTitles[0]];
+        context.columnVisibility = [true];
+        context.columns = [context.columns[0]];
+        context.Arrow_isShowing = true;
+      }
+    }
+
+    export function createEmptyColumnhelper(count) {
+      return Array(count).fill().map((_, i) => ({
+        shape: 'square',
+        index: i,
+        size: 'xl',
+        width: 'wide',
+        height: 'normal',
+        color: 'white',
+        name: '',
+        state: 'base'
+      }));
+    }
+
+    export function resethelper(context) {
+      context.wordsarr = [];
+      context.count = 0;
+      context.placedWords = [];
+      context.selectedWord = null;
+      context.Arrow_isShowing = false;
+      context.columns.forEach(column => {
+        column.forEach(item => {
+          item.name = '';
+          item.state = 'base';
+        });
+      });
+    }
+
+     export function shuffleArrayhelper1(array) {
+      let counter = array.length, temp, index;
+      while (counter > 0) {
+        index = Math.floor(Math.random() * counter);
+        counter--;
+        temp = array[counter];
+        array[counter] = array[index];
+        array[index] = temp;
+      }
+      return array;
+    }
+
+
+     export function TimerFunhelper1(context) {
+      context.timerInterval = setInterval(() => {
+        if (context.timestart <= 9999999999) {
+          context.timestart += 1;
+        }
+      }, 1000);
+    }
+
+     export function secondsToTimehelper1(totalSeconds) {
+      const h = Math.floor(totalSeconds / 3600).toString().padStart(2, '0');
+      const m = Math.floor(totalSeconds % 3600 / 60).toString().padStart(2, '0');
+      const s = Math.floor(totalSeconds % 60).toString().padStart(2, '0');
+      return `${h}:${m}:${s}`;
+    }
+
+    export function  runhelper1(context) {
+      if (Object.keys(context.wordSets).length > 0) {
+        if (context.mode === 'instruction') {
+          context.InstructionShow = true;
+        } else {
+          context.practice0();
+        }
+      } else {
+        console.log('Waiting for data to load...');
+      }
+    }
+
+   export function practice0helper1( context) {
+      context.InstructionShow = false;
+      context.showtop = true;
+      context.displayWords();
+    }
+ export function PracticeNexthelper1(context) {
+      context.InstructionShow = false;
+      context.practice0();
+    }
+
+    export function displayWordshelper1(context) {
+      context.showtop = true;
+      context.showBottom = true;
+      context.startQuestionTracking();
+      if (!context.currentExerciseSets || context.currentExerciseSets.length === 0) {
+        console.error('No exercise sets available');
+        return;
+      }
+      const currentSet = context.currentExerciseSets[context.currentQuestionIndex];
+      if (!currentSet || !currentSet.categories) {
+        console.error('Current set not found or has no categories');
+        return;
+      }
+      if (!context.questionStates[context.currentQuestionIndex]) {
+        context.loadQuestionData(currentSet);
+        context.canModifyAnswers = true;
+      } else {
+        context.loadQuestionState(context.currentQuestionIndex);
+        context.canModifyAnswers = context.currentQuestionIndex >= context.setcount;
+        if (!context.canModifyAnswers) {
+          context.markAllAnswersAsReadonly();
+        }
+      }
+      context.SetTotal = context.wordsarr.length;
+      context.resultShow = false;
+    }
+
+      export function goToPreviousQuestionhelper1(context) {
+      context.recordQuestionTime();
+      if (context.currentQuestionIndex > 0) {
+        context.saveQuestionState();
+        context.currentQuestionIndex--;
+        context.canModifyAnswers = context.currentQuestionIndex >= context.setcount;
+        context.loadQuestionState(context.currentQuestionIndex);
+        if (!context.canModifyAnswers) {
+          context.markAllAnswersAsReadonly();
+        }
+        if (context.isReviewMode) {
+          context.currentReviewIndex = context.currentQuestionIndex;
+        }
+        context.truenextgame = true;
+        context.Arrow_isShowing = context.questionStates[context.currentQuestionIndex]?.Arrow_isShowing || false;
+        context.startQuestionTimer();
+        context.isShowing_info = false;
+        context.resultShow = false;
+      }
+    }
+
+       export function goToNextQuestionhelper1(context) {
+      const isCorrect = context.checkCompletion(false);
+      context.updateQuestionTracking(isCorrect);
+      if (context.currentQuestionIndex < context.currentExerciseSets.length - 1) {
+        context.saveQuestionState();
+        context.currentQuestionIndex++;
+        const wasPreviouslyAnswered = context.currentQuestionIndex <= context.setcount;
+        context.canModifyAnswers = !wasPreviouslyAnswered ||
+              (context.questionStates[context.currentQuestionIndex]?.placedWords?.length < 
+              context.questionStates[context.currentQuestionIndex]?.wordsarr?.length);
+        if (wasPreviouslyAnswered) {
+          context.loadQuestionState(context.currentQuestionIndex);
+          if (!context.canModifyAnswers) {
+            context.markAllAnswersAsReadonly();
+          }
+        } else {
+          context.setcount = context.currentQuestionIndex;
+          context.reset();
+          const currentSet = context.currentExerciseSets[context.currentQuestionIndex];
+          context.loadQuestionData(currentSet);
+        }
+        context.Arrow_isShowing = context.placedWords.length === context.wordsarr.length;
+        context.truenextgame = false;
+      }
+      context.startQuestionTimer();
+    }
+
+    export function markAllAnswersAsReadonlyhelper1( context) {
+      context.columns.forEach(column => {
+        column.forEach(item => {
+          if (item.name) item.state = 'readonly';
+        });
+      });
+    }
+
+    export function checkCompletionhelper1( context,updateCounters = true) {
+      const currentSet = context.currentExerciseSets[context.currentQuestionIndex];
+      if (!currentSet || !currentSet.categories) return false;
+      if (context.isSingleColumnMode) {
+        const firstCategory = currentSet.categories[0];
+        if (!firstCategory) return false;
+        const correctWords = context.columns[0].filter(item => item.name && firstCategory.words.includes(item.name)).length;
+        const isCorrect = correctWords === firstCategory.words.length;
+        if (updateCounters) {
+          if (isCorrect) context.correct_Answers++;
+          else context.incorrect_Answers++;
+          context.Questions_attempted++;
+        }
+        return isCorrect;
+      } else {
+        const isCorrect = currentSet.categories.every((category, index) => {
+          if (index >= context.columns.length) return false;
+          return context.columns[index].filter(item => 
+            item.name && category.words.includes(item.name)
+          ).length === category.words.length;
+        });
+        if (updateCounters) {
+          if (isCorrect) context.correct_Answers++;
+          else context.incorrect_Answers++;
+          context.Questions_attempted++;
+        }
+        return isCorrect;
+      }
+    }
+
+
+ export function Click_NextButtonhelper1(context) {
+      context.Arrow_isShowing = false;
+      context.isShowing_info = true;
+      context.truenextgame = false;
+      const isCorrect = context.checkCompletion();
+      context.updateQuestionTracking(isCorrect);
+      context.saveQuestionState();
+      if (context.currentQuestionIndex < context.currentExerciseSets.length - 1) {
+        context.goToNextQuestion();
+      } else {
+        context.showResults();
+      }
+    }
+
+  export function  OnNewGame_Clickhelper1(context) {
+      if (context.isReviewMode) {
+        context.isReviewMode = false;
+        context.currentReviewIndex = -1;
+      }
+      if (context.truenextgame === true) {
+        context.truenextgame = false;
+        context.goToNextQuestion();
+      }
+    }
+
+export function updateAvailableWordshelper1(context) {
+      const allWordsPlaced = context.wordsarr.length === context.placedWords.length;
+      context.Arrow_isShowing = allWordsPlaced;
+      context.canModifyAnswers = !allWordsPlaced;
+      context.saveQuestionState();
+    }
+
+    export function  handleColumnClickhelper1( context,colIndex, itemIndex) {
+      if (!context.canModifyAnswers) return;
+      const column = context.columns[colIndex];
+      const item = column[itemIndex];
+      if (!item.name && context.selectedWord) {
+        item.name = context.selectedWord;
+        context.placedWords.push(context.selectedWord);
+        const wordIndex = context.availableWords.indexOf(context.selectedWord);
+        if (wordIndex > -1) context.availableWords.splice(wordIndex, 1);
+        context.selectedWord = null;
+        context.updateAvailableWords();
+      } else if (item.name && !context.selectedWord) {
+        const returnedWord = item.name;
+        item.name = '';
+        const placedIndex = context.placedWords.indexOf(returnedWord);
+        if (placedIndex > -1) context.placedWords.splice(placedIndex, 1);
+        context.availableWords.push(returnedWord);
+        context.updateAvailableWords();
+      }
+    }
+
+     export function saveQuestionStatehelper1(context) {
+      context.questionStates[context.currentQuestionIndex] = {
+        columns: JSON.parse(JSON.stringify(context.columns)),
+        columnTitles: [...context.columnTitles],
+        columnVisibility: [...context.columnVisibility],
+        placedWords: [...context.placedWords],
+        availableWords: [...context.availableWords],
+        selectedWord: context.selectedWord,
+        Arrow_isShowing: context.Arrow_isShowing,
+        wordsarr: [...context.wordsarr],
+        counts: [...context.counts],
+        isCompleted: context.placedWords.length === context.wordsarr.length,
+        wasModified: context.canModifyAnswers
+      };
+    }
+
+     export function loadQuestionStatehelper1( context,index) {
+      const state = context.questionStates[index];
+      if (state) {
+        context.columns = JSON.parse(JSON.stringify(state.columns));
+        context.columnTitles = [...state.columnTitles];
+        context.columnVisibility = [...state.columnVisibility];
+        context.placedWords = [...state.placedWords];
+        context.availableWords = [...state.availableWords];
+        context.selectedWord = state.selectedWord;
+        context.Arrow_isShowing = state.Arrow_isShowing;
+        context.wordsarr = [...state.wordsarr];
+        context.counts = [...state.counts];
+        context.canModifyAnswers = state.wasModified;
+        if (!context.canModifyAnswers) {
+          context.markAllAnswersAsReadonly();
+        }
+      }
+    }
+
+       export function recordQuestionTimehelper1(context) {
+      if (context.currentQuestionStartTime) {
+        const timeTaken = Date.now() - context.currentQuestionStartTime;
+        context.questionTimings[context.currentQuestionIndex] = timeTaken;
+        context.currentQuestionStartTime = 0;
+      }
+    }
+
+      export function updateQuestionTrackinghelper1( context,isCorrect) {
+      if (context.currentQuestionStartTime) {
+        const timeTaken = Date.now() - context.currentQuestionStartTime;
+        context.questionTimings[context.currentQuestionIndex] = timeTaken;
+        context.questionDetails[context.currentQuestionIndex] = {
+          ...context.questionDetails[context.currentQuestionIndex],
+          timeTaken: timeTaken,
+          isCompleted: true,
+          wasCorrect: isCorrect
+        };
+        context.currentQuestionStartTime = 0;
+      }
+    }
+    
+
+     export function startQuestionTrackinghelper1(context) {
+      context.currentQuestionStartTime = Date.now();
+      if (!context.questionDetails[context.currentQuestionIndex]) {
+        const currentSet = context.currentExerciseSets[context.currentQuestionIndex];
+        context.questionDetails[context.currentQuestionIndex] = {
+          questionIndex: context.currentQuestionIndex,
+          timeTaken: 0,
+          isCompleted: false,
+          wasCorrect: false,
+          wasDisplayed: true,
+          questionTitles: currentSet?.categories?.map(cat => cat.displayName || cat.name) || []
+        };
+      }
+    }
+
+export function  showResultshelper1(context) {
+      context.activity_Status = "Completed";
+      context.Time_elapsed = context.secondsToTime(context.timestart);
+      context.timeInSeconds = context.timestart;
+      context.resultShow = true;
+      context.InstructionShow = false;
+      context.isShowing_info = false;
+      context.truenextgame = false;
+      context.showtop = false;
+      context.showBottom = false;
+      context.ResultHide = true;
+      context.ResultArrow = false;
+      context.JsonArrData = JSON.stringify(context.generateResultsJson());
+    }
+
+    export function generateResultsJsonhelper1(context) {
+      return {
+        activityStatus: context.activity_Status,
+        totalTime: context.timeInSeconds,
+        questionTimings: context.questionTimings,
+        questionsAttempted: context.Questions_attempted,
+        correctAnswers: context.correct_Answers,
+        incorrectAnswers: context.incorrect_Answers,
+        exerciseNumber: context.exercise,
+        exerciseName: context.levelNames[context.exercise] || `Level ${context.exercise}`,
+        totalQuestions: context.currentExerciseSets.length,
+        displayedQuestions: context.questionDetails.filter(q => q.wasDisplayed).length,
+        detailedResults: context.questionDetails
+      };
+    }
+
+     export function downloadResultsJsonhelper1(context) {
+      const data = context.generateResultsJson();
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `classification_results_${new Date().toISOString().split('T')[0]}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+      export function  FinalResulthelper1(context ) {
+      const curSite = window.location.protocol + "//" + window.location.host;
+      const Url = `${curSite}/solutions/Appfiles/cmActivityResult.aspx?TokenID=${sessionStorage.getItem('sesTokenID')}&JsonData=${context.CollectionResult}&Activityresult=${context.JsonArrData}&ExeID=${sessionStorage.getItem('ExeID')}&exNum=${sessionStorage.getItem('Exe_Number')}&studentID=${sessionStorage.getItem('studentID')}`;
+      window.location.href = Url;
+    }
+
+
+
+
+  ///////////////////////////////cat 3 /////////////////////////////
+
+
+ export function  updateScreenSizehelper(context) {
+      const width = window.innerWidth
+      if (width < 640) {
+        context.screenSize = 'sm'
+      } else if (width < 1024) {
+        context.screenSize = 'md'
+      } else {
+        context.screenSize = 'lg'
+      }
+    }
+
+    export function getResponsiveImageHeighthelper3(context) {
+      switch (context.screenSize) {
+        case 'sm': return '120px'
+        case 'md': return '150px'
+        default: return '180px'
+      }
+    }
+
+      export function getResponsiveImageWidthhelper3(context) {
+      switch (context.screenSize) {
+        case 'sm': return '200px'
+        case 'md': return '250px'
+        default: return '300px'
+      }
+    }
+
+      export function getQuestionWordhelper3(question) {
+      const key = Object.keys(question).find(k => k.startsWith('QuestionArr_'))
+      return key && question[key]?.[0] || ''
+    }
+
+     export function getGridLettershelper3(question) {
+      const key = Object.keys(question).find(k => k.startsWith('OptionArr_'))
+      return key ? question[key] : []
+    }
+
+    export function  getAnswerWordhelper(question) {
+      const optionKey = Object.keys(question).find(k => k.startsWith('OptionArr_'))
+      const answerKey = Object.keys(question).find(k => k.startsWith('AnswerArr_'))
+      const options = optionKey ? question[optionKey] : []
+      const answers = answerKey ? question[answerKey] : []
+      if (!Array.isArray(answers) || !Array.isArray(options)) return ''
+      return options.filter((_, i) => answers[i] === 'Yes').join('')
+    }
+
+     export function handleWordGridAnsweredhelper( context ,{ word, response }) {
+      context.lastGridAnswer = { word, response }
+      context.lockedForNext = false
+      context.AnswerCheck()
+    }
+
+    export function WordsAnswerhelper3(context,Answer, index) {
+      const questionId = context.counter + 1
+      if (context.viewingPrevious) {
+        alert("You have already answered context question. context cannot be changed now.")
+        return
+      }
+      const currentQuestionObj = context.items[context.counter]
+      const answerKey = Object.keys(currentQuestionObj).find(k => k.startsWith('AnswerArr_'))
+      let correctAnswerArr = answerKey ? currentQuestionObj[answerKey] : []
+      if (!Array.isArray(correctAnswerArr)) correctAnswerArr = []
+
+      const timeTaken = (Date.now() - context.questionStartTime) / 1000
+      const existingIndex = context.practiceList.findIndex(q => q.id === questionId)
+      if (existingIndex !== -1) {
+        const old = context.practiceList[existingIndex]
+        const wasCorrect = old.fullCorrectAnswer[old.userAnswer - 1] === 'Yes'
+        if (wasCorrect) context.correct_Answers--
+        else context.incorrect_Answers--
+        context.practiceList.splice(existingIndex, 1)
+      } else {
+        context.Questions_attempted++
+      }
+
+      context.practiceList.push({
+        id: questionId,
+        originalQuestionNo: currentQuestionObj.__index,
+        level: currentQuestionObj.__level,
+        userAnswer: (index + 1).toString(),
+        fullCorrectAnswer: correctAnswerArr,
+        timeTaken,
+      })
+
+      const isCorrect = correctAnswerArr[index] === 'Yes'
+
+      if (isCorrect) {
+        context.correct_Answers++
+        context.ContinuesWrong = 0
+        context.ProgressBar[context.counter].state = 'correct'
+      } else {
+        context.incorrect_Answers++
+        context.ContinuesWrong++
+        context.ProgressBar[context.counter].state = 'incorrect'
+      }
+      context.commonNumArray.forEach((opt, i) => {
+        opt.state = i === index ? (isCorrect ? 'correct' : 'incorrect') : 'base'
+      })
+      context.countcorrect = 1
+
+      if (context.counter + 1 > context.TestProgressBar) {
+        context.TestProgressBar = context.counter + 1
+      }
+    }
+
+     export function  AnswerCheckhelper3( context) {
+      if (context.jsonFileName === 'CSR-I') {
+        if (!context.lastGridAnswer) {
+          context.$toast?.warning('Please select your answer first.');
+          return;
+        }
+        const questionId = context.counter + 1;
+        const currentQuestionObj = context.currentQuestion;
+
+        const answerKey = Object.keys(currentQuestionObj).find(k => k.startsWith('AnswerArr_'));
+        let correctAnswerArr = answerKey ? currentQuestionObj[answerKey] : [];
+        if (!Array.isArray(correctAnswerArr)) correctAnswerArr = [];
+
+        const userWord = context.lastGridAnswer.word;
+        const userResponse = context.lastGridAnswer.response;
+
+        let isOppositeValid = currentQuestionObj.IsOppositeValid;
+        let isCorrect = (
+          (isOppositeValid && userResponse === 'yes') ||
+          (!isOppositeValid && userResponse === 'no')
+        );
+
+        context.practiceList.push({
+          id: questionId,
+          originalQuestionNo: currentQuestionObj.__index,
+          level: currentQuestionObj.__level,
+          userAnswer: userWord,
+          userClicked: userResponse,
+          fullCorrectAnswer: correctAnswerArr,
+          timeTaken: (Date.now() - context.questionStartTime) / 1000,
+        });
+
+        if (isCorrect) {
+          context.correct_Answers++;
+          context.ContinuesWrong = 0;
+          context.ProgressBar[context.counter].state = 'correct';
+        } else {
+          context.incorrect_Answers++;
+          context.ContinuesWrong++;
+          context.ProgressBar[context.counter].state = 'incorrect';
+        }
+        context.Questions_attempted++;
+        context.countcorrect = 1;
+        context.lockedForNext = true;
+        context.lastGridAnswer = null;
+
+        if (context.counter < context.Total_Questions - 1) {
+          context.counter++;
+          context.practice0();
+        } else {
+          context.activity_Status = 'Completed';
+          context.Time_elapsed = context.secondsToTime(context.timestart);
+          context.resultShow = true;
+          context.PracticeOne = false;
+          context.ResultHide = true;
+        }
+
+        return;
+      }
+
+      const questionId = context.counter + 1;
+      const hasAnswered = context.practiceList.some(q => q.id === questionId);
+
+      if (!hasAnswered) {
+        context.$toast?.warning('Please answer the question before moving on.');
+        return;
+      }
+
+      if (context.counter < context.Total_Questions - 1) {
+        context.counter++;
+        const nextAnswered = context.practiceList.some(q => q.id === context.counter + 1);
+        context.countcorrect = nextAnswered ? 1 : 0;
+        context.viewingPrevious = nextAnswered;
+        context.practice0();
+      } else {
+        context.activity_Status = 'Completed';
+        context.Time_elapsed = context.secondsToTime(context.timestart);
+        context.resultShow = true;
+        context.PracticeOne = false;
+        context.ResultHide = true;
+
+        const detailedResults = context.practiceList.map((entry, idx) => {
+          const levelKey = entry.level;
+          const origIdx = entry.originalQuestionNo;
+          const sourceQ = context.activityQuestions[levelKey]?.[origIdx] || {};
+          const ansKey = Object.keys(sourceQ).find(k => k.startsWith('AnswerArr_'));
+          const correctArr = Array.isArray(sourceQ[ansKey]) ? sourceQ[ansKey] : [];
+
+          return {
+            questionNo: idx + 1,
+            originalQuestionNo: origIdx,
+            level: levelKey,
+            userResponse: entry.userAnswer,
+            fullCorrectAnswer: correctArr,
+            timeTaken: entry.timeTaken,
+          };
+        });
+
+        context.resultData = {
+          summary: {
+            ActivityName: 'Sem3',
+            activityStatus: context.activity_Status,
+            totalTimeElapsed: context.timestart,
+            questionsAttempted: context.Questions_attempted,
+            correctAnswers: context.correct_Answers,
+            incorrectAnswers: context.incorrect_Answers,
+            testDate: new Date().toISOString(),
+          },
+          detailedResults,
+        };
+
+        context.JsonArrData = JSON.stringify(context.resultData, null, 2);
+      }
+    }
+
+
+       export function FinalResulthelper3(context) {
+      const now = new Date()
+      const testDate = now.toISOString()
+      const fullResult = context.resultData || {}
+
+      const blob = new Blob([JSON.stringify(fullResult, null, 2)], {
+        type: 'application/json',
+      })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `Test_Result_${testDate}.json`
+      a.click()
+      URL.revokeObjectURL(url)
+    }
+
+      export function PracticeNexthelper3(context) {
+      context.InstructionShow = false
+      context.practice0()
+    }
+
+   export function getVisualArrowhelper(option) {
+      if (!option) return ''
+      const arrowMatch = option.match(/➚/g)
+      return arrowMatch ? '➚' : ''
+    }
+
+    export function getArrowStylehelper( context ,option) {
+      const count = (option.match(/➚/g) || []).length
+      const baseSize = context.screenSize === 'sm' ? 1 : context.screenSize === 'md' ? 1.2 : 1.5
+      if (count >= 3) return { fontSize: `${2.5 * baseSize}rem`, fontWeight: 700, verticalAlign: 'middle' }
+      if (count === 2) return { fontSize: `${1.8 * baseSize}rem`, fontWeight: 600, verticalAlign: 'middle' }
+      if (count === 1) return { fontSize: `${1.2 * baseSize}rem`, fontWeight: 500, verticalAlign: 'middle' }
+      return {}
+    }
+    
+      export function getVisualRectanglehelper(option) {
+      if (!option) return ''
+      if (option.includes('█')) return '█'
+      if (option.includes('▌')) return '▌'
+      if (option.includes('▏')) return '▏'
+      return ''
+    }
+
+      export function getRectangleStylehelper( context ,option) {
+      const baseSize = context.screenSize === 'sm' ? 0.8 : context.screenSize === 'md' ? 1 : 1.2
+      if (option.includes('█')) {
+        return { fontSize: `${2.2 * baseSize}rem`, marginLeft: '0.2em', verticalAlign: 'middle' }
+      }
+      if (option.includes('▌')) {
+        return { fontSize: `${1.6 * baseSize}rem`, marginLeft: '0.2em', verticalAlign: 'middle' }
+      }
+      if (option.includes('▏')) {
+        return { fontSize: `${1.1 * baseSize}rem`, marginLeft: '0.2em', verticalAlign: 'middle' }
+      }
+      return {}
+    }
+      export function TimerFunhelper3( context) {
+      setInterval(() => {
+        context.timestart++
+      }, 1000)
+    }
+   export function secondsToTimehelper(s) {
+      const h = String(Math.floor(s / 3600)).padStart(2, '0')
+      const m = String(Math.floor((s % 3600) / 60)).padStart(2, '0')
+      const sec = String(s % 60).padStart(2, '0')
+      return `${h}:${m}:${sec}`
+    }
+    export function runhelper3(context) {
+      context.InstructionShow = context.mode === 'instruction'
+      context.resultShow = false
+      context.PlayBtnshow = false
+      if (!context.InstructionShow) context.practice0()
+    }
+ export function goToPreviousQuestionhelper3(context) {
+      if (context.counter <= 0) return
+      context.counter--
+      context.countcorrect = 1
+      context.viewingPrevious = true
+      context.practice0()
+      context.highlightPreviousAnswer()
+    }
+
+       export function highlightPreviousAnswerhelper( context) {
+      const questionId = context.counter + 1
+      const previousAnswer = context.practiceList.find((q) => q.id === questionId)
+
+      if (previousAnswer) {
+        const userAnswerIndex = parseInt(previousAnswer.userAnswer) - 1
+        const isCorrect = previousAnswer.fullCorrectAnswer[userAnswerIndex] === 'Yes'
+
+        context.commonNumArray.forEach((opt, i) => {
+          if (i === userAnswerIndex) {
+            opt.state = isCorrect ? 'correct' : 'incorrect'
+          } else {
+            opt.state = 'base'
+          }
+        })
+      }
+    }
+
+
+      export function practice0helper3(context) {
+      if (context.items.length === 0) {
+        context.TimerFun()
+        context.AnswerCheckShow = true
+        context.PracticeOne = true
+
+        const selectedItems = []
+        const levels = context.selectedLevels
+        const questionsPerLevel = Math.floor(context.Total_Questions / levels.length)
+        let remaining = context.Total_Questions % levels.length
+
+        for (const level of levels) {
+          const levelKey = `Level${level}`
+          const levelItems = context.activityQuestions[levelKey] || []
+          let count = questionsPerLevel + (remaining > 0 ? 1 : 0)
+          if (remaining > 0) remaining--
+          const shuffled = levelItems.slice().sort(() => Math.random() - 0.5)
+          const subset = shuffled.slice(0, count).map((item) => ({
+            ...item,
+            __index: levelItems.indexOf(item),
+            __level: levelKey,
+          }))
+          selectedItems.push(...subset)
+        }
+
+        context.items = selectedItems
+      }
+
+      if (context.counter >= context.items.length) return
+
+      const questionObj = context.items[context.counter]
+      const questionKey = Object.keys(questionObj).find((k) =>
+        k.startsWith('QuestionArr_')
+      )
+      const optionKey = Object.keys(questionObj).find((k) =>
+        k.startsWith('OptionArr_')
+      )
+      const answerKey = Object.keys(questionObj).find((k) =>
+        k.startsWith('AnswerArr_')
+      )
+
+      context.questionStartTime = Date.now()
+
+      const QuestionValue = questionObj[questionKey] || []
+      const OptionValue = questionObj[optionKey] || []
+      let AnswerValue = questionObj[answerKey] || []
+
+      if (!Array.isArray(AnswerValue)) AnswerValue = []
+
+      if (!QuestionValue.length || !OptionValue.length) {
+        console.warn('Invalid question skipped:', questionObj)
+        context.counter++
+        context.practice0()
+        return
+      }
+
+      context.ImageNames = questionObj.ImageName || ''
+      context.ImageNames1 = questionObj.QuestionImage || 'NA'
+      context.ImageNames2 = questionObj.ImageName2 || 'NA'
+      context.ImageNames3 = questionObj.ImageName3 || 'NA'
+      context.ImageNames4 = questionObj.ImageName4 || 'NA'
+
+      context.commonNumArray = OptionValue.map((opt, i) => {
+        const existingAnswer = context.practiceList.find(
+          (q) => q.id === context.counter + 1
+        )
+        const isSelected =
+          existingAnswer && existingAnswer.userAnswer === (i + 1).toString()
+        const isCorrect =
+          existingAnswer && existingAnswer.fullCorrectAnswer[i] === 'Yes'
+
+        return {
+          index: i,
+          state: isSelected ? (isCorrect ? 'correct' : 'incorrect') : 'base',
+          Answer: AnswerValue[i],
+          Option: opt,
+          Question: QuestionValue,
+        }
+      })
+
+      context.PrevQuestionShow = context.counter > 0
+    }
+
+
+
+
