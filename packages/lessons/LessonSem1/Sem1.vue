@@ -15,19 +15,19 @@
           <div>
             <SectionSem1Intro v-show="InstructionShow" @PracticeNext="PracticeNext"/>
             <div v-if="showStoryButton && !resultShow">
-              <button @click="showStory = !showStory"class="px-10 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+              <button @click="showStory = !showStory" class="px-10 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
                 {{ showStory ? 'Hide Story' : 'Show Story' }}
               </button>
               <SectionStory1 v-if="showStory" :story="currentStory" :image="currentImage" />
             </div>
-            <ImageSelectionGrid v-if="isEmuCsiLesson && !resultShow":imageItems="currentImageItems" :placedWords="placedWords" @word-selected="handleWordSelected"/>
+            <ImageSelectionGrid v-if="isEmuCsiLesson && !resultShow" :imageItems="currentImageItems" :placedWords="placedWords" @word-selected="handleWordSelected"/>
 
             <SectionSem1 v-else :showWords="availableWords" :acceptInput="canModifyAnswers" :isShowing_info="isShowing_info" :showtop="showtop" @OnWord_Click="handleWordSelection" @OnNewGame_Click="OnNewGame_Click"  @Ontext_Click="Ontext_Click" />
           </div>
           <div>
-            <SectionSem1Bottom :show-next-button="showNextButton":show-previous-button="currentQuestionIndex > 0":isReviewMode="isReviewMode":reviewTableRows="reviewTableRows":accept-input="canModifyAnswers":columns="columns" :column-titles="columnTitles":column-visibility="columnVisibility":row-counts="rowCounts":highlight="highlightBottom":showBottom="showBottom":Arrow_isShowing="Arrow_isShowing || isSingleColumnMode"@OnClicked_Col="handleColumnClick"@Click_NextButton="Click_NextButton"@Click_PreviousButton="goToPreviousQuestion"/>
+            <SectionSem1Bottom :show-next-button="showNextButton" :show-previous-button="currentQuestionIndex > 0" :isReviewMode="isReviewMode" :reviewTableRows="reviewTableRows" :accept-input="canModifyAnswers" :columns="columns" :column-titles="columnTitles" :column-visibility="columnVisibility" :row-counts="rowCounts" :highlight="highlightBottom" :showBottom="showBottom" :Arrow_isShowing="Arrow_isShowing || isSingleColumnMode" @OnClicked_Col="handleColumnClick" @Click_NextButton="Click_NextButton" @Click_PreviousButton="goToPreviousQuestion"/>
 
-            <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed":Questions_attempted="Questions_attempted":correct_Answers="correct_Answers":incorrect_Answers="incorrect_Answers"@FinalResult="FinalResult"@download-results="downloadResultsJson":ResultHide="ResultHide":ResultArrow="ResultArrow"/>
+            <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed" :Questions_attempted="Questions_attempted" :correct_Answers="correct_Answers" :incorrect_Answers="incorrect_Answers" @FinalResult="FinalResult" @download-results="downloadResultsJson" :ResultHide="ResultHide" :ResultArrow="ResultArrow"/>
           </div>
         </div>
       </div>
