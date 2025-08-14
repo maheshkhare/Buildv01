@@ -8,12 +8,15 @@
       style="border: none; padding: 5px;"
     >
       <button
-        @click="onAnswer(word.Answer, word.index)"
-        :class="buttonClass"
+        @click="!disableSelection && onAnswer(word.Answer, word.index)"
+        :class="[buttonClass, getButtonClass(word.state), { 'cursor-not-allowed opacity-50': disableSelection }]"
+        :disabled="disableSelection"
         :style="buttonStyle"
-      >
+    >
         <img :src="getImgUrl(word.Question)" :class="imageClass" :style="imageStyle" />
-      </button>
+    </button>
+
+
     </SVGImageButton>
   </div>
 </template>
@@ -25,7 +28,8 @@ export default {
     items: { type: Array, required: true },
     mode: { type: String, default: "normal" }, // 'EFU-I' or 'normal'
     onAnswer: { type: Function, required: true },
-    getImgUrl: { type: Function, required: true }
+    getImgUrl: { type: Function, required: true },
+    disableSelection: { type: Boolean, default: false }
   },
   computed: {
     containerClass() {
@@ -52,9 +56,9 @@ export default {
     getButtonClass(state) {
       return {
         "bg-blue-600 border-blue-400 shadow-md": state === "selected",
-        "bg-blue-600 border-blue-600 shadow-md": state === "missed" || state === "incorrect",
-        "bg-blue-600 border-blue-400 shadow-md": state === "correct",
-        "bg-white-0": state === "unselected"
+        "bg-red-500 border-red-500 shadow-md": state === "incorrect",
+        "bg-green-500 border-green-500 shadow-md": state === "correct",
+        "bg-blue-100 border-black": state === "unselected"
       };
     }
   }

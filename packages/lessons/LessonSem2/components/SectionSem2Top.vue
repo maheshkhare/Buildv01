@@ -7,7 +7,7 @@
         <InstructionText :text="instructionText" />
 
         <!-- ✅ IF file_Name == 'EFU-I' use multi-cols -->
-        <AnswerOptionsGrid :items="file_Name === 'EFU-I' ? commonNumArray : internalArray" :mode="file_Name" :onAnswer="WordsAnswer" :getImgUrl="getImgUrl" />
+        <AnswerOptionsGrid :items="file_Name === 'EFU-I' ? commonNumArray : internalArray" :mode="file_Name" :onAnswer="WordsAnswer" :disableSelection="disableSelection" :getImgUrl="getImgUrl" />
 
         <AnswerCheckButton :visible="AnswerCheckShow" @click="AnswerCheck" />
 
@@ -64,6 +64,7 @@ export default {
             matched: [],
             file_Name: sessionStorage.getItem('jsonFile') || 'lessonCFS-I',
             internalArray: [],
+            disableSelection: false
         };
     },
 
@@ -97,9 +98,11 @@ export default {
             this.$emit('AnswerCheck');
         },
         NextQuestion(index) {
+            this.disableSelection = false; // 🔹 enable clicks again when going forward
             this.$emit('NextQuestion', index);
         },
         PreviousQuestion() {
+             this.disableSelection = true; // 🔹 disable clicks
             this.$emit('PreviousQuestion');
 
             console.log("in section part: " + JSON.stringify(this.commonNumArray, null, 2));
