@@ -1909,113 +1909,7 @@ export function  showResultshelper1(context) {
       }
     }
 
-
-
-
-//     export function practice0helper3(context) {
-//   if (context.items.length === 0) {
-//     context.TimerFun()
-//     context.AnswerCheckShow = true
-//     context.PracticeOne = true
-
-//     // Collect ALL valid questions from selected levels first
-//     const allValidQuestions = []
-//     for (const level of context.selectedLevels) {
-//       const levelKey = `Level${level}`
-//       const levelItems = context.activityQuestions[levelKey] || []
-
-//       // Filter: Must have non-empty QuestionArr_ and OptionArr_
-//       const validItems = levelItems.filter(item => {
-//         const questionKey = Object.keys(item).find(k => k.startsWith('QuestionArr_'))
-//         const optionKey = Object.keys(item).find(k => k.startsWith('OptionArr_'))
-//         const questionValue = questionKey ? item[questionKey] : []
-//         const optionValue = optionKey ? item[optionKey] : []
-//         return Array.isArray(questionValue) && questionValue.length > 0
-//             && Array.isArray(optionValue) && optionValue.length > 0
-//       })
-
-//       // Add metadata for later
-//       allValidQuestions.push(
-//         ...validItems.map((item, index) => ({
-//           ...item,
-//           __index: index,
-//           __level: levelKey,
-//         }))
-//       )
-//     }
-
-//     // Randomize (shuffle)
-//     const shuffled = allValidQuestions.sort(() => Math.random() - 0.5)
-//     // Respect the minimum of requested vs available
-//     const questionsToUse = Math.min(context.Total_Questions, shuffled.length)
-//     context.items = shuffled.slice(0, questionsToUse)
-//     context.Total_Questions = context.items.length
-//     context.ProgressBar = Array(context.Total_Questions).fill(null).map((_, i) => ({ index: i, state: null }))
-//     // For debug
-//     console.log(`Loaded ${context.items.length} valid questions out of ${questionsToUse} requested`)
-//   }
-
-//   // Don't go beyond available questions
-//   if (context.counter >= context.items.length) return
-
-//   const questionObj = context.items[context.counter]
-//   if (!questionObj) {
-//     console.error('Question object is undefined at counter:', context.counter)
-//     return
-//   }
-
-//   const questionKey = Object.keys(questionObj).find(k => k.startsWith('QuestionArr_'))
-//   const optionKey = Object.keys(questionObj).find(k => k.startsWith('OptionArr_'))
-//   const answerKey = Object.keys(questionObj).find(k => k.startsWith('AnswerArr_'))
-
-//   const QuestionValue = questionKey ? questionObj[questionKey] : []
-//   const OptionValue = optionKey ? questionObj[optionKey] : []
-//   let AnswerValue = answerKey ? questionObj[answerKey] : []
-//   if (!Array.isArray(AnswerValue)) AnswerValue = []
-
-//   // Defensive fallback if data ever bad
-//   if (!QuestionValue.length || !OptionValue.length) {
-//     console.warn('Invalid question skipped:', questionObj)
-//     context.counter++
-//     practice0helper3(context)
-//     return
-//   }
-
-//   context.ImageNames = questionObj.ImageName || ''
-//   context.ImageNames1 = questionObj.QuestionImage || 'NA'
-//   context.ImageNames2 = questionObj.ImageName2 || 'NA'
-//   context.ImageNames3 = questionObj.ImageName3 || 'NA'
-//   context.ImageNames4 = questionObj.ImageName4 || 'NA'
-
-//   // Set up options for question grid UI
-//   context.commonNumArray = OptionValue.map((opt, i) => {
-//     const existingAnswer = context.practiceList.find(q => q.id === context.counter + 1)
-//     const isSelected = existingAnswer && existingAnswer.userAnswer === (i + 1).toString()
-//     const isCorrect = existingAnswer && existingAnswer.fullCorrectAnswer[i] === 'Yes'
-//     return {
-//       index: i,
-//       state: isSelected ? (isCorrect ? 'correct' : 'incorrect') : 'base',
-//       Answer: AnswerValue[i],
-//       Option: opt,
-//       Question: QuestionValue,
-//     }
-//   })
-
-//   context.PrevQuestionShow = context.counter > 0
-// }
-
-
-
-
-
-
 // debug 2
-
-
-
-
-
-
 export function practice0helper3(context) {
   if (context.jsonFileName === 'CSR-I') {
     // CSR-I logic: pool all valid questions across levels
@@ -2138,9 +2032,6 @@ export function practice0helper3(context) {
 
   context.PrevQuestionShow = context.counter > 0
 }
-
-
-
 // original
 
     //   export function practice0helper3(context) {
