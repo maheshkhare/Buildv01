@@ -1,0 +1,1486 @@
+{
+  "Level1": [
+    {
+      "index": 0,
+      "QuestionArr_00": "A clean hand wants no washing.",
+      "OptionArr_00": ["You should always wash your hands after working.", "Clean people are better than others.", "Honest people don't need to prove themselves.", "Only those who make mistakes need help"],
+      "AnswerArr_00": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 1,
+      "QuestionArr_01": "God lives in an honest heart.",
+      "OptionArr_01": ["Honest people live longer.", "Being honest is a sign of inner goodness.", "God punishes dishonest people.", "God only loves the rich."],
+      "AnswerArr_01": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 2,
+      "QuestionArr_02": "A clean mouth and an honest hand will take a man through any land.",
+      "OptionArr_02": ["Good looks help you travel.", "People like friendly and honest travelers.", "Lying is helpful while traveling.", "Talking too much gets you in trouble."],
+      "AnswerArr_02": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 3,
+      "QuestionArr_03": "The strength of the heart comes from the soundness of the faith.",
+      "OptionArr_03": ["Muscles make the heart strong.", "Only religious people are strong.", "True strength comes from strong beliefs.", "A healthy heart means a healthy mind."],
+      "AnswerArr_03": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 4,
+      "QuestionArr_04": "If the ox knew his own strength, God help us.",
+      "OptionArr_04": ["Oxen are dangerous animals.", "Power is useless without knowledge.", "Animals should never be trusted.", "People are stronger than animals."],
+      "AnswerArr_04": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 5,
+      "QuestionArr_05": "Gain from your opponents without sacrificing your own strength.",
+      "OptionArr_05": ["Learn from others but stay true to yourself.", "Never listen to your enemies.", "Give up what you have to win.", "Strong people never ask for help."],
+      "AnswerArr_05": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 6,
+      "QuestionArr_06": "To him who is determined it remains only to act.",
+      "OptionArr_06": ["Determined people talk a lot.", "If you want something, just do it.", "Lazy people always win.", "Planning is better than action."],
+      "AnswerArr_06": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 7,
+      "QuestionArr_07": "Determine that the thing can and shall be done, and then we shall find the way.",
+      "OptionArr_07": ["Decide later and plan first.", "If you believe in success, you'll find a way.", "Most things are impossible.", "Never trust your own thoughts."],
+      "AnswerArr_07": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 8,
+      "QuestionArr_08": "Success is a journey, not a destination.",
+      "OptionArr_08": ["Enjoying the process is more important than the result.", "Success is quick and easy.", "You must reach your goal fast.", "Stop when you succeed."],
+      "AnswerArr_08": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 9,
+      "QuestionArr_09": "A bad penny always turns up. What does this proverb mean?",
+      "OptionArr_09": ["Valuable things appear suddenly.", "Bad people or problems keep reappearing.", "Pennies are always useful.", "Money brings trouble."],
+      "AnswerArr_09": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 10,
+      "QuestionArr_10": "A barking dog never bites. What is this proverb suggesting?",
+      "OptionArr_10": ["Dogs that bark are dangerous.", "Threatening people rarely act on it.", "Barking is a sign of aggression.", "All dogs are harmless."],
+      "AnswerArr_10": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 11,
+      "QuestionArr_11": "A bird in the hand is worth two in the bush. What is the meaning of this saying?",
+      "OptionArr_11": ["Keep what you have instead of risking for more.", "Birds are hard to catch.", "Holding two birds is better.", "Birds are valuable pets."],
+      "AnswerArr_11": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 12,
+      "QuestionArr_12": "A journey of a thousand miles begins with a single step. What lesson does this teach?",
+      "OptionArr_12": ["Long trips are exhausting.", "Great achievements start with small actions.", "Walking is the best exercise.", "Traveling is important."],
+      "AnswerArr_12": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 13,
+      "QuestionArr_13": "A little learning is a dangerous thing. What does this imply?",
+      "OptionArr_13": ["Knowledge is always good.", "Knowing too little can be harmful.", "Learning is never enough.", "Learning is unnecessary."],
+      "AnswerArr_13": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 14,
+      "QuestionArr_14": "A picture is worth a thousand words. What does this proverb mean?",
+      "OptionArr_14": ["Words are stronger than pictures.", "Pictures express complex ideas easily.", "Writing is more valuable than art.", "Photography is essential."],
+      "AnswerArr_14": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 15,
+      "QuestionArr_15": "Actions speak louder than words. What is the meaning here?",
+      "OptionArr_15": ["Words matter more than deeds.", "Deeds show true intentions better than speech.", "Talking solves everything.", "Actions are meaningless."],
+      "AnswerArr_15": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 16,
+      "QuestionArr_16": "All good things must come to an end. What is this saying about?",
+      "OptionArr_16": ["Bad things last longer.", "Pleasant times don't last forever.", "Happiness is permanent.", "Good things never stop."],
+      "AnswerArr_16": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 17,
+      "QuestionArr_17": "All that glitters is not gold. What does this mean?",
+      "OptionArr_17": ["Everything shiny is valuable.", "Appearances can be deceptive.", "Gold is useless.", "Sparkly objects are precious."],
+      "AnswerArr_17": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 18,
+      "QuestionArr_18": "\"He is as funny as a barrel of monkeys\" means:",
+      "OptionArr_18": ["He is very silly or funny.", "He is angry and loud.", "He is quiet and serious.", "He is very sleepy."],
+      "AnswerArr_18": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 19,
+      "QuestionArr_19": "\"This house is as clean as a whistle\" means:",
+      "OptionArr_19": ["The house makes a loud noise.", "The house is very messy.", "The house is very clean.", "The house is old and broken."],
+      "AnswerArr_19": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 20,
+      "QuestionArr_20": "\"He is as strong as an ox\" means:",
+      "OptionArr_20": ["He is very lazy.", "He is very strong.", "He is very fast.", "He is very small."],
+      "AnswerArr_20": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 21,
+      "QuestionArr_21": "\"My throat is as dry as a bone\" means:",
+      "OptionArr_21": ["I am very thirsty.", "I am very cold.", "I have a sore throat.", "I am very tired."],
+      "AnswerArr_21": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 22,
+      "QuestionArr_22": "\"She is as thin as a rake\" means:",
+      "OptionArr_22": ["She is very tall.", "She is very thin.", "She is very strong.", "She is very short."],
+      "AnswerArr_22": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 23,
+      "QuestionArr_23": "\"Nature is an invader\" means:",
+      "OptionArr_23": ["Nature helps everything grow.", "Nature can cause damage or take over.", "Nature is very small.", "Nature is easy to control."],
+      "AnswerArr_23": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 24,
+      "QuestionArr_24": "\"The snow is ice-cream spilled over the hills\" means:",
+      "OptionArr_24": ["Snow looks like spilled ice cream.", "Ice cream melts in the sun.", "Ice cream is cold like snow.", "Hills are made of ice cream."],
+      "AnswerArr_24": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 25,
+      "QuestionArr_25": "\"Trees are wise old men\" means:",
+      "OptionArr_25": ["Trees can talk.", "Trees live long and seem wise.", "Trees are very young.", "Trees are very noisy."],
+      "AnswerArr_25": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 26,
+      "QuestionArr_26": "Those who do not move don't notice their chains. What is the meaning of this saying?",
+      "OptionArr_26": ["People who are lazy enjoy life.", "Staying still helps us stay safe.", "Without action, we remain unaware of limitations.", "Movement is harmful to freedom."],
+      "AnswerArr_26": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 27,
+      "QuestionArr_27": "You are confined only by the walls you build for yourself. What does this statement emphasize?",
+      "OptionArr_27": ["Others create boundaries for you.", "Self-imposed limitations restrict growth.", "Walls are needed for safety.", "External forces control your freedom."],
+      "AnswerArr_27": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 28,
+      "QuestionArr_28": "The shell must break before the bird can fly. What lesson does this teach?",
+      "OptionArr_28": ["Birds should stay in their shells longer.", "Growth requires breaking old limits.", "Birds are weak without shells.", "Flying is dangerous for young birds."],
+      "AnswerArr_28": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 29,
+      "QuestionArr_29": "Well done is better than well said. What is the core idea?",
+      "OptionArr_29": ["Talking is more important than doing.", "Actions speak louder than words.", "Words are more powerful than actions.", "Good communication solves problems."],
+      "AnswerArr_29": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 30,
+      "QuestionArr_30": "Either you run the day or the day runs you. What does this highlight?",
+      "OptionArr_30": ["Days pass quickly without notice.", "Time management determines success.", "Days cannot be controlled.", "You must sleep early to run the day."],
+      "AnswerArr_30": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 31,
+      "QuestionArr_31": "Be alone till good company. What does this mean?",
+      "OptionArr_31": ["Wait for genuine friends instead of bad ones.", "Being alone is harmful.", "Always stay in groups.", "Company doesn't matter in life."],
+      "AnswerArr_31": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 32,
+      "QuestionArr_32": "The best views come after the hardest climbs. What does this suggest?",
+      "OptionArr_32": ["Difficult journeys bring great rewards.", "Climbing hills is dangerous.", "Only easy paths lead to success.", "Views are not worth the effort."],
+      "AnswerArr_32": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 33,
+      "QuestionArr_33": "Winning isn't everything, but wanting is. What is the meaning of this saying?",
+      "OptionArr_33": ["Only winners are respected.", "Desire to succeed matters more than victory.", "Winning is the only goal.", "Success comes without effort."],
+      "AnswerArr_33": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    }
+  ],
+
+"Level2": [
+    {
+      "index": 0,
+      "QuestionArr_00": "All work and no play makes Jack a dull boy. What does this teach?",
+      "OptionArr_00": ["Work is more important than play.", "Play is unnecessary for growth.", "Too much work without fun is unhealthy.", "Jack dislikes work."],
+      "AnswerArr_00": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 1,
+      "QuestionArr_01": "All's fair in love and war. What does this imply?",
+      "OptionArr_01": ["Rules don't apply in certain situations.", "Fairness is always necessary.", "Love and war are the same.", "No one cheats in love or war."],
+      "AnswerArr_01": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 2,
+      "QuestionArr_02": "All's well that ends well. What is this proverb's meaning?",
+      "OptionArr_02": ["Only beginnings matter.", "If the outcome is good, all is forgiven.", "Endings are unimportant.", "Good starts ensure success."],
+      "AnswerArr_02": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 3,
+      "QuestionArr_03": "An eye for an eye and a tooth for a tooth. What does this mean?",
+      "OptionArr_03": ["Punishment should match the crime.", "Forgiveness is better than revenge.", "Teeth are more valuable than eyes.", "Avoid retaliation."],
+      "AnswerArr_03": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 4,
+      "QuestionArr_04": "Beauty is in the eye of the beholder. What does this suggest?",
+      "OptionArr_04": ["Beauty is objective.", "Beauty is seen differently by everyone.", "Only rich people are beautiful.", "Appearance defines worth."],
+      "AnswerArr_04": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 5,
+      "QuestionArr_05": "Beggars can't be choosers. What is the meaning here?",
+      "OptionArr_05": ["Poor people can demand more.", "Those who depend on help can't be picky.", "Begging is easy.", "Everyone must choose wisely."],
+      "AnswerArr_05": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 6,
+      "QuestionArr_06": "Better late than never. What does this say?",
+      "OptionArr_06": ["Being late is acceptable.", "It's better to do something late than not at all.", "Time is unimportant.", "Early work is useless."],
+      "AnswerArr_06": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 7,
+      "QuestionArr_07": "Birds of a feather flock together. What does this imply?",
+      "OptionArr_07": ["Different people always mix well.", "Similar people stick together.", "Birds travel alone.", "People avoid groups."],
+      "AnswerArr_07": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 8,
+      "QuestionArr_08": "Cleanliness is next to godliness. What is the meaning?",
+      "OptionArr_08": ["Clean habits reflect good character.", "Cleanliness is unimportant.", "Only religious people are clean.", "Godliness is unrelated to hygiene."],
+      "AnswerArr_08": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 9,
+      "QuestionArr_09": "Cowards die many times before their death. What does this suggest?",
+      "OptionArr_09": ["Cowards face repeated fear in life.", "Death is scarier than fear.", "Courageous people live longer.", "Fear is meaningless."],
+      "AnswerArr_09": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 10,
+      "QuestionArr_10": "\"Real happiness consists in making others happy.\"",
+      "OptionArr_10": ["Make yourself happy first.", "Happiness is found in helping others.", "Only rich people can be happy.", "Don't worry about other people."],
+      "AnswerArr_10": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 11,
+      "QuestionArr_11": "\"Take hold of a good minute.\"",
+      "OptionArr_11": ["Worry about time later.", "Time doesn't matter.", "Use good moments wisely.", "A minute is too short to matter."],
+      "AnswerArr_11": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 12,
+      "QuestionArr_12": "\"Only with a new ruler do you realize the value of the old.\"",
+      "OptionArr_12": ["New leaders are better.", "People never change.", "Old rulers are always bad.", "You value things more after they're gone."],
+      "AnswerArr_12": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 13,
+      "QuestionArr_13": "\"One who smiles rather than rages is always the stronger.\"",
+      "OptionArr_13": ["Anger shows power.", "Calmness is a true sign of strength.", "Smiling is for weak people.", "Never show emotions."],
+      "AnswerArr_13": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 14,
+      "QuestionArr_14": "\"Courage is ten, nine is the ability to escape.\"",
+      "OptionArr_14": ["Courage and smart choices both matter.", "Running away is cowardly.", "Always fight your battles.", "Courage is not important."],
+      "AnswerArr_14": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 15,
+      "QuestionArr_15": "\"Success is never final and failure is never fatal. It's courage that counts.\"",
+      "OptionArr_15": ["Winning once is all that matters.", "Failing means the end.", "Courage helps you keep going.", "You should always avoid failure."],
+      "AnswerArr_15": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 16,
+      "QuestionArr_16": "\"Nothing is more noble, nothing more venerable, than loyalty.\"",
+      "OptionArr_16": ["Loyalty is the most respected quality.", "Intelligence is better than loyalty.", "Loyal people are weak.", "Loyalty doesn't matter in friendships."],
+      "AnswerArr_16": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 17,
+      "QuestionArr_17": "\"Constancy is the complement of all other human virtues.\"",
+      "OptionArr_17": ["Changing often is a good habit.", "Being consistent strengthens all other good traits.", "Virtues come and go.", "Change is more valuable than steadiness."],
+      "AnswerArr_17": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 18,
+      "QuestionArr_18": "\"Happiness is something to do, something to love, something to hope for.\"",
+      "OptionArr_18": ["You need money to be happy.", "Hope and purpose bring happiness.", "Only love matters in life.", "Working too much makes you sad."],
+      "AnswerArr_18": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 19,
+      "QuestionArr_19": "\"There are three friends in this world: courage, sense, and insight.\"",
+      "OptionArr_19": ["Friends are not important.", "These qualities help you in life.", "Real friends always agree.", "Never trust yourself."],
+      "AnswerArr_19": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 20,
+      "QuestionArr_20": "\"Just fell off the turnip truck\" means:",
+      "OptionArr_20": ["Someone is very happy.", "Someone is new or inexperienced.", "Someone is very smart.", "Someone is very strong."],
+      "AnswerArr_20": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 21,
+      "QuestionArr_21": "\"Two peas in a pod\" means:",
+      "OptionArr_21": ["Two people who fight a lot.", "Two people who live far apart.", "Two people who are very similar.", "Two people who don't like each other."],
+      "AnswerArr_21": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 22,
+      "QuestionArr_22": "\"Don't be a couch potato\" means:",
+      "OptionArr_22": ["Eat more potatoes.", "Don't be lazy or sit all day.", "Sleep a lot.", "Watch TV all the time."],
+      "AnswerArr_22": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 23,
+      "QuestionArr_23": "\"One bad apple spoils the whole bunch\" means:",
+      "OptionArr_23": ["Apples spoil quickly.", "Eat only good apples.", "One bad person can affect the group.", "Bad apples are tasty."],
+      "AnswerArr_23": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 24,
+      "QuestionArr_24": "\"She cherry-picked her dresses\" means:",
+      "OptionArr_24": ["She picked cherries from a tree.", "She gave away her dresses.", "She chose her favorite dresses carefully.", "She wore the same dress every day."],
+      "AnswerArr_24": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 25,
+      "QuestionArr_25": "\"Don't act like sour grapes after losing\" means:",
+      "OptionArr_25": ["Be angry when you lose.", "Don't pretend you don't care just because you lost.", "Always win at everything.", "Eat more grapes."],
+      "AnswerArr_25": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 26,
+      "QuestionArr_26": "\"Arguing without a point is like being pea-brained\" means:",
+      "OptionArr_26": ["Peas are very smart.", "Arguing shows intelligence.", "Arguing without a good reason shows poor thinking.", "Don't talk to people about peas."],
+      "AnswerArr_26": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 27,
+      "QuestionArr_27": "\"Efforts in the right direction always bear fruit\" means:",
+      "OptionArr_27": ["Fruits grow on trees.", "Effort is useless.", "Hard work leads to good results.", "Direction is not important."],
+      "AnswerArr_27": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 28,
+      "QuestionArr_28": "\"She was in a pickle about which course to take\" means:",
+      "OptionArr_28": ["She knew exactly what to do.", "She ate a pickle.", "She was happy and relaxed.", "She was confused or in trouble deciding."],
+      "AnswerArr_28": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 29,
+      "QuestionArr_29": "\"Fighting over small things is just like small potatoes\" means:",
+      "OptionArr_29": ["Potatoes are very small.", "Fighting is always good.", "Fighting over small things is useless.", "Potatoes are important."],
+      "AnswerArr_29": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 30,
+      "QuestionArr_30": "\"Betty has half-baked ideas\" means:",
+      "OptionArr_30": ["Betty cooks well", "Betty's ideas are not well thought out", "Betty shares good ideas", "Betty bakes cakes"],
+      "AnswerArr_30": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 31,
+      "QuestionArr_31": "\"My name is mud\" means:",
+      "OptionArr_31": ["I like mud", "I am very clean", "People think badly of me", "My name is Mud"],
+      "AnswerArr_31": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 32,
+      "QuestionArr_32": "\"Turn over a new leaf\" means:",
+      "OptionArr_32": ["Plant a tree", "Tear a page", "Start fresh or change your behavior", "Read a book"],
+      "AnswerArr_32": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 33,
+      "QuestionArr_33": "\"These children are rug rats\" means:",
+      "OptionArr_33": ["The children are dirty", "The children are quiet", "The children are small and active", "The children are tired"],
+      "AnswerArr_33": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 34,
+      "QuestionArr_34": "\"Nancy is all thumbs\" means:",
+      "OptionArr_34": ["Nancy is good at crafts", "Nancy has many thumbs", "Nancy is clumsy with her hands", "Nancy has small hands"],
+      "AnswerArr_34": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 35,
+      "QuestionArr_35": "\"Lived life in the fast lane\" means:",
+      "OptionArr_35": ["Walked slowly", "Drove a fast car", "Avoided danger", "Lived a risky and busy life"],
+      "AnswerArr_35": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 36,
+      "QuestionArr_36": "\"Heart of stone\" means:",
+      "OptionArr_36": ["Very kind", "Sad heart", "Broken heart", "Emotionally tough or unfeeling"],
+      "AnswerArr_36": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 37,
+      "QuestionArr_37": "\"Warned about the monsters\" means:",
+      "OptionArr_37": ["Told about real monsters", "Told to play games", "Told to go outside", "Told to be careful of dangers"],
+      "AnswerArr_37": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 38,
+      "QuestionArr_38": "\"The professor was a guiding light\" means:",
+      "OptionArr_38": ["The professor carried a light", "The professor was strict", "The professor was quiet", "The professor gave helpful direction"],
+      "AnswerArr_38": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 39,
+      "QuestionArr_39": "\"There's a rat among us\" means:",
+      "OptionArr_39": ["There is a real rat", "Someone is very kind", "Everyone is honest", "Someone is betraying or untrustworthy"],
+      "AnswerArr_39": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 40,
+      "QuestionArr_40": "If you stand on principle, you'll never lose. What does this statement mean?",
+      "OptionArr_40": ["Principles are unimportant in life.", "Principles lead to success even if you fail.", "Winning is more important than values.", "Standing still is safe."],
+      "AnswerArr_40": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 41,
+      "QuestionArr_41": "Change your leaves, keep intact your roots. What is this advising?",
+      "OptionArr_41": ["Roots should be replaced regularly.", "Leaves symbolize weakness.", "Adapt while keeping your core beliefs intact.", "Change your values often."],
+      "AnswerArr_41": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 42,
+      "QuestionArr_42": "Live today as if you are going to live forever. What is the lesson here?",
+      "OptionArr_42": ["Ignore your future goals.", "Life is too short to work hard.", "Don't plan for tomorrow.", "Make the most of today without worry."],
+      "AnswerArr_42": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 43,
+      "QuestionArr_43": "Morality is only moral when it is voluntary. What does this emphasize?",
+      "OptionArr_43": ["Morality must be taught strictly.", "Forced ethics are not genuine.", "Rules define morality.", "People are moral by nature."],
+      "AnswerArr_43": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 44,
+      "QuestionArr_44": "Good moral character is the first essential in a man. What does this mean?",
+      "OptionArr_44": ["Appearance defines character.", "Money makes a man respectable.", "Skills are more important than morals.", "Morality is the foundation of character."],
+      "AnswerArr_44": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 45,
+      "QuestionArr_45": "World changes with you. What does this saying imply?",
+      "OptionArr_45": ["People cannot change the world.", "The world controls individuals.", "Self-change leads to change around you.", "The world changes on its own."],
+      "AnswerArr_45": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 46,
+      "QuestionArr_46": "Work for a cause, not applause. What is the meaning here?",
+      "OptionArr_46": ["Applause motivates success.", "Focus on meaningful work, not praise.", "Seek recognition for your efforts.", "Ignore all kinds of work."],
+      "AnswerArr_46": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 47,
+      "QuestionArr_47": "A quiet conscience makes one strong. What does this teach?",
+      "OptionArr_47": ["Noisy people are confident.", "Strength comes only from power.", "Silence makes you weak.", "Inner peace brings strength."],
+      "AnswerArr_47": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 48,
+      "QuestionArr_48": "Responsibility is also what we not do. What does this imply?",
+      "OptionArr_48": ["Responsibility only comes with work.", "Avoiding wrong actions is part of responsibility.", "Doing less is irresponsible.", "Responsibility is unnecessary."],
+      "AnswerArr_48": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 49,
+      "QuestionArr_49": "There are three constants in life- change, choice and principles. What is being stated here?",
+      "OptionArr_49": ["Life has no constants.", "Only change is constant.", "Change, choice, and principles are unchanging.", "Life is full of uncertainty only."],
+      "AnswerArr_49": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    }
+  ],
+  
+  "Level3": [
+    {
+      "index": 0,
+      "QuestionArr_00": "Don’t put all your eggs in one basket. What is the lesson?",
+      "OptionArr_00": ["Keep eggs in one place.", "Don’t risk everything on one option.", "Eggs are fragile.", "Farming is risky."],
+      "AnswerArr_00": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 1,
+      "QuestionArr_01": "Don’t put the cart before the horse. What does this mean?",
+      "OptionArr_01": ["Follow the correct order of actions.", "Horses are stronger than carts.", "Transport is important.", "Horses cannot pull carts."],
+      "AnswerArr_01": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 2,
+      "QuestionArr_02": "Don’t bite off more than you can chew. What is being advised?",
+      "OptionArr_02": ["Eat slowly for health.", "Don’t take on more than you can handle.", "Chewing is important.", "Work less for better results."],
+      "AnswerArr_02": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 3,
+      "QuestionArr_03": "Don’t bite the hand that feeds you. What does this proverb mean?",
+      "OptionArr_03": ["Avoid harming those who help you.", "Biting is dangerous.", "Eating quickly is rude.", "Help comes rarely."],
+      "AnswerArr_03": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 4,
+      "QuestionArr_04": "Don’t count your chickens before they hatch. What lesson is here?",
+      "OptionArr_04": ["Plan only after results are certain.", "Chickens grow fast.", "Farming is profitable.", "Eggs should not be counted."],
+      "AnswerArr_04": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 5,
+      "QuestionArr_05": "Don’t judge a book by its cover. What is the meaning?",
+      "OptionArr_05": ["Covers define books.", "Appearances don’t reveal true value.", "Books are often misleading.", "Reading is unnecessary."],
+      "AnswerArr_05": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 6,
+      "QuestionArr_06": "Fine feathers make fine birds. What does this suggest?",
+      "OptionArr_06": ["Clothes improve appearances.", "Birds are beautiful only in feathers.", "Looks don’t matter.", "Feathers are unimportant."],
+      "AnswerArr_06": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 7,
+      "QuestionArr_07": "Fortune favours the brave. What does this mean?",
+      "OptionArr_07": ["Luck helps only the courageous.", "Fortune comes to everyone.", "Bravery is unnecessary.", "Luck is random."],
+      "AnswerArr_07": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 8,
+      "QuestionArr_08": "God helps those who help themselves. What does this teach?",
+      "OptionArr_08": ["Self-effort is essential for success.", "Prayer alone is enough.", "God helps everyone equally.", "Effort is useless."],
+      "AnswerArr_08": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 9,
+      "QuestionArr_09": "Half a loaf is better than none. What is the message?",
+      "OptionArr_09": ["Some help is better than nothing.", "Loaves are valuable.", "Sharing is harmful.", "Never settle for less."],
+      "AnswerArr_09": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+     {
+      "index": 10,
+      "QuestionArr_10": "\"Trust is won not given.\"",
+      "OptionArr_10": ["People should trust right away.", "Trust comes from titles.", "You must earn people's trust.", "Trust is not important in life."],
+      "AnswerArr_10": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 11,
+      "QuestionArr_11": "\"Hope is the last thing ever lost.\"",
+      "OptionArr_11": ["Hope always disappears first.", "We lose hope quickly.", "People always forget to hope.", "Hope stays even in hard times."],
+      "AnswerArr_11": ["", "", "", "Yes"],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 12,
+      "QuestionArr_12": "\"He that is dishonest, trusts nobody.\"",
+      "OptionArr_12": ["Honest people doubt everyone.", "Dishonest people think others are like them.", "Dishonest people are friendly.", "Trust comes easily to everyone."],
+      "AnswerArr_12": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 13,
+      "QuestionArr_13": "\"Believe in your heart that you're meant to live a life full of passion, purpose, magic and miracles.\"",
+      "OptionArr_13": ["Life is only about working hard.", "Only special people live good lives.", "Believe in the beauty of your life.", "Don't trust in good things."],
+      "AnswerArr_13": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 14,
+      "QuestionArr_14": "\"Your mind is the most beautiful form of art.\"",
+      "OptionArr_14": ["Only artists are smart.", "Intelligence is boring.", "Your thoughts are your greatest beauty.", "Outer beauty is more important."],
+      "AnswerArr_14": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 15,
+      "QuestionArr_15": "\"If at first you don't succeed, try, try again.\"",
+      "OptionArr_15": ["Stop after the first try.", "Only lucky people succeed.", "Keep trying until you make it.", "Trying again is pointless."],
+      "AnswerArr_15": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 16,
+      "QuestionArr_16": "\"When there seems to be no hope, dare to find some.\"",
+      "OptionArr_16": ["Give up when it's hard.", "Be brave and look for hope.", "Hope is not real.", "Wait for someone to help."],
+      "AnswerArr_16": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 17,
+      "QuestionArr_17": "\"Better to have than wish.\"",
+      "OptionArr_17": ["Dreaming is better than doing.", "It's better to have what you need than to just wish for it.", "Wishing is all that matters.", "Never try to get what you want."],
+      "AnswerArr_17": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 18,
+      "QuestionArr_18": "\"Trust not the praise of a friend nor the contempt of an enemy.\"",
+      "OptionArr_18": ["Always believe what others say.", "Trust only enemies.", "Think for yourself, don't just believe praise or insults.", "Friends are never honest."],
+      "AnswerArr_18": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 19,
+      "QuestionArr_19": "\"The way to get started is to quit talking and begin doing.\"",
+      "OptionArr_19": ["Talking is more useful than doing.", "Don't start until you are 100% sure.", "Start by acting, not just talking.", "Planning is better than action."],
+      "AnswerArr_19": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+     {
+      "index": 20,
+      "QuestionArr_20": "\"Because the first iPhone was revolutionary, it became a howling success\" means:",
+      "OptionArr_20": ["The iPhone made a loud noise.", "The iPhone was very popular and successful because it was new.", "The iPhone failed.", "The iPhone was expensive."],
+      "AnswerArr_20": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 21,
+      "QuestionArr_21": "\"I am going to dress for success\" means:",
+      "OptionArr_21": ["Dress casually.", "Dressing well can help you succeed.", "Wear a costume.", "Dress for a party."],
+      "AnswerArr_21": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 22,
+      "QuestionArr_22": "\"You hit a home run with that last sale\" means:",
+      "OptionArr_22": ["You played baseball.", "You lost money.", "You did very well.", "You missed the sale."],
+      "AnswerArr_22": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 23,
+      "QuestionArr_23": "\"It's in the bag\" means:",
+      "OptionArr_23": ["Something is hard to do.", "Something is inside a bag.", "Something is sure to be done or achieved.", "Something is lost."],
+      "AnswerArr_23": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 24,
+      "QuestionArr_24": "\"Rags to riches story\" means:",
+      "OptionArr_24": ["Someone who sells clothes.", "Someone who wears rags.", "Someone who became rich after starting poor.", "Someone who lost money."],
+      "AnswerArr_24": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 25,
+      "QuestionArr_25": "\"The new business has finally born fruit\" means:",
+      "OptionArr_25": ["The business is new.", "The business sells fruit.", "The business is now successful.", "The business failed."],
+      "AnswerArr_25": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 26,
+      "QuestionArr_26": "\"We can see the light at the end of the tunnel\" means:",
+      "OptionArr_26": ["There is no hope.", "Things are improving after hard times.", "There is a tunnel nearby.", "It is dark all the time."],
+      "AnswerArr_26": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 27,
+      "QuestionArr_27": "\"The sky's the limit\" means:",
+      "OptionArr_27": ["You should look at the sky.", "There is no limit to what you can achieve.", "The sky is very high.", "You can fly to the sky."],
+      "AnswerArr_27": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 28,
+      "QuestionArr_28": "\"She achieved overnight success\" means:",
+      "OptionArr_28": ["She worked for many years.", "She slept all night.", "She became famous or successful very quickly.", "She failed quickly."],
+      "AnswerArr_28": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 29,
+      "QuestionArr_29": "\"Failure teaches success\" means:",
+      "OptionArr_29": ["Success is easy.", "Failure is bad and permanent.", "You learn from mistakes and succeed later.", "Failure is always final."],
+      "AnswerArr_29": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+     {
+      "index": 30,
+      "QuestionArr_30": "\"Hope is the thing with feathers\" means:",
+      "OptionArr_30": ["Hope is dangerous", "Hope lifts us up like a bird", "Hope is heavy", "Hope is invisible"],
+      "AnswerArr_30": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 31,
+      "QuestionArr_31": "\"All the world's a stage\" means:",
+      "OptionArr_31": ["The world is a theater", "Life is like a play and everyone has a role", "People act on a real stage", "People watch movies"],
+      "AnswerArr_31": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 32,
+      "QuestionArr_32": "\"This room has become my prison\" means:",
+      "OptionArr_32": ["The room is clean", "Feeling trapped or confined", "The room is a jail", "The room is big"],
+      "AnswerArr_32": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 33,
+      "QuestionArr_33": "\"Yesterday was a roller-coaster\" means:",
+      "OptionArr_33": ["The day was perfect", "The day had many ups and downs", "Went to an amusement park", "The day was boring"],
+      "AnswerArr_33": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 34,
+      "QuestionArr_34": "\"Life is a dance, so let your feet up\" means:",
+      "OptionArr_34": ["Life is hard", "Enjoy life with joy and freedom", "Dance every day", "Stay still"],
+      "AnswerArr_34": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 35,
+      "QuestionArr_35": "\"Laughter is the best medicine\" means:",
+      "OptionArr_35": ["Medicine is not useful", "Laughing helps people feel better", "Medicine tastes funny", "Doctors always laugh"],
+      "AnswerArr_35": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 36,
+      "QuestionArr_36": "\"Cooking is great fun without a recipe\" means:",
+      "OptionArr_36": ["Recipes are boring", "Trying new things can be fun even without instructions", "Cooking is easy", "Cooking is dangerous"],
+      "AnswerArr_36": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 37,
+      "QuestionArr_37": "\"Every hallway has an open door\" means:",
+      "OptionArr_37": ["Hallways are dark", "There are always opportunities", "Hallways are long", "Doors are locked"],
+      "AnswerArr_37": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 38,
+      "QuestionArr_38": "\"You'll never grow until you're planted\" means:",
+      "OptionArr_38": ["Growing is easy anywhere", "You need the right place and conditions to grow", "Plants don't grow", "You must be a plant"],
+      "AnswerArr_38": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 39,
+      "QuestionArr_39": "\"A building is only as strong as its foundation\" means:",
+      "OptionArr_39": ["Buildings don't need support", "Success depends on a strong base or beginning", "Buildings are weak", "Foundations are unimportant"],
+      "AnswerArr_39": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+     {
+      "index": 40,
+      "QuestionArr_40": "Inner beauty reflects on the outside. What does this highlight?",
+      "OptionArr_40": ["Appearance is more important.", "Good character enhances outward beauty.", "Beauty is only skin deep.", "Outer beauty creates inner beauty."],
+      "AnswerArr_40": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 41,
+      "QuestionArr_41": "Joy is not in things; it is in us. What is the message?",
+      "OptionArr_41": ["Happiness depends on material things.", "True joy comes from within.", "Joy is impossible to find.", "Things bring permanent happiness."],
+      "AnswerArr_41": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 42,
+      "QuestionArr_42": "Comparison is the enemy of content. What does this statement suggest?",
+      "OptionArr_42": ["Comparing yourself brings dissatisfaction.", "Comparing improves performance.", "Contentment comes through competition.", "Contentment is overrated."],
+      "AnswerArr_42": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 43,
+      "QuestionArr_43": "Beauty is not caused, it is. What does this mean?",
+      "OptionArr_43": ["Beauty comes from makeup.", "Beauty is natural and inherent.", "Beauty is created artificially.", "Beauty is a result of wealth."],
+      "AnswerArr_43": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 44,
+      "QuestionArr_44": "Imperfection is perfection. What is being conveyed here?",
+      "OptionArr_44": ["Perfection is a must.", "Perfection doesn't exist, flaws make beauty.", "Imperfection is weakness.", "Perfect people never fail."],
+      "AnswerArr_44": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 45,
+      "QuestionArr_45": "When work is a duty, life is a slavery. What does this teach?",
+      "OptionArr_45": ["Work is always painful.", "Passion in work leads to freedom.", "Duties make life better.", "Slavery teaches discipline."],
+      "AnswerArr_45": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 46,
+      "QuestionArr_46": "Innovation comes from people who take joy in their work. What is the meaning here?",
+      "OptionArr_46": ["Boredom creates innovation.", "Enjoyment at work fosters creativity.", "Innovation is accidental.", "Work is never joyful."],
+      "AnswerArr_46": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 47,
+      "QuestionArr_47": "Beauty is the illumination of the soul. What does this mean?",
+      "OptionArr_47": ["Beauty is external only.", "Inner spirit makes one truly beautiful.", "Soul has no link to beauty.", "Beauty depends on wealth."],
+      "AnswerArr_47": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 48,
+      "QuestionArr_48": "Beauty is in the character. What does this signify?",
+      "OptionArr_48": ["Looks define beauty.", "Character and virtue define true beauty.", "Beauty is unrelated to character.", "Character is secondary."],
+      "AnswerArr_48": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 49,
+      "QuestionArr_49": "Wear the color of your spirit. What does this imply?",
+      "OptionArr_49": ["Your clothes show your personality.", "Colors have no meaning.", "Fashion is unimportant.", "Spirit depends on trends."],
+      "AnswerArr_49": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    }
+  ],
+  
+  "Level4": [
+    {
+      "index": 0,
+      "QuestionArr_00": "Honesty is the best policy. What is the meaning?",
+      "OptionArr_00": ["Truthfulness is the wisest approach.", "Lies are useful.", "Honesty causes trouble.", "Policies are unimportant."],
+      "AnswerArr_00": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 1,
+      "QuestionArr_01": "Hope for the best, prepare for the worst. What is this advising?",
+      "OptionArr_01": ["Be optimistic but plan for difficulties.", "Expect only good things.", "Never prepare for problems.", "Worrying is necessary."],
+      "AnswerArr_01": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 2,
+      "QuestionArr_02": "If it ain't broke, don't fix it. What does this mean?",
+      "OptionArr_02": ["Fix everything often.", "Don't change what works well.", "Broken things are useless.", "Repairs are unnecessary."],
+      "AnswerArr_02": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 3,
+      "QuestionArr_03": "Let sleeping dogs lie. What is the lesson here?",
+      "OptionArr_03": ["Wake up dogs often.", "Avoid starting old conflicts.", "Dogs are harmless.", "Conflicts solve themselves."],
+      "AnswerArr_03": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 4,
+      "QuestionArr_04": "It takes two to make a quarrel. What does this imply?",
+      "OptionArr_04": ["One person can argue alone.", "Disputes need both sides involved.", "Quarrels are one-sided.", "Arguments solve problems."],
+      "AnswerArr_04": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 5,
+      "QuestionArr_05": "It's never too late to mend. What is this teaching?",
+      "OptionArr_05": ["Change and improvement are always possible.", "Fixing is useless after mistakes.", "Time heals everything.", "Regret is unavoidable."],
+      "AnswerArr_05": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 6,
+      "QuestionArr_06": "It's no use crying over spilt milk. What is being said here?",
+      "OptionArr_06": ["Crying is necessary.", "Don't waste time on past mistakes.", "Milk is valuable.", "Cleanliness is important."],
+      "AnswerArr_06": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 7,
+      "QuestionArr_07": "It's better to be safe than sorry. What is the lesson?",
+      "OptionArr_07": ["Take precautions to avoid regret.", "Risk brings reward.", "Sorry is better than safe.", "Avoid all action."],
+      "AnswerArr_07": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 8,
+      "QuestionArr_08": "Knowledge is power. What does this mean?",
+      "OptionArr_08": ["Learning gives control and strength.", "Power is useless.", "Ignorance is bliss.", "Knowledge is unhelpful."],
+      "AnswerArr_08": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 9,
+      "QuestionArr_09": "Laughter is the best medicine. What is this teaching?",
+      "OptionArr_09": ["Jokes replace doctors.", "Happiness improves health and well-being.", "Medicines make you laugh.", "Laughing is harmful."],
+      "AnswerArr_09": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 10,
+      "QuestionArr_10": "\"It is easy to be brave at a safe distance.\"",
+      "OptionArr_10": ["Courage is easy to find.", "It's simple to give advice when you're not in danger.", "Safe people are always brave.", "Danger makes people smile."],
+      "AnswerArr_10": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 11,
+      "QuestionArr_11": "\"Wisdom and virtue are like the two wheels of a cart.\"",
+      "OptionArr_11": ["You only need one to move forward.", "Both are necessary for a balanced life.", "Carts don't need wheels.", "Wisdom is more important than virtue."],
+      "AnswerArr_11": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 12,
+      "QuestionArr_12": "\"Opportunity seldom knocks twice.\"",
+      "OptionArr_12": ["You always get second chances.", "Opportunities never come.", "Good chances don't come often.", "Opportunities are not important."],
+      "AnswerArr_12": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 13,
+      "QuestionArr_13": "\"Opportunities may come but they never linger.\"",
+      "OptionArr_13": ["You'll always have more chances.", "Good chances disappear quickly.", "Don't take risks.", "Wait and the chance will stay."],
+      "AnswerArr_13": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 14,
+      "QuestionArr_14": "\"The lack of opportunity is ever the excuse of the weak.\"",
+      "OptionArr_14": ["Weak people make excuses.", "Strong people never fail.", "Opportunities come to everyone.", "Some people never get chances."],
+      "AnswerArr_14": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 15,
+      "QuestionArr_15": "\"I find that the harder I work, the more luck I seem to have.\"",
+      "OptionArr_15": ["Luck has nothing to do with effort.", "Hard work creates success.", "Only lucky people succeed.", "Don't work too hard."],
+      "AnswerArr_15": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 16,
+      "QuestionArr_16": "\"The difference between possible and impossible is hard work and commitment.\"",
+      "OptionArr_16": ["Some things are just impossible.", "Hard work doesn't change results.", "You can do the impossible with effort.", "Commitment is not needed."],
+      "AnswerArr_16": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 17,
+      "QuestionArr_17": "\"A good character is real beauty that never fades.\"",
+      "OptionArr_17": ["Beauty always disappears.", "A good heart stays beautiful forever.", "Looks are everything.", "Character doesn't matter."],
+      "AnswerArr_17": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 18,
+      "QuestionArr_18": "\"A thing of beauty is a joy forever.\"",
+      "OptionArr_18": ["Beautiful things don't last.", "Real beauty brings lasting happiness.", "Only art is beautiful.", "Joy is always short."],
+      "AnswerArr_18": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 19,
+      "QuestionArr_19": "\"A rolling stone gathers no moss.\"",
+      "OptionArr_19": ["People who move around don't grow roots.", "Movement makes you strong.", "Stones can't be trusted.", "Change always leads to success."],
+      "AnswerArr_19": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+     {
+      "index": 20,
+      "QuestionArr_20": "\"Life is like a play\" means:",
+      "OptionArr_20": ["Life is boring.", "Life is like a story where everyone has a role.", "Life is easy.", "Life is like a sport."],
+      "AnswerArr_20": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 21,
+      "QuestionArr_21": "\"Life is like a train journey\" means:",
+      "OptionArr_21": ["Life is confusing.", "Life moves forward with many changes.", "Life is slow.", "Life is like a race."],
+      "AnswerArr_21": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 22,
+      "QuestionArr_22": "\"Don't live life in one layer\" means:",
+      "OptionArr_22": ["Live in one place.", "Try many experiences and ideas in life.", "Eat one kind of food.", "Wear many clothes."],
+      "AnswerArr_22": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 23,
+      "QuestionArr_23": "\"The world is a stage and everyone is a player\" means:",
+      "OptionArr_23": ["People like to watch plays.", "Everyone has a part to play in life.", "The world is a theatre.", "Life is a game."],
+      "AnswerArr_23": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 24,
+      "QuestionArr_24": "\"You need to move forward to keep your balance\" means:",
+      "OptionArr_24": ["Stand still to be safe.", "To stay steady in life, keep going.", "Move backward for balance.", "Balance is not important."],
+      "AnswerArr_24": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 25,
+      "QuestionArr_25": "\"Life is like a beautiful melody, only the lyrics are messed up\" means:",
+      "OptionArr_25": ["Lyrics are more important than melody.", "Life is wonderful but sometimes confusing.", "Life is like music only.", "Life is always easy."],
+      "AnswerArr_25": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 26,
+      "QuestionArr_26": "\"Cooking is fun, but sometimes you don't have the recipe\" means:",
+      "OptionArr_26": ["Always follow recipes.", "Doing things is fun but sometimes hard because you lack instructions.", "Recipes are not important.", "Cooking is boring."],
+      "AnswerArr_26": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 27,
+      "QuestionArr_27": "\"You're the author of your own story\" means:",
+      "OptionArr_27": ["Someone else controls your life.", "You control your life and choices.", "Stories are not real.", "Writing is difficult."],
+      "AnswerArr_27": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 28,
+      "QuestionArr_28": "\"A building is only as strong as its foundation\" means:",
+      "OptionArr_28": ["Buildings don't need support.", "Everything depends on a strong base or beginning.", "Foundations are not needed.", "Buildings are weak."],
+      "AnswerArr_28": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 29,
+      "QuestionArr_29": "\"Each star has its own place in the sky\" means:",
+      "OptionArr_29": ["Only some people matter.", "Everyone has an important place in the world.", "Stars move all the time.", "Stars look the same."],
+      "AnswerArr_29": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 30,
+      "QuestionArr_30": "\"We only won by a nose\" means:",
+      "OptionArr_30": ["We won easily", "We barely won by a very small margin", "We lost the race", "We didn't compete"],
+      "AnswerArr_30": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 31,
+      "QuestionArr_31": "\"Got into playoffs just under the wire\" means:",
+      "OptionArr_31": ["Qualified just in time", "Lost badly", "Played early", "Gave up"],
+      "AnswerArr_31": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 32,
+      "QuestionArr_32": "\"Underdogs come out swinging\" means:",
+      "OptionArr_32": ["They give up", "They win easily", "Those expected to lose fight hard", "They avoid conflict"],
+      "AnswerArr_32": ["", "", "Yes", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 33,
+      "QuestionArr_33": "\"Taking it one day at a time\" means:",
+      "OptionArr_33": ["Facing challenges slowly and steadily", "Ignoring problems", "Giving up quickly", "Planning far ahead"],
+      "AnswerArr_33": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 34,
+      "QuestionArr_34": "\"Hit it out of the park\" means:",
+      "OptionArr_34": ["Played baseball", "Did extremely well", "Made a mistake", "Left the game"],
+      "AnswerArr_34": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 35,
+      "QuestionArr_35": "\"Throw in the towel\" means:",
+      "OptionArr_35": ["Clean the floor", "Give up", "Win the game", "Start again"],
+      "AnswerArr_35": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 36,
+      "QuestionArr_36": "\"Get the ball rolling\" means:",
+      "OptionArr_36": ["Start something to get others involved", "Play sports", "Stop working", "Wait for others"],
+      "AnswerArr_36": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 37,
+      "QuestionArr_37": "\"Play to win\" means:",
+      "OptionArr_37": ["Take risks to succeed", "Play safe", "Avoid competition", "Don't care about winning"],
+      "AnswerArr_37": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 38,
+      "QuestionArr_38": "\"You win some, you lose some\" means:",
+      "OptionArr_38": ["Success and failure both happen", "You always win", "You never lose", "Winning is guaranteed"],
+      "AnswerArr_38": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 39,
+      "QuestionArr_39": "\"Take it on the chin\" means:",
+      "OptionArr_39": ["Accept difficulties without complaining", "Get hit in the face", "Run away", "Complain a lot"],
+      "AnswerArr_39": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 40,
+      "QuestionArr_40": "Dreams don't work unless you do. What is the key idea?",
+      "OptionArr_40": ["Dreams happen automatically.", "Effort is necessary to achieve dreams.", "Dreams are useless.", "Work and dreams are unrelated."],
+      "AnswerArr_40": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 41,
+      "QuestionArr_41": "It's not what you have but who you are. What does this emphasize?",
+      "OptionArr_41": ["Wealth is the key to respect.", "Character is more important than possessions.", "Material things define people.", "Money brings happiness."],
+      "AnswerArr_41": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 42,
+      "QuestionArr_42": "If opportunity doesn't knock, build a door. What is the lesson here?",
+      "OptionArr_42": ["Wait for opportunities patiently.", "Create your own chances for success.", "Opportunities are rare.", "Doors are symbols of success."],
+      "AnswerArr_42": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 43,
+      "QuestionArr_43": "Falling down is accidental, staying down is a choice. What does this statement imply?",
+      "OptionArr_43": ["Failures are permanent.", "Choosing to rise after failure shows strength.", "Falling is a sign of weakness.", "Accidents cannot be avoided."],
+      "AnswerArr_43": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 44,
+      "QuestionArr_44": "Doubt kills more dreams than failure will. What is the main idea?",
+      "OptionArr_44": ["Failure is worse than doubt.", "Self-doubt stops progress more than failure.", "Doubt is harmless.", "Dreams are never achievable."],
+      "AnswerArr_44": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 45,
+      "QuestionArr_45": "Be humble, be hungry. What does this suggest?",
+      "OptionArr_45": ["Stay modest but eager to achieve.", "Hunger is a sign of success.", "Humility is weakness.", "Ambition is unnecessary."],
+      "AnswerArr_45": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 46,
+      "QuestionArr_46": "Little things make big days. What does this mean?",
+      "OptionArr_46": ["Small joys create happiness in life.", "Big achievements matter more.", "Little things are unimportant.", "Days depend on luck."],
+      "AnswerArr_46": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 47,
+      "QuestionArr_47": "Change is greater than chance. What does this highlight?",
+      "OptionArr_47": ["Waiting for luck is better.", "Taking initiative is more powerful than luck.", "Change is harmful.", "Chance always wins over effort."],
+      "AnswerArr_47": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 48,
+      "QuestionArr_48": "Habit is the fuel to achieve. What does this teach?",
+      "OptionArr_48": ["Random actions lead to success.", "Consistent habits drive achievements.", "Habits are hard to form.", "Goals are unrelated to habits."],
+      "AnswerArr_48": ["", "Yes", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 49,
+      "QuestionArr_49": "Shining like the sun comes after burning like one. What is the meaning of this?",
+      "OptionArr_49": ["Success comes only after hard work.", "Sunlight is harmful.", "Avoid working too hard.", "Burning leads to failure."],
+      "AnswerArr_49": ["Yes", "", "", ""],
+      "ImageName": "NA",
+      "QuestionImage": "NA"
+    }
+  ]
+}
+

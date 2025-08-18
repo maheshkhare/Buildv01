@@ -23,7 +23,7 @@
                 style="max-width: 400px; height: auto;"
               />
               <div v-else class="text-center text-gray-400 italic mt-2">
-                No image available
+               <!-- No image available -->
               </div>
             </div>
           </div>
