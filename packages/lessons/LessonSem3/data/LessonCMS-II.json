@@ -478,7 +478,7 @@
     {
       "index": 1,
       "QuestionArr_01": "Go to the upper left, find the only four-letter word in that box, which row is it in___, which column is that word in___",
-      "OptionArr_01": ["14", "12", "3", "6"],
+      "OptionArr_01": ["14", "12", "3,3", "6"],
       "AnswerArr_01": ["", "", "Yes", ""],
       "ImageName": "L2-1",
       "ImageName2": "L2-2",

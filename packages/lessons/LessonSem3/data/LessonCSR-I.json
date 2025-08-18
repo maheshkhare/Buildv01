@@ -496,14 +496,14 @@
       "ImageName3": "",
       "ImageName4": ""
     }
-  ],
+  ], 
  "Level2": [
        
     {
-      "QuestionArr_0": ["GGiB"],
-      "OptionArr_0": ["B", "i", "G", "G", "X", "Y", "Z", "D", "E"],
+      "QuestionArr_0": ["GGIB"],
+      "OptionArr_0": ["B", "I", "G", "G", "X", "Y", "Z", "D", "E"],
       "AnswerArr_0": ["Yes", "Yes", "Yes", "Yes", "", "", "", "", ""],
-      "AnswerWord": "BiGG",
+      "AnswerWord": "BIGG",
       "IsOppositeValid": false,
       "Para": "",
       "ImageName": "",

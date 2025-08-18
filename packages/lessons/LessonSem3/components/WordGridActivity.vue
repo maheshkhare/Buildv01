@@ -121,10 +121,10 @@ export default {
   },
   watch: {
     // Reset selections when question or grid changes
-    questionWord() {
-      this.optionWord = [];
-      this.selectedIndices = [];
-    },
+    // questionWord() {
+    //   this.optionWord = [];
+    //   this.selectedIndices = [];
+    // },
     gridLetters() {
       this.optionWord = [];
       this.selectedIndices = [];
