@@ -12,9 +12,7 @@
 
                     <SectionSem2Intro v-show="InstructionShow" :instructionText="currentInstructionText" @PracticeNext="PracticeNext" />
                    
-                    <IntroductionPage v-show="PracticeOne" />
-
-                    <!-- <SectionSem2Top v-show="PracticeOne" :accept-input="acceptInput" :commonNumArray="commonNumArray" :ImageNames="ImageNames" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @save-and-exit="SaveAndExitNow" @NextQuestion="NextQuestion" @PreviousQuestion="PreviousQuestion" @WordsAnswer="WordsAnswer" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :instructionText="currentInstructionText" :counter="counter" :imageSet="currentImageSet" /> -->
+                    <SectionSem2Top v-show="PracticeOne" :accept-input="acceptInput" :commonNumArray="commonNumArray" :ImageNames="ImageNames" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @save-and-exit="SaveAndExitNow" @NextQuestion="NextQuestion" @PreviousQuestion="PreviousQuestion" @WordsAnswer="WordsAnswer" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :instructionText="currentInstructionText" :counter="counter" :imageSet="currentImageSet" />
                 </div>
             </div>
         </div>
@@ -27,7 +25,6 @@ import 'CSS/tailwind.css';
 import baseMixin from 'Scripts/mixinBaseLesson';
 import OneToThreeVertical from 'Components/layout-components/LayoutVSplitTwoOne';
 import SectionSem2Top from 'Lessons/LessonSem2/components/SectionSem2Top';
-import IntroductionPage from 'Lessons/LessonSem2/components/IntroductionPage';
 import SectionSem2Intro from 'Lessons/LessonSem2/components/SectionSem2Intro';
 import resultPopup from '../resultPopup.vue';
 import topHeader from '../topHeader.vue'
@@ -48,7 +45,6 @@ export default {
         OneToThreeVertical,
         resultPopup,
         SectionSem2Top,
-        IntroductionPage,
         SectionSem2Intro,
         topHeader
     },
