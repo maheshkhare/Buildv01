@@ -36,7 +36,9 @@
                 </button>
             </div>
             <div v-if="showStory && jsonFileName !== 'CSR-I'" class="mt-6 px-2 sm:px-4">
-              <SectionStory :currentStory="computedCurrentStory"  :paraData="currentPara"  class="w-full"/>
+              <SectionStory 
+               :currentStory="computedCurrentStory"  
+              :paraData="currentPara"  class="w-full"/>
             </div>
             <div class="mt-4 sm:mt-6"></div>
             <SectionSem3Top v-show="PracticeOne && jsonFileName !== 'CSR-I'" :accept-input="acceptInput" :commonNumArray="commonNumArray" :ImageNames="ImageNames" :ImageNames1="ImageNames1" :ImageNames2="ImageNames2" :ImageNames3="ImageNames3" :ImageNames4="ImageNames4" :isCMS2="jsonFileName === 'CMS-II'" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @NextQuestion="NextQuestion" @WordsAnswer="WordsAnswer" :PrevQuestion="PrevQuestion" @PreviousQuestion="goToPreviousQuestion" :counter="counter" :viewingPrevious="viewingPrevious" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :imageHeight="getResponsiveImageHeight()" :imageWidth="getResponsiveImageWidth()" class="w-full" />
@@ -189,7 +191,7 @@ export default {
       return this.items[this.counter]
     },
     showStoryButton() {
-      const allowedFiles = ['CMUCMS-I', 'CMUCMS-II']
+      const allowedFiles = ['CMUCMS-I', 'CMUCMS-II','DMU']
       const jsonFile = sessionStorage.getItem('jsonFile')
       return allowedFiles.includes(jsonFile)
     },
