@@ -88,7 +88,7 @@
         },
         {
           "name": "THINGS YOU CAN TOUCH",
-          "words": ["Steam Engine", "Novel", "Sculpture", "Bed", "Briefcase","Corner","Watch", "Bush","Dor", "Cellar"]
+          "words": ["Steam Engine", "Novel", "Sculpture", "Bed", "Briefcase","Corner","Watch", "Bush","Door", "Cellar"]
         }
       ]
         },
@@ -105,7 +105,7 @@
         },
         {
           "name": "PEOPLE",
-          "words": ["Nephew", "Girlif", "Teacher","Women", "Her","SIster", "Mrs.","Uncle","Aunt"]
+          "words": ["Nephew", "Girl", "Teacher","Women", "Her","SIster", "Mrs.","Uncle","Aunt"]
         }
       ]
         },
@@ -117,12 +117,12 @@
           "words": ["Drink","Play", "Sit", "Cook", "Chat", "Wave"]
         },
         {
-          "name": "PLACES",
-          "words": ["Mercury", "SaSatunlum", "Earth", "Mars"]
+          "name": "planets",
+          "words": ["Mercury", "Saturn", "Earth", "Mars"]
         },
         {
           "name": "PEOPLE",
-          "words": ["Naphew", "Pupil", "Girl","Priest", "Women", "Her", "Father", "Handyman", "Uncle", "Aunt"]
+          "words": ["Nephew’", "Pupil", "Girl","Priest", "Women", "Her", "Father", "Handyman", "Uncle", "Aunt"]
         }
       ]
         },
@@ -150,7 +150,7 @@
           "words": [ "Soon" ,"Always","Later"]
         },
         {
-          "name": "PEOPLE",
+          "name": "PLACES",
           "words": ["China" ,"Singapore", "England" ,"Mexico" ,"Ireland"]
         },
         {
@@ -290,7 +290,7 @@
         },
         {
           "name": "PARTS OF THE BODY",
-          "words": ["Tess", "Chin", "Hips", "Rib-cage", "Tendons"]
+          "words": [ "Chin", "Hips", "Rib-cage", "Tendons"]
         },
         {
           "name": "WAYS TO MOVE",
@@ -298,7 +298,7 @@
         },
         {
           "name": "THINGS RELATED TO NATURE",
-          "words": ["Clouds", "Mountain", "Plants", "Ocean", "Landscape"]
+          "words": [ "Tress","Clouds", "Mountain", "Plants", "Ocean", "Landscape"]
         }
           ]
         },
@@ -319,7 +319,7 @@
         },
         {
           "name": "ANIMALS TO PLAY WITH",
-          "words": ["Horse", "Rabbit", "Kitten", "Pony", "DogDolphin"]
+          "words": ["Horse", "Rabbit", "Kitten", "Pony", "Dog"]
         }
       ]
         }, {
@@ -435,7 +435,7 @@
         },
         {
           "name": "You can buy with",
-          "words": ["Penny", "Coles", "Credit Card", "Cheque", "Dollar"]
+          "words": ["Penny",  "Credit Card", "Cheque", "Dollar"]
         },
         {
           "name": "Adjectives",
@@ -509,7 +509,7 @@
         },
         {
           "name": "THINGS FOUND IN THE GARDEN",
-          "words": ["Boown",  "Beach", "Bucket", "Fence"]
+          "words": ["Slide","flower","Swings",  "Bucket", "Fence"]
         },
         {
           "name": "MUSICAL INSTRUMENTS",
@@ -521,7 +521,7 @@
         },
         {
           "name": "ANIMALS",
-          "words": ["Beetle", "Roaster", "Vak", "Swan", "Snail"]
+          "words": ["Beetle",  "Vak", "Swan", "Snail"]
         }
       ]
         },
@@ -647,7 +647,7 @@
             {
               "name": "COLORS",
               "displayName": "COLORS",
-              "words": ["Silver", "Magenta", "Black", "Cherry", "Silver"]
+              "words": ["Silver", "Magenta", "Black", "Cherry", "Orange"]
             },
             {
               "name": "LEVEL (STAGES) NUMBERS",
@@ -672,12 +672,12 @@
             {
               "name": "SOUNDS",
               "displayName": "SOUNDS",
-              "words": ["Howl", "Crack", "Clap", "Heor", "Crackle", "Snap", "Squirm", "Hoor"]
+              "words": ["Howl", "Crack", "Clap", "Hear", "Crackle", "Snap", "Squirm"]
             },
             {
               "name": "PARTS OF THE BODY",
               "displayName": "PARTS OF THE BODY",
-              "words": ["Mouth", "Limbs", "Shoulder", "Ankle", "Curns", "Head"]
+              "words": ["Mouth", "Limbs", "Shoulder", "Ankle", "Head"]
             },
             {
               "name": "HOW",
@@ -765,7 +765,7 @@
           "categories":[ 
         {
           "name": "CAN PUT IN YOUR POCKET",
-          "words": ["Thread", "Diamond", "Screw", "Stamp", "Nickel","Lock","Silver"]
+          "words": ["Thread", "Diamond", "Screw", "Stamp", "Nickel","Lock","Silver bracelet"]
         },
         {
           "name": "BIRDS",
@@ -773,7 +773,7 @@
         },
         {
           "name": "COLORS",
-          "words": ["Silver", "Magenta", "Black", "Cherry", "Silver"]
+          "words": ["Silver", "Magenta", "Black", "Cherry"]
         },
         {
           "name": "LEVEL (STAGES) NUMBERS",
