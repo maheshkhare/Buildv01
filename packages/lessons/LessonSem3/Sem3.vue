@@ -35,7 +35,7 @@
                   {{ showStory ? 'Hide' : 'Show' }} Story Section
                 </button>
             </div>
-            <div v-if="showStory && jsonFileName !== 'CSR-I'" class="mt-6 px-2 sm:px-4">
+            <div v-if="showStory && jsonFileName !== 'CSR-I' && !resultShow" class="mt-6 px-2 sm:px-4">
               <SectionStory 
                :currentStory="computedCurrentStory"  
               :paraData="currentPara"  class="w-full"/>

@@ -3,13 +3,1146 @@
    [
         {
             "index": 0,
-            "QuestionArr_00": "What are some similarities in Liza’s favorite words?",
-            "OptionArr_00": ["They are playful and contain double letters (e.g., 'lollipop', 'balloon')","They are all colors","They are short and easy to spell" ],
-            "AnswerArr_00": ["Yes", "", ""],
+            "QuestionArr_00": "Where did the dog get the bone from ?",
+            "OptionArr_00": ["From a butcher’s shop","From another dog","From a garbage bin","From a boy" ],
+            "AnswerArr_00": ["Yes", "", "",""],
             "ImageName": "",
-           "Para":"Liza has loved words for as long as she can remember. She loves the sounds words make, the shapes of words, and the way letters are arranged in words. Some of her favorite words are lollipop, balloon and purple. When Liza has free time at school, she likes to write down words and decide on the letters to create fun drawings. Sometimes she takes the drawings home to her parents, and sometimes her teacher pins them to the classroom bulletin board. One day, Liza’s art teacher, Mr. Jordan, walked into her classroom and noticed one of Liza’s recent pieces of word art. He was very impressed with her creativity and her word choice. After all, not many fourth graders know the word sanctuary and how to spell it. Let alone know what it means. Liza’s word art turned the word sanctuary into a beautiful image with birds, rabbits and butterflies in a natural, undisturbed setting with trees and a pond. Mr. Jordan waited until the class went to recess, and then talked to Liza’s teacher, Mrs. Roberts, about Liza’s talent. Mrs. Roberts said, “She is a very good artist, and she is also quite talented at spelling.“I’m sure the fact that she turns the letters of words into characters and images to form her artistic pieces helps her remember the spellings. She could do very well in a spelling bee, and her doodling would help her study,” said Mr. Jordan. “I could help her too by creating word art with her,” he added. “That’s a great idea. I will ask Liza if she is interested in entering the spelling bee.” Mrs. Roberts replied. “It is only three weeks away, so she would have to study pretty hard,” she added. Later that day Mrs. Roberts asked Liza if she could stay for a couple of minutes after class dismissal. Liza asked Mrs. Roberts if she was in trouble, and Mrs. Roberts replied, “Quite the contrary.” Liza was still nervous, but she stayed to see what her teacher wanted. When Liza found out Mrs. Roberts wanted her to enter the spelling bee, she was thrilled and honored. Usually only fifth graders enter the spelling bee. Liza was even more excited when she heard that Mr. Jordan was going to help her study with the use of art. Liza and Mr. Jordan met every day after school for the next three weeks. Mrs. Roberts had given them word lists to study. Liza studied hard by turning each word into a drawing. When she wasn’t sure what a word meant. Mr. Jordan would tell her and help her come up with an idea for the word art. When the big day arrived, Liza felt well prepared, but she was still nervous. There were 26 fifth graders and 3 fourth graders in the spelling bee.After the first three rounds, there were still 21 contestants. Liza was one of them. Liza was holding her own and continued to successfully spell di cult words including economy, avenue, tissue and station over the next several rounds. She knew her word art was helping her succeed because she could visualize the words. After six more rounds, there were only three contestants remaining - Liza and two fifth graders. It was Liza’s turn to spell. Her word was migration. She remembered drawing flying ducks for the word. She pictured her art, and spelled the word correctly. One of the fifth graders wasn’t so lucky during this round, and it was now down to Liza and one other contestant, a boy named Ben. Ben went first in this round. He was given a word that Liza knew very well, valley, Ben knew the word too and spelled it without a neck. Now Liza had to spell her word correctly to stay in the bee, otherwise, Ben would win. She listened carefully as her word was announced. The word sounded familiar, but it wasn’t one of the words she had studied. The word was tolerable. Liza thought about words that contained similar sounds. She knew how to spell tolerate and notable. Could she use that knowledge to spell tolerable? She did, and it worked. Liza made it to the next round.Ben listened to his next word and hesitated for quite a while. He took his time and eventually spelled ceremony correctly. Liza’s next word was deception. This too was a word she had not studied. She thought and thought about the word and listened to the sounds, but in the end, she was one letter off in her spelling. Liza was slightly sad she didn’t win, but at the same time she was proud of herself for making it this far in her first spelling bee. Plus she knew she could come back next year and try again.",
+           "Para":" Once upon a time, there lived a stray dog in a small town.One day, the dog got a juicy bone from a butcher’s shop. All excited, he picked up and looked for a secluded place to enjoy it at ease. He ran to a nearby river side to enjoy the bone all by himself. As he was chewing the bone, he happened to look down into the river.The dog was quite surprised as he saw his own reflection in the river. He mistook it for another dog with a juicy bone in its mouth",
             "QuestionImage": "NA"
-        }
-
-    ]
+        },
+        {
+      "index": 1,
+      "QuestionArr_01": "Why did the dog go to the riverside?",
+      "OptionArr_01": [
+        "To find more food",
+        "To drink water",
+        "To enjoy the bone alone",
+        "To meet another dog",
+        "To sleep under a tree",
+        "To hide from people"
+      ],
+      "AnswerArr_01": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, there lived a stray dog in a small town. One day, the dog got a juicy bone from a butcher’s shop. All excited, he picked it up and looked for a secluded place to enjoy it at ease. He ran to a nearby river side to enjoy the bone all by himself. As he was chewing the bone, he happened to look down into the river. The dog was quite surprised as he saw his own reflection in the river. He mistook it for another dog with a juicy bone in its mouth.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 2,
+      "QuestionArr_02": "What did the dog see in the river?",
+      "OptionArr_02": [
+        "A fish swimming",
+        "His own reflection",
+        "Another dog without a bone",
+        "A floating log"
+      ],
+      "AnswerArr_02": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, there lived a stray dog in a small town. One day, the dog got a juicy bone from a butcher’s shop. All excited, he picked it up and looked for a secluded place to enjoy it at ease. He ran to a nearby river side to enjoy the bone all by himself. As he was chewing the bone, he happened to look down into the river. The dog was quite surprised as he saw his own reflection in the river. He mistook it for another dog with a juicy bone in its mouth.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 3,
+      "QuestionArr_03": "What mistake did the dog make?",
+      "OptionArr_03": [
+        "He dropped the bone",
+        "He barked at his reflection",
+        "He thought it was another dog",
+        "He jumped into the water",
+        "He ran away",
+        "He gave the bone to someone",
+        "He hid the bone in the mud",
+        "He ignored the bone completely"
+      ],
+      "AnswerArr_03": ["Yes", "Yes", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, there lived a stray dog in a small town. One day, the dog got a juicy bone from a butcher’s shop. All excited, he picked it up and looked for a secluded place to enjoy it at ease. He ran to a nearby river side to enjoy the bone all by himself. As he was chewing the bone, he happened to look down into the river. The dog was quite surprised as he saw his own reflection in the river. He mistook it for another dog with a juicy bone in its mouth.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 4,
+      "QuestionArr_04": "If you were the dog, what would you do after seeing your reflection?",
+      "OptionArr_04": [
+        "Keep quiet and enjoy my bone",
+        "Bark at the reflection",
+        "Jump into the water to get the 'other' bone",
+        "Walk away from the river",
+        "Look carefully and understand it’s a reflection",
+        "Share my bone with the 'other dog'"
+      ],
+      "AnswerArr_04": ["Yes", "", "", "", "Yes", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, there lived a stray dog in a small town. One day, the dog got a juicy bone from a butcher’s shop. All excited, he picked it up and looked for a secluded place to enjoy it at ease. He ran to a nearby river side to enjoy the bone all by himself. As he was chewing the bone, he happened to look down into the river. The dog was quite surprised as he saw his own reflection in the river. He mistook it for another dog with a juicy bone in its mouth.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 5,
+      "QuestionArr_05": "Who did Cinderella live with?",
+      "OptionArr_05": [
+        "Her parents",
+        "Her fairy godmother",
+        "Her wicked stepmother and two stepsisters",
+        "The prince"
+      ],
+      "AnswerArr_05": ["", "", "Yes", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, in a village there lived a beautiful girl named Cinderella with her wicked stepmother and two step sisters. She worked hard all day. One day, they all went to a ball in the palace, leaving Cinderella behind. Cinderella was feeling sad. Suddenly there was a burst of light and the fairy godmother appeared. With a flick of the magic she turned Cinderella into a beautiful princess with glass slippers and a horse carriage appeared at the door. The fairy godmother warned Cinderella to return before midnight. Cinderella arrived at the ball, the prince saw her and fell in love with her.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 6,
+      "QuestionArr_06": "Why was Cinderella sad before the ball?",
+      "OptionArr_06": [
+        "She lost her glass slipper",
+        "She had to work all day",
+        "She was left behind when her stepmother and sisters went to the ball",
+        "She missed her parents",
+        "She had no dress to wear",
+        "She could not meet the prince"
+      ],
+      "AnswerArr_06": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, in a village there lived a beautiful girl named Cinderella with her wicked stepmother and two step sisters. She worked hard all day. One day, they all went to a ball in the palace, leaving Cinderella behind. Cinderella was feeling sad. Suddenly there was a burst of light and the fairy godmother appeared. With a flick of the magic she turned Cinderella into a beautiful princess with glass slippers and a horse carriage appeared at the door. The fairy godmother warned Cinderella to return before midnight. Cinderella arrived at the ball, the prince saw her and fell in love with her.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 7,
+      "QuestionArr_07": "Who helped Cinderella go to the ball?",
+      "OptionArr_07": [
+        "The prince",
+        "A kind servant",
+        "Her fairy godmother",
+        "A talking bird",
+        "A magical horse",
+        "Her best friend",
+        "A neighbour",
+        "A wizard"
+      ],
+      "AnswerArr_07": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, in a village there lived a beautiful girl named Cinderella with her wicked stepmother and two step sisters. She worked hard all day. One day, they all went to a ball in the palace, leaving Cinderella behind. Cinderella was feeling sad. Suddenly there was a burst of light and the fairy godmother appeared. With a flick of the magic she turned Cinderella into a beautiful princess with glass slippers and a horse carriage appeared at the door. The fairy godmother warned Cinderella to return before midnight. Cinderella arrived at the ball, the prince saw her and fell in love with her.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 8,
+      "QuestionArr_08": "What warning did the fairy godmother give Cinderella?",
+      "OptionArr_08": [
+        "To leave before the prince sees her",
+        "To dance only once",
+        "To return before midnight",
+        "To never remove her glass slippers",
+        "To stay at the palace forever",
+        "To hide her magic dress"
+      ],
+      "AnswerArr_08": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, in a village there lived a beautiful girl named Cinderella with her wicked stepmother and two step sisters. She worked hard all day. One day, they all went to a ball in the palace, leaving Cinderella behind. Cinderella was feeling sad. Suddenly there was a burst of light and the fairy godmother appeared. With a flick of the magic she turned Cinderella into a beautiful princess with glass slippers and a horse carriage appeared at the door. The fairy godmother warned Cinderella to return before midnight. Cinderella arrived at the ball, the prince saw her and fell in love with her.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 9,
+      "QuestionArr_09": "If you were Cinderella, what would you do after meeting the prince at the ball?",
+      "OptionArr_09": ["Stay and dance until midnight","Tell him the truth about your life","Run away before anyone sees you","Ask the fairy godmother for more time","Invite your stepsisters to join","Leave one glass slipper on purpose"],
+      "AnswerArr_09": ["", "Yes", "", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, in a village there lived a beautiful girl named Cinderella with her wicked stepmother and two step sisters. She worked hard all day. One day, they all went to a ball in the palace, leaving Cinderella behind. Cinderella was feeling sad. Suddenly there was a burst of light and the fairy godmother appeared. With a flick of the magic she turned Cinderella into a beautiful princess with glass slippers and a horse carriage appeared at the door. The fairy godmother warned Cinderella to return before midnight. Cinderella arrived at the ball, the prince saw her and fell in love with her.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 10,
+      "QuestionArr_10": "Where did the monkey live?",
+      "OptionArr_10": ["In a cave", "On a tree that bore rose apples", "By the river bank", "In a village"],
+      "AnswerArr_10": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a clever monkey lived in a tree that bore juicy, red rose apples. He was very happy. One fine day, a crocodile swam up to that tree and told the monkey that he had travelled a long distance and was in search of food as he was very hungry. The kind monkey offered him a few rose apples. The crocodile enjoyed them very much and asked the monkey whether he could come again for some more fruit. The generous monkey happily agreed. The crocodile returned the next day. And the next. And the next one after that. Soon the two became very good friends. They discussed their lives, their friends and family, like all friends do. The crocodile told the monkey that he had a wife and that they lived on the other side of the river. So the kind monkey offered him some extra rose apples to take home to his wife. The crocodile's wife loved the rose apples and made her husband promise to get her some every day.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 11,
+      "QuestionArr_11": "Why did the crocodile come to the monkey's tree?",
+      "OptionArr_11": ["To sleep under the tree", "To find food because he was hungry", "To meet the monkey", "To drink water from the river", "To look for his wife", "To pick some flowers"],
+      "AnswerArr_11": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a clever monkey lived in a tree that bore juicy, red rose apples. He was very happy. One fine day, a crocodile swam up to that tree and told the monkey that he had travelled a long distance and was in search of food as he was very hungry. The kind monkey offered him a few rose apples. The crocodile enjoyed them very much and asked the monkey whether he could come again for some more fruit. The generous monkey happily agreed. The crocodile returned the next day. And the next. And the next one after that. Soon the two became very good friends. They discussed their lives, their friends and family, like all friends do. The crocodile told the monkey that he had a wife and that they lived on the other side of the river. So the kind monkey offered him some extra rose apples to take home to his wife. The crocodile's wife loved the rose apples and made her husband promise to get her some every day.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 12,
+      "QuestionArr_12": "What fruit did the monkey offer the crocodile?",
+      "OptionArr_12": ["Mangoes", "Bananas", "Rose apples", "Oranges", "Guavas", "Pineapples", "Grapes", "Watermelons"],
+      "AnswerArr_12": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a clever monkey lived in a tree that bore juicy, red rose apples. He was very happy. One fine day, a crocodile swam up to that tree and told the monkey that he had travelled a long distance and was in search of food as he was very hungry. The kind monkey offered him a few rose apples. The crocodile enjoyed them very much and asked the monkey whether he could come again for some more fruit. The generous monkey happily agreed. The crocodile returned the next day. And the next. And the next one after that. Soon the two became very good friends. They discussed their lives, their friends and family, like all friends do. The crocodile told the monkey that he had a wife and that they lived on the other side of the river. So the kind monkey offered him some extra rose apples to take home to his wife. The crocodile's wife loved the rose apples and made her husband promise to get her some every day.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 13,
+      "QuestionArr_13": "What did the crocodile's wife ask him to do after tasting the rose apples?",
+      "OptionArr_13": ["Stop visiting the monkey", "Bring her rose apples every day", "Plant a rose apple tree near their home", "Invite the monkey to their house", "Catch more fish for her", "Travel far away"],
+      "AnswerArr_13": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a clever monkey lived in a tree that bore juicy, red rose apples. He was very happy. One fine day, a crocodile swam up to that tree and told the monkey that he had travelled a long distance and was in search of food as he was very hungry. The kind monkey offered him a few rose apples. The crocodile enjoyed them very much and asked the monkey whether he could come again for some more fruit. The generous monkey happily agreed. The crocodile returned the next day. And the next. And the next one after that. Soon the two became very good friends. They discussed their lives, their friends and family, like all friends do. The crocodile told the monkey that he had a wife and that they lived on the other side of the river. So the kind monkey offered him some extra rose apples to take home to his wife. The crocodile's wife loved the rose apples and made her husband promise to get her some every day.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 14,
+      "QuestionArr_14": "If you were the monkey, what would you do to keep your friendship with the crocodile strong?",
+      "OptionArr_14": ["Share fruits regularly", "Visit the crocodile's home across the river", "Teach the crocodile to climb the tree", "Help the crocodile's wife plant a tree near her house", "Talk to him every day from the tree", "Stop sharing fruits"],
+      "AnswerArr_14": ["Yes", "", "", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a clever monkey lived in a tree that bore juicy, red rose apples. He was very happy. One fine day, a crocodile swam up to that tree and told the monkey that he had travelled a long distance and was in search of food as he was very hungry. The kind monkey offered him a few rose apples. The crocodile enjoyed them very much and asked the monkey whether he could come again for some more fruit. The generous monkey happily agreed. The crocodile returned the next day. And the next. And the next one after that. Soon the two became very good friends. They discussed their lives, their friends and family, like all friends do. The crocodile told the monkey that he had a wife and that they lived on the other side of the river. So the kind monkey offered him some extra rose apples to take home to his wife. The crocodile's wife loved the rose apples and made her husband promise to get her some every day.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 15,
+      "QuestionArr_15": "Why was the crow searching for water?",
+      "OptionArr_15": ["He was tired", "He was thirsty", "He wanted to bathe", "He wanted to play"],
+      "AnswerArr_15": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "One hot day, a crow was very thirsty and searched for water. After a long time, he found a pot with a little water at the bottom. He tried to drink but couldn't reach it. Then, he thought of a clever idea. He picked small pebbles and dropped them one by one into the pot. Slowly, the water rose up, and the crow drank it happily.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 16,
+      "QuestionArr_16": "What did the crow find after a long search?",
+      "OptionArr_16": ["A lake", "A pot with water", "A river", "A bucket", "A fountain", "A glass of water"],
+      "AnswerArr_16": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "One hot day, a crow was very thirsty and searched for water. After a long time, he found a pot with a little water at the bottom. He tried to drink but couldn't reach it. Then, he thought of a clever idea. He picked small pebbles and dropped them one by one into the pot. Slowly, the water rose up, and the crow drank it happily.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 17,
+      "QuestionArr_17": "Why couldn't the crow drink water from the pot?",
+      "OptionArr_17": ["The pot was broken", "The pot was empty", "The water was too low", "The pot was too heavy", "The crow was too small", "The pot was covered", "The pot was too far", "The water was dirty"],
+      "AnswerArr_17": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "One hot day, a crow was very thirsty and searched for water. After a long time, he found a pot with a little water at the bottom. He tried to drink but couldn't reach it. Then, he thought of a clever idea. He picked small pebbles and dropped them one by one into the pot. Slowly, the water rose up, and the crow drank it happily.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 18,
+      "QuestionArr_18": "What did the crow do to raise the water level?",
+      "OptionArr_18": ["Tipped the pot over", "Called other crows for help", "Dropped pebbles into the pot", "Used a stick to reach the water", "Drank rainwater instead", "Left without drinking"],
+      "AnswerArr_18": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "One hot day, a crow was very thirsty and searched for water. After a long time, he found a pot with a little water at the bottom. He tried to drink but couldn't reach it. Then, he thought of a clever idea. He picked small pebbles and dropped them one by one into the pot. Slowly, the water rose up, and the crow drank it happily.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 19,
+      "QuestionArr_19": "What other way could the crow have used to drink the water?",
+      "OptionArr_19": ["Ask another bird for help", "Break the pot", "Use a straw-like stick", "Wait for rain to fill the pot", "Fly to another place for water", "Push the pot over to spill water"],
+      "AnswerArr_19": ["", "", "Yes", "", "", "Yes"],
+      "ImageName": "",
+      "Para": "One hot day, a crow was very thirsty and searched for water. After a long time, he found a pot with a little water at the bottom. He tried to drink but couldn't reach it. Then, he thought of a clever idea. He picked small pebbles and dropped them one by one into the pot. Slowly, the water rose up, and the crow drank it happily.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 20,
+      "QuestionArr_20": "What was the name of the youngest son?",
+      "OptionArr_20": ["Hans", "Dummling", "Peter", "Fritz"],
+      "AnswerArr_20": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "There was a man who had three sons, the youngest of whom was called Dummling, and was despised, mocked, and put down on every occasion. It happened that the eldest wanted to go into the forest to hew wood, and before he went his mother gave him a beautiful sweet cake and a bottle of wine in order that he might not suffer from hunger or thirst. When he entered the forest there met him a little grey-haired old man who bade him good-day, and said, 'Do give me a piece of cake out of your pocket, and let me have a draught of your wine; I am so hungry and thirsty.' But the prudent youth answered, 'If I give you my cake and wine, I shall have none for myself; be off with you,' and he left the little man standing and went on. But when he began to hew down a tree, it was not long before he made a false stroke, and the axe cut him in the arm, so that he had to go home and have it bound up. And this was the little grey man's doing.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 21,
+      "QuestionArr_21": "What did the mother give to the eldest son before he went to the forest?",
+      "OptionArr_21": ["Bread and butter", "A sweet cake and wine", "Fruits and milk", "Meat and water", "Cheese and bread", "Biscuits and juice"],
+      "AnswerArr_21": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "There was a man who had three sons, the youngest of whom was called Dummling, and was despised, mocked, and put down on every occasion. It happened that the eldest wanted to go into the forest to hew wood, and before he went his mother gave him a beautiful sweet cake and a bottle of wine in order that he might not suffer from hunger or thirst. When he entered the forest there met him a little grey-haired old man who bade him good-day, and said, 'Do give me a piece of cake out of your pocket, and let me have a draught of your wine; I am so hungry and thirsty.' But the prudent youth answered, 'If I give you my cake and wine, I shall have none for myself; be off with you,' and he left the little man standing and went on. But when he began to hew down a tree, it was not long before he made a false stroke, and the axe cut him in the arm, so that he had to go home and have it bound up. And this was the little grey man's doing.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 22,
+      "QuestionArr_22": "Who did the eldest son meet in the forest?",
+      "OptionArr_22": ["A talking bird", "A fairy", "A little grey-haired old man", "A woodcutter", "A magical goose", "His brother Dummling", "A merchant", "A wolf"],
+      "AnswerArr_22": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "There was a man who had three sons, the youngest of whom was called Dummling, and was despised, mocked, and put down on every occasion. It happened that the eldest wanted to go into the forest to hew wood, and before he went his mother gave him a beautiful sweet cake and a bottle of wine in order that he might not suffer from hunger or thirst. When he entered the forest there met him a little grey-haired old man who bade him good-day, and said, 'Do give me a piece of cake out of your pocket, and let me have a draught of your wine; I am so hungry and thirsty.' But the prudent youth answered, 'If I give you my cake and wine, I shall have none for myself; be off with you,' and he left the little man standing and went on. But when he began to hew down a tree, it was not long before he made a false stroke, and the axe cut him in the arm, so that he had to go home and have it bound up. And this was the little grey man's doing.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 23,
+      "QuestionArr_23": "What did the little old man ask for?",
+      "OptionArr_23": ["Some bread and cheese", "A piece of cake and a drink of wine", "Money for food", "Help cutting wood", "A place to stay", "A coat to wear"],
+      "AnswerArr_23": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "There was a man who had three sons, the youngest of whom was called Dummling, and was despised, mocked, and put down on every occasion. It happened that the eldest wanted to go into the forest to hew wood, and before he went his mother gave him a beautiful sweet cake and a bottle of wine in order that he might not suffer from hunger or thirst. When he entered the forest there met him a little grey-haired old man who bade him good-day, and said, 'Do give me a piece of cake out of your pocket, and let me have a draught of your wine; I am so hungry and thirsty.' But the prudent youth answered, 'If I give you my cake and wine, I shall have none for myself; be off with you,' and he left the little man standing and went on. But when he began to hew down a tree, it was not long before he made a false stroke, and the axe cut him in the arm, so that he had to go home and have it bound up. And this was the little grey man's doing.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 24,
+      "QuestionArr_24": "If you were the eldest son, what would you have done when the old man asked for food and drink?",
+      "OptionArr_24": ["Share some cake and wine with him", "Ignore him and keep walking", "Ask him for help in return", "Give him only wine", "Offer him water instead", "Tell him to find food elsewhere"],
+      "AnswerArr_24": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "There was a man who had three sons, the youngest of whom was called Dummling, and was despised, mocked, and put down on every occasion. It happened that the eldest wanted to go into the forest to hew wood, and before he went his mother gave him a beautiful sweet cake and a bottle of wine in order that he might not suffer from hunger or thirst. When he entered the forest there met him a little grey-haired old man who bade him good-day, and said, 'Do give me a piece of cake out of your pocket, and let me have a draught of your wine; I am so hungry and thirsty.' But the prudent youth answered, 'If I give you my cake and wine, I shall have none for myself; be off with you,' and he left the little man standing and went on. But when he began to hew down a tree, it was not long before he made a false stroke, and the axe cut him in the arm, so that he had to go home and have it bound up. And this was the little grey man's doing.",
+      "QuestionImage": "NA"
+    },
+     {
+      "index": 25,
+      "QuestionArr_25": "Who invited the stork for dinner first?",
+      "OptionArr_25": ["The fox", "The stork", "The lion", "The rabbit"],
+      "AnswerArr_25": ["Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "A fox once invited a stork for dinner. For fun, he served soup in a shallow plate. The stork could not drink it with her long beak and went home hungry. A few days later, the stork invited the fox for dinner. She served soup in a tall, narrow jug. The fox could not drink from it, but the stork enjoyed her meal. The fox learned not to trick others.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 26,
+      "QuestionArr_26": "How did the fox serve the soup?",
+      "OptionArr_26": ["In a bowl", "In a shallow plate", "In a tall jug", "In a cup", "On a leaf", "In a bottle"],
+      "AnswerArr_26": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A fox once invited a stork for dinner. For fun, he served soup in a shallow plate. The stork could not drink it with her long beak and went home hungry. A few days later, the stork invited the fox for dinner. She served soup in a tall, narrow jug. The fox could not drink from it, but the stork enjoyed her meal. The fox learned not to trick others.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 27,
+      "QuestionArr_27": "What did the stork do in return?",
+      "OptionArr_27": ["Forgave the fox", "Invited the fox for dinner", "Served soup in a jug", "Left the forest", "Ate food alone", "Laughed at the fox", "Refused to meet the fox again", "Gave the fox fruit instead"],
+      "AnswerArr_27": ["", "Yes", "", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A fox once invited a stork for dinner. For fun, he served soup in a shallow plate. The stork could not drink it with her long beak and went home hungry. A few days later, the stork invited the fox for dinner. She served soup in a tall, narrow jug. The fox could not drink from it, but the stork enjoyed her meal. The fox learned not to trick others.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 28,
+      "QuestionArr_28": "What was the lesson for the fox?",
+      "OptionArr_28": ["Do not play tricks on others", "Always share food", "Be careful with plates and jugs", "Do not invite storks", "Eat quickly before others", "Serve food in small bowls"],
+      "AnswerArr_28": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A fox once invited a stork for dinner. For fun, he served soup in a shallow plate. The stork could not drink it with her long beak and went home hungry. A few days later, the stork invited the fox for dinner. She served soup in a tall, narrow jug. The fox could not drink from it, but the stork enjoyed her meal. The fox learned not to trick others.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 29,
+      "QuestionArr_29": "If you were the stork, how would you respond to the fox's trick?",
+      "OptionArr_29": ["Teach him a lesson kindly", "Stop being his friend", "Invite him and do the same trick", "Forgive him and forget", "Share food another time", "Complain to other animals"],
+      "AnswerArr_29": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A fox once invited a stork for dinner. For fun, he served soup in a shallow plate. The stork could not drink it with her long beak and went home hungry. A few days later, the stork invited the fox for dinner. She served soup in a tall, narrow jug. The fox could not drink from it, but the stork enjoyed her meal. The fox learned not to trick others.",
+      "QuestionImage": "NA"
+    }
+ ],
+  "Level2": [
+    {
+      "index": 0,
+      "QuestionArr_00": "Why was the Hare making fun of the Tortoise?",
+      "OptionArr_00": ["Because the Tortoise was slow", "Because the Tortoise was big", "Because the Tortoise was sleepy", "Because the Tortoise was scared"],
+      "AnswerArr_00": ["Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "A Hare was making fun of the Tortoise one day for being so slow. 'Do you ever get anywhere?' he asked with a mocking laugh. 'Yes,' replied the Tortoise, 'and I get there sooner than you think. I'll run you a race and prove it.' The Hare was much amused at the idea of running a race with the Tortoise, but for the fun of the thing he agreed. So the Fox, who had consented to act as judge, marked the distance and started the runners off. The Hare was soon far out of sight, and to make the Tortoise feel very deeply how ridiculous it was for him to try a race with a Hare, he lay down beside the course to take a nap until the Tortoise should catch up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 1,
+      "QuestionArr_01": "Who agreed to act as the judge for the race?",
+      "OptionArr_01": ["The Lion", "The Fox", "The Dog", "The Owl", "The Goat", "The Monkey"],
+      "AnswerArr_01": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Hare was making fun of the Tortoise one day for being so slow. 'Do you ever get anywhere?' he asked with a mocking laugh. 'Yes,' replied the Tortoise, 'and I get there sooner than you think. I'll run you a race and prove it.' The Hare was much amused at the idea of running a race with the Tortoise, but for the fun of the thing he agreed. So the Fox, who had consented to act as judge, marked the distance and started the runners off. The Hare was soon far out of sight, and to make the Tortoise feel very deeply how ridiculous it was for him to try a race with a Hare, he lay down beside the course to take a nap until the Tortoise should catch up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 2,
+      "QuestionArr_02": "What did the Hare do after running far ahead?",
+      "OptionArr_02": ["He stopped running", "He went home", "He ate some grass", "He lay down to take a nap", "He helped the Tortoise", "He hid behind a tree", "He drank water from a pond", "He ran in circles for fun"],
+      "AnswerArr_02": ["", "", "", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Hare was making fun of the Tortoise one day for being so slow. 'Do you ever get anywhere?' he asked with a mocking laugh. 'Yes,' replied the Tortoise, 'and I get there sooner than you think. I'll run you a race and prove it.' The Hare was much amused at the idea of running a race with the Tortoise, but for the fun of the thing he agreed. So the Fox, who had consented to act as judge, marked the distance and started the runners off. The Hare was soon far out of sight, and to make the Tortoise feel very deeply how ridiculous it was for him to try a race with a Hare, he lay down beside the course to take a nap until the Tortoise should catch up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 3,
+      "QuestionArr_03": "Why did the Hare lie down beside the course?",
+      "OptionArr_03": ["He was tired", "He wanted to trick the Tortoise", "He wanted to rest until the Tortoise caught up", "He wanted to quit the race", "He was injured", "He wanted to laugh at the Tortoise later"],
+      "AnswerArr_03": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "A Hare was making fun of the Tortoise one day for being so slow. 'Do you ever get anywhere?' he asked with a mocking laugh. 'Yes,' replied the Tortoise, 'and I get there sooner than you think. I'll run you a race and prove it.' The Hare was much amused at the idea of running a race with the Tortoise, but for the fun of the thing he agreed. So the Fox, who had consented to act as judge, marked the distance and started the runners off. The Hare was soon far out of sight, and to make the Tortoise feel very deeply how ridiculous it was for him to try a race with a Hare, he lay down beside the course to take a nap until the Tortoise should catch up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 4,
+      "QuestionArr_04": "If you were the Hare, what would you do instead of taking a nap during the race?",
+      "OptionArr_04": ["Keep running to the finish line", "Wait for the Tortoise and walk with him", "Hide and surprise the Tortoise", "Encourage the Tortoise to run faster", "Stop running and give up", "Sit and eat some carrots"],
+      "AnswerArr_04": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Hare was making fun of the Tortoise one day for being so slow. 'Do you ever get anywhere?' he asked with a mocking laugh. 'Yes,' replied the Tortoise, 'and I get there sooner than you think. I'll run you a race and prove it.' The Hare was much amused at the idea of running a race with the Tortoise, but for the fun of the thing he agreed. So the Fox, who had consented to act as judge, marked the distance and started the runners off. The Hare was soon far out of sight, and to make the Tortoise feel very deeply how ridiculous it was for him to try a race with a Hare, he lay down beside the course to take a nap until the Tortoise should catch up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 5,
+      "QuestionArr_05": "Where did the hen build her nest?",
+      "OptionArr_05": ["On top of a tree", "At the bottom of a large tree", "In a cave", "Inside a barn"],
+      "AnswerArr_05": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a hen made a nest at the bottom of a large tree in the forest. She was living there for a long time. One day the hen went far from her home. She found a paddy field with lot of food and stayed there for long time. While the hen was away from her home, a homeless rabbit found the home empty and he took it his own. One day the hen returns to her home in the forest. She found a rabbit in her nest. She asked him to move out. But the rabbit claimed the nest was his own home. 'I found it when nobody was living here!' The hen also claimed that she was the one who built the nest. The animals and the birds knew the hen was right. But they could not judge for whom it belongs. Then the hen and the rabbit agreed to find someone to settle their quarrel.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 6,
+      "QuestionArr_06": "Why did the hen stay away from her home for a long time?",
+      "OptionArr_06": ["She went to build another nest", "She was lost in the forest", "She found a paddy field with plenty of food", "She was afraid of the rabbit", "She went to visit her friends", "She was hiding from hunters"],
+      "AnswerArr_06": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a hen made a nest at the bottom of a large tree in the forest. She was living there for a long time. One day the hen went far from her home. She found a paddy field with lot of food and stayed there for long time. While the hen was away from her home, a homeless rabbit found the home empty and he took it his own. One day the hen returns to her home in the forest. She found a rabbit in her nest. She asked him to move out. But the rabbit claimed the nest was his own home. 'I found it when nobody was living here!' The hen also claimed that she was the one who built the nest. The animals and the birds knew the hen was right. But they could not judge for whom it belongs. Then the hen and the rabbit agreed to find someone to settle their quarrel.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 7,
+      "QuestionArr_07": "Who occupied the hen's nest in her absence?",
+      "OptionArr_07": ["A fox", "A squirrel", "A rabbit", "A cat", "A bird", "A snake", "Another hen", "A raccoon"],
+      "AnswerArr_07": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a hen made a nest at the bottom of a large tree in the forest. She was living there for a long time. One day the hen went far from her home. She found a paddy field with lot of food and stayed there for long time. While the hen was away from her home, a homeless rabbit found the home empty and he took it his own. One day the hen returns to her home in the forest. She found a rabbit in her nest. She asked him to move out. But the rabbit claimed the nest was his own home. 'I found it when nobody was living here!' The hen also claimed that she was the one who built the nest. The animals and the birds knew the hen was right. But they could not judge for whom it belongs. Then the hen and the rabbit agreed to find someone to settle their quarrel.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 8,
+      "QuestionArr_08": "What did the hen and rabbit decide to do about their quarrel?",
+      "OptionArr_08": ["Fight each other", "Ask the animals and birds to choose", "Destroy the nest", "Find someone to settle their quarrel", "Share the nest", "Build another nest together"],
+      "AnswerArr_08": ["", "", "", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a hen made a nest at the bottom of a large tree in the forest. She was living there for a long time. One day the hen went far from her home. She found a paddy field with lot of food and stayed there for long time. While the hen was away from her home, a homeless rabbit found the home empty and he took it his own. One day the hen returns to her home in the forest. She found a rabbit in her nest. She asked him to move out. But the rabbit claimed the nest was his own home. 'I found it when nobody was living here!' The hen also claimed that she was the one who built the nest. The animals and the birds knew the hen was right. But they could not judge for whom it belongs. Then the hen and the rabbit agreed to find someone to settle their quarrel.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 9,
+      "QuestionArr_09": "If you were the judge, how would you solve the quarrel between the hen and the rabbit?",
+      "OptionArr_09": ["Give the nest back to the hen", "Let the rabbit keep the nest", "Ask them to share the nest", "Build a new nest for the rabbit", "Tell them both to leave the nest", "Flip a coin to decide"],
+      "AnswerArr_09": ["Yes", "", "", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a hen made a nest at the bottom of a large tree in the forest. She was living there for a long time. One day the hen went far from her home. She found a paddy field with lot of food and stayed there for long time. While the hen was away from her home, a homeless rabbit found the home empty and he took it his own. One day the hen returns to her home in the forest. She found a rabbit in her nest. She asked him to move out. But the rabbit claimed the nest was his own home. 'I found it when nobody was living here!' The hen also claimed that she was the one who built the nest. The animals and the birds knew the hen was right. But they could not judge for whom it belongs. Then the hen and the rabbit agreed to find someone to settle their quarrel.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 10,
+      "QuestionArr_10": "Where did the old stork live?",
+      "OptionArr_10": ["In a forest", "By the side of a fish pond", "Near a riverbank", "On top of a tree"],
+      "AnswerArr_10": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time there lived a old stork by the side of a fish pond. He could not fish any longer, therefore he thought of an idea. One day he stood still in the waters, with a sad face, without catching any fish. The oldest crab in the pond, surprised, went up to him to inquire, 'Why are you so unhappy?' The smart stork said, 'I'll shortly leave this particular pond as it is going to be dried up by some people. I will fly away to a larger pond.' Listening to this the fish and crabs in the pond went up to him to request, 'Please save us too!' The stork conveniently agreed. He took a couple of fish in his beak and flew away. A little distance away, he sat on a big black rock and ate the fish. He then made many trips to the pond and ate lots of fish.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 11,
+      "QuestionArr_11": "Why was the stork unhappy?",
+      "OptionArr_11": ["He was feeling lonely", "He could not catch fish anymore", "The crab teased him", "His wings were hurt", "The pond was already dry", "He wanted to move to another pond"],
+      "AnswerArr_11": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time there lived a old stork by the side of a fish pond. He could not fish any longer, therefore he thought of an idea. One day he stood still in the waters, with a sad face, without catching any fish. The oldest crab in the pond, surprised, went up to him to inquire, 'Why are you so unhappy?' The smart stork said, 'I'll shortly leave this particular pond as it is going to be dried up by some people. I will fly away to a larger pond.' Listening to this the fish and crabs in the pond went up to him to request, 'Please save us too!' The stork conveniently agreed. He took a couple of fish in his beak and flew away. A little distance away, he sat on a big black rock and ate the fish. He then made many trips to the pond and ate lots of fish.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 12,
+      "QuestionArr_12": "What did the stork tell the crab and fish?",
+      "OptionArr_12": ["That he was going on a vacation", "That he would teach them how to swim", "That people would dry up the pond soon", "That he wanted to be their friend", "That he would build another pond", "That he would fly away to a larger pond", "That they should leave the pond themselves", "That he was too old to stay"],
+      "AnswerArr_12": ["", "", "Yes", "", "", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time there lived a old stork by the side of a fish pond. He could not fish any longer, therefore he thought of an idea. One day he stood still in the waters, with a sad face, without catching any fish. The oldest crab in the pond, surprised, went up to him to inquire, 'Why are you so unhappy?' The smart stork said, 'I'll shortly leave this particular pond as it is going to be dried up by some people. I will fly away to a larger pond.' Listening to this the fish and crabs in the pond went up to him to request, 'Please save us too!' The stork conveniently agreed. He took a couple of fish in his beak and flew away. A little distance away, he sat on a big black rock and ate the fish. He then made many trips to the pond and ate lots of fish.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 13,
+      "QuestionArr_13": "What did the stork actually do with the fish?",
+      "OptionArr_13": ["Saved them in another pond", "Kept them in a basket", "Ate them after flying to a rock", "Sold them in the market", "Gave them to the crab", "Threw them back into the water"],
+      "AnswerArr_13": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time there lived a old stork by the side of a fish pond. He could not fish any longer, therefore he thought of an idea. One day he stood still in the waters, with a sad face, without catching any fish. The oldest crab in the pond, surprised, went up to him to inquire, 'Why are you so unhappy?' The smart stork said, 'I'll shortly leave this particular pond as it is going to be dried up by some people. I will fly away to a larger pond.' Listening to this the fish and crabs in the pond went up to him to request, 'Please save us too!' The stork conveniently agreed. He took a couple of fish in his beak and flew away. A little distance away, he sat on a big black rock and ate the fish. He then made many trips to the pond and ate lots of fish.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 14,
+      "QuestionArr_14": "If you were the crab, how would you find out the truth about the stork?",
+      "OptionArr_14": ["Follow the stork secretly", "Ask the fish who were taken", "Fly with the stork", "Hide inside the stork's beak", "Warn all the fish to stop going", "Catch the stork and question him"],
+      "AnswerArr_14": ["Yes", "", "", "", "Yes", ""],
+      "ImageName": "",
+      "Para": "Once upon a time there lived a old stork by the side of a fish pond. He could not fish any longer, therefore he thought of an idea. One day he stood still in the waters, with a sad face, without catching any fish. The oldest crab in the pond, surprised, went up to him to inquire, 'Why are you so unhappy?' The smart stork said, 'I'll shortly leave this particular pond as it is going to be dried up by some people. I will fly away to a larger pond.' Listening to this the fish and crabs in the pond went up to him to request, 'Please save us too!' The stork conveniently agreed. He took a couple of fish in his beak and flew away. A little distance away, he sat on a big black rock and ate the fish. He then made many trips to the pond and ate lots of fish.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 15,
+      "QuestionArr_15": "What happened to the woodcutter's axe?",
+      "OptionArr_15": ["It broke into pieces", "He dropped it into the river", "It was stolen", "He sold it"],
+      "AnswerArr_15": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "A poor woodcutter accidentally dropped his axe into a river while cutting wood. He sat and cried because it was his only tool for earning money. Suddenly, a fairy appeared and offered help. She dived into the river and came out with a golden axe, but the woodcutter said it was not his. She brought a silver axe, but he refused again. Finally, she gave him his iron axe, and he happily accepted it. The fairy was pleased with his honesty and gifted him all three axes.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 16,
+      "QuestionArr_16": "Who appeared to help the woodcutter?",
+      "OptionArr_16": ["A fairy", "A fish", "A wizard", "His friend", "A king", "A talking bird"],
+      "AnswerArr_16": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A poor woodcutter accidentally dropped his axe into a river while cutting wood. He sat and cried because it was his only tool for earning money. Suddenly, a fairy appeared and offered help. She dived into the river and came out with a golden axe, but the woodcutter said it was not his. She brought a silver axe, but he refused again. Finally, she gave him his iron axe, and he happily accepted it. The fairy was pleased with his honesty and gifted him all three axes.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 17,
+      "QuestionArr_17": "Which axe did the woodcutter accept first?",
+      "OptionArr_17": ["The golden axe", "The silver axe", "The iron axe", "None of them", "The wooden axe", "The magical axe", "The bronze axe", "The diamond axe"],
+      "AnswerArr_17": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A poor woodcutter accidentally dropped his axe into a river while cutting wood. He sat and cried because it was his only tool for earning money. Suddenly, a fairy appeared and offered help. She dived into the river and came out with a golden axe, but the woodcutter said it was not his. She brought a silver axe, but he refused again. Finally, she gave him his iron axe, and he happily accepted it. The fairy was pleased with his honesty and gifted him all three axes.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 18,
+      "QuestionArr_18": "Why did the fairy give him all three axes?",
+      "OptionArr_18": ["Because he was poor", "Because he was honest", "Because he was sad", "Because he was hardworking", "Because he begged for them", "Because she wanted to leave quickly"],
+      "AnswerArr_18": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A poor woodcutter accidentally dropped his axe into a river while cutting wood. He sat and cried because it was his only tool for earning money. Suddenly, a fairy appeared and offered help. She dived into the river and came out with a golden axe, but the woodcutter said it was not his. She brought a silver axe, but he refused again. Finally, she gave him his iron axe, and he happily accepted it. The fairy was pleased with his honesty and gifted him all three axes.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 19,
+      "QuestionArr_19": "What would you do if you were the woodcutter?",
+      "OptionArr_19": ["Accept the golden axe", "Tell the truth and take your axe", "Refuse all axes", "Search for your axe yourself", "Ask for more rewards", "Borrow an axe from a friend"],
+      "AnswerArr_19": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A poor woodcutter accidentally dropped his axe into a river while cutting wood. He sat and cried because it was his only tool for earning money. Suddenly, a fairy appeared and offered help. She dived into the river and came out with a golden axe, but the woodcutter said it was not his. She brought a silver axe, but he refused again. Finally, she gave him his iron axe, and he happily accepted it. The fairy was pleased with his honesty and gifted him all three axes.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 20,
+      "QuestionArr_20": "Where was the Lion sleeping?",
+      "OptionArr_20": ["In a cave", "In the forest", "Near a river", "Under a tree in the village"],
+      "AnswerArr_20": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "A Lion lay asleep in the forest, his great head resting on his paws. A timid little Mouse came upon him unexpectedly, and in her fright and haste to get away, ran across the Lion's nose. Roused from his nap, the Lion laid his huge paw angrily on the tiny creature to kill her. \"Spare me!\" begged the poor Mouse. \"Please let me go and some day I will surely repay you.\" The Lion was much amused to think that a Mouse could ever help him. But he was generous and finally let the Mouse go.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 21,
+      "QuestionArr_21": "What did the Mouse do by mistake?",
+      "OptionArr_21": ["Bit the Lion's paw", "Ran across the Lion's nose", "Hid inside the Lion's mane", "Scratched the Lion's face", "Climbed on the Lion's back", "Woke him by squeaking loudly"],
+      "AnswerArr_21": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Lion lay asleep in the forest, his great head resting on his paws. A timid little Mouse came upon him unexpectedly, and in her fright and haste to get away, ran across the Lion's nose. Roused from his nap, the Lion laid his huge paw angrily on the tiny creature to kill her. \"Spare me!\" begged the poor Mouse. \"Please let me go and some day I will surely repay you.\" The Lion was much amused to think that a Mouse could ever help him. But he was generous and finally let the Mouse go.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 22,
+      "QuestionArr_22": "What did the Lion do when he woke up?",
+      "OptionArr_22": ["Roared loudly", "Chased the Mouse", "Placed his paw on the Mouse to kill her", "Went back to sleep", "Called other animals", "Smiled at the Mouse", "Asked the Mouse to leave", "Ate the Mouse immediately"],
+      "AnswerArr_22": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Lion lay asleep in the forest, his great head resting on his paws. A timid little Mouse came upon him unexpectedly, and in her fright and haste to get away, ran across the Lion's nose. Roused from his nap, the Lion laid his huge paw angrily on the tiny creature to kill her. \"Spare me!\" begged the poor Mouse. \"Please let me go and some day I will surely repay you.\" The Lion was much amused to think that a Mouse could ever help him. But he was generous and finally let the Mouse go.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 23,
+      "QuestionArr_23": "What did the Mouse promise the Lion?",
+      "OptionArr_23": ["To bring him food later", "To never wake him again", "To repay his kindness one day", "To help him hunt", "To run away quickly", "To tell other mice to stay away"],
+      "AnswerArr_23": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "A Lion lay asleep in the forest, his great head resting on his paws. A timid little Mouse came upon him unexpectedly, and in her fright and haste to get away, ran across the Lion's nose. Roused from his nap, the Lion laid his huge paw angrily on the tiny creature to kill her. \"Spare me!\" begged the poor Mouse. \"Please let me go and some day I will surely repay you.\" The Lion was much amused to think that a Mouse could ever help him. But he was generous and finally let the Mouse go.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 24,
+      "QuestionArr_24": "If you were the Lion, what would you do when the Mouse asked to be spared?",
+      "OptionArr_24": ["Forgive the Mouse and let her go", "Eat the Mouse anyway", "Ask the Mouse for food in return", "Roar and scare the Mouse away", "Catch the Mouse but not hurt her", "Tell the Mouse to stay away forever"],
+      "AnswerArr_24": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Lion lay asleep in the forest, his great head resting on his paws. A timid little Mouse came upon him unexpectedly, and in her fright and haste to get away, ran across the Lion's nose. Roused from his nap, the Lion laid his huge paw angrily on the tiny creature to kill her. \"Spare me!\" begged the poor Mouse. \"Please let me go and some day I will surely repay you.\" The Lion was much amused to think that a Mouse could ever help him. But he was generous and finally let the Mouse go.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 25,
+      "QuestionArr_25": "What did the goose lay every day?",
+      "OptionArr_25": ["Silver eggs", "Golden eggs", "White eggs", "Diamond eggs"],
+      "AnswerArr_25": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "A farmer had a goose that laid one golden egg every day. He became rich but soon grew greedy. He thought if he killed the goose, he could get all the golden eggs at once. He killed the goose, but there were no eggs inside. He lost both his goose and his wealth.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 26,
+      "QuestionArr_26": "Why did the farmer kill the goose?",
+      "OptionArr_26": ["He was hungry", "He was greedy", "He wanted more eggs at once", "He wanted to sell it", "He was tired of it", "He needed money quickly"],
+      "AnswerArr_26": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A farmer had a goose that laid one golden egg every day. He became rich but soon grew greedy. He thought if he killed the goose, he could get all the golden eggs at once. He killed the goose, but there were no eggs inside. He lost both his goose and his wealth.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 27,
+      "QuestionArr_27": "What happened after the farmer killed the goose?",
+      "OptionArr_27": ["He found many eggs", "He found no eggs inside", "He became richer", "He regretted his decision", "He bought another goose", "He moved away", "He shared eggs with neighbours", "He built a farm"],
+      "AnswerArr_27": ["", "Yes", "", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A farmer had a goose that laid one golden egg every day. He became rich but soon grew greedy. He thought if he killed the goose, he could get all the golden eggs at once. He killed the goose, but there were no eggs inside. He lost both his goose and his wealth.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 28,
+      "QuestionArr_28": "What is the moral of the story?",
+      "OptionArr_28": ["Greed leads to loss", "Always eat quickly", "Work harder for money", "Take care of your animals", "Golden eggs are fake", "Never keep geese"],
+      "AnswerArr_28": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A farmer had a goose that laid one golden egg every day. He became rich but soon grew greedy. He thought if he killed the goose, he could get all the golden eggs at once. He killed the goose, but there were no eggs inside. He lost both his goose and his wealth.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 29,
+      "QuestionArr_29": "What could the farmer have done instead of killing the goose?",
+      "OptionArr_29": ["Sell one egg every day", "Keep the goose safe and healthy", "Share eggs with neighbors", "Feed it better for more eggs", "Trade eggs for more animals", "Kill it slowly for more eggs"],
+      "AnswerArr_29": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A farmer had a goose that laid one golden egg every day. He became rich but soon grew greedy. He thought if he killed the goose, he could get all the golden eggs at once. He killed the goose, but there were no eggs inside. He lost both his goose and his wealth.",
+      "QuestionImage": "NA"
+    }
+  ],
+  
+  "Level3": [
+    {
+      "index": 0,
+      "QuestionArr_00": "Why did Jack go to the market?",
+      "OptionArr_00": ["To buy food", "To sell their cow", "To meet his friends", "To buy clothes"],
+      "AnswerArr_00": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a poor widow lived with her only son Jack. One day, the mother sent Jack to sell their cow in the market. On the day, a man asked Jack, 'Do you want the magic bean in exchange for the cow?' Jack took the bean and came back home. The angry mother threw the beans out the window. That night, the bean grew into a giant beanstalk. Jack climbed the beanstalk and reached a kingdom ruled by a cruel giant. He stole a bag of gold, the hen that laid golden eggs and harp before the giant started chasing him. Jack climbed down the beanstalk and chopped it with an axe.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 1,
+      "QuestionArr_01": "What did Jack get in exchange for the cow?",
+      "OptionArr_01": ["A bag of gold", "A hen", "Magic beans", "A harp", "A horse", "A loaf of bread"],
+      "AnswerArr_01": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a poor widow lived with her only son Jack. One day, the mother sent Jack to sell their cow in the market. On the day, a man asked Jack, 'Do you want the magic bean in exchange for the cow?' Jack took the bean and came back home. The angry mother threw the beans out the window. That night, the bean grew into a giant beanstalk. Jack climbed the beanstalk and reached a kingdom ruled by a cruel giant. He stole a bag of gold, the hen that laid golden eggs and harp before the giant started chasing him. Jack climbed down the beanstalk and chopped it with an axe.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 2,
+      "QuestionArr_02": "What happened to the beans when Jack's mother threw them out?",
+      "OptionArr_02": ["They disappeared", "They turned into flowers", "They grew into a giant beanstalk", "They became stones", "They were eaten by birds", "They stayed on the ground", "They turned into vegetables", "They vanished in the air"],
+      "AnswerArr_02": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a poor widow lived with her only son Jack. One day, the mother sent Jack to sell their cow in the market. On the day, a man asked Jack, 'Do you want the magic bean in exchange for the cow?' Jack took the bean and came back home. The angry mother threw the beans out the window. That night, the bean grew into a giant beanstalk. Jack climbed the beanstalk and reached a kingdom ruled by a cruel giant. He stole a bag of gold, the hen that laid golden eggs and harp before the giant started chasing him. Jack climbed down the beanstalk and chopped it with an axe.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 3,
+      "QuestionArr_03": "What did Jack steal from the giant?",
+      "OptionArr_03": ["A bag of gold", "A hen that laid golden eggs", "A harp", "A crown", "A magic wand", "A treasure chest"],
+      "AnswerArr_03": ["Yes", "Yes", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a poor widow lived with her only son Jack. One day, the mother sent Jack to sell their cow in the market. On the day, a man asked Jack, 'Do you want the magic bean in exchange for the cow?' Jack took the bean and came back home. The angry mother threw the beans out the window. That night, the bean grew into a giant beanstalk. Jack climbed the beanstalk and reached a kingdom ruled by a cruel giant. He stole a bag of gold, the hen that laid golden eggs and harp before the giant started chasing him. Jack climbed down the beanstalk and chopped it with an axe.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 4,
+      "QuestionArr_04": "If you were Jack, what would you do after climbing the beanstalk and meeting the giant?",
+      "OptionArr_04": ["Try to befriend the giant", "Take treasure and run away", "Explore the giant's kingdom peacefully", "Hide until the giant sleeps", "Ask the giant for help instead of stealing", "Cut down the beanstalk immediately"],
+      "AnswerArr_04": ["Yes", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, a poor widow lived with her only son Jack. One day, the mother sent Jack to sell their cow in the market. On the day, a man asked Jack, 'Do you want the magic bean in exchange for the cow?' Jack took the bean and came back home. The angry mother threw the beans out the window. That night, the bean grew into a giant beanstalk. Jack climbed the beanstalk and reached a kingdom ruled by a cruel giant. He stole a bag of gold, the hen that laid golden eggs and harp before the giant started chasing him. Jack climbed down the beanstalk and chopped it with an axe.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 5,
+      "QuestionArr_05": "Why did the man bring home a mongoose?",
+      "OptionArr_05": ["To help with housework", "To protect and be a companion for his child", "To scare away other animals", "To keep as a farm animal"],
+      "AnswerArr_05": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time in a village, there lived a man with his wife. One day, they were blessed with a son. The man thought to have a pet for the child so as to protect him as well as to get a companion for him. He went in search of the pet and found a mongoose. He brought him to his house. At first, the man's wife was reluctant to have a mongoose as a pet. But later she agreed to it. The mongoose and the child became close friends. Both, the man and his wife, started loving the mongoose like their own child. But the man's wife was always a little sceptical about the mongoose being near the child. On a particular day, the man's wife had to go to the market to buy vegetables. She told the man to take care of the child. The child was sleeping peacefully in the cradle. The man then left for begging alms. He thought that the mongoose would look after the child. A few hours later, the man's wife returned and saw the mongoose at the door. His mouth was completely blood-stained. She inferred that the mongoose had killed the child. At once, she threw the basket of vegetables on the mongoose.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 6,
+      "QuestionArr_06": "How did the wife initially feel about having a mongoose as a pet?",
+      "OptionArr_06": ["She was happy from the beginning", "She was scared", "She was reluctant at first but later agreed", "She disliked animals", "She wanted a dog instead", "She refused completely"],
+      "AnswerArr_06": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time in a village, there lived a man with his wife. One day, they were blessed with a son. The man thought to have a pet for the child so as to protect him as well as to get a companion for him. He went in search of the pet and found a mongoose. He brought him to his house. At first, the man's wife was reluctant to have a mongoose as a pet. But later she agreed to it. The mongoose and the child became close friends. Both, the man and his wife, started loving the mongoose like their own child. But the man's wife was always a little sceptical about the mongoose being near the child. On a particular day, the man's wife had to go to the market to buy vegetables. She told the man to take care of the child. The child was sleeping peacefully in the cradle. The man then left for begging alms. He thought that the mongoose would look after the child. A few hours later, the man's wife returned and saw the mongoose at the door. His mouth was completely blood-stained. She inferred that the mongoose had killed the child. At once, she threw the basket of vegetables on the mongoose.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 7,
+      "QuestionArr_07": "Who was asked to look after the child when the wife went to the market?",
+      "OptionArr_07": ["The man stayed home to watch the child", "The mongoose", "A neighbor", "A servant", "The wife's friend", "The man's parents", "Another villager", "The child was left alone"],
+      "AnswerArr_07": ["", "Yes", "", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time in a village, there lived a man with his wife. One day, they were blessed with a son. The man thought to have a pet for the child so as to protect him as well as to get a companion for him. He went in search of the pet and found a mongoose. He brought him to his house. At first, the man's wife was reluctant to have a mongoose as a pet. But later she agreed to it. The mongoose and the child became close friends. Both, the man and his wife, started loving the mongoose like their own child. But the man's wife was always a little sceptical about the mongoose being near the child. On a particular day, the man's wife had to go to the market to buy vegetables. She told the man to take care of the child. The child was sleeping peacefully in the cradle. The man then left for begging alms. He thought that the mongoose would look after the child. A few hours later, the man's wife returned and saw the mongoose at the door. His mouth was completely blood-stained. She inferred that the mongoose had killed the child. At once, she threw the basket of vegetables on the mongoose.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 8,
+      "QuestionArr_08": "What did the wife think when she saw the mongoose with a blood-stained mouth?",
+      "OptionArr_08": ["The mongoose had fought another animal", "The mongoose had killed the child", "The mongoose had eaten something red", "The mongoose was injured", "The mongoose had played with the child", "The mongoose was sick"],
+      "AnswerArr_08": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time in a village, there lived a man with his wife. One day, they were blessed with a son. The man thought to have a pet for the child so as to protect him as well as to get a companion for him. He went in search of the pet and found a mongoose. He brought him to his house. At first, the man's wife was reluctant to have a mongoose as a pet. But later she agreed to it. The mongoose and the child became close friends. Both, the man and his wife, started loving the mongoose like their own child. But the man's wife was always a little sceptical about the mongoose being near the child. On a particular day, the man's wife had to go to the market to buy vegetables. She told the man to take care of the child. The child was sleeping peacefully in the cradle. The man then left for begging alms. He thought that the mongoose would look after the child. A few hours later, the man's wife returned and saw the mongoose at the door. His mouth was completely blood-stained. She inferred that the mongoose had killed the child. At once, she threw the basket of vegetables on the mongoose.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 9,
+      "QuestionArr_09": "If you were the wife, what would you do before assuming the mongoose harmed the child?",
+      "OptionArr_09": ["Check the child first before reacting", "Shout for help", "Wait for the man to return", "Hug the mongoose", "Run away from the house", "Punish the mongoose immediately"],
+      "AnswerArr_09": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time in a village, there lived a man with his wife. One day, they were blessed with a son. The man thought to have a pet for the child so as to protect him as well as to get a companion for him. He went in search of the pet and found a mongoose. He brought him to his house. At first, the man's wife was reluctant to have a mongoose as a pet. But later she agreed to it. The mongoose and the child became close friends. Both, the man and his wife, started loving the mongoose like their own child. But the man's wife was always a little sceptical about the mongoose being near the child. On a particular day, the man's wife had to go to the market to buy vegetables. She told the man to take care of the child. The child was sleeping peacefully in the cradle. The man then left for begging alms. He thought that the mongoose would look after the child. A few hours later, the man's wife returned and saw the mongoose at the door. His mouth was completely blood-stained. She inferred that the mongoose had killed the child. At once, she threw the basket of vegetables on the mongoose.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 10,
+      "QuestionArr_10": "What were the names of the four little rabbits?",
+      "OptionArr_10": ["Flopsy, Mopsy, Cotton-tail, Peter", "Daisy, Lily, Cotton-tail, Peter", "Flopsy, Rosie, Cotton-tail, Mopsy", "Flopsy, Mopsy, Rosie, Peter"],
+      "AnswerArr_10": ["Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "A long time ago, there lived four little rabbits, with fancy names: Flopsy, Cotton-tail, Peter and Mopsy. They lived under a very big fir tree, in a sand-bank. One day, old Mrs. Rabbit called the four little rabbits for a little talk. 'Listen to me,' she said, 'I know that you like to run and play all around the place, but I advise you not to go to Mr. McGregor's garden. Do you know why?' Flopsy, Mopsy, Cotton-tail and Peter shook their heads. 'Your father was killed in Mr. McGregor's garden. Mrs. McGregor put him in a pie,' mother rabbit said solemnly. The four little rabbits looked as though they understood their mother's message. 'Alright then, go and play, but don't get into trouble. I have to go out now,' mother rabbit said. She took her umbrella and her basket, and set out to the baker's. She had to buy a few currant buns and a loaf of brown bread. Meanwhile, the four little bunnies, left on their own, began exploring their neighbourhood. Mopsy, Flopsy and Cotton-tail, being good bunnies, hopped down the lane to pick some blackberries. However, Peter, being very naughty, did exactly what was forbidden: He ran to Mr. McGregor's garden, and squeezed under the gate. Not troubled by any thoughts of danger, he ate up some lettuce, and then some beans. Next came the radishes. Then, feeling a bit sick in his stomach, he looked for some parsley.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 11,
+      "QuestionArr_11": "Where did the rabbits live?",
+      "OptionArr_11": ["In a burrow in the meadow", "Under a fir tree in a sand-bank", "Inside a farmer's barn", "Near Mr. McGregor's garden", "Under a wooden fence", "In a hollow log"],
+      "AnswerArr_11": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A long time ago, there lived four little rabbits, with fancy names: Flopsy, Cotton-tail, Peter and Mopsy. They lived under a very big fir tree, in a sand-bank. One day, old Mrs. Rabbit called the four little rabbits for a little talk. 'Listen to me,' she said, 'I know that you like to run and play all around the place, but I advise you not to go to Mr. McGregor's garden. Do you know why?' Flopsy, Mopsy, Cotton-tail and Peter shook their heads. 'Your father was killed in Mr. McGregor's garden. Mrs. McGregor put him in a pie,' mother rabbit said solemnly. The four little rabbits looked as though they understood their mother's message. 'Alright then, go and play, but don't get into trouble. I have to go out now,' mother rabbit said. She took her umbrella and her basket, and set out to the baker's. She had to buy a few currant buns and a loaf of brown bread. Meanwhile, the four little bunnies, left on their own, began exploring their neighbourhood. Mopsy, Flopsy and Cotton-tail, being good bunnies, hopped down the lane to pick some blackberries. However, Peter, being very naughty, did exactly what was forbidden: He ran to Mr. McGregor's garden, and squeezed under the gate. Not troubled by any thoughts of danger, he ate up some lettuce, and then some beans. Next came the radishes. Then, feeling a bit sick in his stomach, he looked for some parsley.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 12,
+      "QuestionArr_12": "What warning did Mrs. Rabbit give her children?",
+      "OptionArr_12": ["Not to eat too many vegetables", "Not to go near the baker's shop", "Not to visit Mr. McGregor's garden", "To stay close to home", "Not to play near the river", "To eat only blackberries", "To follow her to the market", "Not to climb the fir tree"],
+      "AnswerArr_12": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A long time ago, there lived four little rabbits, with fancy names: Flopsy, Cotton-tail, Peter and Mopsy. They lived under a very big fir tree, in a sand-bank. One day, old Mrs. Rabbit called the four little rabbits for a little talk. 'Listen to me,' she said, 'I know that you like to run and play all around the place, but I advise you not to go to Mr. McGregor's garden. Do you know why?' Flopsy, Mopsy, Cotton-tail and Peter shook their heads. 'Your father was killed in Mr. McGregor's garden. Mrs. McGregor put him in a pie,' mother rabbit said solemnly. The four little rabbits looked as though they understood their mother's message. 'Alright then, go and play, but don't get into trouble. I have to go out now,' mother rabbit said. She took her umbrella and her basket, and set out to the baker's. She had to buy a few currant buns and a loaf of brown bread. Meanwhile, the four little bunnies, left on their own, began exploring their neighbourhood. Mopsy, Flopsy and Cotton-tail, being good bunnies, hopped down the lane to pick some blackberries. However, Peter, being very naughty, did exactly what was forbidden: He ran to Mr. McGregor's garden, and squeezed under the gate. Not troubled by any thoughts of danger, he ate up some lettuce, and then some beans. Next came the radishes. Then, feeling a bit sick in his stomach, he looked for some parsley.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 13,
+      "QuestionArr_13": "What did Peter do after his mother left?",
+      "OptionArr_13": ["Went blackberry picking with his siblings", "Stayed home quietly", "Ran to Mr. McGregor's garden and ate vegetables", "Followed his mother to the baker's shop", "Climbed the fir tree to play", "Went to sleep in the sand-bank"],
+      "AnswerArr_13": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "A long time ago, there lived four little rabbits, with fancy names: Flopsy, Cotton-tail, Peter and Mopsy. They lived under a very big fir tree, in a sand-bank. One day, old Mrs. Rabbit called the four little rabbits for a little talk. 'Listen to me,' she said, 'I know that you like to run and play all around the place, but I advise you not to go to Mr. McGregor's garden. Do you know why?' Flopsy, Mopsy, Cotton-tail and Peter shook their heads. 'Your father was killed in Mr. McGregor's garden. Mrs. McGregor put him in a pie,' mother rabbit said solemnly. The four little rabbits looked as though they understood their mother's message. 'Alright then, go and play, but don't get into trouble. I have to go out now,' mother rabbit said. She took her umbrella and her basket, and set out to the baker's. She had to buy a few currant buns and a loaf of brown bread. Meanwhile, the four little bunnies, left on their own, began exploring their neighbourhood. Mopsy, Flopsy and Cotton-tail, being good bunnies, hopped down the lane to pick some blackberries. However, Peter, being very naughty, did exactly what was forbidden: He ran to Mr. McGregor's garden, and squeezed under the gate. Not troubled by any thoughts of danger, he ate up some lettuce, and then some beans. Next came the radishes. Then, feeling a bit sick in his stomach, he looked for some parsley.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 14,
+      "QuestionArr_14": "If you were Peter Rabbit, what would you do instead of disobeying your mother?",
+      "OptionArr_14": ["Play safely with Flopsy, Mopsy, and Cotton-tail", "Wait for your mother to return", "Sneak into the garden anyway", "Help pick blackberries", "Follow your mother secretly to the baker's", "Hide inside the sand-bank"],
+      "AnswerArr_14": ["Yes", "", "", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "A long time ago, there lived four little rabbits, with fancy names: Flopsy, Cotton-tail, Peter and Mopsy. They lived under a very big fir tree, in a sand-bank. One day, old Mrs. Rabbit called the four little rabbits for a little talk. 'Listen to me,' she said, 'I know that you like to run and play all around the place, but I advise you not to go to Mr. McGregor's garden. Do you know why?' Flopsy, Mopsy, Cotton-tail and Peter shook their heads. 'Your father was killed in Mr. McGregor's garden. Mrs. McGregor put him in a pie,' mother rabbit said solemnly. The four little rabbits looked as though they understood their mother's message. 'Alright then, go and play, but don't get into trouble. I have to go out now,' mother rabbit said. She took her umbrella and her basket, and set out to the baker's. She had to buy a few currant buns and a loaf of brown bread. Meanwhile, the four little bunnies, left on their own, began exploring their neighbourhood. Mopsy, Flopsy and Cotton-tail, being good bunnies, hopped down the lane to pick some blackberries. However, Peter, being very naughty, did exactly what was forbidden: He ran to Mr. McGregor's garden, and squeezed under the gate. Not troubled by any thoughts of danger, he ate up some lettuce, and then some beans. Next came the radishes. Then, feeling a bit sick in his stomach, he looked for some parsley.",
+      "QuestionImage": "NA"
+    },
+     {
+      "index": 15,
+      "QuestionArr_15": "What did the grasshopper do during summer?",
+      "OptionArr_15": ["Collected food", "Built a house", "Sang and played", "Slept all day"],
+      "AnswerArr_15": ["", "", "Yes", ""],
+      "ImageName": "",
+      "Para": "In a sunny meadow, a grasshopper spent all summer singing and playing while an ant worked hard collecting food for winter. The grasshopper laughed at the ant for working so hard. But when winter came, the grasshopper had no food and shivered in the cold. He went to the ant's house and begged for help. The ant shared his food but reminded the grasshopper about the importance of hard work.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 16,
+      "QuestionArr_16": "What was the ant busy doing during summer?",
+      "OptionArr_16": ["Playing games", "Collecting food", "Singing with the grasshopper", "Sleeping", "Moving houses", "Traveling to new places"],
+      "AnswerArr_16": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "In a sunny meadow, a grasshopper spent all summer singing and playing while an ant worked hard collecting food for winter. The grasshopper laughed at the ant for working so hard. But when winter came, the grasshopper had no food and shivered in the cold. He went to the ant's house and begged for help. The ant shared his food but reminded the grasshopper about the importance of hard work.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 17,
+      "QuestionArr_17": "What happened to the grasshopper in winter?",
+      "OptionArr_17": ["He had lots of food", "He slept comfortably", "He was hungry and cold", "He traveled away", "He became an ant's helper", "He found another meadow", "He built a new home", "He shared food with ants"],
+      "AnswerArr_17": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "In a sunny meadow, a grasshopper spent all summer singing and playing while an ant worked hard collecting food for winter. The grasshopper laughed at the ant for working so hard. But when winter came, the grasshopper had no food and shivered in the cold. He went to the ant's house and begged for help. The ant shared his food but reminded the grasshopper about the importance of hard work.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 18,
+      "QuestionArr_18": "How did the ant respond when the grasshopper asked for help?",
+      "OptionArr_18": ["Ignored him completely", "Gave him food and taught him a lesson", "Refused to help him", "Laughed at him", "Sent him away", "Shared only shelter"],
+      "AnswerArr_18": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "In a sunny meadow, a grasshopper spent all summer singing and playing while an ant worked hard collecting food for winter. The grasshopper laughed at the ant for working so hard. But when winter came, the grasshopper had no food and shivered in the cold. He went to the ant's house and begged for help. The ant shared his food but reminded the grasshopper about the importance of hard work.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 19,
+      "QuestionArr_19": "What could the grasshopper have done differently in summer?",
+      "OptionArr_19": ["Collected food with the ant", "Played all day without worry", "Asked the ant to share food later", "Stored water and food", "Built a warm house", "Left the meadow"],
+      "AnswerArr_19": ["Yes", "", "", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "In a sunny meadow, a grasshopper spent all summer singing and playing while an ant worked hard collecting food for winter. The grasshopper laughed at the ant for working so hard. But when winter came, the grasshopper had no food and shivered in the cold. He went to the ant's house and begged for help. The ant shared his food but reminded the grasshopper about the importance of hard work.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 20,
+      "QuestionArr_20": "What problem did the Wolf face after feasting?",
+      "OptionArr_20": ["He broke his tooth", "He had a bone stuck in his throat", "He was too full to move", "He injured his paw"],
+      "AnswerArr_20": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "A Wolf had been feasting too greedily, and a bone had stuck crosswise in his throat. He could get it neither up nor down, and of course he could not eat a thing. Naturally that was an awful state of affairs for a greedy Wolf. So away he hurried to the Crane. He was sure that she, with her long neck and bill, would easily be able to reach the bone and pull it out. 'I will reward you very handsomely,' said the Wolf, 'if you pull that bone out for me.' The Crane, as you can imagine, was very uneasy about putting her head in a Wolf's throat. But she was grasping in nature, so she did what the Wolf asked her to do.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 21,
+      "QuestionArr_21": "Why did the Wolf go to the Crane for help?",
+      "OptionArr_21": ["The Crane was his friend", "The Crane had a sharp beak", "The Crane had a long neck and bill", "The Crane was a doctor", "The Crane owed him a favor", "The Crane lived nearby"],
+      "AnswerArr_21": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "A Wolf had been feasting too greedily, and a bone had stuck crosswise in his throat. He could get it neither up nor down, and of course he could not eat a thing. Naturally that was an awful state of affairs for a greedy Wolf. So away he hurried to the Crane. He was sure that she, with her long neck and bill, would easily be able to reach the bone and pull it out. 'I will reward you very handsomely,' said the Wolf, 'if you pull that bone out for me.' The Crane, as you can imagine, was very uneasy about putting her head in a Wolf's throat. But she was grasping in nature, so she did what the Wolf asked her to do.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 22,
+      "QuestionArr_22": "What did the Wolf promise the Crane if she helped him?",
+      "OptionArr_22": ["To share his food with her", "To reward her handsomely", "To protect her from danger", "To take her to the forest", "To never trouble her again", "To bring her more bones", "To become her friend", "To give her shelter"],
+      "AnswerArr_22": ["", "Yes", "", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Wolf had been feasting too greedily, and a bone had stuck crosswise in his throat. He could get it neither up nor down, and of course he could not eat a thing. Naturally that was an awful state of affairs for a greedy Wolf. So away he hurried to the Crane. He was sure that she, with her long neck and bill, would easily be able to reach the bone and pull it out. 'I will reward you very handsomely,' said the Wolf, 'if you pull that bone out for me.' The Crane, as you can imagine, was very uneasy about putting her head in a Wolf's throat. But she was grasping in nature, so she did what the Wolf asked her to do.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 23,
+      "QuestionArr_23": "How did the Crane feel about putting her head in the Wolf's mouth?",
+      "OptionArr_23": ["Brave and fearless", "Uneasy but greedy", "Happy to help", "Angry and scared", "Excited for the reward", "Relieved and calm"],
+      "AnswerArr_23": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Wolf had been feasting too greedily, and a bone had stuck crosswise in his throat. He could get it neither up nor down, and of course he could not eat a thing. Naturally that was an awful state of affairs for a greedy Wolf. So away he hurried to the Crane. He was sure that she, with her long neck and bill, would easily be able to reach the bone and pull it out. 'I will reward you very handsomely,' said the Wolf, 'if you pull that bone out for me.' The Crane, as you can imagine, was very uneasy about putting her head in a Wolf's throat. But she was grasping in nature, so she did what the Wolf asked her to do.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 24,
+      "QuestionArr_24": "If you were the Crane, what would you do before agreeing to help the Wolf?",
+      "OptionArr_24": ["Ask for the reward first", "Refuse to help him", "Call other animals for support", "Make the Wolf promise not to harm her", "Fly away to avoid danger", "Help without thinking of the risk"],
+      "AnswerArr_24": ["", "", "", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "A Wolf had been feasting too greedily, and a bone had stuck crosswise in his throat. He could get it neither up nor down, and of course he could not eat a thing. Naturally that was an awful state of affairs for a greedy Wolf. So away he hurried to the Crane. He was sure that she, with her long neck and bill, would easily be able to reach the bone and pull it out. 'I will reward you very handsomely,' said the Wolf, 'if you pull that bone out for me.' The Crane, as you can imagine, was very uneasy about putting her head in a Wolf's throat. But she was grasping in nature, so she did what the Wolf asked her to do.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 25,
+      "QuestionArr_25": "What was the pigeon searching for?",
+      "OptionArr_25": ["Food", "Water", "Shelter", "Seeds"],
+      "AnswerArr_25": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "A pigeon was very thirsty and saw a pot of water. In his hurry, he flew towards it but missed and hit a tree branch. He fell down but soon recovered. Then he slowly drank water from the pot and learned to be patient.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 26,
+      "QuestionArr_26": "What mistake did the pigeon make?",
+      "OptionArr_26": ["Flew too fast and hit a branch", "Dropped seeds into water", "Slept on the ground", "Drank dirty water", "Called other birds loudly", "Forgot where the pot was"],
+      "AnswerArr_26": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A pigeon was very thirsty and saw a pot of water. In his hurry, he flew towards it but missed and hit a tree branch. He fell down but soon recovered. Then he slowly drank water from the pot and learned to be patient.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 27,
+      "QuestionArr_27": "How did the pigeon feel after hitting the branch?",
+      "OptionArr_27": ["Happy", "Excited", "Hurt and tired", "Sleepy", "Strong", "Safe", "Angry", "Playful"],
+      "AnswerArr_27": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A pigeon was very thirsty and saw a pot of water. In his hurry, he flew towards it but missed and hit a tree branch. He fell down but soon recovered. Then he slowly drank water from the pot and learned to be patient.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 28,
+      "QuestionArr_28": "What lesson did the pigeon learn?",
+      "OptionArr_28": ["Always fly fast", "Drink water quickly", "Be patient and careful", "Share water with others", "Call friends for help", "Avoid pots of water"],
+      "AnswerArr_28": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "A pigeon was very thirsty and saw a pot of water. In his hurry, he flew towards it but missed and hit a tree branch. He fell down but soon recovered. Then he slowly drank water from the pot and learned to be patient.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 29,
+      "QuestionArr_29": "What could the pigeon do to avoid getting hurt?",
+      "OptionArr_29": ["Fly slower near objects", "Look carefully before flying", "Call for help", "Wait for rain", "Climb down to the pot", "Close its eyes and fly"],
+      "AnswerArr_29": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A pigeon was very thirsty and saw a pot of water. In his hurry, he flew towards it but missed and hit a tree branch. He fell down but soon recovered. Then he slowly drank water from the pot and learned to be patient.",
+      "QuestionImage": "NA"
+    }
+ ],
+ "Level4": [
+    {
+      "index": 0,
+      "QuestionArr_0": "What did the Fox see hanging from the vine?",
+      "OptionArr_0": ["Apples", "Oranges", "Grapes", "Mangoes"],
+      "AnswerArr_0": ["", "", "Yes", ""],
+      "ImageName": "",
+      "Para": "A Fox one day spied a beautiful bunch of ripe grapes hanging from a vine trained along the branches of a tree. The grapes seemed ready to burst with juice, and the Fox's mouth watered as he gazed longingly at them. The bunch hung from a high branch, and the Fox had to jump for it. The first time he jumped he missed it by a long way. So he walked off a short distance and took a running leap at it, only to fall short once more. Again and again he tried, but in vain.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 1,
+      "QuestionArr_1": "How did the grapes look to the Fox?",
+      "OptionArr_1": ["Sour and small", "Unripe and green", "Ripe and juicy", "Dry and wrinkled", "Bitter and hard", "Rotten and old"],
+      "AnswerArr_1": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "A Fox one day spied a beautiful bunch of ripe grapes hanging from a vine trained along the branches of a tree. The grapes seemed ready to burst with juice, and the Fox's mouth watered as he gazed longingly at them. The bunch hung from a high branch, and the Fox had to jump for it. The first time he jumped he missed it by a long way. So he walked off a short distance and took a running leap at it, only to fall short once more. Again and again he tried, but in vain.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 2,
+      "QuestionArr_2": "How did the Fox try to reach the grapes?",
+      "OptionArr_2": ["By climbing the tree", "By shaking the vine", "By jumping again and again", "By asking another animal for help", "By using a stick", "By standing on a rock", "By biting the branch", "By pulling the vine down"],
+      "AnswerArr_2": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Fox one day spied a beautiful bunch of ripe grapes hanging from a vine trained along the branches of a tree. The grapes seemed ready to burst with juice, and the Fox's mouth watered as he gazed longingly at them. The bunch hung from a high branch, and the Fox had to jump for it. The first time he jumped he missed it by a long way. So he walked off a short distance and took a running leap at it, only to fall short once more. Again and again he tried, but in vain.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 3,
+      "QuestionArr_3": "What happened each time the Fox jumped?",
+      "OptionArr_3": ["He caught the grapes", "He fell short and missed", "He climbed the vine", "He gave up quickly", "He reached halfway but slipped", "He knocked the grapes down"],
+      "AnswerArr_3": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Fox one day spied a beautiful bunch of ripe grapes hanging from a vine trained along the branches of a tree. The grapes seemed ready to burst with juice, and the Fox's mouth watered as he gazed longingly at them. The bunch hung from a high branch, and the Fox had to jump for it. The first time he jumped he missed it by a long way. So he walked off a short distance and took a running leap at it, only to fall short once more. Again and again he tried, but in vain.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 4,
+      "QuestionArr_4": "If you were the Fox, what would you do to get the grapes?",
+      "OptionArr_4": ["Climb the tree carefully", "Use a stick to pull the vine down", "Ask another animal for help", "Jump again and again until successful", "Wait for the grapes to fall naturally", "Build something to stand on"],
+      "AnswerArr_4": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Fox one day spied a beautiful bunch of ripe grapes hanging from a vine trained along the branches of a tree. The grapes seemed ready to burst with juice, and the Fox's mouth watered as he gazed longingly at them. The bunch hung from a high branch, and the Fox had to jump for it. The first time he jumped he missed it by a long way. So he walked off a short distance and took a running leap at it, only to fall short once more. Again and again he tried, but in vain.",
+      "QuestionImage": "NA"
+    },
+     {
+      "index": 5,
+      "QuestionArr_5": "What was the boy's job?",
+      "OptionArr_5": ["Farmer", "Shepherd", "Hunter", "Merchant"],
+      "AnswerArr_5": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, there was a shepherd boy who used to take his flock of sheep to the hill to graze on the fresh green grass. Sitting there, he had nothing to do the whole day. One day, an idea struck him. To overcome his boredom, he cried out, \"wolf! Wolf!\" All the men came running with their sticks and to their dismay found no wolf! The boy laughed. Again after a few days, he cried out, \"wolf! Wolf!\" and the villagers again came running up the hill only to find that the shepherd boy had fooled them. He laughed and laughed, seeing that he had succeeded in fooling them again. However, this time, the villagers were very angry, and they told him that the next time he cries out for help, they would not come.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 6,
+      "QuestionArr_6": "Why did the boy cry \"Wolf\" the first few times?",
+      "OptionArr_6": ["He was scared of a real wolf", "He wanted to warn the villagers", "He was bored and wanted to play a trick", "He saw another animal", "He wanted attention", "He needed help with sheep"],
+      "AnswerArr_6": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, there was a shepherd boy who used to take his flock of sheep to the hill to graze on the fresh green grass. Sitting there, he had nothing to do the whole day. One day, an idea struck him. To overcome his boredom, he cried out, \"wolf! Wolf!\" All the men came running with their sticks and to their dismay found no wolf! The boy laughed. Again after a few days, he cried out, \"wolf! Wolf!\" and the villagers again came running up the hill only to find that the shepherd boy had fooled them. He laughed and laughed, seeing that he had succeeded in fooling them again. However, this time, the villagers were very angry, and they told him that the next time he cries out for help, they would not come.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 7,
+      "QuestionArr_7": "How did the villagers react when they first heard the boy crying \"Wolf\"?",
+      "OptionArr_7": ["They ignored him", "They came running to help", "They laughed at him", "They scolded him immediately", "They sent a dog to check", "They stayed at home", "They chased the boy away", "They brought weapons"],
+      "AnswerArr_7": ["", "Yes", "", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, there was a shepherd boy who used to take his flock of sheep to the hill to graze on the fresh green grass. Sitting there, he had nothing to do the whole day. One day, an idea struck him. To overcome his boredom, he cried out, \"wolf! Wolf!\" All the men came running with their sticks and to their dismay found no wolf! The boy laughed. Again after a few days, he cried out, \"wolf! Wolf!\" and the villagers again came running up the hill only to find that the shepherd boy had fooled them. He laughed and laughed, seeing that he had succeeded in fooling them again. However, this time, the villagers were very angry, and they told him that the next time he cries out for help, they would not come.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 8,
+      "QuestionArr_8": "What happened when the real wolf came?",
+      "OptionArr_8": ["The boy fought the wolf alone", "The villagers saved the sheep", "No one believed the boy, and the wolf attacked the sheep", "The wolf ran away", "The boy caught the wolf", "The sheep hid in the forest"],
+      "AnswerArr_8": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, there was a shepherd boy who used to take his flock of sheep to the hill to graze on the fresh green grass. Sitting there, he had nothing to do the whole day. One day, an idea struck him. To overcome his boredom, he cried out, \"wolf! Wolf!\" All the men came running with their sticks and to their dismay found no wolf! The boy laughed. Again after a few days, he cried out, \"wolf! Wolf!\" and the villagers again came running up the hill only to find that the shepherd boy had fooled them. He laughed and laughed, seeing that he had succeeded in fooling them again. However, this time, the villagers were very angry, and they told him that the next time he cries out for help, they would not come.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 9,
+      "QuestionArr_9": "If you were the shepherd boy, what would you do differently to protect the sheep?",
+      "OptionArr_9": ["Never lie about the wolf", "Build a fence around the sheep", "Keep a watchdog for protection", "Ask the villagers for help only when necessary", "Stay alert and watch for danger", "Hide from the wolf and run away"],
+      "AnswerArr_9": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once upon a time, there was a shepherd boy who used to take his flock of sheep to the hill to graze on the fresh green grass. Sitting there, he had nothing to do the whole day. One day, an idea struck him. To overcome his boredom, he cried out, \"wolf! Wolf!\" All the men came running with their sticks and to their dismay found no wolf! The boy laughed. Again after a few days, he cried out, \"wolf! Wolf!\" and the villagers again came running up the hill only to find that the shepherd boy had fooled them. He laughed and laughed, seeing that he had succeeded in fooling them again. However, this time, the villagers were very angry, and they told him that the next time he cries out for help, they would not come.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 10,
+      "QuestionArr_10": "What were the frogs searching for in the forest?",
+      "OptionArr_10": ["Food", "Water", "Shelter", "Friends"],
+      "AnswerArr_10": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "Once, a group of frogs was roaming around the forest in search of water. Suddenly, two frogs in the group accidentally fell into a deep pit. The other frogs worried about their friends in the pit. Seeing how deep the pit was, they told the two frogs that there was no way they could escape the deep pit and that there was no point in trying. They continued to constantly discourage them as the two frogs tried to jump out of the pit. But keep falling back. Soon, one of the two frogs started to believe the other frogs — that they'll never be able to escape the pit and eventually died after giving up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 11,
+      "QuestionArr_11": "What happened to the two frogs in the group?",
+      "OptionArr_11": ["They climbed a tree", "They fell into a deep pit", "They swam in a pond", "They hid under leaves", "They fought with other frogs", "They found water first"],
+      "AnswerArr_11": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once, a group of frogs was roaming around the forest in search of water. Suddenly, two frogs in the group accidentally fell into a deep pit. The other frogs worried about their friends in the pit. Seeing how deep the pit was, they told the two frogs that there was no way they could escape the deep pit and that there was no point in trying. They continued to constantly discourage them as the two frogs tried to jump out of the pit. But keep falling back. Soon, one of the two frogs started to believe the other frogs — that they'll never be able to escape the pit and eventually died after giving up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 12,
+      "QuestionArr_12": "What did the other frogs tell the two frogs in the pit?",
+      "OptionArr_12": ["To keep jumping and not give up", "To stay calm and wait for help", "That they could never escape", "To dig their way out", "That they should rest in the pit", "To climb on each other's back", "That there was no point in trying", "To call for other animals"],
+      "AnswerArr_12": ["", "", "Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once, a group of frogs was roaming around the forest in search of water. Suddenly, two frogs in the group accidentally fell into a deep pit. The other frogs worried about their friends in the pit. Seeing how deep the pit was, they told the two frogs that there was no way they could escape the deep pit and that there was no point in trying. They continued to constantly discourage them as the two frogs tried to jump out of the pit. But keep falling back. Soon, one of the two frogs started to believe the other frogs — that they'll never be able to escape the pit and eventually died after giving up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 13,
+      "QuestionArr_13": "What happened to one of the frogs in the pit?",
+      "OptionArr_13": ["It escaped successfully", "It kept jumping without stopping", "It believed the others, gave up, and died", "It was saved by another frog", "It hid inside the pit", "It swam in the water inside the pit"],
+      "AnswerArr_13": ["", "", "Yes", "", "", ""],
+      "ImageName": "",
+      "Para": "Once, a group of frogs was roaming around the forest in search of water. Suddenly, two frogs in the group accidentally fell into a deep pit. The other frogs worried about their friends in the pit. Seeing how deep the pit was, they told the two frogs that there was no way they could escape the deep pit and that there was no point in trying. They continued to constantly discourage them as the two frogs tried to jump out of the pit. But keep falling back. Soon, one of the two frogs started to believe the other frogs — that they'll never be able to escape the pit and eventually died after giving up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 14,
+      "QuestionArr_14": "If you were one of the frogs in the pit, what would you do to escape?",
+      "OptionArr_14": ["Keep jumping no matter what others say", "Call out for help", "Use teamwork with the other frog", "Wait for rain to fill the pit with water", "Listen to the discouraging frogs and stop trying", "Try to climb using the pit's walls"],
+      "AnswerArr_14": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "Once, a group of frogs was roaming around the forest in search of water. Suddenly, two frogs in the group accidentally fell into a deep pit. The other frogs worried about their friends in the pit. Seeing how deep the pit was, they told the two frogs that there was no way they could escape the deep pit and that there was no point in trying. They continued to constantly discourage them as the two frogs tried to jump out of the pit. But keep falling back. Soon, one of the two frogs started to believe the other frogs — that they'll never be able to escape the pit and eventually died after giving up.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 15,
+      "QuestionArr_15": "Why did the Kid think he could take care of himself?",
+      "OptionArr_15": ["He was very fast", "He had growing horns", "He was bigger than his mother", "He was stronger than the wolf"],
+      "AnswerArr_15": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "There was once a little Kid whose growing horns made him think he was a grown-up Billy Goat and able to take care of himself. So one evening when the flock started home from the pasture and his mother called, the Kid paid no heed and kept right on nibbling the tender grass. A little later when he lifted his head, the flock was gone. He was all alone. The sun was sinking. Long shadows came creeping over the ground. A chilly little wind came creeping with them making scary noises in the grass. The Kid shivered as he thought of the terrible Wolf. Then he started wildly over the field, bleating for his mother. But not half-way, near a clump of trees, there was the Wolf!",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 16,
+      "QuestionArr_16": "What did the Kid do when his mother called him home?",
+      "OptionArr_16": ["He quickly followed her", "He ignored her and kept nibbling grass", "He ran into the forest", "He bleated loudly for her", "He hid behind a tree", "He followed another goat"],
+      "AnswerArr_16": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "There was once a little Kid whose growing horns made him think he was a grown-up Billy Goat and able to take care of himself. So one evening when the flock started home from the pasture and his mother called, the Kid paid no heed and kept right on nibbling the tender grass. A little later when he lifted his head, the flock was gone. He was all alone. The sun was sinking. Long shadows came creeping over the ground. A chilly little wind came creeping with them making scary noises in the grass. The Kid shivered as he thought of the terrible Wolf. Then he started wildly over the field, bleating for his mother. But not half-way, near a clump of trees, there was the Wolf!",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 17,
+      "QuestionArr_17": "What happened when the Kid finally looked up?",
+      "OptionArr_17": ["The flock had already gone home", "The sun was rising", "He saw his mother nearby", "It started raining", "The flock was still grazing", "He was surrounded by wolves", "Long shadows were forming", "The wolf appeared immediately"],
+      "AnswerArr_17": ["Yes", "", "", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "There was once a little Kid whose growing horns made him think he was a grown-up Billy Goat and able to take care of himself. So one evening when the flock started home from the pasture and his mother called, the Kid paid no heed and kept right on nibbling the tender grass. A little later when he lifted his head, the flock was gone. He was all alone. The sun was sinking. Long shadows came creeping over the ground. A chilly little wind came creeping with them making scary noises in the grass. The Kid shivered as he thought of the terrible Wolf. Then he started wildly over the field, bleating for his mother. But not half-way, near a clump of trees, there was the Wolf!",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 18,
+      "QuestionArr_18": "How did the Kid feel when he was alone?",
+      "OptionArr_18": ["Brave and fearless", "Cold and scared", "Happy to be alone", "Excited for an adventure", "Safe and calm", "Angry with his mother"],
+      "AnswerArr_18": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "There was once a little Kid whose growing horns made him think he was a grown-up Billy Goat and able to take care of himself. So one evening when the flock started home from the pasture and his mother called, the Kid paid no heed and kept right on nibbling the tender grass. A little later when he lifted his head, the flock was gone. He was all alone. The sun was sinking. Long shadows came creeping over the ground. A chilly little wind came creeping with them making scary noises in the grass. The Kid shivered as he thought of the terrible Wolf. Then he started wildly over the field, bleating for his mother. But not half-way, near a clump of trees, there was the Wolf!",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 19,
+      "QuestionArr_19": "If you were the Kid, what would you do after realizing you were alone?",
+      "OptionArr_19": ["Run quickly back home", "Call loudly for your mother", "Hide until morning", "Fight the wolf with your horns", "Stay in the pasture until the flock returns", "Climb a tree to stay safe"],
+      "AnswerArr_19": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "There was once a little Kid whose growing horns made him think he was a grown-up Billy Goat and able to take care of himself. So one evening when the flock started home from the pasture and his mother called, the Kid paid no heed and kept right on nibbling the tender grass. A little later when he lifted his head, the flock was gone. He was all alone. The sun was sinking. Long shadows came creeping over the ground. A chilly little wind came creeping with them making scary noises in the grass. The Kid shivered as he thought of the terrible Wolf. Then he started wildly over the field, bleating for his mother. But not half-way, near a clump of trees, there was the Wolf!",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 20,
+      "QuestionArr_20": "What food did the Country Mouse serve for lunch?",
+      "OptionArr_20": ["Cheese and milk", "Wheat stalks, roots, and acorns", "Bread and butter", "Fruits and honey"],
+      "AnswerArr_20": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "A Town Mouse once visited a relative who lived in the country. For lunch the Country Mouse served wheat stalks, roots, and acorns, with a dash of cold water for drink. The Town Mouse ate very sparingly, nibbling a little of this and a little of that, and by her manner making it very plain that she ate the simple food only to be polite. After the meal the friends had a long talk, or rather the Town Mouse talked about her life in the city while the Country Mouse listened. They then went to bed in a cozy nest in the hedgerow and slept in quiet and comfort until morning. In her sleep the Country Mouse dreamed she was a Town Mouse with all the luxuries and delights of city life that her friend had described for her. So the next day when the Town Mouse asked the Country Mouse to go home with her to the city, she gladly said yes.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 21,
+      "QuestionArr_21": "How did the Town Mouse feel about the country food?",
+      "OptionArr_21": ["She loved it and ate a lot", "She found it simple but ate politely", "She disliked it but didn't say anything", "She refused to eat", "She asked for city food instead", "She offered to cook something else"],
+      "AnswerArr_21": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Town Mouse once visited a relative who lived in the country. For lunch the Country Mouse served wheat stalks, roots, and acorns, with a dash of cold water for drink. The Town Mouse ate very sparingly, nibbling a little of this and a little of that, and by her manner making it very plain that she ate the simple food only to be polite. After the meal the friends had a long talk, or rather the Town Mouse talked about her life in the city while the Country Mouse listened. They then went to bed in a cozy nest in the hedgerow and slept in quiet and comfort until morning. In her sleep the Country Mouse dreamed she was a Town Mouse with all the luxuries and delights of city life that her friend had described for her. So the next day when the Town Mouse asked the Country Mouse to go home with her to the city, she gladly said yes.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 22,
+      "QuestionArr_22": "Where did the two mice sleep that night?",
+      "OptionArr_22": ["In a city house", "In a cozy nest in the hedgerow", "In a barn", "Inside a tree hole", "In a field", "Under a bridge", "In the kitchen of a farmhouse", "In the attic"],
+      "AnswerArr_22": ["", "Yes", "", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Town Mouse once visited a relative who lived in the country. For lunch the Country Mouse served wheat stalks, roots, and acorns, with a dash of cold water for drink. The Town Mouse ate very sparingly, nibbling a little of this and a little of that, and by her manner making it very plain that she ate the simple food only to be polite. After the meal the friends had a long talk, or rather the Town Mouse talked about her life in the city while the Country Mouse listened. They then went to bed in a cozy nest in the hedgerow and slept in quiet and comfort until morning. In her sleep the Country Mouse dreamed she was a Town Mouse with all the luxuries and delights of city life that her friend had described for her. So the next day when the Town Mouse asked the Country Mouse to go home with her to the city, she gladly said yes.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 23,
+      "QuestionArr_23": "What did the Country Mouse dream of at night?",
+      "OptionArr_23": ["Living in a tree", "Becoming a Town Mouse", "Eating city food", "Traveling the world", "Visiting other animals", "Building a big nest"],
+      "AnswerArr_23": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Town Mouse once visited a relative who lived in the country. For lunch the Country Mouse served wheat stalks, roots, and acorns, with a dash of cold water for drink. The Town Mouse ate very sparingly, nibbling a little of this and a little of that, and by her manner making it very plain that she ate the simple food only to be polite. After the meal the friends had a long talk, or rather the Town Mouse talked about her life in the city while the Country Mouse listened. They then went to bed in a cozy nest in the hedgerow and slept in quiet and comfort until morning. In her sleep the Country Mouse dreamed she was a Town Mouse with all the luxuries and delights of city life that her friend had described for her. So the next day when the Town Mouse asked the Country Mouse to go home with her to the city, she gladly said yes.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 24,
+      "QuestionArr_24": "If you were the Country Mouse, what would you do before deciding to visit the city?",
+      "OptionArr_24": ["Ask more about city life", "Prepare yourself for the dangers of the city", "Invite the Town Mouse to stay longer in the country", "Say no and stay in the countryside", "Pack enough food for the journey", "Take other country animals along"],
+      "AnswerArr_24": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A Town Mouse once visited a relative who lived in the country. For lunch the Country Mouse served wheat stalks, roots, and acorns, with a dash of cold water for drink. The Town Mouse ate very sparingly, nibbling a little of this and a little of that, and by her manner making it very plain that she ate the simple food only to be polite. After the meal the friends had a long talk, or rather the Town Mouse talked about her life in the city while the Country Mouse listened. They then went to bed in a cozy nest in the hedgerow and slept in quiet and comfort until morning. In her sleep the Country Mouse dreamed she was a Town Mouse with all the luxuries and delights of city life that her friend had described for her. So the next day when the Town Mouse asked the Country Mouse to go home with her to the city, she gladly said yes.",
+      "QuestionImage": "NA"
+    },
+     {
+      "index": 25,
+      "QuestionArr_25": "What work did the donkey do?",
+      "OptionArr_25": ["Pulled a cart", "Carried clothes for the washerman", "Guarded the house", "Transported food"],
+      "AnswerArr_25": ["", "Yes", "", ""],
+      "ImageName": "",
+      "Para": "A washerman had a donkey who carried clothes every day. The donkey was lazy and pretended to be hurt to avoid work. The kind washerman believed him and let him rest. One day, when the donkey really got hurt, the washerman didn't believe him and made him work, thinking he was lying again.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 26,
+      "QuestionArr_26": "What trick did the donkey play?",
+      "OptionArr_26": ["Pretended to be asleep", "Pretended to be hurt", "Hid in the barn", "Ate all the clothes", "Ran away from home", "Refused to eat food"],
+      "AnswerArr_26": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A washerman had a donkey who carried clothes every day. The donkey was lazy and pretended to be hurt to avoid work. The kind washerman believed him and let him rest. One day, when the donkey really got hurt, the washerman didn't believe him and made him work, thinking he was lying again.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 27,
+      "QuestionArr_27": "What did the washerman do when he thought the donkey was hurt?",
+      "OptionArr_27": ["Took him to the vet", "Let him rest", "Sold him", "Fed him extra food", "Took him home", "Left him in the forest", "Made him work harder", "Called his friends"],
+      "AnswerArr_27": ["", "Yes", "", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A washerman had a donkey who carried clothes every day. The donkey was lazy and pretended to be hurt to avoid work. The kind washerman believed him and let him rest. One day, when the donkey really got hurt, the washerman didn't believe him and made him work, thinking he was lying again.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 28,
+      "QuestionArr_28": "What happened when the donkey really got hurt?",
+      "OptionArr_28": ["The washerman believed him", "He was forced to work", "He was sold to another owner", "He rested for many days", "He was taken to a doctor", "He ran away"],
+      "AnswerArr_28": ["", "Yes", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A washerman had a donkey who carried clothes every day. The donkey was lazy and pretended to be hurt to avoid work. The kind washerman believed him and let him rest. One day, when the donkey really got hurt, the washerman didn't believe him and made him work, thinking he was lying again.",
+      "QuestionImage": "NA"
+    },
+    {
+      "index": 29,
+      "QuestionArr_29": "What lesson should the donkey learn?",
+      "OptionArr_29": ["Stop lying and be honest", "Work hard only sometimes", "Pretend better next time", "Take longer breaks", "Ask another animal to help", "Always hide in the forest"],
+      "AnswerArr_29": ["Yes", "", "", "", "", ""],
+      "ImageName": "",
+      "Para": "A washerman had a donkey who carried clothes every day. The donkey was lazy and pretended to be hurt to avoid work. The kind washerman believed him and let him rest. One day, when the donkey really got hurt, the washerman didn't believe him and made him work, thinking he was lying again.",
+      "QuestionImage": "NA"
+    }
+ ]
 }
