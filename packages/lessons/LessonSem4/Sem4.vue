@@ -141,8 +141,6 @@ export default {
 
         const attemptedData = JSON.parse(storedResultRaw || '{}'); // default to object
 
-        console.log("attemptedData.detailedResults" + JSON.stringify(attemptedData, null, 2));
-
         if (
             attemptedData &&
             Array.isArray(attemptedData.detailedResults) &&
@@ -154,11 +152,6 @@ export default {
             this.Questions_attempted = attemptedData.summary.questionsAttempted || 0;
             this.correct_Answers = attemptedData.summary.correctAnswers || 0;
             this.incorrect_Answers = attemptedData.summary.incorrectAnswers || 0;
-
-            console.log("this.timestart", this.timestart);
-            console.log("this.correct_Answers", this.correct_Answers);
-            console.log("this.incorrect_Answers", this.incorrect_Answers);
-            console.log("this.Questions_attempted", this.Questions_attempted);
 
             attemptedData.detailedResults.forEach(q => {
                 this.practiceList.push({
@@ -239,11 +232,15 @@ export default {
 
         this.selectedLevels = validLevels;
 
+        
         // ✅ Reorder JSON: Move attempted questions to start (with updated values)
         for (const level of this.selectedLevels) {
             const key = `Level${level}`;
             if (Array.isArray(this.activityQuestions[key])) {
                 let levelQuestions = this.activityQuestions[key];
+
+                
+        console.log("attemptedDetails" + JSON.stringify(attemptedDetails, null, 2));
 
                 // Step 1: Get attempted questions for this level (with restored answers)
                 const attemptedForLevel = attemptedDetails
@@ -252,23 +249,36 @@ export default {
                         const questionIndex = parseInt(dr.questionNo, 10) - 1;
                         const originalQ = levelQuestions[questionIndex];
                         if (originalQ) {
-                            originalQ.Blanks = originalQ.Blanks.map(blank => {
-                                const storedBlank = dr.blanksAnswer.find(b => b.id === blank.id);
-                                return storedBlank ? {
-                                    ...blank,
-                                    value: storedBlank.value
-                                } : blank;
-                            });
+                            // ✅ Handle both "Blanks" (Level 1) and "rectangles" (Level 5)
+                            if (Array.isArray(originalQ.Blanks)) {
+                                originalQ.Blanks = originalQ.Blanks.map(blank => {
+                                const storedBlank = dr.blanksAnswer?.find(b => b.id === blank.id);
+                                return storedBlank ? { ...blank, value: storedBlank.value } : blank;
+                                });
+                            }
+
+                            if (Array.isArray(originalQ.rectangles)) {
+                                originalQ.rectangles = originalQ.rectangles.map(rect => {
+                                const storedRect = dr.rectanglesAnswer?.find(r => r.symbol === rect.symbol);
+                                return storedRect ? { ...rect, chosenOption: storedRect.chosenOption } : rect;
+                                });
+                            }
+
                             return originalQ;
                         }
                         return null;
                     })
                     .filter(Boolean);
 
+               
+        console.log("attemptedData" + JSON.stringify(attemptedForLevel, null, 2));
+                    
                 // Step 2: Get remaining (non-attempted) questions
                 let remainingQuestions = levelQuestions.filter((_, idx) =>
                     !attemptedQuestionNumbers.includes(String(idx + 1).padStart(2, '0'))
                 );
+
+                console.log("remainingQuestions" + JSON.stringify(remainingQuestions, null, 2));
 
                 // Step 3: Shuffle only remaining questions
                 for (let i = remainingQuestions.length - 1; i > 0; i--) {
@@ -282,6 +292,8 @@ export default {
                 console.log(`✅ Final ${key} order:`, this.activityQuestions[key]);
             }
         }
+
+        
 
         const totalAvailable = this.selectedLevels.reduce((sum, lvl) => {
             const key = `Level${lvl}`;

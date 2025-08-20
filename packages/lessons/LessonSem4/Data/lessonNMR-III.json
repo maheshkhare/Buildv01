@@ -22270,7 +22270,7 @@
   { "id": 20, "symbol": "tour busses are to a vacation.", "value": "tour busses are to a vacation." }
 ]
 ,
-      "Blanks": [{ "id": "blank1", "symbol": "", "value": "", "symbol": " {{blank1}} Interior decoration is to a home as...", "value": "", "CorrectValue": "cosmetics are to beauty." }]
+      "Blanks": [{ "id": "blank1", "symbol": " {{blank1}} Interior decoration is to a home as...", "value": "", "CorrectValue": "cosmetics are to beauty." }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
@@ -22746,7 +22746,7 @@
   { "id": 20, "symbol": "tour busses are to a vacation.", "value": "tour busses are to a vacation." }
 ]
 ,
-      "Blanks": [{ "id": "blank1", "symbol": " Information is to knowledge as..", "value": "", "CorrectValue": "experience is to wisdom." }]
+      "Blanks": [{ "id": "blank1", "symbol": "{{blank1}} Information is to knowledge as..", "value": "", "CorrectValue": "experience is to wisdom." }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
@@ -22806,7 +22806,7 @@
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_21": "Life is like",
+      "QuestionArr_21": "Life is like {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -22829,11 +22829,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Life is like", "value": "", "CorrectValue": "a race" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Life is like {{blank1}}", "value": "", "CorrectValue": "a race" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_22": "Finding a Good Man is Like",
+      "QuestionArr_22": "Finding a Good Man is Like {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -22856,7 +22856,7 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1", "symbol": "Finding a Good Man is Like", "value": "", "CorrectValue": "Finding a Needle in Haystack" }]
+      "Blanks": [{ "id": "blank1", "symbol": "Finding a Good Man is Like {{blank1}}", "value": "", "CorrectValue": "Finding a Needle in Haystack" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
@@ -22883,11 +22883,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1", "symbol": "Sword is the Weapon of a Warrior", "value": "", "CorrectValue": "Pen is the Weapon of a Writer" }]
+      "Blanks": [{ "id": "blank1", "symbol": "Sword is the Weapon of a Warrior {{blank1}}", "value": "", "CorrectValue": "Pen is the Weapon of a Writer" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_24": "That’s as Useful as",
+      "QuestionArr_24": "That’s as Useful as {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -22910,11 +22910,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1", "symbol": "That’s as Useful as", "value": "", "CorrectValue": "Nails on a chalkboard" }]
+      "Blanks": [{ "id": "blank1", "symbol": "That’s as Useful as {{blank1}}", "value": "", "CorrectValue": "Nails on a chalkboard" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_25": "How a Doctor Diagnoses Diseases are",
+      "QuestionArr_25": "How a Doctor Diagnoses Diseases are {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -22937,11 +22937,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1", "symbol": "How a Doctor Diagnoses Diseases are", "value": "", "CorrectValue": "Like How a Detective Investigates Crimes" }]
+      "Blanks": [{ "id": "blank1", "symbol": "How a Doctor Diagnoses Diseases are {{blank1}}", "value": "", "CorrectValue": "Like How a Detective Investigates Crimes" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_26": "Explaining a Joke is Like",
+      "QuestionArr_26": "Explaining a Joke is Like {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -22964,11 +22964,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Explaining a Joke is Like", "value": "", "CorrectValue": "Dissecting a frog." }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Explaining a Joke is Like {{blank1}}", "value": "", "CorrectValue": "Dissecting a frog." }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_27": "Just as a Caterpillar Comes out of its Cocoon",
+      "QuestionArr_27": "Just as a Caterpillar Comes out of its Cocoon {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -22991,11 +22991,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1", "symbol": "Just as a Caterpillar Comes out of its Cocoon", "value": "", "CorrectValue": "So we Must Come out of our comfort Zone" }]
+      "Blanks": [{ "id": "blank1", "symbol": "Just as a Caterpillar Comes out of its Cocoon {{blank1}}", "value": "", "CorrectValue": "So we Must Come out of our comfort Zone" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_28": "A Movie is a Roller Coaster Ride of",
+      "QuestionArr_28": "A Movie is a Roller Coaster Ride of {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23018,11 +23018,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "A Movie is a Roller Coaster Ride of", "value": "", "CorrectValue": "Emotions" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "A Movie is a Roller Coaster Ride of {{blank1}}", "value": "", "CorrectValue": "Emotions" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_29": "You are as Annoying as",
+      "QuestionArr_29": "You are as Annoying as {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23045,11 +23045,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1", "symbol": "You are as Annoying as", "value": "", "CorrectValue": "Rearranging Deck Chairs on the Titanic" }]
+      "Blanks": [{ "id": "blank1", "symbol": "You are as Annoying as {{blank1}}", "value": "", "CorrectValue": "Rearranging Deck Chairs on the Titanic" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_30": "Seed is to tree -",
+      "QuestionArr_30": "Seed is to tree - {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23072,11 +23072,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1", "symbol": "Seed is to tree -", "value": "", "CorrectValue": "An egg is to bird" }]
+      "Blanks": [{ "id": "blank1", "symbol": "Seed is to tree - {{blank1}}", "value": "", "CorrectValue": "An egg is to bird" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_31": "Chaos is a",
+      "QuestionArr_31": "Chaos is a {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23099,11 +23099,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Chaos is a", "value": "", "CorrectValue": "Friend of mine" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Chaos is a {{blank1}}", "value": "", "CorrectValue": "Friend of mine" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_32": "She is an open",
+      "QuestionArr_32": "She is an open {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23126,11 +23126,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "She is an open", "value": "", "CorrectValue": "Book" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "She is an open {{blank1}}", "value": "", "CorrectValue": "Book" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_33": "This place is a",
+      "QuestionArr_33": "This place is a {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23153,11 +23153,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1", "symbol": "This place is a", "value": "", "CorrectValue": "Fish market" }]
+      "Blanks": [{ "id": "blank1", "symbol": "This place is a {{blank1}}", "value": "", "CorrectValue": "Fish market" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_34": "My dogs are",
+      "QuestionArr_34": "My dogs are {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23180,11 +23180,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1", "symbol": "My dogs are", "value": "", "CorrectValue": "Barking" }]
+      "Blanks": [{ "id": "blank1", "symbol": "My dogs are {{blank1}}", "value": "", "CorrectValue": "Barking" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_35": "Speaking of the",
+      "QuestionArr_35": "Speaking of the {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23207,11 +23207,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Speaking of the", "value": "", "CorrectValue": "Devil" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Speaking of the {{blank1}}", "value": "", "CorrectValue": "Devil" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_36": "A dime a",
+      "QuestionArr_36": "A dime a {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23234,11 +23234,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "A dime a", "value": "", "CorrectValue": "Dozen" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "A dime a {{blank1}}", "value": "", "CorrectValue": "Dozen" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_37": "A wild goose",
+      "QuestionArr_37": "A wild goose {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23261,11 +23261,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "A wild goose", "value": "", "CorrectValue": "Chase" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "A wild goose {{blank1}}", "value": "", "CorrectValue": "Chase" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_38": "Bent out of",
+      "QuestionArr_38": "Bent out of {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23288,11 +23288,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Bent out of", "value": "", "CorrectValue": "Shape" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Bent out of {{blank1}}", "value": "", "CorrectValue": "Shape" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_39": "I am the good",
+      "QuestionArr_39": "I am the good {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23315,11 +23315,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "I am the good", "value": "", "CorrectValue": "Shepherd" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "I am the good {{blank1}}", "value": "", "CorrectValue": "Shepherd" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_40": "Music to my",
+      "QuestionArr_40": "Music to my {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "Rearranging Deck Chairs on the Titanic", "value": "Rearranging Deck Chairs on the Titanic" },
         { "id": 2, "symbol": "Dissecting a frog.", "value": "Dissecting a frog." },
@@ -23342,11 +23342,11 @@
         { "id": 19, "symbol": "Ears", "value": "Ears" },
         { "id": 20, "symbol": "Shepherd", "value": "Shepherd" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Music to my", "value": "", "CorrectValue": "Ears" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Music to my {{blank1}}", "value": "", "CorrectValue": "Ears" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_41": "Get your",
+      "QuestionArr_41": "Get your {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23369,11 +23369,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Get your", "value": "", "CorrectValue": "Act together" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Get your {{blank1}}", "value": "", "CorrectValue": "Act together" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_42": "Keep an ear",
+      "QuestionArr_42": "Keep an ear {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23396,11 +23396,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Keep an ear", "value": "", "CorrectValue": "to the ground" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Keep an ear {{blank1}}", "value": "", "CorrectValue": "to the ground" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_43": "By the skin",
+      "QuestionArr_43": "By the skin {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23423,11 +23423,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "By the skin", "value": "", "CorrectValue": "of your teeth" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "By the skin {{blank1}}", "value": "", "CorrectValue": "of your teeth" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_44": "Easier said",
+      "QuestionArr_44": "Easier said {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23450,11 +23450,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Easier said", "value": "", "CorrectValue": "than done" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Easier said {{blank1}}", "value": "", "CorrectValue": "than done" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_45": "Snug as a bug",
+      "QuestionArr_45": "Snug as a bug {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23477,11 +23477,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Snug as a bug", "value": "", "CorrectValue": "in the rug" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Snug as a bug {{blank1}}", "value": "", "CorrectValue": "in the rug" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_46": "To not see the woods",
+      "QuestionArr_46": "To not see the woods {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23504,11 +23504,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "To not see the woods", "value": "", "CorrectValue": "for the trees" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "To not see the woods {{blank1}}", "value": "", "CorrectValue": "for the trees" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_47": "Has bigger fish",
+      "QuestionArr_47": "Has bigger fish {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23531,11 +23531,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Has bigger fish", "value": "", "CorrectValue": "to fry" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Has bigger fish {{blank1}}", "value": "", "CorrectValue": "to fry" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_48": "Take a rain",
+      "QuestionArr_48": "Take a rain {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23558,11 +23558,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Take a rain", "value": "", "CorrectValue": "check" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Take a rain {{blank1}}", "value": "", "CorrectValue": "check" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_49": "Bite off more than",
+      "QuestionArr_49": "Bite off more than {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23585,11 +23585,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Bite off more than", "value": "", "CorrectValue": "you can chew" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Bite off more than {{blank1}}", "value": "", "CorrectValue": "you can chew" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_50": "Go back to the",
+      "QuestionArr_50": "Go back to the {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23612,11 +23612,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Go back to the", "value": "", "CorrectValue": "drawing board" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Go back to the {{blank1}}", "value": "", "CorrectValue": "drawing board" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_51": "Go down in",
+      "QuestionArr_51": "Go down in {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23639,11 +23639,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Go down in", "value": "", "CorrectValue": "wind" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Go down in {{blank1}}", "value": "", "CorrectValue": "wind" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_52": "Run like the",
+      "QuestionArr_52": "Run like the {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23666,11 +23666,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Run like the", "value": "", "CorrectValue": "flames" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Run like the {{blank1}}", "value": "", "CorrectValue": "flames" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_53": "Giving the cold",
+      "QuestionArr_53": "Giving the cold {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23693,11 +23693,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Giving the cold", "value": "", "CorrectValue": "shoulder" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Giving the cold {{blank1}}", "value": "", "CorrectValue": "shoulder" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_54": "Rule of",
+      "QuestionArr_54": "Rule of {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23720,11 +23720,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Rule of", "value": "", "CorrectValue": "thumb" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Rule of {{blank1}}", "value": "", "CorrectValue": "thumb" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_55": "All the world’s a",
+      "QuestionArr_55": "All the world’s a {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23747,11 +23747,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "All the world’s a", "value": "", "CorrectValue": "Stage" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "All the world’s a {{blank1}}", "value": "", "CorrectValue": "Stage" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_56": "Battle of",
+      "QuestionArr_56": "Battle of {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23774,11 +23774,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Battle of", "value": "", "CorrectValue": "Egos" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Battle of {{blank1}}", "value": "", "CorrectValue": "Egos" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_57": "The cut of your",
+      "QuestionArr_57": "The cut of your {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23801,11 +23801,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "The cut of your", "value": "", "CorrectValue": "Jib" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "The cut of your {{blank1}}", "value": "", "CorrectValue": "Jib" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_58": "Bit my",
+      "QuestionArr_58": "Bit my {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23828,11 +23828,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Bit my", "value": "", "CorrectValue": "Ankles" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Bit my {{blank1}}", "value": "", "CorrectValue": "Ankles" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_59": "As sly as a",
+      "QuestionArr_59": "As sly as a {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23855,11 +23855,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "As sly as a", "value": "", "CorrectValue": "fox" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "As sly as a {{blank1}}", "value": "", "CorrectValue": "fox" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_60": "As easy as shooting a fish",
+      "QuestionArr_60": "As easy as shooting a fish {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "than done", "value": "than done" },
         { "id": 2, "symbol": "for the trees", "value": "for the trees" },
@@ -23882,11 +23882,11 @@
         { "id": 19, "symbol": "In a barrel", "value": "In a barrel" },
         { "id": 20, "symbol": "fox", "value": "fox" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "As easy as shooting a fish", "value": "", "CorrectValue": "In a barrel" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "As easy as shooting a fish {{blank1}}", "value": "", "CorrectValue": "In a barrel" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_61": "She is as light as",
+      "QuestionArr_61": "She is as light as {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -23909,11 +23909,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "She is as light as", "value": "", "CorrectValue": "a feather" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "She is as light as {{blank1}}", "value": "", "CorrectValue": "a feather" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_62": "She was as quite as",
+      "QuestionArr_62": "She was as quite as {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -23936,11 +23936,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "She was as quite as", "value": "", "CorrectValue": "a church mouse" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "She was as quite as {{blank1}}", "value": "", "CorrectValue": "a church mouse" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_63": "It’s hot as an",
+      "QuestionArr_63": "It’s hot as an {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -23963,11 +23963,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "It’s hot as an", "value": "", "CorrectValue": "oven" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "It’s hot as an {{blank1}}", "value": "", "CorrectValue": "oven" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_64": "The baby is as good as",
+      "QuestionArr_64": "The baby is as good as {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -23990,11 +23990,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "The baby is as good as", "value": "", "CorrectValue": "Gold" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "The baby is as good as {{blank1}}", "value": "", "CorrectValue": "Gold" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_65": "Please address the elephant",
+      "QuestionArr_65": "Please address the elephant {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24017,11 +24017,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Please address the elephant", "value": "", "CorrectValue": "in the room" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Please address the elephant {{blank1}}", "value": "", "CorrectValue": "in the room" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_66": "It’s raining",
+      "QuestionArr_66": "It’s raining {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24044,11 +24044,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "It’s raining", "value": "", "CorrectValue": "cats and dogs" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "It’s raining {{blank1}}", "value": "", "CorrectValue": "cats and dogs" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_67": "She’s got so much money",
+      "QuestionArr_67": "She’s got so much money {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24071,11 +24071,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "She’s got so much money", "value": "", "CorrectValue": "she’s rolling in dough" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "She’s got so much money {{blank1}}", "value": "", "CorrectValue": "she’s rolling in dough" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_68": "She is as cute as",
+      "QuestionArr_68": "She is as cute as {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24098,11 +24098,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "She is as cute as", "value": "", "CorrectValue": "a button" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "She is as cute as {{blank1}}", "value": "", "CorrectValue": "a button" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_69": "Rolling stone gathers no",
+      "QuestionArr_69": "Rolling stone gathers no {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24125,11 +24125,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Rolling stone gathers no", "value": "", "CorrectValue": "moss" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Rolling stone gathers no {{blank1}}", "value": "", "CorrectValue": "moss" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_70": "Success is a journey",
+      "QuestionArr_70": "Success is a journey {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24152,11 +24152,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Success is a journey", "value": "", "CorrectValue": "not a destination" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Success is a journey {{blank1}}", "value": "", "CorrectValue": "not a destination" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_71": "Burn the midnight",
+      "QuestionArr_71": "Burn the midnight {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24179,11 +24179,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Burn the midnight", "value": "", "CorrectValue": "Oil" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Burn the midnight {{blank1}}", "value": "", "CorrectValue": "Oil" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_72": "Penny for your",
+      "QuestionArr_72": "Penny for your {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24206,11 +24206,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Penny for your", "value": "", "CorrectValue": "thoughts" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Penny for your {{blank1}}", "value": "", "CorrectValue": "thoughts" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_73": "A piece of",
+      "QuestionArr_73": "A piece of {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24233,11 +24233,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "A piece of", "value": "", "CorrectValue": "Cake" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "A piece of {{blank1}}", "value": "", "CorrectValue": "Cake" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_74": "Hit the",
+      "QuestionArr_74": "Hit the {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24260,11 +24260,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Hit the", "value": "", "CorrectValue": "Road" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Hit the {{blank1}}", "value": "", "CorrectValue": "Road" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_75": "Get your",
+      "QuestionArr_75": "Get your {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24287,11 +24287,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Get your", "value": "", "CorrectValue": "act together" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Get your {{blank1}}", "value": "", "CorrectValue": "act together" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_76": "Back against the",
+      "QuestionArr_76": "Back against the {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24314,11 +24314,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Back against the", "value": "", "CorrectValue": "wall" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Back against the {{blank1}}", "value": "", "CorrectValue": "wall" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_77": "Scrap the",
+      "QuestionArr_77": "Scrap the {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24341,11 +24341,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Scrap the", "value": "", "CorrectValue": "barrell" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Scrap the {{blank1}}", "value": "", "CorrectValue": "barrell" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_78": "Burn your",
+      "QuestionArr_78": "Burn your {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24368,11 +24368,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Burn your", "value": "", "CorrectValue": "boats" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Burn your {{blank1}}", "value": "", "CorrectValue": "boats" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_79": "Left out in the",
+      "QuestionArr_79": "Left out in the {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24395,11 +24395,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Left out in the", "value": "", "CorrectValue": "cold" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Left out in the {{blank1}}", "value": "", "CorrectValue": "cold" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_80": "Cut",
+      "QuestionArr_80": "Cut {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "a church mouse", "value": "a church mouse" },
         { "id": 2, "symbol": "a feather", "value": "a feather" },
@@ -24422,11 +24422,11 @@
         { "id": 19, "symbol": "corners", "value": "corners" },
         { "id": 20, "symbol": "cold", "value": "cold" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Cut", "value": "", "CorrectValue": "corners" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Cut {{blank1}} ", "value": "", "CorrectValue": "corners" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_81": "He is the light",
+      "QuestionArr_81": "He is the light {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24449,11 +24449,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "He is the light", "value": "", "CorrectValue": "Ofmylife" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "He is the light {{blank1}}", "value": "", "CorrectValue": "Ofmylife" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_82": "You are building",
+      "QuestionArr_82": "You are building {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24476,11 +24476,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "You are building", "value": "", "CorrectValue": "castlesintheair" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "You are building {{blank1}}", "value": "", "CorrectValue": "castlesintheair" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_83": "Try and try",
+      "QuestionArr_83": "Try and try {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24503,11 +24503,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Try and try", "value": "", "CorrectValue": "tillyousucceed" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Try and try {{blank1}}", "value": "", "CorrectValue": "tillyousucceed" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_84": "He marchesto",
+      "QuestionArr_84": "He marchesto {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24530,11 +24530,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "He marchesto", "value": "", "CorrectValue": "hisowndrummer" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "He marchesto {{blank1}}", "value": "", "CorrectValue": "hisowndrummer" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_85": "His heartis",
+      "QuestionArr_85": "His heart is {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24557,11 +24557,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "His heartis", "value": "", "CorrectValue": "ofgold" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "His heart is {{blank1}}", "value": "", "CorrectValue": "ofgold" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_86": "Speaking of the",
+      "QuestionArr_86": "Speaking of the {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24584,11 +24584,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Speaking of the", "value": "", "CorrectValue": "devil" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Speaking of the {{blank1}}", "value": "", "CorrectValue": "devil" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_87": "Bite the",
+      "QuestionArr_87": "Bite the {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24611,11 +24611,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Bite the", "value": "", "CorrectValue": "bullet" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Bite the {{blank1}}", "value": "", "CorrectValue": "bullet" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_88": "To pull someone’s",
+      "QuestionArr_88": "To pull someone’s {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24638,11 +24638,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "To pull someone’s", "value": "", "CorrectValue": "leg" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "To pull someone’s {{blank1}}", "value": "", "CorrectValue": "leg" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_89": "A daylate",
+      "QuestionArr_89": "A daylate {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24665,11 +24665,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "A daylate", "value": "", "CorrectValue": "andadollarshort" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "A daylate {{blank1}}", "value": "", "CorrectValue": "andadollarshort" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_90": "By the skin of",
+      "QuestionArr_90": "By the skin of {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24692,11 +24692,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "By the skin of", "value": "", "CorrectValue": "yourteeth" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "By the skin of {{blank1}}", "value": "", "CorrectValue": "yourteeth" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_91": "A wild",
+      "QuestionArr_91": "A wild {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24719,11 +24719,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "A wild", "value": "", "CorrectValue": "goosechase" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "A wild {{blank1}}", "value": "", "CorrectValue": "goosechase" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_92": "Hit the nail",
+      "QuestionArr_92": "Hit the nail {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24746,11 +24746,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Hit the nail", "value": "", "CorrectValue": "onthehead" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Hit the nail {{blank1}}", "value": "", "CorrectValue": "onthehead" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_93": "Conscienceis",
+      "QuestionArr_93": "Conscienceis {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24773,11 +24773,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Conscienceis", "value": "", "CorrectValue": "aman’scompass" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Conscienceis {{blank1}}", "value": "", "CorrectValue": "aman’scompass" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_94": "That is music",
+      "QuestionArr_94": "That is music {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24800,11 +24800,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "That is music", "value": "", "CorrectValue": "tomyears" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "That is music {{blank1}}", "value": "", "CorrectValue": "tomyears" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_95": "Love is a",
+      "QuestionArr_95": "Love is a {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24827,11 +24827,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Love is a", "value": "", "CorrectValue": "finewine" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Love is a {{blank1}}", "value": "", "CorrectValue": "finewine" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_96": "She has a heart",
+      "QuestionArr_96": "She has a heart {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24854,11 +24854,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "She has a heart", "value": "", "CorrectValue": "ofstone" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "She has a heart {{blank1}}", "value": "", "CorrectValue": "ofstone" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_97": "He is a late",
+      "QuestionArr_97": "He is a late {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24881,11 +24881,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "He is a late", "value": "", "CorrectValue": "bloomer" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "He is a late {{blank1}}", "value": "", "CorrectValue": "bloomer" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_98": "Time is",
+      "QuestionArr_98": "Time is {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24908,11 +24908,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Time is", "value": "", "CorrectValue": "Money" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Time is {{blank1}}", "value": "", "CorrectValue": "Money" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_99": "A computer",
+      "QuestionArr_99": "A computer {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24935,11 +24935,11 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "A computer", "value": "", "CorrectValue": "Brain" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "A computer {{blank1}}", "value": "", "CorrectValue": "Brain" }]
     },
     {
       "Instruction": "Your task on this page is to complete the analogies by joining the parallel concepts between the two columns.",
-      "QuestionArr_100": "Stars as",
+      "QuestionArr_100": "Stars as {{blank1}}",
       "Symbols": [
         { "id": 1, "symbol": "littlepearls", "value": "littlepearls" },
         { "id": 2, "symbol": "Brain", "value": "Brain" },
@@ -24962,7 +24962,7 @@
         { "id": 19, "symbol": "castlesintheair", "value": "castlesintheair" },
         { "id": 20, "symbol": "Ofmylife", "value": "Ofmylife" }
       ],
-      "Blanks": [{ "id": "blank1",  "symbol": "Stars as", "value": "", "CorrectValue": "littlepearls" }]
+      "Blanks": [{ "id": "blank1",  "symbol": "Stars as {{blank1}}", "value": "", "CorrectValue": "littlepearls" }]
     }
   ]
 }

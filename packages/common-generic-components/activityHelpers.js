@@ -462,7 +462,18 @@ export function practice0Helper4(context) {
 }
 
 export function WordsAnswerHelper4(context, Answer, index) {
-    const questionId = context.counter + 1
+    // const questionId = context.counter + 1
+
+    const currentItem = context.items[context.counter];
+
+// Find the key that starts with "QuestionArr_"
+const questionKey = Object.keys(currentItem).find(k => k.startsWith("QuestionArr_"));
+
+// Extract the numeric part
+const originalQuestionNo = questionKey ? questionKey.split("_")[1] : context.counter + 1;
+
+// Ensure 2-digit format
+const questionId = String(originalQuestionNo).padStart(2, '0');
     if (context.viewingPrevious) {
         alert("You have already answered context question. context cannot be changed now.")
         return
@@ -523,7 +534,18 @@ export function WordsAnswerHelper4(context, Answer, index) {
 }
 
 export function AnswerCheckHelper4(context) {
-    const questionId = context.counter + 1;
+    // const questionNo = context.counter + 1;
+    // const questionId = String(questionNo).padStart(2, '0');
+    const currentItem = context.items[context.counter];
+
+// Find the key that starts with "QuestionArr_"
+const questionKey = Object.keys(currentItem).find(k => k.startsWith("QuestionArr_"));
+
+// Extract the numeric part
+const originalQuestionNo = questionKey ? questionKey.split("_")[1] : context.counter + 1;
+
+// Ensure 2-digit format
+const questionId = String(originalQuestionNo).padStart(2, '0');
 
     const isBlanksQuestion = context.symbolsFromJson.length > 0 && context.iconBlanksFromJson.length > 0;
     const isRectangleQuestion = context.isRectangleMode && context.rectangles.length > 0 && context.options.length > 0;
@@ -724,7 +746,7 @@ export function AnswerCheckHelper4(context) {
                 questionsAttempted: context.Questions_attempted,
                 correctAnswers: context.correct_Answers,
                 incorrectAnswers: context.incorrect_Answers,
-                attemptedQuestionNumbers: context.detailedResults.map(q => q.questionNo),
+                attemptedQuestionNumbers: detailedResults.map(q => q.questionNo),
                 testDate: new Date().toISOString()
             },
             detailedResults
@@ -735,10 +757,36 @@ export function AnswerCheckHelper4(context) {
 }
 
 export function SaveAndExitNowHelper4(context) {
-    const questionId = context.counter + 1;
+    
+    // const questionNo = context.counter + 1;
+    
+    // console.log("Practice Lst dsfg" + JSON.stringify(context, null, 2));
+    // const questionId = String(questionNo).padStart(2, '0');
+
+    // Do this:
+const currentItem = context.items[context.counter];
+
+// Find the key that starts with "QuestionArr_"
+const questionKey = Object.keys(currentItem).find(k => k.startsWith("QuestionArr_"));
+
+// Extract the numeric part
+const originalQuestionNo = questionKey ? questionKey.split("_")[1] : context.counter + 1;
+
+// Ensure 2-digit format
+const questionId = String(originalQuestionNo).padStart(2, '0');
+
 
     const isBlanksQuestion = context.symbolsFromJson.length > 0 && context.iconBlanksFromJson.length > 0;
     const isRectangleQuestion = context.isRectangleMode && context.rectangles.length > 0 && context.options.length > 0;
+    
+    const isAnswered =
+        (context.isLetterFillMode && context.currentQuestion?.Blanks?.some(b =>
+            b["1stBlankValue"] || b["2ndBlankValue"] || b["3rdBlankValue"] || b["4thBlankValue"] ||
+            b["5thBlankValue"] || b["6thBlankValue"] || b["7thBlankValue"])) ||
+        (isRectangleQuestion && context.rectangles.some(r => r.chosenOption)) ||
+        (isBlanksQuestion && context.iconBlanksFromJson.some(b => b.value));
+
+    if (isAnswered) {
 
     // ✅ Letter Fill Mode (Seaside)
     if (context.isLetterFillMode) {
@@ -781,6 +829,7 @@ export function SaveAndExitNowHelper4(context) {
         }
 
         const alreadyInList = context.practiceList.find(q => q.id === questionId);
+        
         if (!alreadyInList) {
             context.practiceList.push({
                 id: questionId,
@@ -854,6 +903,7 @@ export function SaveAndExitNowHelper4(context) {
             return acc;
         }, {});
 
+        
         let allFilled = true;
         let allCorrect = true;
 
@@ -874,6 +924,7 @@ export function SaveAndExitNowHelper4(context) {
         // }
 
         const alreadyInList = context.practiceList.find(q => q.id === questionId);
+                
         if (!alreadyInList) {
             context.practiceList.push({
                 id: questionId,
@@ -884,7 +935,7 @@ export function SaveAndExitNowHelper4(context) {
                 timeTaken: (Date.now() - context.questionStartTime) / 1000
             });
             context.Questions_attempted++;
-
+            
             if (allCorrect) {
                 context.correct_Answers++;
                 context.ProgressBar[context.counter].state = 'correct';
@@ -901,6 +952,8 @@ export function SaveAndExitNowHelper4(context) {
             return;
         }
     }
+    
+    }
 
     context.activity_Status = 'Partially Completed';
     context.Time_elapsed = context.secondsToTime(context.timestart);
@@ -910,7 +963,6 @@ export function SaveAndExitNowHelper4(context) {
 
     let detailedResults = context.detailedResults;
 
-    console.log("Practice Lst dsfg" + JSON.stringify(context.practiceList, null, 2));
     context.practiceList.forEach(entry => {
         // Convert both to strings with leading zeros (2-digit format)
         const entryQNo = String(entry.id).padStart(2, '0');
@@ -918,6 +970,8 @@ export function SaveAndExitNowHelper4(context) {
         const alreadyExists = detailedResults.some(
             item => String(item.questionNo).padStart(2, '0') === entryQNo
         );
+
+        
 
         if (!alreadyExists) {
             detailedResults.push({
@@ -946,7 +1000,6 @@ export function SaveAndExitNowHelper4(context) {
         detailedResults
     };
 
-    console.log("context.resultData " + JSON.stringify(context.resultData, null, 2));
 
     context.JsonArrData = JSON.stringify(context.resultData, null, 2);
 }

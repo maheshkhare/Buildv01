@@ -1635,8 +1635,8 @@
         { "symbol": "U", "correctLetter": "U", "chosenOption": "U" },
         { "symbol": "C", "correctLetter": "C", "chosenOption": "C" },
         { "symbol": "K", "correctLetter": "K", "chosenOption": "K" },
-        { "symbol": "V4_08", "correctLetter": "O", "chosenOption": "O" },
-        { "symbol": "V4_08", "correctLetter": "O", "chosenOption": "O" }
+        { "symbol": "V4_08", "correctLetter": "O", "chosenOption": null },
+        { "symbol": "V4_08", "correctLetter": "O", "chosenOption": null }
       ],
     "options": [
       { "symbol": "V4_01", "letter": "P" }, 
