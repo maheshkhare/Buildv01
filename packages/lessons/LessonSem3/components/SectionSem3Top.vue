@@ -15,6 +15,7 @@
           </div>
           <div class="grid grid-rows-1 ml-1">
             <div class="text-center border-none">
+               {{ ImageNames1 }} 
               <img
                 v-if="ImageNames1 && getImgUrl1(ImageNames1)"
                 :src="getImgUrl1(ImageNames1)"
@@ -22,6 +23,7 @@
                 class="mx-auto"
                 style="max-width: 400px; height: auto;"
               />
+             
               <div v-else class="text-center text-gray-400 italic mt-2">
                <!-- No image available -->
               </div>
