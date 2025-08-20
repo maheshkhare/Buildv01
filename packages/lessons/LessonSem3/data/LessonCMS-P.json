@@ -488,7 +488,7 @@
     "index":17,
     "QuestionArr_17": " ",
     "OptionArr_17": ["HOME", "BANK","SCHOOL","STORE"], 
-    "AnswerArr_17": ["Yes", "", "", ""],
+    "AnswerArr_17": ["", "", "Yes", ""],
     "ImageName": "L2-1",
     "QuestionImage":"L4-o18"
   },
@@ -891,6 +891,7 @@
     "ImageName": "L2-1",
     "QuestionImage": "L6-o6"
   },
+  
   {
     "index": 6,
     "QuestionArr_06": " ",
