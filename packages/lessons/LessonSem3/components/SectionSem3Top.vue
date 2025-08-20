@@ -23,13 +23,13 @@
                 style="max-width: 400px; height: auto;"
               />
               <div v-else class="text-center text-gray-400 italic mt-2">
-                No image available
+               <!-- No image available -->
               </div>
             </div>
           </div>
         </SVGImageButton>
       </div>
-
+      
       <!-- Main Content Area -->
       <div class="w-full bg-white rounded-xl overflow-hidden p-2 mt-2 flex justify-center">
         <div class="md:flex sm:flex">
@@ -56,6 +56,7 @@
                    class="w-full h-auto object-contain border border-gray-300"/>
             </div>
           </div>
+          
           <!-- Single Image Layout -->
           <div v-else class="md:shrink-0">
             <div class="w-full max-w-2xl text-center border border-black">
@@ -67,7 +68,7 @@
               />
             </div>
           </div>
-
+          
           <!-- Answer Buttons -->
           <div>
             <div :class="gridClass">
@@ -85,7 +86,7 @@
               >
                 <button
                   type="button"
-                  class="bg-blue-100 font-semibold border border-black shadow-lg rounded whitespace-normal break-words text-center leading-relaxed"
+                  class="bg-blue-100 font-semibold border border-black shadow-lg rounded whitespace-normal break-words text-center leading-relaxed option-button"
                   :class="{
                     'ring-4 ring-green-500': viewingPrevious && word.state === 'selected',
                     'hover:bg-yellow-500': !viewingPrevious,
@@ -108,7 +109,7 @@
                 </button>
               </SVGImageButton>
             </div>
-
+            
             <!-- Navigation Buttons and Question Number -->
             <div class="flex justify-center mt-5 space-x-3">
               <!-- Previous -->
@@ -128,6 +129,7 @@
                   />
                 </g>
               </svg>
+              
               <div v-if="AnswerCheckShow" class="ml-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -144,6 +146,7 @@
                   />
                 </svg>
               </div>
+              
               <div v-if="NextQuestionShow" class="ml-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -161,13 +164,11 @@
                 </svg>
               </div>
             </div>
-
+            
             <p class="font-bold mt-3 text-center">
               Question <span class="text-indigo-700">{{ counter + 1 }}</span> of
               <span class="text-indigo-700">{{ Total_Questions }}</span>
             </p>
-
-           
           </div>
         </div>
       </div>
@@ -222,6 +223,37 @@ export default {
         }
       }
       return 'grid grid-cols-1 gap-4'
+    },
+    
+    // Calculate uniform rectangular size like in the second image
+    uniformBoxSize() {
+      if (!this.commonNumArray || this.commonNumArray.length === 0) {
+        return { width: '160px', height: '70px' }  // Rectangle ratio like second image
+      }
+      
+      let maxWidth = 160   // Wider base width
+      let maxHeight = 70   // Shorter base height for rectangular look
+      
+      this.commonNumArray.forEach(word => {
+        if (!this.isIconOption(word.Option)) {
+          // Estimate text dimensions
+          const textLength = word.Option.length
+          
+          // Calculate width - allow more width for longer text
+          const estimatedWidth = Math.max(160, Math.min(280, textLength * 8 + 32))
+          
+          // Keep height minimal and consistent for rectangular appearance
+          const estimatedHeight = Math.max(70, Math.min(90, Math.ceil(textLength / 25) * 20 + 30))
+          
+          maxWidth = Math.max(maxWidth, estimatedWidth)
+          maxHeight = Math.max(maxHeight, estimatedHeight)
+        }
+      })
+      
+      return {
+        width: `${maxWidth}px`,
+        height: `${maxHeight}px`
+      }
     }
   },
   methods: {
@@ -237,6 +269,7 @@ export default {
     emitPreviousQuestion() {
       this.$emit('PreviousQuestion')
     },
+    
     getImgUrl(name) {
       try {
         const folder = `./graphics${this.jsonFileName}/`
@@ -247,54 +280,51 @@ export default {
         return ''
       }
     },
+    
     getImgUrl1(name) {
       try {
         const folder = `./graphics${this.jsonFileName}/`
         const images = require.context('../assets/', true, /\.png$/)
         return images(`${folder}${name}.png`)
       } catch (e) {
-        // alert(`Image not found: graphics${this.jsonFileName}/${name}.png`)
         return ''
       }
     },
+    
     // Detect arrow/rectangle icons in option
     isIconOption(option) {
       return /[➚⇗⮕↗➤➔█▌▏]/.test(option)
     },
+    
+    // Rectangular button styling like second image
     getOptionBoxStyle(option) {
-      if (this.isIconOption(option)) {
-        // Old fixed size for icon options
-        return {
-          width: '130px',
-          minWidth: '130px',
-          maxWidth: '130px',
-          height: '110px',
-          minHeight: '110px',
-          maxHeight: '110px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          textAlign: 'center'
-        }
-      } else {
-        // Dynamic size for text options
-        return {
-          minWidth: '130px',
-          maxWidth: '350px',
-          padding: '10px 16px',
-          whiteSpace: 'normal',
-          wordBreak: 'break-word',
-          textAlign: 'center',
-          display: 'inline-block',
-          minHeight: '60px'
-        }
+      const uniformSize = this.uniformBoxSize
+      
+      return {
+        width: uniformSize.width,
+        minWidth: uniformSize.width,
+        maxWidth: uniformSize.width,
+        height: uniformSize.height,
+        minHeight: uniformSize.height,
+        maxHeight: uniformSize.height,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        textAlign: 'center',
+        padding: '8px 12px',  // Reduced padding for flatter rectangular look
+        whiteSpace: 'normal',
+        wordBreak: 'break-word',
+        overflow: 'hidden',
+        boxSizing: 'border-box'
       }
     },
+    
     getVisualArrow(option) {
       if (!option) return ''
       const arrowMatch = option.match(/➚/g)
       return arrowMatch ? '➚' : ''
     },
+    
     getArrowStyle(option) {
       const count = (option.match(/➚/g) || []).length
       if (count >= 3) return { fontSize: '4rem', fontWeight: 700, verticalAlign: 'middle', color: 'black' }
@@ -302,6 +332,7 @@ export default {
       if (count === 1) return { fontSize: '1.8rem', fontWeight: 500, verticalAlign: 'middle', color: 'black' }
       return { color: 'black' }
     },
+    
     getVisualRectangle(option) {
       if (!option) return ''
       if (option.includes('█')) return '█'
@@ -309,6 +340,7 @@ export default {
       if (option.includes('▏')) return '▏'
       return ''
     },
+    
     getRectangleStyle(option) {
       if (option.includes('█')) {
         return { fontSize: '2.2rem', marginLeft: '0.2em', verticalAlign: 'middle', color: '#808080' }
@@ -331,22 +363,31 @@ export default {
   justify-content: center;
   margin: auto;
 }
+
 .previously-selected {
   border: 2px solid #888;
   background-color: #eee;
   pointer-events: none;
   cursor: not-allowed;
 }
+
 .relative { position: relative; }
 .absolute { position: absolute; }
 .fixed { position: fixed; }
 .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
 .pointer-events-none { pointer-events: none; }
 .z-0 { z-index: 0; }
-/* Additional styles for better text handling */
+
+/* Rectangular button styling */
 .option-button {
   word-break: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
+  line-height: 1.2;  /* Tighter line height for rectangular appearance */
+}
+
+/* Ensure consistent box model */
+* {
+  box-sizing: border-box;
 }
 </style>

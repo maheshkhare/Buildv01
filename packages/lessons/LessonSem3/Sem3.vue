@@ -5,15 +5,30 @@
         <div class="w-full">
           <topHeader :HeaderTop="HeaderTop" :componentSubtitle="componentSubtitle" ></topHeader>
         </div>
+
+        <div v-if="!resultShow && (currentQuestion || PracticeOne)" class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-500 rounded">
+          <h3 class="font-bold text-lg mb-2 text-blue-700">Instructions</h3>
+          <div class="text-lg text-Black-700 leading-relaxed">
+            {{ activityInstructions.content }}
+          </div>
+        </div>
         <div class="w-full px-2 sm:px-4 lg:px-8">
           <div class="container mx-auto max-w-7xl bg-white shadow-lg border-2 border-black rounded-none p-4 sm:p-6 lg:p-10 my-4 sm:my-6 lg:my-8">
             <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed" :Questions_attempted="Questions_attempted" :correct_Answers="correct_Answers" :incorrect_Answers="incorrect_Answers" @FinalResult="FinalResult" :ResultHide="ResultHide" :ResultArrow="ResultArrow" ></resultPopup>
-            <WordGridActivity v-if="jsonFileName === 'CSR-I' && currentQuestion && !resultShow" :questionWord="getQuestionWord(currentQuestion)" :gridLetters="getGridLetters(currentQuestion)" :wordLength="3" @answered="handleWordGridAnswered" class="w-full" />
-            <div v-if="jsonFileName === 'CSR-I'" class="font-bold mt-3 text-center text-sm sm:text-base">
+             <WordGridActivity
+              v-if="jsonFileName === 'CSR-I' && currentQuestion && !resultShow"
+              :questionWord="getQuestionWord(currentQuestion)"
+              :gridLetters="getGridLetters(currentQuestion)"
+              :wordLength="3"
+              @answered="handleWordGridAnswered"
+              class="w-full"
+            />
+
+            <div v-if="jsonFileName === 'CSR-I' && ! resultShow" class="font-bold mt-3 text-center text-sm sm:text-base">
               Question <span class="text-indigo-700">{{ counter + 1 }}</span>
               of <span class="text-indigo-700">{{ Total_Questions }}</span>
             </div>
-            <div v-if="jsonFileName === 'CSR-I'" class="flex flex-col sm:flex-row justify-center items-center mt-5 gap-3 px-4">
+            <div v-if="jsonFileName === 'CSR-I' && !resultShow" class="flex flex-col sm:flex-row justify-center items-center mt-5 gap-3 px-4">
                 <button :disabled="counter === 0" @click="goToPreviousQuestion" class="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 rounded-lg bg-blue-500 text-white font-bold text-sm sm:text-base transition-all duration-200 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" :class="{ 'opacity-50 cursor-not-allowed': counter === 0 }">
                   Previous
                 </button>
@@ -27,8 +42,10 @@
                   {{ showStory ? 'Hide' : 'Show' }} Story Section
                 </button>
             </div>
-            <div v-if="showStory && jsonFileName !== 'CSR-I'" class="mt-6 px-2 sm:px-4">
-              <SectionStory :currentStory="computedCurrentStory"  :paraData="currentPara"  class="w-full"/>
+            <div v-if="showStory && jsonFileName !== 'CSR-I' && !resultShow" class="mt-6 px-2 sm:px-4">
+              <SectionStory 
+               :currentStory="computedCurrentStory"  
+              :paraData="currentPara"  class="w-full"/>
             </div>
             <div class="mt-4 sm:mt-6"></div>
             <SectionSem3Top v-show="PracticeOne && jsonFileName !== 'CSR-I'" :accept-input="acceptInput" :commonNumArray="commonNumArray" :ImageNames="ImageNames" :ImageNames1="ImageNames1" :ImageNames2="ImageNames2" :ImageNames3="ImageNames3" :ImageNames4="ImageNames4" :isCMS2="jsonFileName === 'CMS-II'" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @NextQuestion="NextQuestion" @WordsAnswer="WordsAnswer" :PrevQuestion="PrevQuestion" @PreviousQuestion="goToPreviousQuestion" :counter="counter" :viewingPrevious="viewingPrevious" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :imageHeight="getResponsiveImageHeight()" :imageWidth="getResponsiveImageWidth()" class="w-full" />
@@ -51,6 +68,7 @@ import SectionStory from './components/SectionStory.vue'
 import WordGridActivity from 'Lessons/LessonSem3/components/WordGridActivity.vue'
 import{ updateScreenSizehelper,getResponsiveImageHeighthelper3,getResponsiveImageWidthhelper3 ,parseLevelRangeHelper, getQuestionWordhelper3,getGridLettershelper3 ,getAnswerWordhelper ,handleWordGridAnsweredhelper, WordsAnswerhelper3, AnswerCheckhelper3, FinalResulthelper3, PracticeNexthelper3, getVisualArrowhelper, getArrowStylehelper, getVisualRectanglehelper, getRectangleStylehelper, secondsToTimehelper, TimerFunhelper3, goToPreviousQuestionhelper3, runhelper3,  highlightPreviousAnswerhelper, practice0helper3
 } from '../../common-generic-components/activityHelpers.js';
+import ResultPopup from '../resultPopup.vue'
 
 export default {
   name: 'Sem3',
@@ -175,12 +193,20 @@ export default {
       if (!this.showStoryButton || !this.currentQuestion) return ''
       return this.currentQuestion.Para || ''
     },
+
+     activityInstructions() {
+    // Fetch instruction directly from the loaded JSON
+    return {
+      content: this.activityQuestions.Instruction || 'No instructions available.',
+      steps: [] // You can add steps if needed, or remove this if not using steps
+    }
+  },
     currentQuestion() {
       if (this.counter >= this.items.length) return null
       return this.items[this.counter]
     },
     showStoryButton() {
-      const allowedFiles = ['CMUCMS-I', 'CMUCMS-II']
+      const allowedFiles = ['CMUCMS-I', 'CMUCMS-II','DMU']
       const jsonFile = sessionStorage.getItem('jsonFile')
       return allowedFiles.includes(jsonFile)
     },
@@ -400,3 +426,6 @@ textarea:focus {
   }
 }
 </style>
+
+
+
