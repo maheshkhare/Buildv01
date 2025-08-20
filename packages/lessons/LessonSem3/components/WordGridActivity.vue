@@ -1,9 +1,9 @@
 <template>
   <div class="word-grid-activity">
 
-    <div class="text-center font-bold text-lg"> Write below highlighted  word backwards on the lines provided. Some are real words and some are nonsense. Decide whether the reversed letters form a real word. If they do, Click YES. If they do not, Click NO. Use a dictionary if you are unsure. 
+    <!-- <div class="text-center font-bold text-lg"> Write below highlighted  word backwards on the lines provided. Some are real words and some are nonsense. Decide whether the reversed letters form a real word. If they do, Click YES. If they do not, Click NO. Use a dictionary if you are unsure. 
       
-    </div>
+    </div> -->
     <!-- Question Word -->
     <div class="question-word text-2xl font-bold my-4 text-center">{{ questionWord }}</div>
 

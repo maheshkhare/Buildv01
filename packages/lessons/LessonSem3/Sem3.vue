@@ -5,6 +5,13 @@
         <div class="w-full">
           <topHeader :HeaderTop="HeaderTop" :componentSubtitle="componentSubtitle" ></topHeader>
         </div>
+
+        <div v-if="!resultShow && (currentQuestion || PracticeOne)" class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-500 rounded">
+          <h3 class="font-bold text-lg mb-2 text-blue-700">Instructions</h3>
+          <div class="text-lg text-Black-700 leading-relaxed">
+            {{ activityInstructions.content }}
+          </div>
+        </div>
         <div class="w-full px-2 sm:px-4 lg:px-8">
           <div class="container mx-auto max-w-7xl bg-white shadow-lg border-2 border-black rounded-none p-4 sm:p-6 lg:p-10 my-4 sm:my-6 lg:my-8">
             <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed" :Questions_attempted="Questions_attempted" :correct_Answers="correct_Answers" :incorrect_Answers="incorrect_Answers" @FinalResult="FinalResult" :ResultHide="ResultHide" :ResultArrow="ResultArrow" ></resultPopup>
@@ -186,6 +193,14 @@ export default {
       if (!this.showStoryButton || !this.currentQuestion) return ''
       return this.currentQuestion.Para || ''
     },
+
+     activityInstructions() {
+    // Fetch instruction directly from the loaded JSON
+    return {
+      content: this.activityQuestions.Instruction || 'No instructions available.',
+      steps: [] // You can add steps if needed, or remove this if not using steps
+    }
+  },
     currentQuestion() {
       if (this.counter >= this.items.length) return null
       return this.items[this.counter]

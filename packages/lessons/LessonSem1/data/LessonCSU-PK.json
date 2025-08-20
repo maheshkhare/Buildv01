@@ -94,7 +94,7 @@
       
       {
         "id": "Set2_1",
-        "story": "Find the number 2 in the number grid below and add it to the Two Value category. Then find all the other numbers and add them to the Sports category. The Two Value category should only have the number 2, while the Sports category should include all other numbers.",
+        "story": "Find the Number 2 from the below number grid and add it to the TwoValue category. The Two Value category should only have the number 2.",
         "Image": "L2-1",
         "categories": [
           {

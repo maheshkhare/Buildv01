@@ -181,7 +181,7 @@
                 },
                 {
                 "name": "Baker",
-                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper Measuring Cups", "Wooden Spoon"]
+                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper","Measuring Cups", "Wooden Spoon"]
                 }
             ]
         },
@@ -199,7 +199,7 @@
                 },
                 {
                 "name": "Pastry Maker",
-                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper Measuring Cups", "Wooden Spoon"]
+                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper"," Measuring Cups", "Wooden Spoon"]
                 }
             ]
         },
@@ -425,7 +425,7 @@
                 "words": ["hour", "day", "minute", "second"]
                 },
                 {
-                "name": "Statute",
+                "name": "Stature",
                 "words": ["short", "tall", "towering", "average"]
                 },
                 {
@@ -854,7 +854,7 @@
                 },
                 {
                 "name": "height",
-                "words": ["short", "towering", "tall", "average"]
+                "words": ["short", "towering", "tall"]
                 }
             ]
 
@@ -1303,23 +1303,23 @@
             "id":"Set8_2",
              "categories": [
                 {
-                "name": "Dollar",
+                "name": "Money",
                 "words": ["quarter", "dime", "nickel", "penny"]
                 },
                 {
-                "name": "Fifth",
+                "name": "Numbers",
                 "words": ["fourth", "third", "second", "first"]
                 },
                 {
-                "name": "Lukewarm",
+                "name": "Temperature",
                 "words": ["warm", "hot", "boiling", "scorching"]
                 },
                 {
-                "name": "Adult",
+                "name": "Stages of Life",
                 "words": ["adolescent", "child", "toddler", "baby"]
                 },
                 {
-                "name": "Second",
+                "name": "Time",
                 "words": ["minute", "hour", "day", "week"]
                 },
                 {
@@ -1327,7 +1327,7 @@
                 "words": ["scream", "shout", "talk", "whisper"]
                 },
                 {
-                "name": "Scrawny",
+                "name": "Voice",
                 "words": ["skinny", "well-built", "toned", "muscular"]
                 }
             ]
@@ -1337,31 +1337,31 @@
             "id":"Set8_3",
              "categories": [
                 {
-                "name": "dollar",
+                "name": "Money",
                 "words": ["quarter", "dime", "nickel", "penny"]
                 },
                 {
-                "name": "fifth",
+                "name": "Numbers",
                 "words": ["fourth", "third", "second", "first"]
                 },
                 {
-                "name": "lukewarm",
+                "name": "Temperature",
                 "words": ["warm", "hot", "boiling", "scorching"]
                 },
                 {
-                "name": "adult",
+                "name": "Stages of Life",
                 "words": ["adolescent", "child", "toddler", "baby"]
                 },
                 {
-                "name": "second",
+                "name": "Time",
                 "words": ["minute", "hour", "day", "week"]
                 },
                 {
-                "name": "shriek",
+                "name": "Voice",
                 "words": ["scream", "shout", "talk", "whisper"]
                 },
                 {
-                "name": "scrawny",
+                "name": "Body Type Scale",
                 "words": ["skinny", "well-built", "toned", "muscular"]
                 }
             ]
