@@ -2,12 +2,14 @@ import Sem4 from 'Lessons/LessonSem4/Sem4'
 import { withKnobs, select } from '@storybook/addon-knobs'
 import 'CSS/tailwind.css'
 
+const fileName = sessionStorage.getItem('jsonFile')  || `Aiming Your Eyes`
+
 export default {
   title: './Lessons/LessonSem4',
   component: Sem4,
   decorators: [],
   parameters: {
-    componentSubtitle: `Aiming Your Eyes`
+    componentSubtitle: fileName
   }
 }
 

@@ -5592,7 +5592,7 @@
         "isCorrect": false
       },
       {
-        "label": "V4_P3_10_E",
+        "label": "V4_P3_10_A",
         "isCorrect": true
       },
       {
@@ -5714,7 +5714,7 @@
     "instructionText": "In each row there are two figures that are exactly the same. They must be the same shape, size, and shade. When you find the two that match, circle both figures and go on to the next row",
     "imageSet": [
       {
-        "label": "V5_P3_3_A",
+        "label": "V5_P3_3_G",
         "isCorrect": true
       },
       {

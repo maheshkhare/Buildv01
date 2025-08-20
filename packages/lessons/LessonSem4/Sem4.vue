@@ -304,7 +304,7 @@ export default {
             this.Total_Questions = totalAvailable;
         }
 
-        this.componentSubtitle = 'Aiming Your Eyes';
+        this.componentSubtitle = fileName;
 
         this.run();
     },
