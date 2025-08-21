@@ -15,7 +15,7 @@
           </div>
           <div class="grid grid-rows-1 ml-1">
             <div class="text-center border-none">
-               {{ ImageNames1 }} 
+              
               <img
                 v-if="ImageNames1 && getImgUrl1(ImageNames1)"
                 :src="getImgUrl1(ImageNames1)"
@@ -57,6 +57,8 @@
                    :src="getImgUrl(ImageNames4)"
                    class="w-full h-auto object-contain border border-gray-300"/>
             </div>
+
+            
           </div>
           
           <!-- Single Image Layout -->
