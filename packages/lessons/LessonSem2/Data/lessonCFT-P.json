@@ -1,27 +1,27 @@
 {
-  "activityName": "Shape Matching Exercise",
+  "actiVityName": "Shape Matching Exercise",
   "instructionSets": [
     {
       "level": "1",
       "questions": [
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P1_1",
+    "image": "V1_P1_1",
     "options": [
       {
-        "label": "v1_P1_1_1",
+        "label": "V1_P1_1_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P1_1_2",
+        "label": "V1_P1_1_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P1_1_3",
+        "label": "V1_P1_1_3",
         "isCorrect": true
       },
       {
-        "label": "v1_P1_1_4",
+        "label": "V1_P1_1_4",
         "isCorrect": false
       }
     ],
@@ -29,22 +29,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P1_2",
+    "image": "V1_P1_2",
     "options": [
       {
-        "label": "v1_P1_2_1",
+        "label": "V1_P1_2_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P1_2_2",
+        "label": "V1_P1_2_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P1_2_2",
+        "label": "V1_P1_2_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P1_2_2",
+        "label": "V1_P1_2_2",
         "isCorrect": false
       }
     ],
@@ -52,22 +52,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P1_3",
+    "image": "V1_P1_3",
     "options": [
       {
-        "label": "v1_P1_3_1",
+        "label": "V1_P1_3_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P1_3_1",
+        "label": "V1_P1_3_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P1_3_2",
+        "label": "V1_P1_3_2",
         "isCorrect": true
       },
       {
-        "label": "v1_P1_3_1",
+        "label": "V1_P1_3_1",
         "isCorrect": false
       }
     ],
@@ -75,22 +75,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P1_4",
+    "image": "V1_P1_4",
     "options": [
       {
-        "label": "v1_P1_4_2",
+        "label": "V1_P1_4_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P1_4_1",
+        "label": "V1_P1_4_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P1_4_2",
+        "label": "V1_P1_4_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P1_4_2",
+        "label": "V1_P1_4_2",
         "isCorrect": false
       }
     ],
@@ -98,10 +98,10 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v2_P1_1_A",
+    "image": "V2_P1_1_A",
     "options": [
       {
-        "label": "v2_P1_1_B",
+        "label": "V2_P1_1_B",
         "isCorrect": false
       },
       {
@@ -407,22 +407,22 @@
       "questions": [
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P2_1",
+    "image": "V1_P2_1",
     "options": [
       {
-        "label": "v1_P2_1",
+        "label": "V1_P2_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P2_1",
+        "label": "V1_P2_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P2_1",
+        "label": "V1_P2_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P2_A",
+        "label": "V1_P2_A",
         "isCorrect": true
       }
     ],
@@ -430,22 +430,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P2_2",
+    "image": "V1_P2_2",
     "options": [
       {
-        "label": "v1_P2_B",
+        "label": "V1_P2_B",
         "isCorrect": true
       },
       {
-        "label": "v1_P2_2",
+        "label": "V1_P2_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P2_2",
+        "label": "V1_P2_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P2_2",
+        "label": "V1_P2_2",
         "isCorrect": false
       }
     ],
@@ -453,22 +453,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P2_3",
+    "image": "V1_P2_3",
     "options": [
       {
-        "label": "v1_P2_3",
+        "label": "V1_P2_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P2_3",
+        "label": "V1_P2_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P2_C",
+        "label": "V1_P2_C",
         "isCorrect": true
       },
       {
-        "label": "v1_P2_3",
+        "label": "V1_P2_3",
         "isCorrect": false
       }
     ],
@@ -476,22 +476,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P2_4",
+    "image": "V1_P2_4",
     "options": [
       {
-        "label": "v1_P2_4",
+        "label": "V1_P2_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P2_D",
+        "label": "V1_P2_D",
         "isCorrect": true
       },
       {
-        "label": "v1_P2_4",
+        "label": "V1_P2_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P2_4",
+        "label": "V1_P2_4",
         "isCorrect": false
       }
     ],
@@ -499,7 +499,7 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v2_P2_1_A",
+    "image": "V2_P2_1_A",
     "options": [
       {
         "label": "V2_P2_1_A",
@@ -510,7 +510,7 @@
         "isCorrect": false
       },
       {
-        "label": "v2_P2_1_B",
+        "label": "V2_P2_1_B",
         "isCorrect": true
       }
     ],
@@ -808,22 +808,22 @@
       "questions": [
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P3_1",
+    "image": "V1_P3_1",
     "options": [
       {
-        "label": "v1_P3_1",
+        "label": "V1_P3_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P3_1_1",
+        "label": "V1_P3_1_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P3_1",
+        "label": "V1_P3_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P3_1",
+        "label": "V1_P3_1",
         "isCorrect": false
       }
     ],
@@ -831,22 +831,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P3_2",
+    "image": "V1_P3_2",
     "options": [
       {
-        "label": "v1_P3_2",
+        "label": "V1_P3_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P3_2",
+        "label": "V1_P3_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P3_2",
+        "label": "V1_P3_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P3_2_1",
+        "label": "V1_P3_2_1",
         "isCorrect": true
       }
     ],
@@ -854,22 +854,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P3_3",
+    "image": "V1_P3_3",
     "options": [
       {
-        "label": "v1_P3_3",
+        "label": "V1_P3_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P3_3_1",
+        "label": "V1_P3_3_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P3_3",
+        "label": "V1_P3_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P3_3",
+        "label": "V1_P3_3",
         "isCorrect": false
       }
     ],
@@ -877,22 +877,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P3_4",
+    "image": "V1_P3_4",
     "options": [
       {
-        "label": "v1_P3_4",
+        "label": "V1_P3_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P3_4",
+        "label": "V1_P3_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P3_4_1",
+        "label": "V1_P3_4_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P3_4",
+        "label": "V1_P3_4",
         "isCorrect": false
       }
     ],
@@ -900,7 +900,7 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v2_P3_1_A",
+    "image": "V2_P3_1_A",
     "options": [
       {
         "label": "V2_P3_1_A",
@@ -911,7 +911,7 @@
         "isCorrect": false
       },
       {
-        "label": "v2_P3_1_B",
+        "label": "V2_P3_1_B",
         "isCorrect": true
       }
     ],
@@ -1209,22 +1209,22 @@
       "questions": [
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P4_1",
+    "image": "V1_P4_1",
     "options": [
       {
-        "label": "v1_P4_1",
+        "label": "V1_P4_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P4_1_1",
+        "label": "V1_P4_1_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P4_1",
+        "label": "V1_P4_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P4_1",
+        "label": "V1_P4_1",
         "isCorrect": false
       }
     ],
@@ -1232,22 +1232,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P4_2",
+    "image": "V1_P4_2",
     "options": [
       {
-        "label": "v1_P4_2",
+        "label": "V1_P4_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P4_2",
+        "label": "V1_P4_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P4_2",
+        "label": "V1_P4_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P4_2_1",
+        "label": "V1_P4_2_1",
         "isCorrect": true
       }
     ],
@@ -1255,22 +1255,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P4_3",
+    "image": "V1_P4_3",
     "options": [
       {
-        "label": "v1_P4_3",
+        "label": "V1_P4_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P4_3_1",
+        "label": "V1_P4_3_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P4_3",
+        "label": "V1_P4_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P4_3",
+        "label": "V1_P4_3",
         "isCorrect": false
       }
     ],
@@ -1278,22 +1278,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P4_4",
+    "image": "V1_P4_4",
     "options": [
       {
-        "label": "v1_P4_4",
+        "label": "V1_P4_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P4_4",
+        "label": "V1_P4_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P4_4_1",
+        "label": "V1_P4_4_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P4_4",
+        "label": "V1_P4_4",
         "isCorrect": false
       }
     ],
@@ -1301,7 +1301,7 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v2_P4_1_A",
+    "image": "V2_P4_1_A",
     "options": [
       {
         "label": "V2_P4_1_C",
@@ -1312,7 +1312,7 @@
         "isCorrect": false
       },
       {
-        "label": "v2_P4_1_B",
+        "label": "V2_P4_1_B",
         "isCorrect": true
       }
     ],
@@ -1610,22 +1610,22 @@
       "questions": [
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P5_1",
+    "image": "V1_P5_1",
     "options": [
       {
-        "label": "v1_P5_1",
+        "label": "V1_P5_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P5_1_1",
+        "label": "V1_P5_1_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P5_1",
+        "label": "V1_P5_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P5_1",
+        "label": "V1_P5_1",
         "isCorrect": false
       }
     ],
@@ -1633,22 +1633,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P5_2",
+    "image": "V1_P5_2",
     "options": [
       {
-        "label": "v1_P5_2",
+        "label": "V1_P5_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P5_2",
+        "label": "V1_P5_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P5_2",
+        "label": "V1_P5_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P5_2_1",
+        "label": "V1_P5_2_1",
         "isCorrect": true
       }
     ],
@@ -1656,22 +1656,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P5_3",
+    "image": "V1_P5_3",
     "options": [
       {
-        "label": "v1_P5_3",
+        "label": "V1_P5_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P5_3_1",
+        "label": "V1_P5_3_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P5_3",
+        "label": "V1_P5_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P5_3",
+        "label": "V1_P5_3",
         "isCorrect": false
       }
     ],
@@ -1679,22 +1679,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P5_4",
+    "image": "V1_P5_4",
     "options": [
       {
-        "label": "v1_P5_4",
+        "label": "V1_P5_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P5_4",
+        "label": "V1_P5_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P5_4_1",
+        "label": "V1_P5_4_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P5_4",
+        "label": "V1_P5_4",
         "isCorrect": false
       }
     ],
@@ -1702,7 +1702,7 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v2_P5_1_A",
+    "image": "V2_P5_1_A",
     "options": [
       {
         "label": "V2_P5_1_B",
@@ -1713,7 +1713,7 @@
         "isCorrect": false
       },
       {
-        "label": "v2_P5_1_B",
+        "label": "V2_P5_1_B",
         "isCorrect": true
       }
     ],
@@ -2011,22 +2011,22 @@
       "questions": [
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P6_1",
+    "image": "V1_P6_1",
     "options": [
       {
-        "label": "v1_P6_1",
+        "label": "V1_P6_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P6_1_1",
+        "label": "V1_P6_1_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P6_1",
+        "label": "V1_P6_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P6_1",
+        "label": "V1_P6_1",
         "isCorrect": false
       }
     ],
@@ -2034,22 +2034,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P6_2",
+    "image": "V1_P6_2",
     "options": [
       {
-        "label": "v1_P6_2",
+        "label": "V1_P6_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P6_2",
+        "label": "V1_P6_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P6_2",
+        "label": "V1_P6_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P6_2_1",
+        "label": "V1_P6_2_1",
         "isCorrect": true
       }
     ],
@@ -2057,22 +2057,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P6_3",
+    "image": "V1_P6_3",
     "options": [
       {
-        "label": "v1_P6_3",
+        "label": "V1_P6_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P6_3_1",
+        "label": "V1_P6_3_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P6_3",
+        "label": "V1_P6_3",
         "isCorrect": false
       },
       {
-        "label": "v1_P6_3",
+        "label": "V1_P6_3",
         "isCorrect": false
       }
     ],
@@ -2080,22 +2080,22 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v1_P6_4",
+    "image": "V1_P6_4",
     "options": [
       {
-        "label": "v1_P6_4",
+        "label": "V1_P6_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P6_4",
+        "label": "V1_P6_4",
         "isCorrect": false
       },
       {
-        "label": "v1_P6_4_1",
+        "label": "V1_P6_4_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P6_4",
+        "label": "V1_P6_4",
         "isCorrect": false
       }
     ],
@@ -2103,7 +2103,7 @@
   },
   {
     "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "v2_P6_1_A",
+    "image": "V2_P6_1_A",
     "options": [
       {
         "label": "V2_P6_1_A",
@@ -2114,7 +2114,7 @@
         "isCorrect": false
       },
       {
-        "label": "v2_P6_1_B",
+        "label": "V2_P6_1_B",
         "isCorrect": true
       }
     ],
@@ -2412,18 +2412,18 @@
       "questions": [
   {
     "instructionText": " The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
-    "image": "v1_P7_1",
+    "image": "V1_P7_1",
     "options": [
       {
-        "label": "v1_P7_1_1",
+        "label": "V1_P7_1_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P7_1_2",
+        "label": "V1_P7_1_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P7_1_3",
+        "label": "V1_P7_1_3",
         "isCorrect": true
       }
     ],
@@ -2431,18 +2431,18 @@
   },
   {
     "instructionText": " The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
-    "image": "v1_P7_2",
+    "image": "V1_P7_2",
     "options": [
       {
-        "label": "v1_P7_2_1",
+        "label": "V1_P7_2_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P7_2_2",
+        "label": "V1_P7_2_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P7_2_3",
+        "label": "V1_P7_2_3",
         "isCorrect": true
       }
     ],
@@ -2450,18 +2450,18 @@
   },
   {
     "instructionText": " The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
-    "image": "v1_P7_3",
+    "image": "V1_P7_3",
     "options": [
       {
-        "label": "v1_P7_3_1",
+        "label": "V1_P7_3_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P7_3_2",
+        "label": "V1_P7_3_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P7_3_3",
+        "label": "V1_P7_3_3",
         "isCorrect": true
       }
     ],
@@ -2469,18 +2469,18 @@
   },
   {
     "instructionText": " The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
-    "image": "v1_P7_4",
+    "image": "V1_P7_4",
     "options": [
       {
-        "label": "v1_P7_4_1",
+        "label": "V1_P7_4_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P7_4_2",
+        "label": "V1_P7_4_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P7_4_3",
+        "label": "V1_P7_4_3",
         "isCorrect": true
       }
     ],
@@ -2845,18 +2845,18 @@
       "questions": [
   {
     "instructionText": " The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
-    "image": "v1_P8_1",
+    "image": "V1_P8_1",
     "options": [
       {
-        "label": "v1_P8_1_1",
+        "label": "V1_P8_1_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P8_1_2",
+        "label": "V1_P8_1_2",
         "isCorrect": true
       },
       {
-        "label": "v1_P8_1_1",
+        "label": "V1_P8_1_1",
         "isCorrect": false
       }
     ],
@@ -2864,18 +2864,18 @@
   },
   {
     "instructionText": " The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
-    "image": "v1_P8_2",
+    "image": "V1_P8_2",
     "options": [
       {
-        "label": "v1_P8_2_1",
+        "label": "V1_P8_2_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P8_2_2",
+        "label": "V1_P8_2_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P8_2_3",
+        "label": "V1_P8_2_3",
         "isCorrect": true
       }
     ],
@@ -2883,18 +2883,18 @@
   },
   {
     "instructionText": " The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
-    "image": "v1_P8_3",
+    "image": "V1_P8_3",
     "options": [
       {
-        "label": "v1_P8_3_1",
+        "label": "V1_P8_3_1",
         "isCorrect": false
       },
       {
-        "label": "v1_P8_3_2",
+        "label": "V1_P8_3_2",
         "isCorrect": true
       },
       {
-        "label": "v1_P8_3_3",
+        "label": "V1_P8_3_3",
         "isCorrect": false
       }
     ],
@@ -2902,18 +2902,18 @@
   },
   {
     "instructionText": " The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
-    "image": "v1_P8_4",
+    "image": "V1_P8_4",
     "options": [
       {
-        "label": "v1_P8_4_1",
+        "label": "V1_P8_4_1",
         "isCorrect": true
       },
       {
-        "label": "v1_P8_4_2",
+        "label": "V1_P8_4_2",
         "isCorrect": false
       },
       {
-        "label": "v1_P8_4_3",
+        "label": "V1_P8_4_3",
         "isCorrect": false
       }
     ],
@@ -3102,190 +3102,6 @@
       }
     ],
     "questionNo": 12
-  },
-  {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
-    "image": "V4_P8_1",
-    "options": [
-      {
-        "label": "V4_P8_1_A",
-        "isCorrect": false
-      },
-      {
-        "label": "V4_P8_1_B",
-        "isCorrect": false
-      },
-      {
-        "label": "V4_P8_1_C",
-        "isCorrect": false
-      },
-      {
-        "label": "V4_P8_1_D",
-        "isCorrect": true
-      }
-    ],
-    "questionNo": 13
-  },
-  {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
-    "image": "V4_P8_2",
-    "options": [
-      {
-        "label": "V4_P8_2_A",
-        "isCorrect": false
-      },
-      {
-        "label": "V4_P8_2_B",
-        "isCorrect": true
-      },
-      {
-        "label": "V4_P8_2_C",
-        "isCorrect": false
-      },
-      {
-        "label": "V4_P8_2_D",
-        "isCorrect": false
-      }
-    ],
-    "questionNo": 14
-  },
-  {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
-    "image": "V4_P8_3",
-    "options": [
-      {
-        "label": "V4_P8_3_A",
-        "isCorrect": true
-      },
-      {
-        "label": "V4_P8_3_B",
-        "isCorrect": false
-      },
-      {
-        "label": "V4_P8_3_C",
-        "isCorrect": false
-      },
-      {
-        "label": "V4_P8_3_D",
-        "isCorrect": false
-      }
-    ],
-    "questionNo": 15
-  },
-  {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
-    "image": "V4_P8_4",
-    "options": [
-      {
-        "label": "V4_P8_4_A",
-        "isCorrect": false
-      },
-      {
-        "label": "V4_P8_4_B",
-        "isCorrect": true
-      },
-      {
-        "label": "V4_P8_4_C",
-        "isCorrect": false
-      },
-      {
-        "label": "V4_P8_4_D",
-        "isCorrect": false
-      }
-    ],
-    "questionNo": 16
-  },
-  {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
-    "image": "V5_P8_1",
-    "options": [
-      {
-        "label": "V5_P8_1_A",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_1_B",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_1_C",
-        "isCorrect": true
-      },
-      {
-        "label": "V5_P8_1_D",
-        "isCorrect": false
-      }
-    ],
-    "questionNo": 17
-  },
-  {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
-    "image": "V5_P8_2",
-    "options": [
-      {
-        "label": "V5_P8_2_A",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_2_B",
-        "isCorrect": true
-      },
-      {
-        "label": "V5_P8_2_C",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_2_D",
-        "isCorrect": false
-      }
-    ],
-    "questionNo": 18
-  },
-  {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
-    "image": "V5_P8_3",
-    "options": [
-      {
-        "label": "V5_P8_3_A",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_3_B",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_3_C",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_3_D",
-        "isCorrect": true
-      }
-    ],
-    "questionNo": 19
-  },
-  {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
-    "image": "V5_P8_4",
-    "options": [
-      {
-        "label": "V5_P8_4_A",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_4_B",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_4_C",
-        "isCorrect": false
-      },
-      {
-        "label": "V5_P8_4_D",
-        "isCorrect": true
-      }
-    ],
-    "questionNo": 20
   }
 ]
     }

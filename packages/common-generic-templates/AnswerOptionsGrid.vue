@@ -49,7 +49,14 @@ export default {
       return this.mode === "EFU-I" ? "w-full h-full object-cover" : "";
     },
     imageStyle() {
-      return this.mode === "EFU-I" ? "" : "width: 165px; height: 49px;";
+      if (this.mode === "EFU-I") {
+        return "";
+      }
+        else if (this.mode === "CMC-PK" || this.mode === "CFT-P") {
+        return "width: 165px; height: 165px;";
+      } else {
+        return "width: 165px; height: 49px;";
+      }
     }
   },
   methods: {
