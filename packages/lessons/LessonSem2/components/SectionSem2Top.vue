@@ -7,7 +7,7 @@
         <InstructionText :text="instructionText" />
 
         <!-- ✅ IF file_Name == 'EFU-I' use multi-cols -->
-        <AnswerOptionsGrid :items="file_Name === 'EFU-I' ? commonNumArray : internalArray" :mode="file_Name" :onAnswer="WordsAnswer" :disableSelection="disableSelection" :getImgUrl="getImgUrl" />
+        <AnswerOptionsGrid :items="file_Name === 'EFU-I' ? commonNumArray : internalArray" :mode="file_Name" :onAnswer="WordsAnswer" :disableSelection="disableSelection" />
 
         <AnswerCheckButton :visible="AnswerCheckShow" @click="AnswerCheck" />
 
@@ -110,17 +110,17 @@ export default {
         WordsValue(index) {
             this.$emit('WordsValue', index);
         },
-        getImgUrl(ImgName) {
-            const fileName = sessionStorage.getItem('jsonFile') || 'lessonCFS-I';
-            const images = require.context('../assets/graphics/', true, /\.png$/);
-            const path = `./${fileName}/${ImgName}.png`;
-            try {
-                return images(path);
-            } catch (e) {
-                console.warn(`Image not found: ${path}`, e);
-                return require('../assets/graphics/not_found.png');
-            }
-        }
+        // getImgUrl(ImgName) {
+        //     const fileName = sessionStorage.getItem('jsonFile') || 'lessonCFS-I';
+        //     const images = require.context('../assets/graphics/', true, /\.png$/);
+        //     const path = `./${fileName}/${ImgName}.png`;
+        //     try {
+        //         return images(path);
+        //     } catch (e) {
+        //         console.warn(`Image not found: ${path}`, e);
+        //         return require('../assets/graphics/not_found.png');
+        //     }
+        // }
 
     }
 };

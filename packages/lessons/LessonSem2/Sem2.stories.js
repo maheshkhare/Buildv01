@@ -73,8 +73,8 @@ async created() {
         for (const group of setsForLevel) {
           if (remaining <= 0) break;
 
-          const groupQuestions = group.questions || [];
-          // const groupQuestions = (group.questions || []).slice().sort(() => Math.random() - 0.5);
+          // const groupQuestions = group.questions || [];
+          const groupQuestions = (group.questions || []).slice().sort(() => Math.random() - 0.5);
 
           const needed = Math.min(groupQuestions.length, perLevelCount - pickedCount, remaining);
 

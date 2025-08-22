@@ -28,7 +28,7 @@ export default {
     items: { type: Array, required: true },
     mode: { type: String, default: "normal" }, // 'EFU-I' or 'normal'
     onAnswer: { type: Function, required: true },
-    getImgUrl: { type: Function, required: true },
+    // getImgUrl: { type: Function, required: true },
     disableSelection: { type: Boolean, default: false }
   },
   computed: {
@@ -67,7 +67,18 @@ export default {
         "bg-green-500 border-green-500 shadow-md": state === "correct",
         "bg-blue-100 border-black": state === "unselected"
       };
-    }
+    },
+    getImgUrl(ImgName) {
+     const fileName = sessionStorage.getItem('jsonFile') || 'lessonCFS-I';
+     const images = require.context('../assets/graphics/', true, /\.png$/);
+     const path = `./${fileName}/${ImgName}.png`;
+     try {
+       return images(path);
+     } catch (e) {
+       console.warn(`Image not found: ${path}`, e);
+       return require('../assets/graphics/not_found.png');
+     }
+   }
   }
 };
 </script>
