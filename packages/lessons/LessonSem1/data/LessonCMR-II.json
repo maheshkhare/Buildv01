@@ -402,7 +402,7 @@
              "categories": [
                 {
                 "name": "Order",
-                "words": ["first", "fourth", "fifth", "second"]
+                "words": ["first", "fourth", "fifth", "third"]
                 },
                 {
                 "name": "Kin",
@@ -864,28 +864,28 @@
             "id":"Set6_1",
              "categories": [
                 {
-                "name": "Soon",
-                "words": ["Time- Today", "later", "weekly", "clock"]
+                "name": "Time",
+                "words": ["Today","Soon", "later", "weekly", "clock"]
                 },
                 {
-                "name": "Hazy",
-                "words": ["Weather- Cloudy", "rainy", "sultry", "gloomy"]
+                "name": "Weather",
+                "words": ["hazy","Cloudy", "rainy", "sultry", "gloomy"]
                 },
                 {
-                "name": "Loving",
-                "words": ["Feeling- miserable", "curious", "happy", "afraid"]
+                "name": "Feeling",
+                "words": ["loving","miserable", "curious", "happy", "afraid"]
                 },
                 {
-                "name": "Long",
-                "words": ["Length- stretch", "foot", "span", "extended"]
+                "name": "Length",
+                "words": ["long","stretch", "foot", "span", "extended"]
                 },
                 {
-                "name": "Moped",
-                "words": ["Transport- Travel", "fast", "car", "ride"]
+                "name": "Transport",
+                "words": ["moped","Travel", "fast", "car", "ride"]
                 },
                 {
-                "name": "Supper",
-                "words": ["Hungry- Food", "meal", "starve", "famished"]
+                "name": "Meals",
+                "words": ["supper","Food", "meal", "starve", "famished"]
                 }
             ]
         },

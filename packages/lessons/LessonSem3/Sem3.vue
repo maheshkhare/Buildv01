@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="w-full px-2 sm:px-4 lg:px-8">
-          <div class="container mx-auto max-w-7xl bg-white shadow-lg border-2 border-black rounded-none p-4 sm:p-6 lg:p-10 my-4 sm:my-6 lg:my-8">
+          <div class="containercat3 mx-auto max-w-7xl bg-white shadow-lg border-2 border-black rounded-none p-4 sm:p-6 lg:p-10 my-4 sm:my-6 lg:my-8">
             <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed" :Questions_attempted="Questions_attempted" :correct_Answers="correct_Answers" :incorrect_Answers="incorrect_Answers" @FinalResult="FinalResult" :ResultHide="ResultHide" :ResultArrow="ResultArrow" ></resultPopup>
              <WordGridActivity
               v-if="jsonFileName === 'CSR-I' && currentQuestion && !resultShow"
@@ -305,7 +305,7 @@ body {
 }
 
 /* Responsive container */
-.container {
+.containercat3 {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
