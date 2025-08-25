@@ -21,7 +21,15 @@ export const Practice = () => ({
   },
   data() {
     return {
-      lessonData: null
+      lessonData: null,
+      timestart: 0,
+      Questions_attempted: 0,
+      correct_Answers: 0,
+      incorrect_Answers: 0,
+
+      // 👇 make sure these exist before you push
+      practiceList: [],
+      detailedResults: []
     };
   },
 async created() {
@@ -35,6 +43,65 @@ async created() {
     levelStart = parts[0];
     levelEnd = parts[1] || parts[0];
   }
+
+    // ✅ Retrieve attempted question numbers from localStorage
+        const storedResultRaw = localStorage.getItem('attemptedQuestionData');
+        let attemptedQuestionNumbers = [];
+        let attemptedDetails = [];
+
+        const attemptedData = JSON.parse(storedResultRaw || '{}'); // default to object
+
+        if (
+            attemptedData &&
+            Array.isArray(attemptedData.detailedResults) &&
+            attemptedData.detailedResults.length > 0
+        ) {
+
+            // ✅ Update summary counts from attemptedData
+            this.timestart = attemptedData.summary.totalTimeElapsed || 0;
+            this.Questions_attempted = attemptedData.summary.questionsAttempted || 0;
+            this.correct_Answers = attemptedData.summary.correctAnswers || 0;
+            this.incorrect_Answers = attemptedData.summary.incorrectAnswers || 0;
+
+            attemptedData.detailedResults.forEach(q => {
+                this.practiceList.push({
+                    id: q.questionNo,
+                    fullCorrectAnswer: q.fullCorrectAnswer ? JSON.parse(JSON.stringify(q.fullCorrectAnswer)) : [],
+                    isCorrect: q.isCorrect || false,
+                    originalQuestionNo: q.originalQuestionNo ?? null,
+                    level: q.level ?? null,
+                    timeTaken: q.timeTaken ?? 0
+                });
+            });
+
+            console.log("Practive List" + JSON.stringify(this.practiceList, null, 2));
+            // console.log(`✅ Loaded ${this.practiceList} attempted questions into practiceList at start`);
+
+            this.detailedResults = this.practiceList.map((entry, idx) => {
+                return {
+                    questionNo: entry.id || 0,
+                    originalQuestionNo: entry.originalQuestionNo,
+                    level: entry.level,
+                    rectanglesAnswer: entry.rectanglesAnswer || [],
+                    fullCorrectAnswer: entry.fullCorrectAnswer || [],
+                    isCorrect: entry.isCorrect,
+                    timeTaken: entry.timeTaken
+                };
+            });
+
+            console.log("Detailed Results: " + JSON.stringify(this.detailedResults, null, 2));
+        }
+
+        if (storedResultRaw) {
+            try {
+                const parsed = JSON.parse(storedResultRaw);
+                attemptedQuestionNumbers = parsed.summary?.attemptedQuestionNumbers || [];
+                attemptedDetails = parsed.detailedResults || [];
+                console.log("🟢 Attempted Question Numbers:", attemptedQuestionNumbers);
+            } catch (e) {
+                console.warn("⚠️ Failed to parse attemptedQuestionData:", e);
+            }
+        }
 
   try {
     // const response = await axios.get(`/${fileName}.json`);
@@ -130,7 +197,7 @@ async created() {
       instructionSets: finalSets
     };
 
-    console.log("✅ Final sets-------:", finalSets);
+            console.log("✅ Final sets-------: " + JSON.stringify(finalSets, null, 2));
 
   } catch (error) {
     alert(`Failed to load JSON: ${fileName}.json`);

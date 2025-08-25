@@ -1,7 +1,7 @@
 {
   "Level1": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong>  The picture shows a seaside. How many words of 3 or more letters can you make from <strong>S-E-A-S-I-D-E?</strong> Click a blank, then click a letter below to fill in the word.",
+      "QuestionArr_01": "<strong>Instructions:</strong>  The picture shows a seaside. How many words of 3 or more letters can you make from <strong>S-E-A-S-I-D-E?</strong> Click a blank, then click a letter above to fill in the word. </br><strong>Seaside-</strong> the coastal area where land meets the sea, typically including the beach, shoreline, and nearby promenades or resorts. ",
       "Image": "V1-P1",
        "Type": "LetterFill",
       "Symbols": [
@@ -9,7 +9,8 @@
         { "id": 2, "symbol": "A", "value": "A" },
         { "id": 3, "symbol": "D", "value": "D" },
         { "id": 4, "symbol": "E", "value": "E" },
-        { "id": 5, "symbol": "I", "value": "I" }
+        { "id": 5, "symbol": "I", "value": "I" },
+        { "id": 6, "symbol": "N", "value": "N" }
         ],
       "Blanks": [
         { "id": 1, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "", "CorrectValue": "SEA" },
@@ -17,13 +18,13 @@
         { "id": 3, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "D", "CorrectValue": "SAID" },
         { "id": 4, "firstSymbol": "E", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "E", "CorrectValue": "EASE" },
         { "id": 5, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "E",  "CorrectValue": "SIDE" },
-        { "id": 6, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "D",  "CorrectValue": "SEED" },
+        { "id": 6, "firstSymbol": "S", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "D",  "CorrectValue": "SAND" },
         { "id": 7, "firstSymbol": "A", "1stBlankValue": "","2ndBlankValue": "","3rdBlankValue": "","lastSymbol": "E",  "CorrectValue": "ASIDE" },
         { "id": 8, "firstSymbol": "I", "1stBlankValue": "","2ndBlankValue": "","lastSymbol": "A", "CorrectValue": "IDEA" }
       ]
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong>  The picture below is of a PURSE. How many words of 3 or more letters can you make from PURSE? The first and last letters are already in place. You can only use each letter once. Purse - a small pouch of leather or plastic used for carrying things. ",
+      "QuestionArr_02": "<strong>Instructions:</strong>  The picture above is of a PURSE. How many words of 3 or more letters can you make from PURSE? The first and last letters are already in place. You can only use each letter once. Purse - a small pouch of leather or plastic used for carrying things. ",
       "Image": "V2-P1",
        "Type": "LetterFill",
       "Symbols": [
@@ -35,20 +36,20 @@
         ],
      "Blanks": [
         { "id": 1, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "lastSymbol": "R", "CorrectValue": "SUPER" },
-        { "id": 2, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "R", "CorrectValue": "PURE" },
+        { "id": 2, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "PURE" },
         { "id": 3, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "R", "CorrectValue": "SPUR" },
         { "id": 4, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "SURE" },
         { "id": 5, "firstSymbol": "R", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "S", "CorrectValue": "RUES" },
         { "id": 6, "firstSymbol": "P", "1stBlankValue": "", "lastSymbol": "R", "CorrectValue": "USER" },
-        { "id": 7, "firstSymbol": "P", "1stBlankValue": "", "lastSymbol": "S", "CorrectValue": "PER" },
+        { "id": 7, "firstSymbol": "P", "1stBlankValue": "", "lastSymbol": "R", "CorrectValue": "PER" },
         { "id": 8, "firstSymbol": "P", "1stBlankValue": "", "lastSymbol": "S", "CorrectValue": "PUS" },
-        { "id": 9, "firstSymbol": "R", "1stBlankValue": "", "lastSymbol": "E", "CorrectValue": "RUE" },
+        { "id": 9, "firstSymbol": "R", "1stBlankValue": "", "lastSymbol": "P", "CorrectValue": "REP" },
         { "id": 10, "firstSymbol": "S", "1stBlankValue": "", "lastSymbol": "E", "CorrectValue": "SUE" },
         { "id": 11, "firstSymbol": "U", "1stBlankValue": "", "lastSymbol": "E", "CorrectValue": "USE" }
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong>  The picture below is of a PLANT. How many words of 4 or more letters can you make from PLANT? The first and last letters are already in place",
+      "QuestionArr_03": "<strong>Instructions:</strong>  The picture above is of a PLANT. How many words of 4 or more letters can you make from PLANT? The first and last letters are already in place",
       "Image": "V3-P1",
        "Type": "LetterFill",
       "Symbols": [
@@ -73,7 +74,7 @@
       ]
     } ,
     {
-      "QuestionArr_04": "<strong>Instructions:</strong>  The picture below is of a BRAIN. How many words of 3 or more letters can you make from BRAIN? The first and last letters are already in place.<strong>Brain-</strong>  An organ of soft nervous tissue contained in the skull of vertebrates, functioning as the coor dinating centre of sensation and intellectual and nervous activity.",
+      "QuestionArr_04": "<strong>Instructions:</strong>  The picture above is of a BRAIN. How many words of 3 or more letters can you make from BRAIN? The first and last letters are already in place.<strong>Brain-</strong>  An organ of soft nervous tissue contained in the skull of vertebrates, functioning as the coor dinating centre of sensation and intellectual and nervous activity.",
       "Image": "V4-P1",
        "Type": "LetterFill",
       "Symbols": [
@@ -98,7 +99,7 @@
       ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong>  The picture below is of a HEART. How many words of 3 or more letters can you make from HEART? The first and last letters are already in place..</br><strong>Brain-</strong>  A muscular organ that pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body..",
+      "QuestionArr_05": "<strong>Instructions:</strong>  The picture above is of a HEART. How many words of 3 or more letters can you make from HEART? The first and last letters are already in place..</br><strong>Heart-</strong>  A muscular organ that pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body..",
       "Image": "V5-P1",
        "Type": "LetterFill",
       "Symbols": [
@@ -125,7 +126,7 @@
   ],
   "Level2": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong>  The picture below is of a butterfly. How many words of 3 or more letters can you make from <strong>B-U-T-T-E-R-F-L-Y?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once",
+      "QuestionArr_01": "<strong>Instructions:</strong>  The picture above is of a butterfly. How many words of 3 or more letters can you make from <strong>B-U-T-T-E-R-F-L-Y?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once. </br><strong>Butterfly-</strong> a brightly colored, winged insect of the order Lepidoptera, known for its scaled wings, proboscis for sipping nectar, and a life cycle that includes egg, caterpillar, chrysalis, and adult.",
       "Image": "V1-P2",
        "Type": "LetterFill",
       "Symbols": [
@@ -148,7 +149,7 @@
       ]
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong>  The picture below is of a BRANCH. How many words of 3 or more letters can you make from BRANCH? The first and last letters are already in place. You can only use each letter once  </br><strong>Branch -</strong> A part of a tree which grows out from the trunk. A subdivision of a place.",
+      "QuestionArr_02": "<strong>Instructions:</strong>  The picture above is of a BRANCH. How many words of 3 or more letters can you make from BRANCH? The first and last letters are already in place. You can only use each letter once  </br><strong>Branch -</strong> A part of a tree which grows out from the trunk. A subdivision of a place.",
       "Image": "V2-P2",
        "Type": "LetterFill",
       "Symbols": [
@@ -176,7 +177,7 @@
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong>  The picture below is of a DICTIONARY. How many words of 4 or more letters can you make from DICTIONARY? The first and last letters are already in place. </br><strong>Dictionary-</strong>  a reference book listing alphabetically the words of one language and showing their meanings or translations in another language.",
+      "QuestionArr_03": "<strong>Instructions:</strong>  The picture above is of a DICTIONARY. How many words of 4 or more letters can you make from DICTIONARY? The first and last letters are already in place. </br><strong>Dictionary-</strong>  a reference book listing alphabetically the words of one language and showing their meanings or translations in another language.",
       "Image": "V3-P2",
        "Type": "LetterFill",
       "Symbols": [
@@ -212,7 +213,6 @@
         { "id": 19, "firstSymbol": "C", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "O", "CorrectValue": "CARDIO" },
         { "id": 20, "firstSymbol": "A", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "N", "CorrectValue": "ACTION" },
         { "id": 21, "firstSymbol": "C", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "N", "CorrectValue": "CRAYON" },
-        { "id": 22, "firstSymbol": "T", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "5thBlankValue": "", "lastSymbol": "C", "CorrectValue": "TRIADIC" },
         { "id": 23, "firstSymbol": "D", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "5thBlankValue": "", "lastSymbol": "N", "CorrectValue": "DICTION" },
         { "id": 24, "firstSymbol": "A", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "5thBlankValue": "", "lastSymbol": "Y", "CorrectValue": "ACIDITY" },
         { "id": 25, "firstSymbol": "T", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "5thBlankValue": "", "6thBlankValue": "", "lastSymbol": "C", "CorrectValue": "TORNADIC" },
@@ -221,7 +221,7 @@
 
     } ,
     {
-      "QuestionArr_04": "<strong>Instructions:</strong>  The picture below is of a PLATEAU. How many words of 4 or more letters can you make from PLATEAU? The first and last letters are already in place..</br><strong>Plateau -</strong>  an area of relatively level high ground.",
+      "QuestionArr_04": "<strong>Instructions:</strong>  The picture above is of a PLATEAU. How many words of 4 or more letters can you make from PLATEAU? The first and last letters are already in place..</br><strong>Plateau -</strong>  an area of relatively level high ground.",
       "Image": "V4-P2",
        "Type": "LetterFill",
       "Symbols": [
@@ -242,7 +242,7 @@
         { "id": 7, "firstSymbol": "T", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "L", "CorrectValue": "TEAL" },
         { "id": 8, "firstSymbol": "T", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "TALE" },
         { "id": 9, "firstSymbol": "L", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "LUTE" },
-        { "id": 10, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "E", "CorrectValue": "PALATE" },
+        { "id": 10, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "","5thBlankValue": "", "lastSymbol": "U", "CorrectValue": "PLATEAU" },
         { "id": 11, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "lastSymbol": "E", "CorrectValue": "PLATE" },
         { "id": 12, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "lastSymbol": "T", "CorrectValue": "PLEAT" },
         { "id": 13, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "lastSymbol": "L", "CorrectValue": "PETAL" },
@@ -251,7 +251,7 @@
 
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong>   The picture below is of a GLACIER. How many words of 3 or more letters can you make from GLACIER? The first and last letters are already in place..</br><strong> Glacier -</strong> A slowly moving mass or river of ice formed by the accumulation and compaction of snow on mountains or near the poles",
+      "QuestionArr_05": "<strong>Instructions:</strong>   The picture above is of a GLACIER. How many words of 3 or more letters can you make from GLACIER? The first and last letters are already in place..</br><strong> Glacier -</strong> A slowly moving mass or river of ice formed by the accumulation and compaction of snow on mountains or near the poles",
       "Image": "V5-P2",
        "Type": "LetterFill",
       "Symbols": [
@@ -282,7 +282,7 @@
   ],
   "Level3": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong>  The picture below is of a scarecrow. How many words of 3 or more letters can you make from <strong>S-C-A-R-E-C-R-O-W?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once.",
+      "QuestionArr_01": "<strong>Instructions:</strong>  The picture above is of a scarecrow. How many words of 3 or more letters can you make from <strong>S-C-A-R-E-C-R-O-W?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once.</br><strong>Scarecrow-</strong> a figure made of straw and old clothes, traditionally placed in fields to frighten away birds and protect crops.",
       "Image": "V1-P3",
        "Type": "LetterFill",
       "Symbols": [
@@ -305,7 +305,7 @@
       ]
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong> The picture below is of a LANDSCAPE. How many words of 4 or more letters can you make from LANDSCAPE? The first and last letters are already in place. You can only use each letter once.  </br><strong>Landscape -</strong> visible features of an area of land.",
+      "QuestionArr_02": "<strong>Instructions:</strong> The picture above is of a LANDSCAPE. How many words of 4 or more letters can you make from LANDSCAPE? The first and last letters are already in place. You can only use each letter once.  </br><strong>Landscape -</strong> visible features of an area of land.",
       "Image": "V2-P3",
        "Type": "LetterFill",
       "Symbols": [
@@ -332,7 +332,7 @@
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong>  The picture below is of a KEYBOARD. How many words of 4 or more letters can you make from KEYBOARD? The first and last letters are already in place. </br><strong> Keyboard-</strong> 1. a bank of keys on a musical instrument (such as a piano) 2. a musical instrument that is played by means of a keyboard 3. a group of systematically arranged keys by which a machine or device is operated (computer)",
+      "QuestionArr_03": "<strong>Instructions:</strong>  The picture above is of a KEYBOARD. How many words of 4 or more letters can you make from KEYBOARD? The first and last letters are already in place. </br><strong> Keyboard-</strong> 1. a bank of keys on a musical instrument (such as a piano) 2. a musical instrument that is played by means of a keyboard 3. a group of systematically arranged keys by which a machine or device is operated (computer)",
       "Image": "V3-P3",
        "Type": "LetterFill",
       "Symbols": [
@@ -365,7 +365,7 @@
       ]
     } ,
     {
-      "QuestionArr_04": "<strong>Instructions:</strong>  The picture below is of a CLOSET. How many words of 3 or more letters can you make from CLOSET? The first and last letters are already in place. </br><strong>Closet -</strong>  A storage unit for clothes",
+      "QuestionArr_04": "<strong>Instructions:</strong>  The picture above is of a CLOSET. How many words of 3 or more letters can you make from CLOSET? The first and last letters are already in place. </br><strong>Closet -</strong>  A storage unit for clothes",
       "Image": "V4-P3",
        "Type": "LetterFill",
       "Symbols": [
@@ -400,7 +400,7 @@
 
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong>The picture below is of a CABINET. How many words of 3 or more letters can you make from CABINET? The first and last letters are already in place.</br><strong> Cabinet -</strong>  A cupboard with shelves or drawers for storing or displaying articles.",
+      "QuestionArr_05": "<strong>Instructions:</strong>The picture above is of a CABINET. How many words of 3 or more letters can you make from CABINET? The first and last letters are already in place.</br><strong> Cabinet -</strong>  A cupboard with shelves or drawers for storing or displaying articles.",
       "Image": "V5-P3",
        "Type": "LetterFill",
       "Symbols": [
@@ -432,7 +432,7 @@
   ],
   "Level4": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong>  The picture below is of a woodchuck. How many words of 3 or more letters can you make from <strong>W-O-O-D-C-H-U-C-K?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once.",
+      "QuestionArr_01": "<strong>Instructions:</strong>  The picture above is of a woodchuck. How many words of 3 or more letters can you make from <strong>W-O-O-D-C-H-U-C-K?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once. </br><strong>Woodchuck-</strong> a burrowing rodent also called a groundhog, known for digging extensive burrows and for its stout, furry body.",
       "Image": "V1-P4",
        "Type": "LetterFill",
       "Symbols": [
@@ -453,12 +453,11 @@
         { "id": 6, "firstSymbol": "D", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "K", "CorrectValue": "DOCK" },
         { "id": 7, "firstSymbol": "D", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "K", "CorrectValue": "DUCK" },
         { "id": 8, "firstSymbol": "C", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "","4thBlankValue": "", "lastSymbol": "O", "CorrectValue": "CUCKOO" },
-        { "id": 9, "firstSymbol": "W", "1stBlankValue": "", "lastSymbol": "O", "CorrectValue": "WHO" },
-        { "id": 10, "firstSymbol": "W", "1stBlankValue": "", "lastSymbol": "O", "CorrectValue": "WOO" }
+        { "id": 9, "firstSymbol": "W", "1stBlankValue": "", "lastSymbol": "O", "CorrectValue": "WHO" }
       ]
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong> The picture below is of a SATELLITE. How many words of 4 or more letters can you make from SATELLITES? The first and last letters are already in place</br><strong>Satellite -</strong> an artificial body placed in orbit around the earth or moon or another planet to collect information or for communication",
+      "QuestionArr_02": "<strong>Instructions:</strong> The picture above is of a SATELLITE. How many words of 4 or more letters can you make from SATELLITES? The first and last letters are already in place</br><strong>Satellite -</strong> an artificial body placed in orbit around the earth or moon or another planet to collect information or for communication",
       "Image": "V2-P4",
        "Type": "LetterFill",
       "Symbols": [
@@ -484,7 +483,7 @@
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong> The picture below is of a LEOPARD. How many words of 4 or more letters can you make from LEOPARD? The first and last letters are already in place.. </br><strong> Leopard-</strong> A large solitary cat that has a fawn or brown coat with black spots, native to the forests of Africa and southern Asia",
+      "QuestionArr_03": "<strong>Instructions:</strong> The picture above is of a LEOPARD. How many words of 4 or more letters can you make from LEOPARD? The first and last letters are already in place.. </br><strong> Leopard-</strong> A large solitary cat that has a fawn or brown coat with black spots, native to the forests of Africa and southern Asia",
       "Image": "V3-P4",
        "Type": "LetterFill",
       "Symbols": [
@@ -520,11 +519,11 @@
         { "id": 21, "firstSymbol": "D", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "L", "CorrectValue": "DEAL" },
         { "id": 22, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "A", "CorrectValue": "PLEA" },
         { "id": 23, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "PALE" },
-        { "id": 24, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "D", "CorrectValue": "POLARD" }
+        { "id": 24, "firstSymbol": "P", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "","5thBlankValue": "", "lastSymbol": "D", "CorrectValue": "PAROLED" }
       ]
     } ,
     {
-      "QuestionArr_04": "<strong>Instructions:</strong>  The picture below is of a PICTURE. How many words of 4 or more letters can you make from PICTURE? The first and last letters are already in place </br><strong>Picture -</strong> A painting or drawing or an impression of something formed from a description",
+      "QuestionArr_04": "<strong>Instructions:</strong>  The picture above is of a PICTURE. How many words of 4 or more letters can you make from PICTURE? The first and last letters are already in place </br><strong>Picture -</strong> A painting or drawing or an impression of something formed from a description",
       "Image": "V4-P4",
        "Type": "LetterFill",
       "Symbols": [
@@ -562,7 +561,7 @@
 
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong> The picture below is of a PORTRAIT. How many words of 4 or more letters can you make from PORTRAIT? The first and last letters are already in place..</br><strong> Portrait -</strong>  A painting or other artistic representation of a person, in which the face and its expressions are predominant.",
+      "QuestionArr_05": "<strong>Instructions:</strong> The picture above is of a PORTRAIT. How many words of 4 or more letters can you make from PORTRAIT? The first and last letters are already in place..</br><strong> Portrait -</strong>  A painting or other artistic representation of a person, in which the face and its expressions are predominant.",
       "Image": "V5-P4",
        "Type": "LetterFill",
       "Symbols": [
@@ -594,7 +593,7 @@
   ],
   "Level5": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong> The picture below is of a Racetrack. How many words of 3 or more letters can you make from <strong>R-A-C-E-T-R-A-C-K?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once. If you think there is a word, look it up in your dictionary.",
+      "QuestionArr_01": "<strong>Instructions:</strong> The picture above is of a Racetrack. How many words of 3 or more letters can you make from  </br><strong>R-A-C-E-T-R-A-C-K?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once. If you think there is a word, look it up in your dictionary. </br><strong>Racetrack-</strong> a course or circuit used for racing (cars, horses, bikes, etc.), typically an oval or looped track where competitors race around for a set number of laps.",
       "Image": "V1-P5",
        "Type": "LetterFill",
       "Symbols": [
@@ -620,7 +619,7 @@
       ]
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong> T The picture below is of a REFRIGERATOR. How many words of 4 or more letters can you make from REFRIGERATOR? The first and last letters are already in place. </br><strong>Refrigerator -</strong>  an appliance which is artificially kept cool and used to store food and drink.",
+      "QuestionArr_02": "<strong>Instructions:</strong> T The picture above is of a REFRIGERATOR. How many words of 4 or more letters can you make from REFRIGERATOR? The first and last letters are already in place. </br><strong>Refrigerator -</strong>  an appliance which is artificially kept cool and used to store food and drink.",
       "Image": "V2-P5",
        "Type": "LetterFill",
       "Symbols": [
@@ -649,7 +648,7 @@
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong>  The picture below is of WILDLIFE. How many words of 4 or more letters can you make from WILDLIFE? The first and last letters are already in place. </br><strong> Wildlife-</strong>  living things and especially mammals, birds, and fishes that are neither human nor domestic.",
+      "QuestionArr_03": "<strong>Instructions:</strong>  The picture above is of WILDLIFE. How many words of 4 or more letters can you make from WILDLIFE? The first and last letters are already in place. </br><strong> Wildlife-</strong>  living things and especially mammals, birds, and fishes that are neither human nor domestic.",
       "Image": "V3-P5",
        "Type": "LetterFill",
       "Symbols": [
@@ -686,7 +685,7 @@
       ]
     } ,
     {
-      "QuestionArr_04": "<strong>Instructions:</strong>  The picture below is of an AMBASSADOR. How many words of 4 or more letters can you make from AMBASSADOR? The first and last letters are already in place.  </br><strong>Ambassador -</strong> An accredited diplomat sent by a country as its o cial representative to a foreign country",
+      "QuestionArr_04": "<strong>Instructions:</strong>  The picture above is of an AMBASSADOR. How many words of 4 or more letters can you make from AMBASSADOR? The first and last letters are already in place.  </br><strong>Ambassador -</strong> An accredited diplomat sent by a country as its official representative to a foreign country.",
       "Image": "V4-P5",
        "Type": "LetterFill",
       "Symbols": [
@@ -727,7 +726,7 @@
       ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong>  The picture below is of a DIPLOMAT. How many words of 4 or more letters can you make from DIPLOMAT? The first and last letters are already in place.</br><strong> Diplomat -</strong>   An o cial representing a country abroad.",
+      "QuestionArr_05": "<strong>Instructions:</strong>  The picture above is of a DIPLOMAT. How many words of 4 or more letters can you make from DIPLOMAT? The first and last letters are already in place.</br><strong> Diplomat -</strong>   An official representing a country abroad.",
       "Image": "V5-P5",
        "Type": "LetterFill",
       "Symbols": [
@@ -764,7 +763,7 @@
   ],
   "Level6": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong> The picture below is of a Costume. How many words of 3 or more letters can you make from <strong>C-O-S-T-U-M-E?:</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once. If you think there is a word, look it up in your dictionary",
+      "QuestionArr_01": "<strong>Instructions:</strong> The picture above is of a Costume. How many words of 3 or more letters can you make from <strong>C-O-S-T-U-M-E?:</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once. If you think there is a word, look it up in your dictionary. </br><strong>Costume-</strong> clothing worn to represent a character, profession, culture, or for a special event (for example, theatrical costumes, traditional dress, or outfits for celebrations such as Halloween).",
       "Image": "V1-P6",
        "Type": "LetterFill",
        "Symbols": [
@@ -792,7 +791,7 @@
       ]
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong> The picture below is of a MECHANIC. How many words of 4 or more letters can you make from MECHANIC? The first and last letters are already in place. </br><strong>Mechanic -</strong> a skilled worker who repairs and maintains vehicle engines and other machines. ",
+      "QuestionArr_02": "<strong>Instructions:</strong> The picture above is of a MECHANIC. How many words of 4 or more letters can you make from MECHANIC? The first and last letters are already in place. </br><strong>Mechanic -</strong> a skilled worker who repairs and maintains vehicle engines and other machines. ",
       "Image": "V2-P6",
        "Type": "LetterFill",
       "Symbols": [
@@ -822,7 +821,7 @@
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong>  The picture below is of a BREAKFAST. How many words of 4 or more letters can you make from BREAKFAST? The first and last letters are already in place </br><strong> Breakfast-</strong>   The first meal of the day.",
+      "QuestionArr_03": "<strong>Instructions:</strong>  The picture above is of a BREAKFAST. How many words of 4 or more letters can you make from BREAKFAST? The first and last letters are already in place </br><strong> Breakfast-</strong>   The first meal of the day.",
       "Image": "V3-P6",
        "Type": "LetterFill",
       "Symbols": [
@@ -873,7 +872,7 @@
       ]
     },
     {
-      "QuestionArr_04": "<strong>Instructions:</strong> The picture below is of a CONSTITUTION. How many words of 4 or more letters can you make from CONSTITUTION? The first and last letters are already in place. </br><strong>Constitution -</strong>  A body of fundamental principles or established models according to which a state or other organization is acknowledged to be governed",
+      "QuestionArr_04": "<strong>Instructions:</strong> The picture above is of a CONSTITUTION. How many words of 4 or more letters can you make from CONSTITUTION? The first and last letters are already in place. </br><strong>Constitution -</strong>  A body of fundamental principles or established models according to which a state or other organization is acknowledged to be governed.",
       "Image": "V4-P6",
        "Type": "LetterFill",
       "Symbols": [
@@ -921,7 +920,7 @@
       ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong> The picture below is of a DEMOCRACY. How many words of 4 or more letters can you make from DEMOCRACY? The first and last letters are already in place..</br><strong> Democracy -</strong>A system of government by the whole population or all the eligible members of a state, typically through elected representatives.",
+      "QuestionArr_05": "<strong>Instructions:</strong> The picture above is of a DEMOCRACY. How many words of 4 or more letters can you make from DEMOCRACY? The first and last letters are already in place..</br><strong> Democracy -</strong>A system of government by the whole population or all the eligible members of a state, typically through elected representatives.",
       "Image": "V5-P6",
        "Type": "LetterFill",
       "Symbols": [
@@ -960,7 +959,7 @@
   ],
   "Level7": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong> TThe picture below is of a campfire. How many words of 3 or more letters can you make from <strong>C-A-M-P-F-I-R-E</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once",
+      "QuestionArr_01": "<strong>Instructions:</strong> TThe picture above is of a campfire. How many words of 3 or more letters can you make from <strong>C-A-M-P-F-I-R-E</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once a fire at a campsite that provides light and warmth, and heat for cooking. </br><strong>Campfire-</strong> an outdoor fire used for warmth, cooking, or social gathering, typically built at a campsite.",
       "Image": "V1-P7",
        "Type": "LetterFill",
       "Symbols": [
@@ -990,7 +989,7 @@
       ]
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong> The picture below is of a CROSSROADS. How many words of 4 or more letters can you make from CROSSROADS? The first and last letters are already in place.  </br><strong>Crossroads -</strong>  an intersection of two or more roads. ",
+      "QuestionArr_02": "<strong>Instructions:</strong> The picture above is of a CROSSROADS. How many words of 4 or more letters can you make from CROSSROADS? The first and last letters are already in place.  </br><strong>Crossroads -</strong>  an intersection of two or more roads. ",
       "Image": "V2-P7",
        "Type": "LetterFill",
       "Symbols": [
@@ -1019,7 +1018,7 @@
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong>  The picture below is of OPERATION. How many words of 4 or more letters can you make from OPERATION? The first and last letters are already in place.  </br><strong> Operation-</strong> performance of a practical work or of something involving the practical application of principles or processes.",
+      "QuestionArr_03": "<strong>Instructions:</strong>  The picture above is of OPERATION. How many words of 4 or more letters can you make from OPERATION? The first and last letters are already in place.  </br><strong> Operation-</strong> performance of a practical work or of something involving the practical application of principles or processes.",
       "Image": "V3-P7",
        "Type": "LetterFill",
       "Symbols": [
@@ -1066,7 +1065,7 @@
       ]
     },
     {
-      "QuestionArr_04": "<strong>Instructions:</strong> The picture below is of a PARALLELOGRAM. How many words of 4 or more letters can you make from PARALLELOGRAM? The first and last letters are already in place. </br><strong>Parallelogram - </strong>",
+      "QuestionArr_04": "<strong>Instructions:</strong> The picture above is of a PARALLELOGRAM. How many words of 4 or more letters can you make from PARALLELOGRAM? The first and last letters are already in place. </br><strong>Parallelogram - a quadrilateral with both pairs of opposite sides parallel and equal; opposite angles are equal and the diagonals bisect each other.</strong>",
       "Image": "V4-P7",
        "Type": "LetterFill",
       "Symbols": [
@@ -1121,7 +1120,7 @@
       ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong> The picture below is of a PYRAMID. How many words of 4 or more letters can you make from PYRAMID? The first and last letters are already in place.</br><strong> Pyramid -</strong> A monumental structure with a square or triangular base and sloping sides that meet in a point at the top, especially one built of stone as a royal tomb in ancient Egypt.",
+      "QuestionArr_05": "<strong>Instructions:</strong> The picture above is of a PYRAMID. How many words of 4 or more letters can you make from PYRAMID? The first and last letters are already in place.</br><strong> Pyramid -</strong> A monumental structure with a square or triangular base and sloping sides that meet in a point at the top, especially one built of stone as a royal tomb in ancient Egypt.",
       "Image": "V5-P7",
        "Type": "LetterFill",
       "Symbols": [
@@ -1152,7 +1151,7 @@
   ],
   "Level8": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong> The picture below is of a Professor. How many words of 3 or more letters can you make from <strong>P-R-O-F-E-S-S-O-R?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once. If you think there is a word, look it up in your dictionary",
+      "QuestionArr_01": "<strong>Instructions:</strong> The picture above is of a Professor. How many words of 3 or more letters can you make from <strong>P-R-O-F-E-S-S-O-R?</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once. If you think there is a word, look it up in your dictionary </br><strong>Professor-</strong> a senior teacher or academic at a college or university, typically an expert in a particular subject who teaches and conducts research.",
       "Image": "V1-P8",
        "Type": "LetterFill",
       "Symbols": [
@@ -1181,7 +1180,7 @@
       ]
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong> The picture below is of a FOOTPATH. How many words of 4 or more letters can you make from the word FOOTPATH.  </br><strong>Footpath -</strong>  a path for walking on ",
+      "QuestionArr_02": "<strong>Instructions:</strong> The picture above is of a FOOTPATH. How many words of 4 or more letters can you make from the word FOOTPATH. Either the first letter is provided, or both the first and last letters will be given.  </br><strong>Footpath -</strong>  a path for walking on ",
       "Image": "V2-P8",
        "Type": "LetterFill",
       "Symbols": [
@@ -1208,7 +1207,7 @@
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong>The picture below is of INSTRUMENTS. How many words of 4 or more letters can you make from INSTRUMENTS? The first and last letters are already in place</br><strong> Instruments-</strong> a device used to produce music.",
+      "QuestionArr_03": "<strong>Instructions:</strong>The picture above is of INSTRUMENTS. How many words of 4 or more letters can you make from INSTRUMENTS? The first and last letters are already in place</br><strong> Instruments-</strong> a device used to produce music.",
       "Image": "V3-P8",
        "Type": "LetterFill",
       "Symbols": [
@@ -1262,7 +1261,7 @@
       ]
     },
     {
-      "QuestionArr_04": "<strong>Instructions:</strong> The picture below is of a PARALLELOGRAM. How many words of 4 or more letters can you make from PARALLELOGRAM? The first and last letters are already in place. </br><strong>Parallelogram - </strong>",
+      "QuestionArr_04": "<strong>Instructions:</strong> The picture above is of a FRACTION. How many words of 4 or more letters can you make from FRACTION? The first and last letters are already in place. </br><strong>FRACTION - </strong> a part or portion of a whole, usually expressed as a numerator over a denominator.",
       "Image": "V4-P8",
        "Type": "LetterFill",
       "Symbols": [
@@ -1334,7 +1333,7 @@
       ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong> The picture below is of EVAPORATION. How many words of 4 or more letters can you make from EVAPORATION? The first and last letters are already in place.</br><strong> Evaporation -</strong>  The process of turning from liquid into vapour.",
+      "QuestionArr_05": "<strong>Instructions:</strong> The picture above is of EVAPORATION. How many words of 4 or more letters can you make from EVAPORATION? The first and last letters are already in place.</br><strong> Evaporation -</strong>  The process of turning from liquid into vapour.",
       "Image": "V5-P8",
        "Type": "LetterFill",
       "Symbols": [
@@ -1386,7 +1385,7 @@
   ],
   "Level9": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong> The picture below is of a submarine. How many words of 3 or more letters can you make from <strong>S-U-B-M-A-R-I-N-E</strong>. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once",
+      "QuestionArr_01": "<strong>Instructions:</strong> The picture above is of a submarine. How many words of 3 or more letters can you make from <strong>S-U-B-M-A-R-I-N-E</strong>. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once </br><strong>Submarine-</strong> a watercraft capable of independent underwater operation; commonly used for naval patrols, research, or exploration beneath the ocean surface.",
       "Image": "V1-P9",
        "Type": "LetterFill",
         "Symbols": [
@@ -1423,7 +1422,7 @@
 
     },
    {
-      "QuestionArr_02": "<strong>Instructions:</strong> The picture below is of a RECTANGLE. How many words of 4 or more letters can you make from the word RECTANGLE.  </br><strong>Rectangle -</strong> a four-sided polygon that has its opposite sides equal in length. All the 4 angles are 90 degrees. ",
+      "QuestionArr_02": "<strong>Instructions:</strong> The picture above is of a RECTANGLE. How many words of 4 or more letters can you make from the word RECTANGLE,Either the first letter is provided, or both the first and last letters will be given. </br><strong>Rectangle -</strong> a four-sided polygon that has its opposite sides equal in length. All the 4 angles are 90 degrees. ",
       "Image": "V2-P9",
        "Type": "LetterFill",
       "Symbols": [
@@ -1463,7 +1462,7 @@
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong>The picture below is of CELEBRATION. How many words of 4 or more letters can you make from CELEBRATION? The first and last letters are already in place.</br><strong> Celebration-</strong>  to mark or honour (something, such as an anniversary) by festivities or other deviation from routine.",
+      "QuestionArr_03": "<strong>Instructions:</strong>The picture above is of CELEBRATION. How many words of 4 or more letters can you make from CELEBRATION? The first and last letters are already in place.</br><strong> Celebration-</strong>  to mark or honour (something, such as an anniversary) by festivities or other deviation from routine.",
       "Image": "V3-P9",
        "Type": "LetterFill",
       "Symbols": [
@@ -1517,7 +1516,7 @@
       ]
     },
     {
-      "QuestionArr_04": "<strong>Instructions:</strong>  The picture below is of something MAGNIFICENT. How many words of 4 or more letters can you make from MAGNIFICENT? The first and last letters are already in place. </br><strong>Magnificent - </strong>  Extremely beautiful, elaborate, or impressive ",
+      "QuestionArr_04": "<strong>Instructions:</strong>  The picture above is of something MAGNIFICENT. How many words of 4 or more letters can you make from MAGNIFICENT? The first and last letters are already in place. </br><strong>Magnificent - </strong>  Extremely beautiful, elaborate, or impressive ",
       "Image": "V4-P9",
        "Type": "LetterFill",
       "Symbols": [
@@ -1596,7 +1595,7 @@
       ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong> The picture below is of MATHEMATICS. How many words of 4 or more letters can you make from MATHEMATICS? The first and last letters are already in place</br><strong> Mathematics -</strong> The study of the measurement, relationships, and properties of quantities and sets, using numbers and symbols. Arithmetic, algebra, geometry, and calculus are branches of mathematics.",
+      "QuestionArr_05": "<strong>Instructions:</strong> The picture above is of MATHEMATICS. How many words of 4 or more letters can you make from MATHEMATICS? The first and last letters are already in place</br><strong> Mathematics -</strong> The study of the measurement, relationships, and properties of quantities and sets, using numbers and symbols. Arithmetic, algebra, geometry, and calculus are branches of mathematics.",
       "Image": "V5-P9",
        "Type": "LetterFill",
       "Symbols": [
@@ -1651,7 +1650,7 @@
   ],
   "Level10": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong>The picture below is of vegetables. How many words of 3 or more letters can you make from <strong>V-E-G-E-T-A-B-L-E.</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once",
+      "QuestionArr_01": "<strong>Instructions:</strong>The picture above is of vegetables. How many words of 3 or more letters can you make from <strong>V-E-G-E-T-A-B-L-E.</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once </br><strong>Vegetables-</strong> plants or parts of plants that are used as food.",
       "Image": "V1-P10",
        "Type": "LetterFill",
       "Symbols": [
@@ -1687,7 +1686,7 @@
       ]
     },
    {
-      "QuestionArr_02": "<strong>Instructions:</strong>The picture below is of a WARDROBE. How many words of 4 or more letters can you make from the word WARDROBE. </br><strong>Wardrobe -</strong> a room or closet where clothes are kept",
+      "QuestionArr_02": "<strong>Instructions:</strong>The picture above is of a WARDROBE. How many words of 4 or more letters can you make from the word WARDROBE. </br><strong>Wardrobe -</strong> a room or closet where clothes are kept",
       "Image": "V2-P10",
        "Type": "LetterFill",
       "Symbols": [
@@ -1726,7 +1725,7 @@
       ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong> The picture below is of PHOTOGRAPHER. How many words of 4 or more letters can you make from PHOTOGRAPHER? The first and last letters are already in place.</br><strong> Photographer-</strong>  one who practices photography",
+      "QuestionArr_03": "<strong>Instructions:</strong> The picture above is of PHOTOGRAPHER. How many words of 4 or more letters can you make from PHOTOGRAPHER? The first and last letters are already in place.</br><strong> Photographer-</strong>  one who practices photography",
       "Image": "V3-P10",
        "Type": "LetterFill",
   "Symbols": [
@@ -1781,7 +1780,7 @@
   ]
     },
     {
-      "QuestionArr_04": "<strong>Instructions:</strong> The picture below is of CAMARADERIE. How many words of 4 or more letters can you make from CAMARADERIE? The first and last letters are already in place</br><strong>Camaraderie - </strong> mutual trust and friendship among people ",
+      "QuestionArr_04": "<strong>Instructions:</strong> The picture above is of CAMARADERIE. How many words of 4 or more letters can you make from CAMARADERIE? The first and last letters are already in place</br><strong>Camaraderie - </strong> mutual trust and friendship among people ",
       "Image": "V4-P10",
        "Type": "LetterFill",
       "Symbols": [
@@ -1853,7 +1852,7 @@
       ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong>  The picture below is of FRIENDSHIP. How many words of 4 or more letters can you make from FRIENDSHIP? The first and last letters are already in place. </br><strong> Friendship -</strong> A relationship of mutual affection between people. It is a stronger form of interperson al bond than an acquaintance or an association, such as a classmate, neighbor, or colleague",
+      "QuestionArr_05": "<strong>Instructions:</strong>  The picture above is of FRIENDSHIP. How many words of 4 or more letters can you make from FRIENDSHIP? The first and last letters are already in place. </br><strong> Friendship -</strong> A relationship of mutual affection between people. It is a stronger form of interperson al bond than an acquaintance or an association, such as a classmate, neighbor, or colleague",
       "Image": "V5-P10",
        "Type": "LetterFill",
       "Symbols": [
@@ -1901,8 +1900,8 @@
   ],
   "Level11": [
     {
-      "Instruction": " Instructions: The picture below is of a pancake. How many words of 3 or more letters can you make from P-A-N-C-A-K-E. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once",
-      "QuestionArr_01": " Instructions: The picture below is of a pancake. How many words of 3 or more letters can you make from P-A-N-C-A-K-E. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once.",
+      "Instruction": " Instructions: The picture above is of a pancake. How many words of 3 or more letters can you make from <strong>P-A-N-C-A-K-E</strong>. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once </br><strong>Pancake-</strong> a flat, round cake made from batter and cooked on a hot surface.",
+      "QuestionArr_01": " Instructions: The picture above is of a pancake. How many words of 3 or more letters can you make from P-A-N-C-A-K-E. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once.",
       "Image": "V1-P11",
        "Type": "LetterFill",
       "Symbols": [
@@ -1931,7 +1930,7 @@
       ]
     },
     {
-      "QuestionArr_02": "<strong>Instructions:</strong>The picture below is OF WRESTLING. How many words of 4 or more letters can you make from the word WRESTLING. </br><strong>Wrestling -</strong>  the sport or activity to wrestle with an opponent and trying to throw or hold them down on the ground. ",
+      "QuestionArr_02": "<strong>Instructions:</strong>The picture above is OF WRESTLING. How many words of 4 or more letters can you make from the word WRESTLING, Either the first letter is provided, or both the first and last letters will be given.</br><strong>Wrestling -</strong>  the sport or activity to wrestle with an opponent and trying to throw or hold them down on the ground. ",
       "Image": "V2-P11",
        "Type": "LetterFill",
       "Symbols": [
@@ -1972,7 +1971,7 @@
       ]
     } ,
     {
-      "QuestionArr_03": "<strong>Instructions:</strong> The picture below is of EXPERIMENTS. How many words of 4 or more letters can you make from EXPERIMENTS? The first and last letters are already in place.</br><strong> Experiments-</strong> a tentative procedure or policy",
+      "QuestionArr_03": "<strong>Instructions:</strong> The picture above is of EXPERIMENTS. How many words of 4 or more letters can you make from EXPERIMENTS? The first and last letters are already in place.</br><strong> Experiments-</strong> a tentative procedure or policy",
       "Image": "V3-P11",
        "Type": "LetterFill",
       "Symbols": [
@@ -2036,7 +2035,7 @@
       ]
     },
     {
-      "QuestionArr_04": "<strong>Instructions:</strong> The picture below is of a MANUFACTURER. How many words of 4 or more letters can you make from MANUFACTURER? The first and last letters are already in place. </br><strong>Manufacturer - </strong>  a person or company that makes goods for sale ",
+      "QuestionArr_04": "<strong>Instructions:</strong> The picture above is of a MANUFACTURER. How many words of 4 or more letters can you make from MANUFACTURER? The first and last letters are already in place. </br><strong>Manufacturer - </strong>  a person or company that makes goods for sale ",
       "Image": "V4-P11",
        "Type": "LetterFill",
       "Symbols": [
@@ -2119,7 +2118,7 @@
   ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong>The picture below is of ENTREPRENEUR. How many words of 4 or more letters can you make from ENTREPRENEUR? The first and last letters are already in place </br><strong> Entrepreneur -</strong>  A person who sets up a business or businesses, taking on financial risks in the hope of profit",
+      "QuestionArr_05": "<strong>Instructions:</strong>The picture above is of ENTREPRENEUR. How many words of 4 or more letters can you make from ENTREPRENEUR? The first and last letters are already in place </br><strong> Entrepreneur -</strong>  A person who sets up a business or businesses, taking on financial risks in the hope of profit",
       "Image": "V5-P11",
        "Type": "LetterFill",
       "Symbols": [
@@ -2159,7 +2158,7 @@
   ],
   "Level12": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong> The picture below is of a computer. How many words of 3 or more letters can you make from <strong>C-O-M-P-U-T-E-R.</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once.",
+      "QuestionArr_01": "<strong>Instructions:</strong> The picture above is of a computer. How many words of 3 or more letters can you make from <strong>C-O-M-P-U-T-E-R.</strong> Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once.</br><strong>Computer-</strong> an electronic device for storing and processing data.",
       "Image": "V1-P12",
        "Type": "LetterFill",
       "Symbols": [
@@ -2194,7 +2193,7 @@
 
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong>  The picture below is a ECOSYSTEM. How many words of 4 or more letters can you make from the word ECOSYSTEM? <strong>Ecosystem</strong> - A biological community of interacting organisms and their physical environment. ",
+      "QuestionArr_02": "<strong>Instructions:</strong>  The picture above is a ECOSYSTEM. How many words of 4 or more letters can you make from the word ECOSYSTEM? Either the first letter is provided, or both the first and last letters will be given. <strong>Ecosystem</strong> - A biological community of interacting organisms and their physical environment. ",
       "Image": "V2-P12",
        "Type": "LetterFill",
   "Symbols": [
@@ -2239,72 +2238,8 @@
     { "id": 30, "firstSymbol": "M", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "5thBlankValue": "", "lastSymbol": "S", "CorrectValue": "MYCOSES" }
   ]
     } ,
-     {
-      "QuestionArr_03": "<strong>Instructions:</strong> The picture below is of VEGETABLES. How many words of 4 or more letters can you make from VEGETABLES? The first and last letters are already in place.<strong>Vegetables-</strong> a usually herbaceous plant (such as the cabbage, bean, or potato) grown for an edible part that is usually eaten as part of a meal",
-      "Image": "V3-P12",
-       "Type": "LetterFill",
-      "Symbols": [
-        { "id": 1, "symbol": "V", "value": "V" },
-        { "id": 2, "symbol": "E", "value": "E" },
-        { "id": 3, "symbol": "G", "value": "G" },
-        { "id": 4, "symbol": "T", "value": "T" },
-        { "id": 5, "symbol": "B", "value": "B" },
-        { "id": 6, "symbol": "L", "value": "L" },
-        { "id": 7, "symbol": "S", "value": "S" },
-        { "id": 8, "symbol": "A", "value": "A" }
-      ],
-      "Blanks": [
-        { "id": 1, "firstSymbol": "V", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "5thBlankValue": "", "6thBlankValue": "", "7thBlankValue": "", "lastSymbol": "E", "CorrectValue": "VEGETABLE" },
-        { "id": 2, "firstSymbol": "E", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "5thBlankValue": "","6thBlankValue": "", "lastSymbol": "S", "CorrectValue": "ELEVATES" },
-        { "id": 3, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "5thBlankValue": "", "lastSymbol": "S", "CorrectValue": "BEETLES" },
-        { "id": 4, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "S", "CorrectValue": "BAGELS" },
-        { "id": 5, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "E", "CorrectValue": "BEAGLE" },
-        { "id": 6, "firstSymbol": "L", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "S", "CorrectValue": "LEAVES" },
-        { "id": 7, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "5thBlankValue": "", "lastSymbol": "E", "CorrectValue": "SLEEVE" },
-        { "id": 8, "firstSymbol": "V", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "S", "CorrectValue": "VALETS" },
-        { "id": 9, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "E", "CorrectValue": "STABLE" },
-        { "id": 10, "firstSymbol": "T", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "S", "CorrectValue": "TABLES" },
-        { "id": 11, "firstSymbol": "E", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "4thBlankValue": "", "lastSymbol": "S", "CorrectValue": "EAGLES" },
-        { "id": 12, "firstSymbol": "L", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "E", "CorrectValue": "LEAVE" },
-        { "id": 13, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "E", "CorrectValue": "SLAVE" },
-        { "id": 14, "firstSymbol": "V", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "T", "CorrectValue": "VALET" },
-        { "id": 15, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "S", "CorrectValue": "BELTS" },
-        { "id": 16, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "T", "CorrectValue": "BLAST" },
-        { "id": 17, "firstSymbol": "T", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "E", "CorrectValue": "TABLE" },
-        { "id": 18, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "T", "CorrectValue": "BEAST" },
-        { "id": 19, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "S", "CorrectValue": "BEATS" },
-        { "id": 20, "firstSymbol": "E", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "lastSymbol": "E", "CorrectValue": "EAGLE" },
-        { "id": 21, "firstSymbol": "G", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "S", "CorrectValue": "GATES" },
-        { "id": 22, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "E", "CorrectValue": "STALE" },
-        { "id": 23, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "L", "CorrectValue": "STEEL" },
-        { "id": 24, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "E", "CorrectValue": "STAGE" },
-        { "id": 25, "firstSymbol": "L", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "E", "CorrectValue": "LEASE" },
-        { "id": 26, "firstSymbol": "L", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "T", "CorrectValue": "LEAST" },
-        { "id": 27, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "","3rdBlankValue": "",  "lastSymbol": "E", "CorrectValue": "SLATE" },
-        { "id": 28, "firstSymbol": "T", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "lastSymbol": "E", "CorrectValue": "TEASE" },
-        { "id": 29, "firstSymbol": "T", "1stBlankValue": "", "2ndBlankValue": "", "3rdBlankValue": "", "lastSymbol": "S", "CorrectValue": "TALES" },
-        { "id": 30, "firstSymbol": "G", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "GAVE" },
-        { "id": 31, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "S", "CorrectValue": "BAGS" },
-        { "id": 32, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "S", "CorrectValue": "BEGS" },
-        { "id": 33, "firstSymbol": "A", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "ABLE" },
-        { "id": 34, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "SAVE" },
-        { "id": 35, "firstSymbol": "V", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "VASE" },
-        { "id": 36, "firstSymbol": "V", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "T", "CorrectValue": "VAST" },
-        { "id": 37, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "BASE" },
-        { "id": 38, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "S", "CorrectValue": "BATS" },
-        { "id": 39, "firstSymbol": "B", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "T", "CorrectValue": "BEST" },
-        { "id": 40, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "SALE" },
-        { "id": 41, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "T", "CorrectValue": "SALT" },
-        { "id": 41, "firstSymbol": "T", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "S", "CorrectValue": "TAGS" },
-        { "id": 43, "firstSymbol": "G", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "E", "CorrectValue": "GATE" },
-        { "id": 44, "firstSymbol": "A", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "S", "CorrectValue": "AGES" },
-        { "id": 45, "firstSymbol": "L", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "S", "CorrectValue": "LEGS" },
-        { "id": 46, "firstSymbol": "S", "1stBlankValue": "", "2ndBlankValue": "", "lastSymbol": "B", "CorrectValue": "STAB" }
-    
-      ]
-    } ,
     {
-      "QuestionArr_04": "<strong>Instructions:</strong> The picture below is of an ANTIQUE. How many words of 4 or more letters can you make from ANTIQUE? The first and last letters are already in place<strong>Antique-</strong> Belonging to ancient times",
+      "QuestionArr_04": "<strong>Instructions:</strong> The picture above is of an ANTIQUE. How many words of 4 or more letters can you make from ANTIQUE? The first and last letters are already in place<strong>Antique-</strong> Belonging to ancient times",
       "Image": "V4-P12",
        "Type": "LetterFill",
       "Symbols": [
@@ -2336,7 +2271,7 @@
       ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong> The picture below is of an ARCHITECT. How many words of 4 or more letters can you make from ARCHITECT? The first and last letters are already in place.</br><strong>Architect-</strong> A person who is qualified to design buildings and to plan and supervise their construction.",
+      "QuestionArr_05": "<strong>Instructions:</strong> The picture above is of an ARCHITECT. How many words of 4 or more letters can you make from ARCHITECT? The first and last letters are already in place.</br><strong>Architect-</strong> A person who is qualified to design buildings and to plan and supervise their construction.",
       "Image": "V5-P12",
        "Type": "LetterFill",
       "Symbols": [
@@ -2379,7 +2314,7 @@
   ],
   "Level13": [
     {
-      "QuestionArr_01": "<strong>Instructions:</strong> The picture below is of grandparents. How many words of 3 or more letters can you make from <strong>P-A-R-E-N-T-S</strong>. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once",
+      "QuestionArr_01": "<strong>Instructions:</strong> The picture above is of grandparents. How many words of 3 or more letters can you make from <strong>P-A-R-E-N-T-S</strong>. Either the first letter is provided, or both the first and last letters will be given. You can only use each letter once </br><strong>Grandparents-</strong>the parents of a person's mother or father.",
       "Image": "V1-P13",
        "Type": "LetterFill",
       "Symbols": [
@@ -2410,7 +2345,7 @@
       ]
     },
      {
-      "QuestionArr_02": "<strong>Instructions:</strong> The picture below is a PEDESTRIAN. How many words of 4 or more letters can you make from PEDESTRIAN?</br> <strong>Pedestrian</strong> - a person travelling on foot, whether walking or running.",
+      "QuestionArr_02": "<strong>Instructions:</strong> The picture above is a PEDESTRIAN. How many words of 4 or more letters can you make from PEDESTRIAN? Either the first letter is provided, or both the first and last letters will be given.</br> <strong>Pedestrian</strong> - a person travelling on foot, whether walking or running.",
       "Image": "V2-P13",
        "Type": "LetterFill",
   "Symbols": [
@@ -2473,7 +2408,7 @@
   ]
     } ,
      {
-      "QuestionArr_03": "<strong>Instructions:</strong> The picture below is of a TOURNAMENT. How many words of 4 or more letters can you make from TOURNAMENT? The first and last letters are already in place.<strong>Tournament-</strong> a series of games or contests that make up a single unit of competition (as on a professional golf tour), the championship playoffs of a league or conference, or an invitational event.",
+      "QuestionArr_03": "<strong>Instructions:</strong> The picture above is of a TOURNAMENT. How many words of 4 or more letters can you make from TOURNAMENT? The first and last letters are already in place.<strong>Tournament-</strong> a series of games or contests that make up a single unit of competition (as on a professional golf tour), the championship playoffs of a league or conference, or an invitational event.",
       "Image": "V3-P13",
        "Type": "LetterFill",
   "Symbols": [
@@ -2530,7 +2465,7 @@
   ]
     } ,
     {
-      "QuestionArr_04": "<strong>Instructions:</strong> The picture below is of POACHING. How many words of 4 or more letters can you make from POACHING? The first and last letters are already in place.<br/><strong>Poaching-</strong> To catch or kill an animal without permission",
+      "QuestionArr_04": "<strong>Instructions:</strong> The picture above is of POACHING. How many words of 4 or more letters can you make from POACHING? The first and last letters are already in place.<br/><strong>Poaching-</strong> To catch or kill an animal without permission",
       "Image": "V4-P13",
        "Type": "LetterFill",
   "Symbols": [
@@ -2572,7 +2507,7 @@
   ]
     } ,
     {
-      "QuestionArr_05": "<strong>Instructions:</strong> The picture below is of an EXCAVATION. How many words of 4 or more letters can you make from EXCAVATION? The first and last letters are already in place.</br><strong>Excavation-</strong> The act of removing earth that is covering very old objects buried in the ground in order to discover things about the past.",
+      "QuestionArr_05": "<strong>Instructions:</strong> The picture above is of an EXCAVATION. How many words of 4 or more letters can you make from EXCAVATION? The first and last letters are already in place.</br><strong>Excavation-</strong> The act of removing earth that is covering very old objects buried in the ground in order to discover things about the past.",
       "Image": "V5-P13",
        "Type": "LetterFill",
   "Symbols": [

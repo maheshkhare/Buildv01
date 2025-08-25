@@ -325,6 +325,12 @@ export function FinalResultHelper(context) {
     // Download JSON
     const filename = `Lesson_${context.exercise}_Result.json`;
     const jsonStr = JSON.stringify(resultData, null, 2);
+    
+        // ✅ Clear old attemptedQuestionData before saving new one
+    localStorage.removeItem('attemptedQuestionData')
+
+    // ✅ Save attemptedQuestionNumbers to localStorage
+    localStorage.setItem('attemptedQuestionData', JSON.stringify(resultData, null, 2));
     const blob = new Blob([jsonStr], {
         type: "application/json"
     });
