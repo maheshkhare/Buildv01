@@ -184,6 +184,10 @@
                 💾 Save and Exit
               </button>
             </div> -->
+
+
+            <SaveExitButton @save-and-exit="handleSaveAndExit" />
+
           </div>
         </div>
       </div>
@@ -195,10 +199,11 @@
 import 'CSS/tailwind.css'
 import SVGShape from 'Components/SVGShape'
 import SVGImageButton from 'Components/SVGImageButton'
+import SaveExitButton from '../../../common-generic-templates/SaveExitButton.vue';
 
 export default {
   name: 'SectionSem3Top',
-  components: { SVGImageButton, SVGShape },
+  components: { SVGImageButton, SVGShape , SaveExitButton },
   props: {
     counter: Number,
     viewingPrevious: Boolean,
@@ -272,6 +277,12 @@ export default {
     }
   },
   methods: {
+
+ handleSaveAndExit() {
+            console.log("Save and exit clicked");
+            this.$emit('save-and-exit');
+        },
+
     WordsAnswer(answer, index) {
       this.$emit('WordsAnswer', answer, index)
     },
@@ -284,6 +295,8 @@ export default {
     emitPreviousQuestion() {
       this.$emit('PreviousQuestion')
     },
+    
+
     
     getImgUrl(name) {
       try {

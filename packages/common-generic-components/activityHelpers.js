@@ -1746,75 +1746,99 @@ export function  showResultshelper1(context) {
     // }
 
 export function WordsAnswerhelper3(context, Answer, index) {
-  const questionId = context.counter + 1
-  if (context.viewingPrevious) {
-    alert("You have already answered this question. This cannot be changed now.")
-    return
+  if (!context || typeof context !== 'object') {
+    console.error('Invalid context in WordsAnswerhelper3:', context);
+    return;
   }
-  
-  const currentQuestionObj = context.items[context.counter]
-  
-  // SAFETY CHECK
-  if (!currentQuestionObj || typeof currentQuestionObj !== 'object') {
-    console.error('Invalid question object in WordsAnswerhelper3')
-    return
-  }
-  
-  let answerKey
-  try {
-    answerKey = Object.keys(currentQuestionObj).find(k => k.startsWith('AnswerArr_'))
-  } catch (e) {
-    console.error('Error finding answer key:', e)
-    return
-  }
-  
-  let correctAnswerArr = answerKey ? currentQuestionObj[answerKey] : []
-  if (!Array.isArray(correctAnswerArr)) correctAnswerArr = []
 
-  // Rest of your existing logic...
-  const timeTaken = (Date.now() - context.questionStartTime) / 1000
-  const existingIndex = context.practiceList.findIndex(q => q.id === questionId)
-  
+  if (typeof index !== 'number' || isNaN(index) || index < 0) {
+    console.error('Invalid index in WordsAnswerhelper3:', index);
+    return;
+  }
+
+  const questionId = context.counter + 1;
+
+  if (context.viewingPrevious) {
+    alert("You have already answered this question. This cannot be changed now.");
+    return;
+  }
+
+  const currentQuestionObj = context.items?.[context.counter];
+  if (!currentQuestionObj || typeof currentQuestionObj !== 'object') {
+    console.error('Invalid question object in WordsAnswerhelper3:', currentQuestionObj);
+    return;
+  }
+
+  let answerKey;
+  try {
+    answerKey = Object.keys(currentQuestionObj).find(k => k.startsWith('AnswerArr_'));
+  } catch (e) {
+    console.error('Error finding answer key:', e);
+    return;
+  }
+
+  let correctAnswerArr = Array.isArray(currentQuestionObj[answerKey])
+    ? currentQuestionObj[answerKey]
+    : [];
+
+  const timeTaken = (Date.now() - (context.questionStartTime || Date.now())) / 1000;
+
+  const existingIndex = context.practiceList.findIndex(q => q.id === questionId);
   if (existingIndex !== -1) {
-    const old = context.practiceList[existingIndex]
-    const wasCorrect = old.fullCorrectAnswer[old.userAnswer - 1] === 'Yes'
-    if (wasCorrect) context.correct_Answers--
-    else context.incorrect_Answers--
-    context.practiceList.splice(existingIndex, 1)
+    const old = context.practiceList[existingIndex];
+    const wasCorrect = old.fullCorrectAnswer?.[old.userAnswer - 1] === 'Yes';
+    if (wasCorrect) {
+      context.correct_Answers = Math.max(0, context.correct_Answers - 1);
+    } else {
+      context.incorrect_Answers = Math.max(0, context.incorrect_Answers - 1);
+    }
+    context.practiceList.splice(existingIndex, 1);
   } else {
-    context.Questions_attempted++
+    context.Questions_attempted++;
   }
 
   context.practiceList.push({
     id: questionId,
-    originalQuestionNo: currentQuestionObj.__index,
-    level: currentQuestionObj.__level,
+    originalQuestionNo: currentQuestionObj.__index ?? '',
+    level: currentQuestionObj.__level ?? '',
     userAnswer: (index + 1).toString(),
     fullCorrectAnswer: correctAnswerArr,
-    timeTaken,
-  })
+    timeTaken
+  });
 
-  const isCorrect = correctAnswerArr[index] === 'Yes'
+  const isCorrect = correctAnswerArr[index] === 'Yes';
 
   if (isCorrect) {
-    context.correct_Answers++
-    context.ContinuesWrong = 0
-    context.ProgressBar[context.counter].state = 'correct'
+    context.correct_Answers++;
+    context.ContinuesWrong = 0;
+    if (context.ProgressBar?.[context.counter]) {
+      context.ProgressBar[context.counter].state = 'correct';
+    }
   } else {
-    context.incorrect_Answers++
-    context.ContinuesWrong++
-    context.ProgressBar[context.counter].state = 'incorrect'
+    context.incorrect_Answers++;
+    context.ContinuesWrong++;
+    if (context.ProgressBar?.[context.counter]) {
+      context.ProgressBar[context.counter].state = 'incorrect';
+    }
   }
-  
-  context.commonNumArray.forEach((opt, i) => {
-    opt.state = i === index ? (isCorrect ? 'correct' : 'incorrect') : 'base'
-  })
-  context.countcorrect = 1
 
-  if (context.counter + 1 > context.TestProgressBar) {
-    context.TestProgressBar = context.counter + 1
+  if (Array.isArray(context.commonNumArray)) {
+    context.commonNumArray.forEach((opt, i) => {
+      if (opt && typeof opt === 'object') {
+        opt.state = i === index ? (isCorrect ? 'correct' : 'incorrect') : 'base';
+      }
+    });
+  }
+
+  context.countcorrect = 1;
+
+  if (context.counter + 1 > (context.TestProgressBar || 0)) {
+    context.TestProgressBar = context.counter + 1;
   }
 }
+
+
+
 
 
 
@@ -1924,6 +1948,7 @@ export function WordsAnswerhelper3(context, Answer, index) {
             questionsAttempted: context.Questions_attempted,
             correctAnswers: context.correct_Answers,
             incorrectAnswers: context.incorrect_Answers,
+            attemptedQuestionNumbers:detailedResults.map(r => r.questionNo),
             testDate: new Date().toISOString(),
           },
           detailedResults,
@@ -1933,11 +1958,130 @@ export function WordsAnswerhelper3(context, Answer, index) {
       }
     }
 
+///////////////✅ SaveAndExitNowhelper/////////////////////
+export function SaveAndExitNowhelper3(context) {
 
+  if (context.jsonFileName === 'CSR-I') {
+        if (!context.lastGridAnswer) {
+          context.$toast?.warning('Please select your answer first.');
+          return;
+        }
+        const questionId = context.counter + 1;
+        const currentQuestionObj = context.currentQuestion;
+
+        const answerKey = Object.keys(currentQuestionObj).find(k => k.startsWith('AnswerArr_'));
+        let correctAnswerArr = answerKey ? currentQuestionObj[answerKey] : [];
+        if (!Array.isArray(correctAnswerArr)) correctAnswerArr = [];
+
+        const userWord = context.lastGridAnswer.word;
+        const userResponse = context.lastGridAnswer.response;
+
+        let isOppositeValid = currentQuestionObj.IsOppositeValid;
+        let isCorrect = (
+          (isOppositeValid && userResponse === 'yes') ||
+          (!isOppositeValid && userResponse === 'no')
+        );
+
+        context.practiceList.push({
+          id: questionId,
+          originalQuestionNo: currentQuestionObj.__index,
+          level: currentQuestionObj.__level,
+          userAnswer: userWord,
+          userClicked: userResponse,
+          fullCorrectAnswer: correctAnswerArr,
+          timeTaken: (Date.now() - context.questionStartTime) / 1000,
+        });
+
+        if (isCorrect) {
+          context.correct_Answers++;
+          context.ContinuesWrong = 0;
+          context.ProgressBar[context.counter].state = 'correct';
+        } else {
+          context.incorrect_Answers++;
+          context.ContinuesWrong++;
+          context.ProgressBar[context.counter].state = 'incorrect';
+        }
+        context.Questions_attempted++;
+        context.countcorrect = 1;
+        context.lockedForNext = true;
+        context.lastGridAnswer = null;
+
+        if (context.counter < context.Total_Questions - 1) {
+          context.counter++;
+          context.practice0();
+        } else {
+          context.activity_Status = 'Completed';
+          context.Time_elapsed = context.secondsToTime(context.timestart);
+          context.resultShow = true;
+          context.PracticeOne = false;
+          context.ResultHide = true;
+        }
+
+        return;
+      }
+
+      const questionId = context.counter + 1;
+      const hasAnswered = context.practiceList.some(q => q.id === questionId);
+
+      if (!hasAnswered) {
+        context.$toast?.warning('Please answer the question before moving on.');
+        return;
+      }
+
+        context.activity_Status = 'Partially Completed';
+        context.Time_elapsed = context.secondsToTime(context.timestart);
+        context.resultShow = true;
+        context.PracticeOne = false;
+        context.ResultHide = true;
+
+        const detailedResults = context.practiceList.map((entry, idx) => {
+          const levelKey = entry.level;
+          const origIdx = entry.originalQuestionNo;
+          const sourceQ = context.activityQuestions[levelKey]?.[origIdx] || {};
+          const ansKey = Object.keys(sourceQ).find(k => k.startsWith('AnswerArr_'));
+          const correctArr = Array.isArray(sourceQ[ansKey]) ? sourceQ[ansKey] : [];
+
+          return {
+            questionNo: idx + 1,
+            originalQuestionNo: origIdx,
+            level: levelKey,
+            userResponse: entry.userAnswer,
+            fullCorrectAnswer: correctArr,
+            timeTaken: entry.timeTaken,
+          };
+        });
+
+        context.resultData = {
+          summary: {
+            ActivityName: 'Sem3',
+            activityStatus: context.activity_Status,
+            totalTimeElapsed: context.timestart,
+            questionsAttempted: context.Questions_attempted,
+            correctAnswers: context.correct_Answers,
+            incorrectAnswers: context.incorrect_Answers,
+            attemptedQuestionNumbers:detailedResults.map(r => r.questionNo),
+            testDate: new Date().toISOString(),
+          },
+          detailedResults,
+        };
+
+        context.JsonArrData = JSON.stringify(context.resultData, null, 2);
+}
+
+
+
+    
+///////////////
        export function FinalResulthelper3(context) {
       const now = new Date()
       const testDate = now.toISOString()
       const fullResult = context.resultData || {}
+
+      // ✅ Clear old attemptedQuestionData before saving new one
+    localStorage.removeItem('attemptedQuestionData')
+
+    // ✅ Save attemptedQuestionNumbers to localStorage
+    localStorage.setItem('attemptedQuestionData', JSON.stringify(fullResult, null, 2));
 
       const blob = new Blob([JSON.stringify(fullResult, null, 2)], {
         type: 'application/json',
@@ -2008,32 +2152,104 @@ export function WordsAnswerhelper3(context, Answer, index) {
       context.PlayBtnshow = false
       if (!context.InstructionShow) context.practice0()
     }
- export function goToPreviousQuestionhelper3(context) {
-      if (context.counter <= 0) return
-      context.counter--
-      context.countcorrect = 1
-      context.viewingPrevious = true
-      context.practice0()
-      context.highlightPreviousAnswer()
-    }
+//  export function goToPreviousQuestionhelper3(context) {
+//       if (context.counter <= 0) return
+//       context.counter--
+//       context.countcorrect = 1
+//       context.viewingPrevious = true
+//       context.practice0()
+//       context.highlightPreviousAnswer()
+//     }
 
-       export function highlightPreviousAnswerhelper( context) {
-      const questionId = context.counter + 1
-      const previousAnswer = context.practiceList.find((q) => q.id === questionId)
+export function goToPreviousQuestionhelper3(context) {
+  if (!context || typeof context !== 'object') {
+    console.error('Invalid context in goToPreviousQuestionhelper3:', context);
+    return;
+  }
 
-      if (previousAnswer) {
-        const userAnswerIndex = parseInt(previousAnswer.userAnswer) - 1
-        const isCorrect = previousAnswer.fullCorrectAnswer[userAnswerIndex] === 'Yes'
+  if (context.counter <= 0) return;
 
-        context.commonNumArray.forEach((opt, i) => {
-          if (i === userAnswerIndex) {
-            opt.state = isCorrect ? 'correct' : 'incorrect'
-          } else {
-            opt.state = 'base'
-          }
-        })
-      }
-    }
+  context.counter--;
+  context.countcorrect = 1;
+  context.viewingPrevious = true;
+
+  if (typeof context.practice0 === 'function') {
+    context.practice0();
+  } else {
+    console.warn('practice0 function missing in context');
+  }
+
+  if (typeof context.highlightPreviousAnswer === 'function') {
+    context.highlightPreviousAnswer();
+  } else {
+    console.warn('highlightPreviousAnswer function missing in context');
+  }
+}
+
+    //    export function highlightPreviousAnswerhelper( context) {
+    //   const questionId = context.counter + 1
+    //   const previousAnswer = context.practiceList.find((q) => q.id === questionId)
+
+    //   if (previousAnswer) {
+    //     const userAnswerIndex = parseInt(previousAnswer.userAnswer) - 1
+    //     const isCorrect = previousAnswer.fullCorrectAnswer[userAnswerIndex] === 'Yes'
+
+    //     context.commonNumArray.forEach((opt, i) => {
+    //       if (i === userAnswerIndex) {
+    //         opt.state = isCorrect ? 'correct' : 'incorrect'
+    //       } else {
+    //         opt.state = 'base'
+    //       }
+    //     })
+    //   }
+    // }
+
+
+    export function highlightPreviousAnswerhelper(context) {
+  if (!context || typeof context !== 'object') {
+    console.error('Invalid context in highlightPreviousAnswerhelper:', context);
+    return;
+  }
+
+  const questionId = context.counter + 1;
+  const previousAnswer = context.practiceList?.find(q => q.id === questionId);
+
+  if (!previousAnswer) {
+    console.warn('No previous answer found for question:', questionId);
+    return;
+  }
+
+  const userAnswerIndex = parseInt(previousAnswer.userAnswer, 10) - 1;
+
+  if (isNaN(userAnswerIndex) || userAnswerIndex < 0) {
+    console.error('Invalid userAnswerIndex in highlightPreviousAnswerhelper:', userAnswerIndex);
+    return;
+  }
+
+  if (!Array.isArray(previousAnswer.fullCorrectAnswer) || !previousAnswer.fullCorrectAnswer[userAnswerIndex]) {
+    console.error('Invalid fullCorrectAnswer array in previousAnswer:', previousAnswer);
+    return;
+  }
+
+  const isCorrect = previousAnswer.fullCorrectAnswer[userAnswerIndex] === 'Yes';
+
+  if (!Array.isArray(context.commonNumArray)) {
+    console.error('commonNumArray missing or not an array:', context.commonNumArray);
+    return;
+  }
+
+  // Reset all options to base
+  context.commonNumArray.forEach(opt => {
+    if (opt && typeof opt === 'object') opt.state = 'base';
+  });
+
+  // Highlight the previous answer
+  if (context.commonNumArray[userAnswerIndex]) {
+    context.commonNumArray[userAnswerIndex].state = isCorrect ? 'correct' : 'incorrect';
+  } else {
+    console.warn('Index out of bounds in commonNumArray:', userAnswerIndex);
+  }
+}
 //debug3 
 export function practice0helper3(context) {
   // Add comprehensive safety checks

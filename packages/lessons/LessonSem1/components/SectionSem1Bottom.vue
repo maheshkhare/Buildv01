@@ -69,6 +69,7 @@
 
 
 
+            <SaveExitButton @save-and-exit="handleSaveAndExit" />
 
 
 
@@ -96,10 +97,12 @@
 <script>
 import 'CSS/tailwind.css'
 import SVGImageButton from 'Components/SVGImageButton'
+import SaveExitButton from '../../../common-generic-templates/SaveExitButton.vue';
+
 
 export default {
   name: 'SectionSem1Bottom',
-  components: { SVGImageButton },
+  components: { SVGImageButton, SaveExitButton },
   
   props: {
     acceptInput: {
@@ -182,6 +185,12 @@ export default {
   },
   
   methods: {
+
+ handleSaveAndExit() {
+            console.log("Save and exit clicked");
+            this.$emit('save-and-exit');
+        },
+
     initializeDynamicRowCounts() {
       // Initialize with minimum rows for each column
       this.dynamicRowCounts = this.columns.map((column, index) => {

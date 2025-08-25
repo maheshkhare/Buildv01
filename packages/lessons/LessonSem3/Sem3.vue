@@ -48,7 +48,7 @@
               :paraData="currentPara"  class="w-full"/>
             </div>
             <div class="mt-4 sm:mt-6"></div>
-            <SectionSem3Top v-show="PracticeOne && jsonFileName !== 'CSR-I'" :accept-input="acceptInput" :commonNumArray="commonNumArray" :ImageNames="ImageNames" :ImageNames1="ImageNames1" :ImageNames2="ImageNames2" :ImageNames3="ImageNames3" :ImageNames4="ImageNames4" :isCMS2="jsonFileName === 'CMS-II'" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @NextQuestion="NextQuestion" @WordsAnswer="WordsAnswer" :PrevQuestion="PrevQuestion" @PreviousQuestion="goToPreviousQuestion" :counter="counter" :viewingPrevious="viewingPrevious" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :imageHeight="getResponsiveImageHeight()" :imageWidth="getResponsiveImageWidth()" class="w-full" />
+            <SectionSem3Top v-show="PracticeOne && jsonFileName !== 'CSR-I'" :accept-input="acceptInput"  @save-and-exit="SaveAndExitNow"      :commonNumArray="commonNumArray" :ImageNames="ImageNames" :ImageNames1="ImageNames1" :ImageNames2="ImageNames2" :ImageNames3="ImageNames3" :ImageNames4="ImageNames4" :isCMS2="jsonFileName === 'CMS-II'" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @NextQuestion="NextQuestion" @WordsAnswer="WordsAnswer" :PrevQuestion="PrevQuestion" @PreviousQuestion="goToPreviousQuestion" :counter="counter" :viewingPrevious="viewingPrevious" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :imageHeight="getResponsiveImageHeight()" :imageWidth="getResponsiveImageWidth()" class="w-full" />
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ import resultPopup from '../resultPopup.vue'
 import topHeader from '../topHeader.vue'
 import SectionStory from './components/SectionStory.vue'
 import WordGridActivity from 'Lessons/LessonSem3/components/WordGridActivity.vue'
-import{ updateScreenSizehelper,getResponsiveImageHeighthelper3,getResponsiveImageWidthhelper3 ,parseLevelRangeHelper, getQuestionWordhelper3,getGridLettershelper3 ,getAnswerWordhelper ,handleWordGridAnsweredhelper, WordsAnswerhelper3, AnswerCheckhelper3, FinalResulthelper3, PracticeNexthelper3, getVisualArrowhelper, getArrowStylehelper, getVisualRectanglehelper, getRectangleStylehelper, secondsToTimehelper, TimerFunhelper3, goToPreviousQuestionhelper3, runhelper3,  highlightPreviousAnswerhelper, practice0helper3
+import{ updateScreenSizehelper,getResponsiveImageHeighthelper3,getResponsiveImageWidthhelper3 ,parseLevelRangeHelper, getQuestionWordhelper3,getGridLettershelper3 ,getAnswerWordhelper ,handleWordGridAnsweredhelper, WordsAnswerhelper3, AnswerCheckhelper3, FinalResulthelper3, PracticeNexthelper3, getVisualArrowhelper, getArrowStylehelper, getVisualRectanglehelper, getRectangleStylehelper, secondsToTimehelper, TimerFunhelper3, goToPreviousQuestionhelper3, runhelper3,  highlightPreviousAnswerhelper, practice0helper3, SaveAndExitNowhelper3
 } from '../../common-generic-components/activityHelpers.js';
 import ResultPopup from '../resultPopup.vue'
 
@@ -141,6 +141,67 @@ export default {
     const fileName = sessionStorage.getItem('jsonFile') || 'lesson1'
     const jsonFileName = `Lesson${fileName.toUpperCase()}.json`
     const totalQsRaw = parseInt(sessionStorage.getItem('questionCount')) || 15
+
+        const storedResultRaw = localStorage.getItem('attemptedQuestionData');
+        let attemptedQuestionNumbers = [];
+        let attemptedDetails = [];
+
+        const attemptedData = JSON.parse(storedResultRaw || '{}'); // default to object
+
+        if (
+            attemptedData &&
+            Array.isArray(attemptedData.detailedResults) &&
+            attemptedData.detailedResults.length > 0
+        ) {
+
+            // ✅ Update summary counts from attemptedData
+            this.timestart = attemptedData.summary.totalTimeElapsed || 0;
+            this.Questions_attempted = attemptedData.summary.questionsAttempted || 0;
+            this.correct_Answers = attemptedData.summary.correctAnswers || 0;
+            this.incorrect_Answers = attemptedData.summary.incorrectAnswers || 0;
+
+            attemptedData.detailedResults.forEach(q => {
+                this.practiceList.push({
+                    id: q.questionNo,
+                    correctAnswers: q.fullCorrectAnswer ? JSON.parse(JSON.stringify(q.fullCorrectAnswer)) : [],
+                    isCorrect: q.isCorrect || false,
+                    originalQuestionNo: q.originalQuestionNo ?? null,
+                    level: q.level ?? null,
+                    timeTaken: q.timeTaken ?? 0
+                });
+            });
+
+            console.log("Practive List" + JSON.stringify(this.practiceList, null, 2));
+            // console.log(`✅ Loaded ${this.practiceList} attempted questions into practiceList at start`);
+
+            this.detailedResults = this.practiceList.map((entry, idx) => {
+                return {
+                    questionNo: entry.id || 0,
+                    originalQuestionNo: entry.originalQuestionNo,
+                    level: entry.level,
+                    fullCorrectAnswer: entry.correctAnswers || [],
+                    isCorrect: entry.isCorrect,
+                    timeTaken: entry.timeTaken
+                };
+            });
+
+            console.log("Detailed Results: " + JSON.stringify(this.detailedResults, null, 2));
+        }
+
+         if (storedResultRaw) {
+            try {
+                const parsed = JSON.parse(storedResultRaw);
+                attemptedQuestionNumbers = parsed.summary?.attemptedQuestionNumbers || [];
+                attemptedDetails = parsed.detailedResults || [];
+                 console.log("Attempted Question Numbers:" + JSON.stringify(attemptedQuestionNumbers, null, 2));
+                // console.log("🟢 Attempted Question Numbers:", attemptedQuestionNumbers);
+            } catch (e) {
+                console.warn("⚠️ Failed to parse attemptedQuestionData:", e);
+            }
+        }
+        
+
+
     if (!jsonFileName) {
       alert('Invalid file name.')
       return
@@ -161,6 +222,69 @@ export default {
       alert('Invalid level: Exe_Number cannot be 0 or out of allowed range.')
       return
     }
+
+     // ✅ Reorder JSON: Move attempted questions to start (with updated values)
+        for (const level of this.selectedLevels) {
+            const key = `Level${level}`;
+            if (Array.isArray(this.activityQuestions[key])) {
+                let levelQuestions = this.activityQuestions[key];
+
+                
+
+                // Step 1: Get attempted questions for this level (with restored answers)
+                const attemptedForLevel = attemptedDetails
+                    .filter(dr => attemptedQuestionNumbers.includes(dr.questionNo) && dr.level === key)
+                    .map(dr => {
+                        const questionIndex = parseInt(dr.questionNo, 10) - 1;
+                        const originalQ = levelQuestions[questionIndex];
+                        
+        console.log("originalQ" + JSON.stringify(originalQ, null, 2));
+                        if (originalQ) {
+                            // ✅ Handle both "Blanks" (Level 1) and "rectangles" (Level 5)
+                            if (Array.isArray(originalQ.Blanks)) {
+                                originalQ.Blanks = originalQ.Blanks.map(blank => {
+                                const storedBlank = dr.blanksAnswer?.find(b => b.id === blank.id);
+                                return storedBlank ? { ...blank, value: storedBlank.value } : blank;
+                                });
+                            }
+
+                            if (Array.isArray(originalQ.rectangles)) {
+                                originalQ.rectangles = originalQ.rectangles.map(rect => {
+                                const storedRect = dr.rectanglesAnswer?.find(r => r.symbol === rect.symbol);
+                                return storedRect ? { ...rect, chosenOption: storedRect.chosenOption } : rect;
+                                });
+                            }
+
+                            return originalQ;
+                        }
+                        return null;
+                    })
+                    .filter(Boolean);
+
+               
+        console.log("attemptedData" + JSON.stringify(attemptedForLevel, null, 2));
+                    
+                // Step 2: Get remaining (non-attempted) questions
+                let remainingQuestions = levelQuestions.filter((_, idx) =>
+                    !attemptedQuestionNumbers.includes(String(idx + 1).padStart(2, '0'))
+                );
+
+                console.log("remainingQuestions" + JSON.stringify(remainingQuestions, null, 2));
+
+                // Step 3: Shuffle only remaining questions
+                for (let i = remainingQuestions.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [remainingQuestions[i], remainingQuestions[j]] = [remainingQuestions[j], remainingQuestions[i]];
+                }
+
+                // Step 4: Merge attempted first, shuffled remaining after
+                this.activityQuestions[key] = [...attemptedForLevel, ...remainingQuestions];
+
+                console.log(`✅ Final ${key} order:`, this.activityQuestions[key]);
+            }
+        }
+
+
     this.Total_Questions = parseInt(totalQsRaw)
     this.ProgressBar = Array(this.Total_Questions)
       .fill(null)
@@ -179,7 +303,7 @@ export default {
     }
     const paraData = this.activityQuestions.Level1?.[0]?.Para || ''
     this.paraData = paraData
-    this.componentSubtitle = 'Aiming Your Eyes'
+    this.componentSubtitle = fileName
     this.run()
     this.ProgressBar = Array(this.Total_Questions)
       .fill(null)
@@ -202,8 +326,8 @@ export default {
     }
   },
     currentQuestion() {
-      if (this.counter >= this.items.length) return null
-      return this.items[this.counter]
+      // if (this.counter >= this.items.length) return null
+      return this.items[this.counter] ||{ }
     },
     showStoryButton() {
       const allowedFiles = ['CMUCMS-I', 'CMUCMS-II','DMU']
@@ -244,6 +368,10 @@ export default {
     },
   AnswerCheck() {
       return AnswerCheckhelper3(this);
+    },
+
+  SaveAndExitNow() {
+     return SaveAndExitNowhelper3(this);
     },
   FinalResult() {
      return FinalResulthelper3(this);
