@@ -229,8 +229,6 @@ export default {
             if (Array.isArray(this.activityQuestions[key])) {
                 let levelQuestions = this.activityQuestions[key];
 
-                
-
                 // Step 1: Get attempted questions for this level (with restored answers)
                 const attemptedForLevel = attemptedDetails
                     .filter(dr => attemptedQuestionNumbers.includes(dr.questionNo) && dr.level === key)
@@ -242,17 +240,10 @@ export default {
                         if (originalQ) {
                             // ✅ Handle both "Blanks" (Level 1) and "rectangles" (Level 5)
                             if (Array.isArray(originalQ.Blanks)) {
-                                originalQ.Blanks = originalQ.Blanks.map(blank => {
-                                const storedBlank = dr.blanksAnswer?.find(b => b.id === blank.id);
-                                return storedBlank ? { ...blank, value: storedBlank.value } : blank;
-                                });
-                            }
-
-                            if (Array.isArray(originalQ.rectangles)) {
-                                originalQ.rectangles = originalQ.rectangles.map(rect => {
-                                const storedRect = dr.rectanglesAnswer?.find(r => r.symbol === rect.symbol);
-                                return storedRect ? { ...rect, chosenOption: storedRect.chosenOption } : rect;
-                                });
+                                // originalQ.Blanks = originalQ.Blanks.map(blank => {
+                                // const storedBlank = dr.blanksAnswer?.find(b => b.id === blank.id);
+                                // return storedBlank ? { ...blank, value: storedBlank.value } : blank;
+                                // });
                             }
 
                             return originalQ;
@@ -278,9 +269,13 @@ export default {
                 }
 
                 // Step 4: Merge attempted first, shuffled remaining after
-                this.activityQuestions[key] = [...attemptedForLevel, ...remainingQuestions];
+                const reorderedQuestions = [...attemptedForLevel, ...remainingQuestions];
+
+                // ✅ Update the activityQuestions for this level
+                this.activityQuestions[key] = reorderedQuestions;
 
                 console.log(`✅ Final ${key} order:`, this.activityQuestions[key]);
+
             }
         }
 

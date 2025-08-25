@@ -2337,10 +2337,10 @@ export function practice0helper3(context) {
       }
 
       // SHUFFLE ALL ITEMS TOGETHER
-      const shuffledItems = allValidItems.sort(() => Math.random() - 0.5)
+      // const shuffledItems = allValidItems.sort(() => Math.random() - 0.5)
       
       // TAKE ONLY THE NUMBER REQUESTED
-      context.items = shuffledItems.slice(0, context.Total_Questions)
+      context.items = allValidItems.slice(0, context.Total_Questions)
       
       // UPDATE TOTAL_QUESTIONS TO MATCH ACTUAL AVAILABLE
       if (context.items.length < context.Total_Questions) {
