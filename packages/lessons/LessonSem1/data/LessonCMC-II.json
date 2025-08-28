@@ -2,7 +2,7 @@
     "sets":{
         "level1":[
         {
-            "levelName": "Word in categories",
+          "levelName": "Word in categories",
           "id": "Set1_0",
           "categories": [
                 {
@@ -206,7 +206,7 @@
                 "categories": [
                     {
                     "name": "1. Things that can be tied",
-                    "words": ["Hair", "Band", "Cord", "Ribbon", "Tape"]
+                    "words": ["Hair", "Band", "Cord", "Ribbon"]
                     },
                     {
                     "name": "2. Things made of wood",
@@ -1173,7 +1173,7 @@
                 },
                 {
                 "name": "Things you will find in a garden",
-                "words": ["Swing", "Merry-go-round", "Seesaw", "Benefi", "Flower pots","Fountains","Bushes"]
+                "words": ["Swing", "Merry-go-round", "Seesaw","Flower pots","Fountains","Bushes"]
                 },
                 {
                 "name": "Things that you take on a holiday",
@@ -1393,7 +1393,7 @@
                  "categories": [
                 {
                 "name": "1. Related to size",
-                "words": ["Huge", "Emorphous", "Tiny", "Minimal", "Mass", "Mammoth"]
+                "words": ["Huge", "Tiny", "Minimal", "Mass", "Mammoth"]
                 },
                 {
                 "name": "2. Things at grocery store",
@@ -1480,7 +1480,7 @@
                     },
                     {
                     "name": "Made of wood",
-                    "words": ["Chair", "Spatula", "Cardie holder", "Ruier", "Table", "Door"]
+                    "words": ["Chair", "Spatula", "Card-holder","Table", "Door"]
                     },
                     {
                     "name": "Reptiles",
@@ -1496,7 +1496,7 @@
                     },
                     {
                     "name": "Things that Make noise",
-                    "words": ["Alarm", "Rocket", "launcher", "Cun", "Belle", "Trumpet", "Fireworks","Horn"]
+                    "words": ["Alarm", "Rocket", "launcher", "Belle", "Trumpet", "Fireworks","Horn"]
                     }
                 ]
             },

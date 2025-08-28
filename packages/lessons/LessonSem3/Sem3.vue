@@ -236,18 +236,32 @@ export default {
                         const questionIndex = parseInt(dr.questionNo, 10) - 1;
                         const originalQ = levelQuestions[questionIndex];
                         
-        console.log("originalQ" + JSON.stringify(originalQ, null, 2));
-                        if (originalQ) {
-                            // ✅ Handle both "Blanks" (Level 1) and "rectangles" (Level 5)
-                            if (Array.isArray(originalQ.Blanks)) {
-                                // originalQ.Blanks = originalQ.Blanks.map(blank => {
-                                // const storedBlank = dr.blanksAnswer?.find(b => b.id === blank.id);
-                                // return storedBlank ? { ...blank, value: storedBlank.value } : blank;
-                                // });
+                       if (originalQ) {
+                              console.log("originalQ:", JSON.stringify(originalQ, null, 2));
+
+                              const selectedIndex = dr.userResponse ? Number(dr.userResponse) - 1 : -1;
+
+                              // 🔹 Dynamically detect option key for this question
+                              const optionKey = `OptionArr_${String(originalQ.index).padStart(2, "0")}`;
+                              const options = originalQ[optionKey] || [];
+
+                              if (Array.isArray(options)) {
+                                // Replace each string option with an object { label, state }
+                                originalQ[optionKey] = options.map((opt, i) => ({
+                                  label: opt,
+                                  state: i === selectedIndex ? "selected" : "unselected"
+                                }));
+                              }
+
+                              console.log("originalQ after:", JSON.stringify(originalQ, null, 2));
+
+                              return {
+                                ...originalQ,
+                                selectedIndex
+                              };
                             }
 
-                            return originalQ;
-                        }
+
                         return null;
                     })
                     .filter(Boolean);
@@ -259,8 +273,6 @@ export default {
                 let remainingQuestions = levelQuestions.filter((_, idx) =>
                     !attemptedQuestionNumbers.includes(String(idx + 1).padStart(2, '0'))
                 );
-
-                console.log("remainingQuestions" + JSON.stringify(remainingQuestions, null, 2));
 
                 // Step 3: Shuffle only remaining questions
                 for (let i = remainingQuestions.length - 1; i > 0; i--) {
@@ -274,7 +286,9 @@ export default {
                 // ✅ Update the activityQuestions for this level
                 this.activityQuestions[key] = reorderedQuestions;
 
-                console.log(`✅ Final ${key} order:`, this.activityQuestions[key]);
+                // console.log(`✅ Final ${key} order:`, this.activityQuestions[key]);
+                
+                console.log(`✅ Final ${key} order:` + JSON.stringify( this.activityQuestions[key], null, 2));
 
             }
         }

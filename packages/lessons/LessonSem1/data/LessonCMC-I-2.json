@@ -2,7 +2,8 @@
   "sets": {
     "level2": [
         {
-          "levelName": "Word in categories",
+    "levelName": "Word in categories",
+
           "id": "Set1_0",
           "Story":"",
           "Image":"",
@@ -131,7 +132,7 @@
            "categories": [
         {
           "name": "WHEN",
-          "words": ["Later","Soon", "Always", "N0w", "Often", "Sometimes"]
+          "words": ["Later","Soon", "Always", "Now", "Often", "Sometimes"]
         },
         {
           "name": "PLACES",

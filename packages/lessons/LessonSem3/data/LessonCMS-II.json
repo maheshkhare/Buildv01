@@ -347,7 +347,7 @@
     },
     {
       "index": 30,
-      "QuestionArr_30": "Go to the upper left-hand corner; get the word that begins with 'K'",
+      "QuestionArr_30": "Go to the upper left-hand corner; find the word that begins with ‘K’",
       "OptionArr_30": ["BIT", "TIP", "NIP", "KIT"],
       "AnswerArr_30": ["", "", "", "Yes"],
      "ImageName": "L1-13",
@@ -610,7 +610,7 @@
 
     {
       "index": 12,
-      "QuestionArr_12": "Go to the upper left-hand corner; get the middle word in the first row Take that word to the lower right-hand corner and put it into the first figure in the top row in which figure it fitted correctly",
+      "QuestionArr_12": "Go to the upper left-hand corner; take the middle word in the 1st row, then go to the lower right-hand corner and place that word into the 1st figure in the top row where it fits correctly; which word was it?",
       "OptionArr_12": ["ALL", "BALL", "SIT", "HIT"],
       "AnswerArr_12": ["", "Yes", "", ""],
       "ImageName": "L2-13",
@@ -668,7 +668,7 @@
     },
     {
       "index": 17,
-      "QuestionArr_17": "Go to the upper left-hand corner; get the first word in the first row What letter does it begin with? Now go to the upper left-hand corner; in which row do you find that letter? ____",
+      "QuestionArr_17": "Go to the upper left-hand corner; get the first word in the first row What letter does it begin with? Now go to the upper right-hand corner; in which row do you find that letter? ____",
       "OptionArr_17":["1st", "3rd", "2nd", "4th"],
       "AnswerArr_17": ["Yes", "", "", ""],
     "ImageName": "L2-17",
@@ -752,7 +752,7 @@
 
     {
       "index": 4,
-      "QuestionArr_04": "Go to the lower left-hand corner; get the second number in the third row  Take that number to the lower right-hand corner and find a second figure that has that many sides   In which row is that figure? ____",
+      "QuestionArr_04": "Go to the lower left-hand corner; take the second number in the third row, use its second digit as the number of sides, then go to the lower right-hand corner and find the second figure with that many sides; in which row is that figure?",
       "OptionArr_04": ["1st", "3rd", "2nd", "4th"],
       "AnswerArr_04": ["Yes", "", "", ""],
       "ImageName": "L3-5",
@@ -907,7 +907,7 @@
     {
       "index": 17,
       "QuestionArr_17": "Go to the upper right-hand corner; find the 'V ' What row is it in? ____ Take that number to the lower left-hand corner  What row is that number in? ____",
-      "OptionArr_17": ["1", "2", "7", "4"],
+      "OptionArr_17": ["1", "3", "7", "4"],
       "AnswerArr_17": ["", "Yes", "", ""],
        "ImageName": "L3-17",
       "ImageName2": "L3-18",
@@ -945,7 +945,7 @@
     {
       "index": 0,
       "QuestionArr_00": "Go to the upper left; get the fourth word in the third row  What letter does it begin with? Find that letter in the upper right  Which column is it in? ____ What row is it in? ____",
-      "OptionArr_00": ["3,1", "2,3", "3,7", "2,9"],
+      "OptionArr_00": ["3,1", "2,3", "3,7", "9,2"],
       "AnswerArr_00": ["", "", "", "Yes"],
       "ImageName": "L4-1",
       "ImageName2": "L4-2",
@@ -966,7 +966,7 @@
     },
     {
       "index": 2,
-      "QuestionArr_02": "Go to the lower left; get the second number in the last row  Use the first numeral  Find that row in the upper left  Use the second numeral to count over in that row  What word do you find? _________?",
+      "QuestionArr_02": "Go to the lower left. Get the second number in the last row. Use the first numeral. Find that row in the upper left. Use the second numeral to count over in that row. What word do you find? _________",
       "OptionArr_02": ["MOB", "SAT", "COB", "SOB"],
       "AnswerArr_02": ["", "", "Yes", ""],
       "ImageName": "L4-1",
@@ -1002,7 +1002,7 @@
     },
     {
       "index": 5,
-      "QuestionArr_05": "Go to the lower left; get the last number in the row  What numeral does it end with? Take that number to the lower right  Find a figure with that many sides What row is it in? ____ What column is it in? ____?",
+      "QuestionArr_05": "Go to the lower left; get the last number in the first row. What numeral does it end with? Take that number to the lower right. Find a figure with that many sides.What row is it in? ____ What column is it in? ____?",
       "OptionArr_05": ["2,3", "3,1", "3,2", "1,3"],
       "AnswerArr_05": ["", "", "Yes", ""],
        "ImageName": "L4-5",
@@ -1049,7 +1049,7 @@
     },
     {
       "index": 9,
-      "QuestionArr_09": "Go to the lower left; get the last number in the row  What numeral does it end with? Take that number to the lower right  Find a figure with that many sides  What row is it in? ____ What column is it in? ____",
+      "QuestionArr_09": "Go to the lower left; get the last number in the  third row  What numeral does it end with? Take that number to the lower right  Find a figure with that many sides  What row is it in? ____ What column is it in? ____",
       "OptionArr_09": ["3,1", "2,3", "1,2", "2,2"],
       "AnswerArr_09": ["Yes", "", "", ""],
        "ImageName": "L4-9",
@@ -1133,7 +1133,7 @@
     {
       "index": 16,
       "QuestionArr_16": "Go to the upper left; get the second word in the third row  What letter does it begin with? Find that letter in the upper right  Which column is it in? ____ What row is it in? ____",
-      "OptionArr_16": ["2,3", "3,3", "3,2", "3,1"],
+      "OptionArr_16": ["2,3", "3,3", "3,2", "1,3"],
       "AnswerArr_16": ["", "", "", "Yes"],
       "ImageName": "L4-17",
       "ImageName2": "L4-18",
