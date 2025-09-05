@@ -25,7 +25,10 @@
             <SectionSem1 v-else :showWords="availableWords" :acceptInput="canModifyAnswers" :isShowing_info="isShowing_info" :showtop="showtop" @OnWord_Click="handleWordSelection" @OnNewGame_Click="OnNewGame_Click"  @Ontext_Click="Ontext_Click" />
           </div>
           <div>
-            <SectionSem1Bottom :show-next-button="showNextButton" :show-previous-button="currentQuestionIndex > 0" :isReviewMode="isReviewMode" :reviewTableRows="reviewTableRows" :accept-input="canModifyAnswers" :columns="columns" :column-titles="columnTitles" :column-visibility="columnVisibility" :row-counts="rowCounts" :highlight="highlightBottom" :showBottom="showBottom" :Arrow_isShowing="Arrow_isShowing || isSingleColumnMode" @OnClicked_Col="handleColumnClick" @Click_NextButton="Click_NextButton" @Click_PreviousButton="goToPreviousQuestion"/>
+            <SectionSem1Bottom :show-next-button="showNextButton"  @save-and-exit="SaveAndExitNow" :total-questions="currentExerciseSets.length"
+             
+                 :show-previous-button="currentQuestionIndex > 0" :counter="currentQuestionIndex" :isReviewMode="isReviewMode" :reviewTableRows="reviewTableRows" :accept-input="canModifyAnswers" :columns="columns" :column-titles="columnTitles" :column-visibility="columnVisibility" :row-counts="rowCounts" :highlight="highlightBottom" :showBottom="showBottom" :Arrow_isShowing="Arrow_isShowing || isSingleColumnMode" @OnClicked_Col="handleColumnClick" @Click_NextButton="Click_NextButton" @Click_PreviousButton="goToPreviousQuestion"/>
+
 
             <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed" :Questions_attempted="Questions_attempted" :correct_Answers="correct_Answers" :incorrect_Answers="incorrect_Answers" @FinalResult="FinalResult" @download-results="downloadResultsJson" :ResultHide="ResultHide" :ResultArrow="ResultArrow"/>
           </div>
@@ -47,7 +50,7 @@ import topHeader from '../topHeader.vue';
 import { Howler } from 'howler';
 import SectionStory1 from './components/SectionStory1.vue';
 import ImageSelectionGrid from './components/ImageSelectionGrid.vue';
-import { parseLevelRangeHelper, processWordSetshelper, initializeComponenthelper, initializeExercisehelper1, loadQuestionDatahelper, createEmptyColumnhelper, resethelper, shuffleArrayhelper1, TimerFunhelper1, secondsToTimehelper1, runhelper1, practice0helper1, PracticeNexthelper1, displayWordshelper1, goToPreviousQuestionhelper1, goToNextQuestionhelper1,markAllAnswersAsReadonlyhelper1, checkCompletionhelper1, Click_NextButtonhelper1, OnNewGame_Clickhelper1,updateAvailableWordshelper1, handleColumnClickhelper1, saveQuestionStatehelper1,loadQuestionStatehelper1, recordQuestionTimehelper1 ,updateQuestionTrackinghelper1, startQuestionTrackinghelper1, showResultshelper1,generateResultsJsonhelper1 , downloadResultsJsonhelper1 , FinalResulthelper1
+import { parseLevelRangeHelper, mountedHelper, processWordSetshelper, initializeComponenthelper, initializeExercisehelper1, loadQuestionDatahelper, createEmptyColumnhelper, resethelper, shuffleArrayhelper1, TimerFunhelper1, secondsToTimehelper1, runhelper1, practice0helper1, PracticeNexthelper1, displayWordshelper1, goToPreviousQuestionhelper1, goToNextQuestionhelper1,markAllAnswersAsReadonlyhelper1, checkCompletionhelper1, Click_NextButtonhelper1, OnNewGame_Clickhelper1,updateAvailableWordshelper1, handleColumnClickhelper1, saveQuestionStatehelper1,loadQuestionStatehelper1, recordQuestionTimehelper1 ,updateQuestionTrackinghelper1, startQuestionTrackinghelper1, showResultshelper1,generateResultsJsonhelper1 , downloadResultsJsonhelper1 , FinalResulthelper1 ,SaveAndExitNowhelper1
 } from '../../common-generic-components/activityHelpers.js';
 import { ContextConsumer } from 'react-is';
 export default {
@@ -123,8 +126,10 @@ export default {
       ResultArrow: false,
       canModifyAnswers: true,
       wordSets: {},          
-      levelNames: {},        
-      allSelectedSets: []    
+      // levelNames: {},        
+      allSelectedSets: [] ,
+      counter: 0,             // current question index (0-based)
+    Total_Questions: 0      // total number of questions   
     };
   },
   computed: {
@@ -191,23 +196,19 @@ export default {
       this.initializeExercise(newVal);
     }
   },
-  async mounted() {
-    try {
-      const jsonParam = sessionStorage.getItem('jsonFile') || 'CMCI1WBM';
-      const jsonFileName = `Lesson${jsonParam}.json`;
-      const response = await import(`./data/${jsonFileName}`);
-      const urlParams = new URLSearchParams(window.location.search);
-      this.questionLimit = parseInt(urlParams.get('questionCount')) || null;
-      this.Exercise_Number = urlParams.get('Exe_Number') || sessionStorage.getItem("Exe_Number") || '1';
-      this.activityQuestions = response.default || response;
-      this.processWordSets();
-      this.initializeComponent();
-    } catch (error) {
-      console.error('Error loading JSON:', error);
-      this.loadError = true;
-      this.isLoading = false;
-    }
-  },
+
+async mounted() {
+
+  
+    const jsonParam = sessionStorage.getItem('jsonFile') || 'CMC-I-1';
+    const jsonFileName = `Lesson${jsonParam}.json`;
+    const response = await import(`./data/${jsonFileName}`);
+    this. componentSubtitle =jsonParam ;
+
+  await mountedHelper(this,this.exercise,response);
+},
+
+
   beforeDestroy() {
     Howler.unload();
   },
@@ -271,9 +272,15 @@ export default {
   goToNextQuestion() {
       return goToNextQuestionhelper1(this);
     },
-  checkCompletion(updateCounters = true) {
-      return checkCompletionhelper1(this,updateCounters = true);
+  checkCompletion(updateCounters = true,detailedResult) {
+      return checkCompletionhelper1(this,updateCounters = true,detailedResult);
     },
+
+
+SaveAndExitNow() {
+     return SaveAndExitNowhelper1(this);
+    },
+
   Click_NextButton() {
       return Click_NextButtonhelper1(this);
     },
@@ -305,7 +312,8 @@ export default {
      return updateQuestionTrackinghelper1(this, isCorrect);
     },
   startQuestionTracking() {
-     return startQuestionTrackinghelper1(this);
+    //  return startQuestionTrackinghelper1(this);
+     return;
     },
   showResults() {
       return showResultshelper1(this);

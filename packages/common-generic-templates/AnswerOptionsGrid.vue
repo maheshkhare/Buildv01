@@ -31,6 +31,20 @@ export default {
     // getImgUrl: { type: Function, required: true },
     disableSelection: { type: Boolean, default: false }
   },
+
+   watch: {
+    items: {
+      handler(newVal) {
+        console.log("AnswerOptionsGrid - items received:", JSON.stringify(newVal, null, 2));
+      },
+      deep: true,
+      immediate: true // logs immediately when component mounts
+    }
+  },
+
+  mounted() {
+    console.log("AnswerOptionsGrid mounted - initial items:", JSON.stringify(this.items, null, 2));
+  },
   computed: {
     containerClass() {
       return this.mode === "EFU-I"

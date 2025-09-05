@@ -48,7 +48,7 @@
               :paraData="currentPara"  class="w-full"/>
             </div>
             <div class="mt-4 sm:mt-6"></div>
-            <SectionSem3Top v-show="PracticeOne && jsonFileName !== 'CSR-I'" :accept-input="acceptInput" :commonNumArray="commonNumArray" :ImageNames="ImageNames" :ImageNames1="ImageNames1" :ImageNames2="ImageNames2" :ImageNames3="ImageNames3" :ImageNames4="ImageNames4" :isCMS2="jsonFileName === 'CMS-II'" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @NextQuestion="NextQuestion" @WordsAnswer="WordsAnswer" :PrevQuestion="PrevQuestion" @PreviousQuestion="goToPreviousQuestion" :counter="counter" :viewingPrevious="viewingPrevious" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :imageHeight="getResponsiveImageHeight()" :imageWidth="getResponsiveImageWidth()" class="w-full" />
+            <SectionSem3Top v-show="PracticeOne && jsonFileName !== 'CSR-I'" :accept-input="acceptInput"  @save-and-exit="SaveAndExitNow"      :commonNumArray="commonNumArray" :ImageNames="ImageNames" :ImageNames1="ImageNames1" :ImageNames2="ImageNames2" :ImageNames3="ImageNames3" :ImageNames4="ImageNames4" :isCMS2="jsonFileName === 'CMS-II'" @NumberValue="NumberValue" @AnswerCheck="AnswerCheck" @NextQuestion="NextQuestion" @WordsAnswer="WordsAnswer" :PrevQuestion="PrevQuestion" @PreviousQuestion="goToPreviousQuestion" :counter="counter" :viewingPrevious="viewingPrevious" :AnswerCheckShow="AnswerCheckShow" :NextQuestionShow="NextQuestionShow" :ProgressBar="ProgressBar" :Questions_attempted="Questions_attempted" :Total_Questions="Total_Questions" :imageHeight="getResponsiveImageHeight()" :imageWidth="getResponsiveImageWidth()" class="w-full" />
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ import resultPopup from '../resultPopup.vue'
 import topHeader from '../topHeader.vue'
 import SectionStory from './components/SectionStory.vue'
 import WordGridActivity from 'Lessons/LessonSem3/components/WordGridActivity.vue'
-import{ updateScreenSizehelper,getResponsiveImageHeighthelper3,getResponsiveImageWidthhelper3 ,parseLevelRangeHelper, getQuestionWordhelper3,getGridLettershelper3 ,getAnswerWordhelper ,handleWordGridAnsweredhelper, WordsAnswerhelper3, AnswerCheckhelper3, FinalResulthelper3, PracticeNexthelper3, getVisualArrowhelper, getArrowStylehelper, getVisualRectanglehelper, getRectangleStylehelper, secondsToTimehelper, TimerFunhelper3, goToPreviousQuestionhelper3, runhelper3,  highlightPreviousAnswerhelper, practice0helper3
+import{ updateScreenSizehelper,getResponsiveImageHeighthelper3,getResponsiveImageWidthhelper3 ,parseLevelRangeHelper, getQuestionWordhelper3,getGridLettershelper3 ,getAnswerWordhelper ,handleWordGridAnsweredhelper, WordsAnswerhelper3, AnswerCheckhelper3, FinalResulthelper3, PracticeNexthelper3, getVisualArrowhelper, getArrowStylehelper, getVisualRectanglehelper, getRectangleStylehelper, secondsToTimehelper, TimerFunhelper3, goToPreviousQuestionhelper3, runhelper3,  highlightPreviousAnswerhelper, practice0helper3, SaveAndExitNowhelper3
 } from '../../common-generic-components/activityHelpers.js';
 import ResultPopup from '../resultPopup.vue'
 
@@ -141,6 +141,84 @@ export default {
     const fileName = sessionStorage.getItem('jsonFile') || 'lesson1'
     const jsonFileName = `Lesson${fileName.toUpperCase()}.json`
     const totalQsRaw = parseInt(sessionStorage.getItem('questionCount')) || 15
+
+        // const storedResultRaw = localStorage.getItem('attemptedQuestionData');
+        const storedResultRaw = sessionStorage.getItem('attemptedQuestionData');
+        let attemptedQuestionNumbers = [];
+        let attemptedDetails = [];
+
+        let attemptedData = {}; // default to object
+
+        try {
+      if (storedResultRaw) {
+        let firstParse = JSON.parse(storedResultRaw);
+
+        // If firstParse is still a string (double encoded), parse again
+            attemptedData = typeof firstParse === "string" ? JSON.parse(firstParse) : firstParse;
+          }
+        } catch (err) {
+          console.error("Error parsing attemptedData:", err);
+        }
+
+        if (
+            attemptedData &&
+            Array.isArray(attemptedData.DetailedResults) &&
+            attemptedData.DetailedResults.length > 0
+        ) {
+
+            // ✅ Update summary counts from attemptedData
+            this.timestart = Number(attemptedData.TimeElapsed) || 0;
+            this.Questions_attempted = attemptedData.QuestionsAttempted || 0;
+            this.correct_Answers = attemptedData.CorrectAnswers || 0;
+            this.incorrect_Answers = attemptedData.IncorrectAnswers || 0;
+
+            // console.log("Questions_attempted" + JSON.stringify(this.Questions_attempted, null, 2));
+
+            attemptedData.DetailedResults.forEach(q => {
+                this.practiceList.push({
+                    id: q.QuestionIndex,
+                    UserResponse: q.UserResponse ?? q.userResponse ?? null,
+                    correctAnswers: q.FinalAnswer ? JSON.parse(JSON.stringify(q.FinalAnswer)) : [],
+                    isCorrect: q.IsCorrect || false,
+                    level: q.Level ?? null,
+                    timeTaken: q.TimeTaken ?? 0
+                });
+            });
+
+            // console.log("Practice List" + JSON.stringify(this.practiceList, null, 2));
+
+            this.detailedResults = this.practiceList.map((entry, idx) => {
+                return {
+                    QuestionIndex: entry.id || 0,
+                    Level: entry.level,
+                    UserResponse:entry.UserResponse,
+                    FinalAnswer: entry.correctAnswers || [],
+                    IsCorrect: entry.isCorrect,
+                    TimeTaken: entry.timeTaken
+                };
+            });
+
+            // console.log("Detailed Results: " + JSON.stringify(this.detailedResults, null, 2));
+        }
+
+         if (storedResultRaw) {
+            try {
+                let parsed = JSON.parse(storedResultRaw); // first parse
+
+                    // console.log("typeof parsed:", typeof parsed);
+                    if (typeof parsed === "string") {
+                    parsed = JSON.parse(parsed); // second parse if still string
+                }
+                attemptedQuestionNumbers = parsed.AttemptedQuestionNumbers || [];
+                attemptedDetails = parsed.DetailedResults || [];
+                 console.log("Attempted Question Numbers:" + JSON.stringify(attemptedQuestionNumbers, null, 2));
+            } catch (e) {
+                console.warn("⚠️ Failed to parse attemptedQuestionData:", e);
+            }
+        }
+        
+
+
     if (!jsonFileName) {
       alert('Invalid file name.')
       return
@@ -161,6 +239,120 @@ export default {
       alert('Invalid level: Exe_Number cannot be 0 or out of allowed range.')
       return
     }
+
+     // ✅ Reorder JSON: Move attempted questions to start (with updated values)
+        for (const level of this.selectedLevels) {
+            const key = `Level${level}`;
+            if (Array.isArray(this.activityQuestions[key])) {
+                let levelQuestions = this.activityQuestions[key];
+
+                // Step 1: Get attempted questions for this level (with restored answers)
+                const attemptedForLevel = attemptedDetails
+                    .filter(dr => attemptedQuestionNumbers.includes(String(dr.QuestionIndex)) && dr.Level === key)
+                    .map(dr => {
+
+                        const questionKey = `QuestionArr_${dr.QuestionIndex}`;
+                        const originalQ = levelQuestions.find(q => q[questionKey] !== undefined);
+
+                        // console.log("questionKey:", JSON.stringify(questionKey, null, 2));
+                        
+                       if (originalQ) {
+                              // console.log("originalQ:", JSON.stringify(originalQ, null, 2));
+
+                              const selectedIndex = dr.UserResponse ? Number(dr.UserResponse) - 1 : -1;
+
+                              // 🔹 Dynamically detect option key for this question
+                              const optionKey = `OptionArr_${String(originalQ.index).padStart(2, "0")}`;
+                              const options = originalQ[optionKey] || [];
+
+                              if (Array.isArray(options)) {
+                                // Replace each string option with an object { label, state }
+                                originalQ[optionKey] = options.map((opt, i) => ({
+                                  label: opt,
+                                  state: i === selectedIndex ? "selected" : "unselected"
+                                }));
+                              }
+
+                              console.log("originalQ after:", JSON.stringify(originalQ, null, 2));
+
+                              return {
+                                ...originalQ,
+                                selectedIndex
+                              };
+                            }
+
+
+                        return null;
+                    })
+                    .filter(Boolean);
+
+               
+        // console.log("attemptedData" + JSON.stringify(attemptedForLevel, null, 2));
+
+        // console.log("levelQuestions" + JSON.stringify(levelQuestions, null, 2));
+                    
+                // Step 2: Get remaining (non-attempted) questions
+                // let remainingQuestions = levelQuestions.filter((_, idx) =>
+                //     !attemptedQuestionNumbers.includes(String(idx + 1).padStart(2, '0'))
+                // );
+
+                let remainingQuestions = levelQuestions.filter(q => {
+                  const questionKey = Object.keys(q).find(k => k.startsWith('QuestionArr_'));
+                  const questionId = questionKey ? questionKey.split('_')[1] : '';
+                  return !attemptedQuestionNumbers.includes(questionId);
+               });
+
+
+//  console.log("remainingQuestions" + JSON.stringify(remainingQuestions, null, 2));
+
+                // Step 3: Shuffle only remaining questions
+                for (let i = remainingQuestions.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [remainingQuestions[i], remainingQuestions[j]] = [remainingQuestions[j], remainingQuestions[i]];
+                }
+
+                // Step 4: Merge attempted first, shuffled remaining after
+                const reorderedQuestions = [...attemptedForLevel, ...remainingQuestions];
+
+                // ✅ Update the activityQuestions for this level
+                this.activityQuestions[key] = reorderedQuestions;
+
+                // console.log(`✅ Final ${key} order:`, this.activityQuestions[key]);
+                
+                // console.log(`✅ Final ${key} order:` + JSON.stringify( this.activityQuestions[key], null, 2));
+                // ✅ Track which questions are already attempted
+let answeredState = Array(this.Total_Questions).fill(false);
+
+// Loop through levels to mark attempted questions
+for (const level of this.selectedLevels) {
+    const key = `Level${level}`;
+    const questions = this.activityQuestions[key] || [];
+
+    questions.forEach((q, idx) => {
+        const questionKey = Object.keys(q).find(k => k.startsWith('QuestionArr_'));
+        const questionId = questionKey ? questionKey.split('_')[1] : '';
+        if (attemptedQuestionNumbers.includes(questionId)) {
+            answeredState[idx] = true;
+        }
+    });
+}
+
+// ✅ Set counter to first unanswered question
+const firstUnanswered = answeredState.findIndex(a => !a);
+if (firstUnanswered !== -1) {
+    this.counter = firstUnanswered;
+} else {
+    // All questions answered; start at last question
+    this.counter = this.Total_Questions - 1;
+}
+
+console.log("Mounted: starting at question counter =", this.counter);
+
+
+            }
+        }
+
+
     this.Total_Questions = parseInt(totalQsRaw)
     this.ProgressBar = Array(this.Total_Questions)
       .fill(null)
@@ -179,12 +371,13 @@ export default {
     }
     const paraData = this.activityQuestions.Level1?.[0]?.Para || ''
     this.paraData = paraData
-    this.componentSubtitle = 'Aiming Your Eyes'
+    this.componentSubtitle = fileName
     this.run()
     this.ProgressBar = Array(this.Total_Questions)
       .fill(null)
       .map((_, i) => ({ index: i, state: null }))
   },
+
   beforeDestroy() {
     window.removeEventListener('resize', this.updateScreenSize)
   },
@@ -202,8 +395,8 @@ export default {
     }
   },
     currentQuestion() {
-      if (this.counter >= this.items.length) return null
-      return this.items[this.counter]
+      // if (this.counter >= this.items.length) return null
+      return this.items[this.counter] ||{ }
     },
     showStoryButton() {
       const allowedFiles = ['CMUCMS-I', 'CMUCMS-II','DMU']
@@ -244,6 +437,10 @@ export default {
     },
   AnswerCheck() {
       return AnswerCheckhelper3(this);
+    },
+
+  SaveAndExitNow() {
+     return SaveAndExitNowhelper3(this);
     },
   FinalResult() {
      return FinalResulthelper3(this);

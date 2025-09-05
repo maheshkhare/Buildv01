@@ -5,7 +5,7 @@
       "level": "1",
       "questions": [
   {
-    "instructionText": "These squares are all the SAME. match the any of square",
+    "instructionText": "These squares are all the SAME. Select any of the match the any of square",
     "image": "cmcPk_V1_L1_Q1",
     "options": [
       {
@@ -28,7 +28,7 @@
     "questionNo": 1
   },
   {
-    "instructionText": "These squares are all the SAME. match the any of square",
+    "instructionText": "These squares are all the SAME. Select any of the match the any of square",
     "image": "cmcPk_V1_L1_Q2",
     "options": [
       {
@@ -51,7 +51,7 @@
     "questionNo": 2
   },
   {
-    "instructionText": "These squares are all the SAME. match the any of square",
+    "instructionText": "These squares are all the SAME. Select any of the match the any of square",
     "image": "cmcPk_V1_L1_Q3",
     "options": [
       {
@@ -74,7 +74,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": "These Ovals are all the SAME. Draw a line to match the Ovals. SAME",
+    "instructionText": "These Ovals are all the SAME. Select any of the match the Ovals.",
     "image": "V2_P1_1",
     "options": [
       {
@@ -97,7 +97,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": "These Ovals are all the SAME. Draw a line to match the Ovals. SAME",
+    "instructionText": "These Ovals are all the SAME. Select any of the match the Ovals.",
     "image": "V2_P1_2",
     "options": [
       {
@@ -120,7 +120,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": "These Ovals are all the SAME. Draw a line to match the Ovals. SAME",
+    "instructionText": "These Ovals are all the SAME. Select any of the match the Ovals.",
     "image": "V2_P1_3",
     "options": [
       {
@@ -143,7 +143,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": "These Octagons are all the SAME. Draw a line to match the Octagons. SAME",
+    "instructionText": "These Octagons are all the SAME. Select any of the match the Octagons.",
     "image": "V3_P1_1",
     "options": [
       {
@@ -166,7 +166,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": "These Octagons are all the SAME. Draw a line to match the Octagons. SAME",
+    "instructionText": "These Octagons are all the SAME. Select any of the match the Octagons.",
     "image": "V3_P1_2",
     "options": [
       {
@@ -189,7 +189,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": "These Octagons are all the SAME. Draw a line to match the Octagons. SAME",
+    "instructionText": "These Octagons are all the SAME. Select any of the match the Octagons.",
     "image": "V3_P1_3",
     "options": [
       {
@@ -212,7 +212,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": "These Diamonds are all the SAME. Draw a line to match the Diamonds.= SAME",
+    "instructionText": "These Diamonds are all the SAME. Select any of the match the Diamonds.",
     "image": "V4_P1_1",
     "options": [
       {
@@ -235,7 +235,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": "These Diamonds are all the SAME. Draw a line to match the Diamonds.= SAME",
+    "instructionText": "These Diamonds are all the SAME. Select any of the match the Diamonds.",
     "image": "V4_P1_2",
     "options": [
       {
@@ -258,7 +258,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": "These Diamonds are all the SAME. Draw a line to match the Diamonds.= SAME",
+    "instructionText": "These Diamonds are all the SAME. Select any of the match the Diamonds.",
     "image": "V4_P1_3",
     "options": [
       {
@@ -281,7 +281,7 @@
     "questionNo": 12
   },
   {
-    "instructionText": " These hearts are all the SAME. Draw a line to match the Hearts. SAME: Being exactly alike. A match to another",
+    "instructionText": " These hearts are all the SAME. Select any of the match the Hearts.",
     "image": "V5_P1_1",
     "options": [
       {
@@ -304,7 +304,7 @@
     "questionNo": 13
   },
   {
-    "instructionText": " These hearts are all the SAME. Draw a line to match the Hearts. SAME: Being exactly alike. A match to another",
+    "instructionText": " These hearts are all the SAME. Select any of the match the Hearts.",
     "image": "V5_P1_2",
     "options": [
       {
@@ -327,7 +327,7 @@
     "questionNo": 14
   },
   {
-    "instructionText": " These hearts are all the SAME. Draw a line to match the Hearts. SAME: Being exactly alike. A match to another",
+    "instructionText": " These hearts are all the SAME. Select any of the match the Hearts.",
     "image": "V5_P1_3",
     "options": [
       {
@@ -355,7 +355,7 @@
       "level": "2",
       "questions": [
   {
-    "instructionText": "These circles are all the SAME. Draw a line to match the circles",
+    "instructionText": "These circles are all the SAME. Select the exact match",
     "image": "V1_P2_1",
     "options": [
       {
@@ -378,7 +378,7 @@
     "questionNo": 1
   },
   {
-    "instructionText": "These circles are all the SAME. Draw a line to match the circles",
+    "instructionText": "These circles are all the SAME. Select the exact match",
     "image": "V1_P2_2",
     "options": [
       {
@@ -401,7 +401,7 @@
     "questionNo": 2
   },
   {
-    "instructionText": "These circles are all the SAME. Draw a line to match the circles",
+    "instructionText": "These circles are all the SAME. Select the exact match",
     "image": "V1_P2_3",
     "options": [
       {
@@ -424,7 +424,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": "These Rectangles are all the SAME. Draw a line to match the Rectangles. SAME",
+    "instructionText": "These all images are all the SAME. Select any of the match the Rectangles.",
     "image": "V2_P2_1",
     "options": [
       {
@@ -447,7 +447,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": "These Rectangles are all the SAME. Draw a line to match the Rectangles. SAME",
+    "instructionText": "These all images are all the SAME. Select any of the match the Rectangles.",
     "image": "V2_P2_2",
     "options": [
       {
@@ -470,7 +470,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": "These Rectangles are all the SAME. Draw a line to match the Rectangles. SAME",
+    "instructionText": "These all images are all the SAME. Select any of the match the Rectangles.",
     "image": "V2_P2_3",
     "options": [
       {
@@ -493,7 +493,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": "These alphabets O are all the SAME. Draw a line to match the alphabet O.SAME",
+    "instructionText": "These alphabets O are all the SAME. Select any of the match the alphabet O.",
     "image": "V3_P2_1",
     "options": [
       {
@@ -516,7 +516,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": "These alphabets O are all the SAME. Draw a line to match the alphabet O.SAME",
+    "instructionText": "These alphabets O are all the SAME. Select any of the match the alphabet O.",
     "image": "V3_P2_2",
     "options": [
       {
@@ -539,7 +539,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": "These alphabets O are all the SAME. Draw a line to match the alphabet O.SAME",
+    "instructionText": "These alphabets O are all the SAME. Select any of the match the alphabet O.",
     "image": "V3_P2_3",
     "options": [
       {
@@ -562,7 +562,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": "These Octagons are all the SAME. Draw a line to match the Octagons. = SAME",
+    "instructionText": "These Octagons are all the SAME. Select any of the match the Octagons. ",
     "image": "V4_P2_1",
     "options": [
       {
@@ -585,7 +585,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": "These Octagons are all the SAME. Draw a line to match the Octagons. = SAME",
+    "instructionText": "These Octagons are all the SAME. Select any of the match the Octagons. ",
     "image": "V4_P2_2",
     "options": [
       {
@@ -608,7 +608,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": "These Octagons are all the SAME. Draw a line to match the Octagons. = SAME",
+    "instructionText": "These Octagons are all the SAME. Select any of the match the Octagons. ",
     "image": "V4_P2_3",
     "options": [
       {
@@ -631,7 +631,7 @@
     "questionNo": 12
   },
   {
-    "instructionText": "These trapezoids are all the SAME. Draw a line to match the Trapezoids. = SAME",
+    "instructionText": "These trapezoids are all the SAME. Select any of the match the Trapezoids. ",
     "image": "V5_P2_1",
     "options": [
       {
@@ -654,7 +654,7 @@
     "questionNo": 13
   },
   {
-    "instructionText": "These trapezoids are all the SAME. Draw a line to match the Trapezoids. = SAME",
+    "instructionText": "These trapezoids are all the SAME. Select any of the match the Trapezoids. ",
     "image": "V5_P2_2",
     "options": [
       {
@@ -677,7 +677,7 @@
     "questionNo": 14
   },
   {
-    "instructionText": "These trapezoids are all the SAME. Draw a line to match the Trapezoids. = SAME",
+    "instructionText": "These trapezoids are all the SAME. Select any of the match the Trapezoids. ",
     "image": "V5_P2_3",
     "options": [
       {
@@ -705,7 +705,7 @@
       "level": "3",
       "questions": [
   {
-    "instructionText": "These triangles are all the SAME. Draw a line to match the triangles.",
+    "instructionText": "These triangles are all the SAME. Select any of the match the triangles.",
     "image": "V1_P3_1",
     "options": [
       {
@@ -728,7 +728,7 @@
     "questionNo": 1
   },
   {
-    "instructionText": "These triangles are all the SAME. Draw a line to match the triangles.",
+    "instructionText": "These triangles are all the SAME. Select any of the match the triangles.",
     "image": "V1_P3_2",
     "options": [
       {
@@ -751,7 +751,7 @@
     "questionNo": 2
   },
   {
-    "instructionText": "These triangles are all the SAME. Draw a line to match the triangles.",
+    "instructionText": "These triangles are all the SAME. Select any of the match the triangles.",
     "image": "V1_P3_3",
     "options": [
       {
@@ -774,7 +774,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": "These Diamonds are all the SAME. Draw a line to match the Diamonds.SAME",
+    "instructionText": "These Diamonds are all the SAME. Select any of the match the Diamonds.",
     "image": "V2_P3_1",
     "options": [
       {
@@ -797,7 +797,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": "These Diamonds are all the SAME. Draw a line to match the Diamonds.SAME",
+    "instructionText": "These Diamonds are all the SAME. Select any of the match the Diamonds.",
     "image": "V2_P3_2",
     "options": [
       {
@@ -820,7 +820,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": "These Diamonds are all the SAME. Draw a line to match the Diamonds.SAME",
+    "instructionText": "These Diamonds are all the SAME. Select any of the match the Diamonds.",
     "image": "V2_P3_3",
     "options": [
       {
@@ -843,7 +843,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": "All the object are SAME. Draw a line to match the objects. SAME",
+    "instructionText": "All the object are SAME. Select any one that matches the above objects.",
     "image": "V3_P3_1",
     "options": [
       {
@@ -866,7 +866,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": "All the object are SAME. Draw a line to match the objects. SAME",
+    "instructionText": "All the object are SAME. Select any one that the above match the objects.",
     "image": "V3_P3_2",
     "options": [
       {
@@ -889,7 +889,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": "All the object are SAME. Draw a line to match the objects. SAME",
+    "instructionText": "All the object are SAME. Select any one that the above match the objects.",
     "image": "V3_P3_3",
     "options": [
       {
@@ -912,7 +912,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": "These balls are all the SAME. Draw a line to match the balls",
+    "instructionText": "These balls are all the SAME. Select any of the match the balls",
     "image": "V4_P3_1",
     "options": [
       {
@@ -935,7 +935,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": "These oranges are all the SAME. Draw a line to match the oranges.",
+    "instructionText": "These oranges are all the SAME. Select any of the match the oranges.",
     "image": "V4_P3_2",
     "options": [
       {
@@ -958,7 +958,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": "These hats are all the SAME. Draw a line to match the hats..",
+    "instructionText": "These hats are all the SAME. Select any of the match the hats..",
     "image": "V4_P3_3",
     "options": [
       {
@@ -981,7 +981,7 @@
     "questionNo": 12
   },
   {
-    "instructionText": "These stars are all the SAME. Draw a line to match the stars.= SAME",
+    "instructionText": "These stars are all the SAME. Select any of the match the stars.",
     "image": "V5_P3_1",
     "options": [
       {
@@ -1004,7 +1004,7 @@
     "questionNo": 13
   },
   {
-    "instructionText": "These stars are all the SAME. Draw a line to match the stars.= SAME",
+    "instructionText": "These stars are all the SAME. Select any of the match the stars.",
     "image": "V5_P3_2",
     "options": [
       {
@@ -1027,7 +1027,7 @@
     "questionNo": 14
   },
   {
-    "instructionText": "These stars are all the SAME. Draw a line to match the stars.= SAME",
+    "instructionText": "These stars are all the SAME. Select any of the match the stars.",
     "image": "V5_P3_3",
     "options": [
       {
@@ -1043,7 +1043,7 @@
         "isCorrect": true
       },
       {
-        "label": "V5_P4_3",
+        "label": "V5_P3_3",
         "isCorrect": true
       }
     ],
@@ -1121,7 +1121,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": "Choose the correct image that matches the object.",
+    "instructionText": "Choose the correct image that are different.",
     "options": [
       {
         "label": "cmcPk_V1_L4_Q2_Img2",
@@ -1139,7 +1139,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": "Choose the correct image that matches the object.",
+    "instructionText": "Choose the correct image that are different.",
     "options": [
       {
         "label": "cmcPk_V1_L4_Q2_Img1",
@@ -1157,7 +1157,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": "Choose the correct image that matches the object.",
+    "instructionText": "Choose the correct image that are different.",
     "options": [
       {
         "label": "cmcPk_V1_L4_Q2_Img1",
@@ -1187,7 +1187,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": "Choose the correct image that matches the object.",
+    "instructionText": "Choose the correct image that are different.",
     "options": [
       {
         "label": "cmcPk_V1_L4_Q2_Img2",
@@ -4020,7 +4020,7 @@
         "isCorrect": false
       },
       {
-        "label": "V4_P8_5_B",
+        "label": "V4_P8_5_A",
         "isCorrect": true
       },
       {

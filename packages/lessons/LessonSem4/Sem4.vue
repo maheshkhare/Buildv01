@@ -135,59 +135,78 @@ export default {
         const totalQsRaw = parseInt(sessionStorage.getItem('questionCount')) || 15;
 
         // ✅ Retrieve attempted question numbers from localStorage
-        const storedResultRaw = localStorage.getItem('attemptedQuestionData');
+        const storedResultRaw = sessionStorage.getItem('attemptedQuestionData');
+        // const storedResultRaw = localStorage.getItem('attemptedQuestionData');
         let attemptedQuestionNumbers = [];
         let attemptedDetails = [];
 
-        const attemptedData = JSON.parse(storedResultRaw || '{}'); // default to object
+        let attemptedData = {}; // default to object
+
+        try {
+            if (storedResultRaw) {
+                let firstParse = JSON.parse(storedResultRaw);
+
+                // If firstParse is still a string (double encoded), parse again
+                attemptedData = typeof firstParse === "string" ? JSON.parse(firstParse) : firstParse;
+            }
+        } catch (err) {
+                 console.error("Error parsing attemptedData:", err);
+            }
 
         if (
             attemptedData &&
-            Array.isArray(attemptedData.detailedResults) &&
-            attemptedData.detailedResults.length > 0
+            Array.isArray(attemptedData.DetailedResults) &&
+            attemptedData.DetailedResults.length > 0
         ) {
 
             // ✅ Update summary counts from attemptedData
-            this.timestart = attemptedData.summary.totalTimeElapsed || 0;
-            this.Questions_attempted = attemptedData.summary.questionsAttempted || 0;
-            this.correct_Answers = attemptedData.summary.correctAnswers || 0;
-            this.incorrect_Answers = attemptedData.summary.incorrectAnswers || 0;
+            // this.timestart = attemptedData.TimeElapsed || 0;
+            this.timestart = Number(attemptedData.TimeElapsed) || 0;
 
-            attemptedData.detailedResults.forEach(q => {
+            this.Questions_attempted = attemptedData.QuestionsAttempted || 0;
+            this.correct_Answers = attemptedData.CorrectAnswers || 0;
+            this.incorrect_Answers = attemptedData.IncorrectAnswers || 0;
+
+            attemptedData.DetailedResults.forEach(q => {
                 this.practiceList.push({
-                    id: q.questionNo,
-                    blanksAnswer: q.blanksAnswer ? JSON.parse(JSON.stringify(q.blanksAnswer)) : [],
-                    isCorrect: q.isCorrect || false,
-                    originalQuestionNo: q.originalQuestionNo ?? null,
-                    level: q.level ?? null,
-                    timeTaken: q.timeTaken ?? 0
+                    id: q.QuestionIndex,
+                    UserResponse: q.UserResponse ?? q.userResponse ?? null,
+                    blanksAnswer: q.FinalAnswer ? JSON.parse(JSON.stringify(q.FinalAnswer)) : [],
+                    isCorrect: q.IsCorrect || false,
+                    level: q.Level ?? null,
+                    timeTaken: q.TimeTaken ?? 0
                 });
             });
 
-            console.log("Practive List" + JSON.stringify(this.practiceList, null, 2));
+            // console.log("Practive List" + JSON.stringify(this.practiceList, null, 2));
             // console.log(`✅ Loaded ${this.practiceList} attempted questions into practiceList at start`);
 
             this.detailedResults = this.practiceList.map((entry, idx) => {
                 return {
-                    questionNo: entry.id || 0,
-                    originalQuestionNo: entry.originalQuestionNo,
-                    level: entry.level,
-                    rectanglesAnswer: entry.rectanglesAnswer || [],
-                    blanksAnswer: entry.blanksAnswer || [],
-                    isCorrect: entry.isCorrect,
-                    timeTaken: entry.timeTaken
+                    QuestionIndex: entry.id || 0,
+                    Level: entry.level,
+                    UserResponse:entry.UserResponse,
+                    FinalAnswer: entry.blanksAnswer || [],
+                    IsCorrect: entry.isCorrect,
+                    TimeTaken: entry.timeTaken
                 };
             });
 
-            console.log("Detailed Results: " + JSON.stringify(this.detailedResults, null, 2));
+            // console.log("Detailed Results: " + JSON.stringify(this.detailedResults, null, 2));
         }
 
         if (storedResultRaw) {
             try {
-                const parsed = JSON.parse(storedResultRaw);
-                attemptedQuestionNumbers = parsed.summary?.attemptedQuestionNumbers || [];
-                attemptedDetails = parsed.detailedResults || [];
-                console.log("🟢 Attempted Question Numbers:", attemptedQuestionNumbers);
+                let parsed = JSON.parse(storedResultRaw); // first parse
+
+                    // console.log("typeof parsed:", typeof parsed);
+                    if (typeof parsed === "string") {
+                    parsed = JSON.parse(parsed); // second parse if still string
+                }
+
+                attemptedQuestionNumbers = parsed.AttemptedQuestionNumbers || [];
+                attemptedDetails = parsed.DetailedResults || [];
+                // console.log("🟢 Attempted Question Numbers:", attemptedQuestionNumbers);
             } catch (e) {
                 console.warn("⚠️ Failed to parse attemptedQuestionData:", e);
             }
@@ -240,32 +259,32 @@ export default {
                 let levelQuestions = this.activityQuestions[key];
 
                 
-        console.log("attemptedDetails" + JSON.stringify(attemptedDetails, null, 2));
+        // console.log("attemptedDetails" + JSON.stringify(attemptedDetails, null, 2));
 
                 // Step 1: Get attempted questions for this level (with restored answers)
                 const attemptedForLevel = attemptedDetails
-                    .filter(dr => attemptedQuestionNumbers.includes(dr.questionNo) && dr.level === key)
+                    .filter(dr => attemptedQuestionNumbers.includes(String(dr.QuestionIndex)) && dr.Level === key)
                     .map(dr => {
-                        const questionIndex = parseInt(dr.questionNo, 10) - 1;
+                        const questionIndex = parseInt(dr.QuestionIndex, 10) - 1;
                         const originalQ = levelQuestions[questionIndex];
                         if (originalQ) {
                             
-        console.log("originalQ" + JSON.stringify(originalQ, null, 2));
+        // console.log("originalQ" + JSON.stringify(originalQ, null, 2));
                             // ✅ Handle both "Blanks" (Level 1) and "rectangles" (Level 5)
                             if (Array.isArray(originalQ.Blanks)) {
                                 
-        console.log("originalQ.Blanks" + JSON.stringify(originalQ.Blanks, null, 2));
+        // console.log("originalQ.Blanks" + JSON.stringify(originalQ.Blanks, null, 2));
                                 originalQ.Blanks = originalQ.Blanks.map(blank => {
-                                const storedBlank = dr.blanksAnswer?.find(b => b.id === blank.id);
+                                const storedBlank = dr.FinalAnswer?.find(b => b.id === blank.id);
                                 return storedBlank ? { ...blank, value: storedBlank.value } : blank;
                                 });
                             }
                             
-        console.log("originalQ.Blanks after" + JSON.stringify(originalQ.Blanks, null, 2));
+        // console.log("originalQ.Blanks after" + JSON.stringify(originalQ.Blanks, null, 2));
 
                             if (Array.isArray(originalQ.rectangles)) {
                                 originalQ.rectangles = originalQ.rectangles.map(rect => {
-                                const storedRect = dr.rectanglesAnswer?.find(r => r.symbol === rect.symbol);
+                                const storedRect = dr.FinalAnswer?.find(r => r.symbol === rect.symbol);
                                 return storedRect ? { ...rect, chosenOption: storedRect.chosenOption } : rect;
                                 });
                             }
@@ -277,14 +296,14 @@ export default {
                     .filter(Boolean);
 
                
-        console.log("attemptedData" + JSON.stringify(attemptedForLevel, null, 2));
+        // console.log("attemptedData" + JSON.stringify(attemptedForLevel, null, 2));
                     
                 // Step 2: Get remaining (non-attempted) questions
                 let remainingQuestions = levelQuestions.filter((_, idx) =>
                     !attemptedQuestionNumbers.includes(String(idx + 1).padStart(2, '0'))
                 );
 
-                console.log("remainingQuestions" + JSON.stringify(remainingQuestions, null, 2));
+                // console.log("remainingQuestions" + JSON.stringify(remainingQuestions, null, 2));
 
                 // Step 3: Shuffle only remaining questions
                 for (let i = remainingQuestions.length - 1; i > 0; i--) {
@@ -295,11 +314,38 @@ export default {
                 // Step 4: Merge attempted first, shuffled remaining after
                 this.activityQuestions[key] = [...attemptedForLevel, ...remainingQuestions];
 
-                console.log(`✅ Final ${key} order:`, this.activityQuestions[key]);
+                // console.log(`✅ Final ${key} order:`, this.activityQuestions[key]);
             }
         }
 
-        
+        // ✅ Build answeredState array for all questions
+this.answeredState = [];
+this.questionSet = [];
+
+for (const lvl of this.selectedLevels) {
+    const key = `Level${lvl}`;
+    const levelQs = this.activityQuestions[key];
+
+   levelQs.forEach((q, idx) => {
+    this.questionSet.push(q);
+
+    // Determine question number:
+    let questionKey = Object.keys(q).find(k => k.startsWith('QuestionArr_'));
+    let originalQNo = questionKey ? questionKey.split('_')[1] : String(idx + 1).padStart(2,'0');
+
+    const isAnswered = attemptedQuestionNumbers.includes(String(originalQNo).padStart(2,'0'));
+    this.answeredState.push(isAnswered);
+});
+
+};
+
+// Set counter to first unanswered question
+const firstUnanswered = this.answeredState.findIndex(a => !a);
+this.counter = firstUnanswered !== -1 ? firstUnanswered : this.Total_Questions - 1;
+
+console.log("Mounted: starting at question counter =", this.counter);
+
+
 
         const totalAvailable = this.selectedLevels.reduce((sum, lvl) => {
             const key = `Level${lvl}`;

@@ -5,7 +5,7 @@
       "level": "1",
       "questions": [
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P1_1",
     "options": [
       {
@@ -28,7 +28,7 @@
     "questionNo": 1
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P1_2",
     "options": [
       {
@@ -51,7 +51,7 @@
     "questionNo": 2
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P1_3",
     "options": [
       {
@@ -74,7 +74,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P1_4",
     "options": [
       {
@@ -82,7 +82,7 @@
         "isCorrect": false
       },
       {
-        "label": "V1_P1_4_1",
+        "label": "V1_P1_4",
         "isCorrect": true
       },
       {
@@ -97,7 +97,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P1_1_A",
     "options": [
       {
@@ -116,7 +116,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P1_2_A",
     "options": [
       {
@@ -135,7 +135,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P1_3_A",
     "options": [
       {
@@ -154,7 +154,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P1_4_A",
     "options": [
       {
@@ -173,7 +173,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P1_1_A",
     "options": [
       {
@@ -192,7 +192,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P1_2_A",
     "options": [
       {
@@ -211,7 +211,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P1_3_A",
     "options": [
       {
@@ -230,7 +230,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P1_4_A",
     "options": [
       {
@@ -249,7 +249,7 @@
     "questionNo": 12
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P1_1_A",
     "options": [
       {
@@ -268,7 +268,7 @@
     "questionNo": 13
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P1_2_A",
     "options": [
       {
@@ -287,7 +287,7 @@
     "questionNo": 14
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P1_3_A",
     "options": [
       {
@@ -306,7 +306,7 @@
     "questionNo": 15
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P1_4_A",
     "options": [
       {
@@ -325,7 +325,7 @@
     "questionNo": 16
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P1_1_A",
     "options": [
       {
@@ -344,7 +344,7 @@
     "questionNo": 17
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P1_2_A",
     "options": [
       {
@@ -363,7 +363,7 @@
     "questionNo": 18
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P1_3_A",
     "options": [
       {
@@ -382,7 +382,7 @@
     "questionNo": 19
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P1_4_A",
     "options": [
       {
@@ -406,7 +406,7 @@
       "level": "2",
       "questions": [
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P2_1",
     "options": [
       {
@@ -429,7 +429,7 @@
     "questionNo": 1
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P2_2",
     "options": [
       {
@@ -452,7 +452,7 @@
     "questionNo": 2
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P2_3",
     "options": [
       {
@@ -475,7 +475,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P2_4",
     "options": [
       {
@@ -498,7 +498,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P2_1_A",
     "options": [
       {
@@ -517,7 +517,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P2_2_A",
     "options": [
       {
@@ -536,7 +536,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P2_3_A",
     "options": [
       {
@@ -555,7 +555,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P2_4_A",
     "options": [
       {
@@ -574,7 +574,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P2_1_A",
     "options": [
       {
@@ -593,7 +593,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P2_2_A",
     "options": [
       {
@@ -612,7 +612,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P2_3_A",
     "options": [
       {
@@ -631,7 +631,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P2_4_A",
     "options": [
       {
@@ -650,7 +650,7 @@
     "questionNo": 12
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P2_1_A",
     "options": [
       {
@@ -669,7 +669,7 @@
     "questionNo": 13
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P2_2_A",
     "options": [
       {
@@ -688,7 +688,7 @@
     "questionNo": 14
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P2_3_A",
     "options": [
       {
@@ -707,7 +707,7 @@
     "questionNo": 15
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P2_4_A",
     "options": [
       {
@@ -726,7 +726,7 @@
     "questionNo": 16
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P2_1_A",
     "options": [
       {
@@ -745,7 +745,7 @@
     "questionNo": 17
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P2_2_A",
     "options": [
       {
@@ -764,7 +764,7 @@
     "questionNo": 18
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P2_3_A",
     "options": [
       {
@@ -783,7 +783,7 @@
     "questionNo": 19
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P2_4_A",
     "options": [
       {
@@ -807,7 +807,7 @@
       "level": "3",
       "questions": [
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P3_1",
     "options": [
       {
@@ -830,7 +830,7 @@
     "questionNo": 1
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P3_2",
     "options": [
       {
@@ -853,7 +853,7 @@
     "questionNo": 2
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P3_3",
     "options": [
       {
@@ -876,7 +876,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P3_4",
     "options": [
       {
@@ -899,7 +899,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P3_1_A",
     "options": [
       {
@@ -918,7 +918,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P3_2_A",
     "options": [
       {
@@ -937,7 +937,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P3_3_A",
     "options": [
       {
@@ -956,7 +956,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P3_4_A",
     "options": [
       {
@@ -975,7 +975,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P3_1_A",
     "options": [
       {
@@ -994,7 +994,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P3_2_A",
     "options": [
       {
@@ -1013,7 +1013,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P3_3_A",
     "options": [
       {
@@ -1032,7 +1032,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P3_4_A",
     "options": [
       {
@@ -1051,7 +1051,7 @@
     "questionNo": 12
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P3_1_A",
     "options": [
       {
@@ -1070,7 +1070,7 @@
     "questionNo": 13
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P3_2_A",
     "options": [
       {
@@ -1089,7 +1089,7 @@
     "questionNo": 14
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P3_3_A",
     "options": [
       {
@@ -1108,7 +1108,7 @@
     "questionNo": 15
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P3_4_A",
     "options": [
       {
@@ -1127,7 +1127,7 @@
     "questionNo": 16
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P3_1_A",
     "options": [
       {
@@ -1146,7 +1146,7 @@
     "questionNo": 17
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P3_2_A",
     "options": [
       {
@@ -1165,7 +1165,7 @@
     "questionNo": 18
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P3_3_A",
     "options": [
       {
@@ -1184,7 +1184,7 @@
     "questionNo": 19
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P3_4_A",
     "options": [
       {
@@ -1208,7 +1208,7 @@
       "level": "4",
       "questions": [
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P4_1",
     "options": [
       {
@@ -1231,7 +1231,7 @@
     "questionNo": 1
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P4_2",
     "options": [
       {
@@ -1254,7 +1254,7 @@
     "questionNo": 2
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P4_3",
     "options": [
       {
@@ -1277,7 +1277,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P4_4",
     "options": [
       {
@@ -1300,7 +1300,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P4_1_A",
     "options": [
       {
@@ -1319,7 +1319,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P4_2_A",
     "options": [
       {
@@ -1338,7 +1338,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P4_3_A",
     "options": [
       {
@@ -1357,7 +1357,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P4_4_A",
     "options": [
       {
@@ -1376,7 +1376,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P4_1_A",
     "options": [
       {
@@ -1395,7 +1395,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P4_2_A",
     "options": [
       {
@@ -1414,7 +1414,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P4_3_A",
     "options": [
       {
@@ -1433,7 +1433,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P4_4_A",
     "options": [
       {
@@ -1452,7 +1452,7 @@
     "questionNo": 12
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P4_1_A",
     "options": [
       {
@@ -1471,7 +1471,7 @@
     "questionNo": 13
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P4_2_A",
     "options": [
       {
@@ -1490,7 +1490,7 @@
     "questionNo": 14
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P4_3_A",
     "options": [
       {
@@ -1509,7 +1509,7 @@
     "questionNo": 15
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P4_4_A",
     "options": [
       {
@@ -1528,7 +1528,7 @@
     "questionNo": 16
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P4_1_A",
     "options": [
       {
@@ -1547,7 +1547,7 @@
     "questionNo": 17
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P4_2_A",
     "options": [
       {
@@ -1566,7 +1566,7 @@
     "questionNo": 18
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P4_3_A",
     "options": [
       {
@@ -1585,7 +1585,7 @@
     "questionNo": 19
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P4_4_A",
     "options": [
       {
@@ -1609,7 +1609,7 @@
       "level": "5",
       "questions": [
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P5_1",
     "options": [
       {
@@ -1632,7 +1632,7 @@
     "questionNo": 1
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P5_2",
     "options": [
       {
@@ -1655,7 +1655,7 @@
     "questionNo": 2
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P5_3",
     "options": [
       {
@@ -1678,7 +1678,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P5_4",
     "options": [
       {
@@ -1701,7 +1701,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P5_1_A",
     "options": [
       {
@@ -1713,14 +1713,14 @@
         "isCorrect": false
       },
       {
-        "label": "V2_P5_1_B",
+        "label": "V2_P5_1_A",
         "isCorrect": true
       }
     ],
     "questionNo": 5
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P5_2_A",
     "options": [
       {
@@ -1739,8 +1739,8 @@
     "questionNo": 6
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
-    "image": "V2_P5_3_A",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
+    "image": "V2_P5_3_B",
     "options": [
       {
         "label": "V2_P5_3_B",
@@ -1758,7 +1758,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P5_4_A",
     "options": [
       {
@@ -1777,7 +1777,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P5_1_A",
     "options": [
       {
@@ -1796,7 +1796,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P5_2_A",
     "options": [
       {
@@ -1815,7 +1815,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P5_3_A",
     "options": [
       {
@@ -1834,7 +1834,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P5_4_A",
     "options": [
       {
@@ -1853,7 +1853,7 @@
     "questionNo": 12
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P5_1_A",
     "options": [
       {
@@ -1872,7 +1872,7 @@
     "questionNo": 13
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P5_2_A",
     "options": [
       {
@@ -1891,7 +1891,7 @@
     "questionNo": 14
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P5_3_A",
     "options": [
       {
@@ -1910,7 +1910,7 @@
     "questionNo": 15
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P5_4_A",
     "options": [
       {
@@ -1929,7 +1929,7 @@
     "questionNo": 16
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P5_1_A",
     "options": [
       {
@@ -1948,7 +1948,7 @@
     "questionNo": 17
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P5_2_A",
     "options": [
       {
@@ -1967,7 +1967,7 @@
     "questionNo": 18
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P5_3_A",
     "options": [
       {
@@ -1986,7 +1986,7 @@
     "questionNo": 19
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P5_4_A",
     "options": [
       {
@@ -2010,7 +2010,7 @@
       "level": "6",
       "questions": [
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P6_1",
     "options": [
       {
@@ -2033,7 +2033,7 @@
     "questionNo": 1
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P6_2",
     "options": [
       {
@@ -2056,7 +2056,7 @@
     "questionNo": 2
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P6_3",
     "options": [
       {
@@ -2079,7 +2079,7 @@
     "questionNo": 3
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V1_P6_4",
     "options": [
       {
@@ -2102,7 +2102,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P6_1_A",
     "options": [
       {
@@ -2114,14 +2114,14 @@
         "isCorrect": false
       },
       {
-        "label": "V2_P6_1_B",
+        "label": "V2_P6_1_C",
         "isCorrect": true
       }
     ],
     "questionNo": 5
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P6_2_A",
     "options": [
       {
@@ -2140,7 +2140,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P6_3_A",
     "options": [
       {
@@ -2159,7 +2159,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V2_P6_4_A",
     "options": [
       {
@@ -2178,7 +2178,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P6_1_A",
     "options": [
       {
@@ -2197,7 +2197,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P6_2_A",
     "options": [
       {
@@ -2216,7 +2216,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P6_3_A",
     "options": [
       {
@@ -2235,7 +2235,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V3_P6_4_A",
     "options": [
       {
@@ -2254,7 +2254,7 @@
     "questionNo": 12
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P6_1_A",
     "options": [
       {
@@ -2273,7 +2273,7 @@
     "questionNo": 13
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P6_2_A",
     "options": [
       {
@@ -2292,7 +2292,7 @@
     "questionNo": 14
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P6_3_A",
     "options": [
       {
@@ -2311,7 +2311,7 @@
     "questionNo": 15
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V4_P6_4_A",
     "options": [
       {
@@ -2330,7 +2330,7 @@
     "questionNo": 16
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P6_1_A",
     "options": [
       {
@@ -2349,7 +2349,7 @@
     "questionNo": 17
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P6_2_A",
     "options": [
       {
@@ -2368,7 +2368,7 @@
     "questionNo": 18
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P6_3_A",
     "options": [
       {
@@ -2387,7 +2387,7 @@
     "questionNo": 19
   },
   {
-    "instructionText": " Look at the figure in the left-hand side of the box. On the right-hand side, find the same figure that has been rotated and circle the figure.",
+    "instructionText": " Look at the figure shown above. Identify the figure below that is a rotated version of it, and select the matching figure..",
     "image": "V5_P6_4_A",
     "options": [
       {
@@ -2487,7 +2487,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V2_P7_1",
     "options": [
       {
@@ -2510,7 +2510,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V2_P7_2",
     "options": [
       {
@@ -2533,7 +2533,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V2_P7_3",
     "options": [
       {
@@ -2556,7 +2556,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V2_P7_4",
     "options": [
       {
@@ -2579,7 +2579,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V3_P7_1",
     "options": [
       {
@@ -2602,7 +2602,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V3_P7_2",
     "options": [
       {
@@ -2625,7 +2625,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V3_P7_3",
     "options": [
       {
@@ -2648,7 +2648,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V3_P7_4",
     "options": [
       {
@@ -2747,7 +2747,7 @@
     "questionNo": 16
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V5_P7_1",
     "options": [
       {
@@ -2770,7 +2770,7 @@
     "questionNo": 17
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V5_P7_2",
     "options": [
       {
@@ -2793,7 +2793,7 @@
     "questionNo": 18
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V5_P7_3",
     "options": [
       {
@@ -2816,7 +2816,7 @@
     "questionNo": 19
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V5_P7_4",
     "options": [
       {
@@ -2920,7 +2920,7 @@
     "questionNo": 4
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V2_P8_1",
     "options": [
       {
@@ -2943,7 +2943,7 @@
     "questionNo": 5
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V2_P8_2",
     "options": [
       {
@@ -2966,7 +2966,7 @@
     "questionNo": 6
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V2_P8_3",
     "options": [
       {
@@ -2989,7 +2989,7 @@
     "questionNo": 7
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V2_P8_4",
     "options": [
       {
@@ -3012,7 +3012,7 @@
     "questionNo": 8
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V3_P8_1",
     "options": [
       {
@@ -3035,7 +3035,7 @@
     "questionNo": 9
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V3_P8_2",
     "options": [
       {
@@ -3058,7 +3058,7 @@
     "questionNo": 10
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V3_P8_3",
     "options": [
       {
@@ -3081,7 +3081,7 @@
     "questionNo": 11
   },
   {
-    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn. An example has been done for you",
+    "instructionText": "The figures below are rotating one turn at a time. Your job is to find out what figure comes after the next turn.",
     "image": "V3_P8_4",
     "options": [
       {

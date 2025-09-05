@@ -35,6 +35,7 @@ function getParameter(){
        Exe_Number = urlParams.get('Exe_Number')
        lessonID = urlParams.get('id')
        sesTokenID = urlParams.get('TokenID')
+      const attemptedQuestionData = urlParams.get('attemptedQuestionData');
 
  const jsonFile = urlParams.get('lessonJSON');        
          const questionCount = parseInt(urlParams.get('questionCount')); 
@@ -46,6 +47,7 @@ function getParameter(){
        sessionStorage.setItem("Exe_Number", urlParams.get('Exe_Number'));
        sessionStorage.setItem("ExeID", urlParams.get('ExeID'));
        sessionStorage.setItem("sesTokenID", urlParams.get('TokenID'));
+       sessionStorage.setItem('attemptedQuestionData', attemptedQuestionData);
 
        if(urlParams.get('lang')==null || urlParams.get('lang')=="")
        {

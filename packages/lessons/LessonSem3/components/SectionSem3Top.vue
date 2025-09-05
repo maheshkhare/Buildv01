@@ -184,6 +184,10 @@
                 💾 Save and Exit
               </button>
             </div> -->
+
+
+            <SaveExitButton @save-and-exit="handleSaveAndExit" />
+
           </div>
         </div>
       </div>
@@ -195,10 +199,11 @@
 import 'CSS/tailwind.css'
 import SVGShape from 'Components/SVGShape'
 import SVGImageButton from 'Components/SVGImageButton'
+import SaveExitButton from '../../../common-generic-templates/SaveExitButton.vue';
 
 export default {
   name: 'SectionSem3Top',
-  components: { SVGImageButton, SVGShape },
+  components: { SVGImageButton, SVGShape , SaveExitButton },
   props: {
     counter: Number,
     viewingPrevious: Boolean,
@@ -225,6 +230,19 @@ export default {
       jsonFileName: sessionStorage.getItem('jsonFile') || 'lesson1',
     }
   },
+
+
+watch: {
+  commonNumArray: {
+    immediate: true, // logs on mount too
+    deep: true,      // watch for changes inside array objects
+    handler(newVal) {
+      console.log("commonNumArray updated:", JSON.stringify(newVal, null, 2));
+    }
+  }
+}
+,
+
   computed: {
     gridClass() {
       const count = this.commonNumArray?.length || 0
@@ -272,6 +290,12 @@ export default {
     }
   },
   methods: {
+
+ handleSaveAndExit() {
+            console.log("Save and exit clicked");
+            this.$emit('save-and-exit');
+        },
+
     WordsAnswer(answer, index) {
       this.$emit('WordsAnswer', answer, index)
     },
@@ -284,6 +308,8 @@ export default {
     emitPreviousQuestion() {
       this.$emit('PreviousQuestion')
     },
+    
+
     
     getImgUrl(name) {
       try {

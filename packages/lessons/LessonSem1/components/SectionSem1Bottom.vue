@@ -37,7 +37,7 @@
         <svg
           v-if="showPreviousButton"
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="-330 50 70 90"
+          viewBox="-330 70 90"
           class="nav-button prev-button"
           filter="drop-shadow(0 0 4px gray)"
           transform="rotate(180)"
@@ -52,19 +52,15 @@
         </svg>
 
 
- <!-- Save and Exit Button -->
-            <!-- <div class="flex justify-center mt-2">
-              <button
-                @click="$emit('save-and-exit')"
-                class="text-blue-700 font-semibold cursor-pointer px-3 py-1 rounded hover:bg-blue-100 inline-block"
-                :style="{ fontSize: '18px', marginLeft: '22px' }"
-                type="button"
-              >
-                💾 Save and Exit
-              </button>
-            </div> -->
-
-
+      
+ <!-- Question Counter -->
+    <div class="grid grid-rows-0 grid-flow-col ml-auto mr-auto mt-5" style="width:auto;">
+      <p class="font-bold ml-auto mr-auto">
+        Question -
+        <span class="text-indigo-700">{{ counter + 1 }}</span> of
+        <span class="text-indigo-700">{{ totalQuestions }}</span>
+      </p>
+    </div>
 
 
 
@@ -76,7 +72,7 @@
         <svg
           v-if="showNextButton"
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="-330 50 70 90"
+          viewBox="70 90"
           class="nav-button next-button"
           filter="drop-shadow(0 0 4px gray)"
           @click="ClickNextButton"
@@ -89,6 +85,10 @@
           />
         </svg>
       </div>
+
+      
+           <SaveExitButton v-if="showNextButton" @save-and-exit="handleSaveAndExit"
+/>
     </div>
   </div>
 </template>
@@ -96,10 +96,12 @@
 <script>
 import 'CSS/tailwind.css'
 import SVGImageButton from 'Components/SVGImageButton'
+import SaveExitButton from '../../../common-generic-templates/SaveExitButton.vue';
+
 
 export default {
   name: 'SectionSem1Bottom',
-  components: { SVGImageButton },
+  components: { SVGImageButton, SaveExitButton},
   
   props: {
     acceptInput: {
@@ -113,6 +115,14 @@ export default {
     showPreviousButton: {
       type: Boolean,
       required: true
+    },
+    counter: {
+      type: Number,
+      default: 0
+    },
+    totalQuestions: {
+      type: Number,
+      default: 0
     },
     isReviewMode: {
       type: Boolean,
@@ -182,6 +192,12 @@ export default {
   },
   
   methods: {
+
+ handleSaveAndExit() {
+            console.log("Save and exit clicked");
+            this.$emit('save-and-exit');
+        },
+
     initializeDynamicRowCounts() {
       // Initialize with minimum rows for each column
       this.dynamicRowCounts = this.columns.map((column, index) => {
@@ -417,10 +433,6 @@ export default {
 
 .navigation-buttons {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  margin: 30px 0;
 }
 
 .nav-button {
