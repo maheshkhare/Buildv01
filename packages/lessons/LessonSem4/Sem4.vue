@@ -269,18 +269,27 @@ export default {
                         const originalQ = levelQuestions[questionIndex];
                         if (originalQ) {
                             
-        // console.log("originalQ" + JSON.stringify(originalQ, null, 2));
+        console.log("originalQ" + JSON.stringify(originalQ, null, 2));
                             // ✅ Handle both "Blanks" (Level 1) and "rectangles" (Level 5)
                             if (Array.isArray(originalQ.Blanks)) {
                                 
-        // console.log("originalQ.Blanks" + JSON.stringify(originalQ.Blanks, null, 2));
-                                originalQ.Blanks = originalQ.Blanks.map(blank => {
-                                const storedBlank = dr.FinalAnswer?.find(b => b.id === blank.id);
-                                return storedBlank ? { ...blank, value: storedBlank.value } : blank;
-                                });
+        console.log("originalQ.Blanks" + JSON.stringify(originalQ.Blanks, null, 2));
+                                // originalQ.Blanks = originalQ.Blanks.map(blank => {
+                                // const storedBlank = dr.FinalAnswer?.find(b => b.id === blank.id);
+                                // return storedBlank ? { ...blank, value: storedBlank.value } : blank;
+                                // });
+
+                                 originalQ.Blanks = originalQ.Blanks.map(blank => {
+        const storedBlank = dr.FinalAnswer?.find(b => b.id === blank.id);
+        if (storedBlank) {
+            // copy all keys from storedBlank into blank
+            return { ...blank, ...storedBlank };
+        }
+        return blank;
+    });
                             }
                             
-        // console.log("originalQ.Blanks after" + JSON.stringify(originalQ.Blanks, null, 2));
+        console.log("originalQ.Blanks after" + JSON.stringify(originalQ.Blanks, null, 2));
 
                             if (Array.isArray(originalQ.rectangles)) {
                                 originalQ.rectangles = originalQ.rectangles.map(rect => {

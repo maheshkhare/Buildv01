@@ -1,6 +1,6 @@
 <template>
 <div class="flex flex-wrap gap-4 mb-6">
-    <div v-for="(box, index) in iconBlanks" :key="box.id" @click="!box.value && $emit('select', box, index)" @dragover.prevent @drop="onDrop(index, $event)" class="flex items-center border-2 border-dashed border-gray-400 px-4 py-2 rounded cursor-pointer" :class="{ 'ring-2 ring-blue-400': selectedIconBox === box.id }" :ref="`blankBox_${index}`">
+    <div v-for="(box, index) in iconBlanks" :key="box.id" @click="!disabled &&!box.value && $emit('select', box, index)" @dragover.prevent="!disabled && $event.preventDefault()" @drop="!disabled && onDrop(index, $event)" class="flex items-center border-2 border-dashed border-gray-400 px-4 py-2 rounded cursor-pointer" :class="{ 'ring-2 ring-blue-400': selectedIconBox === box.id, 'cursor-pointer': !disabled, 'cursor-not-allowed opacity-50': disabled }" :ref="`blankBox_${index}`">
         <img :src="getImgUrlByFileName(box.symbol)" alt="icon" class="w-8 h-8 mr-4 object-contain" />
         <span class="border-b-2 border-black px-4">
             {{ box.value || '____' }}
@@ -14,7 +14,8 @@ export default {
     props: {
         iconBlanks: Array,
         selectedIconBox: [String, Number],
-        getImgUrlByFileName: Function
+        getImgUrlByFileName: Function,
+        disabled: { type: Boolean, default: false }
     },
     methods: {
         onDrop(index, event) {

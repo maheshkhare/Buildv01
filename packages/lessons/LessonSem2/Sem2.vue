@@ -11,24 +11,24 @@
                     <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed" :Questions_attempted="Questions_attempted" :correct_Answers="correct_Answers" :incorrect_Answers="incorrect_Answers" @FinalResult="FinalResult" :ResultHide="ResultHide" :ResultArrow="ResultArrow" />
 
                     <SectionSem2Intro v-show="InstructionShow" :instructionText="currentInstructionText" @PracticeNext="PracticeNext" />
-                   
-                    <SectionSem2Top v-show="PracticeOne" 
-                                    :accept-input="acceptInput" 
-                                    :commonNumArray="commonNumArray" 
-                                    :ImageNames="ImageNames" 
-                                    @NumberValue="NumberValue" 
-                                    @AnswerCheck="AnswerCheck" 
-                                    @save-and-exit="SaveAndExitNow" 
-                                    @NextQuestion="NextQuestion" 
-                                    @PreviousQuestion="PreviousQuestion" 
-                                    @WordsAnswer="WordsAnswer" 
-                                    :AnswerCheckShow="AnswerCheckShow" 
-                                    :NextQuestionShow="NextQuestionShow" 
-                                    :ProgressBar="ProgressBar" 
-                                    :Questions_attempted="Questions_attempted" 
-                                    :Total_Questions="Total_Questions" 
-                                    :instructionText="currentInstructionText" 
-                                    :counter="counter" 
+
+                    <SectionSem2Top v-show="PracticeOne"
+                                    :accept-input="acceptInput"
+                                    :commonNumArray="commonNumArray"
+                                    :ImageNames="ImageNames"
+                                    @NumberValue="NumberValue"
+                                    @AnswerCheck="AnswerCheck"
+                                    @save-and-exit="SaveAndExitNow"
+                                    @NextQuestion="NextQuestion"
+                                    @PreviousQuestion="PreviousQuestion"
+                                    @WordsAnswer="WordsAnswer"
+                                    :AnswerCheckShow="AnswerCheckShow"
+                                    :NextQuestionShow="NextQuestionShow"
+                                    :ProgressBar="ProgressBar"
+                                    :Questions_attempted="Questions_attempted"
+                                    :Total_Questions="Total_Questions"
+                                    :instructionText="currentInstructionText"
+                                    :counter="counter"
                                     :imageSet="currentImageSet" />
                 </div>
             </div>
@@ -152,7 +152,7 @@ export default {
 
             this.Total_Questions = this.questionSet.length;
             this.answeredState = Array(this.Total_Questions).fill(false);
-            
+
             // console.log("this.answeredState: " + JSON.stringify(this.answeredState, null, 2));
 
             this.ProgressBar = Array.from({

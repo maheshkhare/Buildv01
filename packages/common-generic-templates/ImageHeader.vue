@@ -17,17 +17,21 @@ export default {
   },
   computed: {
     isSpecial() {
-      return this.fileName === 'EFU-I' || this.fileName === 'CFT-P';
+      return this.fileName === 'EFU-I' || this.fileName === 'CFT-P' || this.fileName === 'CFC-I';
     },
      outerStyle() {
       if (this.fileName === 'CMC-PK') {
         return "width:160px; height:165px;";
+      } else if (this.fileName === 'CMR-I') {
+        return "width:620px; height:680px;";
       }
       return "width:180px; height:75px;";
     },
     innerStyle() {
       if (this.fileName === 'CMC-PK') {
         return "width:160px; height:160px;";
+      } else if (this.fileName === 'CMR-I') {
+        return "width:620px; height:660px;";
       }
       return "width:220px; height:65px;";
     }

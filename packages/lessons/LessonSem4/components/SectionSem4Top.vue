@@ -55,10 +55,10 @@
             <div class="w-full lg:w-3/4 p-4 border border-gray-300 lg:mr-4 flex flex-col">
                 <!-- ICON BLANKS -->
                 <!-- Non-CST-II -->
-                <ParagraphWithDroppableBlanks v-if="file_Name != 'CST-II'" :parsedParagraph="parsedParagraph" :getBlankValue="getBlankValue" @drop="handleDropInParagraph" />
+                <ParagraphWithDroppableBlanks v-if="file_Name != 'CST-II'" :parsedParagraph="parsedParagraph" :getBlankValue="getBlankValue" @drop="handleDropInParagraph" :disabled="disabled" />
 
                 <!-- CST-II -->
-                <IconBlanks v-if="file_Name == 'CST-II'" :iconBlanks="iconBlanks" :selectedIconBox="selectedIconBox" :getImgUrlByFileName="getImgUrlByFileName" @select="selectIconBox" @dropSymbol="handleDropSymbol" />
+                <IconBlanks v-if="file_Name == 'CST-II'" :iconBlanks="iconBlanks" :selectedIconBox="selectedIconBox" :getImgUrlByFileName="getImgUrlByFileName" @select="selectIconBox" @dropSymbol="handleDropSymbol" :disabled="disabled" />
                 <CSTParagraphImage v-if="file_Name === 'CST-II'" :paragraphText="paragraphText" :getImgUrlByFileName="getImgUrlByFileName" />
 
                 <!-- NAV + Save and Exit -->
@@ -206,6 +206,7 @@ export default {
             showExerciseView: false,
             draggedSymbol: null, // store dragged symbol here
             localBlanks: JSON.parse(JSON.stringify(this.iconBlanks || [])),
+            disabled: false
         }
     },
 
@@ -253,14 +254,17 @@ export default {
         },
 
         NextQuestion() {
+            this.disabled = false;
             this.$emit('NextQuestion')
         },
 
         emitPreviousQuestion() {
+            this.disabled = true;
             this.$emit('PreviousQuestion')
         },
 
         emitAnswerCheck() {
+            this.disabled = false; 
             this.$emit('AnswerCheck')
         },
 

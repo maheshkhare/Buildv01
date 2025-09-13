@@ -330,15 +330,22 @@ if (nextCounter < context.Total_Questions) {
 } else {
     // All questions done
     context.counter = nextCounter;
-    context.activity_Status = 'Completed';
-    context.Time_elapsed = secondsToTimeHelper(context.timestart);
+    context.activity_Status = 'Completed';    
     context.resultShow = true;
     context.PracticeOne = false;
     context.ResultHide = true;
 
+     // Sum all TimeTaken values
+// ✅ Safe reduce with check
+const totalTimeTaken = Array.isArray(context.CollectionResult) && context.CollectionResult.length > 0
+    ? Math.floor(context.CollectionResult.reduce((sum, item) => sum + (item.TimeTaken || 0), 0))
+    : 0;
+
+context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
+
     context.JsonArrData = JSON.stringify({
         ActivityStatus: context.activity_Status,
-        TimeElapsed: secondsToTimeHelper(context.timestart), // <-- convert to HH:MM:SS
+        TimeElapsed: secondsToTimeHelper(totalTimeTaken), // <-- convert to HH:MM:SS
         QuestionsAttempted: context.Questions_attempted,
         CorrectAnswers: context.correct_Answers,
         IncorrectAnswers: context.incorrect_Answers,
@@ -423,15 +430,23 @@ for (const group of context.instructionGroups) {
     console.log('context.CollectionResult in final', JSON.stringify(context.CollectionResult, null, 2));
     // Mark activity status
     context.activity_Status = 'Paused';
-    context.Time_elapsed = secondsToTimeHelper(context.timestart);
     context.resultShow = true;
     context.PracticeOne = false;
     context.ResultHide = true;
 
+     // Sum all TimeTaken values
+     // Sum all TimeTaken values
+// ✅ Safe reduce with check
+const totalTimeTaken = Array.isArray(context.CollectionResult) && context.CollectionResult.length > 0
+    ? Math.floor(context.CollectionResult.reduce((sum, item) => sum + (item.TimeTaken || 0), 0))
+    : 0;
+
+context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
+
     // Save JSON data
     context.JsonArrData = JSON.stringify({
         ActivityStatus: context.activity_Status,
-        TimeElapsed: secondsToTimeHelper(context.timestart),
+        TimeElapsed: secondsToTimeHelper(totalTimeTaken),
         QuestionsAttempted: context.Questions_attempted,
         CorrectAnswers: context.correct_Answers,
         IncorrectAnswers: context.incorrect_Answers,
@@ -457,9 +472,11 @@ for (const group of context.instructionGroups) {
 
 
 export function FinalResultHelper(context) {
+   // Sum all TimeTaken values
+const totalTimeTaken =  Math.floor(context.CollectionResult.reduce((sum, item) => sum + (item.TimeTaken || 0), 0));
     const resultData = JSON.stringify({
             ActivityStatus: context.activity_Status,
-            TimeElapsed: secondsToTimeHelper(context.timestart),
+            TimeElapsed: secondsToTimeHelper(totalTimeTaken),
             QuestionsAttempted: context.Questions_attempted,
             CorrectAnswers: context.correct_Answers,
             AttemptedQuestionNumbers: context.CollectionResult.map(q => String(q.QuestionIndex)),
@@ -986,7 +1003,6 @@ const questionId = String(originalQuestionNo).padStart(2, '0');
         context.practice0();
     } else {
         context.activity_Status = 'Completed';
-        context.Time_elapsed = secondsToTimeHelper(context.timestart);
         context.resultShow = true;
         context.PracticeOne = false;
         context.ResultHide = true;
@@ -1002,9 +1018,17 @@ const questionId = String(originalQuestionNo).padStart(2, '0');
             };
         });
 
+     // Sum all TimeTaken values
+// ✅ Safe reduce with check
+const totalTimeTaken = Array.isArray(detailedResults) && detailedResults.length > 0
+    ? Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0))
+    : 0;
+
+context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
+
         context.resultData = {
                 ActivityStatus: context.activity_Status,
-                TimeElapsed: secondsToTimeHelper(context.timestart),
+                TimeElapsed: secondsToTimeHelper(totalTimeTaken),
                 QuestionsAttempted: context.Questions_attempted,
                 CorrectAnswers: context.correct_Answers,
                 IncorrectAnswers: context.incorrect_Answers,
@@ -1218,7 +1242,6 @@ const questionId = String(originalQuestionNo).padStart(2, '0');
     }
 
     context.activity_Status = 'Paused';
-    context.Time_elapsed = secondsToTimeHelper(context.timestart);
     context.resultShow = true;
     context.PracticeOne = false;
     context.ResultHide = true;
@@ -1230,7 +1253,7 @@ const questionId = String(originalQuestionNo).padStart(2, '0');
         const entryQNo = String(entry.id).padStart(2, '0');
 
         const alreadyExists = detailedResults.some(
-            item => String(item.questionNo).padStart(2, '0') === entryQNo
+            item => String(item.QuestionIndex).padStart(2, '0') === entryQNo
         );
 
         
@@ -1247,9 +1270,17 @@ const questionId = String(originalQuestionNo).padStart(2, '0');
         }
     });
 
+     // Sum all TimeTaken values
+const totalTimeTaken = Array.isArray(detailedResults) && detailedResults.length > 0
+    ? Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0))
+    : 0;
+
+context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
+
+
     context.resultData = {
             ActivityStatus: context.activity_Status,
-            TimeElapsed: secondsToTimeHelper(context.timestart),
+            TimeElapsed: secondsToTimeHelper(totalTimeTaken),
             QuestionsAttempted: context.Questions_attempted,
             CorrectAnswers: context.correct_Answers,
             IncorrectAnswers: context.incorrect_Answers,
@@ -1596,7 +1627,7 @@ export async function mountedHelper(context,level,response) {
       const parsed = JSON.parse(saved);
       console.log("Restoring saved results:"+ JSON.stringify(parsed,null,2));
 
-      if (parsed.DetailedResults && parsed.DetailedResults.length > 0) {
+      if (parsed && parsed.DetailedResults && parsed.DetailedResults.length > 0) {
         // Build completedSets from ALL saved results
         context.completedSets = parsed.DetailedResults.map((result, idx) => {
           const restoredColumns = result.FinalAnswer.map((col, colIndex) =>
@@ -2081,9 +2112,12 @@ export function  showResultshelper1(context) {
     };
   }) || [];
 
+           // Sum all TimeTaken values
+const totalTimeTaken = Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0));
+
   return {
       ActivityStatus: context.activity_Status || "Completed",
-      TimeElapsed: context.secondsToTime(context.timestart),
+      TimeElapsed: context.secondsToTime(totalTimeTaken),
       QuestionsAttempted: context.Questions_attempted || 0,
       CorrectAnswers: context.correct_Answers || 0,
       IncorrectAnswers: context.incorrect_Answers || 0,
@@ -2289,7 +2323,6 @@ export function SaveAndExitNowhelper1(context, updateCounters = true) {
 }
 
   context.activity_Status = "Partially Completed";
-  context.Time_elapsed = context.secondsToTime(context.timestart);
   context.timeInSeconds = context.timestart;
   context.resultShow = true;
   context.InstructionShow = false;
@@ -2323,10 +2356,18 @@ export function SaveAndExitNowhelper1(context, updateCounters = true) {
   };
 });
 
+     // Sum all TimeTaken values
+// ✅ Safe reduce with check
+const totalTimeTaken = Array.isArray(detailedResults) && detailedResults.length > 0
+    ? Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0))
+    : 0;
+
+context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
+
 
   context.resultData = {
       ActivityStatus: context.activity_Status,
-      TimeElapsed: context.secondsToTime(context.timestart),
+      TimeElapsed: context.secondsToTime(totalTimeTaken),
       QuestionsAttempted: context.Questions_attempted,
       CorrectAnswers: context.correct_Answers,
       IncorrectAnswers: context.incorrect_Answers,
@@ -2407,9 +2448,12 @@ export function FinalResulthelper1(context) {
     };
   });
 
+           // Sum all TimeTaken values
+const totalTimeTaken = Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0));
+
   const fullResult = {
       ActivityStatus: context.activity_Status || "Completed",
-      TimeElapsed: context.secondsToTime(context.timestart),
+      TimeElapsed: context.secondsToTime(totalTimeTaken),
       QuestionsAttempted: context.Questions_attempted || 0,
       CorrectAnswers: context.correct_Answers || 0,
       IncorrectAnswers: context.incorrect_Answers || 0,
@@ -2819,9 +2863,17 @@ export function WordsAnswerhelper3(context, Answer, index) {
           };
         });
 
+                 // Sum all TimeTaken values
+// ✅ Safe reduce with check
+const totalTimeTaken = Array.isArray(detailedResults) && detailedResults.length > 0
+    ? Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0))
+    : 0;
+
+context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
+
         context.resultData = {
             ActivityStatus: context.activity_Status,
-            TimeElapsed: context.timestart,
+            TimeElapsed: totalTimeTaken,
             QuestionsAttempted: context.Questions_attempted,
             CorrectAnswers: context.correct_Answers,
             IncorrectAnswers: context.incorrect_Answers,
@@ -2947,9 +2999,12 @@ export function SaveAndExitNowhelper3(context) {
           };
         });
 
+         // Sum all TimeTaken values
+const totalTimeTaken = Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0));
+
         context.resultData = {
             ActivityStatus: context.activity_Status,
-            TimeElapsed: context.timestart,
+            TimeElapsed: totalTimeTaken,
             QuestionsAttempted: context.Questions_attempted,
             CorrectAnswers: context.correct_Answers,
             IncorrectAnswers: context.incorrect_Answers,

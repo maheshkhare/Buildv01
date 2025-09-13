@@ -13,8 +13,9 @@
           v-else
           :key="'blank-' + idx"
           class="inline-block border-b-2 border-black px-4 mx-1 min-w-[40px] text-center align-baseline"
-          @dragover.prevent
-          @drop="$emit('drop', part.id, $event)"
+          :class="{ 'opacity-50 cursor-not-allowed': disabled }"
+          @dragover.prevent="onDragOver($event)"
+          @drop="onDrop(part.id, $event)"
         >
           {{ getBlankValue(part.id) || '____' }}
         </span>
@@ -27,7 +28,26 @@
 export default {
   props: {
     parsedParagraph: Array,
-    getBlankValue: Function
+    getBlankValue: Function,
+    disabled: { type: Boolean, default: false }
+  },
+   methods: {
+    onDragOver(event) {
+      if (this.disabled) {
+        event.preventDefault(); // block dropping
+        event.stopPropagation();
+        return false;
+      }
+      event.preventDefault(); // allow dropping only when not disabled
+    },
+    onDrop(id, event) {
+      if (this.disabled) {
+        event.preventDefault(); // block update
+        event.stopPropagation();
+        return false;
+      }
+      this.$emit('drop', id, event);
+    }
   }
 }
 </script>
