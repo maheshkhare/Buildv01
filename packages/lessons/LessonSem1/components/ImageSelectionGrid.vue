@@ -45,15 +45,25 @@ export default {
     }
   },
   methods: {
-    getImagePath(imageFileName) {
-      // If using Vue CLI/Webpack, this works (adjust if using Vite or absolute/public)
-      try {
-        return require(`../assets/graphicsEMU-CSI/${imageFileName}`);
-      } catch (e) {
-        // Will also fallback to placeholder if image not found at build time
-        return '';
-      }
-    },
+   getImagePath(imageFileName) {
+  try {
+    const jsonFile = sessionStorage.getItem('jsonFile') || '';
+
+    let folder = '';
+    if (jsonFile === 'EMU-CSI') {
+      folder = 'graphicsEMU-CSI';
+    } else if (jsonFile === 'NFU-K') {
+      folder = 'graphicsNFU-K';
+    } else {
+      folder = 'graphics'; // optional fallback folder
+    }
+
+    return require(`../assets/${folder}/${imageFileName}`);
+  } catch (e) {
+    return ''; // fallback if image not found
+  }
+},
+
     handleImageClick(item) {
       if (this.placedWords.includes(item.word)) return;
       this.selectedWord = this.selectedWord === item.word ? null : item.word;
