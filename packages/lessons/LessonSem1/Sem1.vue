@@ -133,9 +133,11 @@ export default {
     };
   },
   computed: {
-    isEmuCsiLesson() {
-      return (sessionStorage.getItem('jsonFile') || '') === 'EMU-CSI';
-    },
+  isEmuCsiLesson() {
+  const jsonFile = sessionStorage.getItem('jsonFile') || '';
+  return ['EMU-CSI', 'NFU-K'].includes(jsonFile);
+},
+
     showNextButtonAlways() {
       return this.isEmuCsiLesson ? true : this.showNextButton;
     },
@@ -144,7 +146,7 @@ export default {
     },
     showStoryButton() {
       const jsonParam = sessionStorage.getItem('jsonFile') || '';
-      return ['DMU-I', 'CSU-PK', 'DMU-II'].includes(jsonParam);
+      return ['DMU-I', 'CSU-PK', 'DMU-II','DMU-III'].includes(jsonParam);
     },
     isSingleColumnMode() {
       const jsonParam = sessionStorage.getItem('jsonFile') || '';

@@ -1,0 +1,410 @@
+{
+  "sets": {
+    "level1": [
+      {
+         "id": "Set1_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "ThingsinthePurse",
+            "displayName": "Things in the Purse",
+            "words": ["Comb", "Coin", "Lipsticks","Keys","Vallet"],
+            "images": ["Comb.png", "Coin.png", "Lipstick.png","Key.png","Vallet.png"]
+          },
+          {
+            "name": "Thingsintheschoolbag",
+            "displayName": "Things in the Schoolbag",
+            "words": ["Compass box", "Book", "Calculator","Crayons"],
+            "images": ["Compasbox.png", "Book.png", "Calculator.png","Crayons.png"]
+          }
+        ]
+      },
+      {
+        "id": "Set1_1",
+        "levelName": "Find the objects",
+        "categories": [
+            {
+            "name": "Thingsinthetifinbox .",
+            "displayName": "Things in the Tiffin-box",
+            "words": ["Sandwitch", "Apple", "Cookie","Cabage"],
+            "images": ["Sandwich.png", "Apple.png", "Cookie.png","Cabbage.png"]
+            },
+            {
+            "name": "Thingsinthefirstaidbox",
+            "displayName": "Things in the first aid box",
+            "words": ["Band-aid", "Scissor", "Mesh", "Pills"],
+            "images": ["Band-aid.png", "Scissors.png", "Mesh.png", "Pills.png"]
+            },
+             {
+            "name": "Thingsinthefootballcourt",
+            "displayName": "Things in the Football Court",
+            "words": ["Football", "American Football", "Playing", "Net"],
+            "images": ["Football.png", "American football.png", "Playing.png", "Net.png"]
+            }
+        ]
+    }
+    ],
+    "level2":[
+         {
+         "id": "Set2_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsinthedresser",
+            "displayName": "Things in the Dresser",
+            "words": ["Shirt", "Pant", "Socks","Football","Shoe"],
+            "images": ["Shirt.png", "Pant.png", "Football.png","Socks.png","Shoe.png"]
+          },
+          {
+            "name": "Thingsintherefrigerator",
+            "displayName": "Things in the refrigerator",
+            "words": ["Veggies", "Eags", "Bottles","Fruits"],
+            "images": ["Veggies.png", "Eegs.png", "Bottles.png","Fruits.png"]
+          }
+        ]
+      },
+       {
+         "id": "Set2_1",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Partsofthecomputersystem",
+            "displayName": "Parts of the Computer system",
+            "words": ["CPU", "Mouse", "Keyboard","Screen"],
+            "images": ["CPU.png", "Mouse.png", "Keyboard.png","Screen.png"]
+          },
+          {
+            "name": "Thingsinthegarage",
+            "displayName": "Things in the garage",
+            "words": ["Air pump", "Cycle", "Spanner"],
+            "images": ["Air pump.png", "Cycle.png", "Spanner.png"]
+          }
+        ]
+      }
+    ],
+    "level3":[
+        {
+         "id": "Set3_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsinthegrocerystore",
+            "displayName": "Things in the grocery-store",
+            "words": ["Bread", "Can", "Breakfast cereals","Milk packet","Trolly","Candy"],
+            "images": ["Bread.png", "Can.png", "Breakfast cereals.png","Milk pouch.png","Trolly.png","Candy.png"]
+          },
+          {
+            "name": "Thingsinthecupboard",
+            "displayName": "Things in the cupboard",
+            "words": ["Purse", "Books", "Socks","Shirt","Jacket","Dress","Hanger"],
+            "images": ["Purse.png", "Books.png", "Socks.png","Shirt2.png","Jacket.png","Dress.png","Hanger.png"]
+          }
+        ]
+      },
+      {
+        "id": "Set3_1",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Furnitureinlivingroom",
+            "displayName": "Furniture in living room",
+            "words": ["Chair", "Lamp", "Sofa ","Table","TV"],
+            "images": ["Chair.png", "Lamp.png", "Sofa.png","Table.png","TV.png"]
+          },
+          {
+            "name": "Thingsintheshelf",
+            "displayName": "Things in the shelf",
+            "words": ["Clock", "Trophy", "Bottles","Pen holder","Pot","Book"],
+            "images": ["Clock.png", "Trophy.png", "Bottles.png","Pen holder.png","Pot.png","Book.png"]
+          },
+           {
+            "name": "Partsofthebus",
+            "displayName": "Parts of the Bus",
+            "words": ["Stearing", "Tyre", "Driver"],
+            "images": ["Stearing.png", "Tyre.png", "Driver.png"]
+          }
+        ]
+      }
+    ],
+    "level4":[
+        {
+             "id": "Set4_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsinthekitchendrewer",
+            "displayName": "Things in the kitchen drewer",
+            "words": ["Bowl", "Glass", "Cup","Plate","Candle holder","Folk","Knief"],
+            "images": ["Bowl.png", "Glass.png", "Cup.png","Plate.png","Candleholder.png","Folk.png","Knief.png"]
+          },
+          {
+            "name": "thingsontheDesk",
+            "displayName": "things on the Desk",
+            "words": ["Pen", "Laptop", "Files","Book","Notepad"],
+            "images": ["Pen.png", "Laptop.png","Files.png", "Book.png","Notepad.png"]
+          }
+        ]
+        },
+          {
+             "id": "Set4_1",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "AnimalsintheZoo",
+            "displayName": "Animals in the Zoo",
+            "words": ["Elephant", "Snake", "Aligator","Lion","giraffe","Owl"],
+            "images": ["Elephant.png", "Snake.png", "Aligator.png","Lion.png","giraffe.png","Owl.png"]
+          },
+          {
+            "name": "Thingsintheschool",
+            "displayName": "Things in the school",
+            "words": ["Girl", "Bell", "Bag","school-desk","Board"],
+            "images": ["Girl.png", "Bell.png","Bag.png", "School-desk.png","Board.png"]
+          }
+        ]
+        }
+    ],
+    "level5":[
+      {
+          "id": "Set5_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsinthefarm",
+            "displayName": "Things in the Farm",
+            "words": ["Barn", "Silo", "Cattle","Cow","Duck","Hen","Horse","Sheep"],
+            "images": ["Barn.png", "Silo.png", "Cattle.png","Cow.png","Duck.png","Hen.png","Horse.png","Sheep.png"]
+          },
+          {
+            "name": "Thingsonthediningtable",
+            "displayName": "Things on the Dining Table",
+            "words": ["Jug", "Salt", "Fish","Tissue","Bowl","Bowl set"],
+            "images": ["Jug.png", "Salt.png","Fish.png", "Tissue.png","Bowl2.png","Bowl3.png"]
+          }
+        ]
+      },
+      {
+        
+          "id": "Set5_1",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsinsportshop",
+            "displayName": "Things in the  Sports-shop",
+            "words": ["Badminton", "Ball", "Volly-ball","Table-tanis","Glasses","Bat"],
+            "images": ["Badminton.png", "Ball.png", "Ball2.png","Tabletanis.png","Glasses.png","Bat.png"]
+          },
+          {
+            "name": "Thingsinthepond",
+            "displayName": "Things in the Pond",
+            "words": ["Fish", "Lotus", "Frog","Pebbles","Water plant"],
+            "images": ["Fish2.png", "Lotus.png","Frog.png", "Pebbles.png","Water plant.png"]
+          },
+          {
+            "name": "Thingsinthegarden",
+            "displayName": "Things in the Garden",
+            "words": ["Playing girl", "Swing", "Bench","Tree"],
+            "images": ["Rope.png", "Swing.png","Bench.png", "Tree.png"]
+          }
+        ]
+
+      }
+    ],
+    "level6":[
+      {
+          "id": "Set6_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "AnimalsintheZoo",
+            "displayName": "Animals in the Zoo",
+            "words": ["Parrot", "Elephant", "Bear","Camel","Lion","Fox","Snake","Deer"],
+            "images": ["Parrot.png", "Elephant.png", "Bear.png","Camel.png","Lion.png","Fox.png","Snake.png","Deer.png"]
+          },
+          {
+            "name": "ThingsintheFarm",
+            "displayName": "Things in the Farm",
+            "words": ["Cow", "Border", "Cattlefarm","Sheep","Cattle"],
+            "images": ["Cow.png", "Border.png","Cattlefarm.png", "Sheep.png","Cattle.png"]
+          }
+        ]
+      },
+      {
+        "id": "Set6_1",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsinthebakery",
+            "displayName": "Things in the bakery",
+            "words": ["Muffins", "Billing machine", "Gas","Cookie","Cake Base","Bread"],
+            "images": ["Muffins.png", "Billing machine.png", "Gas.png","Cookie.png","Cakebase.png","Bread2.png"]
+          },
+          {
+            "name": "ThingsintheShoppingmall",
+            "displayName": "Things in the Shopping mall",
+            "words": ["Car", "Table", "Dress","Playing machine","Escalator","Hotel tag","Heels"],
+            "images": ["Car.png", "Table2.png","Dress2.png", "Playing machine.png","Escalator.png","Hotel tag.png","Heels.png"]
+          }
+        ]
+      }
+    ],
+
+   "level7": [
+
+    {
+      
+        "id": "Set7_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsinthegarage",
+            "displayName": "Things in the Garage",
+            "words": ["Handsaw", "Spanner", "Bucket","Cycle","Hammer","Screw driwer","Car","Paint brush"],
+            "images": ["Handsaw.png", "Spanner2.png","Bucket.png", "Cycle2.png","Hammer.png","Screw-driwer.png","Car2.png","Paint brush.png"]
+          },
+          {
+            "name": "ThingsattheSeabed",
+            "displayName": "Things at the Seabed",
+            "words": ["Fish", "Jelly fish", "Sea Horse","Octopus","Prawn","Star fish","Tortoise","Crab"],
+            "images": ["Fish3.png", "Jellyfish.png","Seahorse.png", "octopus.png","Prawn.png","Starfish.png","Tortoise.png","Crab.png"]
+          }
+        ]
+    },
+    {
+      
+        "id": "Set7_1",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsinthekitchen",
+            "displayName": "Things in the Kitchen",
+            "words": ["Oven", "Knief set", "Chimney","Plate","Coupboard","Gasstove"],
+            "images": ["Oven.png", "Kniefset.png","Chimney.png", "Plate3.png","Coupboard.png","Gasstove.png"]
+          },
+          {
+            "name": "Thingsattheice-skatingrink",
+            "displayName": "Things at the ice-skating rink",
+            "words": ["Skateboard", "Rope", "Ice SKates","Helmet","Knee-guard","Gloves"],
+            "images": ["Skateboard.png", "Rope2.png","Iceskates.png", "Helmet.png","Kneeguard.png","Gloves.png"]
+          }
+        ]
+    }
+    ],
+    "level8":[
+      {
+         "id": "Set8_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsintheairport",
+            "displayName": "Things in the Airport",
+            "words": ["Helicopter", "Plane", "Bus","People","Trafic Cone"],
+            "images": ["Helicopter.png", "Plane.png","Bus.png","Person.png", "Traficcone.png"]
+          },
+          {
+            "name": "Thingsinthecloset",
+            "displayName": "Things in the closet",
+            "words": ["Book", "Purse", "Dress","Scarf","Socks","Shoe","Jacket"],
+            "images": ["Book2.png", "Purse2.png","Dress3.png", "Scarf.png","Socks.png","Shoes.png","Jacket.png"]
+          }
+        ]
+
+      },
+      {
+         "id": "Set8_1",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsintherailwaystation",
+            "displayName": "Things at the railway station",
+            "words": ["Bench", "Gate", "Bag","Train"],
+            "images": ["Bench2.png", "Gate.png","Bag2.png", "Train.png"]
+          },
+          {
+            "name": "ThingsattheMuseum",
+            "displayName": "Things at the Museum",
+            "words": ["Stopwatch", "Phone", "Watchman","Money","Crown","Mirror","Envolup"],
+            "images": ["Stopwatch.png", "Phone.png","Watchman.png", "Money.png","Crown.png","Mirror.png","Envolup.png"]
+          }
+        ]
+      }
+    ],
+    "level9":[
+      {
+         "id": "Set9_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "ThingsintheRefrigerator",
+            "displayName": "Things in the Refrigerator",
+            "words": ["Juice", "Milk", "Eags","Meat ball","Cake","Cheeze","Veggies"],
+            "images": ["Juice.png", "Milk.png","Eegs.png","Meatball.png", "Cake.png","Cheeze.png","Veggies.png"]
+          },
+          {
+            "name": "Thingsintheclassroom",
+            "displayName": "Things in the classroom",
+            "words": ["Board", "Bench", "Uniform","Books","Bag"],
+            "images": ["Board.png", "Bench.png","Uniform.png", "Books.png","Bag.png"]
+          }
+        ]
+      },
+      {
+         "id": "Set9_1",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsstthedrawer",
+            "displayName": "Things in the drawer",
+            "words": ["Pin", "Glue", "Files","Scissor","Notepad","Pencil","Wire"],
+            "images": ["Pin.png","Glue.png","Files.png" ,"Scissors.png", "Notepad2.png","Pencil.png","Wire.png"]
+          },
+          {
+            "name": "ThingsintheGarden",
+            "displayName": "Things in the Garden",
+            "words": ["Grass", "Pebbles", "Fountain","Flower","Watering can","Rake","Tree","Bench"],
+            "images": ["Grass.png", "Pebbles.png","Fountain.png", "Flower.png","Watering can.png","Rake.png","Tree.png","Bench.png"]
+          }
+        ]
+      }
+    ],
+    "level10":[
+      {
+          "id": "Set10_0",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "thingsontheDesk",
+            "displayName": "Things on the Desk",
+            "words": ["Stepler", "Book", "Ruler","Scissor","Laptop","Pencil","Pin","Pen","Paper"],
+            "images": ["Stepler.png","Book.png","Ruler.png" ,"Scissors.png", "Laptop.png","Pencil.png","Pin.png","Pen.png","Paper.png"]
+          },
+          {
+            "name": "Thingsintheaquarium",
+            "displayName": "Things in the aquarium",
+            "words": ["Fish", "Star fish", "Jelly fish","Fish","Fish","Fish","Fish","Fish"],
+            "images": ["Fish7.png","Starfish.png","Jellyfish.png","Fish2.png","Fish3.png","Fish4.png","Fish5.png","Fish6.png"]
+          }
+        ]
+      },
+      {
+          "id": "Set10_1",
+        "levelName": "Find the objects",
+        "categories": [
+          {
+            "name": "Thingsinthesalon",
+            "displayName": "Things in the salon",
+            "words": ["Comb", "Scissor", "Chair","Hair drier","Towel","Pencil","Pin","Pen","Paper"],
+            "images": ["Comb.png","Scissors2.png","Chair2.png","Hairdrier.png", "Towel.png","Pencil.png","Pin.png","Pen.png","Paper.png"]
+          },
+          {
+            "name": "Thingsinthehospital",
+            "displayName": "Things in the Hospital",
+            "words": ["Ambulance", "Stethoscope", "Operation Lights","Doctor","Saline","Nursecap","Injection","First aid kit","Strecher"],
+            "images": ["Ambulance.png","Stethoscope.png","Operation lights.png","Doctor.png","Saline.png","Nursecap.png","Injection.png","Firstaidkit.png","Strecher.png"]
+          }
+        ]
+      }
+    ]
+
+}
+}
