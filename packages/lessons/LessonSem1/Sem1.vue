@@ -133,9 +133,11 @@ export default {
     };
   },
   computed: {
-    isEmuCsiLesson() {
-      return (sessionStorage.getItem('jsonFile') || '') === 'EMU-CSI','NFU-K';
-    },
+   isEmuCsiLesson() {
+  const jsonFile = sessionStorage.getItem('jsonFile') || '';
+  return ['EMU-CSI', 'NFU-K'].includes(jsonFile);
+},
+
     showNextButtonAlways() {
       return this.isEmuCsiLesson ? true : this.showNextButton;
     },
