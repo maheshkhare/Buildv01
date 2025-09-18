@@ -35,27 +35,27 @@
             "id":"Set1_1",
               "categories": [
                 {
-                "name": "1. Things in a house that can be heard.",
+                "name": "Things in a house that can be heard.",
                 "words": ["Bell", "Phone", "Cooker", "Television", "Radio"]
                 },
                 {
-                "name": "2. Continents",
+                "name": "Continents",
                 "words": ["Africa", "Asia", "Europe", "Antarctica", "Australia"]
                 },
                 {
-                "name": "3. Things to take on a holiday",
+                "name": "Things to take on a holiday",
                 "words": ["Umbrella", "Clothes", "Camera", "Tickets", "Sunglasses"]
                 },
                 {
-                "name": "4. Thing in a refrigerator",
+                "name": "Thing in a refrigerator",
                 "words": ["Ice", "Fruits", "Vegetables", "Milk", "Greens"]
                 },
                 {
-                "name": "5. Famous People",
+                "name": "Famous People",
                 "words": ["Nelson Mandela", "Neil Armstrong", "President", "Prime Minister", "Mayor"]
                 },
                 {
-                "name": "6. Things you read",
+                "name": "Things you read",
                 "words": ["Magazine", "Books", "News", "Novels", "Comics"]
                 }
             ]
@@ -101,8 +101,8 @@
                     "words": ["Earth", "Saturn", "Uranus", "Venus", "Jupiter", "Maths", "Science"]
                     },
                     {
-                    "name": "Farm Animals",
-                    "words": ["Horse", "Coat", "Pig", "Cow", "Horse", "Cathe", "Sheep"]
+                  "name": "Farm Animals",
+                   "words": ["Horse", "Goat", "Pig", "Cow", "Sheep"]
                     },
                     {
                     "name": "Subjects",
@@ -128,7 +128,7 @@
                 },
                 {
                 "name": "Farm Animals",
-                "words": ["Horse", "Coat", "Pig", "Cow", "Horse", "Cathe", "Sheep"]
+                "words": ["Horse", "Goat", "Pig", "Cow", "Sheep"]
                 },
                 {
                 "name": "Subjects",
@@ -188,7 +188,7 @@
                 "words": ["Friendly", "Unhappy","proud", "Wise","safe"]
                 },
                 {
-                "name": " YOU CAN PICK UP",
+                "name": "YOU CAN PICK UP",
                 "words": ["Block", "kite", "Dollar", "Watch", "shovel"]
                 },
                 {
@@ -205,27 +205,27 @@
                 "id":"Set2_1",
                 "categories": [
                     {
-                    "name": "1. Things that can be tied",
+                    "name": "Things that can be tied",
                     "words": ["Hair", "Band", "Cord", "Ribbon"]
                     },
                     {
-                    "name": "2. Things made of wood",
+                    "name": "Things made of wood",
                     "words": ["Wardrobe", "Bed", "Table", "Fence", "Floor"]
                     },
                     {
-                    "name": "3. Rainbow Colors",
+                    "name": "Rainbow Colors",
                     "words": ["Yellow", "Blue", "Red", "Green", "Indigo"]
                     },
                     {
-                    "name": "4. Electronics",
+                    "name": "Electronics",
                     "words": ["Phone", "Laptop", "Tab", "Computers", "Air conditioner"]
                     },
                     {
-                    "name": "5. Professions",
+                    "name": "Professions",
                     "words": ["Artist", "Scientist", "Lumberjack", "Shopkeeper", "Carpenter"]
                     },
                     {
-                    "name": "6. Languages",
+                    "name": "Languages",
                     "words": ["Mandarin", "Spanish", "English", "Arabic", "Hindi"]
                     }
                 ]
@@ -330,7 +330,7 @@
                     "words": ["Recliner", "Audience", "Screen", "Green room", "Curtain", "Performer","Script"]
                     },
                     {
-                    "name": "Things that come in pair",
+                    "name": "Things that come in pairs",
                     "words": ["Eyes", "Socks", "Shoes", "Cuff links", "Gloves", "Hands"]
                     },
                     {
@@ -370,7 +370,7 @@
                         },
                         {
                         "name": "THINGS YOU FIND OUTSIDE",
-                        "words": ["Road","Ranch","Sea","Rock" ,"river"]
+                        "words": ["Road","Ranch","Sea","Rock","river"]
                         }
                 ]
             },
@@ -378,27 +378,27 @@
                 "id":"Set3_1",
                  "categories": [
                     {
-                    "name": "1. Natural Disasters",
+                    "name": "Natural Disasters",
                     "words": ["Floods", "Earthquake", "Tsunami", "Hurricane", "Tornado"]
                     },
                     {
-                    "name": "2. Things you can walk on",
+                    "name": "Things you can walk on",
                     "words": ["Path", "Road", "Footpath", "Grass", "Floor"]
                     },
                     {
-                    "name": "3. Money",
+                    "name": "Money",
                     "words": ["Dollar", "Penny", "Pound", "Nickel", "Note"]
                     },
                     {
-                    "name": "4. Planets",
+                    "name": "Planets",
                     "words": ["Neptune", "Mars", "Jupiter", "Venus", "Uranus"]
                     },
                     {
-                    "name": "5. Relations",
+                    "name": "Relations",
                     "words": ["Niece", "Nephew", "Aunt", "Brother-in-law", "Sister"]
                     },
                     {
-                    "name": "6. Abstract nouns",
+                    "name": "Abstract nouns",
                     "words": ["Growth", "Hope", "Dream", "Sleep", "Anger"]
                     }
                 ]
@@ -543,23 +543,23 @@
                 "id":"Set4_1",
                 "categories": [
                     {
-                    "name": "1. Things we can cook",
+                    "name": "Things we can cook",
                     "words": ["Cookie", "Rice", "Cake", "Vegetables", "Pulses", "Wheat"]
                     },
                     {
-                    "name": "2. Related to animals",
+                    "name": "Related to animals",
                     "words": ["Hoof", "Legs", "Head", "Fur", "Teeth", "Tail","Hunting"]
                     },
                     {
-                    "name": "3.Waterbodies",
+                    "name": "Waterbodies",
                     "words": ["Brook", "Creek", "Beach", "Pond", "Ocean", "River"]
                     },
                     {
-                    "name": "4. Time",
+                    "name": "Time",
                     "words": ["Today", "Yesterday", "Soon", "Early", "Later", "Tomorrow"]
                     },
                     {
-                    "name": "5. Things at the airport",
+                    "name": "Things at the airport",
                     "words": ["Elevator", "Trolley", "Counters", "Gates", "Kiosk", "Parking lot","Escalator"]
                     }
                 ]
@@ -610,11 +610,11 @@
                 },
                 {
                 "name": "Things at a mall",
-                "words": ["Food-vending Machine", "Trial Rooms", "Escalator", "Atm Machine" ,"Coffee Shop"]
+                "words": ["Food-vending Machine", "Trial Rooms", "Escalator", "Atm Machine","Coffee Shop"]
                 },
                 {
                 "name": "Related with sleep",
-                "words": ["Bed", "Blanket", "Pillow", "Mattress" ,"Bedsheet"]
+                "words": ["Bed", "Blanket", "Pillow", "Mattress","Bedsheet"]
                 }
             ]
             },
@@ -711,27 +711,27 @@
                 "id":"Set5_1",
                 "categories": [
                     {
-                    "name": "1. Hobbies",
+                    "name": "Hobbies",
                     "words": ["Dancing", "Reading", "Singing", "Baking", "Sports"]
                     },
                     {
-                    "name": "2. Seasons",
+                    "name": "Seasons",
                     "words": ["Spring", "Autumn", "Summer", "Winter", "Monsoon"]
                     },
                     {
-                    "name": "3.Greetings",
+                    "name": "Greetings",
                     "words": ["Hello", "Hi", "Welcome", "Morning", "Thank you"]
                     },
                     {
-                    "name": "4.Things found outside",
+                    "name": "Things found outside",
                     "words": ["Rocks", "Station", "Trees", "Bus", "Road"]
                     },
                     {
-                    "name": "5.Landscapes",
+                    "name": "Landscapes",
                     "words": ["Valley", "Terrain", "Plateau", "Mountains", "Forest"]
                     },
                     {
-                    "name": "6. You can",
+                    "name": "You can",
                     "words": ["Walk", "Talk", "Jump", "Sing", "Write"]
                     }
                 ]
@@ -880,27 +880,27 @@
                 "id":"Set6_1",
                 "categories": [
                     {
-                    "name": "1. Things to do outside",
+                    "name": "Things to do outside",
                     "words": ["Play", "Walk", "Run", "Jump", "Drive", "Ride"]
                     },
                     {
-                    "name": "2. Found in cities",
+                    "name": "Found in cities",
                     "words": ["Bridges", "Mall", "Banks", "Sky-rise", "Flyover", "Traffic"]
                     },
                     {
-                    "name": "3.Transportation",
+                    "name": "Transportation",
                     "words": ["Bus", "Train", "Van", "Moped", "Truck", "Helicopter"]
                     },
                     {
-                    "name": "4. Ways people behave",
+                    "name": "Ways people behave",
                     "words": ["Cautious", "Adventurous", "Curious", "Impatient", "Sober", "Lazy"]
                     },
                     {
-                    "name": "5. Fruits",
+                    "name": "Fruits",
                     "words": ["Banana", "Cherries", "Kiwi", "Papaya", "Grapes", "Peach"]
                     },
                     {
-                    "name": "6. Vegetables",
+                    "name": "Vegetables",
                     "words": ["Cauliflower", "Carrot", "Garlic", "Cucumber", "Broccoli", "Bell-pepper"]
                     }
                 ]
@@ -938,7 +938,7 @@
                 "id":"Set6_3",
                   "categories": [
                     {
-                    "name": "Sport Equipment",
+                    "name": "Sport Equipments",
                     "words": ["Shin Pads", "Gloves", "Helmets", "Mouth Guard", "Elbow pads", "Jockstraps"]
                     },
                     {
@@ -947,7 +947,7 @@
                     },
                     {
                     "name": "Things that are sticky",
-                    "words": ["Candy floss", "Chewing", "Gum", "Syrup", "Duct-tape", "Asphalt", "Toffee"]
+                    "words": ["Candy floss", "Chewing-Gum", "Syrup", "Duct-tape", "Asphalt", "Toffee"]
                     },
                     {
                     "name": "Raw Food ",
@@ -955,7 +955,7 @@
                     },
                     {
                     "name": "People can be",
-                    "words": ["Charming", "Hopeful", "Energetic", "Sly", "Respectful", "Grateful", "Truthful" ,"Joyful" ,"Kind"]
+                    "words": ["Charming", "Hopeful", "Energetic", "Sly", "Respectful", "Grateful", "Truthful","Joyful","Kind"]
                     }
                 ]
             },
@@ -1028,23 +1028,25 @@
                     },
                     {
                     "name": "TO DO WITH WATER",
-                    "words": ["Brok","Steam","Stream","Sparay","Sail","Ocean"]
+                    "words": ["Steam", "Stream", "Spray", "Sail", "Ocean", "River"]
+
                     },
                     {
                     "name": "MONEY",
-                    "words": ["Pennies","bill","Nickel","Dime","Cash","Doller"]
+                    "words": ["Pennies","bill","Nickel","Dime","Cash","Dollar"]
                     },
                     {
                     "name": "PEOPLE ",
                     "words": ["Judge","Contractor","Husband","doctor", "guard"]
                     },
                     {
-                    "name": "CONSTRACTION",
-                    "words": ["I'd","Dosen't","we're","weren't","hasen't","wouldn't"]
+                    "name": "CONTRACTIONS",
+                    "words": ["I'd","doesn't","we're","weren't","hasn't","wouldn't"]
                     },
                     {
-                    "name": "TOOLS",
-                    "words": ["Ax","Spoon","Chain","Plow","knife", "hammer"]
+                  "name": "TOOLS",
+                  "words": ["Ax", "Chain", "Plow", "Knife", "Hammer"]
+
                     }
                 ]
             },
@@ -1052,27 +1054,27 @@
                 "id":"Set7_1",
                  "categories": [
                     {
-                    "name": "1. Words that mean RED",
-                    "words": ["Scarlett", "Rudy", "Cherry", "Maroon", "Rose", "Vermillion"]
+                    "name": "Words that mean RED",
+                    "words": ["Scarlett", "Ruddy", "Cherry", "Maroon", "Rose", "Vermillion"]
                     },
                     {
-                    "name": "2. Directions",
+                    "name": "Directions",
                     "words": ["South", "West", "East", "North", "South-east", "North-west"]
                     },
                     {
-                    "name": "3. Things that shine",
+                    "name": "Things that shine",
                     "words": ["Sun", "Diamond", "Candle", "Radium", "Firefly", "Glitter"]
                     },
                     {
-                    "name": "4. People can",
+                    "name": "People can",
                     "words": ["Learn", "Fight", "Play", "Speak", "Wash", "Hop"]
                     },
                     {
-                    "name": "5. Do in a house",
+                    "name": "Do in a house",
                     "words": ["Sit", "Sleep", "Clean", "Cook", "Eat", "Decorate"]
                     },
                     {
-                    "name": "6. Colors",
+                    "name": "Colors",
                     "words": ["Coral", "Oilve", "Khaki", "Sapphire", "Topaz", "Pearly"]
                     }
                 ]
@@ -1134,26 +1136,27 @@
             {
                 "id":"Set7_4",
                     "categories": [
-                    {
-                    "name": "Sport Equipment",
-                    "words": ["Shin Pads", "Cloves", "Helmets", "Mouth Guard", "Elbow pads", "Jockstraps"]
-                    },
-                    {
-                    "name": "Things with tail",
-                    "words": ["Scorpion", "Cat", "Aeroplane", "Whales", "Antelopes", "Lemur","Lizard"]
-                    },
-                    {
-                    "name": "Things that are sticky",
-                    "words": ["Candy floss", "Chewing Cum", "Sylvin", "Duct-tape", "Asphalt", "Toffee"]
-                    },
-                    {
-                    "name": "Food that you can eat raw",
-                    "words": ["Coconut", "Cathic", "Broccoli", "Nuts", "Onion", "Honey","Garlic"]
-                    },
-                    {
-                    "name": "People can be",
-                    "words": ["Charming", "Energetic", "Sly", "Respectful", "Trudival", "Joyful","Kind"]
-                    }
+                {
+                "name": "Sport Equipment",
+                "words": ["Shin Pads", "Gloves", "Helmets", "Mouth Guard", "Elbow Pads", "Jockstraps"]
+                },
+                {
+                "name": "Things with Tail",
+                "words": ["Scorpion", "Cat", "Airplane", "Whale", "Antelope", "Lemur", "Lizard"]
+                },
+                {
+                "name": "Things that are Sticky",
+                "words": ["Candy Floss", "Chewing Gum", "Sylvin", "Duct Tape", "Asphalt", "Toffee"]
+                },
+                {
+                "name": "Food that you can Eat Raw",
+                "words": ["Coconut", "Cabbage", "Broccoli", "Nuts", "Onion", "Carrot", "Garlic"]
+                },
+                {
+                "name": "People can be",
+                "words": ["Charming", "Energetic", "Sly", "Respectful", "Truthful", "Joyful", "Kind"]
+                }
+
                 ]
             },
             {
@@ -1177,7 +1180,7 @@
                 },
                 {
                 "name": "Things that you take on a holiday",
-                "words": ["Passport", "Suitcase", "Toiletries", "Sun cream", "Sunglasses" ,"First-aid kit"]
+                "words": ["Passport", "Suitcase", "Toiletries", "Sun cream", "Sunglasses","First-aid kit"]
                 },
                 {
                 "name": "Professions",
@@ -1220,27 +1223,27 @@
                 "id":"Set8_1",
                  "categories": [
                     {
-                    "name": "1. Tools",
+                    "name": "Tools",
                     "words": ["Hammer", "Nail", "Screwdriver", "PLier", "Pipe-range", "Drill"]
                     },
                     {
-                    "name": "2. Olympic sport",
+                    "name": "Olympic sport",
                     "words": ["Archery", "Boxing", "Wrestling", "Swimming", "Weightlifting", "Badminton"]
                     },
                     {
-                    "name": "3.found at a Fair",
+                    "name": "found at a Fair",
                     "words": ["Stalls", "Rides", "Toys", "Snacks", "Balloons", "Bench"]
                     },
                     {
-                    "name": "4. Food that is Brown",
+                    "name": "Food that is Brown",
                     "words": ["Bread", "Sugar", "Potatoes", "Chocolate", "Chickpeas", "Eggs"]
                     },
                     {
-                    "name": "5. Things that grow",
+                    "name": "Things that grow",
                     "words": ["Plants", "Hair", "Height", "Nails", "Seeds", "Leaves"]
                     },
                     {
-                    "name": "6. Classroom items",
+                    "name": "Classroom items",
                     "words": ["Duster", "Chalk", "Marker", "Chart", "Chair", "Bolts"]
                     }
                 ]
@@ -1364,7 +1367,7 @@
                    "categories": [
                     {
                     "name": "WAYS YOU CAN FEEL",
-                    "words": ["excitement", "Forgotten", "Joy","SMart", "curiosity", "sick"]
+                    "words": ["excitement", "Forgotten", "Joy","Smart", "curiosity", "sick"]
                     },
                     {
                     "name": "PART OF THE Body",
@@ -1380,7 +1383,7 @@
                     },
                     {
                     "name": "PARTS OF HOUSE",
-                    "words": ["Bedroom", "carpet", "upstairs", "doenstairs", "celler","Desk"]
+                    "words": ["Bedroom", "carpet", "upstairs", "downstairs ", "cellar ","Desk"]
                     },
                     {
                     "name": "PEOPLE CAN",
@@ -1392,27 +1395,27 @@
                 "id":"Set9_1",
                  "categories": [
                 {
-                "name": "1. Related to size",
+                "name": "Related to size",
                 "words": ["Huge", "Tiny", "Minimal", "Mass", "Mammoth"]
                 },
                 {
-                "name": "2. Things at grocery store",
+                "name": "Things at grocery store",
                 "words": ["Dairy Products", "Seafood", "Wheat", "Frozen foods", "Grains", "Snacks"]
                 },
                 {
-                "name": "3. Type of flowers",
+                "name": "Type of flowers",
                 "words": ["Lillies", "Dasies", "Carnations", "Roses", "Orchids", "Poppy"]
                 },
                 {
-                "name": "4. Parts of house",
+                "name": "Parts of house",
                 "words": ["Kitchen", "Attic", "Living room", "Bathroom", "Store", "Dining"]
                 },
                 {
-                "name": "5. Made of glass",
+                "name": "Made of glass",
                 "words": ["Cup", "Bowl", "Bottle", "Table", "Clock", "Plates"]
                 },
                 {
-                "name": "6. Months",
+                "name": "Months",
                 "words": ["June", "May", "August", "July", "October", "March"]
                 }
             ]
@@ -1544,7 +1547,7 @@
                         },
                         {
                         "name": "PEOPLE CAN BE ",
-                        "words": ["Lazy","Unusual"  ,"interesting", "CAught", "polite", "Rich"]
+                        "words": ["Lazy","Unusual" ,"interesting", "CAught", "polite", "Rich"]
                         },
                         {
                         "name": "PEOPLE CAN ",
@@ -1555,7 +1558,7 @@
                         "words": ["Meadow", "building", "Field", "Vally", "United States","Palace"]
                         },
                         {
-                        "name": " CAN BE MADE OF GLASS",
+                        "name": "CAN BE MADE OF GLASS",
                         "words": ["Bowl","Jar","Cup","Bottle","Window","Dish"]
                         }
                     ]
@@ -1565,27 +1568,27 @@
                 "id":"Set10_1",
                 "categories": [
                 {
-                "name": "1. Plural",
+                "name": "Plural",
                 "words": ["Gees", "Sheep", "Meals", "Children", "Hair", "Chairs"]
                 },
                 {
-                "name": "2. Parts of speech",
+                "name": "Parts of speech",
                 "words": ["Noum", "Pronoun", "Verb", "Adjective", "Adverb", "Conjunction"]
                 },
                 {
-                "name": "3. Square numbers",
+                "name": "Square numbers",
                 "words": ["Nine", "Four", "Thirty-six", "Sixteen", "Twenty-five", "Eighty-one"]
                 },
                 {
-                "name": "4. Related to math",
+                "name": "Related to math",
                 "words": ["Addition", "Divide", "Equation", "Trigonometry", "Problems", "Geometry"]
                 },
                 {
-                "name": "5. Things we watch",
+                "name": "Things we watch",
                 "words": ["Movie", "News", "Game", "Match", "Fight", "Television"]
                 },
                 {
-                "name": "6. Things we can wrap",
+                "name": "Things we can wrap",
                 "words": ["Gift", "Food", "Box", "Ribbons", "Books"]
                 }
             ]
@@ -1599,7 +1602,7 @@
                     },
                     {
                     "name": "People",
-                    "words": ["King", "Indian", "Rider", "Principal", "Mechanic", "Serie", "American"]
+                    "words": ["King", "Indian", "Rider", "Principal", "Mechanic", "American"]
                     },
                     {
                     "name": "Things You Can Sit On",
@@ -1607,7 +1610,7 @@
                     },
                     {
                     "name": "Noises",
-                    "words": ["Weep", "Sigh", "Scream", "Crash", "Squeeak"]
+                    "words": ["Weep", "Sigh", "Scream", "Crash", "Squeak"]
                     },
                     {
                     "name": "Mammals",
@@ -1644,7 +1647,7 @@
                 },
                 {
                 "name": "Things found on a map",
-                "words": ["Legend", "Title", "Source notes", "Grid System", "Latitude" ,"Compass"]
+                "words": ["Legend", "Title", "Source notes", "Grid System", "Latitude","Compass"]
                 }
             ]
             },
@@ -1737,27 +1740,27 @@
                 "id":"Set11_1",
                 "categories": [
                     {
-                    "name": "1. Noises",
+                    "name": "Noises",
                     "words": ["Screech", "Thud", "Siren", "Fire", "alarm", "Gun shot"]
                     },
                     {
-                    "name": "2. Shapes",
+                    "name": "Shapes",
                     "words": ["Rhombus", "Diamond", "Pentagon", "Hexagon", "plaque"]
                     },
                     {
-                    "name": "3. Sharp Objects",
+                    "name": "Sharp Objects",
                     "words": ["Nail", "Knife", "Barb wire", "Machete", "bayonet"]
                     },
                     {
-                    "name": "4. Instruments",
+                    "name": "Instruments",
                     "words": ["Trumpet", "Violin", "Keyboard", "Mouth organ", "cello"]
                     },
                     {
-                    "name": "5. White",
+                    "name": "White",
                     "words": ["Eggs", "Snow", "Milk", "Daily", "Bone"]
                     },
                     {
-                    "name": "6. People can",
+                    "name": "People can",
                     "words": ["Sleep", "Smile", "Sing", "Whine", "climb"]
                     }
                 ]
@@ -1915,27 +1918,27 @@
                 "id":"Set12_1",
                  "categories": [
                     {
-                    "name": "1. Pronouns",
+                    "name": "Pronouns",
                     "words": ["Whom", "I", "Nobody", "Them", "Those", "Us"]
                     },
                     {
-                    "name": "2. Baby animals",
+                    "name": "Baby animals",
                     "words": ["Hatchling", "Antling", "Infant", "Piglet", "Pup", "Kitten"]
                     },
                     {
-                    "name": "3. Black",
+                    "name": "Black",
                     "words": ["Hair", "Tar", "Coal", "Charcoal", "Olives", "Crow"]
                     },
                     {
-                    "name": "4. Things in the water",
+                    "name": "Things in the water",
                     "words": ["Boat", "Weed", "Fish", "Eel", "Sea-horse", "Lotus"]
                     },
                     {
-                    "name": "5. Outdoors",
+                    "name": "Outdoors",
                     "words": ["Ground", "Brunch", "Rocks", "Road", "Games", "station"]
                     },
                     {
-                    "name": "6. Time",
+                    "name": "Time",
                     "words": ["Soon", "Never", "Later", "Tonight", "Yesterday", "quick"]
                     }
                 ]
@@ -2077,7 +2080,7 @@
                     },
                     {
                     "name": "RELATIONS",
-                    "words": ["Aunt","brother","Cousin","Child" ,"father", "mother", "sister"]
+                    "words": ["Aunt","brother","Cousin","Child","father", "mother", "sister"]
                     },
                     {
                     "name": "YOU CAN FOLLOW",
@@ -2089,27 +2092,27 @@
                 "id":"Set13_1",
                 "categories": [
                 {
-                "name": "1. Relations",
+                "name": "Relations",
                 "words": ["Nicee", "Nephew", "Sister-in-law", "Uncle", "Cousin"]
                 },
                 {
-                "name": "2. Christmas",
+                "name": "Christmas",
                 "words": ["Candles", "Tree", "Reindeer", "Pie", "church"]
                 },
                 {
-                "name": "3. Yellow",
+                "name": "Yellow",
                 "words": ["Mustard", "Cheese", "Banana", "Lemon", "Canary"]
                 },
                 {
-                "name": "4. Titles people have",
+                "name": "Titles people have",
                 "words": ["Sir", "Madam", "Miss", "Mr.", "Lady"]
                 },
                 {
-                "name": "5. Weather",
+                "name": "Weather",
                 "words": ["Cloudy", "Rainy", "Snow", "Windy", "fog"]
                 },
                 {
-                "name": "6. Rivers",
+                "name": "Rivers",
                 "words": ["Nile", "Amazon", "Congo", "Ganges", "Mississippi"]
                 }
             ]

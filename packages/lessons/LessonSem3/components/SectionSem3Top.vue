@@ -230,6 +230,19 @@ export default {
       jsonFileName: sessionStorage.getItem('jsonFile') || 'lesson1',
     }
   },
+
+
+watch: {
+  commonNumArray: {
+    immediate: true, // logs on mount too
+    deep: true,      // watch for changes inside array objects
+    handler(newVal) {
+      console.log("commonNumArray updated:", JSON.stringify(newVal, null, 2));
+    }
+  }
+}
+,
+
   computed: {
     gridClass() {
       const count = this.commonNumArray?.length || 0

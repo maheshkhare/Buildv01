@@ -276,7 +276,7 @@
           },
           {
             "index": 34,
-            "QuestionArr_34": "Which number word matches the dinosaur labeled 37?",
+            "QuestionArr_34": "Which number word matches the dinosaur labeled 27?",
             "OptionArr_34": ["THIRTY FIVE", "TWENTY EIGHT", "TWENTY SEVEN", "THIRTY ONE"],
             "AnswerArr_34": ["", "", "Yes", ""],
             "ImageName": "L1-4",
@@ -716,7 +716,7 @@
             },
             {
               "index": 5,
-              "QuestionArr_05": "Which picture shows on top of his house?",
+              "QuestionArr_05": "Which picture shows where the dog is on top of his house?",
               "OptionArr_05": ["F", "A", "H", "C"],
               "AnswerArr_05": ["", "", "Yes", ""],
               "ImageName": "L4-1",
@@ -841,15 +841,8 @@
                 "AnswerArr_27": ["", "", "Yes", ""],
                 "ImageName": "L4-4",
                 "QuestionImage": "NA"
-            },
-            {
-              "index": 28,
-              "QuestionArr_28": "Where can you see the cat under the box",
-              "OptionArr_28": ["D", "A", "C", "B"],
-              "AnswerArr_28": ["", "Yes", "", ""],
-              "ImageName": "L4-4",
-              "QuestionImage": "NA"
             }
+          
           ],
           
         "Level5": [

@@ -311,12 +311,12 @@ export function FinalResultHelper(context) {
     const resultData = {
         summary: {
             ActivityName: "Sem2",
-            activityStatus: context.activity_Status,
-            totalTimeElapsed: context.timestart,
-            questionsAttempted: context.Questions_attempted,
-            correctAnswers: context.correct_Answers,
+            ActivityStatus: context.activity_Status,
+            TimeElapsed: context.timestart,
+            QuestionsAttempted: context.Questions_attempted,
+            CorrectAnswers: context.correct_Answers,
             attemptedQuestionNumbers: context.CollectionResult.map(q => q.questionNo),
-            incorrectAnswers: context.incorrect_Answers,
+            IncorrectAnswers: context.incorrect_Answers,
             testDate: new Date().toISOString()
         },
         detailedResults: context.CollectionResult
@@ -763,7 +763,7 @@ export function SaveAndExitNowHelper4(context) {
     // console.log("Practice Lst dsfg" + JSON.stringify(context, null, 2));
     // const questionId = String(questionNo).padStart(2, '0');
 
-    // Do this:
+    // Do context:
 const currentItem = context.items[context.counter];
 
 // Find the key that starts with "QuestionArr_"
@@ -989,15 +989,15 @@ const questionId = String(originalQuestionNo).padStart(2, '0');
     context.resultData = {
         summary: {
             ActivityName: 'Sem4',
-            activityStatus: context.activity_Status,
-            totalTimeElapsed: context.timestart,
-            questionsAttempted: context.Questions_attempted,
-            correctAnswers: context.correct_Answers,
-            incorrectAnswers: context.incorrect_Answers,
-            attemptedQuestionNumbers: detailedResults.map(q => q.questionNo),
+            ActivityStatus: context.activity_Status,
+            TimeElapsed: context.timestart,
+            QuestionsAttempted: context.Questions_attempted,
+            CorrectAnswers: context.correct_Answers,
+            IncorrectAnswers: context.incorrect_Answers,
+            attemptedQuestionNumbers: DetailedResults.map(q => q.questionNo),
             testDate: new Date().toISOString()
         },
-        detailedResults
+        DetailedResults
     };
 
 
@@ -1149,51 +1149,151 @@ export function assignLetterHelper(context,letter) {
 
 
 
- export function processWordSetshelper(context) {
-      context.wordSets = {};
-      context.levelNames = {};
 
-      const selectedLevels = context.parseLevelRange(context.Exercise_Number);
-      let questionLimit = context.questionLimit || 1;
 
-      let totalAvailable = 0;
-      selectedLevels.forEach(level => {
-        const levelKey = `level${level}`;
-        const sets = (context.activityQuestions.sets && context.activityQuestions.sets[levelKey]) || [];
-        totalAvailable += sets.length;
-      });
+export function  processWordSetshelper(context ) {
+  context.wordSets = {};
+  context.levelNames = {};
 
-      if (totalAvailable < questionLimit) {
-        
+
+  //counter
+  context.Total_Questions = questionLimit;
+context.counter = 0;  // start from first question
+
+  const selectedLevels = context.parseLevelRange(context.Exercise_Number);
+  let questionLimit = context.questionLimit || 1;
+
+  // 🔹 fetch attempted IDs from localStorage if present
+  let attemptedIds = [];
+  const saved = localStorage.getItem("attemptedQuestionData");
+  if (saved) {
+    try {
+      const parsed = JSON.parse(saved);
+      if (parsed.DetailedResults && Array.isArray(parsed.DetailedResults)) {
+        attemptedIds = parsed.DetailedResults.map(r => r.setId);
       }
-
-      let combinedSets = [];
-      selectedLevels.forEach(level => {
-        const levelKey = `level${level}`;
-        const sets = (context.activityQuestions.sets && context.activityQuestions.sets[levelKey]) || [];
-        combinedSets.push(...sets.map(set => ({ ...set, __level: levelKey })));
-      });
-
-      combinedSets = combinedSets.sort(() => Math.random() - 0.5);
-
-      const selectedSets = combinedSets.slice(0, questionLimit);
-
-      context.allSelectedSets = selectedSets;
-
-      context.wordSets = selectedSets.reduce((acc, set) => {
-        const key = set.__level || 'level1';
-        if (!acc[key]) acc[key] = [];
-        acc[key].push(set);
-        return acc;
-      }, {});
-
-      selectedLevels.forEach(level => {
-        const levelKey = `level${level}`;
-        context.levelNames[level] = context.wordSets[levelKey]?.[0]?.levelName || `Level ${level}`;
-      });
-
-      context.Total_Questions = questionLimit;
+    } catch (e) {
+      console.error("Error parsing attemptedQuestionData:", e);
     }
+  }
+
+  // 🔹 calculate availability excluding attempted
+  let totalAvailable = 0;
+  selectedLevels.forEach(level => {
+    const levelKey = `level${level}`;
+    const sets = (context.activityQuestions.sets?.[levelKey]) || [];
+    const freshSets = sets.filter(set => !attemptedIds.includes(set.setId));
+    totalAvailable += freshSets.length;
+  });
+
+  // 🔹 clamp questionLimit to available questions
+  if (totalAvailable < questionLimit) {
+    questionLimit = totalAvailable;
+  }
+
+  // 🔹 collect fresh sets
+  let combinedSets = [];
+  selectedLevels.forEach(level => {
+    const levelKey = `level${level}`;
+    const sets = (context.activityQuestions.sets?.[levelKey]) || [];
+    const freshSets = sets.filter(set => !attemptedIds.includes(set.id));
+    combinedSets.push(...freshSets.map(set => ({ ...set, __level: levelKey })));
+  });
+
+  // 🔹 shuffle (Fisher-Yates would be better, but context is fine for now)
+  combinedSets = combinedSets.sort(() => Math.random() - 0.5);
+
+  // 🔹 pick the required number
+  const selectedSets = combinedSets.slice(0, questionLimit);
+
+  context.allSelectedSets = selectedSets;
+
+  // 🔹 group sets by level
+  context.wordSets = selectedSets.reduce((acc, set) => {
+    const key = set.__level || 'level1';
+    if (!acc[key]) acc[key] = [];
+    acc[key].push(set);
+    return acc;
+  }, {});
+
+  // 🔹 name mapping
+  selectedLevels.forEach(level => {
+    const levelKey = `level${level}`;
+    context.levelNames[level] =
+      context.wordSets[levelKey]?.[0]?.levelName || `Level ${level}`;
+  });
+
+  context.Total_Questions = questionLimit;
+
+
+  console.log("Processed updated array:", context.combinedSets);
+}
+
+
+export async function mountedHelper(context,level,response) {
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+      // context.componentSubtitle = context.;
+
+    context.questionLimit = parseInt(urlParams.get('questionCount')) || null;
+    context.Exercise_Number =
+      urlParams.get('Exe_Number') || sessionStorage.getItem("Exe_Number") || '1';
+
+    context.activityQuestions = response.default || response;
+
+    // Step 1: process questions
+    context.processWordSets();
+    context.initializeComponent();
+
+    // Step 2: restore saved attempts
+    const saved = localStorage.getItem('attemptedQuestionData');
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      console.log("Restoring saved results:"+ JSON.stringify(parsed,null,2));
+
+      if (parsed.DetailedResults && parsed.DetailedResults.length > 0) {
+        // Build completedSets from ALL saved results
+        context.completedSets = parsed.DetailedResults.map((result, idx) => {
+          const restoredColumns = result.userResponse.map((col, colIndex) =>
+            col.map((word, wIdx) => ({
+             
+              index: wIdx,
+             
+              name: word,
+              state: word ? 'readonly' : 'base'
+            }))
+          );
+
+          return {
+            setId: result.setId,
+            questionIndex: idx,
+            questionTitles: result.questionTitles || [],
+            columns: restoredColumns
+          };
+        });
+
+        // ✅ Load the FIRST saved question into view
+        context.$nextTick(() => {
+          const first = context.completedSets[0];
+          if (first) {
+            context.currentQuestionIndex = 0;
+            context.columnTitles = first.questionTitles || [];
+            context.columns = JSON.parse(JSON.stringify(first.columns));
+            context.availableWords = [];
+            context.placedWords = first.columns.flat().map(c => c.name).filter(n => n !== "");
+            context.canModifyAnswers = false;
+            context.Arrow_isShowing = true;
+          }
+        });
+      }
+    }
+  } catch (error) {
+    console.error('Error loading JSON:', error);
+    context.loadError = true;
+    context.isLoading = false;
+  }
+}
+
 
 
     export function initializeComponenthelper(context) {
@@ -1205,7 +1305,6 @@ export function assignLetterHelper(context,letter) {
       const levelKey = context.getLevelKey(firstLevel);
       const currentSets = context.wordSets[levelKey];
       const levelName = currentSets?.[0]?.levelName || context.levelNames[firstLevel] || `Level ${firstLevel}`;
-      context.componentSubtitle = levelName;
 
       context.run();
       context.TimerFun();
@@ -1222,6 +1321,7 @@ export function assignLetterHelper(context,letter) {
       context.reset();
       context.questionStates = [];
       context.currentQuestionIndex = 0;
+      // console.log('current index ' .context.currentQuestionIndex);
       context.setcount = 0;
       context.Exercise_Number = exerciseNum;
       context.Total_Questions = context.currentExerciseSets.length;
@@ -1235,6 +1335,8 @@ export function assignLetterHelper(context,letter) {
       context.reset();
       context.Arrow_isShowing = false;
       context.truenextgame = false;
+     context.ids = currentSet.id || '';
+    //  console.log('Current Set ID:', context.ids);
       context.columnTitles = currentSet.categories.map(cat => 
         cat.displayName || cat.name || ''
       );
@@ -1350,6 +1452,7 @@ export function assignLetterHelper(context,letter) {
         console.error('No exercise sets available');
         return;
       }
+   
       const currentSet = context.currentExerciseSets[context.currentQuestionIndex];
       if (!currentSet || !currentSet.categories) {
         console.error('Current set not found or has no categories');
@@ -1369,53 +1472,135 @@ export function assignLetterHelper(context,letter) {
       context.resultShow = false;
     }
 
-      export function goToPreviousQuestionhelper1(context) {
-      context.recordQuestionTime();
-      if (context.currentQuestionIndex > 0) {
-        context.saveQuestionState();
-        context.currentQuestionIndex--;
-        context.canModifyAnswers = context.currentQuestionIndex >= context.setcount;
-        context.loadQuestionState(context.currentQuestionIndex);
-        if (!context.canModifyAnswers) {
-          context.markAllAnswersAsReadonly();
-        }
-        if (context.isReviewMode) {
-          context.currentReviewIndex = context.currentQuestionIndex;
-        }
-        context.truenextgame = true;
-        context.Arrow_isShowing = context.questionStates[context.currentQuestionIndex]?.Arrow_isShowing || false;
-        context.startQuestionTimer();
-        context.isShowing_info = false;
-        context.resultShow = false;
-      }
+
+export function goToPreviousQuestionhelper1(context) {
+  context.recordQuestionTime();
+  if (context.currentQuestionIndex > 0) {
+    context.saveQuestionState();
+    context.currentQuestionIndex--;
+    console.log('Go to previous question to index:', context.currentQuestionIndex);
+
+    // 🔹 Case 1: question exists in completedSets → restore readonly
+    const completed = context.completedSets?.[context.currentQuestionIndex];
+    if (completed) {
+      context.columnTitles = completed.questionTitles || [];
+      context.columns = JSON.parse(JSON.stringify(completed.columns));
+      context.availableWords = [];
+      context.placedWords = completed.columns.flat().map(c => c.name).filter(n => n !== "");
+      context.canModifyAnswers = false;
+      context.Arrow_isShowing = true;
+    }
+    // 🔹 Case 2: fallback (old un-restored answered state)
+    else if (context.currentQuestionIndex < context.setcount) {
+      context.canModifyAnswers = false;
+      context.loadQuestionState(context.currentQuestionIndex);
+      context.markAllAnswersAsReadonly();
+    }
+    // 🔹 Case 3: editable new question
+    else {
+      context.canModifyAnswers = true;
+      context.loadQuestionState(context.currentQuestionIndex);
     }
 
-       export function goToNextQuestionhelper1(context) {
-      const isCorrect = context.checkCompletion(false);
-      context.updateQuestionTracking(isCorrect);
-      if (context.currentQuestionIndex < context.currentExerciseSets.length - 1) {
-        context.saveQuestionState();
-        context.currentQuestionIndex++;
-        const wasPreviouslyAnswered = context.currentQuestionIndex <= context.setcount;
-        context.canModifyAnswers = !wasPreviouslyAnswered ||
-              (context.questionStates[context.currentQuestionIndex]?.placedWords?.length < 
-              context.questionStates[context.currentQuestionIndex]?.wordsarr?.length);
-        if (wasPreviouslyAnswered) {
-          context.loadQuestionState(context.currentQuestionIndex);
-          if (!context.canModifyAnswers) {
-            context.markAllAnswersAsReadonly();
-          }
-        } else {
-          context.setcount = context.currentQuestionIndex;
-          context.reset();
-          const currentSet = context.currentExerciseSets[context.currentQuestionIndex];
-          context.loadQuestionData(currentSet);
-        }
-        context.Arrow_isShowing = context.placedWords.length === context.wordsarr.length;
-        context.truenextgame = false;
-      }
-      context.startQuestionTimer();
+    if (context.isReviewMode) {
+      context.currentReviewIndex = context.currentQuestionIndex;
     }
+
+    context.truenextgame = true;
+    context.startQuestionTimer();
+    context.isShowing_info = false;
+    context.resultShow = false;
+  }
+}
+
+export function goToNextQuestionhelper1(context) {
+  const isCorrect = context.checkCompletion(false);
+  context.updateQuestionTracking(isCorrect);
+  context.saveQuestionState();
+  console.log('Go to next question from index:', context.currentQuestionIndex);
+
+  let nextIndex = context.currentQuestionIndex + 1;
+
+  // 🔹 Skip any sets that are already completed
+  while (
+    nextIndex < context.currentExerciseSets.length &&
+    context.completedSets?.some(c => c.setId === context.currentExerciseSets[nextIndex].setId)
+  ) {
+    nextIndex++;
+  }
+
+    // 🔹 Find the setId for this nextIndex
+  const nextSet = context.currentExerciseSets[nextIndex];
+  const nextSetId = nextSet?.id;
+
+  // 🔹 Check if this setId exists in completedSets
+  const completedMatch = !!context.completedSets?.find(c => c.setId === nextSetId);
+
+  // 🔹 Case 1: move into next restored completed question
+  if (context.completedSets && completedMatch) {
+    context.currentQuestionIndex = nextIndex;
+    const next = context.completedSets[nextIndex];
+    context.columnTitles = next.questionTitles || [];
+    context.columns = JSON.parse(JSON.stringify(next.columns));
+    context.availableWords = [];
+    context.placedWords = next.columns.flat().map(c => c.name).filter(n => n !== "");
+    context.canModifyAnswers = false; // readonly
+    context.Arrow_isShowing = true;
+  }
+  // 🔹 Case 2: new fresh question
+  else if (!completedMatch) {
+    context.currentQuestionIndex = nextIndex;
+    context.setcount = nextIndex;
+    context.reset();
+    const currentSet = context.currentExerciseSets[nextIndex];
+    context.loadQuestionData(currentSet);
+    context.canModifyAnswers = true;
+    context.Arrow_isShowing = true;
+  }
+  // 🔹 Case 3: end → show results
+  else {
+    context.showResults();
+    return;
+  }
+
+  context.truenextgame = false;
+  context.counter = context.currentQuestionIndex;
+
+  context.startQuestionTimer();
+}
+
+
+
+
+
+
+export function Click_NextButtonhelper1(context) {
+  // 🔹 Check if all columns are filled with valid values
+  const allColumnsFilled = context.columns.every(col =>
+    col.some(item => item && item.name && item.name.trim() !== "")
+  );
+
+  if (!allColumnsFilled) {
+    alert("Please fill all columns with valid answers before moving to the next question.");
+    return; // ❌ Stop navigation
+  }
+
+  // ✅ If valid values are present, proceed as before
+  context.Arrow_isShowing = false;
+  context.isShowing_info = true;
+  context.truenextgame = false;
+  const isCorrect = context.checkCompletion();
+  context.updateQuestionTracking(isCorrect);
+  context.saveQuestionState();
+
+  if (context.currentQuestionIndex < context.currentExerciseSets.length - 1) {
+    context.goToNextQuestion();
+  } else {
+    context.showResults();
+  }
+}
+
+
 
     export function markAllAnswersAsReadonlyhelper1( context) {
       context.columns.forEach(column => {
@@ -1425,50 +1610,64 @@ export function assignLetterHelper(context,letter) {
       });
     }
 
-    export function checkCompletionhelper1( context,updateCounters = true) {
-      const currentSet = context.currentExerciseSets[context.currentQuestionIndex];
-      if (!currentSet || !currentSet.categories) return false;
-      if (context.isSingleColumnMode) {
-        const firstCategory = currentSet.categories[0];
-        if (!firstCategory) return false;
-        const correctWords = context.columns[0].filter(item => item.name && firstCategory.words.includes(item.name)).length;
-        const isCorrect = correctWords === firstCategory.words.length;
-        if (updateCounters) {
-          if (isCorrect) context.correct_Answers++;
-          else context.incorrect_Answers++;
-          context.Questions_attempted++;
-        }
-        return isCorrect;
-      } else {
-        const isCorrect = currentSet.categories.every((category, index) => {
-          if (index >= context.columns.length) return false;
-          return context.columns[index].filter(item => 
-            item.name && category.words.includes(item.name)
-          ).length === category.words.length;
-        });
-        if (updateCounters) {
-          if (isCorrect) context.correct_Answers++;
-          else context.incorrect_Answers++;
-          context.Questions_attempted++;
-        }
-        return isCorrect;
-      }
-    }
+ 
+
+export function checkCompletionhelper1(context, updateCounters = true) {
+  const currentIndex = context.currentQuestionIndex;
+
+  // 🔹 First, try pulling correctness from DetailedResults
+  const detailedResult = context.resultData?.DetailedResults?.[currentIndex];
+  if (detailedResult?.isCompleted) {
+    return detailedResult.wasCorrect; // ✅ Trust saved data
+  }
+
+  // 🔹 Next, fallback to questionDetails
+  let questionDetail = context.questionDetails[currentIndex];
+  if (questionDetail?.isCompleted) {
+    return questionDetail.wasCorrect; // ✅ Trust saved data
+  }
+
+  // 🔹 If no saved correctness, calculate now
+  const currentSet = context.currentExerciseSets[currentIndex];
+  if (!currentSet || !currentSet.categories) return false;
+
+  let isCorrect = false;
+
+  if (context.isSingleColumnMode) {
+    const firstCategory = currentSet.categories[0];
+    if (!firstCategory) return false;
+    const correctWords = context.columns[0].filter(item =>
+      item.name && firstCategory.words.includes(item.name)
+    ).length;
+    isCorrect = correctWords === firstCategory.words.length;
+  } else {
+    isCorrect = currentSet.categories.every((category, index) => {
+      if (index >= context.columns.length) return false;
+      return context.columns[index].filter(item =>
+        item.name && category.words.includes(item.name)
+      ).length === category.words.length;
+    });
+  }
+
+  // 🔹 Save correctness ONLY if this is first calculation
+  if (!questionDetail) {
+    questionDetail = {};
+    context.questionDetails[currentIndex] = questionDetail;
+  }
+  questionDetail.wasCorrect = isCorrect;
+  questionDetail.isCompleted = true;
+
+  // 🔹 Update counters only the first time
+  if (updateCounters) {
+    context.Questions_attempted++;
+    if (isCorrect) context.correct_Answers++;
+    else context.incorrect_Answers++;
+  }
+
+  return isCorrect;
+}
 
 
- export function Click_NextButtonhelper1(context) {
-      context.Arrow_isShowing = false;
-      context.isShowing_info = true;
-      context.truenextgame = false;
-      const isCorrect = context.checkCompletion();
-      context.updateQuestionTracking(isCorrect);
-      context.saveQuestionState();
-      if (context.currentQuestionIndex < context.currentExerciseSets.length - 1) {
-        context.goToNextQuestion();
-      } else {
-        context.showResults();
-      }
-    }
 
   export function  OnNewGame_Clickhelper1(context) {
       if (context.isReviewMode) {
@@ -1552,19 +1751,27 @@ export function updateAvailableWordshelper1(context) {
       }
     }
 
-      export function updateQuestionTrackinghelper1( context,isCorrect) {
-      if (context.currentQuestionStartTime) {
-        const timeTaken = Date.now() - context.currentQuestionStartTime;
-        context.questionTimings[context.currentQuestionIndex] = timeTaken;
-        context.questionDetails[context.currentQuestionIndex] = {
-          ...context.questionDetails[context.currentQuestionIndex],
-          timeTaken: timeTaken,
-          isCompleted: true,
-          wasCorrect: isCorrect
-        };
-        context.currentQuestionStartTime = 0;
-      }
+ 
+
+    export function updateQuestionTrackinghelper1(context, isCorrect) {
+  if (context.currentQuestionStartTime) {
+    const timeTaken = Date.now() - context.currentQuestionStartTime;
+
+    // 🔹 Prevent overwriting and double-counting
+    if (!context.questionDetails[context.currentQuestionIndex]?.isCompleted) {
+      context.questionTimings[context.currentQuestionIndex] = timeTaken;
+      context.questionDetails[context.currentQuestionIndex] = {
+        ...context.questionDetails[context.currentQuestionIndex],
+        timeTaken: timeTaken,
+        isCompleted: true,
+        wasCorrect: isCorrect
+      };
     }
+
+    context.currentQuestionStartTime = 0;
+  }
+}
+
     
 
      export function startQuestionTrackinghelper1(context) {
@@ -1576,13 +1783,15 @@ export function updateAvailableWordshelper1(context) {
           timeTaken: 0,
           isCompleted: false,
           wasCorrect: false,
-          wasDisplayed: true,
+          wasDisplayed: false,
           questionTitles: currentSet?.categories?.map(cat => cat.displayName || cat.name) || []
         };
       }
     }
 
 export function  showResultshelper1(context) {
+
+  
       context.activity_Status = "Completed";
       context.Time_elapsed = context.secondsToTime(context.timestart);
       context.timeInSeconds = context.timestart;
@@ -1597,40 +1806,220 @@ export function  showResultshelper1(context) {
       context.JsonArrData = JSON.stringify(context.generateResultsJson());
     }
 
-    export function generateResultsJsonhelper1(context) {
-      return {
-        activityStatus: context.activity_Status,
-        totalTime: context.timeInSeconds,
-        questionTimings: context.questionTimings,
-        questionsAttempted: context.Questions_attempted,
-        correctAnswers: context.correct_Answers,
-        incorrectAnswers: context.incorrect_Answers,
-        exerciseNumber: context.exercise,
-        exerciseName: context.levelNames[context.exercise] || `Level ${context.exercise}`,
-        totalQuestions: context.currentExerciseSets.length,
-        displayedQuestions: context.questionDetails.filter(q => q.wasDisplayed).length,
-        detailedResults: context.questionDetails
-      };
-    }
+   
+
+ export function generateResultsJsonhelper1(context) {
+  const DetailedResults = context.questionDetails?.map((q, index) => {
+    const currentSet = context.currentExerciseSets?.[index] || {};
+    const state = context.questionStates?.[index] || {};
+    return {
+      setId: currentSet.id || null,
+      questionIndex: index,
+      timeTaken: q.timeTaken || 0,
+      isCompleted: q.isCompleted || false,
+      wasCorrect: q.wasCorrect || false,
+      wasDisplayed: q.wasDisplayed || false,
+      questionTitles: q.questionTitles || (currentSet.categories?.map(cat => cat.displayName || cat.name) || []),
+      userResponse: state.columns
+        ? state.columns.map(col => col.map(item => item.name || ""))
+        : []
+    };
+  }) || [];
+
+  return {
+    summary: {
+      ActivityName: 'Sem1',
+      activityStatus: context.activity_Status || "Completed",
+      totalTimeElapsed: context.secondsToTime(context.timestart),
+      questionsAttempted: context.Questions_attempted || 0,
+      correctAnswers: context.correct_Answers || 0,
+      incorrectAnswers: context.incorrect_Answers || 0,
+      attemptedQuestionNumbers: DetailedResults.map(r => r.setId),
+      testDate: new Date().toISOString(),
+    },
+    DetailedResults
+  };
+}
+
+
+
 
      export function downloadResultsJsonhelper1(context) {
       const data = context.generateResultsJson();
       const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `classification_results_${new Date().toISOString().split('T')[0]}.json`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
+       const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `Test_Result_${testDate}.json`
+      a.click()
+      URL.revokeObjectURL(url)
     }
 
-      export function  FinalResulthelper1(context ) {
-      const curSite = window.location.protocol + "//" + window.location.host;
-      const Url = `${curSite}/solutions/Appfiles/cmActivityResult.aspx?TokenID=${sessionStorage.getItem('sesTokenID')}&JsonData=${context.CollectionResult}&Activityresult=${context.JsonArrData}&ExeID=${sessionStorage.getItem('ExeID')}&exNum=${sessionStorage.getItem('Exe_Number')}&studentID=${sessionStorage.getItem('studentID')}`;
-      window.location.href = Url;
+
+
+export function SaveAndExitNowhelper1(context, updateCounters = true) {
+
+
+ const allColumnsFilled = context.columns.every(col =>
+    col.some(item => item && item.name && item.name.trim() !== "")
+  );
+
+  if (!allColumnsFilled) {
+    alert("Please fill all columns with valid answers before Save and Exit.");
+    return; // ❌ Stop navigation
+  }
+
+ const isCorrect = context.checkCompletion(false);
+   context.updateQuestionTracking(isCorrect);
+
+  context.activity_Status = "Partially Completed";
+  context.Time_elapsed = context.secondsToTime(context.timestart);
+  context.timeInSeconds = context.timestart;
+  context.resultShow = true;
+  context.InstructionShow = false;
+  context.isShowing_info = false;
+  context.truenextgame = false;
+  context.showtop = false;
+  context.showBottom = false;
+  context.ResultHide = true;
+  context.ResultArrow = false;
+
+  // ✅ Safely map question details
+  const DetailedResults = (context.questionDetails || []).map((q, index) => {
+    const currentSet = context.currentExerciseSets?.[index] || {};
+    const state = context.questionStates?.[index] || {};
+    const titles =
+      q?.questionTitles?.length > 0
+        ? q.questionTitles
+        : currentSet.titles || currentSet.questionTitles || [];
+
+    return {
+      questionIndex: currentSet.id || context.ids || null,
+      timeTaken: q?.timeTaken || 0,
+      isCompleted: q?.isCompleted || false,
+      wasCorrect: q?.wasCorrect || false,
+      wasDisplayed: q?.wasDisplayed || false,
+      questionTitles: titles,
+      userResponse: (state.columns || []).map(col =>
+        (col || []).map(item => item?.name || "")
+      )
+    };
+  });
+
+  context.resultData = {
+    summary: {
+      ActivityName: 'Sem1',
+      activityStatus: context.activity_Status,
+      totalTimeElapsed: context.secondsToTime(context.timestart),
+      questionsAttempted: context.Questions_attempted,
+      correctAnswers: context.correct_Answers,
+      incorrectAnswers: context.incorrect_Answers,
+      attemptedQuestionNumbers: DetailedResults.map(r => r.questionIndex),
+      testDate: new Date().toISOString(),
+    },
+    DetailedResults,
+  };
+
+  context.JsonArrData = JSON.stringify(context.resultData, null, 2);
+}
+
+
+
+export function restoreProgressHelper(context) {
+  const savedData = localStorage.getItem('attemptedQuestionData');
+  if (!savedData) return false;
+
+  try {
+    const parsed = JSON.parse(savedData);
+
+    // Restore summary
+    context.activity_Status = parsed.summary.activityStatus;
+    context.timestart = parsed.summary.totalTimeElapsed || 0;
+    context.Questions_attempted = parsed.summary.questionsAttempted || 0;
+    context.correct_Answers = parsed.summary.correctAnswers || 0;
+    context.incorrect_Answers = parsed.summary.incorrectAnswers || 0;
+
+    // Restore detailed question info
+    context.questionDetails = parsed.DetailedResults || [];
+
+    // ✅ Restore full UI states
+    if (parsed.questionStates) {
+      context.questionStates = parsed.questionStates;
     }
+
+    // Resume from next unanswered
+    const answeredCount = parsed.summary.questionsAttempted || 0;
+    context.currentQuestionIndex = answeredCount;
+
+    // Restore UI for answered ones
+    for (let i = 0; i < answeredCount; i++) {
+      context.loadQuestionState(i);
+      context.markAllAnswersAsReadonly();
+    }
+
+    // Load UI for the current question
+    if (context.currentQuestionIndex < context.currentExerciseSets.length) {
+      context.loadQuestionState(context.currentQuestionIndex);
+    }
+
+    return true;
+  } catch (err) {
+    console.error("Failed to restore progress", err);
+    return false;
+  }
+}
+
+
+
+
+
+
+export function FinalResulthelper1(context) {
+
+  const now = new Date();
+  const testDate = now.toISOString();
+
+  // ✅ Always build unified result format
+  const DetailedResults = (context.questionDetails || []).map((q, index) => {
+    const currentSet = context.currentExerciseSets?.[index] || {};
+    const state = context.questionStates?.[index] || {};
+    return {
+      setId: currentSet.id || null,
+      questionIndex: index,
+      timeTaken: q.timeTaken || 0,
+      isCompleted: q.isCompleted || false,
+      wasCorrect: q.wasCorrect || false,
+      wasDisplayed: q.wasDisplayed || false,
+      questionTitles: q.questionTitles || (currentSet.categories?.map(cat => cat.displayName || cat.name) || []),
+      userResponse: state.columns
+        ? state.columns.map(col => col.map(item => item.name || ""))
+        : []
+    };
+  });
+
+  const fullResult = {
+    summary: {
+      ActivityName: 'Sem1',
+      activityStatus: context.activity_Status || "Completed",
+      totalTimeElapsed: context.secondsToTime(context.timestart),
+      questionsAttempted: context.Questions_attempted || 0,
+      correctAnswers: context.correct_Answers || 0,
+      incorrectAnswers: context.incorrect_Answers || 0,
+      attemptedQuestionNumbers: DetailedResults.map(r => r.setId),
+      testDate
+    },
+    DetailedResults
+  };
+
+  // ✅ Save to localStorage
+  localStorage.setItem('attemptedQuestionData', JSON.stringify(fullResult, null, 2));
+
+  // 
+}
+
+ 
+
+
 
 
 
@@ -1759,7 +2148,7 @@ export function WordsAnswerhelper3(context, Answer, index) {
   const questionId = context.counter + 1;
 
   if (context.viewingPrevious) {
-    alert("You have already answered this question. This cannot be changed now.");
+    alert("You have already answered context question. This cannot be changed now.");
     return;
   }
 
@@ -1797,7 +2186,7 @@ export function WordsAnswerhelper3(context, Answer, index) {
     context.Questions_attempted++;
   }
 
-  context.practiceList.push({
+   context.practiceList.push({
     id: questionId,
     originalQuestionNo: currentQuestionObj.__index ?? '',
     level: currentQuestionObj.__level ?? '',
@@ -1943,11 +2332,11 @@ export function WordsAnswerhelper3(context, Answer, index) {
         context.resultData = {
           summary: {
             ActivityName: 'Sem3',
-            activityStatus: context.activity_Status,
-            totalTimeElapsed: context.timestart,
-            questionsAttempted: context.Questions_attempted,
-            correctAnswers: context.correct_Answers,
-            incorrectAnswers: context.incorrect_Answers,
+            ActivityStatus: context.activity_Status,
+            TimeElapsed: context.timestart,
+            QuestionsAttempted: context.Questions_attempted,
+            CorrectAnswers: context.correct_Answers,
+            IncorrectAnswers: context.incorrect_Answers,
             attemptedQuestionNumbers:detailedResults.map(r => r.questionNo),
             testDate: new Date().toISOString(),
           },
@@ -2066,7 +2455,7 @@ export function SaveAndExitNowhelper3(context) {
         };
 
         context.JsonArrData = JSON.stringify(context.resultData, null, 2);
-}
+} 
 
 
 
@@ -2152,14 +2541,7 @@ export function SaveAndExitNowhelper3(context) {
       context.PlayBtnshow = false
       if (!context.InstructionShow) context.practice0()
     }
-//  export function goToPreviousQuestionhelper3(context) {
-//       if (context.counter <= 0) return
-//       context.counter--
-//       context.countcorrect = 1
-//       context.viewingPrevious = true
-//       context.practice0()
-//       context.highlightPreviousAnswer()
-//     }
+
 
 export function goToPreviousQuestionhelper3(context) {
   if (!context || typeof context !== 'object') {
@@ -2185,26 +2567,6 @@ export function goToPreviousQuestionhelper3(context) {
     console.warn('highlightPreviousAnswer function missing in context');
   }
 }
-
-    //    export function highlightPreviousAnswerhelper( context) {
-    //   const questionId = context.counter + 1
-    //   const previousAnswer = context.practiceList.find((q) => q.id === questionId)
-
-    //   if (previousAnswer) {
-    //     const userAnswerIndex = parseInt(previousAnswer.userAnswer) - 1
-    //     const isCorrect = previousAnswer.fullCorrectAnswer[userAnswerIndex] === 'Yes'
-
-    //     context.commonNumArray.forEach((opt, i) => {
-    //       if (i === userAnswerIndex) {
-    //         opt.state = isCorrect ? 'correct' : 'incorrect'
-    //       } else {
-    //         opt.state = 'base'
-    //       }
-    //     })
-    //   }
-    // }
-
-
     export function highlightPreviousAnswerhelper(context) {
   if (!context || typeof context !== 'object') {
     console.error('Invalid context in highlightPreviousAnswerhelper:', context);
@@ -2251,6 +2613,178 @@ export function goToPreviousQuestionhelper3(context) {
   }
 }
 //debug3 
+// export function practice0helper3(context) {
+//   // Add comprehensive safety checks
+//   if (!context.activityQuestions || typeof context.activityQuestions !== 'object') {
+//     console.error('activityQuestions is not available')
+//     return
+//   }
+
+//   if (!context.selectedLevels || !Array.isArray(context.selectedLevels)) {
+//     console.error('selectedLevels is not available')
+//     return
+//   }
+
+//   if (context.jsonFileName === 'CSR-I') {
+//     // CSR-I logic: pool all valid questions across levels
+//     if (context.items.length === 0) {
+//       context.TimerFun()
+//       context.AnswerCheckShow = true
+//       context.PracticeOne = true
+
+//       const allValidQuestions = []
+//       for (const level of context.selectedLevels) {
+//         const levelKey = `Level${level}`
+//         const levelItems = context.activityQuestions[levelKey]
+        
+//         if (!levelItems || !Array.isArray(levelItems)) continue
+
+//         const validItems = levelItems.filter(item => {
+//           if (!item || typeof item !== 'object') return false
+          
+//           try {
+//             const questionKey = Object.keys(item).find(k => k.startsWith('QuestionArr_'))
+//             const optionKey = Object.keys(item).find(k => k.startsWith('OptionArr_'))
+//             const questionValue = questionKey ? item[questionKey] : []
+//             const optionValue = optionKey ? item[optionKey] : []
+//             return Array.isArray(questionValue) && questionValue.length > 0
+//               && Array.isArray(optionValue) && optionValue.length > 0
+//           } catch (e) {
+//             return false
+//           }
+//         })
+
+//         allValidQuestions.push(
+//           ...validItems.map((item, index) => ({
+//             ...item,
+//             __index: index,
+//             __level: levelKey,
+//           }))
+//         )
+//       }
+
+//       const shuffled = allValidQuestions.sort(() => Math.random() - 0.5)
+//       const questionsToUse = Math.min(context.Total_Questions, shuffled.length)
+//       context.items = shuffled.slice(0, questionsToUse)
+//       context.Total_Questions = context.items.length
+//       context.ProgressBar = Array(context.Total_Questions).fill(null).map((_, i) => ({ index: i, state: null }))
+//     }
+//   } else {
+//     // Other activities: FIX THE INDEXING ISSUE
+//     if (context.items.length === 0) {
+//       context.TimerFun()
+//       context.AnswerCheckShow = true
+//       context.PracticeOne = true
+
+//       const allValidItems = []
+
+//       // COLLECT ALL VALID ITEMS FROM ALL LEVELS FIRST
+//       for (const level of context.selectedLevels) {
+//         const levelKey = `Level${level}`
+//         const levelItems = context.activityQuestions[levelKey]
+        
+//         if (!levelItems || !Array.isArray(levelItems)) continue
+
+//         const validItems = levelItems.filter(item => {
+//           return item && typeof item === 'object' && item !== null
+//         })
+
+//         // Add level metadata to each valid item
+//         allValidItems.push(...validItems.map((item, index) => ({
+//           ...item,
+//           __index: index,
+//           __level: levelKey,
+//           __originalIndex: levelItems.indexOf(item) // Keep track of original index too
+//         })))
+//       }
+
+//       // SHUFFLE ALL ITEMS TOGETHER
+//       // const shuffledItems = allValidItems.sort(() => Math.random() - 0.5)
+      
+//       // TAKE ONLY THE NUMBER REQUESTED
+//       context.items = allValidItems.slice(0, context.Total_Questions)
+      
+//       // UPDATE TOTAL_QUESTIONS TO MATCH ACTUAL AVAILABLE
+//       if (context.items.length < context.Total_Questions) {
+//         context.Total_Questions = context.items.length
+//         context.ProgressBar = Array(context.Total_Questions).fill(null).map((_, i) => ({ index: i, state: null }))
+//       }
+
+//       console.log(`Loaded ${context.items.length} items for ${context.jsonFileName}`)
+//     }
+//   }
+
+//   // BOUNDS CHECK
+//   if (context.counter >= context.items.length) {
+//     console.warn(`Counter ${context.counter} exceeds items length ${context.items.length}`)
+//     return
+//   }
+
+//   const questionObj = context.items[context.counter]
+  
+//   // COMPREHENSIVE VALIDATION
+//   if (!questionObj || typeof questionObj !== 'object' || questionObj === null) {
+//     console.error('Invalid question object at counter:', context.counter, 'Items length:', context.items.length)
+//     console.log('Available items:', context.items)
+//     return
+//   }
+
+//   // SAFE Object.keys() CALLS
+//   let questionKey, optionKey, answerKey
+//   try {
+//     questionKey = Object.keys(questionObj).find(k => k.startsWith('QuestionArr_'))
+//     optionKey = Object.keys(questionObj).find(k => k.startsWith('OptionArr_'))
+//     answerKey = Object.keys(questionObj).find(k => k.startsWith('AnswerArr_'))
+//   } catch (e) {
+//     console.error('Error accessing question object keys:', e)
+//     return
+//   }
+
+//   context.questionStartTime = Date.now()
+
+//   const QuestionValue = questionKey ? questionObj[questionKey] || [] : []
+//   const OptionValue = optionKey ? questionObj[optionKey] || [] : []
+//   let AnswerValue = answerKey ? questionObj[answerKey] || [] : []
+
+//   if (!Array.isArray(AnswerValue)) AnswerValue = []
+
+//   // Set image properties
+//   context.ImageNames = questionObj.ImageName || ''
+//   context.ImageNames1 = questionObj.QuestionImage || 'NA'
+//   context.ImageNames2 = questionObj.ImageName2 || 'NA'  
+//   context.ImageNames3 = questionObj.ImageName3 || 'NA'
+//   context.ImageNames4 = questionObj.ImageName4 || 'NA'
+
+//   // Build options array
+//   context.commonNumArray = OptionValue.map((opt, i) => {
+//     const existingAnswer = context.practiceList.find(q => q.id === context.counter + 1)
+//     const isSelected = existingAnswer && existingAnswer.userAnswer === (i + 1).toString()
+//     const isCorrect = existingAnswer && existingAnswer.fullCorrectAnswer && existingAnswer.fullCorrectAnswer[i] === 'Yes'
+
+//     return {
+//       index: i,
+//       state: isSelected ? (isCorrect ? 'correct' : 'incorrect') : 'base',
+//       Answer: AnswerValue[i],
+//       Option: opt,
+//       Question: QuestionValue,
+//     }
+//   })
+
+//   context.PrevQuestionShow = context.counter > 0
+
+//   // FORCE REACTIVITY UPDATE
+//   context.$nextTick(() => {
+//     console.log(`Updated to question ${context.counter + 1}:`, {
+
+//       questionObj: questionObj,
+//       QuestionValue: QuestionValue,
+//       OptionValue: OptionValue,
+//       ImageNames: context.ImageNames,
+//       index:context.origIdx,
+//       commonNumArray: context.commonNumArray.length
+//     })
+//   })
+// }
 export function practice0helper3(context) {
   // Add comprehensive safety checks
   if (!context.activityQuestions || typeof context.activityQuestions !== 'object') {
@@ -2394,19 +2928,51 @@ export function practice0helper3(context) {
   context.ImageNames4 = questionObj.ImageName4 || 'NA'
 
   // Build options array
-  context.commonNumArray = OptionValue.map((opt, i) => {
-    const existingAnswer = context.practiceList.find(q => q.id === context.counter + 1)
-    const isSelected = existingAnswer && existingAnswer.userAnswer === (i + 1).toString()
-    const isCorrect = existingAnswer && existingAnswer.fullCorrectAnswer && existingAnswer.fullCorrectAnswer[i] === 'Yes'
+  // context.commonNumArray = OptionValue.map((opt, i) => {
+  //   const existingAnswer = context.practiceList.find(q => q.id === context.counter + 1)
+  //   const isSelected = existingAnswer && existingAnswer.userAnswer === (i + 1).toString()
+  //   const isCorrect = existingAnswer && existingAnswer.fullCorrectAnswer && existingAnswer.fullCorrectAnswer[i] === 'Yes'
 
+  //   return {
+  //     index: i,
+  //     state: isSelected ? (isCorrect ? 'correct' : 'incorrect') : 'base',
+  //     Answer: AnswerValue[i],
+  //     Option: opt,
+  //     Question: QuestionValue,
+  //   }
+  // })
+
+ console.log("commonNumArray in practice0helper3 before:", JSON.stringify(OptionValue, null, 2));
+
+// Build options array (flatten Option)
+context.commonNumArray = OptionValue.map((opt, i) => {
+  const existingAnswer = context.practiceList.find(q => q.id === context.counter + 1)
+  const isSelected = existingAnswer && existingAnswer.userAnswer === (i + 1).toString()
+  const isCorrect = existingAnswer && existingAnswer.fullCorrectAnswer && existingAnswer.fullCorrectAnswer[i] === 'Yes'
+
+  if (typeof opt === "object") {
+    // Keep existing state from OptionValue if exists, otherwise use practiceList
     return {
       index: i,
-      state: isSelected ? (isCorrect ? 'correct' : 'incorrect') : 'base',
+      state: isSelected ? (isCorrect ? "correct" : "incorrect") : (opt.state || "base"),
+      Answer: AnswerValue[i],
+      Option: opt.label,
+      Question: QuestionValue
+    }
+  } else {
+    return {
+      index: i,
+      state: isSelected ? (isCorrect ? "correct" : "incorrect") : "base",
       Answer: AnswerValue[i],
       Option: opt,
-      Question: QuestionValue,
+      Question: QuestionValue
     }
-  })
+  }
+})
+
+
+console.log("commonNumArray in practice0helper3:", JSON.stringify(context.commonNumArray, null, 2));
+
 
   context.PrevQuestionShow = context.counter > 0
 
@@ -2425,246 +2991,7 @@ export function practice0helper3(context) {
 
 
 
-// debug 2
-// export function practice0helper3(context) {
-//   // Add comprehensive safety checks
-//   if (!context.activityQuestions || typeof context.activityQuestions !== 'object') {
-//     console.error('activityQuestions is not available')
-//     return
-//   }
 
-//   if (!context.selectedLevels || !Array.isArray(context.selectedLevels)) {
-//     console.error('selectedLevels is not available')
-//     return
-//   }
-
-//   if (context.jsonFileName === 'CSR-I') {
-//     // CSR-I logic: pool all valid questions across levels
-//     if (context.items.length === 0) {
-//       context.TimerFun()
-//       context.AnswerCheckShow = true
-//       context.PracticeOne = true
-
-//       const allValidQuestions = []
-//       for (const level of context.selectedLevels) {
-//         const levelKey = `Level${level}`
-//         const levelItems = context.activityQuestions[levelKey]
-        
-//         if (!levelItems || !Array.isArray(levelItems)) continue
-
-//         const validItems = levelItems.filter(item => {
-//           if (!item || typeof item !== 'object') return false
-          
-//           try {
-//             const questionKey = Object.keys(item).find(k => k.startsWith('QuestionArr_'))
-//             const optionKey = Object.keys(item).find(k => k.startsWith('OptionArr_'))
-//             const questionValue = questionKey ? item[questionKey] : []
-//             const optionValue = optionKey ? item[optionKey] : []
-//             return Array.isArray(questionValue) && questionValue.length > 0
-//               && Array.isArray(optionValue) && optionValue.length > 0
-//           } catch (e) {
-//             console.warn('Error validating item:', e)
-//             return false
-//           }
-//         })
-
-//         allValidQuestions.push(
-//           ...validItems.map((item, index) => ({
-//             ...item,
-//             __index: index,
-//             __level: levelKey,
-//           }))
-//         )
-//       }
-
-//       const shuffled = allValidQuestions.sort(() => Math.random() - 0.5)
-//       const questionsToUse = Math.min(context.Total_Questions, shuffled.length)
-//       context.items = shuffled.slice(0, questionsToUse)
-//       context.Total_Questions = context.items.length
-//       context.ProgressBar = Array(context.Total_Questions).fill(null).map((_, i) => ({ index: i, state: null }))
-//     }
-//   } else {
-//     // Other activities: COMPREHENSIVE VALIDATION
-//     if (context.items.length === 0) {
-//       context.TimerFun()
-//       context.AnswerCheckShow = true
-//       context.PracticeOne = true
-
-//       const selectedItems = []
-//       const questionsPerLevel = Math.floor(context.Total_Questions / context.selectedLevels.length)
-//       let remaining = context.Total_Questions % context.selectedLevels.length
-
-//       for (const level of context.selectedLevels) {
-//         const levelKey = `Level${level}`
-//         const levelItems = context.activityQuestions[levelKey]
-        
-//         if (!levelItems || !Array.isArray(levelItems)) continue
-
-//         // FILTER OUT COMPLETELY INVALID ITEMS
-//         const validItems = levelItems.filter(item => {
-//           return item && typeof item === 'object' && item !== null
-//         })
-
-//         let count = questionsPerLevel + (remaining > 0 ? 1 : 0)
-//         if (remaining > 0) remaining--
-        
-//         const shuffled = validItems.slice().sort(() => Math.random() - 0.5)
-//         const subset = shuffled.slice(0, count).map((item, index) => ({
-//           ...item,
-//           __index: index,
-//           __level: levelKey,
-//         }))
-//         selectedItems.push(...subset)
-//       }
-
-//       context.items = selectedItems
-//       console.log(`Loaded ${context.items.length} items for ${context.jsonFileName}`)
-//     }
-//   }
-
-//   // BOUNDS CHECK
-//   if (context.counter >= context.items.length) {
-//     console.warn(`Counter ${context.counter} exceeds items length ${context.items.length}`)
-//     return
-//   }
-
-//   const questionObj = context.items[context.counter]
-  
-//   // COMPREHENSIVE VALIDATION
-//   if (!questionObj || typeof questionObj !== 'object' || questionObj === null) {
-//     console.error('Invalid question object at counter:', context.counter)
-//     return
-//   }
-
-//   // SAFE Object.keys() CALLS
-//   let questionKey, optionKey, answerKey
-//   try {
-//     questionKey = Object.keys(questionObj).find(k => k.startsWith('QuestionArr_'))
-//     optionKey = Object.keys(questionObj).find(k => k.startsWith('OptionArr_'))
-//     answerKey = Object.keys(questionObj).find(k => k.startsWith('AnswerArr_'))
-//   } catch (e) {
-//     console.error('Error accessing question object keys:', e)
-//     return
-//   }
-
-//   context.questionStartTime = Date.now()
-
-//   const QuestionValue = questionKey ? questionObj[questionKey] || [] : []
-//   const OptionValue = optionKey ? questionObj[optionKey] || [] : []
-//   let AnswerValue = answerKey ? questionObj[answerKey] || [] : []
-
-//   if (!Array.isArray(AnswerValue)) AnswerValue = []
-
-//   // Set defaults for missing data
-//   context.ImageNames = questionObj.ImageName || ''
-//   context.ImageNames1 = questionObj.QuestionImage || 'NA'
-//   context.ImageNames2 = questionObj.ImageName2 || 'NA'
-//   context.ImageNames3 = questionObj.ImageName3 || 'NA'
-//   context.ImageNames4 = questionObj.ImageName4 || 'NA'
-
-//   context.commonNumArray = OptionValue.map((opt, i) => {
-//     const existingAnswer = context.practiceList.find(q => q.id === context.counter + 1)
-//     const isSelected = existingAnswer && existingAnswer.userAnswer === (i + 1).toString()
-//     const isCorrect = existingAnswer && existingAnswer.fullCorrectAnswer[i] === 'Yes'
-
-//     return {
-//       index: i,
-//       state: isSelected ? (isCorrect ? 'correct' : 'incorrect') : 'base',
-//       Answer: AnswerValue[i],
-//       Option: opt,
-//       Question: QuestionValue,
-//     }
-//   })
-
-//   context.PrevQuestionShow = context.counter > 0
-// }
-
-//
-
-// original
-
-    //   export function practice0helper3(context) {
-    //   if (context.items.length === 0) {
-    //     context.TimerFun()
-    //     context.AnswerCheckShow = true
-    //     context.PracticeOne = true
-
-    //     const selectedItems = []
-    //     const levels = context.selectedLevels
-    //     const questionsPerLevel = Math.floor(context.Total_Questions / levels.length)
-    //     let remaining = context.Total_Questions % levels.length
-
-    //     for (const level of levels) {
-    //       const levelKey = `Level${level}`
-    //       const levelItems = context.activityQuestions[levelKey] || []
-    //       let count = questionsPerLevel + (remaining > 0 ? 1 : 0)
-    //       if (remaining > 0) remaining--
-    //       const shuffled = levelItems.slice().sort(() => Math.random() - 0.5)
-    //       const subset = shuffled.slice(0, count).map((item) => ({
-    //         ...item,
-    //         __index: levelItems.indexOf(item),
-    //         __level: levelKey,
-    //       }))
-    //       selectedItems.push(...subset)
-    //     }
-
-    //     context.items = selectedItems
-    //   }
-
-    //   if (context.counter >= context.items.length) return
-
-    //   const questionObj = context.items[context.counter]
-    //   const questionKey = Object.keys(questionObj).find((k) =>
-    //     k.startsWith('QuestionArr_')
-    //   )
-    //   const optionKey = Object.keys(questionObj).find((k) =>
-    //     k.startsWith('OptionArr_')
-    //   )
-    //   const answerKey = Object.keys(questionObj).find((k) =>
-    //     k.startsWith('AnswerArr_')
-    //   )
-
-    //   context.questionStartTime = Date.now()
-
-    //   const QuestionValue = questionObj[questionKey] || []
-    //   const OptionValue = questionObj[optionKey] || []
-    //   let AnswerValue = questionObj[answerKey] || []
-
-    //   if (!Array.isArray(AnswerValue)) AnswerValue = []
-
-    //   if (!QuestionValue.length || !OptionValue.length) {
-    //     console.warn('Invalid question skipped:', questionObj)
-    //     context.counter++
-    //     context.practice0()
-    //     return
-    //   }
-
-    //   context.ImageNames = questionObj.ImageName || ''
-    //   context.ImageNames1 = questionObj.QuestionImage || 'NA'
-    //   context.ImageNames2 = questionObj.ImageName2 || 'NA'
-    //   context.ImageNames3 = questionObj.ImageName3 || 'NA'
-    //   context.ImageNames4 = questionObj.ImageName4 || 'NA'
-
-    //   context.commonNumArray = OptionValue.map((opt, i) => {
-    //     const existingAnswer = context.practiceList.find(
-    //       (q) => q.id === context.counter + 1
-    //     )
-    //     const isSelected =
-    //       existingAnswer && existingAnswer.userAnswer === (i + 1).toString()
-    //     const isCorrect =
-    //       existingAnswer && existingAnswer.fullCorrectAnswer[i] === 'Yes'
-
-    //     return {
-    //       index: i,
-    //       state: isSelected ? (isCorrect ? 'correct' : 'incorrect') : 'base',
-    //       Answer: AnswerValue[i],
-    //       Option: opt,
-    //       Question: QuestionValue,
-    //     }
-    //   })
-
-    //   context.PrevQuestionShow = context.counter > 0
-    // }
 
 
 

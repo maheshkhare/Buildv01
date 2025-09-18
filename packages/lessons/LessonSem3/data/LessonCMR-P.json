@@ -150,7 +150,7 @@
     { 
       "index":18,
       "QuestionArr_018": "Which direction is Park Street in?",
-      "OptionArr_018": ["Go down south and turn west then move south.","Go down south and turn East then move south","Go down south and turn west then move North","Go down North and turn west then move south"], 
+      "OptionArr_018": ["going down to south and moving to the west.","Go down south and turn East then move south","Go down south and turn west then move North","Go down North and turn west then move south"], 
       "AnswerArr_018": ["Yes", "","",""],
       "ImageName": "L1-4",
       "QuestionImage":"NA"
@@ -158,7 +158,7 @@
     { 
       "index":19,
       "QuestionArr_019": "Which direction is Oak road?",
-      "OptionArr_019": ["East then go north then go west","South then go east then go south","West then go east then go south","North then go east then go west"], 
+      "OptionArr_019": ["East then go north then go west","going to east and then to the north ","West then go east then go south","North then go east then go west"], 
       "AnswerArr_019": ["", "Yes","",""],
       "ImageName": "L1-4",
       "QuestionImage":"NA"
@@ -166,7 +166,7 @@
     {
       "index": 20,
       "QuestionArr_020": "Which direction is the Market?",
-      "OptionArr_020": ["South then go west", "East then go south then go west", "North then go east", "South then go east"],
+      "OptionArr_020": ["go to north and move to the west.", "East then go south then go west", "North then go east", "South then go east"],
       "AnswerArr_020": ["Yes", "", "", ""],
       "ImageName": "L1-4",
       "QuestionImage": "NA"
@@ -205,73 +205,73 @@
     },
     {
       "index": 25,
-      "QuestionArr_25": "Number 3 is located in the _____",
-      "OptionArr_25": ["West", "East", "South", "North"],
-      "AnswerArr_25": ["", "", "", "Yes"],
+      "QuestionArr_25": "Has the town got a playground?",
+      "OptionArr_25": ["True", "False"],
+      "AnswerArr_25": ["Yes", ""],
       "ImageName": "L1-5",
       "QuestionImage": "NA"
     },
     {
       "index": 26,
-      "QuestionArr_26": "Number 1 is located in the ____",
-      "OptionArr_26": ["North", "South", "East", "West"],
-      "AnswerArr_26": ["", "", "", "Yes"],
+      "QuestionArr_26": "Has the town got a zoo?",
+      "OptionArr_26": ["True", "False"],
+      "AnswerArr_26": ["", "Yes"],
       "ImageName": "L1-5",
       "QuestionImage": "NA"
     },
     {
       "index": 27,
-      "QuestionArr_27": " Number 2 is located in the ____",
-      "OptionArr_27": ["East", "West", "South", "North"],
-      "AnswerArr_27": ["Yes", "", "", ""],
+      "QuestionArr_27": "Has the town got a restaurant ?",
+      "OptionArr_27":["True", "False"],
+      "AnswerArr_27":  ["", "Yes"],
       "ImageName": "L1-5",
       "QuestionImage": "NA"
     },
     {
       "index": 28,
-      "QuestionArr_28": "Number 4 is located in the ____",
-      "OptionArr_28": ["North", "East", "South", "West"],
-      "AnswerArr_28": ["", "", "Yes", ""],
+      "QuestionArr_28": " Has the town got a hospital ?",
+      "OptionArr_28": ["True", "False"],
+      "AnswerArr_28": ["Yes", ""],
       "ImageName": "L1-5",
       "QuestionImage": "NA"
     },
     {
       "index": 29,
-      "QuestionArr_29": "The triangle is in the ______",
-      "OptionArr_29": ["North", "West", "South", "East"],
-      "AnswerArr_29": ["", "", "", "Yes"],
+      "QuestionArr_29": "Has town got a bookstore ?",
+      "OptionArr_29":["True", "False"],
+      "AnswerArr_29":  ["Yes", ""],
       "ImageName": "L1-5",
       "QuestionImage": "NA"
     },
     {
       "index": 30,
-      "QuestionArr_30": "",
-      "OptionArr_30": ["South", "East", "North", "West"],
-      "AnswerArr_30": ["Yes", "", "", ""],
+      "QuestionArr_30": "Has the town got a swimming pool ?",
+      "OptionArr_30": ["True", "False"],
+      "AnswerArr_30":   ["", "Yes"],
       "ImageName": "L1-5",
       "QuestionImage": "NA"
     },
     {
       "index": 31,
-      "QuestionArr_31": "The _______ is in the west",
-      "OptionArr_31": ["RECTANGLE", "CIRCLE", "SQUARE", "TRIANGLE"],
-      "AnswerArr_31": ["", "Yes", "", ""],
+      "QuestionArr_31": " Has the town got a clinic ?",
+      "OptionArr_31":["True", "False"],
+      "AnswerArr_31":  ["", "Yes"],
       "ImageName": "L1-5",
       "QuestionImage": "NA"
     },
     {
       "index": 32,
-      "QuestionArr_32": "The rectangle is in the _______",
-      "OptionArr_32": ["West", "North", "East", "South"],
-      "AnswerArr_32": ["", "", "", "Yes"],
+      "QuestionArr_32": " Has the town got a townhall ? ",
+      "OptionArr_32": ["True", "False"],
+      "AnswerArr_32": ["", "Yes"],
       "ImageName": "L1-5",
       "QuestionImage": "NA"
     },
     {
       "index": 33,
-      "QuestionArr_33": "The _____ is in the north",
-      "OptionArr_33": ["SQAURE", "TRIANGLE", "RECTANGLE", "CIRCLE"],
-      "AnswerArr_33": ["Yes", "", "", ""],
+      "QuestionArr_33": " Has the town got a Cafe ? ",
+      "OptionArr_33": ["True", "False"],
+      "AnswerArr_33":  ["Yes", ""],
       "ImageName": "L1-5",
       "QuestionImage": "NA"
     }
@@ -547,7 +547,7 @@
     { 
       "index":0,
       "QuestionArr_00": "Parrot Forest___________________?",
-      "OptionArr_00": ["B4","B3","B1","B2"], 
+      "OptionArr_00": ["B4","D3","B1","B2"], 
       "AnswerArr_00": ["Yes", "","",""],
       "ImageName": "L3-1",
       "QuestionImage":"NA"

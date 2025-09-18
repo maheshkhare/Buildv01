@@ -91,7 +91,7 @@ import SaveExitButton from '../../../common-generic-templates/SaveExitButton.vue
 
 export default {
   name: 'SectionSem1Bottom',
-  components: { SVGImageButton, SaveExitButton },
+  components: { SVGImageButton },
   
   props: {
     acceptInput: {

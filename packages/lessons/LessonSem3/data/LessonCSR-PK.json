@@ -1,0 +1,615 @@
+{
+    "Instruction":"Find the patterns & count.",
+    "Level1":[   
+     { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","7","12"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L1-1",
+      "QuestionImage":"L1-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "9","6","12"], 
+      "AnswerArr_01": ["", "","Yes",""],
+      "ImageName": "L1-2",
+      "QuestionImage":"L1-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "9","5","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L1-3",
+      "QuestionImage":"L1-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["4", "9","6","12"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L1-4",
+      "QuestionImage":"L1-o4"
+    },
+    { 
+      "index":4,
+      "QuestionArr_04": "Count the above image in main image?",
+      "OptionArr_04": ["10", "6","7","12"], 
+      "AnswerArr_04": ["", "Yes","",""],
+      "ImageName": "L1-5",
+      "QuestionImage":"L1-o5"
+    },
+     { 
+      "index":5,
+      "QuestionArr_05": "Count the above image in main image?",
+      "OptionArr_05": ["7", "9","8","12"], 
+      "AnswerArr_05": ["", "","Yes",""],
+      "ImageName": "L1-6",
+      "QuestionImage":"L1-o6"
+    },
+    { 
+      "index":6,
+      "QuestionArr_06": "Count the above image in main image?",
+      "OptionArr_06": ["8", "9","7","12"], 
+      "AnswerArr_06": ["Yes", "","",""],
+      "ImageName": "L1-7",
+      "QuestionImage":"L1-o7"
+    },
+     { 
+      "index":7,
+      "QuestionArr_07": "Count the above image in main image?",
+      "OptionArr_07": ["7", "9","6","12"], 
+      "AnswerArr_07": ["Yes", "","",""],
+      "ImageName": "L1-8",
+      "QuestionImage":"L1-o8"
+    }       
+],
+"Level2":[
+    { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","8","12"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L2-1",
+      "QuestionImage":"L2-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "9","6","12"], 
+      "AnswerArr_01": ["Yes", "","",""],
+      "ImageName": "L2-2",
+      "QuestionImage":"L2-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "9","6","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L2-3",
+      "QuestionImage":"L2-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","6","12"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L2-4",
+      "QuestionImage":"L2-o4"
+    },
+    { 
+      "index":4,
+      "QuestionArr_04": "Count the above image in main image?",
+      "OptionArr_04": ["10", "9","7","12"], 
+      "AnswerArr_04": ["", "Yes","",""],
+      "ImageName": "L2-5",
+      "QuestionImage":"L2-o5"
+    },
+     { 
+      "index":5,
+      "QuestionArr_05": "Count the above image in main image?",
+      "OptionArr_05": ["7", "9","8","12"], 
+      "AnswerArr_05": ["", "","Yes",""],
+      "ImageName": "L2-6",
+      "QuestionImage":"L2-o6"
+    },
+    { 
+      "index":6,
+      "QuestionArr_06": "Count the above image in main image?",
+      "OptionArr_06": ["8", "9","7","12"], 
+      "AnswerArr_06": ["Yes", "","",""],
+      "ImageName": "L2-7",
+      "QuestionImage":"L2-o7"
+    },
+     { 
+      "index":7,
+      "QuestionArr_07": "Count the above image in main image?",
+      "OptionArr_07": ["7", "9","6","12"], 
+      "AnswerArr_07": ["Yes", "","",""],
+      "ImageName": "L2-8",
+      "QuestionImage":"L2-o8"
+    },  
+     { 
+      "index":8,
+      "QuestionArr_08": "Count the above image in main image?",
+      "OptionArr_08": ["7", "9","6","12"], 
+      "AnswerArr_08": ["Yes", "","",""],
+      "ImageName": "L2-9",
+      "QuestionImage":"L2-o9"
+    } , 
+     { 
+      "index":9,
+      "QuestionArr_09": "Count the above image in main image?",
+      "OptionArr_09": ["7", "5","6","12"], 
+      "AnswerArr_09": ["", "Yes","",""],
+      "ImageName": "L2-10",
+      "QuestionImage":"L2-o10"
+    }  
+
+],
+"Level3":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","8","12"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L3-1",
+      "QuestionImage":"L3-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "8","6","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L3-2",
+      "QuestionImage":"L3-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "9","8","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L3-3",
+      "QuestionImage":"L3-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","6","12"], 
+      "AnswerArr_03": ["", "Yes","",""],
+      "ImageName": "L3-4",
+      "QuestionImage":"L3-o4"
+    },
+    { 
+      "index":4,
+      "QuestionArr_04": "Count the above image in main image?",
+      "OptionArr_04": ["10", "9","7","12"], 
+      "AnswerArr_04": ["Yes", "","",""],
+      "ImageName": "L3-5",
+      "QuestionImage":"L3-o5"
+    },
+     { 
+      "index":5,
+      "QuestionArr_05": "Count the above image in main image?",
+      "OptionArr_05": ["7", "9","10","12"], 
+      "AnswerArr_05": ["", "","Yes",""],
+      "ImageName": "L3-6",
+      "QuestionImage":"L3-o6"
+    },
+    { 
+      "index":6,
+      "QuestionArr_06": "Count the above image in main image?",
+      "OptionArr_06": ["6", "9","7","12"], 
+      "AnswerArr_06": ["Yes", "","",""],
+      "ImageName": "L3-7",
+      "QuestionImage":"L3-o7"
+    },
+     { 
+      "index":7,
+      "QuestionArr_07": "Count the above image in main image?",
+      "OptionArr_07": ["7", "9","6","12"], 
+      "AnswerArr_07": ["", "Yes","",""],
+      "ImageName": "L3-8",
+      "QuestionImage":"L3-o8"
+    }    
+],
+"Level4":[
+      { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","6","12"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L4-1",
+      "QuestionImage":"L4-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "8","6","12"], 
+      "AnswerArr_01": ["", "","Yes",""],
+      "ImageName": "L4-2",
+      "QuestionImage":"L4-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "7","8","12"], 
+      "AnswerArr_02": ["", "Yes","",""],
+      "ImageName": "L4-3",
+      "QuestionImage":"L4-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","10","6"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L4-4",
+      "QuestionImage":"L4-o4"
+    },
+    { 
+      "index":4,
+      "QuestionArr_04": "Count the above image in main image?",
+      "OptionArr_04": ["10", "9","7","12"], 
+      "AnswerArr_04": ["", "","Yes",""],
+      "ImageName": "L4-5",
+      "QuestionImage":"L4-o5"
+    },
+     { 
+      "index":5,
+      "QuestionArr_05": "Count the above image in main image?",
+      "OptionArr_05": ["6", "9","10","12"], 
+      "AnswerArr_05": ["Yes", "","",""],
+      "ImageName": "L4-6",
+      "QuestionImage":"L4-o6"
+    },
+    { 
+      "index":6,
+      "QuestionArr_06": "Count the above image in main image?",
+      "OptionArr_06": ["6", "9","7","5"], 
+      "AnswerArr_06": ["", "","","Yes"],
+      "ImageName": "L4-7",
+      "QuestionImage":"L4-o7"
+    },
+     { 
+      "index":7,
+      "QuestionArr_07": "Count the above image in main image?",
+      "OptionArr_07": ["7", "9","6","12"], 
+      "AnswerArr_07": ["", "","Yes",""],
+      "ImageName": "L4-8",
+      "QuestionImage":"L4-o8"
+    } 
+],
+"Level5":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","6","12"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L5-1",
+      "QuestionImage":"L5-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "8","5","12"], 
+      "AnswerArr_01": ["", "","Yes",""],
+      "ImageName": "L5-2",
+      "QuestionImage":"L5-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "5","8","12"], 
+      "AnswerArr_02": ["", "Yes","",""],
+      "ImageName": "L5-3",
+      "QuestionImage":"L5-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","10","6"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L5-4",
+      "QuestionImage":"L5-o4"
+    },
+    { 
+      "index":4,
+      "QuestionArr_04": "Count the above image in main image?",
+      "OptionArr_04": ["10", "9","7","12"], 
+      "AnswerArr_04": ["", "","Yes",""],
+      "ImageName": "L5-5",
+      "QuestionImage":"L5-o5"
+    },
+     { 
+      "index":5,
+      "QuestionArr_05": "Count the above image in main image?",
+      "OptionArr_05": ["6", "9","10","12"], 
+      "AnswerArr_05": ["Yes", "","",""],
+      "ImageName": "L5-6",
+      "QuestionImage":"L5-o6"
+    },
+    { 
+      "index":6,
+      "QuestionArr_06": "Count the above image in main image?",
+      "OptionArr_06": ["6", "9","7","5"], 
+      "AnswerArr_06": ["Yes", "","",""],
+      "ImageName": "L5-7",
+      "QuestionImage":"L5-o7"
+    },
+     { 
+      "index":7,
+      "QuestionArr_07": "Count the above image in main image?",
+      "OptionArr_07": ["7", "3","6","12"], 
+      "AnswerArr_07": ["", "Yes","",""],
+      "ImageName": "L5-8",
+      "QuestionImage":"L5-o8"
+    } 
+],
+"Level6":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","7","12"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L6-1",
+      "QuestionImage":"L6-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "8","5","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L6-2",
+      "QuestionImage":"L6-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "5","8","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L6-3",
+      "QuestionImage":"L6-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","10","7"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L6-4",
+      "QuestionImage":"L6-o4"
+    }
+],
+"Level7":[
+      { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","7","12"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L7-1",
+      "QuestionImage":"L7-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "8","5","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L7-2",
+      "QuestionImage":"L7-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "5","8","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L7-3",
+      "QuestionImage":"L7-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","10","7"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L7-4",
+      "QuestionImage":"L7-o4"
+    }
+],
+"Level8":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","7","12"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L8-1",
+      "QuestionImage":"L8-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "8","5","12"], 
+      "AnswerArr_01": ["Yes", "","",""],
+      "ImageName": "L8-2",
+      "QuestionImage":"L8-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "5","7","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L8-3",
+      "QuestionImage":"L8-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","10","5"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L8-4",
+      "QuestionImage":"L8-o4"
+    }
+],
+"Level9":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","7","12"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L9-1",
+      "QuestionImage":"L9-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["6", "8","5","12"], 
+      "AnswerArr_01": ["Yes", "","",""],
+      "ImageName": "L9-2",
+      "QuestionImage":"L9-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "5","6","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L9-3",
+      "QuestionImage":"L9-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","10","5"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L9-4",
+      "QuestionImage":"L9-o4"
+    },
+    { 
+      "index":4,
+      "QuestionArr_04": "Count the above image in main image?",
+      "OptionArr_04": ["8", "9","10","5"], 
+      "AnswerArr_04": ["", "","","Yes"],
+      "ImageName": "L9-5",
+      "QuestionImage":"L9-o5"
+    }
+],
+"Level10":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","8","12"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L10-1",
+      "QuestionImage":"L10-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["6", "8","5","12"], 
+      "AnswerArr_01": ["", "","Yes",""],
+      "ImageName": "L10-2",
+      "QuestionImage":"L10-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["7", "5","3","4"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L10-3",
+      "QuestionImage":"L10-o3"
+    }
+],
+"Level11":[
+       { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","7","12"], 
+      "AnswerArr_00": ["", "Yes","",""],
+      "ImageName": "L11-1",
+      "QuestionImage":"L11-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["6", "8","5","12"], 
+      "AnswerArr_01": ["Yes", "","",""],
+      "ImageName": "L11-2",
+      "QuestionImage":"L11-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "5","6","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L11-3",
+      "QuestionImage":"L11-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","10","6"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L11-4",
+      "QuestionImage":"L11-o4"
+    }
+
+],
+"Level12":[
+       { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","7","12"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L12-1",
+      "QuestionImage":"L12-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "8","5","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L12-2",
+      "QuestionImage":"L12-o2"
+    },
+    { 
+      "index":2,
+      "QuestionArr_02": "Count the above image in main image?",
+      "OptionArr_02": ["10", "5","8","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L12-3",
+      "QuestionImage":"L12-o3"
+    },
+     { 
+      "index":3,
+      "QuestionArr_03": "Count the above image in main image?",
+      "OptionArr_03": ["8", "9","10","5"], 
+      "AnswerArr_03": ["", "Yes","",""],
+      "ImageName": "L12-4",
+      "QuestionImage":"L12-o4"
+    },
+     { 
+      "index":4,
+      "QuestionArr_04": "Count the above image in main image?",
+      "OptionArr_04": ["8", "9","10","5"], 
+      "AnswerArr_04": ["Yes", "","",""],
+      "ImageName": "L12-5",
+      "QuestionImage":"L12-o5"
+    }
+],
+"Level13":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Count the above image in main image?",
+      "OptionArr_00": ["10", "9","7","12"], 
+      "AnswerArr_00": ["", "Yes","",""],
+      "ImageName": "L13-1",
+      "QuestionImage":"L13-o1"
+    },
+     { 
+      "index":1,
+      "QuestionArr_01": "Count the above image in main image?",
+      "OptionArr_01": ["7", "9","5","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L13-2",
+      "QuestionImage":"L13-o2"
+    }
+]
+}

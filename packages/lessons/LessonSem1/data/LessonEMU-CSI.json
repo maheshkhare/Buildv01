@@ -26,8 +26,8 @@
           {
             "name": "ends with it",
             "displayName": "Ends with 'it'",
-            "words": ["fit", "lit", "hit", "spit", "bit", "knit","sit"],
-            "images": ["fit.jpg","lit.jpg","hit.jpg","spit.jpg","bit.jpg","knit.jpg","sit.jpg"]
+            "words": ["fit", "lit", "hit", "spit",  "knit","sit"],
+            "images": ["fit.jpg","lit.jpg","hit.jpg","spit.jpg","knit.jpg","sit.jpg"]
           },
           {
             "name": "ends with at",
@@ -93,25 +93,7 @@
     }
     ],
     "level2": [
-      {
-        "id": "Set2_0",
-          "levelName": "Check the Spelling",
-        "Image": "level2_story_image.jpg",
-        "categories": [
-          {
-            "name": "Animals",
-            "displayName": "Animals",
-            "words": ["Lion", "Elephant", "Dog"],
-            "images": ["lion.png", "elephant.png", "dog.png"]
-          },
-          {
-            "name": "Insects",
-            "displayName": "Insects",
-            "words": ["Bee", "Butterfly", "Ant"],
-            "images": ["bee.png", "butterfly.png", "ant.png"]
-          }
-        ]
-      },
+      
       {
         "id": "Set2_1",
           "levelName": "Check the Spelling",

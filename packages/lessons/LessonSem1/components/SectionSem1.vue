@@ -23,6 +23,7 @@
           :aria-pressed="selectedWord === word"
         >
           {{ word }}
+
         </div>
       </div>
 
@@ -78,6 +79,7 @@ export default {
       immediate: true,
       handler(newVal) {
         this.availableWords = [...newVal];
+        alert('Watcher triggered: availableWords updated to ' + this.availableWords);
         this.placedWords = [];
         this.selectedWord = null;
       }

@@ -1,0 +1,510 @@
+{
+  "Instruction":"Find the number pattern & Select correct count.",
+  "Level1":[
+  
+    { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 321",
+      "OptionArr_00": ["10", "12","14","15"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L1-0",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 06",
+      "OptionArr_01": ["6","8","10","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L1-1",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 007",
+      "OptionArr_02": ["6","8","10","12"], 
+      "AnswerArr_02": ["", "Yes","",""],
+      "ImageName": "L1-2",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 81",
+      "OptionArr_03": ["15","9","11","12"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L1-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 21",
+      "OptionArr_03": ["14","16","11","12"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L1-4",
+      "QuestionImage":"NA"
+    }
+],
+"Level2":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 654",
+      "OptionArr_00": ["10", "12","14","15"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L2-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 94",
+      "OptionArr_01": ["6","9","10","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L2-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 294",
+      "OptionArr_02": ["6","8","10","12"], 
+      "AnswerArr_02": ["", "Yes","",""],
+      "ImageName": "L2-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 12",
+      "OptionArr_03": ["15","9","11","12"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L2-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 22",
+      "OptionArr_03": ["14","16","11","12"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L2-5",
+      "QuestionImage":"NA"
+    }
+],
+"Level3":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 987",
+      "OptionArr_00": ["10", "12","14","15"], 
+      "AnswerArr_00": ["", "","Yes",""],
+      "ImageName": "L3-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 876",
+      "OptionArr_01": ["6","7","10","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L3-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 786",
+      "OptionArr_02": ["6","8","11","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L3-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 628",
+      "OptionArr_03": ["15","9","11","12"], 
+      "AnswerArr_03": ["", "Yes","",""],
+      "ImageName": "L3-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 862",
+      "OptionArr_03": ["14","16","11","12"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L3-5",
+      "QuestionImage":"NA"
+    }
+],
+"Level4":[
+      { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 11",
+      "OptionArr_00": ["10", "12","14","15"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L4-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 23",
+      "OptionArr_01": ["17","15","10","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L4-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 34",
+      "OptionArr_02": ["16","18","15","12"], 
+      "AnswerArr_02": ["", "Yes","",""],
+      "ImageName": "L4-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 74",
+      "OptionArr_03": ["15","17","14","12"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L4-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 634",
+      "OptionArr_03": ["14","16","11","12"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L4-5",
+      "QuestionImage":"NA"
+    }
+],
+"Level5":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 22",
+      "OptionArr_00": ["10", "12","14","15"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L5-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 78",
+      "OptionArr_01": ["17","11","10","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L5-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 159",
+      "OptionArr_02": ["16","8","15","12"], 
+      "AnswerArr_02": ["", "Yes","",""],
+      "ImageName": "L5-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 318",
+      "OptionArr_03": ["15","17","10","12"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L5-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 460",
+      "OptionArr_03": ["9","16","11","12"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L5-5",
+      "QuestionImage":"NA"
+    }
+
+],
+"Level6":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 333",
+      "OptionArr_00": ["9", "12","14","15"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L6-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 303",
+      "OptionArr_01": ["17","15","10","12"], 
+      "AnswerArr_01": ["", "","Yes",""],
+      "ImageName": "L6-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 328",
+      "OptionArr_02": ["16","18","15","12"], 
+      "AnswerArr_02": ["", "","Yes",""],
+      "ImageName": "L6-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 444",
+      "OptionArr_03": ["10","17","8","12"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L6-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 4444",
+      "OptionArr_03": ["8","10","11","12"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L6-5",
+      "QuestionImage":"NA"
+    }
+],
+"Level7":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 444",
+      "OptionArr_00": ["10", "12","14","15"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L7-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 543",
+      "OptionArr_01": ["9","7","10","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L7-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 777",
+      "OptionArr_02": ["16","18","15","12"], 
+      "AnswerArr_02": ["", "","","Yes"],
+      "ImageName": "L7-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 919",
+      "OptionArr_03": ["15","17","14","12"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L7-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 1919",
+      "OptionArr_03": ["7","10","11","9"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L7-5",
+      "QuestionImage":"NA"
+    }
+],
+"Level8":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 777",
+      "OptionArr_00": ["7", "12","11","9"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L8-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 786",
+      "OptionArr_01": ["9","6","10","9"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L8-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 999",
+      "OptionArr_02": ["16","18","15","12"], 
+      "AnswerArr_02": ["", "","","Yes"],
+      "ImageName": "L8-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 0011",
+      "OptionArr_03": ["15","10","14","11"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L8-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 1365",
+      "OptionArr_03": ["7","10","11","9"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L8-5",
+      "QuestionImage":"NA"
+    }
+],
+"Level9":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 999",
+      "OptionArr_00": ["9", "12","14","7"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L9-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 959",
+      "OptionArr_01": ["9","8","10","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L9-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 0000",
+      "OptionArr_02": ["10","18","9","12"], 
+      "AnswerArr_02": ["", "","","Yes"],
+      "ImageName": "L9-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 402",
+      "OptionArr_03": ["15","17","11","12"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L9-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 4020",
+      "OptionArr_03": ["7","10","12","9"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L9-5",
+      "QuestionImage":"NA"
+    }
+],
+"Level10":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 100",
+      "OptionArr_00": ["11", "12","14","15"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L10-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 000",
+      "OptionArr_01": ["17","9","10","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L10-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 420",
+      "OptionArr_02": ["11","10","15","12"], 
+      "AnswerArr_02": ["", "Yes","",""],
+      "ImageName": "L10-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 1001",
+      "OptionArr_03": ["15","17","13","12"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L10-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 1001",
+      "OptionArr_03": ["13","16","11","12"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L10-5",
+      "QuestionImage":"NA"
+    }
+],
+"Level11":[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 010",
+      "OptionArr_00": ["13", "12","14","15"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L11-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 020",
+      "OptionArr_01": ["17","15","10","12"], 
+      "AnswerArr_01": ["", "","Yes",""],
+      "ImageName": "L11-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 1111",
+      "OptionArr_02": ["16","13","15","12"], 
+      "AnswerArr_02": ["", "Yes","",""],
+      "ImageName": "L11-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 00",
+      "OptionArr_03": ["15","7","8","12"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L11-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 7321",
+      "OptionArr_03": ["14","16","11","12"], 
+      "AnswerArr_03": ["", "","","Yes"],
+      "ImageName": "L11-5",
+      "QuestionImage":"NA"
+    }
+],
+"Level12":
+[
+     { 
+      "index":0,
+      "QuestionArr_00": "Find Number Pattern = 121",
+      "OptionArr_00": ["13", "12","14","15"], 
+      "AnswerArr_00": ["Yes", "","",""],
+      "ImageName": "L12-1",
+      "QuestionImage":"NA"
+    },
+    { 
+      "index":1,
+      "QuestionArr_01":"Find Number Pattern = 111",
+      "OptionArr_01": ["17","13","10","12"], 
+      "AnswerArr_01": ["", "Yes","",""],
+      "ImageName": "L12-2",
+      "QuestionImage":"NA"
+    },
+    {
+      "index":2,
+      "QuestionArr_02":"Find Number Pattern = 1100",
+      "OptionArr_02": ["16","13","15","12"], 
+      "AnswerArr_02": ["", "Yes","",""],
+      "ImageName": "L12-3",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":3,
+      "QuestionArr_03":"Find Number Pattern = 185",
+      "OptionArr_03": ["10","17","8","12"], 
+      "AnswerArr_03": ["", "","Yes",""],
+      "ImageName": "L12-4",
+      "QuestionImage":"NA"
+    },
+     {
+      "index":4,
+      "QuestionArr_03":"Find Number Pattern = 1851",
+      "OptionArr_03": ["7","10","11","9"], 
+      "AnswerArr_03": ["Yes", "","",""],
+      "ImageName": "L12-5",
+      "QuestionImage":"NA"
+    }
+]
+}

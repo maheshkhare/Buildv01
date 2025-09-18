@@ -1,8 +1,9 @@
  {
     "sets":{
+         
         "level1":[
         {
-             "levelName": "Word in categories",
+            
             "id": "Set1_0",
             "categories": [
         {
@@ -15,16 +16,16 @@
         },
         {
           "name": "Artist",
-          "words": ["paper", "camera", "paint", "marker", "paintbrush", "water", "charcoal", "lens", "easel", "frame", "water colors", "eraser", "clay", "scissors"]
+          "words": ["paper", "camera", "paint", "marker", "paintbrush", "water", "charcoal", "lens", "easel", "frame", "water colors", "eraser", "clay", "Paper scissors"]
         },
         {
           "name": "Mother",
-          "words": ["telephone", "scissors", "computer", "whistle", "comb", "stove", "mittens", "camera", "needle", "formula"]
+          "words": ["telephone", " cloth scissors", "computer", "whistle", "comb", "stove", "mittens", "needle", "formula"]
         }
       ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set1_1",
             "categories": [
                 {
@@ -42,12 +43,12 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set1_2",
              "categories": [
                 {
                 "name": "Actor",
-                "words": ["Camera", "Props & Set", "Voice", "Hair", "Makeup", "Costume", "Skill", "Comb"]
+                "words": ["Movie Camera", "Props & Set", "Voice", "Hair", "Makeup", "Costume", "Skill", "Comb"]
                 },
                 {
                 "name": "Pilot",
@@ -64,7 +65,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set1_3",
               "categories": [
                 {
@@ -73,10 +74,10 @@
                 },
                 {
                 "name": "Police Officer",
-                "words": ["telephone", "radar", "handcuffs", "computer", "map", "whistle", "dog", "court", "pencil", "camera", "jail", "scanner", "flashlight", "radio", "eraser", "caution flag", "badge"]
+                "words": ["telephone", "radar", "handcuffs", "computer", "map", "whistle", "dog", "court", "pencil", "camera", "jail", "scanner","radio", "eraser", "caution flag", "badge"]
                 },
                 {
-                "name": "Architect",
+                "name": "Engineer",
                 "words": ["Pliers", "Flashlight", "Jack", "Hammer", "Chisel", "Lens", "Frame", "Tape"]
                 },
                 {
@@ -86,7 +87,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set1_4",
             "categories": [
                 {
@@ -95,7 +96,7 @@
                 },
                 {
                 "name": "Police Officer",
-                "words": ["telephone", "radar", "handcuffs", "computer", "map", "whistle", "dog", "court", "pencil", "camera", "jail", "scanner", "flashlight", "radio", "eraser", "caution flag", "badge"]
+                "words": ["telephone", "radar", "handcuffs", "computer", "map", "whistle", "dog", "court", "pencil","jail", "scanner", "radio", "eraser", "caution flag", "badge"]
                 },
                 {
                 "name": "Architect",
@@ -108,8 +109,8 @@
             ]
         },
         {
-            "levelName": "Word in categories",
-            "id":"set1_5",
+            
+            "id":"Set1_5",
              "categories": [
                 {
                 "name": "Actor",
@@ -132,25 +133,25 @@
     ],
     "level2":[
         {
-            "levelName": "Word in categories",
+            
             "id":"Set2_0",
             "categories": [
             {
             "name": "Police Officer",
-            "words": ["telephone", "radar", "handcuffs", "computer", "map", "whistle", "dog", "court", "pencil", "camera", "jail", "scanner", "flashlight", "radio", "eraser", "caution flag", "badge"]
+            "words": ["walkie-talkie", "radar", "handcuffs", "map", "whistle", "dog", "court", "baton", " body camera", "jail", " body scanner", "flashlight", "caution flag", "badge"]
             },
             {
             "name": "Teacher",
-            "words": ["telephone", "slide-rule", "scissors", "clay", "computer", "map", "lens", "whistle", "microscope", "pencil", "camera", "scanner", "radio", "eraser", "band aid"]
+            "words": ["textbook", "slide-rule", " paper scissors", "clay", " school computer", "educational map", "chalk",  "paper scanner",  "band aid"]
             },
             {
             "name": "Scientist",
-            "words": ["stethoscope", "scissors", "computer", "lens", "x-ray", "microscope", "gas flame", "pencil", "camera", "rocket", "needle", "formula", "eraser", "lab coat"]
+            "words": ["stethoscope", " scalpel", "Scientific computer", "x-ray", "microscope", "gas flame","rocket", "needle", "medicinal formula",  "lab coat"]
             }
         ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set2_1",
              "categories": [
                 {
@@ -159,7 +160,7 @@
                 },
                 {
                 "name": "Journalist",
-                "words": ["paper", "camera", "marker", "screen", "recorder", "mic", "laptop", "headphones", "pen", "bag"]
+                "words": ["paper", "camera", " highlighter", "screen", "recorder", "mic", "laptop", "headphones", "pen", "bag"]
                 },
                 {
                 "name": "Cleaner",
@@ -168,12 +169,12 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set2_2",
              "categories": [
                 {
                 "name": "Farmer",
-                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "and rake"]
+                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "rake"]
                 },
                 {
                 "name": "Doctor",
@@ -186,12 +187,12 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set2_3",
              "categories": [
                 {
                 "name": "Agriculturist",
-                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "and rake"]
+                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "rake"]
                 },
                 {
                 "name": "Nurse",
@@ -204,45 +205,45 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set2_4",
             "categories": [
                 {
                 "name": "Agriculturist",
-                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "and rake"]
+                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "rake"]
                 },
                 {
                 "name": "Nurse",
                 "words": ["Thermometer", "Tongue depressor", "Nebulizer", "Ventilator", "Forceps", "Weighing scale"]
                 },
                 {
-                "name": "Pastry Maker",
+                "name": "Baker",
                 "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper", "Measuring Cups", "Wooden Spoon"]
                 }
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set2_5",
              "categories": [
                 {
-                "name": "Farmer",
-                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "and rake"]
+                "name": "Farm",
+                "words": ["hatchet", "axe", "sickle", "scythe", "pitchfork", "spade", "shovel", "trowel", "hoe", "fork", "rake"]
                 },
                 {
-                "name": "Doctor",
+                "name": "Hospital",
                 "words": ["Thermometer", "Tongue depressor", "Nebulizer", "Ventilator", "Forceps", "Weighing scale"]
                 },
                 {
-                "name": "Baker",
-                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper Measuring Cups", "Wooden Spoon"]
+                "name": "Bakery",
+                "words": ["Spatula", "Pastry Brush", "Whisk", "Baking Pan", "Hand Mixer", "Parchment Paper","Measuring Cups", "Wooden Spoon"]
                 }
             ]
         }
     ],
     "level3":[
         {
-            "levelName": "Word in categories",
+            
             "id":"Set3_0",
             "categories": [
                 {
@@ -267,39 +268,39 @@
                 },
                 {
                 "name": "Duration",
-                "words": ["hour", "day", "minute", "second"]
+                "words": ["hour", "day", "minute", "seconds"]
                 },
                 {
                 "name": "Height",
                 "words": ["short", "tall", "towering", "average"]
                 },
                 {
-                "name": "Aumbulatory Speed",
+                "name": "Ambulatory Speed",
                 "words": ["walk", "race", "mosey"]
                 }
             ]
 
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set3_1",
              "categories": [
                 {
                 "name": "Chemist",
-                "words": ["Paper", "beakers", "pen", "bill", "gloves", "computer", "money", "medicines", "pill", "chair", "desk", "maths"]
+                "words": ["shop computer", "money", "medicines", "pill", "chair", "desk","prescription","bandage","ointment"]
                 },
                 {
                 "name": "Dentist",
-                "words": ["Tools", "syringe", "x-ray", "drill", "lab-coat", "scissors", "gel", "basin", "mask", "cap", "glove", "table", "machines", "mirror", "cup"]
+                "words": ["Tools", "syringe", "x-ray", "drill", "dental coat", "Tooth gel", "basin","tooth cap", "machines", "mirror", "cup"]
                 },
                 {
                 "name": "Scientist",
-                "words": ["Computer", "microscope", "laboratory", "beaker", "chemicals", "gases", "gloves", "eye-protect", "burners", "flask", "petri-dish"]
+                "words": ["Scientific computer", "microscope", "laboratory", "beaker", "chemicals", "eye-protect", "burners", "flask", "petri-dish"]
                 }
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set3_2",
              "categories": [
                     {
@@ -307,7 +308,7 @@
                     "words": ["first", "fourth", "fifth", "second"]
                     },
                     {
-                    "name": "Kin",
+                    "name": "Family",
                     "words": ["triplet", "single", "quadruplet", "twins"]
                     },
                     {
@@ -321,7 +322,7 @@
                 ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set3_3",
              "categories": [
                 {
@@ -346,7 +347,7 @@
                 },
                 {
                 "name": "Clock",
-                "words": ["hour", "day", "minute", "second"]
+                "words": ["hour", "day", "minute", "seconds"]
                 },
                 {
                 "name": "Size",
@@ -359,7 +360,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set3_4",
             "categories": [
                 {
@@ -384,7 +385,7 @@
                 },
                 {
                 "name": "Clock",
-                "words": ["hour", "day", "minute", "second"]
+                "words": ["hour", "day", "minute", "seconds"]
                 },
                 {
                 "name": "Size",
@@ -397,7 +398,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set3_5",
              "categories": [
                 {
@@ -422,7 +423,7 @@
                 },
                 {
                 "name": "Time",
-                "words": ["hour", "day", "minute", "second"]
+                "words": ["hour", "day", "minute", "seconds"]
                 },
                 {
                 "name": "Stature",
@@ -438,7 +439,7 @@
     ],
     "level4":[
         {
-            "levelName": "Word in categories",
+            
        "id":"Set4_0",
        "categories": [
         {
@@ -475,7 +476,7 @@
         }
       ]
         },
-        {"levelName": "Word in categories",
+        {
             "id":"Set4_1",
             "categories": [
                 {
@@ -484,7 +485,7 @@
                 },
                 {
                 "name": "Hungry",
-                "words": ["Famished- supper", "starve", "meal", "food"]
+                "words": ["Famished","supper", "starve", "meal", "food"]
                 },
                 {
                 "name": "Weather",
@@ -505,7 +506,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set4_2",
              "categories": [
                 {
@@ -527,7 +528,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set4_3",
              "categories": [
                     {
@@ -565,7 +566,7 @@
                 ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set4_4",
             "categories": [
                 {
@@ -603,7 +604,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set4_5",
             "categories": [
                 {
@@ -643,7 +644,7 @@
     ],
     "level5":[
         {
-            "levelName": "Word in categories",
+            
             "id":"Set5_0",
             "categories": [
                 {
@@ -673,7 +674,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set5_1",
             "categories": [
                 {
@@ -703,7 +704,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set5_2",
              "categories": [
                 {
@@ -733,7 +734,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set5_3",
              "categories": [
                 {
@@ -745,7 +746,7 @@
                 "words": ["average", "large", "small", "gigantic"]
                 },
                 {
-                "name": "Dimention",
+                "name": "Dimension",
                 "words": ["inch", "centimeter", "foot", "mile"]
                 },
                 {
@@ -763,7 +764,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set5_4",
              "categories": [
                 {
@@ -775,7 +776,7 @@
                 "words": ["average", "large", "small", "gigantic"]
                 },
                 {
-                "name": "Dimention",
+                "name": "Dimension",
                 "words": ["inch", "centimeter", "foot", "mile"]
                 },
                 {
@@ -793,7 +794,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set5_5",
             "categories": [
                 {
@@ -825,7 +826,7 @@
     ],
     "level6":[
         {
-            "levelName": "Word in categories",
+            
             "id":"Set6_0",
              "categories": [
                 {
@@ -842,7 +843,7 @@
                 },
                 {
                 "name": "duration",
-                "words": ["minute", "day", "week", "second"]
+                "words": ["minute", "day", "week", "seconds"]
                 },
                 {
                 "name": "siblings",
@@ -860,7 +861,7 @@
 
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set6_1",
              "categories": [
                 {
@@ -890,7 +891,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set6_2",
              "categories": [
                 {
@@ -907,7 +908,7 @@
                 },
                 {
                 "name": "Duration",
-                "words": ["hour", "day", "week", "second"]
+                "words": ["hour", "day", "week", "seconds"]
                 },
                 {
                 "name": "Siblings",
@@ -924,7 +925,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set6_3",
              "categories": [
                 {
@@ -941,7 +942,7 @@
                 },
                 {
                 "name": "duration",
-                "words": ["hour", "day", "week", "second"]
+                "words": ["hour", "day", "week", "seconds"]
                 },
                 {
                 "name": "siblings",
@@ -953,12 +954,12 @@
                 },
                 {
                 "name": "height",
-                "words": ["elifin", "towering", "tall", "average"]
+                "words": ["elfin", "towering", "tall", "average"]
                 }
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set6_4",
              "categories": [
                 {
@@ -975,7 +976,7 @@
                 },
                 {
                 "name": "Duration",
-                "words": ["hour", "day", "week", "second"]
+                "words": ["hour", "day", "week", "seconds"]
                 },
                 {
                 "name": "Siblings",
@@ -987,12 +988,12 @@
                 },
                 {
                 "name": "Height",
-                "words": ["elifin", "towering", "tall", "average"]
+                "words": ["elfin", "towering", "tall", "average"]
                 }
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set6_5",
             "categories": [
                 {
@@ -1009,7 +1010,7 @@
                 },
                 {
                 "name": "duration",
-                "words": ["hour", "day", "week", "second"]
+                "words": ["hour", "day", "week", "seconds"]
                 },
                 {
                 "name": "siblings",
@@ -1021,14 +1022,14 @@
                 },
                 {
                 "name": "height",
-                "words": ["elifin", "towering", "tall", "average"]
+                "words": ["elfin", "towering", "tall", "average"]
                 }
             ]
         }
     ],
     "level7":[
         {
-            "levelName": "Word in categories",
+            
             "id":"Set7_0",
             "categories": [
                 {
@@ -1063,7 +1064,7 @@
 
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set7_1",
              "categories": [
                 {
@@ -1072,11 +1073,11 @@
                 },
                 {
                 "name": "Metal",
-                "words": ["Aloy" , "Iron", "copper", "silver", "tin"]
+                "words": ["Alloy" , "Iron", "copper", "silver", "tin"]
                 },
                 {
                 "name": "Sound",
-                "words": ["Boom" ,"Blaring", "roaring", "loud", "tempo", "blast"]
+                "words": ["Boom" ,"Blaring", "roaring", "loud", "blast"]
                 },
                 {
                 "name": "Speed",
@@ -1084,7 +1085,7 @@
                 },
                 {
                 "name": "Weight",
-                "words": ["heavy", "heavy", "hefty", "bony", "skeletal"]
+                "words": ["heavy",  "hefty", "bony", "skeletal"]
                 },
                 {
                 "name": "Rating",
@@ -1093,7 +1094,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set7_2",
             "categories": [
                 {
@@ -1127,7 +1128,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set7_3",
              "categories": [
                     {
@@ -1161,7 +1162,7 @@
                 ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"set7_4",
               "categories": [
                 {
@@ -1195,7 +1196,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set7_5",
              "categories": [
                 {
@@ -1231,7 +1232,7 @@
     ],
     "level8":[
         {
-            "levelName": "Word in categories",
+            
             "id":"Set8_0",
            "categories": [
                 {
@@ -1252,7 +1253,7 @@
                 },
                 {
                     "name": "Time Units",
-                    "words": ["week", "day", "hour", "minute", "second"]
+                    "words": ["week", "day", "hour", "minute", "seconds"]
                 },
                 {
                     "name": "Volume Scale",
@@ -1265,7 +1266,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set8_1",
             "categories": [
                 {
@@ -1299,7 +1300,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set8_2",
              "categories": [
                 {
@@ -1333,7 +1334,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set8_3",
              "categories": [
                 {
@@ -1367,7 +1368,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set8_4",
             "categories": [
                 {
@@ -1388,7 +1389,7 @@
                 },
                 {
                 "name": "Time Units",
-                "words": ["Second", "minute", "hour", "day", "week"]
+                "words": ["seconds", "minute", "hour", "day", "week"]
                 },
                 {
                 "name": "Volume Scale",
@@ -1401,7 +1402,7 @@
             ]
         },
         {
-            "levelName": "Word in categories",
+            
             "id":"Set8_5",
              "categories": [
                 {
@@ -1422,7 +1423,7 @@
                 },
                 {
                 "name": "time sequence",
-                "words": ["second", "minute", "hour", "day", "week"]
+                "words": ["seconds", "minute", "hour", "day", "week"]
                 },
                 {
                 "name": "volume sequence",

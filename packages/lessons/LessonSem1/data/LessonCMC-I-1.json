@@ -1,8 +1,10 @@
 {
   "sets": {
+
+     "levelName": "Word in categories",
     "level1": [
       {
-            "levelName": "Word in categories",
+      
         "id": "Set1_0",
         "categories": [
           {
@@ -100,7 +102,7 @@
           {
             "name": "Things in Sky",
             "displayName": "Things in Sky",
-            "words": ["Bird", "Sun", "Bee", "Fly", "Duck", "Airplane", "Parachute", "Clouds", "Bat", "Moon"]
+            "words": ["Bird", "Sun", "Bee", "Fly", "Duck", "Airplane", "Parachute", "Clouds", "Rocket", "Moon"]
           },
           {
             "name": "Things to Wear",

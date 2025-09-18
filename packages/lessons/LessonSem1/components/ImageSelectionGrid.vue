@@ -40,18 +40,34 @@ export default {
   },
   data() {
     return {
+
+          jsonFileName: sessionStorage.getItem('jsonFile') || 'lesson1',
       selectedWord: null,
       brokenImages: [] // Tracks missing images by index
     }
   },
   methods: {
-    getImagePath(imageFileName) {
-      // If using Vue CLI/Webpack, this works (adjust if using Vite or absolute/public)
-      try {
-        return require(`../assets/graphicsEMU-CSI/${imageFileName}`);
+
+    // getImagePath(imageFileName) {
+    //   // If using Vue CLI/Webpack, this works (adjust if using Vite or absolute/public)
+    //   try {
+    //     return require(`../assets/graphicsEMU-CSI/${imageFileName}`);
+    //   } catch (e) {
+    //     // Will also fallback to placeholder if image not found at build time
+    //     return '';
+    //   }
+    // },
+
+       getImagePath(imageName)
+    {  try { 
+          console.log(`image path: ${this.folder}`);
+        const folder = `./graphics${this.jsonFileName}/`
+        const images = require.context('../assets/', true, )
+        return images(`${folder}${imageName}`)
+
       } catch (e) {
-        // Will also fallback to placeholder if image not found at build time
-        return '';
+        console.error(`Image not found: graphics${this.jsonFileName}/${imageName}`)
+        return ''
       }
     },
     handleImageClick(item) {
