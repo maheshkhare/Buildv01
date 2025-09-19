@@ -235,7 +235,7 @@
     { 
       "index":2,
       "QuestionArr_02": "Count the above image in main image?",
-      "OptionArr_02": ["10", "7","8","12"], 
+      "OptionArr_02": ["10", "5","8","12"], 
       "AnswerArr_02": ["", "Yes","",""],
       "ImageName": "L4-3",
       "QuestionImage":"L4-o3"
@@ -251,7 +251,7 @@
     { 
       "index":4,
       "QuestionArr_04": "Count the above image in main image?",
-      "OptionArr_04": ["10", "9","7","12"], 
+      "OptionArr_04": ["10", "9","4","12"], 
       "AnswerArr_04": ["", "","Yes",""],
       "ImageName": "L4-5",
       "QuestionImage":"L4-o5"
@@ -259,7 +259,7 @@
      { 
       "index":5,
       "QuestionArr_05": "Count the above image in main image?",
-      "OptionArr_05": ["6", "9","10","12"], 
+      "OptionArr_05": ["5", "9","10","12"], 
       "AnswerArr_05": ["Yes", "","",""],
       "ImageName": "L4-6",
       "QuestionImage":"L4-o6"
@@ -267,7 +267,7 @@
     { 
       "index":6,
       "QuestionArr_06": "Count the above image in main image?",
-      "OptionArr_06": ["6", "9","7","5"], 
+      "OptionArr_06": ["6", "9","7","3"], 
       "AnswerArr_06": ["", "","","Yes"],
       "ImageName": "L4-7",
       "QuestionImage":"L4-o7"
@@ -275,7 +275,7 @@
      { 
       "index":7,
       "QuestionArr_07": "Count the above image in main image?",
-      "OptionArr_07": ["7", "9","6","12"], 
+      "OptionArr_07": ["7", "9","4","12"], 
       "AnswerArr_07": ["", "","Yes",""],
       "ImageName": "L4-8",
       "QuestionImage":"L4-o8"
@@ -301,7 +301,7 @@
     { 
       "index":2,
       "QuestionArr_02": "Count the above image in main image?",
-      "OptionArr_02": ["10", "5","8","12"], 
+      "OptionArr_02": ["10", "4","8","12"], 
       "AnswerArr_02": ["", "Yes","",""],
       "ImageName": "L5-3",
       "QuestionImage":"L5-o3"
@@ -309,7 +309,7 @@
      { 
       "index":3,
       "QuestionArr_03": "Count the above image in main image?",
-      "OptionArr_03": ["8", "9","10","6"], 
+      "OptionArr_03": ["8", "9","10","2"], 
       "AnswerArr_03": ["", "","","Yes"],
       "ImageName": "L5-4",
       "QuestionImage":"L5-o4"
@@ -325,7 +325,7 @@
      { 
       "index":5,
       "QuestionArr_05": "Count the above image in main image?",
-      "OptionArr_05": ["6", "9","10","12"], 
+      "OptionArr_05": ["4", "9","10","12"], 
       "AnswerArr_05": ["Yes", "","",""],
       "ImageName": "L5-6",
       "QuestionImage":"L5-o6"
@@ -341,7 +341,7 @@
      { 
       "index":7,
       "QuestionArr_07": "Count the above image in main image?",
-      "OptionArr_07": ["7", "3","6","12"], 
+      "OptionArr_07": ["7", "2","6","12"], 
       "AnswerArr_07": ["", "Yes","",""],
       "ImageName": "L5-8",
       "QuestionImage":"L5-o8"
@@ -375,7 +375,7 @@
      { 
       "index":3,
       "QuestionArr_03": "Count the above image in main image?",
-      "OptionArr_03": ["8", "9","10","7"], 
+      "OptionArr_03": ["8", "9","10","6"], 
       "AnswerArr_03": ["", "","","Yes"],
       "ImageName": "L6-4",
       "QuestionImage":"L6-o4"
@@ -385,7 +385,7 @@
       { 
       "index":0,
       "QuestionArr_00": "Count the above image in main image?",
-      "OptionArr_00": ["10", "9","7","12"], 
+      "OptionArr_00": ["10", "9","6","12"], 
       "AnswerArr_00": ["", "","Yes",""],
       "ImageName": "L7-1",
       "QuestionImage":"L7-o1"
@@ -393,7 +393,7 @@
      { 
       "index":1,
       "QuestionArr_01": "Count the above image in main image?",
-      "OptionArr_01": ["7", "8","5","12"], 
+      "OptionArr_01": ["7", "3","5","12"], 
       "AnswerArr_01": ["", "Yes","",""],
       "ImageName": "L7-2",
       "QuestionImage":"L7-o2"
@@ -409,7 +409,7 @@
      { 
       "index":3,
       "QuestionArr_03": "Count the above image in main image?",
-      "OptionArr_03": ["8", "9","10","7"], 
+      "OptionArr_03": ["8", "9","10","4"], 
       "AnswerArr_03": ["", "","","Yes"],
       "ImageName": "L7-4",
       "QuestionImage":"L7-o4"
@@ -443,7 +443,7 @@
      { 
       "index":3,
       "QuestionArr_03": "Count the above image in main image?",
-      "OptionArr_03": ["8", "9","10","5"], 
+      "OptionArr_03": ["8", "9","10","4"], 
       "AnswerArr_03": ["", "","","Yes"],
       "ImageName": "L8-4",
       "QuestionImage":"L8-o4"
@@ -453,7 +453,7 @@
      { 
       "index":0,
       "QuestionArr_00": "Count the above image in main image?",
-      "OptionArr_00": ["10", "9","7","12"], 
+      "OptionArr_00": ["10", "9","8","12"], 
       "AnswerArr_00": ["", "","Yes",""],
       "ImageName": "L9-1",
       "QuestionImage":"L9-o1"
@@ -485,7 +485,7 @@
     { 
       "index":4,
       "QuestionArr_04": "Count the above image in main image?",
-      "OptionArr_04": ["8", "9","10","5"], 
+      "OptionArr_04": ["8", "9","10","4"], 
       "AnswerArr_04": ["", "","","Yes"],
       "ImageName": "L9-5",
       "QuestionImage":"L9-o5"
@@ -545,7 +545,7 @@
      { 
       "index":3,
       "QuestionArr_03": "Count the above image in main image?",
-      "OptionArr_03": ["8", "9","10","6"], 
+      "OptionArr_03": ["8", "9","10","5"], 
       "AnswerArr_03": ["", "","","Yes"],
       "ImageName": "L11-4",
       "QuestionImage":"L11-o4"
@@ -572,7 +572,7 @@
     { 
       "index":2,
       "QuestionArr_02": "Count the above image in main image?",
-      "OptionArr_02": ["10", "5","8","12"], 
+      "OptionArr_02": ["10", "5","4","12"], 
       "AnswerArr_02": ["", "","Yes",""],
       "ImageName": "L12-3",
       "QuestionImage":"L12-o3"
@@ -588,7 +588,7 @@
      { 
       "index":4,
       "QuestionArr_04": "Count the above image in main image?",
-      "OptionArr_04": ["8", "9","10","5"], 
+      "OptionArr_04": ["6", "9","10","5"], 
       "AnswerArr_04": ["Yes", "","",""],
       "ImageName": "L12-5",
       "QuestionImage":"L12-o5"
@@ -606,7 +606,7 @@
      { 
       "index":1,
       "QuestionArr_01": "Count the above image in main image?",
-      "OptionArr_01": ["7", "9","5","12"], 
+      "OptionArr_01": ["7", "8","5","12"], 
       "AnswerArr_01": ["", "Yes","",""],
       "ImageName": "L13-2",
       "QuestionImage":"L13-o2"
