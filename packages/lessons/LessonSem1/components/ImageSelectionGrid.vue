@@ -15,6 +15,7 @@
         :aria-pressed="selectedWord === item.word"
       >
         <template v-if="!brokenImages[index]">
+          
           <img
             :src="getImagePath(item.image)"
             :alt="item.word"

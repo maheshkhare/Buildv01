@@ -17,6 +17,7 @@
             <div v-if="showStoryButton && !resultShow">
               <button @click="showStory = !showStory" class="px-10 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
                 {{ showStory ? 'Hide Story' : 'Show Story' }}
+                
               </button>
               <SectionStory1 v-if="showStory" :story="currentStory" :image="currentImage" />
             </div>
