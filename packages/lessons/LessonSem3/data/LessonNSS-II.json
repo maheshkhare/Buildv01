@@ -67,9 +67,6 @@
       "ImageName": "L1-2",
       "QuestionImage": "L1-o8"
     },
-
-
-
      {
       "index": 8,
       "QuestionArr_08": "Use first image to decode the words from first image to second image",
@@ -101,10 +98,7 @@
       "AnswerArr_11": ["", "Yes", "", ""],
       "ImageName": "L1-3",
       "QuestionImage": "L1-o12"
-    },
-
-
-    {
+    },    {
       "index": 12,
       "QuestionArr_12": "Use first image to decode the words from first image to second image",
       "OptionArr_12": ["DFC", "TAP", "AFE", "GDE"],
@@ -136,9 +130,6 @@
       "ImageName": "L1-4",
       "QuestionImage": "L1-o16"
     },
-
-
-
      {
       "index": 16,
       "QuestionArr_16": "Use first image to decode the words from first image to second image",
@@ -171,9 +162,6 @@
       "ImageName": "L1-5",
       "QuestionImage": "L1-o20"
     },
-
-
-
     {
       "index": 20,
       "QuestionArr_20": "Use first image to decode the words from first image to second image",
@@ -206,9 +194,6 @@
       "ImageName": "L1-6",
       "QuestionImage": "L1-o24"
     },
-
-
-
    {
      "index": 24,
       "QuestionArr_24": "Use first image to decode the words from first image to second image",
@@ -240,10 +225,7 @@
       "AnswerArr_27": ["", "", "", "Yes"],
       "ImageName": "L1-7",
       "QuestionImage": "L1-o28"
-    },
-
-
-    {
+    },    {
      "index": 28,
       "QuestionArr_28": "Use first image to decode the words from first image to second image",
       "OptionArr_28": ["DOT", "HAT", "AFE", "BED"],
@@ -275,9 +257,6 @@
       "ImageName": "L1-8",
       "QuestionImage": "L1-o32"
     },
-
-
-
      {
      "index": 32,
       "QuestionArr_32": "Use first image to decode the words from first image to second image",
@@ -310,9 +289,6 @@
       "ImageName": "L1-9",
       "QuestionImage": "L1-o36"
     },
-
-
-
      {
      "index": 36,
       "QuestionArr_36": "Use first image to decode the words from first image to second image",
@@ -379,10 +355,7 @@
       "AnswerArr_03": ["", "", "Yes", ""],
       "ImageName": "L2-1",
       "QuestionImage": "L2-o4"
-    },
-
-
-   {
+    },   {
       "index": 4,
       "QuestionArr_04": "Use first image to decode the words from first image to second image",
       "OptionArr_04": ["DFC", "GEB", "AFE", "GDE"],
@@ -414,9 +387,6 @@
       "ImageName": "L2-1",
       "QuestionImage": "L2-o8"
     },
-
-
-
      {
       "index": 8,
       "QuestionArr_08": "Use first image to decode the words from first image to second image",
@@ -448,10 +418,7 @@
       "AnswerArr_11": ["", "Yes", "", ""],
       "ImageName": "L2-1",
       "QuestionImage": "L2-o12"
-    },
-
-
-    {
+    },    {
       "index": 12,
       "QuestionArr_12": "Use first image to decode the words from first image to second image",
       "OptionArr_12": ["GFAB", "TAP", "DEFC", "GDEF"],
@@ -474,13 +441,7 @@
       "AnswerArr_14": ["", "", "Yes", ""],
       "ImageName": "L2-1",
       "QuestionImage": "L2-o15"
-    },
-
-
-
-
-
-    {
+    },    {
       "index": 15,
       "QuestionArr_15": "Use first image to decode the words from first image to second image",
       "OptionArr_15": ["DFC", "ANT", "AFE", "KPOA"],
@@ -511,13 +472,7 @@
       "AnswerArr_18": ["", "", "Yes", ""],
       "ImageName": "L2-2",
       "QuestionImage": "L2-o19"
-    },
-
-
-
-
-
-     {
+    },     {
       "index": 19,
       "QuestionArr_19": "Use first image to decode the words from first image to second image",
       "OptionArr_19": ["DF", "SA", "FE", "PO"],
@@ -548,10 +503,7 @@
       "AnswerArr_22": ["", "Yes", "", ""],
       "ImageName": "L2-2",
       "QuestionImage": "L2-o23"
-    }, 
-
-
-
+    },
 
     {
       "index": 23,
@@ -584,10 +536,7 @@
       "AnswerArr_26": ["", "Yes", "", ""],
       "ImageName": "L2-2",
       "QuestionImage": "L2-o27"
-    }, 
-
-
-
+    },
 
     {
       "index": 27,
@@ -613,9 +562,6 @@
       "ImageName": "L2-2",
       "QuestionImage": "L2-o30"
     },
-
-
-
 
      {
       "index": 30,
@@ -648,10 +594,7 @@
       "AnswerArr_33": ["", "Yes", "", ""],
       "ImageName": "L2-3",
       "QuestionImage": "L2-o34"
-    }, 
-
-
-    {
+    },    {
       "index": 34,
       "QuestionArr_34": "Use first image to decode the words from first image to second image",
       "OptionArr_34": ["MA", "OT", "ON", "TANT"],
@@ -682,10 +625,7 @@
       "AnswerArr_37": ["", "Yes", "", ""],
       "ImageName": "L2-3",
       "QuestionImage": "L2-o38"
-    }, 
-
-
-    {
+    },    {
       "index": 38,
       "QuestionArr_38": "Use first image to decode the words from first image to second image",
       "OptionArr_38": ["EAR", "ONE", "RAN", "KPO"],
@@ -717,9 +657,6 @@
       "ImageName": "L2-3",
       "QuestionImage": "L2-o42"
     },
-
-
-
      {
       "index": 42,
       "QuestionArr_42": "Use first image to decode the words from first image to second image",
@@ -743,13 +680,7 @@
       "AnswerArr_44": ["", "Yes", "", ""],
       "ImageName": "L2-3",
       "QuestionImage": "L2-o45"
-    },
-
-
-
-
-
-    {
+    },    {
     "index": 45,
     "QuestionArr_45": "Use first image to decode the words from first image to second image",
     "OptionArr_45": ["ATE", "CAT", "BAT", "TEN"],
@@ -780,10 +711,7 @@
     "AnswerArr_48": ["", "Yes", "", ""],
     "ImageName": "L2-4",
     "QuestionImage": "L2-o49"
-    },
-
-
-    {
+    },    {
     "index": 49,
     "QuestionArr_49": "Use first image to decode the words from first image to second image",
     "OptionArr_49": ["AN", "MA", "AP", "NA"],
@@ -814,10 +742,7 @@
     "AnswerArr_52": ["", "", "Yes", ""],
     "ImageName": "L2-4",
     "QuestionImage": "L2-o53"
-    },
-
-
-    {
+    },    {
     "index": 53,
     "QuestionArr_53": "Use first image to decode the words from first image to second image",
     "OptionArr_53": ["TAN", "TAG", "RAG", "WAG"],
@@ -848,10 +773,7 @@
     "AnswerArr_56": ["", "Yes", "", ""],
     "ImageName": "L2-4",
     "QuestionImage": "L2-o57"
-    },
-
-
-    {
+    },    {
     "index": 57,
     "QuestionArr_57": "Use first image to decode the words from first image to second image",
     "OptionArr_57": ["BAT", "CATCH", "CAT", "SAT"],
@@ -875,9 +797,6 @@
     "ImageName": "L2-4",
     "QuestionImage": "L2-o60"
     },
-
-
-
 
     {
     "index": 60,
@@ -911,9 +830,6 @@
     "ImageName": "L2-5",
     "QuestionImage": "L2-o64"
     },
-
-
-
     {
     "index": 64,
     "QuestionArr_64": "Use first image to decode the words from first image to second image",
@@ -945,10 +861,7 @@
     "AnswerArr_67": ["", "Yes", "", ""],
     "ImageName": "L2-5",
     "QuestionImage": "L2-o68"
-    },
-
-
-    {
+    },    {
     "index": 68,
     "QuestionArr_68": "Use first image to decode the words from first image to second image",
     "OptionArr_68": ["NOT", "RTE", "LED", "MTN"],
@@ -979,10 +892,7 @@
     "AnswerArr_71": ["", "Yes", "", ""],
     "ImageName": "L2-5",
     "QuestionImage": "L2-o72"
-    },
-
-
-    {
+    },    {
     "index": 72,
     "QuestionArr_72": "Use first image to decode the words from first image to second image",
     "OptionArr_72": ["MATE", "PAT", "FAT", "RAT"],
@@ -1006,10 +916,7 @@
     "ImageName": "L2-5",
     "QuestionImage": "L2-o75"
     }
-],
-
-
-"Level3": [
+],"Level3": [
   {
     "index": 0,
     "QuestionArr_00": "Use first image to decode the words from first image to second image",
@@ -1034,9 +941,6 @@
     "ImageName": "L3-1",
     "QuestionImage": "L3-o3"
   },
-
-
-
   {
     "index": 3,
     "QuestionArr_03": "Use first image to decode the words from first image to second image",
@@ -1061,9 +965,6 @@
     "ImageName": "L3-1",
     "QuestionImage": "L3-o6"
   },
-
-
-
   {
     "index": 6,
     "QuestionArr_06": "Use first image to decode the words from first image to second image",
@@ -1096,9 +997,6 @@
     "ImageName": "L3-1",
     "QuestionImage": "L3-o10"
   },
-
-
-
   {
     "index": 10,
     "QuestionArr_10": "Use first image to decode the words from first image to second image",
@@ -1123,17 +1021,8 @@
     "ImageName": "L3-1",
     "QuestionImage": "L3-o13"
   },
-
-
-
-
-
-
   {
-       "Comment":"// ------------------- L3-2 -------------------",
-
-
- 
+       "Comment":"// ------------------- L3-2 -------------------", 
     "index": 13,
     "QuestionArr_13": "Use first image to decode the words from first image to second image",
     "OptionArr_13": ["MUG", "LAST", "RUG", "AHST"],
@@ -1157,10 +1046,7 @@
     "AnswerArr_15": ["Yes", "", "", ""],
     "ImageName": "L3-2",
     "QuestionImage": "L3-o16"
-  },
-
-
-  {
+  },  {
     "index": 16,
     "QuestionArr_16": "Use first image to decode the words from first image to second image",
     "OptionArr_16": ["PEN", "HALTS", "NATSTM", "MEN"],
@@ -1184,9 +1070,6 @@
     "ImageName": "L3-2",
     "QuestionImage": "L3-o19"
   },
-
-
-
   {
     "index": 19,
     "QuestionArr_19": "Use first image to decode the words from first image to second image",
@@ -1211,9 +1094,6 @@
     "ImageName": "L3-2",
     "QuestionImage": "L3-o22"
   },
-
-
-
   {
     "index": 22,
     "QuestionArr_22": "Use first image to decode the words from first image to second image",
@@ -1238,17 +1118,8 @@
     "ImageName": "L3-2",
     "QuestionImage": "L3-o25"
   },
-
-
-
   {
-     "Comment":"// ------------------- L3-3 -------------------",
-
-
-
-
-
-    "index": 25,
+     "Comment":"// ------------------- L3-3 -------------------",    "index": 25,
     "QuestionArr_25": "Use first image to decode the words from first image to second image",
     "OptionArr_25": ["CARE", "BUG", "ARCE", "HUG"],
     "AnswerArr_25": ["", "", "Yes", ""],
@@ -1271,9 +1142,6 @@
     "ImageName": "L3-3",
     "QuestionImage": "L3-o28"
   },
-
-
-
   {
     "index": 28,
     "QuestionArr_28": "Use first image to decode the words from first image to second image",
@@ -1298,9 +1166,6 @@
     "ImageName": "L3-3",
     "QuestionImage": "L3-o31"  
   },
-
-
-
   {
     "index": 31,
     "QuestionArr_31": "Use first image to decode the words from first image to second image",
@@ -1333,9 +1198,6 @@
     "ImageName": "L3-3",
     "QuestionImage": "L3-o35"
   },
-
-
-
 
   {
     "index": 35,
@@ -1376,17 +1238,8 @@
     "AnswerArr_39": ["", "", "Yes", ""],
     "ImageName": "L3-3",
     "QuestionImage": "L3-o40"
-  },
-
-
-
-
-
-  {
+  },  {
     "Comment":"// ------------------- L3-4 -------------------",
-
-
-
 
       "index": 40,
       "QuestionArr_40": "Use first image to decode the words from first image to second image",
@@ -1411,9 +1264,6 @@
       "ImageName": "L3-4",
       "QuestionImage": "L3-o43"
     },
-
-
-
 
     {
     
@@ -1440,9 +1290,6 @@
       "ImageName": "L3-4",
       "QuestionImage": "L3-o46"
     },
-
-
-
     {
       "index": 46,
       "QuestionArr_46": "Use first image to decode the words from first image to second image",
@@ -1475,9 +1322,6 @@
       "ImageName": "L3-4",
       "QuestionImage": "L3-o50"
     },
-
-
-
     {
       "index": 50,
       "QuestionArr_50": "Use first image to decode the words from first image to second image",
@@ -1518,17 +1362,8 @@
       "ImageName": "L3-4",
       "QuestionImage": "L3-o55"
     },
-
-
-
     {
-      "Comment":"// ------------------- L3-5 -------------------",
-
-
-
-
-
-      "index": 55,
+      "Comment":"// ------------------- L3-5 -------------------",      "index": 55,
       "QuestionArr_55": "Use first image to decode the words from first image to second image",
       "OptionArr_55": ["FONT", "BEA", "TAME", "SAME"],
       "AnswerArr_55": ["", "", "Yes", ""],
@@ -1550,10 +1385,7 @@
     "AnswerArr_57": ["", "Yes", "", ""],
     "ImageName": "L3-5",
     "QuestionImage": "L3-o58"
-  },
-
-
-  {
+  },  {
     "index": 58,
     "QuestionArr_58": "Use first image to decode the words from first image to second image",
     "OptionArr_58": ["FATTEN", "MONTE", "NAFFET", "HIT"],
@@ -1576,10 +1408,7 @@
     "AnswerArr_60": ["", "Yes", "", ""],
     "ImageName": "L3-5",
     "QuestionImage": "L3-o61"
-  },
-
-
-  {
+  },  {
     "index": 61,
     "QuestionArr_61": "Use first image to decode the words from first image to second image",
     "OptionArr_61": ["TEN", "LMN", "TON", "RST"],
@@ -1611,9 +1440,6 @@
     "ImageName": "L3-5",
     "QuestionImage": "L3-o65"
   },
-
-
-
   {
     "index": 65,
     "QuestionArr_65": "Use first image to decode the words from first image to second image",
@@ -1689,9 +1515,6 @@
     "ImageName": "L4-1",
     "QuestionImage": "L4-o4"
   },
-
-
-
   {
     "index": 4,
     "QuestionArr_04": "Use first image to decode the words from first image to second image",
@@ -1724,9 +1547,6 @@
     "ImageName": "L4-1",
     "QuestionImage": "L4-o8"
   },
-
-
-
   {
     "index": 8,
     "QuestionArr_08": "Use first image to decode the words from first image to second image",
@@ -1759,9 +1579,6 @@
     "ImageName": "L4-1",
     "QuestionImage": "L4-o12"
   },
-
-
-
   {
     "index": 12,
     "QuestionArr_12": "Use first image to decode the words from first image to second image",
@@ -1786,9 +1603,6 @@
     "ImageName": "L4-1",
     "QuestionImage": "L4-o15"
   },
-
-
-
 
   {
     "index": 15,
@@ -1822,9 +1636,6 @@
     "ImageName": "L4-2",
     "QuestionImage": "L4-o19"
   },
-
-
-
   {
     "index": 19,
     "QuestionArr_19": "Use first image to decode the words from first image to second image",
@@ -1857,9 +1668,6 @@
     "ImageName": "L4-2",
     "QuestionImage": "L4-o23"
   },
-
-
-
   {
     "index": 23,
     "QuestionArr_23": "Use first image to decode the words from first image to second image",
@@ -1891,10 +1699,7 @@
     "AnswerArr_26": ["Yes", "", "", ""],
     "ImageName": "L4-2",
     "QuestionImage": "L4-o27"
-  },
-
-
-  {
+  },  {
     "index": 27,
     "QuestionArr_27": "Use first image to decode the words from first image to second image",
     "OptionArr_27": ["PIN", "HAMPT", "KIN", "HAMTK"],
@@ -1918,12 +1723,6 @@
     "ImageName": "L4-2",
     "QuestionImage": "L4-o30"
   },
-
-
-
-
-
-
 
   {
     "index": 30,
@@ -1957,9 +1756,6 @@
     "ImageName": "L4-3",
     "QuestionImage": "L4-o34"
   },
-
-
-
   {
     "index": 34,
     "QuestionArr_34": "Use first image to decode the words from first image to second image",
@@ -1992,9 +1788,6 @@
     "ImageName": "L4-3",
     "QuestionImage": "L4-o38"
   },
-
-
-
   {
     "index": 38,
     "QuestionArr_38": "Use first image to decode the words from first image to second image",
@@ -2028,9 +1821,6 @@
     "QuestionImage": "L4-o42"
   },
 
-
-
-
   {
     "index": 42,
     "QuestionArr_42": "Use first image to decode the words from first image to second image",
@@ -2055,9 +1845,6 @@
     "ImageName": "L4-3",
     "QuestionImage": "L4-o45"
   },
-
-
-
 
    {
     "index": 45,
@@ -2091,9 +1878,6 @@
     "ImageName": "L4-4",
     "QuestionImage": "L4-o49"
   },
-
-
-
   {
     "index": 49,
     "QuestionArr_49": "Use first image to decode the words from first image to second image",
@@ -2127,9 +1911,6 @@
     "QuestionImage": "L4-o53"
   },
 
-
-
-
   {
     "index": 53,
     "QuestionArr_53": "Use first image to decode the words from first image to second image",
@@ -2162,9 +1943,6 @@
     "ImageName": "L4-4",
     "QuestionImage": "L4-o57"
   },
-
-
-
   {
     "index": 57,
     "QuestionArr_57": "Use first image to decode the words from first image to second image",
@@ -2189,9 +1967,6 @@
     "ImageName": "L4-4",
     "QuestionImage": "L4-o60"
   },
-
-
-
    {
     "index": 60,
     "QuestionArr_60": "Use first image to decode the words from first image to second image",
@@ -2224,9 +1999,6 @@
     "ImageName": "L4-5",
     "QuestionImage": "L4-o64"
   },
-
-
-
   {
     "index": 64,
     "QuestionArr_64": "Use first image to decode the words from first image to second image",
@@ -2259,9 +2031,6 @@
     "ImageName": "L4-5",
     "QuestionImage": "L4-o68"
   },
-
-
-
   {
     "index": 68,
     "QuestionArr_68": "Use first image to decode the words from first image to second image",
@@ -2294,9 +2063,6 @@
     "ImageName": "L4-5",
     "QuestionImage": "L4-o72"
   },
-
-
-
   {
     "index": 72,
     "QuestionArr_72": "Use first image to decode the words from first image to second image",
@@ -2355,9 +2121,6 @@
     "ImageName": "L5-1",
     "QuestionImage": "L5-o4"
   },
-
-
-
   {
     "index": 4,
     "QuestionArr_04": "Use first image to decode the words from first image to second image",
@@ -2390,9 +2153,6 @@
     "ImageName": "L5-1",
     "QuestionImage": "L5-o8"
   },
-
-
-
   {
     "index": 8,
     "QuestionArr_08": "Use first image to decode the words from first image to second image",
@@ -2425,9 +2185,6 @@
     "ImageName": "L5-1",
     "QuestionImage": "L5-o12"
   },
-
-
-
   {
     "index": 12,
     "QuestionArr_12": "Use first image to decode the words from first image to second image",
@@ -2461,9 +2218,6 @@
     "QuestionImage": "L5-o16"
   },
 
-
-
-
 {
   "index": 16,
   "QuestionArr_16": "Use first image to decode the words from first image to second image",
@@ -2496,9 +2250,6 @@
   "ImageName": "L5-2",
   "QuestionImage": "L5-o20"
 },
-
-
-
 {
   "index": 20,
   "QuestionArr_20": "Use first image to decode the words from first image to second image",
@@ -2523,9 +2274,6 @@
   "ImageName": "L5-2",
   "QuestionImage": "L5-o23"
 },
-
-
-
 {
   "index": 23,
   "QuestionArr_23": "Use first image to decode the words from first image to second image",
@@ -2550,9 +2298,6 @@
   "ImageName": "L5-2",
   "QuestionImage": "L5-o26"
 },
-
-
-
 {
   "index": 26,
   "QuestionArr_26": "Use first image to decode the words from first image to second image",
@@ -2576,13 +2321,7 @@
   "AnswerArr_28": ["Yes", "", "", ""],
   "ImageName": "L5-2",
   "QuestionImage": "L5-o29"
-},
-
-
-
-
-
-{
+},{
   "index": 29,
   "QuestionArr_29": "Use first image to decode the words from first image to second image",
   "OptionArr_29": ["TAG", "GAG", "TEA", "BAG"],
@@ -2614,9 +2353,6 @@
   "ImageName": "L5-3",
   "QuestionImage": "L5-o33"
 },
-
-
-
 {
   "index": 33,
   "QuestionArr_33": "Use first image to decode the words from first image to second image",
@@ -2641,9 +2377,6 @@
   "ImageName": "L5-3",
   "QuestionImage": "L5-o36"
 },
-
-
-
 {
   "index": 36,
   "QuestionArr_36": "Use first image to decode the words from first image to second image",
@@ -2668,9 +2401,6 @@
   "ImageName": "L5-3",
   "QuestionImage": "L5-o39"
 },
-
-
-
 {
   "index": 39,
   "QuestionArr_39": "Use first image to decode the words from first image to second image",
@@ -2694,13 +2424,7 @@
   "AnswerArr_41": ["", "", "", "Yes"],
   "ImageName": "L5-3",
   "QuestionImage": "L5-o42"
-},
-
-
-
-
-
-{
+},{
   "index": 42,
   "QuestionArr_42": "Use first image to decode the words from first image to second image",
   "OptionArr_42": ["TEA", "GET", "BAG", "BET"],
@@ -2732,9 +2456,6 @@
   "ImageName": "L5-4",
   "QuestionImage": "L5-o46"
 },
-
-
-
 {
   "index": 46,
   "QuestionArr_46": "Use first image to decode the words from first image to second image",
@@ -2759,9 +2480,6 @@
   "ImageName": "L5-4",
   "QuestionImage": "L5-o49"
 },
-
-
-
 {
   "index": 49,
   "QuestionArr_49": "Use first image to decode the words from first image to second image",
@@ -2786,9 +2504,6 @@
   "ImageName": "L5-4",
   "QuestionImage": "L5-o52"
 },
-
-
-
 {
   "index": 52,
   "QuestionArr_52": "Use first image to decode the words from first image to second image",
@@ -2813,12 +2528,6 @@
   "ImageName": "L5-4",
   "QuestionImage": "L5-o55"
 },
-
-
-
-
-
-
 {
   "index": 55,
   "QuestionArr_55": "Use first image to decode the words from first image to second image",
@@ -2850,13 +2559,7 @@
   "AnswerArr_58": ["", "", "", "Yes"],
   "ImageName": "L5-5",
   "QuestionImage": "L5-o59"
-},
-
-
-
-
-
-{
+},{
   "index": 59,
   "QuestionArr_59": "Use first image to decode the words from first image to second image",
   "OptionArr_59": ["BAT", "MAT", "RAT", "CAT"],
@@ -2880,9 +2583,6 @@
   "ImageName": "L5-5",
   "QuestionImage": "L5-o62"
 },
-
-
-
 {
   "index": 62,
   "QuestionArr_62": "Use first image to decode the words from first image to second image",
@@ -2907,9 +2607,6 @@
   "ImageName": "L5-5",
   "QuestionImage": "L5-o65"
 },
-
-
-
 {
   "index": 65,
   "QuestionArr_65": "Use first image to decode the words from first image to second image",
@@ -2975,13 +2672,7 @@
     "AnswerArr_04": ["Yes", "", "", ""],
     "ImageName": "L6-1",
     "QuestionImage": "L6-o5"
-  },
-
-
-
-
-
-  {
+  },  {
     "index": 5,
     "QuestionArr_05": "Use first image to decode the words from first image to second image",
     "OptionArr_05": ["ABGGEF", "GCEDBF", "ABCDEF", "TIP"],
@@ -3005,9 +2696,6 @@
     "ImageName": "L6-1",
     "QuestionImage": "L6-o8"
   },
-
-
-
   {
     "index": 8,
     "QuestionArr_08": "Use first image to decode the words from first image to second image",
@@ -3040,9 +2728,6 @@
     "ImageName": "L6-1",
     "QuestionImage": "L6-o12"
   },
-
-
-
 
   {
     "index": 12,
@@ -3084,12 +2769,6 @@
     "ImageName": "L6-1",
     "QuestionImage": "L6-o17"
   },
-
-
-
-
-
-
   {
   "index": 17,
   "QuestionArr_17": "Use first image to decode the words from first image to second image",
@@ -3130,9 +2809,6 @@
   "ImageName": "L6-2",
   "QuestionImage": "L6-o22"
 },
-
-
-
 {
   "index": 22,
   "QuestionArr_22": "Use first image to decode the words from first image to second image",
@@ -3157,9 +2833,6 @@
   "ImageName": "L6-2",
   "QuestionImage": "L6-o25"
 },
-
-
-
 {
   "index": 25,
   "QuestionArr_25": "Use first image to decode the words from first image to second image",
@@ -3192,9 +2865,6 @@
   "ImageName": "L6-2",
   "QuestionImage": "L6-o29"
 },
-
-
-
 {
   "index": 29,
   "QuestionArr_29": "Use first image to decode the words from first image to second image",
@@ -3236,9 +2906,6 @@
   "QuestionImage": "L6-o34"
 },
 
-
-
-
 {
   "index": 34,
   "QuestionArr_34": "Use first image to decode the words from first image to second image",
@@ -3278,13 +2945,7 @@
   "AnswerArr_38": ["", "", "Yes", ""],
   "ImageName": "L6-3",
   "QuestionImage": "L6-o39"
-},
-
-
-
-
-
-{
+},{
   "index": 39,
   "QuestionArr_39": "Use first image to decode the words from first image to second image",
   "OptionArr_39": ["HEN", "CARONM", "MEN", "ACCRON"],
@@ -3308,9 +2969,6 @@
   "ImageName": "L6-3",
   "QuestionImage": "L6-o42"
 },
-
-
-
 {
   "index": 42,
   "QuestionArr_42": "Use first image to decode the words from first image to second image",
@@ -3343,9 +3001,6 @@
   "ImageName": "L6-3",
   "QuestionImage": "L6-o46"
 },
-
-
-
 
 {
   "index": 46,
@@ -3387,12 +3042,6 @@
   "ImageName": "L6-3",
   "QuestionImage": "L6-o51"
 },
-
-
-
-
-
-
 {
   "index": 51,
   "QuestionArr_51": "Use first image to decode the words from first image to second image",
@@ -3432,13 +3081,7 @@
   "AnswerArr_55": ["", "", "", "Yes"],
   "ImageName": "L6-4",
   "QuestionImage": "L6-o56"
-},
-
-
-
-
-
-{
+},{
   "index": 56,
   "QuestionArr_56": "Use first image to decode the words from first image to second image",
   "OptionArr_56": ["HATTER", "REHATN", "RAHTAG", "HARNET"],
@@ -3462,9 +3105,6 @@
   "ImageName": "L6-4",
   "QuestionImage": "L6-o59"
 },
-
-
-
 
 {
   "index": 59,
@@ -3498,9 +3138,6 @@
   "ImageName": "L6-4",
   "QuestionImage": "L6-o63"
 },
-
-
-
 
 {
   "index": 63,
@@ -3541,13 +3178,7 @@
   "AnswerArr_67": ["", "", "", "Yes"],
   "ImageName": "L6-4",
   "QuestionImage": "L6-o68"
-},
-
-
-
-
-
-{
+},{
   "index": 68,
   "QuestionArr_68": "Use first image to decode the words from first image to second image",
   "OptionArr_68": ["FONT", "RENT", "HENE", "TENT"],
@@ -3587,9 +3218,6 @@
   "ImageName": "L6-5",
   "QuestionImage": "L6-o73"
 },
-
-
-
 {
   "index": 73,
   "QuestionArr_73": "Use first image to decode the words from first image to second image",
@@ -3614,9 +3242,6 @@
   "ImageName": "L6-5",
   "QuestionImage": "L6-o76"
 },
-
-
-
 {
   "index": 76,
   "QuestionArr_76": "Use first image to decode the words from first image to second image",
@@ -3649,9 +3274,6 @@
   "ImageName": "L6-5",
   "QuestionImage": "L6-o80"
 },
-
-
-
 {
   "index": 80,
   "QuestionArr_80": "Use first image to decode the words from first image to second image",
@@ -3719,9 +3341,6 @@
     "ImageName": "L7-1",
     "QuestionImage": "L7-o3"
   },
-
-
-
   {
     "index": 3,
     "QuestionArr_03": "Use first image to decode the words from first image to second image",
@@ -3754,9 +3373,6 @@
     "ImageName": "L7-1",
     "QuestionImage": "L7-o7"
   },
-
-
-
   {
     "index": 7,
     "QuestionArr_07": "Use first image to decode the words from first image to second image",
@@ -3814,10 +3430,1664 @@
     "AnswerArr_13": ["", "Yes", "", ""],
     "ImageName": "L7-1",
     "QuestionImage": "L7-o14"
+  },    {
+      "index": 14,
+      "QuestionArr_14": "Use first image to decode the words from first image to second image",
+      "OptionArr_14": ["K", "O", "A", "P"],
+      "AnswerArr_14": ["Yes", "", "", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o15"
+    },
+    {
+      "index": 15,
+      "QuestionArr_15": "Use first image to decode the words from first image to second image",
+      "OptionArr_15": ["POKIA", "OPTAM", "MATAP", "COT"],
+      "AnswerArr_15": ["", "Yes", "", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o16"
+    },
+    {
+      "index": 16,
+      "QuestionArr_16": "Use first image to decode the words from first image to second image",
+      "OptionArr_16": ["SUN", "FUN", "HAM", "GUN"],
+      "AnswerArr_16": ["", "", "Yes", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o17"
+    },
+    {
+      "index": 17,
+      "QuestionArr_17": "Use first image to decode the words from first image to second image",
+      "OptionArr_17": ["MAP", "CAP", "NAP", "KOPT"],
+      "AnswerArr_17": ["", "", "", "Yes"],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o18"
+    },
+    {
+      "index": 18,
+      "QuestionArr_18": "Use first image to decode the words from first image to second image",
+      "OptionArr_18":  ["H", "O", "A", "P"],
+      "AnswerArr_18": ["Yes", "", "", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o19"
+    },
+    {
+      "index": 19,
+      "QuestionArr_19": "Use first image to decode the words from first image to second image",
+      "OptionArr_19": ["JAM", "HAM", "DAM", "RAM"],
+      "AnswerArr_19": ["", "Yes", "", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o20"
+    },
+    {
+      "index": 20,
+      "QuestionArr_20": "Use first image to decode the words from first image to second image",
+      "OptionArr_20": ["BAG", "TAM", "TOP", "HAM"],
+      "AnswerArr_20": ["", "", "Yes", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o21"
+    },
+    {
+      "index": 21,
+      "QuestionArr_21": "Use first image to decode the words from first image to second image",
+      "OptionArr_21": ["H", "O", "A", "P"],
+      "AnswerArr_21": ["", "Yes", "", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o22"
+    },
+    {
+      "index": 22,
+      "QuestionArr_22": "Use first image to decode the words from first image to second image",
+      "OptionArr_22": ["POTT", "TEN", "MEN", "DEN"],
+      "AnswerArr_22": ["Yes", "", "", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o23"
+    },
+    {
+      "index": 23,
+      "QuestionArr_23": "Use first image to decode the words from first image to second image",
+      "OptionArr_23": ["CAP", "HAMTK", "NAP", "GAP"],
+      "AnswerArr_23": ["", "Yes", "", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o24"
+    },
+    {
+      "index": 24,
+      "QuestionArr_24": "Use first image to decode the words from first image to second image",
+      "OptionArr_24": ["BAT", "CAT", "MAPT", "RAT"],
+      "AnswerArr_24": ["", "", "Yes", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o25"
+    },
+    {
+      "index": 25,
+      "QuestionArr_25": "Use first image to decode the words from first image to second image",
+      "OptionArr_25": ["H", "O", "P", "A"],
+      "AnswerArr_25": ["", "", "", "Yes"],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o26"
+    },
+    {
+      "index": 26,
+      "QuestionArr_26": "Use first image to decode the words from first image to second image",
+      "OptionArr_26": ["THATAMT", "MOP", "TOP", "COP"],
+      "AnswerArr_26": ["Yes", "", "", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o27"
+    },
+    {
+      "index": 27,
+      "QuestionArr_27": "Use first image to decode the words from first image to second image",
+      "OptionArr_27": ["POT", "MAT", "DOT", "COT"],
+      "AnswerArr_27": ["", "Yes", "", ""],
+      "ImageName": "L7-2",
+      "QuestionImage": "L7-o28"
+    },{
+  "index": 28,
+  "QuestionArr_28": "Use first image to decode the words from first image to second image",
+  "OptionArr_28": ["S", "T", "M", "A"],
+  "AnswerArr_28": ["", "", "Yes", ""],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o29"
+},
+{
+  "index": 29,
+  "QuestionArr_29": "Use first image to decode the words from first image to second image",
+  "OptionArr_29": ["TEBAGAM", "BATEEAS", "NAP", "BAGGAGE"],
+  "AnswerArr_29": ["", "", "", "Yes"],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o30"
+},
+{
+  "index": 30,
+  "QuestionArr_30": "Use first image to decode the words from first image to second image",
+  "OptionArr_30": ["GAG", "BAG", "TAG", "FOG"],
+  "AnswerArr_30": ["Yes", "", "", ""],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o31"
+},
+{
+  "index": 31,
+  "QuestionArr_31": "Use first image to decode the words from first image to second image",
+  "OptionArr_31": ["BEAT", "TEAM", "DAM", "MEAT"],
+  "AnswerArr_31": ["", "Yes", "", ""],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o32"
+},
+{
+  "index": 32,
+  "QuestionArr_32": "Use first image to decode the words from first image to second image",
+  "OptionArr_32":["S", "T", "M", "A"],
+  "AnswerArr_32": ["Yes", "", "", ""],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o33"
+},
+{
+  "index": 33,
+  "QuestionArr_33": "Use first image to decode the words from first image to second image",
+  "OptionArr_33": ["GAG", "ATE", "BAG", "TIP"],
+  "AnswerArr_33": ["", "", "Yes", ""],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o34"
+},
+{
+  "index": 34,
+  "QuestionArr_34": "Use first image to decode the words from first image to second image",
+  "OptionArr_34": ["GAG", "ATE", "BAG", "TIP"],
+  "AnswerArr_34": ["", "Yes", "", ""],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o35"
+},
+{
+  "index": 35,
+  "QuestionArr_35": "Use first image to decode the words from first image to second image",
+  "OptionArr_35":["S", "T", "M", "A"],
+  "AnswerArr_35": ["", "Yes", "", ""],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o36"
+},
+{
+  "index": 36,
+  "QuestionArr_36": "Use first image to decode the words from first image to second image",
+  "OptionArr_36": ["BEAT", "TEAM", "DAM", "MEAT"],
+  "AnswerArr_36": ["", "", "", "Yes"],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o37"
+},
+{
+  "index": 37,
+  "QuestionArr_37": "Use first image to decode the words from first image to second image",
+  "OptionArr_37": ["PEN", "BEATS", "MEN", "TEAMS"],
+  "AnswerArr_37": ["", "Yes", "", ""],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o38"
+},
+{
+  "index": 38,
+  "QuestionArr_38": "Use first image to decode the words from first image to second image",
+  "OptionArr_38":["PEN", "BEATS", "MEN", "TEAMS"],
+  "AnswerArr_38": ["", "", "", "Yes"],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o39"
+},
+{
+  "index": 39,
+  "QuestionArr_39": "Use first image to decode the words from first image to second image",
+  "OptionArr_39":["S", "T", "M", "A"],
+  "AnswerArr_39": ["", "", "", "Yes"],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o40"
+},
+{
+  "index": 40,
+  "QuestionArr_40": "Use first image to decode the words from first image to second image",
+  "OptionArr_40": ["TEBAGAM", "BATEEAS", "NAP", "BAGGAGE"],
+  "AnswerArr_40": ["", "", "", "Yes"],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o41"
+},
+{
+  "index": 41,
+  "QuestionArr_41": "Use first image to decode the words from first image to second image",
+  "OptionArr_41": ["ATE", "GAG", "BAG", "AMS"],
+  "AnswerArr_41": ["", "Yes", "", ""],
+  "ImageName": "L7-3",
+  "QuestionImage": "L7-o42"
+},
+
+{
+  "index": 42,
+  "QuestionArr_42": "Use first image to decode the words from first image to second image",
+  "OptionArr_42":["S", "T", "M", "A"],
+  "AnswerArr_42": ["", "Yes", "", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o43"
+},
+{
+  "index": 43,
+  "QuestionArr_43": "Use first image to decode the words from first image to second image",
+  "OptionArr_43":  ["TEBAGAM", "ABBOTTE", "NAP", "BAGGAGE"],
+  "AnswerArr_43": ["", "Yes", "", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o44"
+},
+{
+  "index": 44,
+  "QuestionArr_44": "Use first image to decode the words from first image to second image",
+  "OptionArr_44": ["OAT", "TAG", "GET", "DOT"],
+  "AnswerArr_44": ["", "", "Yes", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o45"
+},
+{
+  "index": 45,
+  "QuestionArr_45": "Use first image to decode the words from first image to second image",
+  "OptionArr_45": ["GOAT", "TOGA", "RIP", "BOAT"],
+  "AnswerArr_45": ["", "", "", "Yes"],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o46"
+},
+{
+  "index": 46,
+  "QuestionArr_46": "Use first image to decode the words from first image to second image",
+  "OptionArr_46": ["G", "T", "M", "A"],
+  "AnswerArr_46": ["Yes", "", "", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o47"
+},
+{
+  "index": 47,
+  "QuestionArr_47": "Use first image to decode the words from first image to second image",
+  "OptionArr_47":["OAT", "TAG", "GET", "DOT"],
+  "AnswerArr_47": ["Yes", "", "", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o48"
+},
+{
+  "index": 48,
+  "QuestionArr_48": "Use first image to decode the words from first image to second image",
+  "OptionArr_48":["OAT", "TAG", "GET", "DOT"],
+  "AnswerArr_48": ["", "", "", "Yes"],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o49"
+},
+{
+  "index": 49,
+  "QuestionArr_49": "Use first image to decode the words from first image to second image",
+  "OptionArr_49": ["O", "T", "G", "A"],
+  "AnswerArr_49": ["", "", "Yes", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o50"
+},
+{
+  "index": 50,
+  "QuestionArr_50": "Use first image to decode the words from first image to second image",
+  "OptionArr_50":["GOAT", "TOGA", "RIP", "BOAT"],
+  "AnswerArr_50": ["Yes", "", "", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o51"
+},
+{
+  "index": 51,
+  "QuestionArr_51": "Use first image to decode the words from first image to second image",
+  "OptionArr_51": ["POT", "ABATE", "DAATE", "ABOTE"],
+  "AnswerArr_51": ["", "Yes", "", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o52"
+},
+{
+  "index": 52,
+  "QuestionArr_52": "Use first image to decode the words from first image to second image",
+  "OptionArr_52": ["TEBAGAM", "ABBOTTE", "NAP", "BAGGAGE"],
+  "AnswerArr_52": ["", "Yes", "", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o53"
+},
+{
+  "index": 53,
+  "QuestionArr_53": "Use first image to decode the words from first image to second image",
+  "OptionArr_53": ["O", "T", "G", "D"],
+  "AnswerArr_53": ["", "", "", "Yes"],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o54"
+},
+{
+  "index": 54,
+  "QuestionArr_54": "Use first image to decode the words from first image to second image",
+  "OptionArr_54":  ["TEBAGAM", "ABBOTTE", "BATTEDD", "BAGGAGE"],
+  "AnswerArr_54": ["", "", "Yes", ""],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o55"
+},
+{
+  "index": 55,
+  "QuestionArr_55": "Use first image to decode the words from first image to second image",
+  "OptionArr_55":["OAT", "TAG", "GET", "DOT"],
+  "AnswerArr_55": ["", "", "", "Yes"],
+  "ImageName": "L7-4",
+  "QuestionImage": "L7-o56"
+},
+
+{
+  "index": 56,
+  "QuestionArr_56": "Use first image to decode the words from first image to second image",
+  "OptionArr_56":  ["A", "D", "C", "G"],
+  "AnswerArr_56": ["Yes", "", "", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o57"
+},
+{
+  "index": 57,
+  "QuestionArr_57": "Use first image to decode the words from first image to second image",
+  "OptionArr_57": ["TAGGED", "ABBOTTE", "BATTEDD", "BAGGAGE"],
+  "AnswerArr_57": ["Yes", "", "", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o58"
+},
+{
+  "index": 58,
+  "QuestionArr_58": "Use first image to decode the words from first image to second image",
+  "OptionArr_58": ["HEN", "BED", "ATE", "TAG"],
+  "AnswerArr_58": ["", "Yes", "", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o59"
+},
+{
+  "index": 59,
+  "QuestionArr_59": "Use first image to decode the words from first image to second image",
+  "OptionArr_59": ["TADE", "GATE", "NAP", "DATE"],
+  "AnswerArr_59": ["", "Yes", "", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o60"
+},
+{
+  "index": 60,
+  "QuestionArr_60": "Use first image to decode the words from first image to second image",
+  "OptionArr_60":  ["A", "D", "C", "G"],
+  "AnswerArr_60": ["", "Yes", "", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o61"
+},
+{
+  "index": 61,
+  "QuestionArr_61": "Use first image to decode the words from first image to second image",
+  "OptionArr_61":["HEN", "BED", "ATE", "TAG"],
+  "AnswerArr_61": ["", "", "", "Yes"],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o62"
+},
+{
+  "index": 62,
+  "QuestionArr_62": "Use first image to decode the words from first image to second image",
+  "OptionArr_62":["HEN", "BED", "ATE", "TAG"],
+  "AnswerArr_62": ["", "", "Yes", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o63"
+},
+{
+  "index": 63,
+  "QuestionArr_63": "Use first image to decode the words from first image to second image",
+  "OptionArr_63": ["A", "D", "C", "G"],
+  "AnswerArr_63": ["", "", "Yes", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o64"
+},
+{
+  "index": 64,
+  "QuestionArr_64": "Use first image to decode the words from first image to second image",
+  "OptionArr_64":["HENA", "BGED", "DATE", "TADG"],
+  "AnswerArr_64": ["", "", "Yes", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o65"
+},
+{
+  "index": 65,
+  "QuestionArr_65": "Use first image to decode the words from first image to second image",
+  "OptionArr_65":["HENA", "BGED", "DATE", "BEGET"],
+  "AnswerArr_65": ["", "", "", "Yes"],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o66"
+},
+{
+  "index": 66,
+  "QuestionArr_66": "Use first image to decode the words from first image to second image",
+  "OptionArr_66": ["TAGGED", "HOG", "BED", "BEGET"],
+  "AnswerArr_66": ["Yes", "", "", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o67"
+},
+{
+  "index": 67,
+  "QuestionArr_67": "Use first image to decode the words from first image to second image",
+  "OptionArr_67": ["A", "D", "C", "G"],
+  "AnswerArr_67": ["Yes", "", "", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o68"
+},
+{
+  "index": 68,
+  "QuestionArr_68": "Use first image to decode the words from first image to second image",
+  "OptionArr_68": ["BAG", "TAG", "GADGET", "RAG"],
+  "AnswerArr_68": ["", "", "Yes", ""],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o69"
+},
+{
+  "index": 69,
+  "QuestionArr_69": "Use first image to decode the words from first image to second image",
+  "OptionArr_69": ["SIP", "LIP", "RIP", "EAT"],
+  "AnswerArr_69": ["", "", "", "Yes"],
+  "ImageName": "L7-5",
+  "QuestionImage": "L7-o70"
+}
+],
+"Level8": [
+  {
+    "index": 0,
+    "QuestionArr_00": "Use first image to decode the words from first image to second image",
+    "OptionArr_00": ["FBAFGCE", "HLOGOG", "BGEFDGE", "FOG"],
+    "AnswerArr_00": ["Yes", "", "", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o1"
+  },
+  {
+    "index": 1,
+    "QuestionArr_01": "Use first image to decode the words from first image to second image",
+    "OptionArr_01": ["FAE", "DGE", "AEC", "RAM"],
+    "AnswerArr_01": ["", "Yes", "", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o2"
+  },
+  {
+    "index": 2,
+    "QuestionArr_02": "Use first image to decode the words from first image to second image",
+    "OptionArr_02":["A", "D", "C", "G"],
+    "AnswerArr_02": ["", "", "Yes", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o3"
+  },
+  {
+    "index": 3,
+    "QuestionArr_03": "Use first image to decode the words from first image to second image",
+    "OptionArr_03": ["FAE", "DGE", "AEC", "FBD"],
+    "AnswerArr_03": ["", "", "", "Yes"],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o4"
+  },
+  {
+    "index": 4,
+    "QuestionArr_04": "Use first image to decode the words from first image to second image",
+    "OptionArr_04":["FAE", "DGE", "AEC", "FBD"],
+    "AnswerArr_04": ["Yes", "", "", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o5"
+  },
+  {
+    "index": 5,
+    "QuestionArr_05": "Use first image to decode the words from first image to second image",
+    "OptionArr_05": ["EACG", "BGEF", "FBCF", "GAFC"],
+    "AnswerArr_05": ["", "Yes", "", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o6"
+  },
+  {
+    "index": 6,
+    "QuestionArr_06": "Use first image to decode the words from first image to second image",
+    "OptionArr_06": ["FAE", "DGE", "AEC", "FBD"],
+    "AnswerArr_06": ["", "", "Yes", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o7"
+  },
+  {
+    "index": 7,
+    "QuestionArr_07": "Use first image to decode the words from first image to second image",
+    "OptionArr_07": ["EACG", "BGEF", "FBCF", "GAFC"],
+    "AnswerArr_07": ["Yes", "", "", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o8"
+  },
+  {
+    "index": 8,
+    "QuestionArr_08": "Use first image to decode the words from first image to second image",
+    "OptionArr_08":["A", "D", "F", "G"],
+    "AnswerArr_08": ["", "", "Yes", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o9"
+  },
+  {
+    "index": 9,
+    "QuestionArr_09": "Use first image to decode the words from first image to second image",
+    "OptionArr_09": ["FAE", "FGE", "AEC", "FBD"],
+    "AnswerArr_09": ["", "Yes", "", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o10"
+  },
+  {
+    "index": 10,
+    "QuestionArr_10": "Use first image to decode the words from first image to second image",
+    "OptionArr_10": ["FAE", "FGE", "EGB", "FBD"],
+    "AnswerArr_10": ["", "", "Yes", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o11"
+  },
+  {
+    "index": 11,
+    "QuestionArr_11": "Use first image to decode the words from first image to second image",
+    "OptionArr_11":["A", "D", "F", "G"],
+    "AnswerArr_11": ["", "Yes", "", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o12"
+  },
+  {
+    "index": 12,
+    "QuestionArr_12": "Use first image to decode the words from first image to second image",
+    "OptionArr_12": ["EACG", "BGEF", "FBCF", "GAFC"],
+    "AnswerArr_12": ["", "", "Yes", ""],
+    "ImageName": "L8-1",
+    "QuestionImage": "L8-o13"
+  },
+
+  {
+    "index": 13,
+    "QuestionArr_13": "Use first image to decode the words from first image to second image",
+    "OptionArr_13": ["JAM", "MANTAST", "MANLAST", "RAM"],
+    "AnswerArr_13": ["", "Yes", "", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o14"
+  },
+  {
+    "index": 14,
+    "QuestionArr_14": "Use first image to decode the words from first image to second image",
+    "OptionArr_14": ["TAL", "TAG", "ANT", "LAN"],
+    "AnswerArr_14": ["", "", "Yes", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o15"
+  },
+  {
+    "index": 15,
+    "QuestionArr_15": "Use first image to decode the words from first image to second image",
+    "OptionArr_15": ["A", "D", "F", "H"],
+    "AnswerArr_15": ["", "", "", "Yes"],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o16"
+  },
+  {
+    "index": 16,
+    "QuestionArr_16": "Use first image to decode the words from first image to second image",
+    "OptionArr_16": ["TAL", "TAG", "ANT", "LAN"],
+    "AnswerArr_16": ["", "", "", "Yes"],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o17"
+  },
+  {
+    "index": 17,
+    "QuestionArr_17": "Use first image to decode the words from first image to second image",
+    "OptionArr_17": ["LA", "MN", "NT", "MT"],
+    "AnswerArr_17": ["", "Yes", "", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o18"
+  },
+  {
+    "index": 18,
+    "QuestionArr_18": "Use first image to decode the words from first image to second image",
+    "OptionArr_18": ["LAST", "CAT", "HASL", "MANT"],
+    "AnswerArr_18": ["", "", "Yes", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o19"
+  },
+  {
+    "index": 19,
+    "QuestionArr_19": "Use first image to decode the words from first image to second image",
+    "OptionArr_19": ["TAL", "TAG", "ANT", "LAN"],
+    "AnswerArr_19": ["Yes", "", "", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o20"
+  },
+  {
+    "index": 20,
+    "QuestionArr_20": "Use first image to decode the words from first image to second image",
+    "OptionArr_20":  ["LAST", "CAT", "HASL", "MANT"],
+    "AnswerArr_20": ["Yes", "", "", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o21"
+  },
+  {
+    "index": 21,
+    "QuestionArr_21": "Use first image to decode the words from first image to second image",
+    "OptionArr_21": ["A", "M", "F", "H"],
+    "AnswerArr_21": ["", "Yes", "", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o22"
+  },
+  {
+    "index": 22,
+    "QuestionArr_22": "Use first image to decode the words from first image to second image",
+    "OptionArr_22":["TAL", "TAG", "SAT", "LAN"],
+    "AnswerArr_22": ["", "", "Yes", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o23"
+  },
+  {
+    "index": 23,
+    "QuestionArr_23": "Use first image to decode the words from first image to second image",
+    "OptionArr_23": ["TAL", "TAG", "SAT", "NAT"],
+    "AnswerArr_23": ["", "", "", "Yes"],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o24"
+  },
+  {
+    "index": 24,
+    "QuestionArr_24": "Use first image to decode the words from first image to second image",
+    "OptionArr_24":["H", "M", "F", "H"],
+    "AnswerArr_24": ["Yes", "", "", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o25"
+  },
+  {
+    "index": 25,
+    "QuestionArr_25": "Use first image to decode the words from first image to second image",
+    "OptionArr_25":["LAST", "CAT", "HASL", "MANT"],
+    "AnswerArr_25": ["Yes", "", "", ""],
+    "ImageName": "L8-2",
+    "QuestionImage": "L8-o26"
+  }, 
+  {
+  "index": 26,
+  "QuestionArr_26": "Use first image to decode the words from first image to second image",
+  "OptionArr_26": ["REARREN", "TAG", "REARONE", "RAG"],
+  "AnswerArr_26": ["", "", "Yes", ""],
+  "ImageName": "L8-3",
+  "QuestionImage": "L8-o27"
+  },
+  {
+    "index": 27,
+    "QuestionArr_27": "Use first image to decode the words from first image to second image",
+    "OptionArr_27": ["ARC", "ARE", "ONE", "EAR"],
+    "AnswerArr_27": ["", "", "", "Yes"],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o28"
+  },
+  {
+    "index": 28,
+    "QuestionArr_28": "Use first image to decode the words from first image to second image",
+    "OptionArr_28": ["I", "M", "F", "H"],
+    "AnswerArr_28": ["Yes", "", "", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o29"
+  },
+  {
+    "index": 29,
+    "QuestionArr_29": "Use first image to decode the words from first image to second image",
+    "OptionArr_29": ["ARC", "ARE", "ONE", "EAR"],
+    "AnswerArr_29": ["Yes", "", "", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o30"
+  },
+  {
+    "index": 30,
+    "QuestionArr_30": "Use first image to decode the words from first image to second image",
+    "OptionArr_30":  ["ARC", "ARE", "ONE", "EAR"],
+    "AnswerArr_30": ["", "Yes", "", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o31"
+  },
+  {
+    "index": 31,
+    "QuestionArr_31": "Use first image to decode the words from first image to second image",
+    "OptionArr_31": ["CARE", "TEN", "REAR", "RONE"],
+    "AnswerArr_31": ["Yes", "", "", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o32"
+  },
+  {
+    "index": 32,
+    "QuestionArr_32": "Use first image to decode the words from first image to second image",
+    "OptionArr_32": ["ARC", "ARE", "ONE", "EAR"],
+    "AnswerArr_32": ["", "", "", "Yes"],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o33"
+  },
+  {
+    "index": 33,
+    "QuestionArr_33": "Use first image to decode the words from first image to second image",
+    "OptionArr_33":  ["CARE", "TEN", "REAR", "RONE"],
+    "AnswerArr_33": ["", "", "Yes", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o34"
+  },
+  {
+    "index": 34,
+    "QuestionArr_34": "Use first image to decode the words from first image to second image",
+    "OptionArr_34":["I", "M", "R", "H"],
+    "AnswerArr_34": ["", "", "Yes", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o35"
+  },
+  {
+    "index": 35,
+    "QuestionArr_35": "Use first image to decode the words from first image to second image",
+    "OptionArr_35":["ARC", "ARE", "CAR", "EAR"],
+    "AnswerArr_35": ["", "", "Yes", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o36"
+  },
+  {
+    "index": 36,
+    "QuestionArr_36": "Use first image to decode the words from first image to second image",
+    "OptionArr_36":["RAN", "ARE", "CAR", "EAR"],
+    "AnswerArr_36": ["Yes", "", "", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o37"
+  },
+  {
+    "index": 37,
+    "QuestionArr_37": "Use first image to decode the words from first image to second image",
+    "OptionArr_37": ["I", "E", "R", "H"],
+    "AnswerArr_37": ["", "Yes", "", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o38"
+  },
+  {
+    "index": 38,
+    "QuestionArr_38": "Use first image to decode the words from first image to second image",
+    "OptionArr_38": ["CARE", "TEN", "REAR", "RONE"],
+    "AnswerArr_38": ["Yes", "", "", ""],
+    "ImageName": "L8-3",
+    "QuestionImage": "L8-o39"
+  },
+
+
+
+
+
+  {
+  "index": 39,
+  "QuestionArr_39": "Use first image to decode the words from first image to second image",
+  "OptionArr_39": ["ACCRETE", "NETHATR", "ACRERENT", "WIN"],
+  "AnswerArr_39": ["Yes", "", "", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o40"
+},
+{
+  "index": 40,
+  "QuestionArr_40": "Use first image to decode the words from first image to second image",
+  "OptionArr_40": ["NET", "HAT  ", "RAN", "TEN"],
+  "AnswerArr_40": ["Yes", "", "", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o41"
+},
+{
+  "index": 41,
+  "QuestionArr_41": "Use first image to decode the words from first image to second image",
+  "OptionArr_41": ["I", "E", "R", "H"],
+  "AnswerArr_41": ["", "", "", "Yes"],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o42"
+},
+{
+  "index": 42,
+  "QuestionArr_42": "Use first image to decode the words from first image to second image",
+  "OptionArr_42":["NET", "HAT", "RAN", "TEN"],
+  "AnswerArr_42": ["", "Yes", "", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o43"
+},
+
+
+
+{
+  "index": 43,
+  "QuestionArr_43": "Use first image to decode the words from first image to second image",
+  "OptionArr_43": ["NET", "HAT", "RAN", "TEN"],
+  "AnswerArr_43": ["", "", "Yes", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o44"
+},
+{
+  "index": 44,
+  "QuestionArr_44": "Use first image to decode the words from first image to second image",
+  "OptionArr_44": ["CARE", "RENT", "ACRE", "TEAC"],
+  "AnswerArr_44": ["", "Yes", "", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o45"
+},
+{
+  "index": 45,
+  "QuestionArr_45": "Use first image to decode the words from first image to second image",
+  "OptionArr_45": ["NET", "HAT", "RAN", "TEN"],
+  "AnswerArr_45": ["", "", "", "Yes"],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o46"
+},
+
+
+
+{
+  "index": 46,
+  "QuestionArr_46": "Use first image to decode the words from first image to second image",
+  "OptionArr_46":["CARE", "RENT", "ACRE", "TEAC"],
+  "AnswerArr_46": ["", "Yes", "", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o47"
+},
+{
+  "index": 47,
+  "QuestionArr_47": "Use first image to decode the words from first image to second image",
+  "OptionArr_47":["I", "E", "R", "H"],
+  "AnswerArr_47": ["", "", "", "Yes"],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o48"
+},
+{
+  "index": 48,
+  "QuestionArr_48": "Use first image to decode the words from first image to second image",
+  "OptionArr_48":["NET", "CAR", "RAN", "TEN"],
+  "AnswerArr_48": ["", "Yes", "", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o49"
+},
+
+
+
+{
+  "index": 49,
+  "QuestionArr_49": "Use first image to decode the words from first image to second image",
+  "OptionArr_49":["NET", "CAR", "ATE", "TEN"],
+  "AnswerArr_49": ["", "", "Yes", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o50"
+},
+{
+  "index": 50,
+  "QuestionArr_50": "Use first image to decode the words from first image to second image",
+  "OptionArr_50": ["I", "E", "R", "H"],
+  "AnswerArr_50": ["", "", "Yes", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o51"
+},
+{
+  "index": 51,
+  "QuestionArr_51": "Use first image to decode the words from first image to second image",
+  "OptionArr_51": ["CARE", "RENT", "ACRE", "TEAC"],
+  "AnswerArr_51": ["", "", "Yes", ""],
+  "ImageName": "L8-4",
+  "QuestionImage": "L8-o52"
+},
+
+
+
+
+{
+  "index": 52,
+  "QuestionArr_52": "Use first image to decode the words from first image to second image",
+  "OptionArr_52": ["PETAN", "MONTE", "MEN", "TONEF"],
+  "AnswerArr_52": ["", "Yes", "", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o53"
+},
+{
+  "index": 53,
+  "QuestionArr_53": "Use first image to decode the words from first image to second image",
+  "OptionArr_53": ["TONE", "FAME", "TEEN", "NEAT"],
+  "AnswerArr_53": ["Yes", "", "", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o54"
+},
+{
+  "index": 54,
+  "QuestionArr_54": "Use first image to decode the words from first image to second image",
+  "OptionArr_54":["I", "N", "R", "H"],
+  "AnswerArr_54": ["", "Yes", "", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o55"
+},
+{
+  "index": 55,
+  "QuestionArr_55": "Use first image to decode the words from first image to second image",
+  "OptionArr_55": ["TEN", "EAT", "TAN", "TON"],
+  "AnswerArr_55": ["", "", "Yes", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o56"
+},
+
+
+
+{
+  "index": 56,
+  "QuestionArr_56": "Use first image to decode the words from first image to second image",
+  "OptionArr_56":  ["TEN", "EAT", "TAN", "TON"],
+  "AnswerArr_56": ["Yes", "", "", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o57"
+},
+{
+  "index": 57,
+  "QuestionArr_57": "Use first image to decode the words from first image to second image",
+  "OptionArr_57":  ["TONE", "FAME", "TEEN", "NEAT"],
+  "AnswerArr_57": ["", "", "", "Yes"],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o58"
+},
+{
+  "index": 58,
+  "QuestionArr_58": "Use first image to decode the words from first image to second image",
+  "OptionArr_58":  ["TEN", "EAT", "TAN", "TON"],
+  "AnswerArr_58": ["", "", "Yes", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o59"
+},
+
+
+
+{
+  "index": 59,
+  "QuestionArr_59": "Use first image to decode the words from first image to second image",
+  "OptionArr_59":["TONE", "FAME", "TEEN", "NEAT"],
+  "AnswerArr_59": ["", "Yes", "", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o60"
+},
+{
+  "index": 60,
+  "QuestionArr_60": "Use first image to decode the words from first image to second image",
+  "OptionArr_60": ["I", "N", "R", "A"],
+  "AnswerArr_60": ["", "", "", "Yes"],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o61"
+},
+{
+  "index": 61,
+  "QuestionArr_61": "Use first image to decode the words from first image to second image",
+  "OptionArr_61": ["MEAT", "FAME", "TEEN", "NEAT"],
+  "AnswerArr_61": ["Yes", "", "", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o62"
+},
+
+
+
+{
+  "index": 62,
+  "QuestionArr_62": "Use first image to decode the words from first image to second image",
+  "OptionArr_62": ["SIP", "EAT", "RIP", "LIP"],
+  "AnswerArr_62": ["", "Yes", "", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o63"
+},
+{
+  "index": 63,
+  "QuestionArr_63": "Use first image to decode the words from first image to second image",
+  "OptionArr_63": ["BAG", "RAG", "F", "TAG"],
+  "AnswerArr_63": ["", "", "Yes", ""],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o64"
+},
+{
+  "index": 64,
+  "QuestionArr_64": "Use first image to decode the words from first image to second image",
+  "OptionArr_64": ["JOG", "LOG", "FOG", "TEEN"],
+  "AnswerArr_64": ["", "", "", "Yes"],
+  "ImageName": "L8-5",
+  "QuestionImage": "L8-o65"
+}
+],
+"Level9": [
+  {
+    "index": 0,
+    "QuestionArr_00": "Use first image to decode the words from first image to second image",
+    "OptionArr_00": ["GBDA", "BAT", "RAT", "ACDF"],
+    "AnswerArr_00": ["Yes", "", "", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o1"
+  },
+  {
+    "index": 1,
+    "QuestionArr_01": "Use first image to decode the words from first image to second image",
+    "OptionArr_01":["I", "F", "R", "A"],
+    "AnswerArr_01": ["", "Yes", "", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o2"
+  },
+  {
+    "index": 2,
+    "QuestionArr_02": "Use first image to decode the words from first image to second image",
+    "OptionArr_02": ["GBDAB", "TEN", "ACDFB", "ACDGB"],
+    "AnswerArr_02": ["", "", "Yes", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o3"
+  },
+
+
+  {
+    "index": 3,
+    "QuestionArr_03": "Use first image to decode the words from first image to second image",
+    "OptionArr_03":["I", "F", "R", "D"],
+    "AnswerArr_03": ["", "", "", "Yes"],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o4"
+  },
+  {
+    "index": 4,
+    "QuestionArr_04": "Use first image to decode the words from first image to second image",
+    "OptionArr_04":  ["GBDAB", "AGBFA", "ACDFB", "ACDGB"],
+    "AnswerArr_04": ["", "Yes", "", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o5"
+  },
+  {
+    "index": 5,
+    "QuestionArr_05": "Use first image to decode the words from first image to second image",
+    "OptionArr_05": ["BAG", "BCE", "BAD", "EGC"],
+    "AnswerArr_05": ["", "Yes", "", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o6"
+  },
+
+
+
+  {
+    "index": 6,
+    "QuestionArr_06": "Use first image to decode the words from first image to second image",
+    "OptionArr_06": ["BAG", "BCE", "BAD", "EGC"],
+    "AnswerArr_06": ["Yes", "", "", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o7"
+  },
+  {
+    "index": 7,
+    "QuestionArr_07": "Use first image to decode the words from first image to second image",
+    "OptionArr_07":["GBDAB", "AGBFA", "ACDFB", "ACDFA"],
+    "AnswerArr_07": ["", "", "", "Yes"],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o8"
+  },
+  {
+    "index": 8,
+    "QuestionArr_08": "Use first image to decode the words from first image to second image",
+    "OptionArr_08": ["E", "F", "R", "D"],
+    "AnswerArr_08": ["Yes", "", "", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o9"
+  },
+  {
+    "index": 9,
+    "QuestionArr_09": "Use first image to decode the words from first image to second image",
+    "OptionArr_09": ["GBDAB", "GABDC", "ACDFB", "ACDGB"],
+    "AnswerArr_09": ["", "Yes", "", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o10"
+  },
+
+
+
+  {
+    "index": 10,
+    "QuestionArr_10": "Use first image to decode the words from first image to second image",
+    "OptionArr_10": ["E", "F", "A", "D"],
+    "AnswerArr_10": ["", "", "Yes", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o11"
+  },
+  {
+    "index": 11,
+    "QuestionArr_11": "Use first image to decode the words from first image to second image",
+    "OptionArr_11":["BAG", "BCE", "BAD", "EGC"],
+    "AnswerArr_11": ["", "", "Yes", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o12"
+  },
+  {
+    "index": 12,
+    "QuestionArr_12": "Use first image to decode the words from first image to second image",
+    "OptionArr_12":["GCFG", "GABDC", "ACDFB", "ACDGB"],
+    "AnswerArr_12": ["Yes", "", "", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o13"
+  },
+  {
+    "index": 13,
+    "QuestionArr_13": "Use first image to decode the words from first image to second image",
+    "OptionArr_13": ["E", "B", "A", "D"],
+    "AnswerArr_13": ["", "Yes", "", ""],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o14"
+  },
+  {
+    "index": 14,
+    "QuestionArr_14": "Use first image to decode the words from first image to second image",
+    "OptionArr_14": ["BAG", "BCE", "BAD", "EGC"],
+    "AnswerArr_14": ["", "", "", "Yes"],
+    "ImageName": "L9-1",
+    "QuestionImage": "L9-o15"
+  },
+
+
+
+
+  {
+  "index": 15,
+  "QuestionArr_15": "Use first image to decode the words from first image to second image",
+  "OptionArr_15": ["HAMT", "KOPT", "KPOT", "MOPT"],
+  "AnswerArr_15": ["", "", "", "Yes"],
+  "ImageName": "L9-2",
+  "QuestionImage": "L9-o16"
+  },
+  {
+    "index": 16,
+    "QuestionArr_16": "Use first image to decode the words from first image to second image",
+    "OptionArr_16":  ["E", "B", "A", "D"],
+    "AnswerArr_16": ["", "", "Yes", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o17"
+  },
+  {
+    "index": 17,
+    "QuestionArr_17": "Use first image to decode the words from first image to second image",
+    "OptionArr_17": ["APOPT", "MATOT", "MEN", "MATTO"],
+    "AnswerArr_17": ["", "Yes", "", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o18"
+  },
+
+
+
+  {
+    "index": 18,
+    "QuestionArr_18": "Use first image to decode the words from first image to second image",
+    "OptionArr_18": ["E", "B", "P", "D"],
+    "AnswerArr_18": ["", "", "Yes", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o19"
+  },
+  {
+    "index": 19,
+    "QuestionArr_19": "Use first image to decode the words from first image to second image",
+    "OptionArr_19": ["APOPT", "MATOT", "MEN", "MATTO"],
+    "AnswerArr_19": ["", "", "", "Yes"],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o20"
+  },
+  {
+    "index": 20,
+    "QuestionArr_20": "Use first image to decode the words from first image to second image",
+    "OptionArr_20":["HAMT", "KOPT", "KPOT", "MOPT"],
+    "AnswerArr_20": ["Yes", "", "", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o21"
+  },
+
+
+
+  {
+    "index": 21,
+    "QuestionArr_21": "Use first image to decode the words from first image to second image",
+    "OptionArr_21": ["TOP", "POT", "KOT", "HOP"],
+    "AnswerArr_21": ["", "Yes", "", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o22"
+  },
+  {
+    "index": 22,
+    "QuestionArr_22": "Use first image to decode the words from first image to second image",
+    "OptionArr_22": ["HAMT", "KOPT", "KPOT", "MOPT"],
+    "AnswerArr_22": ["", "", "", "Yes"],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o23"
+  },
+  {
+    "index": 23,
+    "QuestionArr_23": "Use first image to decode the words from first image to second image",
+    "OptionArr_23": ["E", "B", "P", "T"],
+    "AnswerArr_23": ["", "", "", "Yes"],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o24"
+  },
+  {
+    "index": 24,
+    "QuestionArr_24": "Use first image to decode the words from first image to second image",
+    "OptionArr_24":  ["APOPT", "MATOT", "MEN", "MATTO"],
+    "AnswerArr_24": ["Yes", "", "", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o25"
+  },
+
+
+
+  {
+    "index": 25,
+    "QuestionArr_25": "Use first image to decode the words from first image to second image",
+    "OptionArr_25": ["E", "K", "P", "T"],
+    "AnswerArr_25": ["", "Yes", "", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o26"
+  },
+  {
+    "index": 26,
+    "QuestionArr_26": "Use first image to decode the words from first image to second image",
+    "OptionArr_26": ["TOP", "POT", "KOT", "HOP"],
+    "AnswerArr_26": ["", "Yes", "", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o27"
+  },
+  {
+    "index": 27,
+    "QuestionArr_27": "Use first image to decode the words from first image to second image",
+    "OptionArr_27": ["HAMT", "KOPT", "KPOT", "MOPT"],
+    "AnswerArr_27": ["", "", "Yes", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o28"
+  },
+  {
+    "index": 28,
+    "QuestionArr_28": "Use first image to decode the words from first image to second image",
+    "OptionArr_28":  ["A", "K", "P", "T"],
+    "AnswerArr_28": ["Yes", "", "", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o29"
+  },
+  {
+    "index": 29,
+    "QuestionArr_29": "Use first image to decode the words from first image to second image",
+    "OptionArr_29": ["CUP", "TAT", "SUP", "LUP"],
+    "AnswerArr_29": ["", "Yes", "", ""],
+    "ImageName": "L9-2",
+    "QuestionImage": "L9-o30"
+  },
+
+
+
+
+  {
+    "index": 30,
+    "QuestionArr_30": "Use first image to decode the words from first image to second image",
+    "OptionArr_30": ["TEAM", "SAGE", "MEAT", "MAT"],
+    "AnswerArr_30": ["", "", "Yes", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o31"
+  },
+  {
+    "index": 31,
+    "QuestionArr_31": "Use first image to decode the words from first image to second image",
+    "OptionArr_31": ["A", "K", "P", "E"],
+    "AnswerArr_31": ["", "", "", "Yes"],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o32"
+  },
+  {
+    "index": 32,
+    "QuestionArr_32": "Use first image to decode the words from first image to second image",
+    "OptionArr_32": ["TEAMS", "SEATS", "SEAGE", "MEATS"],
+    "AnswerArr_32": ["Yes", "", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o33"
+  },
+
+
+
+  {
+    "index": 33,
+    "QuestionArr_33": "Use first image to decode the words from first image to second image",
+    "OptionArr_33": ["A", "B", "P", "E"],
+    "AnswerArr_33": ["", "Yes", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o34"
+  },
+  {
+    "index": 34,
+    "QuestionArr_34": "Use first image to decode the words from first image to second image",
+    "OptionArr_34": ["TEAMS", "SEATS", "SEAGE", "MEATS"],
+    "AnswerArr_34": ["", "Yes", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o35"
+  },
+  {
+    "index": 35,
+    "QuestionArr_35": "Use first image to decode the words from first image to second image",
+    "OptionArr_35":["TEAM", "SAGE", "MEAT", "MAT"],
+    "AnswerArr_35": ["", "Yes", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o36"
+  },
+
+
+
+  {
+    "index": 36,
+    "QuestionArr_36": "Use first image to decode the words from first image to second image",
+    "OptionArr_36": ["ATE", "EAT", "SEA", "ATM"],
+    "AnswerArr_36": ["Yes", "", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o37"
+  },
+  {
+    "index": 37,
+    "QuestionArr_37": "Use first image to decode the words from first image to second image",
+    "OptionArr_37": ["TEAMS", "SEATS", "SEAGE", "MEATS"],
+    "AnswerArr_37": ["Yes", "", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o38"
+  },
+  {
+    "index": 38,
+    "QuestionArr_38": "Use first image to decode the words from first image to second image",
+    "OptionArr_38": ["A", "B", "M", "E"],
+    "AnswerArr_38": ["", "", "Yes", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o39"
+  },
+  {
+    "index": 39,
+    "QuestionArr_39": "Use first image to decode the words from first image to second image",
+    "OptionArr_39":["TEAMS", "SEATS", "SEAGE", "MEATS"],
+    "AnswerArr_39": ["", "Yes", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o40"
+  },
+
+
+
+  {
+    "index": 40,
+    "QuestionArr_40": "Use first image to decode the words from first image to second image",
+    "OptionArr_40": ["T", "B", "M", "E"],
+    "AnswerArr_40": ["Yes", "", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o41"
+  },
+  {
+    "index": 41,
+    "QuestionArr_41": "Use first image to decode the words from first image to second image",
+    "OptionArr_41": ["ATE", "TEA", "SEA", "ATM"],
+    "AnswerArr_41": ["", "Yes", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o42"
+  },
+  {
+    "index": 42,
+    "QuestionArr_42": "Use first image to decode the words from first image to second image",
+    "OptionArr_42":["TEAM", "SAGE", "MEAT", "MAT"],
+    "AnswerArr_42": ["", "", "Yes", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o43"
+  },
+  {
+    "index": 43,
+    "QuestionArr_43": "Use first image to decode the words from first image to second image",
+    "OptionArr_43": ["T", "B", "M", "E"],
+    "AnswerArr_43": ["", "Yes", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o44"
+  },
+  {
+    "index": 44,
+    "QuestionArr_44": "Use first image to decode the words from first image to second image",
+    "OptionArr_44": ["BAG", "TEA", "SEA", "ATM"],
+    "AnswerArr_44": ["Yes", "", "", ""],
+    "ImageName": "L9-3",
+    "QuestionImage": "L9-o45"
+  },
+
+
+
+
+  {
+    "index": 45,
+    "QuestionArr_45": "Use first image to decode the words from first image to second image",
+    "OptionArr_45": ["BAT", "MAT", "BOAT", "RAT"],
+    "AnswerArr_45": ["", "", "Yes", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o46"
+  },
+  {
+    "index": 46,
+    "QuestionArr_46": "Use first image to decode the words from first image to second image",
+    "OptionArr_46": ["DOG", "HOG", "FOG", "G"],
+    "AnswerArr_46": ["", "", "", "Yes"],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o47"
+  },
+  {
+    "index": 47,
+    "QuestionArr_47": "Use first image to decode the words from first image to second image",
+    "OptionArr_47": ["ABATE", "MEN", "TEN", "PEN"],
+    "AnswerArr_47": ["Yes", "", "", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o48"
+  },
+
+
+  {
+    "index": 48,
+    "QuestionArr_48": "Use first image to decode the words from first image to second image",
+    "OptionArr_48": ["CAP", "O", "NAP", "SAP"],
+    "AnswerArr_48": ["", "Yes", "", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o49"
+  },
+  {
+    "index": 49,
+    "QuestionArr_49": "Use first image to decode the words from first image to second image",
+    "OptionArr_49": ["HAT", "BAT", "ABATE", "MAT"],
+    "AnswerArr_49": ["", "", "Yes", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o50"
+  },
+  {
+    "index": 50,
+    "QuestionArr_50": "Use first image to decode the words from first image to second image",
+    "OptionArr_50": ["JAM", "HAM", "DAM", "DATE"],
+    "AnswerArr_50": ["", "", "", "Yes"],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o51"
+  },
+
+
+
+  {
+    "index": 51,
+    "QuestionArr_51": "Use first image to decode the words from first image to second image",
+    "OptionArr_51": ["DOT", "MOP", "COP", "HOP"],
+    "AnswerArr_51": ["Yes", "", "", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o52"
+  },
+  {
+    "index": 52,
+    "QuestionArr_52": "Use first image to decode the words from first image to second image",
+    "OptionArr_52": ["SUN", "ABATE", "FUN", "GUN"],
+    "AnswerArr_52": ["", "Yes", "", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o53"
+  },
+  {
+    "index": 53,
+    "QuestionArr_53": "Use first image to decode the words from first image to second image",
+    "OptionArr_53": ["PIN", "TIN", "G", "WIN"],
+    "AnswerArr_53": ["", "", "Yes", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o54"
+  },
+  {
+    "index": 54,
+    "QuestionArr_54": "Use first image to decode the words from first image to second image",
+    "OptionArr_54": ["SIP", "TIP", "RIP", "ABODE"],
+    "AnswerArr_54": ["", "", "", "Yes"],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o55"
+  },
+
+
+
+  {
+    "index": 55,
+    "QuestionArr_55": "Use first image to decode the words from first image to second image",
+    "OptionArr_55": ["A", "LOG", "DOG", "FOG"],
+    "AnswerArr_55": ["Yes", "", "", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o56"
+  },
+  {
+    "index": 56,
+    "QuestionArr_56": "Use first image to decode the words from first image to second image",
+    "OptionArr_56": ["HEN", "GET", "TEN", "DEN"],
+    "AnswerArr_56": ["", "Yes", "", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o57"
+  },
+  {
+    "index": 57,
+    "QuestionArr_57": "Use first image to decode the words from first image to second image",
+    "OptionArr_57": ["BAG", "RAG", "GATE", "TAG"],
+    "AnswerArr_57": ["", "", "Yes", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o58"
+  },
+  {
+    "index": 58,
+    "QuestionArr_58": "Use first image to decode the words from first image to second image",
+    "OptionArr_58": ["POT", "DOT", "HOT", "A"],
+    "AnswerArr_58": ["", "", "", "Yes"],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o59"
+  },
+  {
+    "index": 59,
+    "QuestionArr_59": "Use first image to decode the words from first image to second image",
+    "OptionArr_59": ["DOT", "PUP", "SUP", "LUP"],
+    "AnswerArr_59": ["Yes", "", "", ""],
+    "ImageName": "L9-4",
+    "QuestionImage": "L9-o60"
+  },
+
+
+
+
+  {
+    "index": 60,
+    "QuestionArr_60": "Use first image to decode the words from first image to second image",
+    "OptionArr_60": ["DEBT", "DATE", "GATE", "BEAT"],
+    "AnswerArr_60": ["", "", "Yes", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o61"
+  },
+  {
+    "index": 61,
+    "QuestionArr_61": "Use first image to decode the words from first image to second image",
+    "OptionArr_61": ["E", "G", "A", "B"],
+    "AnswerArr_61": ["Yes", "", "", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o62"
+  },
+  {
+    "index": 62,
+    "QuestionArr_62": "Use first image to decode the words from first image to second image",
+    "OptionArr_62": ["CBEAT", "BATEG", "CAGED", "BEGET"],
+    "AnswerArr_62": ["", "", "", "Yes"],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o63"
+  },
+
+
+  {
+    "index": 63,
+    "QuestionArr_63": "Use first image to decode the words from first image to second image",
+    "OptionArr_63": ["G", "G", "A", "E"],
+    "AnswerArr_63": ["", "Yes", "", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o64"
+  },
+  {
+    "index": 64,
+    "QuestionArr_64": "Use first image to decode the words from first image to second image",
+    "OptionArr_64": ["CBEAT", "BATEG", "CAGED", "BEGET"],
+    "AnswerArr_64": ["", "", "Yes", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o65"
+  },
+  {
+    "index": 65,
+    "QuestionArr_65": "Use first image to decode the words from first image to second image",
+    "OptionArr_65": ["DEBT", "DATE", "GATE", "BEAT"],
+    "AnswerArr_65": ["Yes", "", "", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o66"
+  },
+
+
+
+  {
+    "index": 66,
+    "QuestionArr_66": "Use first image to decode the words from first image to second image",
+    "OptionArr_66":["DEBT", "DATE", "GATE", "BEAT"],
+    "AnswerArr_66": ["", "Yes", "", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o67"
+  },
+  {
+    "index": 67,
+    "QuestionArr_67": "Use first image to decode the words from first image to second image",
+    "OptionArr_67":["DEBT", "DATE", "GATE", "BEAT"],
+    "AnswerArr_67": ["", "", "", "Yes"],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o68"
+  },
+  {
+    "index": 68,
+    "QuestionArr_68": "Use first image to decode the words from first image to second image",
+    "OptionArr_68": ["B", "G", "A", "E"],
+    "AnswerArr_68": ["", "", "Yes", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o69"
+  },
+  {
+    "index": 69,
+    "QuestionArr_69": "Use first image to decode the words from first image to second image",
+    "OptionArr_69": ["BAG", "RAG", "GADGET", "WAG"],
+    "AnswerArr_69": ["", "", "Yes", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o70"
+  },
+
+
+
+  {
+    "index": 70,
+    "QuestionArr_70": "Use first image to decode the words from first image to second image",
+    "OptionArr_70":  ["B", "G", "A", "E"],
+    "AnswerArr_70": ["", "", "Yes", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o71"
+  },
+  {
+    "index": 71,
+    "QuestionArr_71": "Use first image to decode the words from first image to second image",
+    "OptionArr_71": ["TAG", "ATE", "GET", "EAT"],
+    "AnswerArr_71": ["Yes", "", "", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o72"
+  },
+  {
+    "index": 72,
+    "QuestionArr_72": "Use first image to decode the words from first image to second image",
+    "OptionArr_72": ["DEBT", "DATE", "GATE", "BEAT"],
+    "AnswerArr_72": ["", "", "Yes", ""],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o73"
+  },
+  {
+    "index": 73,
+    "QuestionArr_73": "Use first image to decode the words from first image to second image",
+    "OptionArr_73": ["B", "G", "A", "E"],
+    "AnswerArr_73": ["", "", "", "Yes"],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o74"
+  },
+  {
+    "index": 74,
+    "QuestionArr_74": "Use first image to decode the words from first image to second image",
+    "OptionArr_74":["EAT", "ATE", "GET", "TAG"],
+    "AnswerArr_74": ["", "", "", "Yes"],
+    "ImageName": "L9-5",
+    "QuestionImage": "L9-o75"
   }
 ]
-
-
-
-
 }
