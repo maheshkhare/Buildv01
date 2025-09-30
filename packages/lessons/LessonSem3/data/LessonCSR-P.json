@@ -47,7 +47,7 @@
      { 
       "index":0,
       "QuestionArr_00": "Find Number Pattern = 654",
-      "OptionArr_00": ["10", "12","14","15"], 
+      "OptionArr_00": ["10", "12","11","15"], 
       "AnswerArr_00": ["", "","Yes",""],
       "ImageName": "L2-1",
       "QuestionImage":"NA"

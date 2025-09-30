@@ -2214,26 +2214,63 @@ export function updateAvailableWordshelper1(context) {
       context.saveQuestionState();
     }
 
-    export function  handleColumnClickhelper1( context,colIndex, itemIndex) {
-      if (!context.canModifyAnswers) return;
-      const column = context.columns[colIndex];
-      const item = column[itemIndex];
-      if (!item.name && context.selectedWord) {
-        item.name = context.selectedWord;
-        context.placedWords.push(context.selectedWord);
-        const wordIndex = context.availableWords.indexOf(context.selectedWord);
-        if (wordIndex > -1) context.availableWords.splice(wordIndex, 1);
-        context.selectedWord = null;
-        context.updateAvailableWords();
-      } else if (item.name && !context.selectedWord) {
-        const returnedWord = item.name;
-        item.name = '';
-        const placedIndex = context.placedWords.indexOf(returnedWord);
-        if (placedIndex > -1) context.placedWords.splice(placedIndex, 1);
-        context.availableWords.push(returnedWord);
-        context.updateAvailableWords();
-      }
-    }
+    // export function  handleColumnClickhelper1( context,colIndex, itemIndex) {
+    //   if (!context.canModifyAnswers) return;
+    //   const column = context.columns[colIndex];
+    //   const item = column[itemIndex];
+    //   if (!item.name && context.selectedWord) {
+    //     item.name = context.selectedWord;
+    //     context.placedWords.push(context.selectedWord);
+    //     const wordIndex = context.availableWords.indexOf(context.selectedWord);
+    //     if (wordIndex > -1) context.availableWords.splice(wordIndex, 1);
+    //     context.selectedWord = null;
+    //     context.updateAvailableWords();
+    //   } else if (item.name && !context.selectedWord) {
+    //     const returnedWord = item.name;
+    //     item.name = '';
+    //     const placedIndex = context.placedWords.indexOf(returnedWord);
+    //     if (placedIndex > -1) context.placedWords.splice(placedIndex, 1);
+    //     context.availableWords.push(returnedWord);
+    //     context.updateAvailableWords();
+    //   }
+    // }
+
+
+    export function handleColumnClickhelper1(context, colIndex, itemIndex) {
+  if (!context.canModifyAnswers) return;
+
+  const column = context.columns?.[colIndex];
+  if (!column) {
+    console.warn(`No column found at index ${colIndex}`, context.columns);
+    return;
+  }
+
+  const item = column[itemIndex];
+  if (!item) {
+    console.warn(`No item found at index ${itemIndex} in column ${colIndex}`, column);
+    return;
+  }
+
+  if (!item.name && context.selectedWord) {
+    item.name = context.selectedWord;
+    context.placedWords.push(context.selectedWord);
+
+    const wordIndex = context.availableWords.indexOf(context.selectedWord);
+    if (wordIndex > -1) context.availableWords.splice(wordIndex, 1);
+
+    context.selectedWord = null;
+    context.updateAvailableWords();
+  } else if (item.name && !context.selectedWord) {
+    const returnedWord = item.name;
+    item.name = '';
+    const placedIndex = context.placedWords.indexOf(returnedWord);
+    if (placedIndex > -1) context.placedWords.splice(placedIndex, 1);
+
+    context.availableWords.push(returnedWord);
+    context.updateAvailableWords();
+  }
+}
+
 
      export function loadQuestionStatehelper1( context,index) {
       const state = context.questionStates[index];
