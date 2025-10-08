@@ -2782,7 +2782,96 @@ export function WordsAnswerhelper3(context, Answer, index) {
   if (context.counter + 1 > (context.TestProgressBar || 0)) {
     context.TestProgressBar = context.counter + 1;
   }
+
+
+
+  //  if (this.jsonFileName !== 'CFU-P') {
+  //     this.handleOptionAnswer(answer, index);
+  //   }
 }
+
+
+
+
+
+
+
+export function handleSvgClickhelper3(context, { x, y }) {
+  // Find the question based on its 'index' property instead of array position
+  const currentQ = context.questionArray?.find(q => q.index === context.counter + 1);
+
+  if (!currentQ) {
+    console.warn(`⚠️ No question found for index: ${context.counter + 1}`);
+    return;
+  }
+
+  // Get CFU-P question arrays
+  const ranges =
+    currentQ[`OptionArr_0${currentQ.index}`] ||
+    currentQ.OptionArr_00 ||
+    currentQ.OptionArr_01 ||
+    currentQ.OptionArr_02 ||
+    [];
+  const answers =
+    currentQ[`AnswerArr_0${currentQ.index}`] ||
+    currentQ.AnswerArr_00 ||
+    currentQ.AnswerArr_01 ||
+    currentQ.AnswerArr_02 ||
+    [];
+
+  if (!ranges.length) {
+    console.warn("⚠️ No CFU-P ranges found for current question:", currentQ);
+    return;
+  }
+
+  // Define clickable regions (mock coordinates for now)
+  const rangeMap = {
+    range1: { x1: 50, y1: 60, x2: 150, y2: 160 },
+    range2: { x1: 170, y1: 70, x2: 280, y2: 180 },
+    range3: { x1: 300, y1: 80, x2: 400, y2: 190 },
+    range4: { x1: 420, y1: 90, x2: 520, y2: 200 },
+  };
+
+  // Determine which range user clicked
+  let selectedRange = null;
+  for (const range of ranges) {
+    const box = rangeMap[range];
+    if (!box) continue;
+    if (x >= box.x1 && x <= box.x2 && y >= box.y1 && y <= box.y2) {
+      selectedRange = range;
+      break;
+    }
+  }
+
+  const selectedIndex = ranges.indexOf(selectedRange);
+  const isCorrect = selectedIndex !== -1 && answers[selectedIndex] === "Yes";
+
+  console.log(`🖱️ Clicked: ${selectedRange} | Correct: ${isCorrect}`);
+
+  // Store user answer
+  if (!context.userAnswers) context.userAnswers = [];
+  context.userAnswers.push({
+    questionIndex: currentQ.index,
+    selectedRange,
+    isCorrect,
+    coordinates: { x, y },
+  });
+
+  // Move to next question based on JSON index, not counter
+  const currentIdx = context.questionArray.findIndex(q => q.index === currentQ.index);
+  if (currentIdx < context.questionArray.length - 1) {
+    context.counter = context.questionArray[currentIdx + 1].index - 1;
+  } else {
+    context.showResultPopup = true;
+  }
+}
+
+
+
+
+
+
+
 
 
      export function  AnswerCheckhelper3( context) {
@@ -3506,3 +3595,20 @@ console.log("commonNumArray in practice0helper3:", JSON.stringify(context.common
   })
 }
 
+
+export function showResultPopuphelper3(context,  resultData) {
+
+ console.log("📊 Final result data:", resultData);
+
+                    // show popup
+  context.activity_Status = "Completed";         // activity status
+  context.Time_elapsed = context.secondsToTime(Date.now() - context.timestart); // optional time conversion
+  context.Questions_attempted = resultData.summary.TotalQuestions;
+  context.correct_Answers = resultData.summary.CorrectAnswers;
+  context.incorrect_Answers = resultData.summary.WrongAnswers;
+  context.ResultHide = false;   
+   context.resultShow = true;                   // or keep current state
+  context.ResultArrow = false;                   // or keep current state
+
+
+}

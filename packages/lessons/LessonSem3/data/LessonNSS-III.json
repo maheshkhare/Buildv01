@@ -1,7 +1,5 @@
 {
-  "Instruction":"There are words in musical code on each clef. The lines between dots/notes signify the end of one word and the beginning of a new word. Here are the correlating letters for lines and spaces. Use them to decode the words",
-
-  "Level1": [
+  "Instruction":"There are words in musical code on each clef. The lines between dots/notes signify the end of one word and the beginning of a new word. Here are the correlating letters for lines and spaces. Use them to decode the words",  "Level1": [
     {
       "index": 0,
       "QuestionArr_00": "Use first image to decode the words from first image to second image",
@@ -65,11 +63,7 @@
       "AnswerArr_07": ["Yes", "", "", ""],
       "ImageName": "L1-1",
       "QuestionImage": "L1-o8"
-    },
-
-
-
-    {
+    },    {
       "index": 8,
       "QuestionArr_08": "Use first image to decode the words from first image to second image",
       "OptionArr_08": ["L", "X", "Z", "J"],
@@ -133,10 +127,6 @@
       "ImageName": "L1-2",
       "QuestionImage": "L1-o16"
     },
-
-
-
-
     {
       "index": 16,
       "QuestionArr_16": "Use first image to decode the words from first image to second image",
@@ -200,11 +190,7 @@
       "AnswerArr_23": ["", "Yes", "", ""],
       "ImageName": "L1-3",
       "QuestionImage": "L1-o24"
-    }
-
-
-
-    
+    }    
   ],
  "Level2": [
     
@@ -271,9 +257,7 @@
       "AnswerArr_07": ["", "", "", "Yes"],
       "ImageName": "L2-1",
       "QuestionImage": "L2-o8"
-    },
-
-       {
+    },       {
       "index": 8,
       "QuestionArr_08": "Use first image to decode the words from first image to second image",
       "OptionArr_08": ["L", "X", "Z", "J"],
@@ -336,13 +320,7 @@
       "AnswerArr_15": ["", "Yes", "", ""],
       "ImageName": "L2-2",
       "QuestionImage": "L2-o16"
-    },
-
-
-
-
-
-{
+    },{
   "index": 16,
   "QuestionArr_16": "Use first image to decode the words from first image to second image",
   "OptionArr_16": ["p", "c", "q", "h"],
@@ -405,13 +383,7 @@
   "AnswerArr_23": ["", "Yes", "", ""],
   "ImageName": "L2-3",
   "QuestionImage": "L2-o24"
-}
-
-
-
-
-
-  ],
+}  ],
   "Level3":[
       {
       "index": 0,
@@ -477,8 +449,6 @@
       "ImageName": "L3-1",
       "QuestionImage": "L3-o8"
     },
-
-
        {
       "index": 8,
       "QuestionArr_08": "Use first image to decode the words from first image to second image",
@@ -543,8 +513,6 @@
       "ImageName": "L3-2",
       "QuestionImage": "L3-o16"
     },
-
-
       {
       "index": 16,
       "QuestionArr_16": "Use first image to decode the words from first image to second image",
@@ -609,10 +577,6 @@
       "ImageName": "L3-3",
       "QuestionImage": "L3-o24"
     },
-
-
-
-
      {
       "index": 24,
       "QuestionArr_24": "Use first image to decode the words from first image to second image",
@@ -678,9 +642,7 @@
       "QuestionImage": "L3-o32"
     }
   ],
-  "Level4":[
-
-     {
+  "Level4":[     {
       "index": 0,
       "QuestionArr_00": "Use first image to decode the words from first image to second image",
       "OptionArr_00": ["D", ">", "#", "H"],
@@ -744,8 +706,6 @@
       "ImageName": "L4-1",
       "QuestionImage": "L4-o8"
     },
-
-
     
        {
       "index": 8,
@@ -811,8 +771,6 @@
       "ImageName": "L4-2",
       "QuestionImage": "L4-o16"
     },
-
-
        {
       "index": 16,
       "QuestionArr_16": "Use first image to decode the words from first image to second image",
@@ -877,12 +835,8 @@
       "ImageName": "L4-3",
       "QuestionImage": "L4-o24"
     }
-
-
   ],
-  "Level5":[
-
-  {
+  "Level5":[  {
       "index": 0,
       "QuestionArr_00": "Use first image to decode the words from first image to second image",
       "OptionArr_00": ["D", "B", "G", "H"],
@@ -930,8 +884,6 @@
       "ImageName": "L5-1",
       "QuestionImage": "L5-o6"
     },
-
-
      {
       "index": 6,
       "QuestionArr_06": "Use first image to decode the words from first image to second image",
@@ -1020,9 +972,7 @@
       "ImageName": "L5-3",
       "QuestionImage": "L5-o17"
     }
-  ],
-
-  "Level6":[
+  ],  "Level6":[
      {
       "index": 0,
       "QuestionArr_00": "Use first image to decode the words from first image to second image",
@@ -1119,10 +1069,6 @@
       "ImageName": "L6-2",
       "QuestionImage": "L6-o12"
     },
-
-
-
-
       {
       "index": 12,
       "QuestionArr_12": "Use first image to decode the words from first image to second image",
@@ -1170,9 +1116,7 @@
       "AnswerArr_17": ["", "Yes", "", ""],
       "ImageName": "L6-3",
       "QuestionImage": "L6-o18"
-    }
-
-  ],
+    }  ],
   "Level7":[
      {
       "index": 0,
@@ -1198,8 +1142,6 @@
       "ImageName": "L7-1",
       "QuestionImage": "L7-o3"
     },
-
-
     {
       "index": 3,
       "QuestionArr_03": "Use first image to decode the words from first image to second image",
@@ -1224,8 +1166,6 @@
       "ImageName": "L7-2",
       "QuestionImage": "L7-o6"
     },
-
-
      {
       "index": 6,
       "QuestionArr_06": "Use first image to decode the words from first image to second image",
@@ -1249,12 +1189,8 @@
       "AnswerArr_08": ["", "", "", "Yes"],
       "ImageName": "L7-3",
       "QuestionImage": "L7-o9"
-    }
-
-  ],
+    }  ],
   "Level8":[
-
-
      {
       "index": 0,
       "QuestionArr_00": "Use first image to decode the words from first image to second image",
@@ -1294,11 +1230,7 @@
       "AnswerArr_04": ["", "Yes", "", ""],
       "ImageName": "L8-1",
       "QuestionImage": "L8-o5"
-    },
-
-
-
-    {
+    },    {
       "index": 5,
       "QuestionArr_05": "Use first image to decode the words from first image to second image",
       "OptionArr_05":  ["II-III-IV", " CD", "GH", " I-II-III"],
@@ -1338,9 +1270,6 @@
       "ImageName": "L8-2",
       "QuestionImage": "L8-o10"
     },
-
-
-
     {
       "index": 10,
       "QuestionArr_10": "Use first image to decode the words from first image to second image",
@@ -1380,9 +1309,7 @@
       "AnswerArr_14": ["", "Yes", "", ""],
       "ImageName": "L8-3",
       "QuestionImage": "L8-o15"
-    }
-
-  ],
+    }  ],
   "Level9":[   
      {
       "index": 0,
@@ -1407,9 +1334,7 @@
       "AnswerArr_02": ["", "Yes", "", ""],
       "ImageName": "L9-1",
       "QuestionImage": "L9-o3"
-    },
-
-     {
+    },     {
       "index": 3,
       "QuestionArr_03": "Use first image to decode the words from first image to second image",
       "OptionArr_03":  [" IV-V-VI", " CD", "GH", "II-III-IV"],
@@ -1433,9 +1358,7 @@
       "ImageName": "L9-2",
       "QuestionImage": "L9-o6"
     },
-
-
-     {
+    {
       "index": 6,
       "QuestionArr_06": "Use first image to decode the words from first image to second image",
       "OptionArr_06": ["D", "U6,V7,W8", "G", "P1,Q2,R3"],
@@ -1458,10 +1381,4 @@
       "AnswerArr_08": ["", "", "", "Yes"],
       "ImageName": "L9-3",
       "QuestionImage": "L9-o9"
-    }
-
-  ]
-
-
-
-}
+    }  ]}
