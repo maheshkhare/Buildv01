@@ -1,0 +1,1 @@
+Tous les étages sous le rez-de-chaussée sont marqués d'un B. Suivi d'un nombre qui est le nombre d'étages sous le rez-de-chaussée.

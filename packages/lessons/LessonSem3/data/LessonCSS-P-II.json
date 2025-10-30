@@ -131,7 +131,7 @@
     },
     {
       "index": 16,
-      "QuestionArr_16": "Count the figures in below box  ? 1. How many are there?",
+      "QuestionArr_16": "Count the figures in below box,How many are there?",
       "OptionArr_16": ["3", "4", "5", "6"],
       "AnswerArr_16": ["", "", "Yes", ""],
       "ImageName": "L1-9",
@@ -148,7 +148,7 @@
 
     {
       "index": 18,
-      "QuestionArr_18": "Count the figures in below box  ? 2. How many are there?",
+      "QuestionArr_18": "Count the figures in below box,How many are there?",
       "OptionArr_18": ["3", "4", "5", "6"],
       "AnswerArr_18": ["", "", "Yes", ""],
       "ImageName": "L1-10",
@@ -165,7 +165,7 @@
 
     {
       "index": 20,
-      "QuestionArr_20": "Count the figures in below box  ? 3. How many are there?",
+      "QuestionArr_20": "Count the figures in below box,How many are there?",
       "OptionArr_20": ["3", "4", "5", "6"],
       "AnswerArr_20": ["", "", "Yes", ""],
       "ImageName": "L1-11",
@@ -182,7 +182,7 @@
 
     {
       "index": 22,
-      "QuestionArr_22": "Count the figures in below box  ? 4. How many are there?",
+      "QuestionArr_22": "Count the figures in below box,How many are there?",
       "OptionArr_22": ["3", "4", "5", "6"],
       "AnswerArr_22": ["", "", "Yes", ""],
       "ImageName": "L1-12",
@@ -199,7 +199,7 @@
 
     {
       "index": 24,
-      "QuestionArr_24": "Count the figures in below box  ? 5. How many are there?",
+      "QuestionArr_24": "Count the figures in below box,How many are there?",
       "OptionArr_24": ["4", "5", "6", "7"],
       "AnswerArr_24": ["", "", "Yes", ""],
       "ImageName": "L1-13",
@@ -216,7 +216,7 @@
 
     {
       "index": 26,
-      "QuestionArr_26": "Count the figures in below box  ? 6. How many are there?",
+      "QuestionArr_26": "Count the figures in below box,How many are there?",
       "OptionArr_26": ["4", "5", "6", "7"],
       "AnswerArr_26": ["", "", "Yes", ""],
       "ImageName": "L1-14",
@@ -233,7 +233,7 @@
 
     {
       "index": 28,
-      "QuestionArr_28": "Count the figures in below box  ? 7. How many are there?",
+      "QuestionArr_28": "Count the figures in below box,How many are there?",
       "OptionArr_28": ["4", "5", "6", "7"],
       "AnswerArr_28": ["", "", "Yes", ""],
       "ImageName": "L1-15",
@@ -251,7 +251,7 @@
     
     {
       "index": 30,
-      "QuestionArr_30": "Count the figures in below box  ? 8. How many are there?",
+      "QuestionArr_30": "Count the figures in below box,How many are there?",
       "OptionArr_30": ["4", "5", "6", "7"],
       "AnswerArr_30": ["", "", "Yes", ""],
       "ImageName": "L1-16",
@@ -2047,7 +2047,7 @@
     },
     {
       "index": 1,
-      "QuestionArr_01": "Mark off three figures. How many are left?",
+      "QuestionArr_01": "Remove three figures. How many are left?",
       "OptionArr_01": ["3", "4", "5", "6"],
       "AnswerArr_01": ["", "", "Yes", ""],  
       "ImageName": "L4-1",
@@ -2064,7 +2064,7 @@
     },
     {
       "index": 3,
-      "QuestionArr_03": "Mark off five figures. How many are left?",
+      "QuestionArr_03": "Remove five figures. How many are left?",
       "OptionArr_03": ["1", "2", "3", "4"],
       "AnswerArr_03": ["", "", "Yes", ""],  
       "ImageName": "L4-2",
@@ -2081,7 +2081,7 @@
     },
     {
       "index": 5,
-      "QuestionArr_05": "Mark off two figures. How many are left?",
+      "QuestionArr_05": "Remove two figures. How many are left?",
       "OptionArr_05": ["4", "5", "6", "7"],
       "AnswerArr_05": ["", "", "Yes", ""],  
       "ImageName": "L4-3",
@@ -2098,7 +2098,7 @@
     },
     {
       "index": 7,
-      "QuestionArr_07": "Mark off four figures. How many are left?",
+      "QuestionArr_07": "Remove four figures. How many are left?",
       "OptionArr_07": ["4", "5", "6", "7"],
       "AnswerArr_07": ["", "", "Yes", ""],  
       "ImageName": "L4-4",
@@ -2115,7 +2115,7 @@
     },
     {
       "index": 9,
-      "QuestionArr_09": "Mark off eight figures. How many are left?",
+      "QuestionArr_09": "Remove eight figures. How many are left?",
       "OptionArr_09": ["0", "1", "2", "3"],
       "AnswerArr_09": ["", "", "Yes", ""],  
       "ImageName": "L4-5",
@@ -2132,7 +2132,7 @@
     },
     {
       "index": 11,
-      "QuestionArr_11": "Mark off six figures. How many are left?",
+      "QuestionArr_11": "Remove six figures. How many are left?",
       "OptionArr_11": ["2", "3", "4", "5"],
       "AnswerArr_11": ["", "", "Yes", ""],  
       "ImageName": "L4-6",
@@ -2149,7 +2149,7 @@
     },
     {
       "index": 13,
-      "QuestionArr_13": "Mark off seven figures. How many are left?",
+      "QuestionArr_13": "Remove seven figures. How many are left?",
       "OptionArr_13": ["1", "2", "3", "4"],
       "AnswerArr_13": ["", "", "Yes", ""],  
       "ImageName": "L4-7",
@@ -2165,7 +2165,7 @@
     },
     {
       "index": 15,
-      "QuestionArr_15": "Mark off three figures, how many do you have?",
+      "QuestionArr_15": "Remove three figures, how many do you have?",
       "OptionArr_15": ["3", "4", "5", "6"],
       "AnswerArr_15": ["", "", "Yes", ""], 
       "ImageName": "L4-8",
@@ -2182,7 +2182,7 @@
     },
     {
       "index": 17,
-      "QuestionArr_17": "Mark off two figures, how many do you have?",
+      "QuestionArr_17": "Remove two figures, how many do you have?",
       "OptionArr_17": ["4", "5", "6", "7"],
       "AnswerArr_17": ["", "", "Yes", ""], 
       "ImageName": "L4-9",
@@ -2199,7 +2199,7 @@
     },
     {
       "index": 19,
-      "QuestionArr_19": "Mark off four figures, how many do you have?",
+      "QuestionArr_19": "Remove four figures, how many do you have?",
       "OptionArr_19": ["2", "3", "4", "5"],
       "AnswerArr_19": ["", "", "Yes", ""], 
       "ImageName": "L4-10",
@@ -2216,7 +2216,7 @@
     },
     {
       "index": 21,
-      "QuestionArr_21": "Mark off five figures, how many do you have?",
+      "QuestionArr_21": "Remove five figures, how many do you have?",
       "OptionArr_21": ["1", "2", "3", "4"],
       "AnswerArr_21": ["", "", "Yes", ""], 
       "ImageName": "L4-11",
@@ -2233,7 +2233,7 @@
     },
     {
       "index": 23,
-      "QuestionArr_23": "Mark off six figures, how many do you have?",
+      "QuestionArr_23": "Remove six figures, how many do you have?",
       "OptionArr_23": ["3", "4", "5", "6"],
       "AnswerArr_23": ["", "", "Yes", ""], 
       "ImageName": "L4-12",
@@ -2243,15 +2243,15 @@
     {
       "index": 24,
       "QuestionArr_24": "How many figures are in below box?",
-      "OptionArr_24": ["9", "10", "11", "12"],
+      "OptionArr_24": ["9", "10", "13", "12"],
       "AnswerArr_24": ["", "", "Yes", ""],
       "ImageName": "L4-13",
       "QuestionImage": "NA"
     },
     {
       "index": 25,
-      "QuestionArr_25": "Mark off seven figures, how many do you have?",
-      "OptionArr_25": ["2", "3", "4", "5"],
+      "QuestionArr_25": "Remove seven figures, how many do you have?",
+      "OptionArr_25": ["2", "3", "6", "5"],
       "AnswerArr_25": ["", "", "Yes", ""], 
       "ImageName": "L4-13",
       "QuestionImage": "NA"
@@ -2260,14 +2260,14 @@
     {
       "index": 26,
       "QuestionArr_26": "How many figures are in below box?",
-      "OptionArr_26": ["9", "10", "11", "12"],
+      "OptionArr_26": ["9", "10", "13", "12"],
       "AnswerArr_26": ["", "", "Yes", ""],
       "ImageName": "L4-14",
       "QuestionImage": "NA"
     },
     {
       "index": 27,
-      "QuestionArr_27": "Mark off eight figures, how many do you have?",
+      "QuestionArr_27": "Remove eight figures, how many do you have?",
       "OptionArr_27": ["1", "2", "3", "4"],
       "AnswerArr_27": ["", "", "Yes", ""], 
       "ImageName": "L4-14",
@@ -2283,7 +2283,7 @@
     },
     {
       "index": 29,
-      "QuestionArr_29": "Mark off three figures, how many do you have?",
+      "QuestionArr_29": "Remove three figures, how many do you have?",
       "OptionArr_29": ["2", "3", "4", "5"],
       "AnswerArr_29": ["", "", "Yes", ""], 
       "ImageName": "L4-15",
@@ -2300,7 +2300,7 @@
     },
     {
       "index": 31,
-      "QuestionArr_31": "Mark off two figures, how many do you have?",
+      "QuestionArr_31": "Remove two figures, how many do you have?",
       "OptionArr_31": ["4", "5", "6", "7"],
       "AnswerArr_31": ["", "", "Yes", ""], 
       "ImageName": "L4-16",
@@ -2317,7 +2317,7 @@
     },
     {
       "index": 33,
-      "QuestionArr_33": "Mark off four figures, how many do you have?",
+      "QuestionArr_33": "Remove four figures, how many do you have?",
       "OptionArr_33": ["4", "5", "6", "7"],
       "AnswerArr_33": ["", "", "Yes", ""], 
       "ImageName": "L4-17",
@@ -2334,7 +2334,7 @@
     },
     {
       "index": 35,
-      "QuestionArr_35": "Mark off five figures, how many do you have?",
+      "QuestionArr_35": "Remove five figures, how many do you have?",
       "OptionArr_35": ["5", "6", "7", "8"],
       "AnswerArr_35": ["", "", "Yes", ""], 
       "ImageName": "L4-18",
@@ -2351,7 +2351,7 @@
     },
     {
       "index": 37,
-      "QuestionArr_37": "Mark off six figures, how many do you have?",
+      "QuestionArr_37": "Remove six figures, how many do you have?",
       "OptionArr_37": ["4", "5", "6", "7"],
       "AnswerArr_37": ["", "", "Yes", ""],
       "ImageName": "L4-19",
@@ -2368,7 +2368,7 @@
     },
     {
       "index": 39,
-      "QuestionArr_39": "Mark off seven figures, how many do you have?",
+      "QuestionArr_39": "Remove seven figures, how many do you have?",
       "OptionArr_39": ["3", "4", "5", "6"],
       "AnswerArr_39": ["", "", "Yes", ""], 
       "ImageName": "L4-20",
@@ -2385,7 +2385,7 @@
     },
     {
       "index": 41,
-      "QuestionArr_41": "Mark off eight figures, how many do you have?",
+      "QuestionArr_41": "Remove eight figures, how many do you have?",
       "OptionArr_41": ["4", "5", "6", "7"],
       "AnswerArr_41": ["", "", "Yes", ""], 
       "ImageName": "L4-21",
@@ -2401,7 +2401,7 @@
     },
     {
       "index": 43,
-      "QuestionArr_43": "Mark off three figures, how many do you have?",
+      "QuestionArr_43": "Remove three figures, how many do you have?",
       "OptionArr_43": ["3", "4", "5", "6"],
       "AnswerArr_43": ["", "", "Yes", ""], 
       "ImageName": "L4-22",
@@ -2418,7 +2418,7 @@
     },
     {
       "index": 45,
-      "QuestionArr_45": "Mark off two figures, how many do you have?",
+      "QuestionArr_45": "Remove two figures, how many do you have?",
       "OptionArr_45": ["5", "6", "7", "8"],
       "AnswerArr_45": ["", "", "Yes", ""], 
       "ImageName": "L4-23",
@@ -2435,7 +2435,7 @@
     },
     {
       "index": 47,
-      "QuestionArr_47": "Mark off four figures, how many do you have?",
+      "QuestionArr_47": "Remove four figures, how many do you have?",
       "OptionArr_47": ["5", "6", "7", "8"],
       "AnswerArr_47": ["", "", "Yes", ""], 
       "ImageName": "L4-24",
@@ -2452,7 +2452,7 @@
     },
     {
       "index": 49,
-      "QuestionArr_49": "Mark off five figures, how many do you have?",
+      "QuestionArr_49": "Remove five figures, how many do you have?",
       "OptionArr_49": ["4", "5", "6", "7"],
       "AnswerArr_49": ["", "", "Yes", ""], 
       "ImageName": "L4-25",
@@ -2469,7 +2469,7 @@
     },
     {
       "index": 51,
-      "QuestionArr_51": "Mark off six figures, how many do you have?",
+      "QuestionArr_51": "Remove six figures, how many do you have?",
       "OptionArr_51": ["5", "6", "7", "8"],
       "AnswerArr_51": ["", "", "Yes", ""],
       "ImageName": "L4-26",
@@ -2486,7 +2486,7 @@
     },
     {
       "index": 53,
-      "QuestionArr_53": "Mark off two figures, how many do you have?",
+      "QuestionArr_53": "Remove two figures, how many do you have?",
       "OptionArr_53": ["2", "3", "4", "5"],
       "AnswerArr_53": ["", "", "Yes", ""], 
       "ImageName": "L4-27",
@@ -2503,7 +2503,7 @@
     },
     {
       "index": 55,
-      "QuestionArr_55": "Mark off three figures, how many do you have?",
+      "QuestionArr_55": "Remove three figures, how many do you have?",
       "OptionArr_55": ["3", "4", "5", "6"],
       "AnswerArr_55": ["", "", "Yes", ""], 
       "ImageName": "L4-28",
@@ -2519,7 +2519,7 @@
     },
     {
       "index": 57,
-      "QuestionArr_57": "Mark off three figures, how many do you have?",
+      "QuestionArr_57": "Remove three figures, how many do you have?",
       "OptionArr_57": ["4", "5", "6", "7"],
       "AnswerArr_57": ["", "", "Yes", ""], 
       "ImageName": "L4-29",
@@ -2536,7 +2536,7 @@
     },
     {
       "index": 59,
-      "QuestionArr_59": "Mark off two figures, how many do you have?",
+      "QuestionArr_59": "Remove two figures, how many do you have?",
       "OptionArr_59": ["5", "6", "7", "8"],
       "AnswerArr_59": ["", "", "Yes", ""], 
       "ImageName": "L4-30",
@@ -2553,7 +2553,7 @@
     },
     {
       "index": 61,
-      "QuestionArr_61": "Mark off four figures, how many do you have?",
+      "QuestionArr_61": "Remove four figures, how many do you have?",
       "OptionArr_61": ["2", "3", "4", "5"],
       "AnswerArr_61": ["", "", "Yes", ""], 
       "ImageName": "L4-31",
@@ -2570,7 +2570,7 @@
     },
     {
       "index": 63,
-      "QuestionArr_63": "Mark off five figures, how many do you have?",
+      "QuestionArr_63": "Remove five figures, how many do you have?",
       "OptionArr_63": ["2", "3", "4", "5"],
       "AnswerArr_63": ["", "", "Yes", ""], 
       "ImageName": "L4-32",
@@ -2587,7 +2587,7 @@
     },
     {
       "index": 65,
-      "QuestionArr_65": "Mark off six figures, how many do you have?",
+      "QuestionArr_65": "Remove six figures, how many do you have?",
       "OptionArr_65": ["1", "2", "3", "4"],
       "AnswerArr_65": ["", "", "Yes", ""], 
       "ImageName": "L4-33",
@@ -2604,7 +2604,7 @@
     },
     {
       "index": 67,
-      "QuestionArr_67": "Mark off two figures, how many do you have?",
+      "QuestionArr_67": "Remove two figures, how many do you have?",
       "OptionArr_67": ["4", "5", "6", "7"],
       "AnswerArr_67": ["", "", "Yes", ""], 
       "ImageName": "L4-34",
@@ -2621,7 +2621,7 @@
     },
     {
       "index": 69,
-      "QuestionArr_69": "Mark off three figures, how many do you have?",
+      "QuestionArr_69": "Remove three figures, how many do you have?",
       "OptionArr_69": ["3", "4", "5", "6"],
       "AnswerArr_69": ["", "", "Yes", ""], 
       "ImageName": "L4-35",
@@ -2642,7 +2642,7 @@
     },
     {
       "index": 1,
-      "QuestionArr_01": "Mark off five figures, how many are left?",
+      "QuestionArr_01": "Remove five figures, how many are left?",
       "OptionArr_01": ["2", "3", "4", "5"],
       "AnswerArr_01": ["", "Yes", "", ""],  
       "ImageName": "L5-1",
@@ -2676,7 +2676,7 @@
     },
     {
       "index": 5,
-      "QuestionArr_05": "Mark off six figures, how many are left?",
+      "QuestionArr_05": "Remove six figures, how many are left?",
       "OptionArr_05": ["1", "2", "3", "4"],
       "AnswerArr_05": ["", "Yes", "", ""],  
       "ImageName": "L5-3",
@@ -2710,7 +2710,7 @@
     },
     {
       "index": 9,
-      "QuestionArr_09": "Mark off three figures, how many are left?",
+      "QuestionArr_09": "Remove three figures, how many are left?",
       "OptionArr_09": ["3", "4", "5", "6"],
       "AnswerArr_09": ["", "", "Yes", ""],  
       "ImageName": "L5-5",
@@ -2727,7 +2727,7 @@
     },
     {
       "index": 11,
-      "QuestionArr_11": "Mark off eight figures, how many do you have?",
+      "QuestionArr_11": "Remove eight figures, how many do you have?",
       "OptionArr_11": ["0", "1", "2", "3"],
       "AnswerArr_11": ["", "", "Yes", ""],  
       "ImageName": "L5-6",
@@ -2744,7 +2744,7 @@
     },
     {
       "index": 13,
-      "QuestionArr_13": "Mark off six figures, how many are left?",
+      "QuestionArr_13": "Remove six figures, how many are left?",
       "OptionArr_13": ["2", "3", "4", "5"],
       "AnswerArr_13": ["", "", "Yes", ""],  
       "ImageName": "L5-7",
@@ -2777,7 +2777,7 @@
     },
     {
       "index": 17,
-      "QuestionArr_17": "Mark off three figures, how many do you have?",
+      "QuestionArr_17": "Remove three figures, how many do you have?",
       "OptionArr_17": ["3", "4", "5", "6"],
       "AnswerArr_17": ["", "", "Yes", ""], 
       "ImageName": "L5-9",
@@ -2811,7 +2811,7 @@
     },
     {
       "index": 21,
-      "QuestionArr_21": "Mark off five figures, how many do you have?",
+      "QuestionArr_21": "Remove five figures, how many do you have?",
       "OptionArr_21": ["1", "2", "3", "4"],
       "AnswerArr_21": ["", "", "Yes", ""], 
       "ImageName": "L5-11",
@@ -2845,7 +2845,7 @@
     },
     {
       "index": 25,
-      "QuestionArr_25": "Mark off three figures, how many do you have?",
+      "QuestionArr_25": "Remove three figures, how many do you have?",
       "OptionArr_25": ["3", "4", "5", "6"],
       "AnswerArr_25": ["", "", "Yes", ""], 
       "ImageName": "L5-13",
@@ -2879,7 +2879,7 @@
     },
     {
       "index": 29,
-      "QuestionArr_29": "Mark off one figure, how many do you have?",
+      "QuestionArr_29": "Remove one figure, how many do you have?",
       "OptionArr_29": ["5", "6", "7", "8"],
       "AnswerArr_29": ["", "", "Yes", ""], 
       "ImageName": "L5-15",
@@ -2913,7 +2913,7 @@
     },
     {
       "index": 33,
-      "QuestionArr_33": "Mark off three figures, how many do you have?",
+      "QuestionArr_33": "Remove three figures, how many do you have?",
       "OptionArr_33": ["3", "4", "5", "6"],
       "AnswerArr_33": ["", "", "Yes", ""],
       "ImageName": "L5-17",
@@ -2945,7 +2945,7 @@
     },
     {
       "index": 37,
-      "QuestionArr_37": "Mark off five figures, how many do you have?",
+      "QuestionArr_37": "Remove five figures, how many do you have?",
       "OptionArr_37": ["5", "6", "7", "8"],
       "AnswerArr_37": ["", "", "Yes", ""],
       "ImageName": "L5-19",
@@ -2977,7 +2977,7 @@
     },
     {
       "index": 41,
-      "QuestionArr_41": "Mark off three figures, how many do you have?",
+      "QuestionArr_41": "Remove three figures, how many do you have?",
       "OptionArr_41": ["7", "8", "9", "10"],
       "AnswerArr_41": ["", "", "Yes", ""],
       "ImageName": "L5-21",
@@ -3009,7 +3009,7 @@
     },
     {
       "index": 45,
-      "QuestionArr_45": "Mark off one figure, how many do you have?",
+      "QuestionArr_45": "Remove one figure, how many do you have?",
       "OptionArr_45": ["5", "6", "7", "8"],
       "AnswerArr_45": ["", "", "Yes", ""],
       "ImageName": "L5-23",
@@ -3041,7 +3041,7 @@
     },
     {
       "index": 49,
-      "QuestionArr_49": "Mark off three figures, how many do you have?",
+      "QuestionArr_49": "Remove three figures, how many do you have?",
       "OptionArr_49": ["3", "4", "5", "6"],
       "AnswerArr_49": ["", "", "Yes", ""],
       "ImageName": "L5-25",
@@ -3073,7 +3073,7 @@
     },
     {
       "index": 53,
-      "QuestionArr_53": "Mark off five figures, how many do you have?",
+      "QuestionArr_53": "Remove five figures, how many do you have?",
       "OptionArr_53": ["2", "3", "4", "5"],
       "AnswerArr_53": ["", "", "Yes", ""],
       "ImageName": "L5-27",
@@ -3105,7 +3105,7 @@
     },
     {
       "index": 57,
-      "QuestionArr_57": "Mark off three figures, how many do you have?",
+      "QuestionArr_57": "Remove three figures, how many do you have?",
       "OptionArr_57": ["3", "4", "5", "6"],
       "AnswerArr_57": ["", "", "Yes", ""],
       "ImageName": "L5-29",
@@ -3137,7 +3137,7 @@
     },
     {
       "index": 61,
-      "QuestionArr_61": "Mark off one figure, how many do you have?",
+      "QuestionArr_61": "Remove one figure, how many do you have?",
       "OptionArr_61": ["11", "12", "13", "14"],
       "AnswerArr_61": ["", "", "Yes", ""],
       "ImageName": "L5-31",

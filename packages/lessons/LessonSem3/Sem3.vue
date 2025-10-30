@@ -6,6 +6,21 @@
           <topHeader :HeaderTop="HeaderTop" :componentSubtitle="componentSubtitle" />
         </div>
 
+
+  <!-- Result Popup -->
+               <resultPopup
+                v-show="resultShow"
+                :result-data="resultData"    
+                :activity_Status="activity_Status"
+                :Time_elapsed="Time_elapsed"
+                :Questions_attempted="Questions_attempted"
+                :correct_Answers="correct_Answers"
+                :incorrect_Answers="incorrect_Answers"
+                :ResultHide="ResultHide"
+                :ResultArrow="ResultArrow"
+                @FinalResult="FinalResult"
+              />
+
         <!-- ✅ CFU-P Activity ONLY -->
      <CFUPHandler
      v-if="jsonFileName === 'CFU-P' && questionArray.length"
@@ -19,13 +34,14 @@
       @answer-selected="handleAnswer"
       @quiz-finished="showResultPopup"
        @save="onSave"
+      v-show="!resultShow"
     />
 
         <!-- ✅ All Other Activities -->
         <template v-else>
           <!-- Instructions -->
           <div
-            v-if="(currentQuestion || PracticeOne)"
+            v-if="(currentQuestion || PracticeOne) && !resultShow"
             class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-500 rounded"
           >
             <h3 class="font-bold text-lg mb-2 text-blue-700">Instructions</h3>
@@ -39,19 +55,7 @@
             <div
               class="containercat3 mx-auto max-w-7xl bg-white shadow-lg border-2 border-black rounded-none p-4 sm:p-6 lg:p-10 my-4 sm:my-6 lg:my-8"
             >
-              <!-- Result Popup -->
-              <resultPopup
-                v-if="resultShow"
-                :activity_Status="activity_Status"
-                :Time_elapsed="Time_elapsed"
-                :Questions_attempted="Questions_attempted"
-                :correct_Answers="correct_Answers"
-                :incorrect_Answers="incorrect_Answers"
-                :ResultHide="ResultHide"
-                :ResultArrow="ResultArrow"
-                @FinalResult="FinalResult"
-              />
-
+            
 
               <!-- CSR-I Activity -->
               <WordGridActivity
@@ -98,7 +102,7 @@
 
               <!-- Other Lessons (non CSR-I) -->
               <SectionSem3Intro
-                v-show="InstructionShow && jsonFileName !== 'CSR-I'" 
+                v-show="InstructionShow && jsonFileName !== 'CSR-I'&& !resultShow" 
                 @PracticeNext="PracticeNext"
                 class="w-full"
               />
@@ -180,7 +184,6 @@ import SectionStory from './components/SectionStory.vue'
 import WordGridActivity from 'Lessons/LessonSem3/components/WordGridActivity.vue'
 import{ updateScreenSizehelper,getResponsiveImageHeighthelper3,getResponsiveImageWidthhelper3 ,parseLevelRangeHelper, getQuestionWordhelper3,getGridLettershelper3 ,getAnswerWordhelper ,handleWordGridAnsweredhelper, WordsAnswerhelper3, AnswerCheckhelper3, FinalResulthelper3, PracticeNexthelper3, getVisualArrowhelper, getArrowStylehelper, getVisualRectanglehelper, getRectangleStylehelper, secondsToTimehelper, TimerFunhelper3, goToPreviousQuestionhelper3, runhelper3,  highlightPreviousAnswerhelper, practice0helper3, SaveAndExitNowhelper3 , handleSvgClickhelper3,showResultPopuphelper3
 } from '../../common-generic-components/activityHelpers.js';
-import ResultPopup from '../resultPopup.vue'
 import CFUPHandler from './components/CFUPHandler.vue';
 
 export default {
@@ -516,14 +519,42 @@ console.log("Mounted: starting at question counter =", this.counter);
     },
   },
   methods: {
-showResultPopup(resultData) {
- return showResultPopuphelper3(this, resultData);
+// showResultPopup(resultData) {
+//   this.resultShow = true;
+//   this.resultData = resultData; // store the result data to pass to <resultPopup>
+// },
+
+
+  //  showResultPopup(resultData) {
+  //   this.resultData = resultData;
+
+  //   console.log("showResultPopup called with:", resultData);
+  //   this.resultShow = true;
+  //   this.activity_Status = 'Completed';
+  //   this.Questions_attempted = resultData.detailedResults.length;
+  //   this.correct_Answers = resultData.summary.CorrectAnswers;
+  //   this.incorrect_Answers = resultData.summary.WrongAnswers;
+  //   this.PracticeOne = false;
+  //   this.ResultHide = false;
+  // },
+
+
+
+
+
+
+  showResultPopup(resultData = {}) {
+  
+   return showResultPopuphelper3(this, resultData);
 },
 
-    hideResultPopup() {
-      this.resultShow = false;
-    },
+  hideResultPopup() {
+    this.resultShow = false;
+  },
 
+  
+
+   
 
 
 
@@ -765,6 +796,5 @@ textarea:focus {
   }
 }
 </style>
-
 
 

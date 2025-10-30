@@ -384,7 +384,7 @@
     },
     { 
       "index":13,
-      "QuestionArr_013": "Locate the house. Find the place that is to the extreme east of the house",
+      "QuestionArr_013": " Find the place that is to the extreme east of the house",
       "OptionArr_013": ["Garden","Berry bushes","House","Pond"], 
       "AnswerArr_013": ["", "","","Yes"],
       "ImageName": "L2-3",
@@ -392,7 +392,7 @@
     },
     { 
       "index":14,
-      "QuestionArr_014": "Locate the cornfield. Find the place that is to the extreme west of the cornfield.",
+      "QuestionArr_014": " Find the place that is to the extreme west of the cornfield.",
       "OptionArr_014": ["Berry bushes","Garden","House","Pond"], 
       "AnswerArr_014": ["", "","Yes",""],
       "ImageName": "L2-3",
@@ -400,7 +400,7 @@
     },
     { 
       "index":15,
-      "QuestionArr_015": "Locate the berry bushes. Find the place that is to the north of the berry bushes.",
+      "QuestionArr_015": "Find the place that is to the north of the berry bushes.",
       "OptionArr_015": ["Pond","House","Garden","Berry bushes"], 
       "AnswerArr_015": ["Yes", "","",""],
       "ImageName": "L2-3",
@@ -408,7 +408,7 @@
     },
     { 
       "index":16,
-      "QuestionArr_016": "Locate the garden. Find the place that is to the extreme east of the garden.",
+      "QuestionArr_016": "Find the place that is to the extreme east of the garden.",
       "OptionArr_016": ["Pond","House","Berry bushes","Garden"], 
       "AnswerArr_016": ["", "","Yes",""],
       "ImageName": "L2-3",
@@ -416,7 +416,7 @@
     },
     { 
       "index":17,
-      "QuestionArr_017": "Locate the orchard. Find the place that is to the extreme west of the orchard.",
+      "QuestionArr_017": "Find the place that is to the extreme west of the orchard.",
       "OptionArr_017": ["Pond","Garden","Berry bushes","House"], 
       "AnswerArr_017": ["", "Yes","",""],
       "ImageName": "L2-3",
@@ -424,7 +424,7 @@
     },
     { 
       "index":18,
-      "QuestionArr_018": "Locate the pond. Find the place that is to the extreme west of the pond.",
+      "QuestionArr_018": "Find the place that is to the extreme west of the pond.",
       "OptionArr_018": ["House","Pond","Berry bushes","Garden"], 
       "AnswerArr_018": ["Yes", "","",""],
       "ImageName": "L2-3",
@@ -512,7 +512,7 @@
     },
     {
       "index": 29,
-      "QuestionArr_29": "Has town got a bookSHOP?",
+      "QuestionArr_29": "Has town got a Bookshop?",
       "OptionArr_29": ["False", "True"],
       "AnswerArr_29": ["", "Yes"],
       "ImageName": "L2-5",
@@ -643,7 +643,7 @@
     { 
       "index":12,
       "QuestionArr_012": "Travel to the West of India and find a union territory that is also an island",
-      "OptionArr_012": ["Maharashtra","Daman& Diu","Kerala","Rajasthan"], 
+      "OptionArr_012": ["Maharashtra","Lakshwadeep ","Kerala","Rajasthan"], 
       "AnswerArr_012": ["", "Yes","",""],
       "ImageName": "L3-2",
       "QuestionImage":"NA"
@@ -738,7 +738,7 @@
     },
     {
       "index":24,
-      "QuestionArr_024": "The  is on the left of the black X.",
+      "QuestionArr_024": "what is on the left of the black X.",
       "OptionArr_024": ["Post Office","Hospital","Library","Theater"], 
       "AnswerArr_024": ["Yes","","",""],
       "ImageName": "L3-4",
@@ -762,7 +762,7 @@
     },
     {
       "index":27,
-      "QuestionArr_027": "What do you find marked in the north.",
+      "QuestionArr_027": "What do you find marked towards the north in upper image.",
       "OptionArr_027":  ["Library","Bus Stop","Post Office","Hospital"],
       "AnswerArr_027": ["","","Yes",""],
       "ImageName": "L3-4",
@@ -963,7 +963,7 @@
     },
     { 
       "QuestionArr_019": "To write on the chalk board, Donna must leave her desk and walk towards______",
-      "OptionArr_019": ["West/North","East/South"], 
+      "OptionArr_019": ["West/East","East/South"], 
       "AnswerArr_019": ["Yes", ""],
      "ImageName": "2",
        "QuestionImage":"NA"
@@ -1804,30 +1804,8 @@
        "ImageName": "22",
        "QuestionImage":"NA"
     },
-    { 
-      "index": 6,
-      "QuestionArr_06": "Which country have you visited? Which would you like to visit? _______",
-      "OptionArr_06": ["Open contributions","Eskimos","Polynesians","The Cowboy"], 
-      "AnswerArr_06": ["Yes", "","",""],
-      "ImageName": "NA",
-       "QuestionImage":"NA"
-    },
-    { 
-      "index": 7,
-      "QuestionArr_07": "Have you ever tasted buffalo? Fish? Fruit? Vegetables? Rice? Cactus? Coconut? How do they taste? _______",
-      "OptionArr_07": ["Open contributions","Eskimos","Polynesians","The Cowboy"], 
-      "AnswerArr_07": ["Yes", "","",""],
-      "ImageName": "NA",
-       "QuestionImage":"NA"
-    },
-    { 
-      "index": 8,
-      "QuestionArr_08": "Which goes fastest? Next fastest, slowest? A cowboy on horse? ______ ",
-      "OptionArr_08": ["Polynesians","Rickshaw"," Cowboy","Masai"], 
-      "AnswerArr_08": ["", "","Yes",""],
-      "ImageName": "21",
-       "QuestionImage":"NA"
-    },
+   
+   
     { 
       "index": 9,
       "QuestionArr_09": "Which house would be quickest to build? An igloo or a grass hut? _______",
@@ -2006,7 +1984,7 @@
     },
     {
       "index": 31,
-      "QuestionArr_31": "To go from the grocery SHOP to the florist, you must first go ______ towards hall street after which you move ______.",
+      "QuestionArr_31": "To go from the grocery store to the florist, you must first go ______ towards hall street after which you move ______.",
       "OptionArr_31": ["South, West, South", "North, East, South", "North, East, West", "East, West, South"],
       "AnswerArr_31": ["Yes", "", "", ""],
       "ImageName": "L7-4",

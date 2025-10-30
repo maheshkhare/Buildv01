@@ -19,7 +19,7 @@
               },
               {
                 "index": 2,
-                "QuestionArr_02": "Where can you find the Tired",
+                "QuestionArr_02": "Where can you find the Tired Person",
                 "OptionArr_02": ["Y", "Q", "H", "D"],
                 "AnswerArr_02": ["", "", "Yes", ""],
                 "ImageName": "L1-0",
@@ -1472,7 +1472,7 @@
                 {
                   "index": 81,
                   "QuestionArr_81": "Point to the Headlights!",
-                  "OptionArr_81": ["B", "R", "L", "D"],
+                  "OptionArr_81": ["B", "G", "L", "D"],
                   "AnswerArr_81": ["", "Yes", "", ""],
                   "ImageName": "L2-4",
                   "QuestionImage": "NA"
@@ -1544,7 +1544,7 @@
                 {
                   "index": 90,
                   "QuestionArr_90": "Find the Bubbles!",
-                  "OptionArr_90": ["K", "N", "C", "O"],
+                  "OptionArr_90": ["K", "N", "M", "O"],
                   "AnswerArr_90": ["", "", "Yes", ""],
                   "ImageName": "L2-4",
                   "QuestionImage": "NA"
@@ -1552,7 +1552,7 @@
                 {
                   "index": 91,
                   "QuestionArr_91": "Where's the Shark?",
-                  "OptionArr_91": ["I", "J", "G", "Q"],
+                  "OptionArr_91": ["I", "J", "G", "D"],
                   "AnswerArr_91": ["", "", "", "Yes"],
                   "ImageName": "L2-4",
                   "QuestionImage": "NA"
@@ -1857,7 +1857,7 @@
                 },
                 {
                   "index": 29,
-                  "QuestionArr_29": "Where is 'Brushes' in the image?",
+                  "QuestionArr_29": "Where is 'Brushes & Color tubes' in the image?",
                   "OptionArr_29": ["E", "T", "F", "S"],
                   "AnswerArr_29": ["", "", "Yes", ""],
                   "ImageName": "L3-1",
@@ -1937,7 +1937,7 @@
                 },
                 {
                   "index": 39,
-                  "QuestionArr_39": "Where is 'Straps' in the image?",
+                  "QuestionArr_39": "Where is 'parachute Straps' in the image?",
                   "OptionArr_39": ["J", "F", "R", "C"],
                   "AnswerArr_39": ["Yes", "", "", ""],
                   "ImageName": "L3-1",
@@ -1970,7 +1970,7 @@
                 {
                   "index": 43,
                   "QuestionArr_43": "Where is 'Anchor' in the image?",
-                  "OptionArr_43": ["S", "Q", "G", "N"],
+                  "OptionArr_43": ["R", "Q", "G", "N"],
                   "AnswerArr_43": ["Yes", "", "", ""],
                   "ImageName": "L3-2",
                   "QuestionImage": "NA"
@@ -4363,7 +4363,7 @@
                   "QuestionArr_42": "Where is 'Dormitory'?",
                   "OptionArr_42": ["D", "F", "M", "P"],
                   "AnswerArr_42": ["", "", "", "Yes"],
-                  "ImageName": "L6-2",
+                  "ImageName": "L6-3",
                   "QuestionImage": "NA"
                 },
                 {
@@ -4427,7 +4427,7 @@
                   "QuestionArr_50": "Where is 'Wrench'?",
                   "OptionArr_50": ["K", "N", "E", "O"],
                   "AnswerArr_50": ["", "", "Yes", ""],
-                  "ImageName": "L6-2",
+                  "ImageName": "L6-3",
                   "QuestionImage": "NA"
                 },
                 {
@@ -4441,9 +4441,9 @@
                 {
                   "index": 52,
                   "QuestionArr_52": "Where is 'Watering'?",
-                  "OptionArr_52": ["I", "N", "R", "T"],
+                  "OptionArr_52": ["C", "N", "R", "T"],
                   "AnswerArr_52": ["Yes", "", "", ""],
-                  "ImageName": "L6-2",
+                  "ImageName": "L6-1",
                   "QuestionImage": "NA"
                 },
                 {
@@ -4483,7 +4483,7 @@
                   "QuestionArr_57": "Where is 'Electric guitar'?",
                   "OptionArr_57": ["D", "Q", "J", "I"],
                   "AnswerArr_57": ["", "Yes", "", ""],
-                  "ImageName": "L6-2",
+                  "ImageName": "L6-3",
                   "QuestionImage": "NA"
                 },
                 {
@@ -4496,10 +4496,10 @@
                 },
                 {
                   "index": 59,
-                  "QuestionArr_59": "Where is 'Key hole'?",
+                  "QuestionArr_59": "Where is 'Letter'?",
                   "OptionArr_59": ["N", "A", "T", "R"],
                   "AnswerArr_59": ["", "", "", "Yes"],
-                  "ImageName": "L6-2",
+                  "ImageName": "L6-3",
                   "QuestionImage": "NA"
                 },
                 {
@@ -4515,7 +4515,7 @@
                   "QuestionArr_61": "Where is 'Hanging hooks' in the image?",
                   "OptionArr_61": ["A", "E", "K", "J"],
                   "AnswerArr_61": ["Yes", "", "", ""],
-                  "ImageName": "L6-3",
+                  "ImageName": "L6-2",
                   "QuestionImage": "NA"
                 },
                 {
@@ -4555,14 +4555,14 @@
                   "QuestionArr_66": "Where is 'Jockey' in the image?",
                   "OptionArr_66": ["K", "G", "O", "D"],
                   "AnswerArr_66": ["Yes", "", "", ""],
-                  "ImageName": "L6-3",
+                  "ImageName": "L6-2",
                   "QuestionImage": "NA"
                 },
                 {
                   "index": 67,
                   "QuestionArr_67": "Where is 'Stable' in the image?",
                   "OptionArr_67": ["L", "B", "J", "I"],
-                  "AnswerArr_67": ["Yes", "", "", ""],
+                  "AnswerArr_67": ["", "", "Yes", ""],
                   "ImageName": "L6-3",
                   "QuestionImage": "NA"
                 },
@@ -5011,7 +5011,7 @@
                 {
                   "index": 23,
                   "QuestionArr_23": "Where is 'Juggle' in the image?",
-                  "OptionArr_23": ["T", "Q", "S", "C"],
+                  "OptionArr_23": ["T", "Q", "G", "C"],
                   "AnswerArr_23": ["Yes", "", "", ""],
                   "ImageName": "L7-1",
                   "QuestionImage": "NA"
@@ -8770,7 +8770,7 @@
                 {
                   "index": 9,
                   "QuestionArr_09": "Where is the Faucet?",
-                  "OptionArr_09": ["R", "K", "B", "Q"],
+                  "OptionArr_09": ["C", "K", "B", "Q"],
                   "AnswerArr_09": ["Yes", "", "", ""],
                   "ImageName": "L12-0",
                   "QuestionImage": "NA"

@@ -1,0 +1,1 @@
+Si vous déplacez l'ascenseur à un plancher incorrect, les portes de l'ascenseur s'ouvriront pour lire.

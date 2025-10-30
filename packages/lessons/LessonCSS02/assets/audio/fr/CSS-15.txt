@@ -1,0 +1,1 @@
+Maintenant l'exercice change cette fois-ci il y a 2 panneaux de boutons. Ils vous montrent quel bouton a été appuyé en premier et quel bouton a été appuyé en second,

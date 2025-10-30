@@ -150,7 +150,7 @@
     "QuestionImage": "NA"
   },  {
     "index": 9,
-    "QuestionArr_09": "Which object that is on the table",
+    "QuestionArr_09": "Which object is on the table",
     "OptionArr_09": ["Car", "Pen", "Bag", "Apple","Ball","News paper","Kite","Sun","Tyre"],
     "AnswerArr_09":  ["", "Yes", "", "","", "", "", "",""],
     "ImageName": "L2-10",
@@ -158,7 +158,7 @@
   },
   {
     "index": 10,
-    "QuestionArr_10": "Which object that is beside the ball?",
+    "QuestionArr_10": "Which object is beside the ball?",
     "OptionArr_10": ["Car", "Pen", "Bag", "Apple","Ball","News paper","Kite","Sun","Tyre"],
     "AnswerArr_10": ["", "", "", "","", "Yes", "", "",""],
     "ImageName": "L2-11",
@@ -166,7 +166,7 @@
   },
   {
     "index": 11,
-    "QuestionArr_11": " Which object that is near to the diamond?",
+    "QuestionArr_11": " Which object is near to the diamond?",
     "OptionArr_11":["Car", "Pen", "Bag", "Square","Ball","News paper","Kite","Sun","Tyre"],
     "AnswerArr_11": ["", "", "", "Yes","", "", "", "",""],
     "ImageName": "L2-12",
@@ -174,7 +174,7 @@
   },
   {
     "index": 12,
-    "QuestionArr_12": " Which object that is under the table ?",
+    "QuestionArr_12": " Which object is under the table ?",
     "OptionArr_12": ["Car", "Pen", "Bag", "Apple","Ball","News paper","Kite","Sun","Tyre"],
     "AnswerArr_12": ["", "", "", "","Yes", "", "", "",""],
     "ImageName": "L2-13",
@@ -184,7 +184,7 @@
 
   {
     "index": 13,
-    "QuestionArr_13": " Which object that is between the kite and the sun ?",
+    "QuestionArr_13": " Which object is between the kite and the sun ?",
     "OptionArr_13": ["Car", "Pen", "Bag", "Apple","Ball","News paper","Kite","Sun","Tyre"],
     "AnswerArr_13": ["", "", "", "","", "", "", "","Yes"],
     "ImageName": "L2-14",
@@ -192,7 +192,7 @@
   },
   {
     "index": 14,
-    "QuestionArr_14": " Which object that is in the bowl ?",
+    "QuestionArr_14": " Which object is in the bowl ?",
     "OptionArr_14": ["Fish", "Pen", "Bag", "Apple","Ball","News paper","Kite","Sun","Tyre"],
     "AnswerArr_14": ["Yes", "", "", "","", "", "", "",""],
     "ImageName": "L2-15",
@@ -200,7 +200,7 @@
   },
   {
     "index": 15,
-    "QuestionArr_15": "Which object that is above the pool ?",
+    "QuestionArr_15": "Which object is above the pool ?",
     "OptionArr_15": ["Fish", "Pen", "Bag", "Apple","Ball","News paper","Kite","Sun","Umbrella"],
     "AnswerArr_15": ["", "", "", "","", "", "", "","Yes"],
     "ImageName": "L2-16",
@@ -581,7 +581,7 @@
 "Level4":[
     {
     "index": 0,
-    "QuestionArr_00": "-Look at the drawing. Can you see something under the table? The thing with which you play.",
+    "QuestionArr_00": "Look at the drawing. Can you see something under the table? The thing with which you play.",
     "OptionArr_00": ["Ball", "Clock", "Cat", "Table","Flower pot ","Chair","Book","Sofa","Carpet"],
     "AnswerArr_00": ["Yes", "", "", "","", "", "", "",""],
     "ImageName": "L4-1",
@@ -629,7 +629,7 @@
   },    {
     "index": 6,
     "QuestionArr_06": "Look at the drawing. Can you see something above the kangaroo? ",
-    "OptionArr_06": ["Tiger", "Panter", "Cangaroo", "Fox","Pond","Fish"],
+    "OptionArr_06": ["Tiger", "Panther", "Cangaroo", "Fox","Pond","Fish"],
     "AnswerArr_06": ["", "Yes", "", "","", ""],
     "ImageName": "L4-2",
     "QuestionImage": "NA"
@@ -637,7 +637,7 @@
   {
     "index": 7,
     "QuestionArr_07": " Look at the drawing. Can you see something under the kangaroo?",
-    "OptionArr_07": ["Tiger", "Panter", "Cangaroo", "Fox","Pond","Fish"],
+    "OptionArr_07": ["Tiger", "Panther", "Cangaroo", "Fox","Pond","Fish"],
     "AnswerArr_07":  ["", "", "", "Yes","", ""],
     "ImageName": "L4-2",
     "QuestionImage": "NA"
@@ -645,7 +645,7 @@
   {
     "index": 8,
     "QuestionArr_08": " Look at the drawing. Can you see something beside the kangaroo?",
-    "OptionArr_08": ["Tiger", "Panter", "Cangaroo", "Fox","Pond","Fish"],
+    "OptionArr_08": ["Tiger", "Panther", "Cangaroo", "Fox","Pond","Fish"],
     "AnswerArr_08": ["Yes", "", "", "","", ""],
     "ImageName": "L4-2",
     "QuestionImage": "NA"
@@ -653,7 +653,7 @@
   {
     "index": 9,
     "QuestionArr_09": "Look at the drawing. Can you see something in the pond? ",
-    "OptionArr_09": ["Tiger", "Panter", "Cangaroo", "Fox","Pond","Fish"],
+    "OptionArr_09": ["Tiger", "Panther", "Cangaroo", "Fox","Pond","Fish"],
     "AnswerArr_09": ["", "", "", "","", "Yes"],
     "ImageName": "L4-2",
     "QuestionImage": "NA"
@@ -726,7 +726,7 @@
     "QuestionArr_18": "Look at the drawing. Can you see something inside the envelope?",
     "OptionArr_18": ["Letter", "envelope", "Newa-paper", "Note book"],
     "AnswerArr_18": ["Yes", "", "", ""],
-    "ImageName": "L3-19",
+    "ImageName": "L4-5",
     "QuestionImage": "NA"
   },
   {
@@ -734,7 +734,7 @@
     "QuestionArr_19": "Look at the drawing. Can you see something beside the mailman?",
     "OptionArr_19": ["Letter", "envelope", "Newa-paper", "Note book"],
     "AnswerArr_19": ["", "Yes", "", ""],
-    "ImageName": "L3-20",
+    "ImageName": "L4-5",
     "QuestionImage": "NA"
   },
   {
@@ -742,7 +742,7 @@
     "QuestionArr_20": "Look at the drawing. Can you see something on the book?",
     "OptionArr_20": ["Letter", "Pen ", "Newa-paper", "Note book"],
     "AnswerArr_20":["", "Yes", "", ""],
-    "ImageName": "L3-21",
+    "ImageName": "L4-5",
     "QuestionImage": "NA"
   },
   {
@@ -750,7 +750,7 @@
     "QuestionArr_21": "Look at the drawing. Can you see something below the Mailman?",
     "OptionArr_21": ["Letter", "Pen ", "Newa-paper", "Note book"],
     "AnswerArr_21":["", "", "", "Yes"],
-    "ImageName": "L3-22",
+    "ImageName": "L4-5",
     "QuestionImage": "NA"
   },
   {
@@ -758,7 +758,7 @@
     "QuestionArr_22": " Look at the drawing. Can you see something Below the envelope?",
     "OptionArr_22":["Letter", "Pen ", "Newa-paper", "Note book"],
     "AnswerArr_22":["", "", "Yes", ""],
-    "ImageName": "L3-23",
+    "ImageName": "L4-5",
     "QuestionImage": "NA"
   }
 ],
@@ -918,7 +918,7 @@
   {
     "index": 19,
     "QuestionArr_19": "Look at the drawing. Can you see something behind the Trees?",
-    "OptionArr_19":  ["Duck", "Clods", "Trees", "Grass","Flowers","Sparrow"],
+    "OptionArr_19":  ["Duck", "Clouds", "Trees", "Grass","Flowers","Sparrow"],
     "AnswerArr_19": ["", "Yes", "", "","",""],
     "ImageName": "L5-5",
     "QuestionImage": "NA"

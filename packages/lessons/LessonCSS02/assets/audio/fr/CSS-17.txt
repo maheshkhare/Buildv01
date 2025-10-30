@@ -1,0 +1,1 @@
+Maintenant, il y a 3 panneaux de boutons. Donc l'ascenseur va bouger 3 fois. Vous dites où l'ascenseur sera, après tous les 3 mouvements.

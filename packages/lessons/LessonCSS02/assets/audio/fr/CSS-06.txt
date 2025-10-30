@@ -1,0 +1,1 @@
+Dans le premier exercice, l'ascenseur commence au rez-de-chaussée et une flèche blanche pointe vers le plancher où vous devez déplacer l'ascenseur.

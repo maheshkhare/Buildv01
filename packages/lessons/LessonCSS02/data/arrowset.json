@@ -1,0 +1,21 @@
+[
+       {"Ground":"1","Direction":"A5", "Location":"-70 1430 181 90"},
+
+        {"Ground":"0","Direction":"A2", "Location":"-70 1194 181 90"},
+        {"Ground":"0","Direction":"B1", "Location":"-70 950 181 90"},
+        {"Ground":"0","Direction":"B5", "Location":"-70 630 181 90"},
+        {"Ground":"0","Direction":"A3", "Location":"-70 1270 181 90"},
+        {"Ground":"0","Direction":"B2", "Location":"-70 864 181 90"},
+        {"Ground":"0","Direction":"A5", "Location":"-70 1430 181 90"}, 
+        {"Ground":"0","Direction":"B4", "Location":"-70 710 181 90"},
+        {"Ground":"0","Direction":"A2", "Location":"-70 1194 181 90"},
+        {"Ground":"0","Direction":"B3", "Location":"-70 790 181 90"},
+        {"Ground":"0","Direction":"B5", "Location":"-70 630 181 90"},
+        {"Ground":"0","Direction":"A1", "Location":"-70 1110 181 90"},
+        {"Ground":"0","Direction":"B4", "Location":"-70 710 181 90"},
+        {"Ground":"0","Direction":"B2", "Location":"-70 864 181 90"},
+        {"Ground":"0","Direction":"A3", "Location":"-70 1270 181 90"},
+        {"Ground":"0","Direction":"A1", "Location":"-70 1110 181 90"},
+        {"Ground":"0","Direction":"B2", "Location":"-70 864 181 90"},
+        {"Ground":"0","Direction":"A5", "Location":"-70 1430 181 90"}
+]

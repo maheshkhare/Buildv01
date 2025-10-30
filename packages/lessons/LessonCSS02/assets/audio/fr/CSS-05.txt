@@ -1,0 +1,1 @@
+A côté. L'ascenseur sont des boutons qui font monter ou descendre l'ascenseur. 1 à 5 étages et descendre 1 à 5 étages.

@@ -3012,6 +3012,14 @@ context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
       }
     }
 
+
+
+
+
+
+
+
+
 ///////////////✅ SaveAndExitNowhelper/////////////////////
 export function SaveAndExitNowhelper3(context) {
 
@@ -3596,19 +3604,39 @@ console.log("commonNumArray in practice0helper3:", JSON.stringify(context.common
 }
 
 
-export function showResultPopuphelper3(context,  resultData) {
 
- console.log("📊 Final result data:", resultData);
+export function showResultPopuphelper3(context, resultData) {
+  console.log("📊 showResultPopuphelper3 called with:", resultData);
 
-                    // show popup
-  context.activity_Status = "Completed";         // activity status
-  context.Time_elapsed = context.secondsToTime(Date.now() - context.timestart); // optional time conversion
-  context.Questions_attempted = resultData.summary.TotalQuestions;
-  context.correct_Answers = resultData.summary.CorrectAnswers;
-  context.incorrect_Answers = resultData.summary.WrongAnswers;
-  context.ResultHide = false;   
-   context.resultShow = true;                   // or keep current state
-  context.ResultArrow = false;                   // or keep current state
+  // Defensive fallback
+  if (!resultData || !resultData.summary) {
+    console.warn("⚠️ Invalid resultData, using fallback");
+    resultData = {
+      summary: {
+        TotalQuestions: 0,
+        CorrectAnswers: 0,
+        WrongAnswers: 0
+      },
+      detailedResults: []
+    };
+  }
 
+  // ✅ Assign values to parent data
+  context.resultData = resultData;
+  context.resultShow = true;
+  context.activity_Status = "Completed";
+  context.Time_elapsed = context.secondsToTime(context.timestart);
+  context.Questions_attempted = resultData.summary.TotalQuestions || 0;
+  context.correct_Answers = resultData.summary.CorrectAnswers || 0;
+  context.incorrect_Answers = resultData.summary.WrongAnswers || 0;
+  context.PracticeOne = false;
+  context.ResultHide = true;
 
+  console.log("✅ Result Summary Extracted:", {
+    Time_elapsed: context.Time_elapsed,
+    Questions_attempted: context.Questions_attempted,
+    correct_Answers: context.correct_Answers,
+    incorrect_Answers: context.incorrect_Answers,
+    detailedLen: resultData.detailedResults?.length || 0,
+  });
 }

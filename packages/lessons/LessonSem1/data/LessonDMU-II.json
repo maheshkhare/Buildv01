@@ -15,7 +15,7 @@
           {
             "name": "CobraImagination",
             "displayName": "Cobra Imagination",
-            "words": ["Hose", "Shedding", "Dangerous Flute", "Living Rope", "Desert Hypnotist", "Venom Artist", "Shadow Striker", "Sand Magician", "Mystic Serpent", "Jungle's Warning", "Ancient Symbol", "Silent Alarm"]
+            "words": ["Hose", "Shedding", "Dangerous Flute", "Living Rope", "Desert Hypnotist", "Venom Artist", "Shadow Striker", "Sand Magician", "Mystic Serpent", "Jungle's Warning", "Ancient Symbol"]
           }
         ]
       },
@@ -223,7 +223,7 @@
           {
             "name": "SpringbokImagination",
             "displayName": "Springbok Imagination",
-            "words": ["bottle opener", "ballerina", "wind dancer", "desert arrow", "sunbeam jumper", "horned crown", "grass whisperer", "sand clock", "prairie artist", "lightning symbol", "mythic messenger", "dust cloud"]
+            "words": ["accelerating", "ballerina", "wind dancer", "desert arrow", "sunbeam jumper", "horned crown", "grass whisperer", "sand clock", "prairie artist", "lightning symbol", "mythic messenger", "dust cloud"]
           }
         ]
       },
@@ -240,7 +240,7 @@
           {
             "name": "ImpalaGazelleImagination",
             "displayName": "Impala Gazelle Imagination",
-            "words": ["bottle opener", "ballerina", "wind dancer", "desert arrow", "sunbeam jumper", "horned crown", "grass whisperer", "sand clock", "prairie artist", "lightning symbol", "mythic messenger", "dust cloud"]
+            "words": ["accelerating", "ballerina", "wind dancer", "desert arrow", "sunbeam jumper", "horned crown", "grass whisperer", "sand clock", "prairie artist", "lightning symbol", "mythic messenger", "dust cloud"]
           }
         ]
       },
@@ -449,7 +449,7 @@
           {
             "name": "LobsterImagination",
             "displayName": "Lobster Imagination",
-            "words": ["mermaid", "antenna-eyes", "underwater knight", "sea armor", "ocean's pliers", "deep-sea robot", "marine tank", "clawed alien", "red submarine", "briny warrior", "shelled samurai", "tidepool gladiator"]
+            "words": ["armored body", "antenna-eyes", "underwater knight", "sea armor", "ocean's pliers", "deep-sea robot", "marine tank", "clawed alien", "red submarine", "briny warrior", "shelled samurai", "tidepool gladiator"]
           }
         ]
       },
@@ -617,7 +617,7 @@
           {
             "name": "TurulBirdDescription",
             "displayName": "Turul Bird Description",
-            "words": ["large claws", "wide feathers", "hair on head", "tall trees", "mythical", "golden", "sharp beak", "divine messenger", "Hungarian", "protective", "soaring", "legendary"]
+            "words": ["large claws", "wide feathers", "hair on head", "tall trees", "mythical", "sharp beak", "divine messenger", "Hungarian", "protective", "soaring", "legendary"]
           },
           {
             "name": "TurulBirdImagination",
@@ -671,7 +671,7 @@
           {
             "name": "GreekChimeraDescription",
             "displayName": "Greek Chimera Description",
-            "words": ["furry", "long tail", "lion head", "goat body", "serpent tail", "fire-breathing", "mythical", "three-headed", "winged", "ferocious", "composite creature", "Bellerophon's foe"]
+            "words": ["furry", "long tail", "lion head", "goat body", "serpent tail", "fire-breathing", "mythical", "three-headed", "ferocious", "composite creature", "Bellerophon's foe"]
           },
           {
             "name": "GreekChimeraImagination",
@@ -746,7 +746,7 @@
           {
             "name": "DormouseImagination",
             "displayName": "Dormouse Imagination",
-            "words": ["cheese holder", "hole liver", "tea party guest", "sleepy ball", "nut hoarder", "twig acrobat", "whispery squeaker", "leaf-bed sleeper", "storybook napper", "forest clock", "winter dreamer", "miniature hibernator"]
+            "words": [ "hole liver", "tea party guest", "sleepy ball", "nut hoarder", "twig acrobat", "whispery squeaker", "leaf-bed sleeper", "storybook napper", "forest clock", "winter dreamer", "miniature hibernator"]
           }
         ]
       },
@@ -764,7 +764,7 @@
           {
             "name": "BeaverImagination",
             "displayName": "Beaver Imagination",
-            "words": ["mouse", "river swimmer", "nature's architect", "wood chipper", "pond engineer", "toothy builder", "stream sculptor", "branch barber", "aquatic lumberjack", "wetland wizard", "dam artist", "forest dentist"]
+            "words": [ "river swimmer", "nature's architect", "wood chipper", "pond engineer", "toothy builder", "stream sculptor", "branch barber", "aquatic lumberjack", "wetland wizard", "dam artist", "forest dentist"]
           }
         ]
       },

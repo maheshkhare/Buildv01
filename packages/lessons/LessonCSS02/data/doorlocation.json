@@ -1,0 +1,12 @@
+[
+           {"DoorLocationUp" : "-174 335 30 30","AnsSetUp":"A1","AnsSetDown":"B1", "DoorLocationDown" :"-174 279 30 30"},
+        {"DoorLocationUp" : "-174 363 30 30","AnsSetUp":"A2","AnsSetDown":"B2", "DoorLocationDown" :"-174 251 30 30"},
+        {"DoorLocationUp" : "-174 391 30 30","AnsSetUp":"A3","AnsSetDown":"B3", "DoorLocationDown" :"-174 223 30 30"},
+        {"DoorLocationUp" : "-174 419 30 30","AnsSetUp":"A4","AnsSetDown":"B4", "DoorLocationDown" :"-174 195 30 30"},
+        {"DoorLocationUp" : "-174 447 30 30","AnsSetUp":"A5","AnsSetDown":"B5", "DoorLocationDown" :"-174 167 30 30"},
+        {"DoorLocationUp" : "-174 475 30 30","AnsSetUp":"A6","AnsSetDown":"B6", "DoorLocationDown" :"-174 139 30 30"},
+        {"DoorLocationUp" : "-174 503 30 30","AnsSetUp":"A7","AnsSetDown":"B7", "DoorLocationDown" :"-174 114 30 30"},
+        {"DoorLocationUp" : "-174 529 30 30","AnsSetUp":"A8","AnsSetDown":"B8", "DoorLocationDown" :"-174 86 30 30"},
+        {"DoorLocationUp" : "-174 557 30 30","AnsSetUp":"A9","AnsSetDown":"B9", "DoorLocationDown" :"-174 57 30 30"},
+        {"DoorLocationUp" : "-174 585 30 30","AnsSetUp":"A10","AnsSetDown":"B10", "DoorLocationDown" :"-174 30 30 30"}
+]

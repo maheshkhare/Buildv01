@@ -563,7 +563,7 @@
 
     {
       "index": 8,
-      "QuestionArr_08": "Go to the upper left-hand corner; get the middle word in the first row  Take that word to the lower right-hand corner and put it into the first figure in the top row  in which figure it fitted correctly",
+      "QuestionArr_08": "Go to the upper left-hand corner and get the middle word from the first row. Then, take that word to the lower right-hand corner and insert it into the first figure in the top row where it belongs.",
       "OptionArr_08": ["75", "Rectangle", "a", "BIT"],
       "AnswerArr_08": ["", "Yes", "", ""],
       "ImageName": "L2-9",
@@ -1097,7 +1097,7 @@
     },
     {
       "index": 13,
-      "QuestionArr_13": "Go to the lower left; get the last number in the row  What numeral does it end with? Take that number to the lower right  Find a figure with that many sides What row is it in? ____ What column is it in? ____",
+      "QuestionArr_13": "Go to the lower left; get the last number in the last row  What numeral does it end with? Take that number to the lower right  Find a figure with that many sides What row is it in? ____ What column is it in? ____",
       "OptionArr_13": ["2,2", "3,3", "2,3", "3,2"],
       "AnswerArr_13": ["", "", "", "Yes"],
        "ImageName": "L4-13",

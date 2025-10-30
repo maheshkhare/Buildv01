@@ -3671,7 +3671,7 @@
     {
       "index": 43,
       "QuestionArr_43": "Use first image to decode the words from first image to second image",
-      "OptionArr_43":  ["TEBAGAM", "ABBOTTE", "NAP", "BAGGAGE"],
+      "OptionArr_43":  ["TEBAGAM", "ABBOTE", "NAP", "BAGGAGE"],
       "AnswerArr_43": ["", "Yes", "", ""],
       "ImageName": "L7-4",
       "QuestionImage": "L7-o44"
@@ -3736,14 +3736,14 @@
       "index": 51,
       "QuestionArr_51": "Use first image to decode the words from first image to second image",
       "OptionArr_51": ["POT", "ABATE", "DAATE", "ABOTE"],
-      "AnswerArr_51": ["", "Yes", "", ""],
+      "AnswerArr_51": ["", "", "Yes", ""],
       "ImageName": "L7-4",
       "QuestionImage": "L7-o52"
     },
     {
       "index": 52,
       "QuestionArr_52": "Use first image to decode the words from first image to second image",
-      "OptionArr_52": ["TEBAGAM", "ABBOTTE", "NAP", "BAGGAGE"],
+      "OptionArr_52": ["TEBAGAM", "ABBOTE", "NAP", "BAGGAGE"],
       "AnswerArr_52": ["", "Yes", "", ""],
       "ImageName": "L7-4",
       "QuestionImage": "L7-o53"

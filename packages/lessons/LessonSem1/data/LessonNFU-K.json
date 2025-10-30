@@ -58,7 +58,7 @@
           {
             "name": "Thingsintherefrigerator",
             "displayName": "Things in the refrigerator",
-            "words": ["Veggies", "Eags", "Bottles","Fruits"],
+            "words": ["Veggies", "Eggs", "Bottles","Fruits"],
             "images": ["Veggies.png", "Eegs.png", "Bottles.png","Fruits.png"]
           }
         ]

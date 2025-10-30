@@ -1,4 +1,6 @@
 <template>
+
+ 
 <div class="flex-auto">
  <div class="relative mx-auto p-5 border w-96 shadow-lg rounded-md bg-white mt-10 " 
  style="width: 410px; height: 400px;" >
@@ -21,6 +23,7 @@
             </tr>
         </thead>
         <tbody>
+        
             <tr>
             <td>Time Elapsed :</td>
             <th>{{Time_elapsed}}</th>
@@ -38,7 +41,9 @@
             <th>{{incorrect_Answers}}</th>
             </tr>
         </tbody>
-        </table></center><br>
+        </table>
+      
+      </center><br>
         <input type="submit" value="SUBMIT" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 mt-4 px-4 border
          border-blue-500 hover:border-transparent rounded" v-on:click="FinalResult()">
         </div>
@@ -59,10 +64,17 @@
 <script>
 export default ({
      name: 'resultPopup',
+    
      props: {
+      
       activity_Status: {
         type: String,
         required: true
+      }, 
+       resultData: { 
+        type: Object, 
+        default: () => ({}) 
+        
       },
       Time_elapsed: {
         type: Number,
@@ -92,15 +104,21 @@ export default ({
 
       },
         data() {
-      return {}
+       
+
+      return {
+      }
     },
     methods: {
       FinalResult() {
        this.$emit('FinalResult')
+      
       },
+      
       NextPracticeFun() {
        this.$emit('NextPracticeFun')
       },
+      
     }
 })
 </script>

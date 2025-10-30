@@ -1,0 +1,1 @@
+Maintenant l'exercice change cette fois, l'ascenseur commence sur un plancher et l'affichage vous montre, quel bouton a été poussé.

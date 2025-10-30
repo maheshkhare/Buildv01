@@ -1,0 +1,1 @@
+Vous cliquez sur le bouton qui déplacera l'ascenseur vers le plancher où la flèche blanche pointe.

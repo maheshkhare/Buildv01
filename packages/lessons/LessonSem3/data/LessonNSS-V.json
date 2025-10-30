@@ -419,12 +419,15 @@
     "QuestionImage": "L3-o10"
   },
 
+
+  
+
   {
     "index": 10,
     "QuestionArr_10": "Use first image to decode the words from first image to second image",
     "OptionArr_10":["Yellow Squeare ", "Pink Squeare","Black Squeare","Orange Squeare"],
     "AnswerArr_10": ["Yes", "","",""],
-    "ImageName": "L3-2",
+    "ImageName": "L3-3",
     "QuestionImage": "L3-o11"
   },
   {
@@ -432,7 +435,7 @@
     "QuestionArr_11": "Use first image to decode the words from first image to second image",
     "OptionArr_11":["Cyan Squeare ", "Pink Squeare","Black Squeare","Orange Squeare"],
     "AnswerArr_11": ["Yes", "" ,"",""],
-    "ImageName": "L3-2",
+    "ImageName": "L3-3",
     "QuestionImage": "L3-o12"
   },
   {

@@ -1,0 +1,1 @@
+C'est le même exercice qu'avant sauf maintenant 2 personnes ont appuyé sur les boutons avant vous. Ainsi, vous sélectionnez le bouton pour accéder au sol avec la flèche blanche. Après les 2 autres mouvements sont faits,

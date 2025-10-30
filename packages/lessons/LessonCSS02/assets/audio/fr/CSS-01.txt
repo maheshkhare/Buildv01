@@ -1,0 +1,1 @@
+Dans cet exercice, vous travaillerez avec un ascenseur dans un bâtiment.

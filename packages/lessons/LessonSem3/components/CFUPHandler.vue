@@ -63,8 +63,19 @@ export default {
       return this.questionData?.[this.currentIndex] || {};
     },
     suffix() {
-      return this.currentQuestion?.index?.toString().padStart(2, "0") || "01";
-    },
+    const index = this.currentQuestion?.index;
+    if (!index) return "01";
+
+    // 🔍 Auto-detect: if 3-digit keys exist in the current question
+    const hasThreeDigit = Object.keys(this.currentQuestion || {}).some((key) =>
+      key.includes(`QuestionArr_${index.toString().padStart(3, "0")}`)
+    );
+
+    return hasThreeDigit
+      ? index.toString().padStart(3, "0") // e.g. "010"
+      : index.toString().padStart(2, "0"); // e.g. "10" or "01"
+  },
+
     questionText() {
       return this.currentQuestion?.[`QuestionArr_${this.suffix}`] || "❓ Question not available.";
     },
@@ -88,25 +99,30 @@ export default {
       }
     },
 
-  handleImageClick(event) {
+ handleImageClick(event) {
   if (this.isTransitioning || this.currentIndex == null) return;
 
   const rect = event.target.getBoundingClientRect();
   const x = event.clientX - rect.left;
   const y = event.clientY - rect.top;
+  console.log(`Clicked at: (${x}, ${y})`);
 
   const result = this.checkCFUAnswer(this.currentQuestion, x, y);
 
   // ensure array exists
   if (!Array.isArray(this.storedClicks[this.currentIndex])) {
-    this.$set(this.storedClicks, this.currentIndex, []);
+    this.storedClicks = { ...this.storedClicks, [this.currentIndex]: [] };
   }
 
-  this.storedClicks[this.currentIndex].push({ x, y, isCorrect: result.isCorrect });
+  this.storedClicks[this.currentIndex].push({
+    x,
+    y,
+    isCorrect: result.isCorrect,
+  });
 
-  // track practice result
+  // ✅ use computed suffix here
   const questionId = this.currentIndex + 1;
-  const suf = this.currentQuestion.index?.toString().padStart(2, "0") || "01";
+  const suf = this.suffix;
   const correctAnswerArr = this.currentQuestion[`AnswerArr_${suf}`] || [];
 
   this.practiceList.push({
@@ -123,45 +139,74 @@ export default {
   else this.incorrect_Answers++;
   this.Questions_attempted++;
 
-  // auto-next after 1 second
+  // Emit per-click result popup
+  this.$emit("show-result-popup", result.isCorrect);
+
+  // Auto-next after 1s
   this.isTransitioning = true;
   setTimeout(() => {
     this.goNext();
     this.isTransitioning = false;
-    this.questionStartTime = Date.now();
   }, 1000);
 },
 
 
-    checkCFUAnswer(question, clickX, clickY) {
-      if (!question || !question.ranges) return { isCorrect: false, correctRange: null, clickedRange: null };
+checkCFUAnswer(question, clickX, clickY) {
+  if (!question || !question.ranges)
+    return { isCorrect: false, correctRange: null, clickedRange: null };
 
-      let clickedRange = null;
-      for (const [name, range] of Object.entries(question.ranges)) {
-        if (clickX >= range.x1 && clickX <= range.x2 && clickY >= range.y1 && clickY <= range.y2) {
-          clickedRange = name;
-          break;
-        }
-      }
+  let clickedRange = null;
+  for (const [name, range] of Object.entries(question.ranges)) {
+    if (
+      clickX >= range.x1 &&
+      clickX <= range.x2 &&
+      clickY >= range.y1 &&
+      clickY <= range.y2
+    ) {
+      clickedRange = name;
+      break;
+    }
+  }
 
-      const suf = question.index?.toString().padStart(2, "0") || "01";
-      const optionArr = question[`OptionArr_${suf}`] || [];
-      const answerArr = question[`AnswerArr_${suf}`] || [];
-      const correctIndex = answerArr.findIndex((a) => a === "Yes");
-      const correctRange = optionArr[correctIndex] || null;
-      const isCorrect = clickedRange === correctRange;
+  // ✅ use computed suffix instead of fixed 2-digit
+  const suf = this.suffix;
+  const optionArr = question[`OptionArr_${suf}`] || [];
+  const answerArr = question[`AnswerArr_${suf}`] || [];
+  const correctIndex = answerArr.findIndex((a) => a === "Yes");
+  const correctRange = optionArr[correctIndex] || null;
+  const isCorrect = clickedRange === correctRange;
 
-      return { isCorrect, correctRange, clickedRange };
-    },
+  return { isCorrect, correctRange, clickedRange };
+},
 
- goNext() {
+
+    // goNext() {
+    //   if (this.currentIndex < this.total - 1) {
+    //     this.$emit("next");
+    //     this.questionStartTime = Date.now();
+    //     return;
+    //   }
+
+    //   // last question -> show final result
+    //   this.resultData = {
+    //     summary: {
+    //       TotalQuestions: this.total,
+    //       CorrectAnswers: this.correct_Answers,
+    //       WrongAnswers: this.incorrect_Answers,
+    //     },
+    //     detailedResults: this.practiceList,
+    //   };
+    //   this.$emit("quiz-finished", JSON.parse(JSON.stringify(this.resultData)));
+    //   this.$emit("show-final-result-popup", this.resultData);
+    // },
+goNext() {
   if (this.currentIndex < this.total - 1) {
     this.$emit("next");
     this.questionStartTime = Date.now();
     return;
   }
 
-  // Last question — prepare and emit result
+  // Last question -> prepare final result
   this.resultData = {
     summary: {
       TotalQuestions: this.total,
@@ -171,10 +216,9 @@ export default {
     detailedResults: this.practiceList,
   };
 
-  console.log("✅ Emitting final CFU-P result:", this.resultData);
+  // Emit the result to parent
   this.$emit("quiz-finished", JSON.parse(JSON.stringify(this.resultData)));
 },
-
 
     goPrev() {
       if (this.currentIndex > 0) {
@@ -227,7 +271,7 @@ export default {
 .grid-image {
   width: 600px;
   border: 2px solid #e4b2ff;
-  cursor: crosshair;
+  cursor: pointer; /* 👈 changes crosshair to hand */
   border-radius: 10px;
 }
 .click-marker {

@@ -147,7 +147,7 @@
     {
       "index":2,
       "QuestionArr_02":"Find Number Pattern = 34",
-      "OptionArr_02": ["16","18","15","12"], 
+      "OptionArr_02": ["16","17","15","12"], 
       "AnswerArr_02": ["", "Yes","",""],
       "ImageName": "L4-3",
       "QuestionImage":"NA"
@@ -274,7 +274,7 @@
     {
       "index":2,
       "QuestionArr_02":"Find Number Pattern = 777",
-      "OptionArr_02": ["16","18","15","12"], 
+      "OptionArr_02": ["16","18","15","10"], 
       "AnswerArr_02": ["", "","","Yes"],
       "ImageName": "L7-3",
       "QuestionImage":"NA"
@@ -282,7 +282,7 @@
      {
       "index":3,
       "QuestionArr_03":"Find Number Pattern = 919",
-      "OptionArr_03": ["15","17","14","12"], 
+      "OptionArr_03": ["15","17","13","12"], 
       "AnswerArr_03": ["", "","","Yes"],
       "ImageName": "L7-4",
       "QuestionImage":"NA"
@@ -367,7 +367,7 @@
       "index":3,
       "QuestionArr_03":"Find Number Pattern = 402",
       "OptionArr_03": ["15","17","11","12"], 
-      "AnswerArr_03": ["", "","","Yes"],
+      "AnswerArr_03": ["", "","Yes",""],
       "ImageName": "L9-4",
       "QuestionImage":"NA"
     },
