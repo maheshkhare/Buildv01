@@ -405,7 +405,7 @@
      {
       "index": 10,
       "QuestionArr_10": "Use first image to decode the words from first image to second image",
-      "OptionArr_10": ["DEFC", "BEA", "ABCD", "GDE"],
+      "OptionArr_10": ["DEFC", "BEA", "DBCD", "GDE"],
       "AnswerArr_10": ["", "", "Yes", ""],
       "ImageName": "L2-1",
       "QuestionImage": "L2-o11"
@@ -541,7 +541,7 @@
       "index": 27,
       "QuestionArr_27": "Use first image to decode the words from first image to second image",
       "OptionArr_27": ["DFC", "EAR", "HALTS", "RAT"],
-      "AnswerArr_27": ["", "", "", "Yes"],
+      "AnswerArr_27": ["", "", "Yes", ""],
       "ImageName": "L2-2",
       "QuestionImage": "L2-o28"
     },
@@ -660,7 +660,7 @@
      {
       "index": 42,
       "QuestionArr_42": "Use first image to decode the words from first image to second image",
-      "OptionArr_42": ["ACINI", "CAGE", "BOAT", "RAT"],
+      "OptionArr_42": ["ACNII", "CAGE", "BOAT", "RAT"],
       "AnswerArr_42": ["Yes", "", "", ""],
       "ImageName": "L2-3",
       "QuestionImage": "L2-o43"
@@ -1288,14 +1288,6 @@
       "QuestionImage": "L3-o45"
     },
     {
-      "index": 45,
-      "QuestionArr_45": "Use first image to decode the words from first image to second image",
-      "OptionArr_45": ["DEGC", "RENT", "EDGF", "EARTH"],
-      "AnswerArr_45": ["", "Yes", "", ""],
-      "ImageName": "L3-4",
-      "QuestionImage": "L3-o46"
-    },
-    {
       "index": 46,
       "QuestionArr_46": "Use first image to decode the words from first image to second image",
       "OptionArr_46": ["DFC", "ATE", "CBG", "GDE"],
@@ -1311,14 +1303,7 @@
       "ImageName": "L3-4",
       "QuestionImage": "L3-o48"
     },
-    {
-      "index": 48,
-      "QuestionArr_48": "Use first image to decode the words from first image to second image",
-      "OptionArr_48": ["DEFC", "EARTH", "CATCH", "GDE"],
-      "AnswerArr_48": ["", "", "Yes", ""],
-      "ImageName": "L3-4",
-      "QuestionImage": "L3-o49"
-    },
+  
     {
       "index": 49,
       "QuestionArr_49": "Use first image to decode the words from first image to second image",

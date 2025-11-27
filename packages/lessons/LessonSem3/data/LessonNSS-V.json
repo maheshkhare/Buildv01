@@ -290,7 +290,7 @@
     {
         "index": 15,
         "QuestionArr_15": "Use first image to decode the words from first image to second image",
-        "OptionArr_15":  ["VI,V", "III,IV", "II,III", "VI,VII"],
+        "OptionArr_15":  ["IV,V", "III,IV", "II,III", "VI,VII"],
         "AnswerArr_15": ["Yes", "", "", ""],
         "ImageName": "L2-4",
         "QuestionImage": "L2-o16"
@@ -344,7 +344,7 @@
    {
     "index": 1,
     "QuestionArr_01": "Use first image to decode the words from first image to second image",
-    "OptionArr_01": ["Yellow Circle ", "Gray Circle","Black Circle","Orange Circle"],
+    "OptionArr_01": ["Yellow Circle ", "Grey Circle","Black Circle","Orange Circle"],
     "AnswerArr_01": ["", "Yes","",""],
     "ImageName": "L3-1",
     "QuestionImage": "L3-o2"
@@ -352,7 +352,7 @@
   {
     "index": 2,
     "QuestionArr_02": "Use first image to decode the words from first image to second image",
-    "OptionArr_02":["Yellow Circle ", "Pink Circle","Gray Circle","Orange Circle"],
+    "OptionArr_02":["Yellow Circle ", "Pink Circle","Grey Circle","Orange Circle"],
     "AnswerArr_02":  ["Yes", "","",""],
     "ImageName": "L3-1",
     "QuestionImage": "L3-o3"
@@ -381,7 +381,7 @@
     {
         "index": 5,
         "QuestionArr_05": "Use first image to decode the words from first image to second image",
-        "OptionArr_05": ["Yellow Triangle ", "cyan Triangle","Black Triangle","Orange Triangle"],
+        "OptionArr_05": ["Yellow Triangle ", "Red Triangle","Black Triangle","Orange Triangle"],
         "AnswerArr_05": ["", "Yes" ,"",""],
         "ImageName": "L3-2",
         "QuestionImage": "L3-o6"
@@ -402,14 +402,7 @@
     "ImageName": "L3-2",
     "QuestionImage": "L3-o8"
   },
-  {
-    "index": 8,
-    "QuestionArr_08": "Use first image to decode the words from first image to second image",
-    "OptionArr_08":["Yellow Triangle ", "Gray Triangle","Black Triangle","Orange Triangle"],
-    "AnswerArr_08": ["", "","Yes",""],
-    "ImageName": "L3-2",
-    "QuestionImage": "L3-o9"
-  },
+ 
   {
     "index": 9,
     "QuestionArr_09": "Use first image to decode the words from first image to second image",
@@ -425,7 +418,7 @@
   {
     "index": 10,
     "QuestionArr_10": "Use first image to decode the words from first image to second image",
-    "OptionArr_10":["Yellow Squeare ", "Pink Squeare","Black Squeare","Orange Squeare"],
+    "OptionArr_10":["Yellow square  ", "Pink square ","Black square ","Orange square "],
     "AnswerArr_10": ["Yes", "","",""],
     "ImageName": "L3-3",
     "QuestionImage": "L3-o11"
@@ -433,7 +426,7 @@
   {
     "index": 11,
     "QuestionArr_11": "Use first image to decode the words from first image to second image",
-    "OptionArr_11":["Cyan Squeare ", "Pink Squeare","Black Squeare","Orange Squeare"],
+    "OptionArr_11":["Cyan square  ", "Pink square ","Black square ","Orange square "],
     "AnswerArr_11": ["Yes", "" ,"",""],
     "ImageName": "L3-3",
     "QuestionImage": "L3-o12"
@@ -441,7 +434,7 @@
   {
     "index": 12,
     "QuestionArr_12": "Use first image to decode the words from first image to second image",
-    "OptionArr_12":["Yellow Squeare ", "Pink Squeare","Brown Squeare","Orange Squeare"],
+    "OptionArr_12":["Yellow square  ", "Pink square ","Brown square ","Orange square "],
     "AnswerArr_12": ["", "","Yes",""],
     "ImageName": "L3-3",
     "QuestionImage": "L3-o13"
@@ -449,7 +442,7 @@
   {
     "index": 13,
     "QuestionArr_13": "Use first image to decode the words from first image to second image",
-    "OptionArr_13":["Yellow Squeare ", "Pink Squeare","Black Squeare","White Squeare"],
+    "OptionArr_13":["Yellow square  ", "Pink square ","Black square ","White square "],
     "AnswerArr_13": ["", "","","Yes"],
     "ImageName": "L3-3",
     "QuestionImage": "L3-o14"
@@ -457,7 +450,7 @@
   {
     "index": 14,
     "QuestionArr_14": "Use first image to decode the words from first image to second image",
-    "OptionArr_14":["Red Squeare ", "Pink Squeare","Black Squeare","Orange Squeare"],
+    "OptionArr_14":["Red square  ", "Pink square ","Black square ","Orange square "],
     "AnswerArr_14": ["Yes", "" ,"",""],
     "ImageName": "L3-3",
     "QuestionImage": "L3-o15"
@@ -522,7 +515,7 @@
  {
     "index": 21,
     "QuestionArr_21": "Use first image to decode the words from first image to second image",
-    "OptionArr_21": ["Yellow Squeare ", "Pink Squeare","Black Squeare","White Squeare"],
+    "OptionArr_21": ["Yellow square  ", "Pink square ","Black square ","White square "],
     "AnswerArr_21": ["Yes", "" ,"",""],
     "ImageName": "L3-3",
     "QuestionImage": "L3-o22"
@@ -530,7 +523,7 @@
   {
     "index": 22,
     "QuestionArr_22": "Use first image to decode the words from first image to second image",
-    "OptionArr_22":["Yellow Squeare ", "Pink Squeare","Black Squeare","White Squeare"],
+    "OptionArr_22":["Yellow square  ", "Pink square ","Black square ","Red square "],
     "AnswerArr_22": ["", "" ,"","Yes"],
     "ImageName": "L3-3",
     "QuestionImage": "L3-o23"
@@ -538,7 +531,7 @@
   {
     "index": 23,
     "QuestionArr_23": "Use first image to decode the words from first image to second image",
-    "OptionArr_23":["Yellow Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_23":["Yellow square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_23":["", "Yes" ,"",""],
     "ImageName": "L3-3",
     "QuestionImage": "L3-o24"
@@ -563,7 +556,7 @@
   {
     "index": 1,
     "QuestionArr_01": "Use first image to decode the words from first image to second image",
-    "OptionArr_01":["Yellow Circle ", "Pink Circle","Black Circle","Cyan Circle"],
+    "OptionArr_01":["Yellow Circle ", "Grey Circle","Black Circle","Cyan Circle"],
     "AnswerArr_01": ["", "Yes" ,"",""],
     "ImageName": "L4-1",
     "QuestionImage": "L4-o2"
@@ -579,7 +572,7 @@
   {
     "index": 3,
     "QuestionArr_03": "Use first image to decode the words from first image to second image",
-    "OptionArr_03":["Yellow Circle ", "Blue Circle","Black Circle","Cyan Circle"],
+    "OptionArr_03":["Yellow Circle ", "Purple Circle","Black Circle","Cyan Circle"],
     "AnswerArr_03":["", "Yes" ,"",""],
     "ImageName": "L4-1",
     "QuestionImage": "L4-o4"
@@ -643,7 +636,7 @@
   {
     "index": 10,
     "QuestionArr_10": "Use first image to decode the words from first image to second image",
-    "OptionArr_10":["Yellow Squeare ", "Red Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_10":["Yellow square  ", "Red square ","Black square ","Cyan square "],
     "AnswerArr_10": ["", "Yes" ,"",""],
     "ImageName": "L4-3",
     "QuestionImage": "L4-o11"
@@ -651,7 +644,7 @@
   {
     "index": 11,
     "QuestionArr_11": "Use first image to decode the words from first image to second image",
-    "OptionArr_11": ["Green Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_11": ["Green square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_11": ["Yes", "" ,"",""],
     "ImageName": "L4-3",
     "QuestionImage": "L4-o12"
@@ -659,7 +652,7 @@
   {
     "index": 12,
     "QuestionArr_12": "Use first image to decode the words from first image to second image",
-    "OptionArr_12":["Yellow Squeare ", "Red Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_12":["Yellow square  ", "Red square ","Black square ","Cyan square "],
     "AnswerArr_12":["", "Yes" ,"",""],
     "ImageName": "L4-3",
     "QuestionImage": "L4-o13"
@@ -667,7 +660,7 @@
   {
     "index": 13,
     "QuestionArr_13": "Use first image to decode the words from first image to second image",
-    "OptionArr_13":["Yellow Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_13":["Brown square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_13": ["Yes", "" ,"",""],
     "ImageName": "L4-3",
     "QuestionImage": "L4-o14"
@@ -675,7 +668,7 @@
    {
     "index": 14,
     "QuestionArr_14": "Use first image to decode the words from first image to second image",
-    "OptionArr_14":["Green Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_14":["Green square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_14": ["Yes", "" ,"",""],
     "ImageName": "L4-3",
     "QuestionImage": "L4-o15"
@@ -683,7 +676,7 @@
    {
     "index": 15,
     "QuestionArr_15": "Use first image to decode the words from first image to second image",
-    "OptionArr_15":["Red Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_15":["Red square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_15": ["Yes", "" ,"",""],
     "ImageName": "L4-3",
     "QuestionImage": "L4-o16"
@@ -710,7 +703,7 @@
   {
     "index": 2,
     "QuestionArr_02": "Use first image to decode the words from first image to second image",
-    "OptionArr_02": ["Yellow Circle ", "Pink Circle","Gray Circle","Cyan Circle"],
+    "OptionArr_02": ["Yellow Circle ", "Pink Circle","Grey Circle","Cyan Circle"],
     "AnswerArr_02": ["", "","Yes",""],
     "ImageName": "L5-1",
     "QuestionImage": "L5-o3"
@@ -762,7 +755,7 @@
    {
     "index": 8,
     "QuestionArr_08": "Use first image to decode the words from first image to second image",
-    "OptionArr_08": ["Purple Triangle ", "Yellow Triangle","Black Triangle","Orange Triangle"],
+    "OptionArr_08": ["Purple Triangle ", "Cyan Triangle","Black Triangle","Orange Triangle"],
     "AnswerArr_08":  ["","Yes","", ""],
     "ImageName": "L5-2",
     "QuestionImage": "L5-o9"
@@ -770,7 +763,7 @@
   {
     "index": 9,
     "QuestionArr_09": "Use first image to decode the words from first image to second image",
-    "OptionArr_09":["Cyan Triangle ", "Yellow Triangle","Black Triangle","Orange Triangle"],
+    "OptionArr_09":["Medium Blue Triangle ", "Yellow Triangle","Black Triangle","Orange Triangle"],
     "AnswerArr_09": ["Yes","","", ""],
     "ImageName": "L5-2",
     "QuestionImage": "L5-o10"
@@ -778,7 +771,7 @@
   {
     "index": 10,
     "QuestionArr_10": "Use first image to decode the words from first image to second image",
-    "OptionArr_10":["Purple Triangle ", "Cyan Triangle","Black Triangle","Orange Triangle"],
+    "OptionArr_10":["Purple Triangle ", "Blue Triangle","Black Triangle","Orange Triangle"],
     "AnswerArr_10":  ["","Yes","", ""],
     "ImageName": "L5-2",
     "QuestionImage": "L5-o11"
@@ -802,7 +795,7 @@
   {
     "index": 13,
     "QuestionArr_13": "Use first image to decode the words from first image to second image",
-    "OptionArr_13":["Purple Triangle ", "Yellow Triangle","Black Triangle","Orange Triangle"],
+    "OptionArr_13":["Purple Triangle ", "Yellow Triangle","Red Triangle","Orange Triangle"],
     "AnswerArr_13": ["", "","Yes",""],
     "ImageName": "L5-2",
     "QuestionImage": "L5-o14"
@@ -818,7 +811,7 @@
   {
     "index": 15,
     "QuestionArr_15": "Use first image to decode the words from first image to second image",
-    "OptionArr_15": ["Purple Triangle ", "Yellow Triangle","Black Triangle","Orange Triangle"],
+    "OptionArr_15": ["Purple Triangle ", "Green Triangle","Black Triangle","Orange Triangle"],
     "AnswerArr_15": ["", "Yes","",""],
     "ImageName": "L5-2",
     "QuestionImage": "L5-o16"
@@ -828,7 +821,7 @@
    {
     "index": 16,
     "QuestionArr_16": "Use first image to decode the words from first image to second image",
-    "OptionArr_16": ["Red Squeare ", "Yellow Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_16": ["Red square  ", "Yellow square ","Black square ","Cyan square "],
     "AnswerArr_16":  ["", "Yes","",""],
     "ImageName": "L5-3",
     "QuestionImage": "L5-o17"
@@ -836,7 +829,7 @@
   {
     "index": 17,
     "QuestionArr_17": "Use first image to decode the words from first image to second image",
-    "OptionArr_17":["Red Squeare ", "White Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_17":["Red square  ", "White square ","Black square ","Cyan square "],
     "AnswerArr_17":  ["", "Yes","",""],
     "ImageName": "L5-3",
     "QuestionImage": "L5-o18"
@@ -844,7 +837,7 @@
   {
     "index": 18,
     "QuestionArr_18": "Use first image to decode the words from first image to second image",
-    "OptionArr_18":["Red Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_18":["Red square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_18":  ["Yes", "","",""],
     "ImageName": "L5-3",
     "QuestionImage": "L5-o19"
@@ -852,7 +845,7 @@
   {
     "index": 19,
     "QuestionArr_19": "Use first image to decode the words from first image to second image",
-    "OptionArr_19":["Red Squeare ", "Green Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_19":["Red square  ", "Green square ","Black square ","Cyan square "],
     "AnswerArr_19": ["", "Yes","",""],
     "ImageName": "L5-3",
     "QuestionImage": "L5-o20"
@@ -860,7 +853,7 @@
   {
     "index": 20,
     "QuestionArr_20": "Use first image to decode the words from first image to second image",
-    "OptionArr_20": ["Red Squeare ", "Yellow Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_20": ["Red square  ", "Yellow square ","Black square ","Cyan square "],
     "AnswerArr_20":  ["", "Yes","",""],
     "ImageName": "L5-3",
     "QuestionImage": "L5-o21"
@@ -868,7 +861,7 @@
   {
     "index": 21,
     "QuestionArr_21": "Use first image to decode the words from first image to second image",
-    "OptionArr_21": ["Red Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_21": ["Red square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_21":  ["", "","","Yes  "],
     "ImageName": "L5-3",
     "QuestionImage": "L5-o22"
@@ -876,7 +869,7 @@
   {
     "index": 22,
     "QuestionArr_22": "Use first image to decode the words from first image to second image",
-    "OptionArr_22": ["Red Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_22": ["Red square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_22":  ["", "Yes","",""],
     "ImageName": "L5-3",
     "QuestionImage": "L5-o23"
@@ -884,7 +877,7 @@
   {
     "index": 23,
     "QuestionArr_23": "Use first image to decode the words from first image to second image",
-    "OptionArr_23": ["Red Squeare ", "Medium blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_23": ["Red square  ", "Medium blue square ","Black square ","Cyan square "],
     "AnswerArr_23":  ["", "Yes","",""],
     "ImageName": "L5-3",
     "QuestionImage": "L5-o24"
@@ -935,7 +928,7 @@
   {
     "index": 5,
     "QuestionArr_05": "Use first image to decode the words from first image to second image",
-    "OptionArr_05": ["Yellow Circle ", "Pink Circle","Gray Circle","Cyan Circle"],
+    "OptionArr_05": ["Yellow Circle ", "Pink Circle","Grey Circle","Cyan Circle"],
     "AnswerArr_05": ["","","Yes", ""],
     "ImageName": "L6-1",
     "QuestionImage": "L6-o6"
@@ -1030,7 +1023,7 @@
   {
     "index": 16,
     "QuestionArr_16": "Use first image to decode the words from first image to second image",
-    "OptionArr_16": ["Red Squeare ", "Yellow Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_16": ["Red square  ", "Yellow square ","Black square ","Cyan square "],
     "AnswerArr_16":  ["Yes", "","",""],
     "ImageName": "L6-3",
     "QuestionImage": "L6-o17"
@@ -1038,7 +1031,7 @@
   {
     "index": 17,
     "QuestionArr_17": "Use first image to decode the words from first image to second image",
-    "OptionArr_17":["Red Squeare ", "Medium blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_17":["Red square  ", "Medium blue square ","Black square ","Cyan square "],
     "AnswerArr_17":  ["", "Yes","",""],
     "ImageName": "L6-3",
     "QuestionImage": "L6-o18"
@@ -1046,7 +1039,7 @@
   {
     "index": 18,
     "QuestionArr_18": "Use first image to decode the words from first image to second image",
-    "OptionArr_18":["Brown Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_18":["Brown square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_18":  ["Yes", "","",""],
     "ImageName": "L6-3",
     "QuestionImage": "L6-o19"
@@ -1054,7 +1047,7 @@
   {
     "index": 19,
     "QuestionArr_19": "Use first image to decode the words from first image to second image",
-    "OptionArr_19":["Red Squeare ", "Medium blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_19":["Red square  ", "Medium blue square ","Black square ","Cyan square "],
     "AnswerArr_19": ["", "Yes","",""],
     "ImageName": "L6-3",
     "QuestionImage": "L6-o20"
@@ -1062,7 +1055,7 @@
   {
     "index": 20,
     "QuestionArr_20": "Use first image to decode the words from first image to second image",
-    "OptionArr_20": ["Red Squeare ", "Yellow Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_20": ["Red square  ", "Yellow square ","Black square ","Cyan square "],
     "AnswerArr_20":  ["", "Yes","",""],
     "ImageName": "L6-3",
     "QuestionImage": "L6-o21"
@@ -1070,7 +1063,7 @@
   {
     "index": 21,
     "QuestionArr_21": "Use first image to decode the words from first image to second image",
-    "OptionArr_21": ["Red Squeare ", "Blue Squeare","Black Squeare","Green Squeare"],
+    "OptionArr_21": ["Red square  ", "Blue square ","Black square ","Green square "],
     "AnswerArr_21":  ["", "","","Yes  "],
     "ImageName": "L6-3",
     "QuestionImage": "L6-o22"
@@ -1078,7 +1071,7 @@
   {
     "index": 22,
     "QuestionArr_22": "Use first image to decode the words from first image to second image",
-    "OptionArr_22": ["Red Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_22": ["Red square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_22":  ["", "","","Yes"],
     "ImageName": "L6-3",
     "QuestionImage": "L6-o23"
@@ -1086,7 +1079,7 @@
   {
     "index": 23,
     "QuestionArr_23": "Use first image to decode the words from first image to second image",
-    "OptionArr_23": ["Red Squeare ", "Blue Squeare","Black Squeare","Cyan Squeare"],
+    "OptionArr_23": ["Red square  ", "Blue square ","Black square ","Cyan square "],
     "AnswerArr_23":  ["", "Yes","",""],
     "ImageName": "L6-3",
     "QuestionImage": "L6-o24"
@@ -1121,7 +1114,7 @@
   {
     "index": 3,
     "QuestionArr_03": "Use first image to decode the words from first image to second image",
-    "OptionArr_03":["Yellow Circle ", "Pink Circle","Black Circle","Green Circle"],
+    "OptionArr_03":["Yellow Circle ", "Orange Circle","Black Circle","Green Circle"],
     "AnswerArr_03":  ["", "Yes","",""],
     "ImageName": "L7-1",
     "QuestionImage": "L7-o4"
@@ -1137,7 +1130,7 @@
   {
     "index": 5,
     "QuestionArr_05": "Use first image to decode the words from first image to second image",
-    "OptionArr_05":["Gray Circle ", "Pink Circle","Black Circle","Orange Circle"],
+    "OptionArr_05":["Grey Circle ", "Pink Circle","Black Circle","Orange Circle"],
     "AnswerArr_05": ["Yes", "" ,"",""],
     "ImageName": "L7-1",
     "QuestionImage": "L7-o6"
@@ -1153,7 +1146,7 @@
   {
     "index": 7,
     "QuestionArr_07": "Use first image to decode the words from first image to second image",
-    "OptionArr_07":["Red Circle ", "Pink Circle","Black Circle","Cyan Circle"],
+    "OptionArr_07":["Red Circle ", "Orange Circle","Black Circle","Cyan Circle"],
     "AnswerArr_07": ["", "Yes","",""],
     "ImageName": "L7-1",
     "QuestionImage": "L7-o8"
@@ -1161,7 +1154,7 @@
   {
     "index": 8,
     "QuestionArr_08": "Use first image to decode the words from first image to second image",
-    "OptionArr_08":["Yellow Circle ", "Gray Circle","Green Circle","Orange Circle"],
+    "OptionArr_08":["Yellow Circle ", "Grey Circle","Green Circle","Orange Circle"],
     "AnswerArr_08": ["", "","Yes",""],
     "ImageName": "L7-1",
     "QuestionImage": "L7-o9"
@@ -1207,7 +1200,7 @@
   {
     "index": 13,
     "QuestionArr_13": "Use first image to decode the words from first image to second image",
-    "OptionArr_13":["Cyan Triangle ", "Pink Triangle","Black Triangle","Orange Triangle"],
+    "OptionArr_13":["Green Triangle ", "Pink Triangle","Black Triangle","Orange Triangle"],
     "AnswerArr_13": ["Yes", "","",""],
     "ImageName": "L7-2",
     "QuestionImage": "L7-o14"
@@ -1247,7 +1240,7 @@
    {
     "index": 18,
     "QuestionArr_18": "Use first image to decode the words from first image to second image",
-    "OptionArr_18":["Purple Triangle ", "Pink Triangle","Cyan Triangle","Orange Triangle"],
+    "OptionArr_18":["Purple Triangle ", "Pink Triangle","Green Triangle","Orange Triangle"],
     "AnswerArr_18":["", "" ,"Yes",""],
     "ImageName": "L7-2",
     "QuestionImage": "L7-o19"
@@ -1265,7 +1258,7 @@
   {
    "index": 20,
     "QuestionArr_20": "Use first image to decode the words from first image to second image",
-    "OptionArr_20": ["Purple Square ", "Blue Square","Cyan Square","Orange Square"],
+    "OptionArr_20": ["Red square", "Blue Square","Cyan Square","Orange Square"],
     "AnswerArr_20": ["", "Yes" ,"",""],
     "ImageName":"L7-3",
     "QuestionImage": "L7-o21"
@@ -1274,7 +1267,7 @@
   {
     "index": 21,
     "QuestionArr_21": "Use first image to decode the words from first image to second image",
-    "OptionArr_21": ["Purple Square", "Green Square", "Brown Square", "Orange Square"],
+    "OptionArr_21": ["Purple Square", "Green Square", "Yellow square ", "Orange Square"],
     "AnswerArr_21": ["", "", "Yes", ""],
     "ImageName": "L7-3",
     "QuestionImage": "L7-o22"
@@ -1282,7 +1275,7 @@
   {
     "index": 22,
     "QuestionArr_22": "Use first image to decode the words from first image to second image",
-    "OptionArr_22": ["Pink Square", "White Squeare", "Yellow Square", "Green Square"],
+    "OptionArr_22": ["Pink Square", "White square ", "Yellow Square", "Green Square"],
     "AnswerArr_22": ["", "Yes", "", ""],
     "ImageName": "L7-3",
     "QuestionImage": "L7-o23"
@@ -1390,7 +1383,7 @@
   {
     "index": 5,
     "QuestionArr_05": "Use first image to decode the words from first image to second image",
-    "OptionArr_05": ["H", "A", "G", "H"],
+    "OptionArr_05": ["H", "A", "G", "D"],
     "AnswerArr_05": ["Yes", "" ,"",""],
     "ImageName": "L8-1",
     "QuestionImage": "L8-o6"
@@ -1511,7 +1504,7 @@
     "QuestionArr_18": "Use first image to decode the words from first image to second image",
     "OptionArr_18":["c3", "g7", "a1", "d4"],
     "AnswerArr_18":["Yes", "" ,"",""],
-    "ImageName": "L8-2",
+    "ImageName": "L8-3",
     "QuestionImage": "L8-o19"
   },
   {
@@ -1519,7 +1512,7 @@
     "QuestionArr_19": "Use first image to decode the words from first image to second image",
     "OptionArr_19":["c3", "g7", "a1", "d4"],
     "AnswerArr_19": ["", "Yes" ,"",""],
-    "ImageName": "L8-2",
+    "ImageName": "L8-3",
     "QuestionImage": "L8-o20"
   },
    {

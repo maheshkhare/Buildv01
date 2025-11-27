@@ -3,9 +3,15 @@
 <div class="flex-container">
     <div class="grid grid-cols-1 -ml-10" style="border:0px; width: 100%; ">
 
-        <ImageHeader :imageName="ImageNames" :fileName="file_Name" />
+        <ImageHeader 
+            v-if="shouldShowImageHeader" 
+            :imageName="ImageNames" 
+            :fileName="file_Name" />
 
-        <InstructionText :text="instructionText" />
+        <InstructionText :text="computedInstructionText" />
+
+        <!-- ✅ Render all other components only after 5 sec -->
+    <template  v-if="file_Name !== 'MFU-P' && file_Name !== 'MFU-I' && file_Name !== 'MFR-II' || !showImageHeader">
 
         <!-- ✅ IF file_Name == 'EFU-I' use multi-cols -->
         <AnswerOptionsGrid :items="file_Name === 'EFU-I' ? commonNumArray : internalArray" :mode="file_Name" :onAnswer="WordsAnswer" :disableSelection="disableSelection" />
@@ -18,7 +24,7 @@
         <QuestionControls :counter="counter" :totalQuestions="Total_Questions" @previous="PreviousQuestion" />
 
         <SaveExitButton @save-and-exit="handleSaveAndExit" />
-
+ </template >
     </div>
 </div>
 </template>
@@ -34,6 +40,7 @@ import AnswerCheckButton from '../../../common-generic-templates/AnswerCheckButt
 import NextQuestionButton from '../../../common-generic-templates/NextQuestionButton.vue';
 import QuestionControls from '../../../common-generic-templates/QuestionControls.vue';
 import SaveExitButton from '../../../common-generic-templates/SaveExitButton.vue';
+// import { InstructionConstants } from '../../../common-js/constants.js';
 
 export default {
     name: 'SectionSem2Top',
@@ -65,7 +72,8 @@ export default {
             matched: [],
             file_Name: sessionStorage.getItem('jsonFile') || 'lessonCFS-I',
             internalArray: [],
-            disableSelection: false
+            disableSelection: false,
+            showImageHeader: true // initially show header only
         };
     },
 
@@ -83,11 +91,49 @@ export default {
             deep: true,
             immediate: true,
         },
+        counter() {
+        this.startImageHeaderTimer();
+        }
     },
 
-    mounted() {},
+   computed: {
+        computedInstructionText() {
+            // MFU-P: show its header text when header visible
+                if (this.file_Name === 'MFU-P' || this.file_Name === 'MFU-I' && this.showImageHeader) {
+                    return InstructionConstants.MFUP_HEADER;
+            }
+
+                // MFR-II: show its header text when header visible
+                if (this.file_Name === 'MFR-II' && this.showImageHeader) {
+                    return InstructionConstants.MFRII_HEADER;
+            }
+        // otherwise normal incoming instruction
+        return this.instructionText;
+        },
+        shouldShowImageHeader() {
+            // ✅ MFU-P: show only while timer is active
+            if (this.file_Name === 'MFU-P' || this.file_Name === 'MFU-I' || this.file_Name === 'MFR-II') {
+            return this.showImageHeader;
+            }
+            // ✅ All other activities: always show
+            return true;
+        }
+  },
+
+    mounted() {
+        this.startImageHeaderTimer();
+    },
 
     methods: {
+        startImageHeaderTimer() {
+            // show the ImageHeader first
+            this.showImageHeader = true;
+            // hide it after 10 seconds
+            setTimeout(() => {
+                this.showImageHeader = false;
+            }, 30000);
+         },
+
         handleSaveAndExit() {
             this.$emit('save-and-exit');
         },
@@ -101,6 +147,7 @@ export default {
         NextQuestion(index) {
             this.disableSelection = false; // 🔹 enable clicks again when going forward
             this.$emit('NextQuestion', index);
+             this.startImageHeaderTimer();
         },
         PreviousQuestion() {
              this.disableSelection = true; // 🔹 disable clicks

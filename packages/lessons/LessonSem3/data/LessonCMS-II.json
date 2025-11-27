@@ -563,7 +563,7 @@
 
     {
       "index": 8,
-      "QuestionArr_08": "Go to the upper left-hand corner and get the middle word from the first row. Then, take that word to the lower right-hand corner and insert it into the first figure in the top row where it belongs.",
+      "QuestionArr_08": "Go to the upper left-hand corner and get the middle word from the first row. Then, take that word to the lower right-hand corner and insert it into the first figure in the top row. Name the figure chosen for placing the word.",
       "OptionArr_08": ["75", "Rectangle", "a", "BIT"],
       "AnswerArr_08": ["", "Yes", "", ""],
       "ImageName": "L2-9",
@@ -847,7 +847,7 @@
 
     {
       "index": 12,
-      "QuestionArr_12": "Go to the lower left-hand corner; get the second number in the third row Take second digit of that number and go to the lower right-hand corner and find a second figure that has that many sides  In which row is that figure? ____",
+      "QuestionArr_12": "Go to the lower left-hand corner; get the second number in the third row. Use this digit as the number of sides, then go to the lower right-hand corner and find the second figure that has that many sides. In which row is that figure? ____",
       "OptionArr_12":["1st", "3rd", "2nd", "4th"],
       "AnswerArr_12": ["Yes", "", "", ""],
       "ImageName": "L3-13",
@@ -895,7 +895,7 @@
 
     {
       "index": 16,
-      "QuestionArr_16": "Go to the lower left-hand corner; get the second number in the third row  Take that number to the lower right-hand corner and find a second figure that has that many sides In which row is that figure? ____",
+      "QuestionArr_16": "Go to the lower left-hand corner; get the second number in the third row. Take that number to the lower right-hand corner and find the row in which there are figures with that many sides? ____",
       "OptionArr_16": ["1", "3", "7", "4"],
       "AnswerArr_16": ["Yes", "", "", ""],
       "ImageName": "L3-17",
@@ -992,7 +992,7 @@
     {
       "index": 4,
       "QuestionArr_04": "Go to the upper left; get the second word in the third row  What letter does it begin with? Find that letter in the upper right  Which column is it in? ____ What row is it in? ____?",
-      "OptionArr_04": ["5,3", "2,5", "2,1", "1,5"],
+      "OptionArr_04": ["3,5", "2,5", "2,1", "1,5"],
       "AnswerArr_04": ["Yes", "", "", ""],
       "ImageName": "L4-5",
       "ImageName2": "L4-6",
@@ -1097,7 +1097,7 @@
     },
     {
       "index": 13,
-      "QuestionArr_13": "Go to the lower left; get the last number in the last row  What numeral does it end with? Take that number to the lower right  Find a figure with that many sides What row is it in? ____ What column is it in? ____",
+      "QuestionArr_13": "Go to the lower left; get the last number in the last row. What numeral does it end with? Take that number to the lower right Find a figure with that many sides What row is it in? ____ What column is it in? ____",
       "OptionArr_13": ["2,2", "3,3", "2,3", "3,2"],
       "AnswerArr_13": ["", "", "", "Yes"],
        "ImageName": "L4-13",
@@ -1572,7 +1572,7 @@
     {
       "index": 13,
       "QuestionArr_13": "Go to the lower left; find the third number in the fourth row  What number is it? Go to the upper right  Use the first numeral to count down that number of rows  Use the second numeral to count over that number of columns  What letter do you find? Go to the upper left  Find the word that begins with that letter  What is the word? __________",
-      "OptionArr_13": ["wig", "bat", "ask", "cat"],
+      "OptionArr_13": ["wig", "lump", "ask", "cat"],
       "AnswerArr_13": ["", "Yes", "", ""],
       "ImageName": "L6-17",
       "ImageName2": "L6-18",
@@ -1634,8 +1634,8 @@
 
     {
       "index": 3,
-      "QuestionArr_03": "Go to the lower right; find the second figure in the third row  How many sides does it have? Find the third figure in the first row  How many sides does it have? What are the two numbers when added together? Go to the upper left  Find that number among the words  What row is it in? ____ What column is it in? ____",
-      "OptionArr_03": ["4,4", "4,3", "2,4", "1,5"],
+      "QuestionArr_03": "Go to the lower right; find the second figure in the third row  How many sides does it have? Find the third figure in the first row  How many sides does it have? What are the two numbers when added together? Go to the lower left Find that number in the grid, What row is it in? ____ What column is it in? ____",
+      "OptionArr_03": ["4,4", "5,5", "2,4", "1,5"],
       "AnswerArr_03": ["", "Yes", "", ""],
       "ImageName": "L7-5",
       "ImageName2": "L7-6",
@@ -1657,8 +1657,8 @@
     },
     {
       "index": 5,
-      "QuestionArr_05": "Go to the upper left; find the fourth word in the first row  What is the last letter in that word? Go to the upper right; find that letter  Take that letter to the lower left  First number in the lower left begins with that letter  What number is it? What row is it in? ____ What column is it in? ____",
-      "OptionArr_05": ["2,5", "2,1", "1 4", "5,4"],
+      "QuestionArr_05": "Go to the upper left; find the fourth word in the first row  What is the last letter in that word? Go to the upper right; find that letter  Take that letter to the lower left,  First number in the Second row begins with that letter  What number is it? What row is it in? ____ What column is it in? ____",
+      "OptionArr_05": ["2,5", "2,1", "1,4", "5,4"],
       "AnswerArr_05": ["", "Yes", "", ""],
       "ImageName": "L7-5",
       "ImageName2": "L7-6",
@@ -1694,7 +1694,7 @@
     },
     {
       "index": 8,
-      "QuestionArr_08": "Go to the upper left; find the third word in the first row  What is the last letter in that word?Go to the upper right; find that letter  Take that letter to the lower left  One number in the lower left begins with that letter  What number is it? What row is it in? ____ What column is it in? ____",
+      "QuestionArr_08": "Go to the upper left; find the third word in the first row  What is the last letter in that word?Go to the upper right; find that letter  Take that letter to the lower left  First number in the lower left begins with that letter  What number is it? What row is it in? ____ What column is it in? ____",
       "OptionArr_08": ["2,6", "1,2", "5,1", "1,4"],
       "AnswerArr_08": ["", "Yes", "", ""],
        "ImageName": "L7-9",
@@ -1730,7 +1730,7 @@
     },
     {
       "index": 11,
-      "QuestionArr_11": "Go to the upper left; find the fourth word in the first row  What is the last letter in that word? Go to the upper right; find that letter  Take that letter to the lower left  One number in the lower left begins with that letter  What number is it? ____ What row is it in? ____ What column is it in? ____",
+      "QuestionArr_11": "Go to the upper left; find the fourth word in the first row  What is the last letter in that word? Go to the upper right; find that letter  Take that letter to the lower left  First number in the lower left begins with that letter  What number is it? ____ What row is it in? ____ What column is it in? ____",
       "OptionArr_11": ["1,3", "3,4", "4,5", "2,1"],
       "AnswerArr_11": ["", "", "", "Yes"],
       "ImageName": "L7-13",
@@ -1766,7 +1766,7 @@
     },
     {
       "index": 14,
-      "QuestionArr_14": "Go to the upper left; find the last word in the first row  What is the last letter in that word? Go to the upper right; find that letter  Take that letter to the lower left  One number in the lower left begins with that letter  What number is it? ____ What row is it in? ____ What column is it in? ____",
+      "QuestionArr_14": "Go to the upper left; find the last word in the first row  What is the last letter in that word? Go to the upper right; find that letter  Take that letter to the lower left  First number in the lower left begins with that letter  What number is it? ____ What row is it in? ____ What column is it in? ____",
       "OptionArr_14": ["2,4", "1,2", "5,3", "1,3"],
       "AnswerArr_14": ["", "Yes", "", ""],
      "ImageName": "L7-17",
@@ -1903,7 +1903,7 @@
     {
       "index": 11,
       "QuestionArr_11": "Go to the upper right; find the letter two spaces below G, what row and column is it? ________",
-      "OptionArr_11": ["2", "5", "3", "4"],
+      "OptionArr_11": ["4,2", "2,5", "3,1", "4,4"],
       "AnswerArr_11": ["Yes", "", "", ""],
       "ImageName": "L7-1",
       "ImageName2": "L7-2",
@@ -2016,9 +2016,9 @@
     },
     {
       "index": 21,
-      "QuestionArr_21": "Go to the lower left; find the row where second numeral is smaler than first  What is the last number in that row? ____",
+      "QuestionArr_21": "Go to the lower left; find the row where all numbers second numeral is smaller than first. What is the first row with this sequence.Find the last number in that row? ____",
       "OptionArr_21": ["74", "95", "80", "14"],
-      "AnswerArr_21": ["", "Yes", "", ""],
+      "AnswerArr_21": ["", "", "Yes", ""],
      "ImageName": "L7-5",
       "ImageName2": "L7-6",
       "ImageName3": "L7-7",
@@ -2108,7 +2108,7 @@
     {
       "index": 29,
       "QuestionArr_29": "Go to the lower left; find the first number in the second row  What other number is this number reversed? List the row and column  ____ ____",
-      "OptionArr_29": ["4", "3", "5", "2"],
+      "OptionArr_29": ["4,2", "3,3", "2,5", "5,2"],
       "AnswerArr_29": ["Yes", "", "", ""],
       "ImageName": "L7-9",
       "ImageName2": "L7-10",
@@ -2119,7 +2119,7 @@
     {
       "index": 30,
       "QuestionArr_30": "Go to the upper left; find the first word in the third row  What word in the same row has the same last two letters? __________",
-      "OptionArr_30": ["HOT", "TELL", "LAP", "SAP"],
+      "OptionArr_30": ["cot", "tell", "lap", "sap"],
       "AnswerArr_30": ["Yes", "", "", ""],
       "ImageName": "L7-9",
       "ImageName2": "L7-10",
@@ -2151,8 +2151,8 @@
     },
     {
       "index": 33,
-      "QuestionArr_33": "Go to the lower left; find the row where second numeral is greater than first  What is the last number in that row? ____",
-      "OptionArr_33": ["90", "33", "84", "64"],
+      "QuestionArr_33": "Go to the lower left; find the row where all numbers have second numeral greater than first  What is the last number in that row? ____",
+      "OptionArr_33": ["35", "33", "84", "64"],
       "AnswerArr_33": ["Yes", "", "", ""],
      "ImageName": "L7-9",
       "ImageName2": "L7-10",
@@ -2287,7 +2287,7 @@
     {
       "index": 45,
       "QuestionArr_45": "Go to the lower left; find the row where second numeral is greater than first  What is the last number in that row? ____",
-      "OptionArr_45": ["95", "5", "95", "74"],
+      "OptionArr_45": ["95", "5", "80", "74"],
       "AnswerArr_45": ["", "", "Yes", ""],
      "ImageName": "L7-13",
       "ImageName2": "L7-14",
@@ -2333,7 +2333,7 @@
     {
       "index": 49,
       "QuestionArr_49": "Go to the upper left; find the fourth word in the fifth row  __________",
-      "OptionArr_49": ["F", "bed", "E", "T"],
+      "OptionArr_49": ["one", "kit", "dig", "rug"],
       "AnswerArr_49": ["", "Yes", "", ""],
       "ImageName": "L7-13",
       "ImageName2": "L7-14",
@@ -2355,7 +2355,7 @@
     {
       "index": 51,
       "QuestionArr_51": "Go to the lower left; find the nineth number  ____",
-      "OptionArr_51": ["11", "90", "9", "7"],
+      "OptionArr_51": ["81", "90", "9", "7"],
       "AnswerArr_51": ["Yes", "", "", ""],
        "ImageName": "L7-13",
       "ImageName2": "L7-14",
@@ -2365,7 +2365,7 @@
     },
     {
       "index": 52,
-      "QuestionArr_52": "Go to the lower right; find the last figure in the second row  Find the figure with a similar shape  List the row and column  ____ ____",
+      "QuestionArr_52": "Go to the lower right; find the last figure in the second row,  how many sides does it have multiply that sides by 2  Find the figure with that much of sizes ?  List the row and column of that figure  ____ ____",
       "OptionArr_52": ["2,2", "3,1", "2,1", "1,2"],
       "AnswerArr_52": ["Yes", "", "", ""],
        "ImageName": "L7-13",
@@ -2376,8 +2376,8 @@
     },
     {
       "index": 53,
-      "QuestionArr_53": "Go to the lower left; find the first number in the second row  What other number is this number reversed? List the row and column  ____ ____",
-      "OptionArr_53": ["4,2", "3,4", "4,4", "2,4"],
+      "QuestionArr_53": "Go to the lower left; find the first number in the second row. Reverse this number and substract with last number in the last row? List the row and column  ____ ____",
+      "OptionArr_53": ["2,3", "3,4", "4,4", "2,4"],
       "AnswerArr_53": ["Yes", "", "", ""],
        "ImageName": "L7-13",
       "ImageName2": "L7-14",
@@ -2421,7 +2421,7 @@
     {
       "index": 57,
       "QuestionArr_57": "Go to the lower left; find the row where second numeral is greater than first  What is the last number in that row? ____",
-      "OptionArr_57": ["61", "90", "37", "84"],
+      "OptionArr_57": ["61", "80", "37", "84"],
       "AnswerArr_57": ["", "Yes", "", ""],
        "ImageName": "L7-13",
       "ImageName2": "L7-14",
@@ -2432,7 +2432,7 @@
     {
       "index": 58,
       "QuestionArr_58": "Go to the upper left; find the last word in the last row  Now find the word that is four rows above it  __________",
-      "OptionArr_58": ["hot", "chalk", "pig", "bat"],
+      "OptionArr_58": ["hot", "race", "pig", "bat"],
       "AnswerArr_58": ["", "Yes", "", ""],
       "ImageName": "L7-13",
       "ImageName2": "L7-14",
@@ -2443,7 +2443,7 @@
     {
       "index": 59,
       "QuestionArr_59": "Go to the upper right; find the third letter in the last row  What letter is one row above it? ___",
-      "OptionArr_59": ["C", "N", "D", "P"],
+      "OptionArr_59": ["C", "M", "D", "P"],
       "AnswerArr_59": ["", "Yes", "", ""],
        "ImageName": "L7-13",
       "ImageName2": "L7-14",
@@ -2456,7 +2456,7 @@
     "Level9": [
     {
       "index": 0,
-      "QuestionArr_00": "Go to the upper left; find the word that is repeated  Now go to the lower right and find that word spelled backwards  What row is it in? ________ What column is it in? ________",
+      "QuestionArr_00": "Go to the upper left; find the word that is repeated  Now go to the lower right and find another word that is spelled using the same letters. What row is it in? ________ What column is it in? ________",
       "OptionArr_00": ["3,4", "2,1", "3,1", "4,5"],
       "AnswerArr_00": ["Yes", "", "", ""],
       "ImageName": "L9-1",
@@ -2489,7 +2489,7 @@
     },
     {
       "index": 3,
-      "QuestionArr_03": "Go to the upper right; find the ninth number  Use its first number, in the upper left, as the row Use the second number as the column  What word is in that position? ________",
+      "QuestionArr_03": "Go to the upper right; find the ninth number  Use its first number, in the upper left, as the row Use the second number as the column  What is the position of that word? ________",
       "OptionArr_03": ["2,4", "2,2", "3,1", "4,3"],
       "AnswerArr_03": ["Yes", "", "", ""],
       "ImageName": "L9-1",
@@ -2748,8 +2748,8 @@
     },
     {
       "index": 5,
-      "QuestionArr_05": "Go to the lower right; find the word that has been repeated Choose a new rhyming word with the noted word ______ ",
-      "OptionArr_05": ["boat", "fed", "man", "hello"],
+      "QuestionArr_05": "Go to the lower right; find the word that has been repeated, now find the same word in upper left, what is the position of that number ______ ",
+      "OptionArr_05": ["4,2", "5,1", "2,1", "3,4"],
       "AnswerArr_05": ["", "Yes", "", ""],
       "ImageName": "L9-1",
       "ImageName2": "L9-2",
@@ -2760,7 +2760,7 @@
     {
       "index": 6,
       "QuestionArr_06": "Go to the upper right; find the number in the second row, fifth column ____  Add 20 to the number, write the new number _____ ",
-      "OptionArr_06": ["55", "66", "77", "34"],
+      "OptionArr_06": ["55", "66", "75", "34"],
       "AnswerArr_06": ["", "", "Yes", ""],
       "ImageName": "L9-1",
       "ImageName2": "L9-2",
@@ -2770,7 +2770,7 @@
     },
     {
       "index": 7,
-      "QuestionArr_07": "Go to the upper left; find the first adjacent words with the same ending letters _____",
+      "QuestionArr_07": "Go to the upper left; find only the first adjacent words with the same ending letters _____",
       "OptionArr_07": ["Met", "Yes", "Pet", "Fat"],
       "AnswerArr_07": ["Yes", "", "", ""],
      "ImageName": "L9-1",
@@ -2781,8 +2781,8 @@
     },
     {
       "index": 8,
-      "QuestionArr_08": "Go to the lower left; find the number in the fourth row, fifth column  What number is it?_Now go to the upper right; find the same number  What row is it in? ____ What column is it in? __",
-      "OptionArr_08": ["3,6", "2,4", "4,5", "2,7"],
+      "QuestionArr_08": "Go to the lower left; find the number in the fourth row, sixth column  What number is it?_Now go to the upper right; find the same number  What row is it in? ____ What column is it in? __",
+      "OptionArr_08": ["4,6", "2,4", "4,5", "2,7"],
       "AnswerArr_08": ["Yes", "", "", ""],
        "ImageName": "L9-1",
       "ImageName2": "L9-2",
@@ -3041,7 +3041,7 @@
     },
     {
       "index": 31,
-      "QuestionArr_31": "Go to the lower right; find the word that has been repeated  __________",
+      "QuestionArr_31": "Go to the upper left; find the word that has been repeated  __________",
       "OptionArr_31": ["pal", "rig", "dig", "daze"],
       "AnswerArr_31": ["Yes", "", "", ""],
       "ImageName": "L9-9",
@@ -3074,7 +3074,7 @@
     },
     {
       "index": 34,
-      "QuestionArr_34": "Go to the upper left; find the number in the fifth row, fifth column  What number is it? Now go to the lower right; find the same number  What row is it in? ____ What column is it in? ____",
+      "QuestionArr_34": "Go to the upper Right; find the number in the fifth row, fifth column  What number is it? Now go to the lower left; find the same number  What row is it in? ____ What column is it in? ____",
       "OptionArr_34": ["3,4", "5,1", "5,3", "1,3"],
       "AnswerArr_34": ["Yes", "", "", ""],
       "ImageName": "L9-9",
@@ -3118,7 +3118,7 @@
     },
     {
       "index": 38,
-      "QuestionArr_38": "Go to the lower right; find second three-letter word  Go to the upper left; find the word that begins with the same first letter  __________",
+      "QuestionArr_38": "Go to the lower right; find second three-letter word  Go to the upper left; find the word that begins with the same first letter in the third row  __________",
       "OptionArr_38": ["pal", "dig", "cave", "tell"],
       "AnswerArr_38": ["", "", "Yes", ""],
       "ImageName": "L9-9",
@@ -3219,9 +3219,9 @@
     },
     {
       "index": 47,
-      "QuestionArr_47": "Go to the lower left; find the number in the second row, fithirdfth column  What number is it?Now go to the upper right; find the same number  What row is it in? ____ What column is it in? ____",
-      "OptionArr_47": ["4,1", "4,3", "3,1", "2,5"],
-      "AnswerArr_47": ["", "", "Yes", ""],
+      "QuestionArr_47": "Go to the lower left; find the number in the second row, third column  What number is it?Now go to the upper right; find the same number  What row is it in? ____ What column is it in? ____",
+      "OptionArr_47": ["3,4", "4,3", "3,1", "2,5"],
+      "AnswerArr_47": ["Yes", "", "Yes", ""],
      "ImageName": "L9-13",
       "ImageName2": "L9-14",
       "ImageName3": "L9-15",
@@ -3252,8 +3252,8 @@
     },
     {
       "index": 50,
-      "QuestionArr_50": "Go to the upper right; find the third number with repeating digits  What row is it in? What column is it in? What number in the lower left is in the same position? ____",
-      "OptionArr_50": ["49", "55", "77", "30"],
+      "QuestionArr_50": "Go to the upper right; find the Second number with repeating digits  What row is it in? What column is it in? What number in the lower left is in the same position? ____",
+      "OptionArr_50": ["10", "55", "77", "30"],
       "AnswerArr_50": ["Yes", "", "", ""],
      "ImageName": "L9-13",
       "ImageName2": "L9-14",
@@ -3277,13 +3277,13 @@
 
     {
       "index": 52,
-      "QuestionArr_52": "Go to the lower left; find the fourth number with repeating digits  __________",
+      "QuestionArr_52": "Go to the lower left; start at the first number in the top row first column and then move right to find the fourth number with repeating digits  __________",
       "OptionArr_52": ["33", "34", "36", "35"],
       "AnswerArr_52": ["Yes", "", "", ""],
        "ImageName": "L9-17",
       "ImageName2": "L9-18",
       "ImageName3": "L9-19",
-      "ImageName4": "L9-20",
+      "ImageName4": "L9-20", 
       "QuestionImage": "NA"
     },
     {
@@ -3518,7 +3518,7 @@
 	 {
 	  "index": 7,
       "QuestionArr_07": "Find the first shape  Imagine it with the first degree of height  Imagine it coloured with the second, secondary colour without the first, primary colour  What would you have? ____________________________________________________________________",
-      "OptionArr_07": ["Tall,Equilateral triangle,Yellow","Short,Circle,Red", "Tall,Iosceles triangle,Blue ", "Tall, Right angle,Black"],
+      "OptionArr_07": ["Tall,Equilateral triangle,blue","Short,Circle,Red", "Tall,Iosceles triangle,Blue ", "Tall, Right angle,Black"],
       "AnswerArr_07": ["Yes", "", "", ""],
       "ImageName": "L11-9",
       "ImageName2": "L11-10",
@@ -3635,7 +3635,7 @@
 	   },
 	 {
 	  "index": 1,
-      "QuestionArr_01": "Combine: The shape beside something that is also a shape and shines; with the combination of all colours and the first type of pattern  _________________",
+      "QuestionArr_01": "Combine: The shape right side to something that is also a shape and shines; with the combination of all colours and the first type of pattern  _________________",
       "OptionArr_01": ["Rectangle, White,BLOCK", "Square,Black,CIRCULAR", "Parallelogram, White,DOTTED", "Oval,white,BLOCK"],
       "AnswerArr_01": ["Yes", "", "", ""],
       "ImageName": "L11-1",
@@ -3748,7 +3748,7 @@
 	 {
 	  "index": 10,
       "QuestionArr_10": "Combine: The four-sided figure beside a Six- sided figure with the third secondary colour What would you have? ___________________",
-      "OptionArr_10": ["Violet,parallelogram", "Green, Circle", "Red, Square", "Orange, Rectangle"],
+      "OptionArr_10": ["Green,parallelogram", "Green, Circle", "Red, Square", "Orange, Rectangle"],
       "AnswerArr_10": ["Yes", "", "", ""],
       "ImageName": "L11-5",
       "ImageName2": "L11-6",
@@ -3760,7 +3760,7 @@
 	 {
 	  "index": 11,
       "QuestionArr_11": "Combine: The shape beside something that is Round ; with the combination of all colours and the first type of pattern  _________________",
-      "OptionArr_11": ["Black,  Hexagon, circle ", "Red,Hexagon,checked", "Yellow,Isosceles Triangle,Polka dots", "Green, Pentagon,barcode"],
+      "OptionArr_11": ["White,  Hexagon, circle ", "Red,Hexagon,checked", "Yellow,Isosceles Triangle,Polka dots", "Green, Pentagon,barcode"],
       "AnswerArr_11": ["Yes", "", "", ""],
       "ImageName": "L11-5",
       "ImageName2": "L11-6",
@@ -3772,8 +3772,8 @@
 	 {
 	  "index": 12,
       "QuestionArr_12": "Combine: The secondary colour made from the last two primary colours; the shape with the number of sides in the second row that adds up to an odd number and the third type of pattern  __________________________",
-      "OptionArr_12": ["Green, hexagon, barcode", "Red, Circle, polkadots"],
-      "AnswerArr_12": ["Yes", ""],
+      "OptionArr_12": ["Green, hexagon, barcode", "Red, Circle, polkadots","Yellow,Isosceles Triangle,Polka dots", "Green, Pentagon,barcode"],
+      "AnswerArr_12": ["", "","","Yes"],
        "ImageName": "L11-5",
       "ImageName2": "L11-6",
       "ImageName3": "L11-7",
@@ -3931,8 +3931,8 @@
 	 {
 	  "index": 25,
       "QuestionArr_25": "Combine: The second type of pattern; the colour combining the second and third primary colours; and the figure with an odd number of sides in the second row _________________________________________________",
-      "OptionArr_25": [ "Red,Floral,Rectangle", "Green, plaid, pentagon"],
-      "AnswerArr_25": [ "", "Yes"],
+      "OptionArr_25": [ "Red,Floral,Rectangle", "Green, plaid, pentagon","Tall,Fat,Thin,Latice", "Short,Fat,Heavy,Orange,Floral"],
+      "AnswerArr_25": [ "", "Yes","",""],
      "ImageName": "L11-9",
       "ImageName2": "L11-10",
       "ImageName3": "L11-11",

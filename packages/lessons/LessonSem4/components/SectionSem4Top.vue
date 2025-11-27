@@ -53,9 +53,12 @@
         <div class="flex flex-col lg:flex-row w-full lg:flex-nowrap">
             <!-- LEFT SIDE -->
             <div class="w-full lg:w-3/4 p-4 border border-gray-300 lg:mr-4 flex flex-col">
+
+                  <!-- Responsive Image -->
+                    <QuestionImage v-if="file_Name == 'EMS-II' || file_Name == 'ESS-II'" :image="Image" :getImgUrl="getImgUrlByFileName" :fileName="file_Name" />
                 <!-- ICON BLANKS -->
                 <!-- Non-CST-II -->
-                <ParagraphWithDroppableBlanks v-if="file_Name != 'CST-II'" :parsedParagraph="parsedParagraph" :getBlankValue="getBlankValue" @drop="handleDropInParagraph" :disabled="disabled" />
+                <ParagraphWithDroppableBlanks v-if="file_Name != 'CST-II'" :parsedParagraph="parsedParagraph" :getBlankValue="getBlankValue" @drop="handleDropInParagraph" :disabled="disabled" :fileName="file_Name" :getImgUrlByFileName="getImgUrlByFileName" />
 
                 <!-- CST-II -->
                 <IconBlanks v-if="file_Name == 'CST-II'" :iconBlanks="iconBlanks" :selectedIconBox="selectedIconBox" :getImgUrlByFileName="getImgUrlByFileName" @select="selectIconBox" @dropSymbol="handleDropSymbol" :disabled="disabled" />
@@ -72,7 +75,7 @@
             </div>
 
             <!-- RIGHT SIDE SYMBOLS -->
-            <DragSymbols :symbols="symbols" />
+            <DragSymbols :symbols="symbols" :fileName="file_Name" :getImgUrlByFileName="getImgUrlByFileName"  />
 
         </div>
     </div>

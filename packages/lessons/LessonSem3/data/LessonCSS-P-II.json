@@ -2393,7 +2393,7 @@
     },
     {
       "index": 42,
-      "QuestionArr_42": "How many figures are in below box  ? 1",
+      "QuestionArr_42": "How many figures are in below box  ? ",
       "OptionArr_42": ["6", "7", "8", "9"],
       "AnswerArr_42": ["", "", "Yes", ""],
       "ImageName": "L4-22",
@@ -2410,7 +2410,7 @@
 
     {
       "index": 44,
-      "QuestionArr_44": "How many figures are in below box  ? 2",
+      "QuestionArr_44": "How many figures are in below box  ? ",
       "OptionArr_44": ["7", "8", "9", "10"],
       "AnswerArr_44": ["", "", "Yes", ""],
       "ImageName": "L4-23",
@@ -2427,7 +2427,7 @@
 
     {
       "index": 46,
-      "QuestionArr_46": "How many figures are in below box  ? 3",
+      "QuestionArr_46": "How many figures are in below box  ? ",
       "OptionArr_46": ["9", "10", "11", "12"],
       "AnswerArr_46": ["", "", "Yes", ""],
       "ImageName": "L4-24",
@@ -2444,7 +2444,7 @@
 
     {
       "index": 48,
-      "QuestionArr_48": "How many figures are in below box  ? 4",
+      "QuestionArr_48": "How many figures are in below box  ? ",
       "OptionArr_48": ["9", "10", "11", "12"],
       "AnswerArr_48": ["", "", "Yes", ""],
       "ImageName": "L4-25",
@@ -2461,7 +2461,7 @@
 
     {
       "index": 50,
-      "QuestionArr_50": "How many figures are in below box  ? 5",
+      "QuestionArr_50": "How many figures are in below box  ? ",
       "OptionArr_50": ["11", "12", "13", "14"],
       "AnswerArr_50": ["", "", "Yes", ""],
       "ImageName": "L4-26",
@@ -2478,7 +2478,7 @@
 
     {
       "index": 52,
-      "QuestionArr_52": "How many figures are in below box  ? 6",
+      "QuestionArr_52": "How many figures are in below box  ? ",
       "OptionArr_52": ["4", "5", "6", "7"],
       "AnswerArr_52": ["", "", "Yes", ""],
       "ImageName": "L4-27",
@@ -2495,7 +2495,7 @@
 
     {
       "index": 54,
-      "QuestionArr_54": "How many figures are in below box  ? 7",
+      "QuestionArr_54": "How many figures are in below box  ? ",
       "OptionArr_54": ["6", "7", "8", "9"],
       "AnswerArr_54": ["", "", "Yes", ""],
       "ImageName": "L4-28",

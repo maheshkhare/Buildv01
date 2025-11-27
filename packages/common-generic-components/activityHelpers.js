@@ -1,3 +1,122 @@
+export function showResultPopuphelper3(context, resultData) {
+  console.log("📊 showResultPopuphelper3 called with:", resultData);
+
+  // ✅ Use local counters as fallback
+  const localAttempted = context.Questions_attempted || 0;
+  const localCorrect = context.correct_Answers || 0;
+  const localIncorrect = context.incorrect_Answers || 0;
+
+  let questionsAttempted, correctAnswers, incorrectAnswers;
+
+  // Handle different data formats
+  if (resultData && resultData.summary) {
+    // Format 1: Has summary object (from some activities)
+    questionsAttempted = resultData.summary.TotalQuestions || localAttempted;
+    correctAnswers = resultData.summary.CorrectAnswers || localCorrect;
+    incorrectAnswers = resultData.summary.WrongAnswers || localIncorrect;
+  } else if (resultData && (resultData.questionsAttempted !== undefined)) {
+    // Format 2: Has direct properties (from other activities)
+    questionsAttempted = resultData.questionsAttempted || localAttempted;
+    correctAnswers = resultData.correctAnswers || localCorrect;
+    incorrectAnswers = resultData.incorrectAnswers || localIncorrect;
+  } else {
+    // Format 3: No resultData or empty - use local counters
+    console.log("🔄 Using local counters as resultData is empty");
+    questionsAttempted = localAttempted;
+    correctAnswers = localCorrect;
+    incorrectAnswers = localIncorrect;
+  }
+
+  // ✅ Assign values to parent data
+  context.resultData = resultData || {};
+  context.resultShow = true;
+  context.activity_Status = "Completed";
+  context.Time_elapsed = context.secondsToTime(context.timestart);
+  context.Questions_attempted = questionsAttempted;
+  context.correct_Answers = correctAnswers;
+  context.incorrect_Answers = incorrectAnswers;
+  context.PracticeOne = false;
+  context.ResultHide = true;
+
+  console.log("✅ Final Result Values:", {
+    Time_elapsed: context.Time_elapsed,
+    Questions_attempted: context.Questions_attempted,
+    correct_Answers: context.correct_Answers,
+    incorrect_Answers: context.incorrect_Answers,
+    source: resultData ? 'resultData' : 'local counters'
+  });
+}
+
+export function handleSvgClickhelper3(context, { x, y }) {
+  // Find the question based on its 'index' property instead of array position
+  const currentQ = context.questionArray?.find(q => q.index === context.counter + 1);
+
+  if (!currentQ) {
+    console.warn(`⚠️ No question found for index: ${context.counter + 1}`);
+    return;
+  }
+
+  // Get CFU-P question arrays
+  const ranges =
+    currentQ[`OptionArr_0${currentQ.index}`] ||
+    currentQ.OptionArr_00 ||
+    currentQ.OptionArr_01 ||
+    currentQ.OptionArr_02 ||
+    [];
+  const answers =
+    currentQ[`AnswerArr_0${currentQ.index}`] ||
+    currentQ.AnswerArr_00 ||
+    currentQ.AnswerArr_01 ||
+    currentQ.AnswerArr_02 ||
+    [];
+
+  if (!ranges.length) {
+    console.warn("⚠️ No CFU-P ranges found for current question:", currentQ);
+    return;
+  }
+
+  // Define clickable regions (mock coordinates for now)
+  const rangeMap = {
+    range1: { x1: 50, y1: 60, x2: 150, y2: 160 },
+    range2: { x1: 170, y1: 70, x2: 280, y2: 180 },
+    range3: { x1: 300, y1: 80, x2: 400, y2: 190 },
+    range4: { x1: 420, y1: 90, x2: 520, y2: 200 },
+  };
+
+  // Determine which range user clicked
+  let selectedRange = null;
+  for (const range of ranges) {
+    const box = rangeMap[range];
+    if (!box) continue;
+    if (x >= box.x1 && x <= box.x2 && y >= box.y1 && y <= box.y2) {
+      selectedRange = range;
+      break;
+    }
+  }
+
+  const selectedIndex = ranges.indexOf(selectedRange);
+  const isCorrect = selectedIndex !== -1 && answers[selectedIndex] === "Yes";
+
+  console.log(`🖱️ Clicked: ${selectedRange} | Correct: ${isCorrect}`);
+
+  // Store user answer
+  if (!context.userAnswers) context.userAnswers = [];
+  context.userAnswers.push({
+    questionIndex: currentQ.index,
+    selectedRange,
+    isCorrect,
+    coordinates: { x, y },
+  });
+
+  // Move to next question based on JSON index, not counter
+  const currentIdx = context.questionArray.findIndex(q => q.index === currentQ.index);
+  if (currentIdx < context.questionArray.length - 1) {
+    context.counter = context.questionArray[currentIdx + 1].index - 1;
+  } else {
+    context.showResultPopup = true;
+  }
+}
+
 // Helper Functions of Category 2
 
 export function parseLevelRangeHelper(context, raw) {
@@ -140,7 +259,90 @@ export function WordsAnswerHelper(context, Answer, index) {
         context.AnswerCheckShow = false;
         context.NextQuestionShow = true;
     } else {
+      const fileName = sessionStorage.getItem('jsonFile');
+      if(fileName == "CMR-I" || fileName == "MFU-P" || fileName == "MFU-I" || fileName == "MFR-II" || fileName == "CFU-I-1"){
         // ✅ IMAGE MATCH MODE unchanged
+        const selectedIndex = context.selectedIndices.findIndex(i => Number(i) === Number(index));
+
+        if (selectedIndex > -1) {
+            // If clicked again → deselect
+            context.selectedIndices.splice(selectedIndex, 1);
+            context.commonNumArray[index].state = 'unselected';
+        } else {
+
+            // Add new selection
+            context.selectedIndices.push(index);
+            context.commonNumArray[index].state = 'selected';
+        }
+
+           // ✅ Build selected items array
+         const selectedItems = context.selectedIndices.map(i => context.commonNumArray[i]);
+
+          // ✅ Determine correctness for new JSON structure
+          const allCorrect = selectedItems.length > 0 && selectedItems.every(item => item.Answer === "Yes");
+          console.log("selectedItems", JSON.stringify(selectedItems, null, 2));
+
+            // ✅ Update states for each selected item
+            selectedItems.forEach(item => {
+              item.state = allCorrect ? 'correct' : 'incorrect';
+            });
+
+            // ✅ Update progress bar state **before** increment
+            if (context.ProgressBar[context.TestProgressBar]) {
+              context.ProgressBar[context.TestProgressBar].state =
+                allCorrect ? 'correct' : 'incorrect';
+            }
+
+            // ✅ Update other UI flags
+            context.countcorrect = 1;
+            context.answeredState[context.counter] = true;
+            context.AnswerCheckShow = false;
+            context.NextQuestionShow = true;
+
+            // ✅ Get question number
+            const questionNo = context.questionNoMap[context.counter] || context.counter + 1;
+
+            // ✅ Build current attempt entry
+            const entry = {
+              QuestionIndex: questionNo,
+              TimeTaken: (context.timestart - context.questionStartTime) ?? 0.0,
+              Level: `Level${context.instructionGroups[context.counter]?.level || 1}`,
+              UserResponse: context.selectedIndices.map(i => i + 1).join(','), // all selected indices
+              FinalAnswer: context.commonNumArray.map(opt => opt.Answer),
+              IsCorrect: allCorrect
+            };
+
+            // ✅ Check if previous attempt exists for this question
+            const existingIndex = context.CollectionResult.findIndex(q => q.QuestionIndex === questionNo);
+            if (existingIndex > -1) {
+              const prevEntry = context.CollectionResult[existingIndex];
+
+              // Subtract previous counts
+              context.Questions_attempted--;
+              if (prevEntry.IsCorrect) {
+                context.correct_Answers--;
+              } else {
+                context.incorrect_Answers--;
+              }
+
+              // Replace with latest attempt
+              context.CollectionResult.splice(existingIndex, 1, entry);
+            } else {
+              // New attempt → push to CollectionResult
+              context.CollectionResult.push(entry);
+            }
+
+            // ✅ Increment counters for current attempt
+            context.Questions_attempted++;
+            if (allCorrect) {
+              context.correct_Answers++;
+            } else {
+              context.incorrect_Answers++;
+            }
+
+            // ✅ Now increment progress bar pointer for next question
+            context.TestProgressBar++;
+      } else {
         const selectedIndex = context.selectedIndices.findIndex(i => Number(i) === Number(index));
 
         if (selectedIndex > -1) {
@@ -223,10 +425,297 @@ export function WordsAnswerHelper(context, Answer, index) {
             }
 
             context.TestProgressBar++;
-        }
-
+      }
+    }
     }
 }
+
+
+/* export function WordsAnswerHelper(context, Answer, index) {
+    if (!context.matchedImageMode) {
+        // ✅ Regular word-based option → auto check on select
+        context.commonNumArray.forEach(opt => {
+            opt.state = 'unselected';
+        });
+
+        context.commonNumArray[index].state = 'selected';
+        context.lastSelectedIndex = index;
+
+        context.AnswerCheckShow = false;
+        context.NextQuestionShow = true;
+    } else {
+      const fileName = sessionStorage.getItem('jsonFile');
+      if(fileName == "CMR-I" || fileName == "MFU-P" || fileName == "MFU-I" || fileName == "MFR-II"){
+        // ✅ IMAGE MATCH MODE unchanged
+        const selectedIndex = context.selectedIndices.findIndex(i => Number(i) === Number(index));
+
+        if (selectedIndex > -1) {
+            // If clicked again → deselect
+            context.selectedIndices.splice(selectedIndex, 1);
+            context.commonNumArray[index].state = 'unselected';
+        } else {
+
+            // Add new selection
+            context.selectedIndices.push(index);
+            context.commonNumArray[index].state = 'selected';
+        }
+
+           // ✅ Build selected items array
+         const selectedItems = context.selectedIndices.map(i => context.commonNumArray[i]);
+
+          // ✅ Determine correctness for new JSON structure
+          const allCorrect = selectedItems.length > 0 && selectedItems.every(item => item.Answer === "Yes");
+          console.log("selectedItems", JSON.stringify(selectedItems, null, 2));
+
+            // ✅ Update states for each selected item
+            selectedItems.forEach(item => {
+              item.state = allCorrect ? 'correct' : 'incorrect';
+            });
+
+            // ✅ Update progress bar state **before** increment
+            if (context.ProgressBar[context.TestProgressBar]) {
+              context.ProgressBar[context.TestProgressBar].state =
+                allCorrect ? 'correct' : 'incorrect';
+            }
+
+            // ✅ Update other UI flags
+            context.countcorrect = 1;
+            context.answeredState[context.counter] = true;
+            context.AnswerCheckShow = false;
+            context.NextQuestionShow = true;
+
+            // ✅ Get question number
+            const questionNo = context.questionNoMap[context.counter] || context.counter + 1;
+
+            // ✅ Build current attempt entry
+            const entry = {
+              QuestionIndex: questionNo,
+              TimeTaken: (context.timestart - context.questionStartTime) ?? 0.0,
+              Level: `Level${context.instructionGroups[context.counter]?.level || 1}`,
+              UserResponse: context.selectedIndices.map(i => i + 1).join(','), // all selected indices
+              FinalAnswer: context.commonNumArray.map(opt => opt.Answer),
+              IsCorrect: allCorrect
+            };
+
+            // ✅ Check if previous attempt exists for this question
+            const existingIndex = context.CollectionResult.findIndex(q => q.QuestionIndex === questionNo);
+            if (existingIndex > -1) {
+              const prevEntry = context.CollectionResult[existingIndex];
+
+              // Subtract previous counts
+              context.Questions_attempted--;
+              if (prevEntry.IsCorrect) {
+                context.correct_Answers--;
+              } else {
+                context.incorrect_Answers--;
+              }
+
+              // Replace with latest attempt
+              context.CollectionResult.splice(existingIndex, 1, entry);
+            } else {
+              // New attempt → push to CollectionResult
+              context.CollectionResult.push(entry);
+            }
+
+            // ✅ Increment counters for current attempt
+            context.Questions_attempted++;
+            if (allCorrect) {
+              context.correct_Answers++;
+            } else {
+              context.incorrect_Answers++;
+            }
+
+            // ✅ Now increment progress bar pointer for next question
+            context.TestProgressBar++;
+      } else {
+        const selectedIndex = context.selectedIndices.findIndex(i => Number(i) === Number(index));
+
+        if (selectedIndex > -1) {
+            // If clicked again → deselect
+            context.selectedIndices.splice(selectedIndex, 1);
+            context.commonNumArray[index].state = 'unselected';
+        } else {
+            // If already 2 selected → drop the oldest one
+            if (context.selectedIndices.length >= 2) {
+                const removed = context.selectedIndices.shift(); // remove first
+                context.commonNumArray[removed].state = 'unselected';
+            }
+
+            // Add new selection
+            context.selectedIndices.push(index);
+            context.commonNumArray[index].state = 'selected';
+        }
+
+        // Only check when 2 images selected
+        if (context.selectedIndices.length === 2) {
+            const [i1, i2] = context.selectedIndices;
+            const img1 = context.commonNumArray[i1];
+            const img2 = context.commonNumArray[i2];
+
+            const isMatch = img1.Question === img2.Question && img1.Answer === 'Yes' && img2.Answer === 'Yes';
+
+            if (isMatch) {
+                context.commonNumArray[i1].state = 'correct';
+                context.commonNumArray[i2].state = 'correct';
+                context.ProgressBar[context.TestProgressBar].state = 'correct';
+            } else {
+                context.commonNumArray[i1].state = 'incorrect';
+                context.commonNumArray[i2].state = 'incorrect';
+                context.ProgressBar[context.TestProgressBar].state = 'incorrect';
+            }
+
+            context.countcorrect = 1;
+            context.answeredState[context.counter] = true;
+            context.AnswerCheckShow = false;
+            context.NextQuestionShow = true;
+
+            const questionNo = context.questionNoMap[context.counter] || context.counter + 1;
+
+            // Build current attempt entry
+            const entry = {
+                QuestionIndex: questionNo,
+                TimeTaken: (context.timestart - context.questionStartTime) ?? 0.0,
+                Level: `Level${context.instructionGroups[context.counter]?.level || 1}`,
+                UserResponse: isMatch ? `${i1 + 1},${i2 + 1}` : 'Mismatch',
+                FinalAnswer: context.commonNumArray.map(opt => opt.Answer),
+                IsCorrect: isMatch
+            };
+
+            // ✅ Check if previous attempt exists for this question
+            const existingIndex = context.CollectionResult.findIndex(q => q.QuestionIndex === questionNo);
+            if (existingIndex > -1) {
+                const prevEntry = context.CollectionResult[existingIndex];
+
+                // Subtract previous counts
+                context.Questions_attempted--;
+                if (prevEntry.IsCorrect) {
+                    context.correct_Answers--;
+                } else {
+                    context.incorrect_Answers--;
+                }
+
+                // Replace with latest attempt
+                context.CollectionResult.splice(existingIndex, 1, entry);
+            } else {
+                // New attempt → push to CollectionResult
+                context.CollectionResult.push(entry);
+            }
+
+            // ✅ Increment counters for current attempt
+            context.Questions_attempted++;
+            if (isMatch) {
+                context.correct_Answers++;
+            } else {
+                context.incorrect_Answers++;
+            }
+
+            context.TestProgressBar++;
+      }
+    }
+    }
+}
+ */
+// Revised helper for multi-center circular match logic
+export function WordsAnswerHelper5(context, { centerIndex, outerIndex }) {
+    // Defensive check
+    if (!context.currentMatchImages || centerIndex < 0 || centerIndex >= context.currentMatchImages.length) {
+        console.error("Invalid centerIndex or currentMatchImages");
+        return;
+    }
+
+    // Get selected outer item and center label
+    const outerItem = context.commonNumArray[outerIndex];
+    const centerLabel = context.currentMatchImages[centerIndex];
+
+    // Initialize or update connections
+    context.connections = context.connections || [];
+    // Remove any previous connection with this outerIndex (if one-to-one matching)
+    context.connections = context.connections.filter(conn => conn.outerIndex !== outerIndex);
+    // Remove existing connection from this center if you want only one outer per center
+    context.connections = context.connections.filter(conn => conn.centerIndex !== centerIndex);
+    // Add new connection
+    context.connections.push({ centerIndex, outerIndex });
+
+    // Reset all option states except 'correct'
+    context.commonNumArray.forEach(opt => {
+        if (!opt.state || opt.state !== 'correct') opt.state = 'unselected';
+    });
+    // Mark selected outer
+    context.commonNumArray[outerIndex].state = 'selected';
+
+    // Check if all centers are matched and all their connected outer labels match the center label
+    let allCorrect = true;
+
+    for (let i = 0; i < context.currentMatchImages.length; i++) {
+        const matchedConnection = context.connections.find(conn => conn.centerIndex === i);
+        if (!matchedConnection) {
+            allCorrect = false; // a center is unmatched
+            break;
+        }
+        const matchedOuter = context.commonNumArray[matchedConnection.outerIndex];
+         console.log("matchedOuter: " + JSON.stringify(matchedOuter, null, 2));
+        console.log("Comparing:", matchedOuter.Question, context.currentMatchImages[i]);
+        if (matchedOuter.Question !== context.currentMatchImages[i]) {
+            allCorrect = false; // label mismatch
+            break;
+        }
+    }
+
+    // Update states with correct/incorrect
+    context.connections.forEach(conn => {
+        const opt = context.commonNumArray[conn.outerIndex];
+        opt.state = allCorrect ? 'correct' : 'incorrect';
+    });
+
+    // Update progress bar
+    const questionNo = context.questionNoMap?.[context.counter] || context.counter + 1;
+    if (context.ProgressBar && context.ProgressBar[context.TestProgressBar]) {
+        context.ProgressBar[context.TestProgressBar].state = allCorrect ? 'correct' : 'incorrect';
+    }
+
+    // Update result collection if all correct and all centers matched
+    // if (allCorrect && context.connections.length === context.currentMatchImages.length) {
+        const entry = {
+            QuestionIndex: questionNo,
+            TimeTaken: (context.timestart - context.questionStartTime) ?? 0.0,
+            Level: `Level${context.instructionGroups[context.counter]?.level || 1}`,
+            UserResponse: context.connections.map(c => `C${c.centerIndex + 1}-O${c.outerIndex + 1}`).join(';'),
+            FinalAnswer: context.commonNumArray.map(opt => String(opt.label)),
+            IsCorrect: allCorrect
+        };
+
+       const existingIndex = context.CollectionResult.findIndex(q => q.QuestionIndex === questionNo);
+        if (existingIndex > -1) {
+            // An attempt for this question already exists, adjust counts removing old attempt data
+            const prevEntry = context.CollectionResult[existingIndex];
+            // Decrement previous counts before replacement
+            context.Questions_attempted--;
+            if (prevEntry.IsCorrect) {
+                context.correct_Answers--;
+            } else {
+                context.incorrect_Answers--;
+            }
+            // Replace with updated entry
+            context.CollectionResult.splice(existingIndex, 1, entry);
+        } else {
+            // New attempt for this question
+            context.CollectionResult.push(entry);
+        }
+
+        // Now increment counts for latest attempt
+        context.Questions_attempted++;
+        if (entry.IsCorrect) {
+            context.correct_Answers++;
+        } else {
+            context.incorrect_Answers++;
+        }
+
+        // Move progress pointer forward
+        context.TestProgressBar++;
+
+}
+
+
 
 export function AnswerCheckHelper(context) {
     if (!context.matchedImageMode) {
@@ -326,6 +815,14 @@ if (nextCounter < context.Total_Questions) {
     context.counter = nextCounter;
     context.countcorrect = 0;
     context.lastSelectedIndex = undefined;
+    // ✅ Reset UI states for next question
+    context.selectedIndices = []; // clear multi-selections
+
+    if (Array.isArray(context.commonNumArray)) {
+      context.commonNumArray.forEach(opt => {
+        opt.state = 'unselected'; // or whatever your default state is
+      });
+    }
     context.practice0(); // show next question
 } else {
     // All questions done
@@ -354,6 +851,7 @@ context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
 }
 
 }
+
 
 export function SaveAndExitNowHelper(context) {
   //   const key = `QuestionArr_${context.counter + 1}`;
@@ -1094,6 +1592,7 @@ const questionId = String(originalQuestionNo).padStart(2, '0');
             if (blank["5thBlankValue"]) userAnswer += blank["5thBlankValue"];
             if (blank["6thBlankValue"]) userAnswer += blank["6thBlankValue"];
             if (blank["7thBlankValue"]) userAnswer += blank["7thBlankValue"];
+            if (blank["8thBlankValue"]) userAnswer += blank["8thBlankValue"];
 
             if (blank.lastSymbol) userAnswer += blank.lastSymbol;
 
@@ -1104,7 +1603,7 @@ const questionId = String(originalQuestionNo).padStart(2, '0');
                 break;
             }
 
-            if (userAnswer !== blank.CorrectValue) {
+            if (userAnswer.trim().toLowerCase() !== blank.CorrectValue.trim().toLowerCase()) {
                 allCorrect = false;
             }
         }
@@ -2113,7 +2612,7 @@ export function  showResultshelper1(context) {
   }) || [];
 
            // Sum all TimeTaken values
-const totalTimeTaken = Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0));
+const totalTimeTaken = Math.floor(DetailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0));
 
   return {
       ActivityStatus: context.activity_Status || "Completed",
@@ -2214,29 +2713,7 @@ export function updateAvailableWordshelper1(context) {
       context.saveQuestionState();
     }
 
-    // export function  handleColumnClickhelper1( context,colIndex, itemIndex) {
-    //   if (!context.canModifyAnswers) return;
-    //   const column = context.columns[colIndex];
-    //   const item = column[itemIndex];
-    //   if (!item.name && context.selectedWord) {
-    //     item.name = context.selectedWord;
-    //     context.placedWords.push(context.selectedWord);
-    //     const wordIndex = context.availableWords.indexOf(context.selectedWord);
-    //     if (wordIndex > -1) context.availableWords.splice(wordIndex, 1);
-    //     context.selectedWord = null;
-    //     context.updateAvailableWords();
-    //   } else if (item.name && !context.selectedWord) {
-    //     const returnedWord = item.name;
-    //     item.name = '';
-    //     const placedIndex = context.placedWords.indexOf(returnedWord);
-    //     if (placedIndex > -1) context.placedWords.splice(placedIndex, 1);
-    //     context.availableWords.push(returnedWord);
-    //     context.updateAvailableWords();
-    //   }
-    // }
-
-
-    export function handleColumnClickhelper1(context, colIndex, itemIndex) {
+export function handleColumnClickhelper1(context, colIndex, itemIndex) {
   if (!context.canModifyAnswers) return;
 
   const column = context.columns?.[colIndex];
@@ -2269,8 +2746,27 @@ export function updateAvailableWordshelper1(context) {
     context.availableWords.push(returnedWord);
     context.updateAvailableWords();
   }
-}
-
+}    
+    // export function  handleColumnClickhelper1( context,colIndex, itemIndex) {
+    //   if (!context.canModifyAnswers) return;
+    //   const column = context.columns[colIndex];
+    //   const item = column[itemIndex];
+    //   if (!item.name && context.selectedWord) {
+    //     item.name = context.selectedWord;
+    //     context.placedWords.push(context.selectedWord);
+    //     const wordIndex = context.availableWords.indexOf(context.selectedWord);
+    //     if (wordIndex > -1) context.availableWords.splice(wordIndex, 1);
+    //     context.selectedWord = null;
+    //     context.updateAvailableWords();
+    //   } else if (item.name && !context.selectedWord) {
+    //     const returnedWord = item.name;
+    //     item.name = '';
+    //     const placedIndex = context.placedWords.indexOf(returnedWord);
+    //     if (placedIndex > -1) context.placedWords.splice(placedIndex, 1);
+    //     context.availableWords.push(returnedWord);
+    //     context.updateAvailableWords();
+    //   }
+    // }
 
      export function loadQuestionStatehelper1( context,index) {
       const state = context.questionStates[index];
@@ -2395,8 +2891,8 @@ export function SaveAndExitNowhelper1(context, updateCounters = true) {
 
      // Sum all TimeTaken values
 // ✅ Safe reduce with check
-const totalTimeTaken = Array.isArray(detailedResults) && detailedResults.length > 0
-    ? Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0))
+const totalTimeTaken = Array.isArray(DetailedResults) && DetailedResults.length > 0
+    ? Math.floor(DetailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0))
     : 0;
 
 context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
@@ -2486,7 +2982,7 @@ export function FinalResulthelper1(context) {
   });
 
            // Sum all TimeTaken values
-const totalTimeTaken = Math.floor(detailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0));
+const totalTimeTaken = Math.floor(DetailedResults.reduce((sum, item) => sum + (item.TimeTaken || 0), 0));
 
   const fullResult = {
       ActivityStatus: context.activity_Status || "Completed",
@@ -2782,96 +3278,7 @@ export function WordsAnswerhelper3(context, Answer, index) {
   if (context.counter + 1 > (context.TestProgressBar || 0)) {
     context.TestProgressBar = context.counter + 1;
   }
-
-
-
-  //  if (this.jsonFileName !== 'CFU-P') {
-  //     this.handleOptionAnswer(answer, index);
-  //   }
 }
-
-
-
-
-
-
-
-export function handleSvgClickhelper3(context, { x, y }) {
-  // Find the question based on its 'index' property instead of array position
-  const currentQ = context.questionArray?.find(q => q.index === context.counter + 1);
-
-  if (!currentQ) {
-    console.warn(`⚠️ No question found for index: ${context.counter + 1}`);
-    return;
-  }
-
-  // Get CFU-P question arrays
-  const ranges =
-    currentQ[`OptionArr_0${currentQ.index}`] ||
-    currentQ.OptionArr_00 ||
-    currentQ.OptionArr_01 ||
-    currentQ.OptionArr_02 ||
-    [];
-  const answers =
-    currentQ[`AnswerArr_0${currentQ.index}`] ||
-    currentQ.AnswerArr_00 ||
-    currentQ.AnswerArr_01 ||
-    currentQ.AnswerArr_02 ||
-    [];
-
-  if (!ranges.length) {
-    console.warn("⚠️ No CFU-P ranges found for current question:", currentQ);
-    return;
-  }
-
-  // Define clickable regions (mock coordinates for now)
-  const rangeMap = {
-    range1: { x1: 50, y1: 60, x2: 150, y2: 160 },
-    range2: { x1: 170, y1: 70, x2: 280, y2: 180 },
-    range3: { x1: 300, y1: 80, x2: 400, y2: 190 },
-    range4: { x1: 420, y1: 90, x2: 520, y2: 200 },
-  };
-
-  // Determine which range user clicked
-  let selectedRange = null;
-  for (const range of ranges) {
-    const box = rangeMap[range];
-    if (!box) continue;
-    if (x >= box.x1 && x <= box.x2 && y >= box.y1 && y <= box.y2) {
-      selectedRange = range;
-      break;
-    }
-  }
-
-  const selectedIndex = ranges.indexOf(selectedRange);
-  const isCorrect = selectedIndex !== -1 && answers[selectedIndex] === "Yes";
-
-  console.log(`🖱️ Clicked: ${selectedRange} | Correct: ${isCorrect}`);
-
-  // Store user answer
-  if (!context.userAnswers) context.userAnswers = [];
-  context.userAnswers.push({
-    questionIndex: currentQ.index,
-    selectedRange,
-    isCorrect,
-    coordinates: { x, y },
-  });
-
-  // Move to next question based on JSON index, not counter
-  const currentIdx = context.questionArray.findIndex(q => q.index === currentQ.index);
-  if (currentIdx < context.questionArray.length - 1) {
-    context.counter = context.questionArray[currentIdx + 1].index - 1;
-  } else {
-    context.showResultPopup = true;
-  }
-}
-
-
-
-
-
-
-
 
 
      export function  AnswerCheckhelper3( context) {
@@ -3011,14 +3418,6 @@ context.Time_elapsed = secondsToTimeHelper(totalTimeTaken);
         context.JsonArrData = JSON.stringify(context.resultData, null, 2);
       }
     }
-
-
-
-
-
-
-
-
 
 ///////////////✅ SaveAndExitNowhelper/////////////////////
 export function SaveAndExitNowhelper3(context) {
@@ -3603,40 +4002,3 @@ console.log("commonNumArray in practice0helper3:", JSON.stringify(context.common
   })
 }
 
-
-
-export function showResultPopuphelper3(context, resultData) {
-  console.log("📊 showResultPopuphelper3 called with:", resultData);
-
-  // Defensive fallback
-  if (!resultData || !resultData.summary) {
-    console.warn("⚠️ Invalid resultData, using fallback");
-    resultData = {
-      summary: {
-        TotalQuestions: 0,
-        CorrectAnswers: 0,
-        WrongAnswers: 0
-      },
-      detailedResults: []
-    };
-  }
-
-  // ✅ Assign values to parent data
-  context.resultData = resultData;
-  context.resultShow = true;
-  context.activity_Status = "Completed";
-  context.Time_elapsed = context.secondsToTime(context.timestart);
-  context.Questions_attempted = resultData.summary.TotalQuestions || 0;
-  context.correct_Answers = resultData.summary.CorrectAnswers || 0;
-  context.incorrect_Answers = resultData.summary.WrongAnswers || 0;
-  context.PracticeOne = false;
-  context.ResultHide = true;
-
-  console.log("✅ Result Summary Extracted:", {
-    Time_elapsed: context.Time_elapsed,
-    Questions_attempted: context.Questions_attempted,
-    correct_Answers: context.correct_Answers,
-    incorrect_Answers: context.incorrect_Answers,
-    detailedLen: resultData.detailedResults?.length || 0,
-  });
-}

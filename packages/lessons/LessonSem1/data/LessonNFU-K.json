@@ -381,7 +381,7 @@
           {
             "name": "Thingsintheaquarium",
             "displayName": "Things in the aquarium",
-            "words": ["Fish", "Star fish", "Jelly fish","Fish","Fish","Fish","Fish","Fish"],
+            "words": ["Fish", "Star fish", "Jelly fish","Fish","Fish","sea-Fish","Fish","Fish"],
             "images": ["Fish7.png","Starfish.png","Jellyfish.png","Fish2.png","Fish3.png","Fish4.png","Fish5.png","Fish6.png"]
           }
         ]

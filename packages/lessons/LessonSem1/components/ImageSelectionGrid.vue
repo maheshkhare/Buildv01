@@ -46,7 +46,7 @@ export default {
     }
   },
   methods: {
-   getImagePath(imageFileName) {
+ getImagePath(imageFileName) {
   try {
     const jsonFile = sessionStorage.getItem('jsonFile') || '';
 
@@ -58,8 +58,9 @@ export default {
     } else {
       folder = 'graphics'; // optional fallback folder
     }
-
-    return require(`../assets/${folder}/${imageFileName}`);
+    const images = require.context('../assets', true, /\.(png|jpe?g|svg)$/);
+    return images(`./${folder}/${imageFileName}`);
+//    return require(`../assets/${folder}/${imageFileName}`);
   } catch (e) {
     return ''; // fallback if image not found
   }

@@ -3,169 +3,224 @@
     <template v-slot:topContent>
       <div class="w-full main-bg min-h-screen">
         <div class="w-full">
-          <topHeader :HeaderTop="HeaderTop" :componentSubtitle="componentSubtitle" />
+          <topHeader 
+            :HeaderTop="HeaderTop" 
+            :componentSubtitle="componentSubtitle" 
+          />
         </div>
 
+        <!-- Result Popup -->
+        <resultPopup
+          v-show="resultShow"
+          :result-data="resultData"
+          :activity_Status="activity_Status"
+          :Time_elapsed="Time_elapsed"
+          :Questions_attempted="Questions_attempted"
+          :correct_Answers="correct_Answers"
+          :incorrect_Answers="incorrect_Answers"
+          :ResultHide="ResultHide"
+          :ResultArrow="ResultArrow"
+          @FinalResult="FinalResult"
+        />
 
-  <!-- Result Popup -->
-               <resultPopup
-                v-show="resultShow"
-                :result-data="resultData"    
-                :activity_Status="activity_Status"
-                :Time_elapsed="Time_elapsed"
-                :Questions_attempted="Questions_attempted"
-                :correct_Answers="correct_Answers"
-                :incorrect_Answers="incorrect_Answers"
-                :ResultHide="ResultHide"
-                :ResultArrow="ResultArrow"
-                @FinalResult="FinalResult"
-              />
+       
 
-        <!-- ✅ CFU-P Activity ONLY -->
-     <CFUPHandler
-     v-if="jsonFileName === 'CFU-P' && questionArray.length"
-      :questionData="questionArray"
-      :currentIndex="counter"
-      :total="Total_Questions"
-      :mainImageSrc="mainImageSrc"
-      :objectImageSrc="objectImageSrc"
-      @next="counter++"
-      @prev="counter--"
-      @answer-selected="handleAnswer"
-      @quiz-finished="showResultPopup"
-       @save="onSave"
-      v-show="!resultShow"
-    />
 
-        <!-- ✅ All Other Activities -->
-        <template v-else>
-          <!-- Instructions -->
-          <div
-            v-if="(currentQuestion || PracticeOne) && !resultShow"
-            class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-500 rounded"
-          >
-            <h3 class="font-bold text-lg mb-2 text-blue-700">Instructions</h3>
-            <div class="text-lg text-black-700 leading-relaxed">
-              {{ activityInstructions.content }}
-            </div>
-          </div>
+        <!-- Activity Components -->
+        <div v-show="!resultShow">
+        <ElevatorActivity
+        v-if="jsonFileName === 'CSS-II' && questionArray.length"
+        :question-data="questionArray"
+        :current-index="counter"
+        :total="Total_Questions"
+        @answer-selected="handleElevatorAnswer"
+        @next="counter++"
+        @prev="counter--"
+        @quiz-finished="showResultPopup"
+        class="w-full"
+      />
+          
+          <!-- CFU-P Activity -->
+          <CFUPHandler
+            v-if="jsonFileName === 'CFU-P' && questionArray.length"
+            :questionData="questionArray"
+            :currentIndex="counter"
+            :total="Total_Questions"
+            :mainImageSrc="mainImageSrc"
+            :objectImageSrc="objectImageSrc"
+            @next="counter++"
+            @prev="counter--"
+            @answer-selected="handleAnswer"
+            @quiz-finished="showResultPopup"
+            @save="onSave"
+          />
 
-          <!-- Content Container -->
-          <div class="w-full px-2 sm:px-4 lg:px-8">
+          <!-- MSU-I Activity -->
+          <TimeActivity
+            v-if="jsonFileName === 'MSU-I' && questionArray.length"
+            :questionData="questionArray[counter]"
+            :currentIndex="counter"
+            :total="Total_Questions"
+            :studyTime="6"
+            @next="counter++"
+            @prev="counter--"
+            @answer-selected="handleTimeActivityAnswer" 
+            @quiz-finished="showResultPopup"
+          />
+                 <!-- NSS-I Activity -->
+                <PuzzleActivity
+                  v-if="jsonFileName === 'NSS-I' && questionArray.length"
+                  :key="`puzzle-${jsonFileName}-${counter}`"
+                  :questionArray="questionArray"
+                  :currentIndex="counter"
+                  :total="Total_Questions"
+                  :jsonFileName="jsonFileName"
+                  activity-type="letter-number"
+                  @answer-selected="handlePuzzleAnswer"
+                  @next="counter++"
+                  @quiz-finished="showResultPopup"
+                />
+
+                <!-- CSS-I-01 Activity -->
+                <PuzzleActivity
+                  v-if="jsonFileName === 'CSS-I-01' && questionArray.length"
+                  :key="`puzzle-${jsonFileName}-${counter}`"
+                  :questionArray="questionArray"
+                  :currentIndex="counter"
+                  :total="Total_Questions"
+                  :jsonFileName="jsonFileName"
+                  activity-type="sudoku"
+                  @answer-selected="handlePuzzleAnswer"
+                  @next="counter++"
+                  @quiz-finished="showResultPopup"
+                />
+
+          <!-- CSR-I and Other Activities -->
+          <template v-if="!['CFU-P', 'MSU-I','CSS-II', 'NSS-I','CSS-I-01'].includes(jsonFileName)">
+            <!-- Instructions Section -->
             <div
-              class="containercat3 mx-auto max-w-7xl bg-white shadow-lg border-2 border-black rounded-none p-4 sm:p-6 lg:p-10 my-4 sm:my-6 lg:my-8"
+              v-if="(currentQuestion || PracticeOne) && !resultShow"
+              class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-500 rounded"
             >
-            
-
-              <!-- CSR-I Activity -->
-              <WordGridActivity
-                v-if="jsonFileName === 'CSR-I' && currentQuestion && !resultShow"
-                :questionWord="getQuestionWord(currentQuestion)"
-                :gridLetters="getGridLetters(currentQuestion)"
-                :wordLength="3"
-                @answered="handleWordGridAnswered"
-                class="w-full"
-              />
-
-              <!-- CSR-I Controls -->
-              <div
-                v-if="jsonFileName === 'CSR-I' && !resultShow"
-                class="font-bold mt-3 text-center text-sm sm:text-base"
-              >
-                Question
-                <span class="text-indigo-700">{{ counter + 1 }}</span>
-                of
-                <span class="text-indigo-700">{{ Total_Questions }}</span>
+              <h3 class="font-bold text-lg mb-2 text-blue-700">Instructions</h3>
+              <div class="text-lg text-black-700 leading-relaxed">
+                {{ activityInstructions.content }}
               </div>
+            </div>
 
+            <!-- Main Content Container -->
+            <div class="w-full px-2 sm:px-4 lg:px-8">
               <div
-                v-if="jsonFileName === 'CSR-I' && !resultShow"
-                class="flex flex-col sm:flex-row justify-center items-center mt-5 gap-3 px-4"
+                class="containercat3 mx-auto max-w-7xl bg-white shadow-lg border-2 border-black rounded-none p-4 sm:p-6 lg:p-10 my-4 sm:my-6 lg:my-8"
               >
-                <button
-                  :disabled="counter === 0"
-                  @click="goToPreviousQuestion"
-                  class="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 rounded-lg bg-blue-500 text-white font-bold text-sm sm:text-base transition-all duration-200 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-                  :class="{ 'opacity-50 cursor-not-allowed': counter === 0 }"
-                >
-                  Previous
-                </button>
-                <button
-                  :disabled="lockedForNext"
-                  @click="AnswerCheck"
-                  class="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 rounded-lg bg-blue-500 text-white font-bold text-sm sm:text-base transition-all duration-200 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-                  :class="{ 'opacity-50 cursor-not-allowed': lockedForNext }"
-                >
-                  Next
-                </button>
-              </div>
-
-              <!-- Other Lessons (non CSR-I) -->
-              <SectionSem3Intro
-                v-show="InstructionShow && jsonFileName !== 'CSR-I'&& !resultShow" 
-                @PracticeNext="PracticeNext"
-                class="w-full"
-              />
-
-              <!-- Story Toggle -->
-              <div
-                v-if="showStoryButton && !resultShow && jsonFileName !== 'CSR-I'"
-                class="mt-6 text-center px-4"
-              >
-                <button
-                  @click="showStory = !showStory"
-                  class="w-full sm:w-auto px-6 sm:px-10 py-2 sm:py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-all duration-200 text-sm sm:text-base font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
-                >
-                  {{ showStory ? 'Hide' : 'Show' }} Story Section
-                </button>
-              </div>
-
-              <!-- Story Section -->
-              <div
-                v-if="showStory && jsonFileName !== 'CSR-I' && !resultShow"
-                class="mt-6 px-2 sm:px-4"
-              >
-                <SectionStory
-                  :currentStory="computedCurrentStory"
-                  :paraData="currentPara"
+                <!-- CSR-I Word Grid Activity -->
+                <WordGridActivity
+                  v-if="jsonFileName === 'CSR-I' && currentQuestion"
+                  :questionWord="getQuestionWord(currentQuestion)"
+                  :gridLetters="getGridLetters(currentQuestion)"
+                  :wordLength="3"
+                  @answered="handleWordGridAnswered"
                   class="w-full"
                 />
-              </div>
 
-              <!-- Question Section -->
-              <div class="mt-4 sm:mt-6"></div>
-              <SectionSem3Top
-                 v-show="PracticeOne && jsonFileName !== 'CSR-I' && jsonFileName !== 'CFU-P'"
-                :accept-input="acceptInput"
-                @save-and-exit="SaveAndExitNow"
-                @svg-click="handleSvgClick"
-                :commonNumArray="commonNumArray"
-                :ImageNames="ImageNames"
-                :ImageNames1="ImageNames1"
-                :ImageNames2="ImageNames2"
-                :ImageNames3="ImageNames3"
-                :ImageNames4="ImageNames4"
-                :isCMS2="jsonFileName === 'CMS-II'"
-                @NumberValue="NumberValue"
-                @AnswerCheck="AnswerCheck"
-                @NextQuestion="NextQuestion"
-                @WordsAnswer="WordsAnswer"
-                :PrevQuestion="PrevQuestion"
-                @PreviousQuestion="goToPreviousQuestion"
-                :counter="counter"
-                :viewingPrevious="viewingPrevious"
-                :AnswerCheckShow="AnswerCheckShow"
-                :NextQuestionShow="NextQuestionShow"
-                :ProgressBar="ProgressBar"
-                :Questions_attempted="Questions_attempted"
-                :Total_Questions="Total_Questions"
-                :imageHeight="getResponsiveImageHeight()"
-                :imageWidth="getResponsiveImageWidth()"
-                class="w-full"
-              />
+                <!-- CSR-I Navigation Controls -->
+                <template v-if="jsonFileName === 'CSR-I'">
+                  <div class="font-bold mt-3 text-center text-sm sm:text-base">
+                    Question
+                    <span class="text-indigo-700">{{ counter + 1 }}</span>
+                    of
+                    <span class="text-indigo-700">{{ Total_Questions }}</span>
+                  </div>
+
+                  <div class="flex flex-col sm:flex-row justify-center items-center mt-5 gap-3 px-4">
+                    <button
+                      :disabled="counter === 0"
+                      @click="goToPreviousQuestion"
+                      class="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 rounded-lg bg-blue-500 text-white font-bold text-sm sm:text-base transition-all duration-200 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      Previous
+                    </button>
+                    <button
+                      :disabled="lockedForNext"
+                      @click="AnswerCheck"
+                      class="w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 rounded-lg bg-blue-500 text-white font-bold text-sm sm:text-base transition-all duration-200 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      Next
+                    </button>
+                  </div>
+                </template>
+
+                <!-- Non-CSR-I Activities -->
+                <template v-if="jsonFileName !== 'CSR-I'">
+                  <!-- Introduction Section -->
+                  <SectionSem3Intro
+                    v-show="InstructionShow"
+                    @PracticeNext="PracticeNext"
+                    class="w-full"
+                  />
+
+                  <!-- Story Toggle Button -->
+                  <div
+                    v-if="showStoryButton"
+                    class="mt-6 text-center px-4"
+                  >
+                    <button
+                      @click="showStory = !showStory"
+                      class="w-full sm:w-auto px-6 sm:px-10 py-2 sm:py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-all duration-200 text-sm sm:text-base font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                    >
+                      {{ showStory ? 'Hide' : 'Show' }} Story Section
+                    </button>
+                  </div>
+
+                  <!-- Story Section -->
+                  <div
+                    v-if="showStory"
+                    class="mt-6 px-2 sm:px-4"
+                  >
+                    <SectionStory
+                      :currentStory="computedCurrentStory"
+                      :paraData="currentPara"
+                      class="w-full"
+                    />
+                  </div>
+
+                  <!-- Main Activity Section -->
+                  <div class="mt-4 sm:mt-6">
+                    <SectionSem3Top
+                      v-show="PracticeOne"
+                      :accept-input="acceptInput"
+                      @save-and-exit="SaveAndExitNow"
+                      @svg-click="handleSvgClick"
+                      :commonNumArray="commonNumArray"
+                      :ImageNames="ImageNames"
+                      :ImageNames1="ImageNames1"
+                      :ImageNames2="ImageNames2"
+                      :ImageNames3="ImageNames3"
+                      :ImageNames4="ImageNames4"
+                      :isCMS2="jsonFileName === 'CMS-II'"
+                      @NumberValue="NumberValue"
+                      @AnswerCheck="AnswerCheck"
+                      @NextQuestion="NextQuestion"
+                      @WordsAnswer="WordsAnswer"
+                      :PrevQuestion="PrevQuestion"
+                      @PreviousQuestion="goToPreviousQuestion"
+                      :counter="counter"
+                      :viewingPrevious="viewingPrevious"
+                      :AnswerCheckShow="AnswerCheckShow"
+                      :NextQuestionShow="NextQuestionShow"
+                      :ProgressBar="ProgressBar"
+                      :Questions_attempted="Questions_attempted"
+                      :Total_Questions="Total_Questions"
+                      :imageHeight="getResponsiveImageHeight()"
+                      :imageWidth="getResponsiveImageWidth()"
+                      class="w-full"
+                    />
+                  </div>
+                </template>
+              </div>
             </div>
-          </div>
-        </template>
+          </template>
+        </div>
       </div>
     </template>
   </OneToThreeVertical>
@@ -182,13 +237,17 @@ import resultPopup from '../resultPopup.vue'
 import topHeader from '../topHeader.vue'
 import SectionStory from './components/SectionStory.vue'
 import WordGridActivity from 'Lessons/LessonSem3/components/WordGridActivity.vue'
+import TimeActivity from './components/TimeActivity.vue' // ←  import timer activity component
+import PuzzleActivity from './components/PuzzleActivity.vue' 
 import{ updateScreenSizehelper,getResponsiveImageHeighthelper3,getResponsiveImageWidthhelper3 ,parseLevelRangeHelper, getQuestionWordhelper3,getGridLettershelper3 ,getAnswerWordhelper ,handleWordGridAnsweredhelper, WordsAnswerhelper3, AnswerCheckhelper3, FinalResulthelper3, PracticeNexthelper3, getVisualArrowhelper, getArrowStylehelper, getVisualRectanglehelper, getRectangleStylehelper, secondsToTimehelper, TimerFunhelper3, goToPreviousQuestionhelper3, runhelper3,  highlightPreviousAnswerhelper, practice0helper3, SaveAndExitNowhelper3 , handleSvgClickhelper3,showResultPopuphelper3
 } from '../../common-generic-components/activityHelpers.js';
 import CFUPHandler from './components/CFUPHandler.vue';
+import ElevatorActivity from './components/ElevatorActivity.vue'
 
 export default {
   name: 'Sem3',
   components: {
+    ElevatorActivity,
      CFUPHandler,
     OneToThreeVertical,
     resultPopup,
@@ -197,7 +256,8 @@ export default {
     topHeader,
     SectionStory,
     WordGridActivity,
-   
+    TimeActivity,
+   PuzzleActivity,
   },
   mixins: [baseMixin],
   props: {
@@ -523,20 +583,45 @@ console.log("Mounted: starting at question counter =", this.counter);
 //   this.resultShow = true;
 //   this.resultData = resultData; // store the result data to pass to <resultPopup>
 // },
+  handleElevatorAnswer(result) {
+    console.log('Elevator answer:', result);
+    this.Questions_attempted++;
+    if (result.isCorrect) {
+      this.correct_Answers++;
+    } else {
+      this.incorrect_Answers++;
+    }
+    
+    // Update progress bar
+    if (this.ProgressBar[this.counter]) {
+      this.ProgressBar[this.counter].state = result.isCorrect ? 'correct' : 'incorrect';
+    }
+  },
 
-
-  //  showResultPopup(resultData) {
-  //   this.resultData = resultData;
-
-  //   console.log("showResultPopup called with:", resultData);
-  //   this.resultShow = true;
-  //   this.activity_Status = 'Completed';
-  //   this.Questions_attempted = resultData.detailedResults.length;
-  //   this.correct_Answers = resultData.summary.CorrectAnswers;
-  //   this.incorrect_Answers = resultData.summary.WrongAnswers;
-  //   this.PracticeOne = false;
-  //   this.ResultHide = false;
-  // },
+  showResultPopup(resultData = {}) {
+  console.log("showResultPopup called with counters:", {
+    attempted: this.Questions_attempted,
+    correct: this.correct_Answers,
+    incorrect: this.incorrect_Answers
+  });
+  
+  this.resultShow = true;
+  this.activity_Status = 'Completed';
+  
+  // Use the actual counters that were updated during the activity
+  // Don't override them with resultData unless you want to use external data
+  if (Object.keys(resultData).length > 0) {
+    // If resultData is provided, use it
+    this.Questions_attempted = resultData.questionsAttempted || this.Questions_attempted;
+    this.correct_Answers = resultData.correctAnswers || this.correct_Answers;
+    this.incorrect_Answers = resultData.incorrectAnswers || this.incorrect_Answers;
+  }
+  // Otherwise, use the counters that were already updated during the activity
+  
+  this.PracticeOne = false;
+  this.ResultHide = true; // Show the result section
+  this.ResultArrow = false; // Hide arrow initially if needed
+},
 
 
 
@@ -552,7 +637,20 @@ console.log("Mounted: starting at question counter =", this.counter);
     this.resultShow = false;
   },
 
+
+
+
   
+ handlePuzzleAnswer(result) {
+    console.log('Puzzle answer:', result);
+    this.Questions_attempted++;
+    if (result.isCorrect) {
+      this.correct_Answers++;
+    } else {
+      this.incorrect_Answers++;
+    }
+   
+  },  
 
    
 

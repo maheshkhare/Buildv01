@@ -7,7 +7,7 @@
             </div>
             <div class="rows-12 relative"></div>
             <div class="rows-12">
-                <div class="content-center justify-center border border-black p-10" style="margin: 2% 5% 5% 5%;">
+                <!-- <div class="content-center justify-center border border-black p-10" style="margin: 2% 5% 5% 5%;"> -->
                     <resultPopup v-show="resultShow" :activity_Status="activity_Status" :Time_elapsed="Time_elapsed" :Questions_attempted="Questions_attempted" :correct_Answers="correct_Answers" :incorrect_Answers="incorrect_Answers" @FinalResult="FinalResult" :ResultHide="ResultHide" :ResultArrow="ResultArrow" />
 
                     <SectionSem2Intro v-show="InstructionShow" :instructionText="currentInstructionText" @PracticeNext="PracticeNext" />
@@ -32,7 +32,7 @@
                                     :imageSet="currentImageSet" />
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </template>
 </OneToThreeVertical>
 </template>
